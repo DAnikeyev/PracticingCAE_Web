@@ -142,6 +142,23 @@ public sealed class ProgressService(IDbContextFactory<ApplicationDbContext> dbFa
             .ToListAsync();
     }
 
+    /// <summary>Deletes all practice history (attempts, per-gap answers, seen sets) for an owner.</summary>
+    public async Task<int> ResetStatsAsync(string ownerId)
+    {
+        await using var db = await dbFactory.CreateDbContextAsync();
+        var attempts = await db.Attempts.Where(a => a.OwnerId == ownerId).ToListAsync();
+        if (attempts.Count > 0)
+        {
+            var ids = attempts.Select(a => a.Id).ToList();
+            await db.GapAnswers.Where(g => ids.Contains(g.AttemptId)).ExecuteDeleteAsync();
+            db.Attempts.RemoveRange(attempts);
+        }
+        var seen = await db.SeenSets.Where(s => s.OwnerId == ownerId).ToListAsync();
+        db.SeenSets.RemoveRange(seen);
+        await db.SaveChangesAsync();
+        return attempts.Count;
+    }
+
     /// <summary>Gaps the owner got wrong most often, per task — the "mistake focus" list.</summary>
     public async Task<List<(string Expected, int Times, string TaskId)>> GetTopMistakesAsync(string ownerId, int take = 20)
     {

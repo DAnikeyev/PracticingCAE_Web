@@ -1,462 +1,458 @@
 [
  {
-  "lead": "Someone has stolen the mayor's car.",
-  "sentence": "The mayor's car ___ stolen.",
+  "lead": "They have accused the mayor of corruption.",
+  "sentence": "The mayor ___ corruption.",
   "keyword": "BEEN",
-  "answer": "has been",
+  "answer": "has been accused of",
   "hint": "present perfect passive",
-  "explanation": "Active present perfect (has stolen) becomes passive: has been stolen."
+  "explanation": "Active 'they have accused him of' becomes passive: has been accused of."
  },
  {
-  "lead": "'I broke the window,' said the boy.",
-  "sentence": "The boy ___ breaking the window.",
+  "lead": "'I broke the window,' the boy said.",
+  "sentence": "When caught, the boy ___ the window.",
   "keyword": "ADMITTED",
-  "answer": "admitted",
-  "hint": "admit + -ing",
-  "explanation": "admit + -ing (optionally 'to'): admitted breaking / admitted to breaking.",
+  "answer": "admitted having broken",
+  "hint": "admit + having + participle",
+  "explanation": "admit + -ing, or admit having + past participle for the earlier action.",
   "accept": [
-   "admitted to"
+   "admitted to breaking",
+   "admitted breaking"
   ]
  },
  {
-  "lead": "It isn't necessary for you to bring any food.",
-  "sentence": "You ___ bring any food.",
+  "lead": "It wasn't necessary for her to bring any food — there was plenty.",
+  "sentence": "She ___ any food.",
   "keyword": "NEED",
-  "answer": "need not",
-  "hint": "lack of obligation",
-  "explanation": "needn't (need not) = it isn't necessary. Do not confuse with mustn't (prohibition).",
-  "accept": [
-   "needn't",
-   "need not"
-  ]
+  "answer": "needn't have brought",
+  "hint": "unnecessary past action",
+  "explanation": "needn't have + participle = it wasn't necessary, but she did it."
  },
  {
   "lead": "She started working here five years ago.",
-  "sentence": "She ___ for five years.",
+  "sentence": "She ___ here for five years.",
   "keyword": "WORKING",
   "answer": "has been working",
   "hint": "duration up to now",
-  "explanation": "Action starting in the past and continuing: has been working (present perfect continuous)."
+  "explanation": "Action continuing from a past point to now: has been working (present perfect continuous)."
  },
  {
-  "lead": "I haven't seen such a good film for ages.",
-  "sentence": "It was ___ I had seen for ages.",
+  "lead": "I haven't seen a better film this year.",
+  "sentence": "This is ___ I've seen this year.",
   "keyword": "FILM",
   "answer": "the best film",
-  "hint": "superlative",
-  "explanation": "Not…such a good film for ages = the best film (I had seen) for ages."
+  "hint": "superlative from a negative comparison",
+  "explanation": "I haven't seen a better film = this is the best film (that) I've seen."
  },
  {
-  "lead": "'Don't touch the paintings,' the guard warned us.",
-  "sentence": "The guard warned ___ the paintings.",
+  "lead": "'Don't touch the paintings in this room,' the guide warned us.",
+  "sentence": "The guide warned ___ the paintings in that room.",
   "keyword": "NOT",
   "answer": "us not to touch",
   "hint": "warn sb not to do",
-  "explanation": "Negative commands are reported with not + to-infinitive: warned us not to touch."
+  "explanation": "Negative commands are reported with warned + object + not to + infinitive."
  },
  {
   "lead": "He couldn't swim until he was twenty.",
   "sentence": "He ___ swim until he was twenty.",
   "keyword": "UNABLE",
   "answer": "was unable to",
-  "hint": "past ability, negative",
-  "explanation": "was unable to = couldn't (general ability in the past)."
+  "hint": "negative past ability",
+  "explanation": "couldn't = was not able to (general ability in the past).",
+  "accept": [
+   "was not able to"
+  ]
  },
  {
   "lead": "The suitcase was so heavy that I couldn't lift it.",
-  "sentence": "It was ___ suitcase that I couldn't lift it.",
-  "keyword": "SUCH",
-  "answer": "such a heavy",
-  "hint": "such + a + adjective",
-  "explanation": "so + adjective becomes such (+a) + adjective + noun: such a heavy suitcase."
+  "sentence": "It was ___ that I couldn't lift it.",
+  "keyword": "HEAVY",
+  "answer": "such a heavy suitcase",
+  "hint": "such + a + adjective + noun",
+  "explanation": "so + adjective + that → such (+a) + adjective + noun + that."
  },
  {
-  "lead": "I'd love to be on a beach now.",
-  "sentence": "I ___ on a beach now.",
+  "lead": "I'd love to be lying on a beach right now.",
+  "sentence": "I ___ lying on a beach right now.",
   "keyword": "WERE",
   "answer": "wish I were",
   "hint": "unreal present wish",
-  "explanation": "wish + past (subjunctive were): I wish I were. 'was' is informal — only 'were' fits the keyword."
+  "explanation": "wish + past subjunctive: I wish I were (formal 'were', not 'was')."
  },
  {
   "lead": "People say the castle is haunted.",
   "sentence": "The castle ___ haunted.",
   "keyword": "SAID",
   "answer": "is said to be",
-  "hint": "impersonal passive",
-  "explanation": "People say → It is said… / The castle is said to be…"
+  "hint": "passive reporting",
+  "explanation": "People say X is… → X is said to be…"
  },
  {
-  "lead": "Although he is rich, he lives very simply.",
+  "lead": "Although he is remarkably rich, he lives very simply.",
   "sentence": "Rich ___ , he lives very simply.",
   "keyword": "MAY",
   "answer": "as he may be",
-  "hint": "as + inversion of although",
-  "explanation": "Although he may be rich → Rich as (he) may be — the inverted concession pattern."
+  "hint": "inverted concession with as",
+  "explanation": "Although he may be rich → Rich as (he) may be — fronted adjective + as + may."
  },
  {
-  "lead": "She prefers reading to watching television.",
+  "lead": "She prefers reading books to watching television.",
   "sentence": "She'd ___ watch television.",
   "keyword": "RATHER",
-  "answer": "rather read than",
+  "answer": "rather read books than",
   "hint": "would rather A than B",
   "explanation": "prefer X to Y = would rather do X than do Y."
  },
  {
-  "lead": "It was a mistake to sell the boat.",
+  "lead": "Selling the boat was a big mistake.",
   "sentence": "We ___ the boat.",
   "keyword": "SOLD",
-  "answer": "should not have sold",
+  "answer": "should never have sold",
   "hint": "past regret with should",
-  "explanation": "should/shouldn't have + past participle criticises a past action.",
+  "explanation": "should(n't) have + participle expresses regret about a past action.",
   "accept": [
    "shouldn't have sold"
   ]
  },
  {
-  "lead": "They won't allow you to enter without a ticket.",
-  "sentence": "You ___ enter without a ticket.",
-  "keyword": "WON'T",
-  "answer": "won't be allowed to",
-  "hint": "passive of allow",
-  "explanation": "allow somebody to do → be allowed to do: won't be allowed to enter."
+  "lead": "They won't let you in without a ticket.",
+  "sentence": "You ___ in without a ticket.",
+  "keyword": "ALLOWED",
+  "answer": "won't be allowed",
+  "hint": "passive of let/allow",
+  "explanation": "let somebody do → be allowed to do: won't be allowed in."
  },
  {
-  "lead": "He didn't pass the exam because he hadn't studied.",
-  "sentence": "If he ___ , he would have passed the exam.",
-  "keyword": "STUDIED",
-  "answer": "had studied",
+  "lead": "He didn't study, so he failed the exam.",
+  "sentence": "If he had studied, he ___ the exam.",
+  "keyword": "PASSED",
+  "answer": "would have passed",
   "hint": "third conditional",
-  "explanation": "Third conditional: if + past perfect, would have + participle."
+  "explanation": "If + past perfect, would have + past participle."
  },
  {
-  "lead": "'I'll call you as soon as I land,' she said.",
-  "sentence": "She promised ___ as soon as she landed.",
+  "lead": "'I'll definitely call you when I land,' she told me.",
+  "sentence": "She promised ___ when she landed.",
   "keyword": "CALL",
   "answer": "to call me",
   "hint": "promise + to-infinitive",
-  "explanation": "Reported promise: promised to call (me); pronouns shift."
+  "explanation": "Reported promise: promised to call; the person promised shifts to 'me'."
  },
  {
-  "lead": "My father repaired the roof himself.",
-  "sentence": "My father ___ repaired.",
+  "lead": "A mechanic repaired my father's roof last week.",
+  "sentence": "My father ___ last week.",
   "keyword": "HAD",
-  "answer": "had the roof",
+  "answer": "had his roof repaired",
   "hint": "causative have",
-  "explanation": "have something done = arrange for it to be done by someone else: had the roof repaired."
+  "explanation": "have something done = arrange for somebody to do it: had his roof repaired."
  },
  {
-  "lead": "She moved to Paris and now finds the pace normal.",
+  "lead": "After a year in Paris, the pace of life feels normal to her.",
   "sentence": "She ___ the pace of life in Paris.",
-  "keyword": "USED",
+  "keyword": "GOT",
   "answer": "has got used to",
   "hint": "get used to = become accustomed",
-  "explanation": "get used to / be used to + -ing or noun: is now used to. 'got used to' also fits if the process is complete.",
+  "explanation": "get used to + noun/-ing = become accustomed to; present perfect for present result.",
   "accept": [
-   "is used to",
-   "has got used to"
+   "has become used to"
   ]
  },
  {
-  "lead": "How much does a yearly membership cost?",
-  "sentence": "How much ___ pay for a yearly membership?",
+  "lead": "What is the fee for annual membership?",
+  "sentence": "How much ___ pay for annual membership?",
   "keyword": "HAVE",
   "answer": "do you have to",
   "hint": "obligation in questions",
   "explanation": "have to for external obligation: How much do you have to pay?"
  },
  {
-  "lead": "They left the party early because it was boring.",
-  "sentence": "The party was ___ that they left early.",
+  "lead": "The party was incredibly boring, so we left early.",
+  "sentence": "The party was ___ we left early.",
   "keyword": "BORING",
-  "answer": "so boring",
+  "answer": "so boring that",
   "hint": "so + adjective + that",
-  "explanation": "so + adjective + that-clause: so boring that they left."
+  "explanation": "so + adjective + that-clause expresses result."
  },
  {
-  "lead": "I last saw him in March.",
-  "sentence": "I ___ March.",
-  "keyword": "SEEN",
-  "answer": "haven't seen him since",
-  "hint": "since + point in time",
-  "explanation": "Present perfect with since + point in time: haven't seen him since (March)."
+  "lead": "I last visited Rome in 2019.",
+  "sentence": "I ___ 2019.",
+  "keyword": "VISITED",
+  "answer": "haven't visited Rome since",
+  "hint": "present perfect + since",
+  "explanation": "last did X in (year) = haven't done X since (year)."
  },
  {
-  "lead": "Nobody in the class is as tall as Petra.",
-  "sentence": "Petra is ___ in the class.",
-  "keyword": "PERSON",
-  "answer": "the tallest person",
+  "lead": "Nobody else in the team runs as fast as Maya.",
+  "sentence": "Maya is ___ in the team.",
+  "keyword": "RUNNER",
+  "answer": "the fastest runner",
   "hint": "superlative from comparison",
-  "explanation": "X is taller than everyone = X is the tallest (person)."
+  "explanation": "nobody runs faster = she is the fastest runner."
  },
  {
-  "lead": "'Have you finished the report?' the manager asked her.",
-  "sentence": "The manager asked ___ the report.",
-  "keyword": "FINISHED",
-  "answer": "if she had finished",
+  "lead": "'Did you send the invoice?' the manager asked her.",
+  "sentence": "The manager asked ___ the invoice.",
+  "keyword": "SENT",
+  "answer": "whether she had sent",
   "hint": "reported yes/no question",
-  "explanation": "Yes/no questions are reported with if/whether + statement word order.",
+  "explanation": "if/whether + subject + backshifted verb: whether she had sent.",
   "accept": [
-   "whether she had finished"
+   "if she had sent"
   ]
  },
  {
-  "lead": "You can borrow the car as long as you drive carefully.",
-  "sentence": "You can borrow the car ___ carefully.",
-  "keyword": "PROVIDED",
+  "lead": "You can borrow the car, but you must drive it carefully.",
+  "sentence": "You can borrow the car ___ it carefully.",
+  "keyword": "DRIVE",
   "answer": "provided you drive",
-  "hint": "provided (that) = as long as",
-  "explanation": "provided (that) introduces the condition: provided you drive carefully.",
+  "hint": "provided (that) = on condition that",
+  "explanation": "provided (that) introduces the condition.",
   "accept": [
    "provided that you drive"
   ]
  },
  {
-  "lead": "The film was so long that we missed the last bus.",
-  "sentence": "It was ___ that we missed the last bus.",
-  "keyword": "LONG",
-  "answer": "such a long film",
-  "hint": "such + a + adj + noun",
-  "explanation": "so long (a film) → such a long film."
+  "lead": "The journey was so tiring that we slept all day.",
+  "sentence": "It was ___ that we slept all day.",
+  "keyword": "JOURNEY",
+  "answer": "such a tiring journey",
+  "hint": "such + a + adjective + noun",
+  "explanation": "so tiring (a journey) → such a tiring journey."
  },
  {
-  "lead": "I don't usually drink coffee at night.",
-  "sentence": "I'm ___ coffee at night.",
+  "lead": "I rarely drink coffee in the evening.",
+  "sentence": "I'm ___ coffee in the evening.",
   "keyword": "NOT",
-  "answer": "not used to",
-  "hint": "be used to + noun/-ing",
-  "explanation": "be (not) used to = (not) accustomed to: I'm not used to coffee at night.",
+  "answer": "simply not used to",
+  "hint": "be used to = accustomed to",
+  "explanation": "be (not) used to something = (not) accustomed to it.",
   "accept": [
-   "am not used to"
+   "just not used to"
   ]
  },
  {
-  "lead": "The mechanic is servicing my car tomorrow.",
-  "sentence": "I'm ___ tomorrow.",
+  "lead": "The garage is servicing my car tomorrow morning.",
+  "sentence": "I'm ___ tomorrow morning.",
   "keyword": "SERVICED",
   "answer": "having my car serviced",
-  "hint": "causative have (arranged)",
+  "hint": "causative have, arranged",
   "explanation": "Arranged service: have/get something done — having my car serviced."
  },
  {
-  "lead": "He spoke so quickly that nobody understood him.",
-  "sentence": "He spoke ___ for anybody to understand him.",
-  "keyword": "QUICK",
-  "answer": "too quickly",
-  "hint": "too + adverb",
-  "explanation": "so quickly that nobody understood = too quickly (for anybody) to understand."
+  "lead": "He spoke so quietly that the jury couldn't hear him.",
+  "sentence": "He spoke ___ for the jury to hear him.",
+  "keyword": "QUIETLY",
+  "answer": "far too quietly",
+  "hint": "too + adverb + to-infinitive",
+  "explanation": "so quietly that nobody could hear = too quietly (for anybody) to hear."
  },
  {
-  "lead": "It's a pity I didn't bring an umbrella.",
+  "lead": "I regret not bringing an umbrella.",
   "sentence": "I ___ an umbrella.",
   "keyword": "WISH",
   "answer": "wish I had brought",
   "hint": "wish + past perfect",
-  "explanation": "Regret about the past: wish + past perfect — I wish I had brought."
+  "explanation": "Regret about the past: wish + subject + had + participle."
  },
  {
-  "lead": "'We're selling the house,' they announced.",
-  "sentence": "They announced that ___ selling the house.",
-  "keyword": "WERE",
-  "answer": "they were",
+  "lead": "'We are closing the factory,' the board announced.",
+  "sentence": "The board announced that ___ the factory.",
+  "keyword": "CLOSING",
+  "answer": "they were closing",
   "hint": "backshift + pronouns",
-  "explanation": "we → they; present continuous → past continuous: they were selling."
+  "explanation": "we → they; present continuous → past continuous: they were closing."
  },
  {
-  "lead": "I'm sure he isn't in Spain — he was here this morning.",
-  "sentence": "He ___ in Spain — he was here this morning.",
-  "keyword": "CAN'T",
-  "answer": "can't be",
-  "hint": "negative deduction (now)",
-  "explanation": "can't be = certainty that something is impossible (present)."
+  "lead": "He can't be in Spain — I saw him here this morning.",
+  "sentence": "He ___ in Spain — I saw him this morning.",
+  "keyword": "POSSIBLY",
+  "answer": "cannot possibly be",
+  "hint": "strong negative deduction",
+  "explanation": "can't/cannot possibly be = it is impossible that he is."
  },
  {
-  "lead": "They say this forest is three hundred years old.",
-  "sentence": "This forest ___ three hundred years old.",
-  "keyword": "THOUGHT",
-  "answer": "is thought to be",
-  "hint": "passive reporting: is ___ to be",
-  "explanation": "They say → is said to be / is thought to be; with keyword THOUGHT: is thought to be."
+  "lead": "The guidebook says this bridge is Roman.",
+  "sentence": "This bridge ___ Roman.",
+  "keyword": "SUPPOSED",
+  "answer": "is supposed to be",
+  "hint": "be supposed to be = believed",
+  "explanation": "be supposed to be = generally said or believed to be."
  },
  {
-  "lead": "I only understood the joke much later.",
-  "sentence": "Only much later ___ the joke.",
+  "lead": "I only understood the pattern much later.",
+  "sentence": "Only much later ___ the pattern.",
   "keyword": "DID",
   "answer": "did I understand",
-  "hint": "inversion after only later",
-  "explanation": "After 'only + time phrase' at the front, invert: Only much later did I understand."
+  "hint": "inversion after 'only + time phrase'",
+  "explanation": "Front 'only + time phrase' forces inversion: Only much later did I understand."
  },
  {
-  "lead": "Someone should test this water regularly.",
-  "sentence": "This water should ___ regularly.",
-  "keyword": "TESTED",
-  "answer": "be tested",
+  "lead": "Someone must check this equipment before every flight.",
+  "sentence": "This equipment must ___ every flight.",
+  "keyword": "CHECKED",
+  "answer": "be checked before",
   "hint": "modal passive",
-  "explanation": "should test → should be tested (modal + be + participle)."
+  "explanation": "must check → must be checked (modal + be + past participle)."
  },
  {
-  "lead": "'I'm sorry I shouted at you,' he said.",
-  "sentence": "He ___ at me.",
+  "lead": "'I'm sorry I kept you waiting,' she said.",
+  "sentence": "She ___ so long.",
   "keyword": "APOLOGISED",
-  "answer": "apologised for shouting",
+  "answer": "apologised for keeping me",
   "hint": "apologise for + -ing",
-  "explanation": "apologise for doing something: apologised for shouting."
+  "explanation": "apologise for doing something: apologised for keeping me waiting."
  },
  {
-  "lead": "There were fewer people at the concert than expected.",
-  "sentence": "There weren't ___ at the concert as expected.",
+  "lead": "Fewer students enrolled this year than we expected.",
+  "sentence": "There weren't ___ we expected.",
   "keyword": "MANY",
-  "answer": "as many people",
-  "hint": "not as many as",
-  "explanation": "fewer than expected = not as many (people) as expected."
+  "answer": "as many students as",
+  "hint": "not as … as",
+  "explanation": "fewer than expected = not as many (students) as expected."
  },
  {
-  "lead": "We couldn't find the museum anywhere.",
-  "sentence": "___ find the museum anywhere.",
+  "lead": "We couldn't see the lighthouse anywhere.",
+  "sentence": "___ the lighthouse anywhere.",
   "keyword": "NOWHERE",
-  "answer": "Nowhere could we",
+  "answer": "Nowhere could we see",
   "hint": "inversion after nowhere",
-  "explanation": "Nowhere + auxiliary + subject: Nowhere could we find the museum."
+  "explanation": "Fronted 'nowhere' forces inversion: Nowhere could we see…"
  },
  {
-  "lead": "She'll be at work, so she won't answer the door.",
-  "sentence": "She'll be at work, so ___ answer the door.",
+  "lead": "She'll be on a flight, so she can't join the call.",
+  "sentence": "She'll be on a flight, so ___ join the call.",
   "keyword": "WON'T",
   "answer": "she won't be able to",
-  "hint": "future ability, negative",
+  "hint": "future inability",
   "explanation": "won't be able to = future inability."
  },
  {
-  "lead": "'You've stolen my idea!' he said to her.",
-  "sentence": "He ___ his idea.",
+  "lead": "'You copied my design!' she told him.",
+  "sentence": "She ___ her design.",
   "keyword": "ACCUSED",
-  "answer": "accused her of stealing",
+  "answer": "accused him of copying",
   "hint": "accuse sb of -ing",
   "explanation": "accuse somebody OF doing something."
  },
  {
-  "lead": "I'm afraid this is the last tin of paint we have.",
-  "sentence": "We've ___ tins of paint.",
+  "lead": "There isn't a single clean cup left in the cupboard.",
+  "sentence": "We've ___ clean cups.",
   "keyword": "OUT",
-  "answer": "run out of",
+  "answer": "completely run out of",
   "hint": "run out of = have none left",
   "explanation": "run out of = have no more of something left."
  },
  {
-  "lead": "It's a pity you didn't tell me earlier.",
-  "sentence": "You really ___ me earlier.",
+  "lead": "You didn't tell me about the meeting, and you should have.",
+  "sentence": "You really ___ me about the meeting.",
   "keyword": "TOLD",
-  "answer": "should have told",
-  "hint": "past advice",
-  "explanation": "should/ought to have + participle expresses past regret/advice.",
+  "answer": "ought to have told",
+  "hint": "past advice: ought to have",
+  "explanation": "ought to have + participle = should have done (but didn't).",
   "accept": [
-   "ought to have told"
+   "should have told"
   ]
  },
  {
-  "lead": "The train takes two hours to get there; the plane takes thirty minutes.",
+  "lead": "The plane takes one hour; the train takes two.",
   "sentence": "The plane is ___ the train.",
   "keyword": "TWICE",
   "answer": "twice as fast as",
   "hint": "twice as … as",
-  "explanation": "twice as fast as = half the time of."
+  "explanation": "half the time = twice as fast as."
  },
  {
-  "lead": "He'd rather not discuss the matter.",
-  "sentence": "He'd prefer ___ the matter.",
+  "lead": "He would rather not talk about the accident.",
+  "sentence": "He'd prefer ___ about the accident.",
   "keyword": "NOT",
-  "answer": "not to discuss",
-  "hint": "prefer not to do",
-  "explanation": "would prefer + not + to-infinitive: prefer not to discuss."
+  "answer": "not to talk",
+  "hint": "would prefer not to do",
+  "explanation": "would prefer + not + to-infinitive."
  },
  {
-  "lead": "The company denied that it had polluted the river.",
-  "sentence": "The company denied ___ the river.",
-  "keyword": "POLLUTING",
-  "answer": "polluting",
-  "hint": "deny + -ing / having + pp",
-  "explanation": "deny + -ing (or having + past participle): denied polluting.",
-  "accept": [
-   "having polluted"
-  ]
+  "lead": "'I have never lied to the press,' the minister said.",
+  "sentence": "The minister ___ to the press.",
+  "keyword": "LYING",
+  "answer": "denied ever lying",
+  "hint": "deny + ever + -ing",
+  "explanation": "deny + -ing (ever strengthens the denial): denied ever lying."
  },
  {
-  "lead": "'I'll finish the essay by Friday,' I said.",
-  "sentence": "I ___ the essay by Friday.",
+  "lead": "'I will definitely complete the report by Friday,' I said.",
+  "sentence": "I ___ the report by Friday.",
   "keyword": "COMMITTED",
   "answer": "committed myself to finishing",
   "hint": "commit yourself to + -ing",
   "explanation": "commit oneself TO + -ing: committed myself to finishing."
  },
  {
-  "lead": "People think she was the best singer of her generation.",
-  "sentence": "She ___ the best singer of her generation.",
+  "lead": "People believe she was the finest pianist of her generation.",
+  "sentence": "She ___ the finest pianist of her generation.",
   "keyword": "THOUGHT",
   "answer": "is thought to have been",
-  "hint": "belief about the past",
-  "explanation": "A present belief about a past event uses is thought to have + participle."
+  "hint": "present belief about the past",
+  "explanation": "A present belief about a past event: is thought to have + participle."
  },
  {
-  "lead": "It's possible that she forgot about the meeting.",
-  "sentence": "She ___ about the meeting.",
-  "keyword": "FORGOTTEN",
-  "answer": "may have forgotten",
-  "hint": "past possibility",
+  "lead": "Perhaps she never received our message.",
+  "sentence": "She ___ our message.",
+  "keyword": "RECEIVED",
+  "answer": "may never have received",
+  "hint": "past possibility with may",
   "explanation": "may/might have + participle = possibility in the past.",
   "accept": [
-   "might have forgotten"
+   "might never have received"
   ]
  },
  {
-  "lead": "As soon as he sat down, the phone rang.",
-  "sentence": "___ sat down, the phone rang.",
+  "lead": "He had just sat down when the phone rang.",
+  "sentence": "___ the phone rang.",
   "keyword": "SOONER",
   "answer": "No sooner had he",
   "hint": "no sooner + inversion",
-  "explanation": "No sooner + had + subject + participle … than…: No sooner had he sat down (than the phone rang)."
+  "explanation": "No sooner had + subject + participle … than…"
  },
  {
-  "lead": "I want to go somewhere where nobody knows me.",
-  "sentence": "I want to go ___ nobody knows me.",
+  "lead": "I'd like to move to a place where nobody knows me.",
+  "sentence": "I'd like to move ___ nobody knows me.",
   "keyword": "WHERE",
-  "answer": "somewhere where",
+  "answer": "somewhere far away where",
   "hint": "somewhere + where-clause",
-  "explanation": "'somewhere where' = a place in which."
+  "explanation": "'somewhere (…) where' = a place in which."
  },
  {
-  "lead": "We couldn't go out because of the heavy rain.",
-  "sentence": "The heavy rain ___ going out.",
+  "lead": "The bad weather meant we couldn't leave the house.",
+  "sentence": "The bad weather ___ the house.",
   "keyword": "PREVENTED",
-  "answer": "prevented us from",
+  "answer": "prevented us from leaving",
   "hint": "prevent sb from -ing",
   "explanation": "prevent somebody FROM doing something."
  },
  {
-  "lead": "'Let's have a barbecue,' said Dan.",
-  "sentence": "Dan ___ a barbecue.",
+  "lead": "'Why don't we hold the wedding outdoors?' said Ana.",
+  "sentence": "Ana ___ the wedding outdoors.",
   "keyword": "SUGGESTED",
-  "answer": "suggested having",
+  "answer": "suggested they hold",
   "hint": "suggest + -ing",
-  "explanation": "suggest + -ing (or suggest that + clause): suggested having.",
+  "explanation": "suggest + that-clause, or suggest + -ing: suggested they hold / suggested holding.",
   "accept": [
-   "suggested that they have"
+   "suggested holding"
   ]
  },
  {
-  "lead": "People believe the two paintings are forgeries.",
-  "sentence": "The two paintings ___ forgeries.",
+  "lead": "The police believe the two suspects left the country.",
+  "sentence": "The two suspects ___ the country.",
   "keyword": "BELIEVED",
-  "answer": "are believed to be",
-  "hint": "passive reporting",
-  "explanation": "X is/are believed to be…"
+  "answer": "are believed to have left",
+  "hint": "passive reporting + past infinitive",
+  "explanation": "A present belief about a past event: are believed to have + participle."
  },
  {
-  "lead": "This is the worst traffic I've ever experienced.",
-  "sentence": "Never ___ such terrible traffic.",
-  "keyword": "EXPERIENCED",
-  "answer": "have I experienced",
+  "lead": "I have never heard such a ridiculous excuse.",
+  "sentence": "Never ___ such a ridiculous excuse.",
+  "keyword": "HEARD",
+  "answer": "have I heard",
   "hint": "never + inversion",
-  "explanation": "Never before + have + subject + participle: Never have I experienced."
+  "explanation": "Fronted 'never' forces inversion: Never have I heard…"
  },
  {
   "lead": "The doctor said that he should take a complete rest.",
@@ -467,356 +463,270 @@
   "explanation": "say + should → advise + object + to-infinitive: advised him to take."
  },
  {
-  "lead": "Their wedding will take place in June.",
-  "sentence": "Their wedding ___ in June.",
-  "keyword": "BE",
-  "answer": "will be held",
+  "lead": "The ceremony will take place in the cathedral.",
+  "sentence": "The ceremony ___ the cathedral.",
+  "keyword": "HELD",
+  "answer": "will be held in",
   "hint": "passive of take place",
-  "explanation": "Weddings/concerts are held: will be held (in June)."
+  "explanation": "Ceremonies are held: will be held (in a venue)."
  },
  {
-  "lead": "He was in the habit of jogging every morning.",
+  "lead": "Jogging every morning was completely normal for him.",
   "sentence": "He ___ jogging every morning.",
   "keyword": "USED",
-  "answer": "was used to",
+  "answer": "was quite used to",
   "hint": "be used to + -ing",
-  "explanation": "be used to + -ing = be in the habit of: was used to jogging."
+  "explanation": "be used to + -ing = be accustomed to."
  },
  {
-  "lead": "The flat was too small for their growing family.",
-  "sentence": "The flat wasn't ___ for their growing family.",
+  "lead": "The flat was too cramped for their three children.",
+  "sentence": "The flat wasn't ___ their three children.",
   "keyword": "ENOUGH",
-  "answer": "big enough",
-  "hint": "adj + enough",
-  "explanation": "too small = not big enough."
+  "answer": "spacious enough for",
+  "hint": "adjective + enough + for",
+  "explanation": "too cramped for = not spacious enough for."
  },
  {
   "lead": "'You mustn't run near the pool,' the lifeguard told the children.",
   "sentence": "The lifeguard told the children ___ near the pool.",
   "keyword": "RUN",
   "answer": "not to run",
-  "hint": "negative imperative reported",
+  "hint": "reported prohibition",
   "explanation": "told + object + not to + infinitive."
  },
  {
-  "lead": "Only after reading the letter twice did it make sense.",
-  "sentence": "The letter ___ sense until it had been read twice.",
+  "lead": "The instructions only made sense after she had read them twice.",
+  "sentence": "The instructions ___ sense until she had read them twice.",
   "keyword": "MAKE",
-  "answer": "didn't make",
+  "answer": "didn't make any",
   "hint": "not … until",
-  "explanation": "It made sense only after two readings = it didn't make sense until it had been read twice."
- },
- {
-  "lead": "Both sisters play the violin beautifully.",
-  "sentence": "The sisters ___ play the violin beautifully.",
-  "keyword": "BOTH",
-  "answer": "both",
-  "hint": "both placement",
-  "explanation": "Both (the) sisters… / The sisters both… — with the given frame, 'both' precedes the verb."
+  "explanation": "made sense only after = didn't make sense until."
  },
  {
   "lead": "It was unfair of the referee to send him off.",
   "sentence": "The referee ___ him off.",
-  "keyword": "SHOULDN'T",
-  "answer": "shouldn't have sent",
+  "keyword": "SENT",
+  "answer": "should never have sent",
   "hint": "past criticism",
-  "explanation": "shouldn't have + participle criticises a past action."
+  "explanation": "should(n't) have + participle criticises a past decision.",
+  "accept": [
+   "shouldn't have sent"
+  ]
  },
  {
-  "lead": "I would love to afford a bigger flat.",
+  "lead": "I'd love to be able to afford a bigger flat.",
   "sentence": "I wish ___ a bigger flat.",
   "keyword": "COULD",
   "answer": "I could afford",
   "hint": "wish + could",
-  "explanation": "wish + subject + could = regret about ability/possibility."
+  "explanation": "wish + subject + could expresses regret about ability or possibility."
  },
  {
-  "lead": "They chose her for the lead role because of her voice.",
-  "sentence": "Her voice was ___ for the lead role.",
-  "keyword": "REASON",
-  "answer": "the reason she was chosen",
-  "hint": "the reason + clause",
-  "explanation": "the reason (why/that) + clause: the reason (why) she was chosen.",
-  "accept": [
-   "the reason why she was chosen"
-  ]
- },
- {
-  "lead": "We got to the airport late and missed the flight.",
-  "sentence": "If we had got to the airport earlier, we ___ the flight.",
-  "keyword": "MISSED",
-  "answer": "wouldn't have missed",
-  "hint": "third conditional",
-  "explanation": "If + past perfect, would(n't) have + participle."
- },
- {
-  "lead": "My advice is to check the contract carefully.",
-  "sentence": "You ___ the contract carefully.",
+  "lead": "My advice is to check the contract twice before signing.",
+  "sentence": "You ___ the contract twice before signing.",
   "keyword": "BETTER",
   "answer": "had better check",
   "hint": "had better + bare infinitive",
-  "explanation": "had better + infinitive (without to): had better check."
+  "explanation": "had better + infinitive without 'to' = strong advice."
  },
  {
-  "lead": "'Can you open the door for me?' she asked me.",
-  "sentence": "She asked ___ the door for her.",
+  "lead": "'Could you open the window, please?' she asked me.",
+  "sentence": "She ___ the window for her.",
   "keyword": "OPEN",
-  "answer": "me to open",
+  "answer": "asked me to open",
   "hint": "ask sb to do",
-  "explanation": "ask somebody TO do something: asked me to open."
+  "explanation": "Reported request: asked + object + to-infinitive."
  },
  {
-  "lead": "Everybody says he is the best dentist in town.",
-  "sentence": "He ___ the best dentist in town.",
-  "keyword": "SUPPOSED",
-  "answer": "is supposed to be",
-  "hint": "be supposed to = people say",
-  "explanation": "be supposed to be = generally believed to be."
- },
- {
-  "lead": "The lecture was cancelled because nobody came.",
-  "sentence": "The lecture was cancelled ___ came.",
+  "lead": "The concert was cancelled because hardly anybody came.",
+  "sentence": "The concert was cancelled ___ people came.",
   "keyword": "FEW",
-  "answer": "because so few people",
+  "answer": "because so few",
   "hint": "so few = hardly any",
-  "explanation": "because so few people came = because hardly anybody came.",
-  "accept": [
-   "as so few people"
-  ]
+  "explanation": "because so few people came = because hardly anybody came."
  },
  {
-  "lead": "He finally managed to solve the puzzle.",
-  "sentence": "He finally ___ solve the puzzle.",
+  "lead": "He finally succeeded in solving the puzzle.",
+  "sentence": "He finally ___ the puzzle.",
   "keyword": "ABLE",
-  "answer": "was able to",
+  "answer": "was able to solve",
   "hint": "be able to = manage",
   "explanation": "manage to do = be able to do."
  },
  {
-  "lead": "The soup needed a bit of salt.",
+  "lead": "The soup needed a little more salt.",
   "sentence": "The soup ___ salt.",
   "keyword": "ENOUGH",
   "answer": "didn't have enough",
-  "hint": "not enough + noun",
-  "explanation": "needed a bit of salt = didn't have enough (salt)."
+  "hint": "not have enough + noun",
+  "explanation": "needed a little more = didn't have enough (salt)."
  },
  {
-  "lead": "'I didn't write the graffiti,' the teenager said.",
-  "sentence": "The teenager ___ the graffiti.",
+  "lead": "'I never wrote that review,' the chef insisted.",
+  "sentence": "The chef ___ that review.",
   "keyword": "DENIED",
-  "answer": "denied writing",
-  "hint": "deny + -ing",
-  "explanation": "deny + -ing (or having + participle).",
+  "answer": "denied ever writing",
+  "hint": "deny + ever + -ing",
+  "explanation": "deny + -ing: denied ever writing (strong denial)."
+ },
+ {
+  "lead": "We packed a spare tyre because the road might be bad.",
+  "sentence": "We packed a spare tyre ___ bad.",
+  "keyword": "CASE",
+  "answer": "in case the road was",
+  "hint": "in case = because it might happen",
+  "explanation": "in case + clause = as a precaution against a possibility."
+ },
+ {
+  "lead": "Travelling off-peak costs considerably less.",
+  "sentence": "Travelling off-peak is ___.",
+  "keyword": "LESS",
+  "answer": "considerably less expensive",
+  "hint": "less + adjective",
+  "explanation": "costs less = is less expensive; 'considerably' keeps the degree."
+ },
+ {
+  "lead": "He began playing chess at the age of six.",
+  "sentence": "He ___ at the age of six.",
+  "keyword": "UP",
+  "answer": "took up playing chess",
+  "hint": "take up = start a hobby",
+  "explanation": "take up = start (a hobby or sport): took up chess."
+ },
+ {
+  "lead": "I wish I had never told her the secret.",
+  "sentence": "I ___ her the secret.",
+  "keyword": "SHOULD",
+  "answer": "should never have told",
+  "hint": "past regret",
+  "explanation": "wish + past perfect ≈ shouldn't have + participle.",
   "accept": [
-   "denied having written"
+   "shouldn't have told"
   ]
  },
  {
-  "lead": "We took a spare tyre in case the journey went wrong.",
-  "sentence": "We took a spare tyre ___ went wrong.",
-  "keyword": "CASE",
-  "answer": "in case something",
-  "hint": "in case = because it might",
-  "explanation": "in case + clause = as a precaution because something might happen."
- },
- {
-  "lead": "It's cheaper to travel off-peak.",
-  "sentence": "Travel is ___ if you go off-peak.",
-  "keyword": "LESS",
-  "answer": "less expensive",
-  "hint": "less + adjective",
-  "explanation": "cheaper = less expensive."
- },
- {
-  "lead": "He started playing golf at the age of six.",
-  "sentence": "He ___ golf at the age of six.",
-  "keyword": "UP",
-  "answer": "took up",
-  "hint": "take up = start a hobby",
-  "explanation": "take up = start (a hobby/sport): took up golf."
- },
- {
-  "lead": "I regret telling her the secret.",
-  "sentence": "I ___ her the secret.",
-  "keyword": "SHOULD",
-  "answer": "shouldn't have told",
-  "hint": "past regret",
-  "explanation": "I regret -ing = I shouldn't have + participle."
- },
- {
-  "lead": "'Would you like me to carry that?' he offered.",
-  "sentence": "He ___ that for her.",
+  "lead": "'Shall I carry that for you?' he asked.",
+  "sentence": "He ___ for her.",
   "keyword": "OFFERED",
-  "answer": "offered to carry",
+  "answer": "offered to carry it",
   "hint": "offer + to-infinitive",
-  "explanation": "offer to do something: offered to carry."
+  "explanation": "offer to do something: offered to carry it."
  },
  {
-  "lead": "The plane had just taken off when the warning light appeared.",
-  "sentence": "The plane had ___ when the warning light appeared.",
+  "lead": "The plane left the runway moments before the storm hit.",
+  "sentence": "The plane had ___ the storm hit.",
   "keyword": "OFF",
-  "answer": "just taken off",
-  "hint": "just + past perfect",
-  "explanation": "had just + participle = a very short time before."
+  "answer": "just taken off when",
+  "hint": "had just + participle",
+  "explanation": "had just + participle = a moment before."
  },
  {
-  "lead": "Her French improved because she lived in Lyon.",
+  "lead": "Her French improved because she spent years in Lyon.",
   "sentence": "Her French improved as ___ in Lyon.",
   "keyword": "RESULT",
   "answer": "a result of living",
   "hint": "as a result of + -ing",
-  "explanation": "as a result of + noun/-ing: as a result of living."
+  "explanation": "as a result of + noun/-ing = because of."
  },
  {
-  "lead": "You can't park here — it's forbidden.",
+  "lead": "Parking here is strictly forbidden.",
   "sentence": "You ___ here.",
-  "keyword": "MUSTN'T",
-  "answer": "mustn't park",
-  "hint": "prohibition",
-  "explanation": "mustn't = it is forbidden (not: don't have to)."
+  "keyword": "PARK",
+  "answer": "must never park",
+  "hint": "strong prohibition",
+  "explanation": "strictly forbidden = must never (+ infinitive).",
+  "accept": [
+   "must not park"
+  ]
  },
  {
-  "lead": "The painter worked for three weeks on the mural.",
-  "sentence": "The painter ___ three weeks.",
+  "lead": "It took the artist three weeks to paint the mural.",
+  "sentence": "The artist ___ the mural.",
   "keyword": "OVER",
-  "answer": "spent over",
-  "hint": "spend + time",
-  "explanation": "spend + time + -ing: spent over three weeks (working on it)."
+  "answer": "spent over three weeks on",
+  "hint": "spend + time + on",
+  "explanation": "it took X time to do = X spent time doing: spent over three weeks on."
  },
  {
   "lead": "'I've never been to Asia,' she told me.",
   "sentence": "She told me that ___ to Asia.",
   "keyword": "NEVER",
   "answer": "she had never been",
-  "hint": "backshift present perfect → past perfect",
-  "explanation": "Present perfect shifts to past perfect: she had never been."
+  "hint": "backshift to past perfect",
+  "explanation": "Present perfect shifts to past perfect in reported speech."
  },
  {
-  "lead": "His salary is low, but he enjoys his work.",
-  "sentence": "He enjoys his work, ___ low.",
+  "lead": "He enjoys his work despite his low salary.",
+  "sentence": "He enjoys his work, ___ .",
   "keyword": "THOUGH",
-  "answer": "though his salary is",
-  "hint": "though clause",
-  "explanation": "…though his salary is low — 'though' links the concession.",
-  "accept": [
-   "though his salary is"
-  ]
+  "answer": "though his salary is low",
+  "hint": "final 'though' as concession",
+  "explanation": "'though' can close a sentence as a soft 'however'."
  },
  {
-  "lead": "I can't wait for the holidays to begin.",
-  "sentence": "I'm really ___ the holidays beginning.",
+  "lead": "I can't wait for the holidays to start.",
+  "sentence": "I'm really ___ the holidays.",
   "keyword": "FORWARD",
-  "answer": "looking forward to",
+  "answer": "looking forward to starting",
   "hint": "look forward to + -ing",
-  "explanation": "look forward TO + -ing/noun: looking forward to the holidays beginning."
+  "explanation": "look forward TO + -ing: the 'to' is a preposition."
  },
  {
-  "lead": "Nobody can deny that he works hard.",
+  "lead": "Nobody can say that he doesn't work hard.",
   "sentence": "Nobody can deny ___ hard.",
   "keyword": "WORKS",
   "answer": "that he works",
-  "hint": "deny that-clause / deny + -ing",
-  "explanation": "deny that + clause, or deny + -ing: deny his working (formal).",
+  "hint": "deny that-clause",
+  "explanation": "deny that + clause (or deny + -ing, formal).",
   "accept": [
    "his working"
   ]
  },
  {
-  "lead": "I got used to night shifts after a month.",
-  "sentence": "After a month, I ___ night shifts.",
-  "keyword": "USED",
-  "answer": "was used to",
-  "hint": "become accustomed",
-  "explanation": "After a period: be used to (state) or had got used to (achievement).",
-  "accept": [
-   "had got used to"
-  ]
- },
- {
-  "lead": "There's no milk left in the fridge.",
-  "sentence": "We've ___ milk.",
-  "keyword": "OF",
-  "answer": "run out of",
-  "hint": "run out of",
-  "explanation": "run out of = have none left."
- },
- {
-  "lead": "Cars must not exceed 30 km/h in this zone.",
-  "sentence": "Cars ___ 30 km/h in this zone.",
-  "keyword": "EXCEED",
-  "answer": "must not exceed",
-  "hint": "must not + infinitive",
-  "explanation": "must not (mustn't) + infinitive for prohibition.",
-  "accept": [
-   "mustn't exceed"
-  ]
- },
- {
-  "lead": "We expect to announce the winner tomorrow.",
-  "sentence": "The winner ___ tomorrow.",
-  "keyword": "ANNOUNCED",
-  "answer": "is expected to be announced",
-  "hint": "passive reporting + passive infinitive",
-  "explanation": "We expect to announce X → X is expected to be announced."
- },
- {
-  "lead": "'Could you pass the salt?' said my aunt to me.",
-  "sentence": "My aunt ___ the salt.",
-  "keyword": "PASS",
-  "answer": "asked me to pass",
-  "hint": "ask sb to do",
-  "explanation": "Reported request: asked me to pass."
- },
- {
-  "lead": "He was driving too fast, so he crashed.",
-  "sentence": "He wouldn't have crashed if he ___ so fast.",
-  "keyword": "BEEN",
-  "answer": "hadn't been driving",
-  "hint": "third conditional, continuous",
-  "explanation": "If + past perfect continuous: hadn't been driving."
- },
- {
-  "lead": "You must sign the form in ink.",
-  "sentence": "The form must ___ ink.",
-  "keyword": "SIGNED",
-  "answer": "be signed in",
-  "hint": "modal passive + preposition",
-  "explanation": "sign the form in ink → the form must be signed in ink."
+  "lead": "You must complete the form in ink.",
+  "sentence": "The form ___ ink.",
+  "keyword": "COMPLETED",
+  "answer": "must be completed in",
+  "hint": "modal passive",
+  "explanation": "must complete → must be completed (modal + be + participle)."
  },
  {
   "lead": "That's the school where my mother teaches.",
-  "sentence": "That's the school ___ mother teaches.",
+  "sentence": "That's the school ___ teaches.",
   "keyword": "WHICH",
-  "answer": "in which my",
+  "answer": "in which my mother",
   "hint": "preposition + which",
-  "explanation": "the school in which my mother teaches = where my mother teaches."
+  "explanation": "where = in which in formal relative clauses."
  },
  {
-  "lead": "She got up early so that she wouldn't miss the train.",
-  "sentence": "She got up early ___ the train.",
+  "lead": "She left early because she didn't want to miss the train.",
+  "sentence": "She left early ___ the train.",
   "keyword": "MISS",
   "answer": "so as not to miss",
   "hint": "negative purpose",
-  "explanation": "so as not to / in order not to + infinitive express negative purpose.",
+  "explanation": "so as not to / in order not to + infinitive.",
   "accept": [
    "in order not to miss"
   ]
  },
  {
-  "lead": "I'm sure the tickets are expensive this year.",
+  "lead": "The tickets are certain to be expensive this year.",
   "sentence": "The tickets ___ expensive this year.",
-  "keyword": "MUST",
-  "answer": "must be",
-  "hint": "confident deduction (present)",
-  "explanation": "must be = I'm sure it is (deduction)."
+  "keyword": "BOUND",
+  "answer": "are bound to be",
+  "hint": "be bound to = certain to",
+  "explanation": "be bound to do = be certain to do."
  },
  {
-  "lead": "The famine was caused by a long drought.",
-  "sentence": "A long drought ___ the famine.",
+  "lead": "A long, dry summer caused the famine.",
+  "sentence": "The famine ___ a long, dry summer.",
   "keyword": "RESULTED",
-  "answer": "resulted in",
-  "hint": "result in = cause",
-  "explanation": "A causes B = A results in B."
+  "answer": "resulted directly from",
+  "hint": "result from = be caused by",
+  "explanation": "A causes B = B results from A (note the direction).",
+  "accept": [
+   "resulted largely from"
+  ]
  },
  {
   "lead": "'Would you like to join us for dinner?' they asked him.",
@@ -824,142 +734,139 @@
   "keyword": "INVITED",
   "answer": "invited him to join them for",
   "hint": "invite sb to do",
-  "explanation": "invite somebody TO do something: invited him to join them."
+  "explanation": "invite somebody TO do something; pronouns shift in reporting."
  },
  {
   "lead": "I haven't enjoyed myself so much for years.",
   "sentence": "It's ___ I've enjoyed myself so much.",
   "keyword": "YEARS",
-  "answer": "years since",
-  "hint": "it's years since…",
-  "explanation": "It's years since + past simple = I haven't…for years."
+  "answer": "been years since",
+  "hint": "it's been years since…",
+  "explanation": "It's (been) years since + past simple = I haven't done it for years."
  },
  {
-  "lead": "The athlete denied taking performance-enhancing drugs.",
-  "sentence": "The athlete denied ___ performance-enhancing drugs.",
+  "lead": "The athlete insisted that she had never taken banned substances.",
+  "sentence": "The athlete ___ banned substances.",
   "keyword": "TAKEN",
-  "answer": "having taken",
+  "answer": "denied ever having taken",
   "hint": "deny having + participle",
-  "explanation": "deny + having + past participle (or deny taking).",
+  "explanation": "deny having + past participle denies an earlier action.",
   "accept": [
-   "taking"
+   "denied ever taking"
   ]
  },
  {
-  "lead": "You need to renew your passport before June.",
-  "sentence": "Your passport ___ before June.",
-  "keyword": "NEEDS",
-  "answer": "needs renewing",
-  "hint": "need + -ing (passive meaning)",
+  "lead": "Somebody needs to renew this passport before June.",
+  "sentence": "This passport ___ before June.",
+  "keyword": "RENEWED",
+  "answer": "needs to be renewed",
+  "hint": "need + to be + participle",
   "explanation": "need + -ing = need to be + participle: needs renewing.",
   "accept": [
-   "needs to be renewed"
+   "needs renewing"
   ]
  },
  {
-  "lead": "Despite his injury, he finished the marathon.",
+  "lead": "Despite his serious injury, he finished the marathon.",
   "sentence": "___ , he finished the marathon.",
   "keyword": "SPITE",
   "answer": "In spite of his injury",
   "hint": "in spite of + noun",
-  "explanation": "in spite of + noun/-ing: In spite of his injury."
+  "explanation": "in spite of + noun/-ing = despite."
  },
  {
-  "lead": "People claim that this juice cures colds.",
-  "sentence": "This juice ___ colds.",
+  "lead": "People claim that this herbal tea cures colds.",
+  "sentence": "This herbal tea ___ colds.",
   "keyword": "CLAIMED",
   "answer": "is claimed to cure",
   "hint": "passive reporting",
-  "explanation": "X is claimed to + infinitive."
+  "explanation": "X is claimed to + infinitive = people claim X does."
  },
  {
-  "lead": "He is so impatient that he never reads instructions.",
+  "lead": "He is so impatient that he refuses to read instructions.",
   "sentence": "He is ___ read instructions.",
   "keyword": "PATIENT",
-  "answer": "too impatient to",
-  "hint": "too + adjective + to",
-  "explanation": "so impatient that he never reads = too impatient to read."
+  "answer": "far too impatient to",
+  "hint": "too + adjective + to-infinitive",
+  "explanation": "so impatient that he refuses = far too impatient to."
  },
  {
-  "lead": "They say the new bridge will cut journey times in half.",
-  "sentence": "Journey times ___ in half by the new bridge.",
+  "lead": "They say the new tunnel will halve journey times.",
+  "sentence": "Journey times ___ by the new tunnel.",
   "keyword": "SAID",
-  "answer": "are said to be cut",
-  "hint": "passive of say + passive infinitive",
-  "explanation": "X is said to be + participle: journey times are said to be cut."
+  "answer": "are said to be halved",
+  "hint": "passive reporting + passive infinitive",
+  "explanation": "X is said to be + participle: reported statement, passive meaning."
  },
  {
   "lead": "I'd rather you didn't tell anyone about this.",
   "sentence": "Please keep this ___ .",
   "keyword": "YOURSELF",
-  "answer": "to yourself",
+  "answer": "strictly to yourself",
   "hint": "keep sth to yourself",
-  "explanation": "keep something to yourself = not tell anyone."
+  "explanation": "keep something to yourself = tell nobody."
  },
  {
-  "lead": "The committee is unlikely to change the rules.",
-  "sentence": "___ that the committee will change the rules.",
+  "lead": "The committee probably won't change the rules.",
+  "sentence": "___ the committee will change the rules.",
   "keyword": "UNLIKELY",
-  "answer": "It is unlikely",
-  "hint": "it + be + unlikely + that",
-  "explanation": "Impersonal it: It is unlikely that…"
+  "answer": "It is highly unlikely that",
+  "hint": "impersonal it + unlikely",
+  "explanation": "probably won't = it is (highly) unlikely that."
  },
  {
   "lead": "'Have you seen my keys anywhere?' he asked us.",
-  "sentence": "He asked us ___ seen his keys anywhere.",
-  "keyword": "WHETHER",
-  "answer": "whether we had",
-  "hint": "reported yes/no question + backshift",
-  "explanation": "if/whether + subject + had + participle: whether we had seen.",
+  "sentence": "He asked us ___ his keys anywhere.",
+  "keyword": "SEEN",
+  "answer": "whether we had seen",
+  "hint": "reported yes/no question",
+  "explanation": "if/whether + subject + backshifted verb: whether we had seen.",
   "accept": [
-   "if we had"
+   "if we had seen"
   ]
  },
  {
-  "lead": "They don't let visitors feed the animals.",
+  "lead": "Visitors may not feed the animals.",
   "sentence": "Visitors ___ the animals.",
-  "keyword": "ALLOWED",
-  "answer": "are not allowed to feed",
-  "hint": "let = be allowed to",
-  "explanation": "let somebody do → be allowed to do: are not allowed to feed."
+  "keyword": "FORBIDDEN",
+  "answer": "are strictly forbidden to feed",
+  "hint": "be forbidden to do",
+  "explanation": "may not = are (strictly) forbidden to."
  },
  {
-  "lead": "He lost his job because he kept arriving late.",
-  "sentence": "If he hadn't kept arriving late, he ___ his job.",
-  "keyword": "LOST",
-  "answer": "wouldn't have lost",
-  "hint": "third conditional",
-  "explanation": "If + past perfect, would(n't) have + participle."
+  "lead": "He was sacked for constantly missing deadlines.",
+  "sentence": "If he hadn't kept missing deadlines, he ___ sacked.",
+  "keyword": "BEEN",
+  "answer": "would never have been",
+  "hint": "third conditional, passive",
+  "explanation": "If + past perfect, would(n't) have been + participle."
  },
  {
-  "lead": "'I'm sorry I was rude to your sister,' Maria said.",
-  "sentence": "Maria apologised ___ rude to my sister.",
+  "lead": "'I'm sorry I was so rude to your sister,' Maria said.",
+  "sentence": "Maria apologised ___ so rude to my sister.",
   "keyword": "BEING",
-  "answer": "for being",
-  "hint": "apologise for + -ing / having + pp",
-  "explanation": "apologise for + -ing (or having + participle for the earlier action).",
+  "answer": "for being so rude",
+  "hint": "apologise for + -ing",
+  "explanation": "apologise for + -ing: apologised for being so rude.",
   "accept": [
-   "for having been"
+   "for having been so rude"
   ]
  },
  {
-  "lead": "You won't get a seat unless you book.",
+  "lead": "You can only get a seat if you book well in advance.",
   "sentence": "You won't get a seat ___ .",
   "keyword": "BOOKING",
-  "answer": "without booking",
+  "answer": "without booking well in advance",
   "hint": "without + -ing = unless you do",
-  "explanation": "unless you book = without booking."
+  "explanation": "if you don't book = without booking."
  },
  {
-  "lead": "She speaks French fluently; she also speaks Russian.",
-  "sentence": "She speaks French fluently and, ___, Russian.",
+  "lead": "As well as speaking fluent French, she also speaks Russian.",
+  "sentence": "She speaks Russian ___ fluent French.",
   "keyword": "ADDITION",
-  "answer": "in addition",
-  "hint": "adding information",
-  "explanation": "in addition adds a parallel fact: and, in addition, Russian.",
-  "accept": [
-   "in addition (she speaks)"
-  ]
+  "answer": "in addition to",
+  "hint": "in addition to + -ing/noun",
+  "explanation": "in addition to = as well as."
  },
  {
   "lead": "The hotel was further from the beach than we expected.",
@@ -967,100 +874,153 @@
   "keyword": "CLOSE",
   "answer": "as close to the beach as",
   "hint": "not as … as",
-  "explanation": "further than expected = not as close as expected."
+  "explanation": "further than expected = not as close (to the beach) as expected."
  },
  {
-  "lead": "It's forbidden to use mobile phones in the exam.",
+  "lead": "The exam regulations forbid the use of mobile phones.",
   "sentence": "Mobile phones ___ in the exam.",
-  "keyword": "MUSTN'T",
-  "answer": "mustn't be used",
-  "hint": "prohibition, passive",
-  "explanation": "mustn't + be + participle: mustn't be used."
+  "keyword": "USED",
+  "answer": "must never be used",
+  "hint": "modal passive, prohibition",
+  "explanation": "forbid = must never + be + participle (passive)."
  },
  {
-  "lead": "My grandfather planted all these apple trees.",
+  "lead": "My grandfather planted all these apple trees himself.",
   "sentence": "My grandfather is the ___ all these apple trees.",
   "keyword": "PLANTED",
-  "answer": "one who planted",
-  "hint": "relative clause with one/person",
-  "explanation": "'the one who planted' identifies the agent with a relative clause.",
+  "answer": "one who personally planted",
+  "hint": "relative clause with 'one'",
+  "explanation": "'the one who…' identifies the agent with a relative clause.",
   "accept": [
-   "person who planted"
+   "person who personally planted"
   ]
  },
  {
-  "lead": "As soon as the results were announced, people started celebrating.",
-  "sentence": "The results had ___ people started celebrating.",
+  "lead": "The results were announced, and immediately people began celebrating.",
+  "sentence": "The results had ___ people began celebrating.",
   "keyword": "SOONER",
   "answer": "no sooner been announced than",
-  "hint": "no sooner … than + passive",
-  "explanation": "No sooner had the results been announced than… — reordered to fit the frame."
+  "hint": "no sooner … than, passive",
+  "explanation": "No sooner had the results been announced than people began…"
  },
  {
-  "lead": "The tickets were so expensive that we didn't buy any.",
-  "sentence": "They were ___ that we didn't buy any.",
-  "keyword": "TICKETS",
-  "answer": "such expensive tickets",
-  "hint": "such + adj + plural noun",
-  "explanation": "so expensive (tickets) → such expensive tickets (no article with plural)."
+  "lead": "The tickets cost so much that we stayed at home.",
+  "sentence": "They were ___ we stayed at home.",
+  "keyword": "EXPENSIVE",
+  "answer": "such expensive tickets that",
+  "hint": "such + adjective + plural noun",
+  "explanation": "so much (money) → such expensive tickets (no article with plurals)."
  },
  {
-  "lead": "'I may be late tonight,' my wife said.",
-  "sentence": "My wife said ___ late that night.",
-  "keyword": "MIGHT",
-  "answer": "she might be",
-  "hint": "may → might in reported speech",
-  "explanation": "may often backshifts to might: she might be late."
- },
- {
-  "lead": "The doctor made me promise to do the exercises daily.",
-  "sentence": "The doctor ___ the exercises daily.",
-  "keyword": "PROMISE",
-  "answer": "got me to promise to do",
+  "lead": "The doctor persuaded me to promise that I would exercise daily.",
+  "sentence": "The doctor ___ that I would exercise daily.",
+  "keyword": "GOT",
+  "answer": "got me to promise",
   "hint": "get sb to do",
-  "explanation": "get somebody TO do something = make/persuade them: got me to promise."
+  "explanation": "get somebody TO do something = persuade/make them."
  },
  {
-  "lead": "It wasn't necessary for her to cook — we ate out.",
-  "sentence": "She ___ — we ate out.",
+  "lead": "She cooked a huge meal, but we had already eaten.",
+  "sentence": "She ___ — we had already eaten.",
   "keyword": "NEEDN'T",
   "answer": "needn't have cooked",
-  "hint": "unnecessary past action (she did cook)",
-  "explanation": "needn't have + participle = it wasn't necessary, but it happened; 'we ate out' shows the cooking served no purpose."
+  "hint": "unnecessary past action",
+  "explanation": "needn't have + participle = it happened although it wasn't necessary."
  },
  {
   "lead": "His trainers were so worn out that they had holes in them.",
-  "sentence": "His trainers were ___ that they had holes in them.",
+  "sentence": "His trainers were ___ they had holes in them.",
   "keyword": "CONDITION",
-  "answer": "in such bad condition",
-  "hint": "in such + adj + noun",
+  "answer": "in such bad condition that",
+  "hint": "in such + adjective + noun",
   "explanation": "so worn out = in such bad condition."
  },
  {
-  "lead": "I'd prefer you to arrive before eight.",
+  "lead": "I'd prefer it if you arrived before eight.",
   "sentence": "I'd ___ before eight.",
   "keyword": "RATHER",
   "answer": "rather you arrived",
   "hint": "would rather + sb + past",
-  "explanation": "would rather + subject + past simple: I'd rather you arrived."
+  "explanation": "would rather + subject + past simple for other people's actions."
  },
  {
   "lead": "The rescue team managed to reach the village by helicopter.",
-  "sentence": "The rescue team ___ reaching the village by helicopter.",
+  "sentence": "The rescue team ___ the village by helicopter.",
   "keyword": "SUCCEED",
-  "answer": "succeeded in",
+  "answer": "succeeded in reaching",
   "hint": "succeed in + -ing",
-  "explanation": "manage to do = succeed IN doing.",
-  "accept": [
-   "succeeded in reaching"
-  ]
+  "explanation": "manage to do = succeed IN doing."
  },
  {
-  "lead": "It took me two hours to assemble the wardrobe.",
-  "sentence": "I ___ two hours assembling the wardrobe.",
+  "lead": "Assembling the wardrobe took me two hours.",
+  "sentence": "I ___ the wardrobe.",
   "keyword": "SPENT",
-  "answer": "spent",
+  "answer": "spent two hours assembling",
   "hint": "spend + time + -ing",
-  "explanation": "it took + time + to do = subject + spent + time + -ing."
+  "explanation": "it took me X to do = I spent X doing."
+ },
+ {
+  "lead": "Although she was exhausted, she carried on working.",
+  "sentence": "___ , she carried on working.",
+  "keyword": "EXHAUSTED",
+  "answer": "Despite being completely exhausted",
+  "hint": "despite + -ing",
+  "explanation": "despite/in spite of + -ing: despite being exhausted."
+ },
+ {
+  "lead": "He had just got home when the power cut happened.",
+  "sentence": "___ home when the power cut happened.",
+  "keyword": "HARDLY",
+  "answer": "Hardly had he got",
+  "hint": "hardly … when + inversion",
+  "explanation": "Hardly had + subject + participle … when…"
+ },
+ {
+  "lead": "You'll fail your exam if you don't revise.",
+  "sentence": "You'll fail your exam ___ .",
+  "keyword": "REVISE",
+  "answer": "unless you revise properly",
+  "hint": "unless = if … not",
+  "explanation": "unless + present simple = if you don't."
+ },
+ {
+  "lead": "Someone stole her bike last week.",
+  "sentence": "She had ___ last week.",
+  "keyword": "STOLEN",
+  "answer": "her bike stolen",
+  "hint": "have something done (bad event)",
+  "explanation": "have something stolen/done = experience it happening to you."
+ },
+ {
+  "lead": "You should start revising now.",
+  "sentence": "It's ___ revising.",
+  "keyword": "TIME",
+  "answer": "high time you started",
+  "hint": "it's high time + past",
+  "explanation": "it's (high) time + subject + past simple = you should already be doing it."
+ },
+ {
+  "lead": "He spoke slowly because he wanted us to understand him.",
+  "sentence": "He spoke slowly ___ understand him.",
+  "keyword": "SO",
+  "answer": "so that we would",
+  "hint": "so that + clause of purpose",
+  "explanation": "so that + subject + would/could expresses purpose."
+ },
+ {
+  "lead": "She hates it when people interrupt her.",
+  "sentence": "She hates ___ .",
+  "keyword": "INTERRUPTED",
+  "answer": "constantly being interrupted",
+  "hint": "hate + being + participle",
+  "explanation": "hate + being + past participle (passive gerund)."
+ },
+ {
+  "lead": "As I get older, I become less patient.",
+  "sentence": "The older I get, ___ I become.",
+  "keyword": "IMPATIENT",
+  "answer": "the more impatient",
+  "hint": "comparative correlative",
+  "explanation": "The older…, the more… — doubled comparatives for parallel change."
  }
 ]

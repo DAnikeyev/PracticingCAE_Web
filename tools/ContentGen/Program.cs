@@ -82,7 +82,7 @@ summary.Add(("rue-part1", GenerateDrillSets("rue-part1", Path.Combine(seedsDir, 
 summary.Add(("rue-part2", GenerateFullSetsFromSeedFile("rue-part2", Path.Combine(seedsDir, "rue2-texts.json"))));
 summary.Add(("rue-part2", GenerateDrillSets("rue-part2", Path.Combine(seedsDir, "rue2-drill-items.json"), itemsPerSet: 8)));
 summary.Add(("rue-part3", GenerateFullSetsFromSeedFile("rue-part3", Path.Combine(seedsDir, "rue3-texts.json"))));
-summary.Add(("rue-part3", GenerateDrillSets("rue-part3", Path.Combine(seedsDir, "rue3-drill-items.json"), itemsPerSet: 8)));
+summary.Add(("rue-part3", GenerateDrillSets("rue-part3", Path.Combine(seedsDir, "rue3-drill-items.json"), itemsPerSet: 8, stripOptions: true)));
 summary.Add(("rue-part4", GenerateDrillSets("rue-part4", Path.Combine(seedsDir, "rue4-items.json"), itemsPerSet: 6)));
 
 // ---------- topic drills ----------
@@ -161,10 +161,21 @@ int GenerateFullSetsFromSeedFile(string taskId, string file)
     return n;
 }
 
-int GenerateDrillSets(string taskId, string file, int itemsPerSet)
+int GenerateDrillSets(string taskId, string file, int itemsPerSet, bool stripOptions = false)
 {
     if (!File.Exists(file)) { problems.Add($"missing seed file {file}"); return 0; }
     var bank = ReadSeedGaps(file);
+    if (stripOptions)
+    {
+        // Part 3 word formation is always typed — the base word badge guides the answer
+        foreach (var gap in bank) gap.Options = new List<string>();
+    }
+    if (taskId == "rue-part4")
+    {
+        // CAE rule: 3-6 words including the key word
+        foreach (var gap in bank.Where(g => AnswerChecker.WordCount(g.Answer) is < 3 or > 6))
+            problems.Add($"{file}: rue4 answer '{gap.Answer}' is {AnswerChecker.WordCount(gap.Answer)} words (must be 3-6)");
+    }
     if (bank.Count < itemsPerSet) { problems.Add($"{file}: bank too small ({bank.Count})"); return 0; }
 
     var dir = Path.Combine(setsRoot, taskId);

@@ -98,7 +98,7 @@ public class ContentRepositoryTests
     }
 
     [Fact]
-    public void Rue4Items_KeywordAppearsInTheAnswer()
+    public void Rue4Items_KeywordAppearsInTheAnswer_WithinThreeToSixWords()
     {
         foreach (var (set, _) in AllSets().Where(s => s.Task.Kind == SetKind.Rue4))
         {
@@ -106,8 +106,11 @@ public class ContentRepositoryTests
             {
                 Assert.False(string.IsNullOrWhiteSpace(gap.Keyword), $"{set.Id}: missing keyword");
                 Assert.True(gap.Answer.ToLowerInvariant()
-                        .Contains(gap.Keyword.ToLowerInvariant().Replace("N'T", "N'T")),
+                        .Contains(gap.Keyword.ToLowerInvariant()),
                     $"{set.Id}: answer '{gap.Answer}' lacks keyword '{gap.Keyword}'");
+                var words = AnswerChecker.WordCount(gap.Answer);
+                Assert.True(words is >= 3 and <= 6,
+                    $"{set.Id}: answer '{gap.Answer}' has {words} words (CAE requires 3-6)");
             }
         }
     }

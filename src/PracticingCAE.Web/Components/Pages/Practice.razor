@@ -3,7 +3,7 @@
 @using PracticingCAE.Web.Services
 @inject ContentRepository Content
 @inject SetSelector Selector
-@inject ProgressService Progress
+@inject ProgressService ProgressSvc
 @inject OwnerResolver Owner
 @inject NavigationManager Nav
 
@@ -81,7 +81,7 @@ else
             {
                 var idx = i;
                 var gap = _gaps[i];
-                <div class="gap-row @(FeedbackClass(idx))">
+                <div class="gap-row @(FeedbackClass(idx))" @key="@($"{_set!.Id}:{idx}")">
                     <div class="gap-num">@(idx + 1)</div>
                     <div class="gap-body">
                         @if (gap.Lead is not null)
@@ -108,10 +108,14 @@ else
                                             }
                                         </div>
                                     }
+                                    else if (_checked)
+                                    {
+                                        <span class="typed-answer">@DisplayAnswer(_answers[idx])</span>
+                                    }
                                     else
                                     {
-                                        <input class="gap-input gap-input-wide" value="@_answers[idx]" @oninput="@(e => _answers[idx] = e.Value?.ToString() ?? "")"
-                                               disabled="@_checked" placeholder="your answer"
+                                        <input class="gap-input gap-input-wide" @oninput="@(e => SetAnswer(idx, e.Value?.ToString()))"
+                                               placeholder="your answer"
                                                aria-label="Answer for question @(idx + 1)" />
                                     }
                                     <span class="sentence">@parts.Value.after</span>
@@ -153,10 +157,14 @@ else
                                         }
                                     </div>
                                 }
+                                else if (_checked)
+                                {
+                                    <span class="typed-answer">@DisplayAnswer(_answers[idx])</span>
+                                }
                                 else
                                 {
-                                    <input class="gap-input" value="@_answers[idx]" @oninput="@(e => _answers[idx] = e.Value?.ToString() ?? "")"
-                                           disabled="@_checked" placeholder="your answer"
+                                    <input class="gap-input" @oninput="@(e => SetAnswer(idx, e.Value?.ToString()))"
+                                           placeholder="your answer"
                                            aria-label="Answer for question @(idx + 1)" />
                                 }
                                 <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
@@ -170,6 +178,10 @@ else
                         @if (_checked)
                         {
                             var r = _result!.Gaps[idx];
+                            @if (_task.Kind == SetKind.Rue4 && !AnswerChecker.WordCountValid(_answers[idx], 3, 6))
+                            {
+                                <p class="hint-text">⚠ CAE rule: 3–6 words including the key word (yours: @AnswerChecker.WordCount(_answers[idx])).</p>
+                            }
                             <p class="feedback-text @(r.IsCorrect ? "fb-ok" : "fb-bad")">
                                 @if (r.IsCorrect)
                                 {
@@ -292,7 +304,7 @@ else
         try
         {
             var owner = await Owner.GetOwnerIdAsync();
-            await Progress.SaveAttemptAsync(owner, _set, revealed, answersRevealed: true);
+            await ProgressSvc.SaveAttemptAsync(owner, _set, revealed, answersRevealed: true);
         }
         catch (Exception)
         {
@@ -308,6 +320,9 @@ else
         {
             var gap = _gaps[i];
             var ok = AnswerChecker.IsCorrect(_answers[i], gap);
+            // CAE rule for Part 4: 3-6 words including the key word
+            if (ok && _task!.Kind == SetKind.Rue4 && !AnswerChecker.WordCountValid(_answers[i], 3, 6))
+                ok = false;
             results.Add(new GapResult(i, _answers[i] ?? "", ok, _hints[i], gap.Answer, gap.Explanation));
         }
         var result = new SetResult(results.All(r => r.IsCorrect), _hints.Any(h => h), results);
@@ -316,7 +331,7 @@ else
         try
         {
             var owner = await Owner.GetOwnerIdAsync();
-            await Progress.SaveAttemptAsync(owner, _set, result);
+            await ProgressSvc.SaveAttemptAsync(owner, _set, result);
         }
         catch (Exception)
         {
@@ -329,10 +344,13 @@ else
         await LoadSet();
     }
 
-    private void ClearFeedback(int idx)
+    private void SetAnswer(int idx, string? value)
     {
-        StateHasChanged();
+        _answers[idx] = value ?? "";
     }
+
+    private static string DisplayAnswer(string? answer) =>
+        string.IsNullOrWhiteSpace(answer) ? "—" : answer;
 
     private string FeedbackClass(int idx)
     {

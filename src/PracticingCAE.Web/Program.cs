@@ -37,7 +37,16 @@ builder.Services.AddDbContextFactory<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddIdentityCore<ApplicationUser>(options =>
+    {
+        options.SignIn.RequireConfirmedAccount = false;
+        // keep sign-up friction low: only a minimum length
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireDigit = false;
+        options.Password.RequireUppercase = false;
+        options.Password.RequireLowercase = false;
+        options.Password.RequiredLength = 6;
+    })
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddSignInManager()
     .AddDefaultTokenProviders();
