@@ -263,14 +263,6 @@
   "explanation": "we → they; present continuous → past continuous: they were selling."
  },
  {
-  "lead": "She is too young to drive.",
-  "sentence": "She isn't ___ to drive.",
-  "keyword": "ENOUGH",
-  "answer": "old enough",
-  "hint": "not adj enough",
-  "explanation": "too young = not old enough."
- },
- {
   "lead": "I'm sure he isn't in Spain — he was here this morning.",
   "sentence": "He ___ in Spain — he was here this morning.",
   "keyword": "CAN'T",
@@ -281,10 +273,10 @@
  {
   "lead": "They say this forest is three hundred years old.",
   "sentence": "This forest ___ three hundred years old.",
-  "keyword": "SUPPOSED",
-  "answer": "is supposed to be",
-  "hint": "be supposed to = believed",
-  "explanation": "be supposed to be = generally said/believed to be."
+  "keyword": "THOUGHT",
+  "answer": "is thought to be",
+  "hint": "passive reporting: is ___ to be",
+  "explanation": "They say → is said to be / is thought to be; with keyword THOUGHT: is thought to be."
  },
  {
   "lead": "I only understood the joke much later.",
@@ -378,14 +370,6 @@
   "explanation": "would prefer + not + to-infinitive: prefer not to discuss."
  },
  {
-  "lead": "When I was a boy, we walked everywhere.",
-  "sentence": "When I was a boy, we ___ everywhere.",
-  "keyword": "USED",
-  "answer": "used to walk",
-  "hint": "past habit",
-  "explanation": "used to + infinitive expresses a past habit."
- },
- {
   "lead": "The company denied that it had polluted the river.",
   "sentence": "The company denied ___ the river.",
   "keyword": "POLLUTING",
@@ -475,12 +459,12 @@
   "explanation": "Never before + have + subject + participle: Never have I experienced."
  },
  {
-  "lead": "The doctor advised a complete rest.",
-  "sentence": "The doctor advised ___ complete rest.",
+  "lead": "The doctor said that he should take a complete rest.",
+  "sentence": "The doctor advised ___ a complete rest.",
   "keyword": "TAKE",
   "answer": "him to take",
-  "hint": "advise sb to do",
-  "explanation": "advise + object + to-infinitive: advised him to take."
+  "hint": "advise sb to do sth",
+  "explanation": "say + should → advise + object + to-infinitive: advised him to take."
  },
  {
   "lead": "Their wedding will take place in June.",
@@ -516,11 +500,11 @@
  },
  {
   "lead": "Only after reading the letter twice did it make sense.",
-  "sentence": "The letter ___ sense until he had read it twice.",
+  "sentence": "The letter ___ sense until it had been read twice.",
   "keyword": "MAKE",
   "answer": "didn't make",
-  "hint": "negative with until",
-  "explanation": "It didn't make sense until… = it made sense only after…"
+  "hint": "not … until",
+  "explanation": "It made sense only after two readings = it didn't make sense until it had been read twice."
  },
  {
   "lead": "Both sisters play the violin beautifully.",
@@ -545,14 +529,6 @@
   "answer": "I could afford",
   "hint": "wish + could",
   "explanation": "wish + subject + could = regret about ability/possibility."
- },
- {
-  "lead": "Don't worry — the shops will still be open when you arrive.",
-  "sentence": "The shops ___ when you arrive.",
-  "keyword": "STILL",
-  "answer": "will still be open",
-  "hint": "future state",
-  "explanation": "Future simple with still: will still be open."
  },
  {
   "lead": "They chose her for the lead role because of her voice.",
@@ -580,14 +556,6 @@
   "answer": "had better check",
   "hint": "had better + bare infinitive",
   "explanation": "had better + infinitive (without to): had better check."
- },
- {
-  "lead": "The old bridge is still used by locals.",
-  "sentence": "Locals ___ the old bridge.",
-  "keyword": "STILL",
-  "answer": "still use",
-  "hint": "active from passive",
-  "explanation": "Passive is used by locals → active: locals still use."
  },
  {
   "lead": "'Can you open the door for me?' she asked me.",
@@ -660,31 +628,12 @@
   "explanation": "cheaper = less expensive."
  },
  {
-  "lead": "The children were excited about opening the presents.",
-  "sentence": "The children were excited ___ the presents.",
-  "keyword": "OPEN",
-  "answer": "about opening",
-  "hint": "excited about + -ing",
-  "explanation": "excited ABOUT + -ing: excited about opening."
- },
- {
   "lead": "He started playing golf at the age of six.",
   "sentence": "He ___ golf at the age of six.",
   "keyword": "UP",
   "answer": "took up",
   "hint": "take up = start a hobby",
   "explanation": "take up = start (a hobby/sport): took up golf."
- },
- {
-  "lead": "The number of students is falling.",
-  "sentence": "The number of students ___ .",
-  "keyword": "DOWN",
-  "answer": "is going down",
-  "hint": "go down = fall",
-  "explanation": "go down = decrease. Also acceptable: is coming down.",
-  "accept": [
-   "is coming down"
-  ]
  },
  {
   "lead": "I regret telling her the secret.",
@@ -750,17 +699,8 @@
   "hint": "though clause",
   "explanation": "…though his salary is low — 'though' links the concession.",
   "accept": [
-   "though it is low…",
    "though his salary is"
   ]
- },
- {
-  "lead": "They arrived late because the traffic was terrible.",
-  "sentence": "The traffic was ___ they arrived late.",
-  "keyword": "TERRIBLE",
-  "answer": "so terrible that",
-  "hint": "so + adj + that",
-  "explanation": "so + adjective + that-clause."
  },
  {
   "lead": "I can't wait for the holidays to begin.",
@@ -782,14 +722,6 @@
   ]
  },
  {
-  "lead": "This door mustn't be blocked.",
-  "sentence": "You ___ this door.",
-  "keyword": "BLOCK",
-  "answer": "mustn't block",
-  "hint": "prohibition passive→active",
-  "explanation": "mustn't be blocked → (you) mustn't block (it)."
- },
- {
   "lead": "I got used to night shifts after a month.",
   "sentence": "After a month, I ___ night shifts.",
   "keyword": "USED",
@@ -801,31 +733,12 @@
   ]
  },
  {
-  "lead": "He apologised because he was late.",
-  "sentence": "He apologised ___ late.",
-  "keyword": "BEING",
-  "answer": "for being",
-  "hint": "apologise for + -ing",
-  "explanation": "apologise FOR + -ing: apologised for being late."
- },
- {
   "lead": "There's no milk left in the fridge.",
   "sentence": "We've ___ milk.",
   "keyword": "OF",
   "answer": "run out of",
   "hint": "run out of",
   "explanation": "run out of = have none left."
- },
- {
-  "lead": "She is writing a novel, but she won't tell anyone about it.",
-  "sentence": "She is writing a novel, ___ about it.",
-  "keyword": "ANYONE",
-  "answer": "but she won't tell anyone",
-  "hint": "join the clauses",
-  "explanation": "Two natural joins: but she won't tell anyone / which she won't tell anyone about it (non-defining clause).",
-  "accept": [
-   "which she won't tell anyone"
-  ]
  },
  {
   "lead": "Cars must not exceed 30 km/h in this zone.",
@@ -837,14 +750,6 @@
   "accept": [
    "mustn't exceed"
   ]
- },
- {
-  "lead": "The show was so dull that half the audience left.",
-  "sentence": "It was ___ that half the audience left.",
-  "keyword": "DULL",
-  "answer": "such a dull show",
-  "hint": "such + a + adj + noun",
-  "explanation": "so dull (a show) → such a dull show."
  },
  {
   "lead": "We expect to announce the winner tomorrow.",
@@ -976,14 +881,6 @@
   "explanation": "so impatient that he never reads = too impatient to read."
  },
  {
-  "lead": "The villagers used to fetch water from the well.",
-  "sentence": "The villagers ___ fetch water from the well.",
-  "keyword": "WOULD",
-  "answer": "would",
-  "hint": "would = past habit",
-  "explanation": "would + infinitive also expresses a repeated past action (with action verbs)."
- },
- {
   "lead": "They say the new bridge will cut journey times in half.",
   "sentence": "Journey times ___ in half by the new bridge.",
   "keyword": "SAID",
@@ -1025,14 +922,6 @@
   "answer": "are not allowed to feed",
   "hint": "let = be allowed to",
   "explanation": "let somebody do → be allowed to do: are not allowed to feed."
- },
- {
-  "lead": "My laptop needs repairing before the trip.",
-  "sentence": "My laptop ___ before the trip.",
-  "keyword": "REPAIRED",
-  "answer": "needs to be repaired",
-  "hint": "need + to be + participle",
-  "explanation": "need + -ing = need to be + participle: needs to be repaired."
  },
  {
   "lead": "He lost his job because he kept arriving late.",
@@ -1114,14 +1003,6 @@
   "answer": "such expensive tickets",
   "hint": "such + adj + plural noun",
   "explanation": "so expensive (tickets) → such expensive tickets (no article with plural)."
- },
- {
-  "lead": "He's not old enough to ride a motorbike.",
-  "sentence": "He's ___ to ride a motorbike.",
-  "keyword": "YOUNG",
-  "answer": "too young",
-  "hint": "not adj enough = too + opposite",
-  "explanation": "not old enough = too young."
  },
  {
   "lead": "'I may be late tonight,' my wife said.",

@@ -1,19 +1,47 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+<div class="app">
+    <header class="topnav">
+        <div class="topnav-inner">
+            <a class="brand" href="">
+                <span class="brand-mark">C1</span>
+                <span class="brand-name">CAE<b>Practice</b></span>
+            </a>
+            <nav class="topnav-links" aria-label="Main navigation">
+                <NavLink class="topnav-link" href="" Match="NavLinkMatch.All">Home</NavLink>
+                <NavLink class="topnav-link" href="progress">My progress</NavLink>
+            </nav>
+            <div class="topnav-auth">
+                <AuthorizeView>
+                    <Authorized>
+                        <span class="user-chip" title="@context.User.Identity?.Name">
+                            @context.User.Identity?.Name
+                        </span>
+                        <form action="Account/Logout" method="post" class="inline-form">
+                            <AntiforgeryToken />
+                            <input type="hidden" name="ReturnUrl" value="" />
+                            <button type="submit" class="btn btn-ghost">Log out</button>
+                        </form>
+                    </Authorized>
+                    <NotAuthorized>
+                        <a class="btn btn-ghost" href="Account/Login">Log in</a>
+                        <a class="btn btn-primary" href="Account/Register">Register</a>
+                    </NotAuthorized>
+                </AuthorizeView>
+            </div>
         </div>
+    </header>
 
-        <article class="content px-4">
-            @Body
-        </article>
+    <main class="app-main">
+        @Body
     </main>
+
+    <footer class="app-footer">
+        <div class="app-footer-inner">
+            <span>CAE Practice — original C1 exam-style training content.</span>
+            <span class="muted">Progress is stored per user; anonymous practice stays in this browser.</span>
+        </div>
+    </footer>
 </div>
 
 <div id="blazor-error-ui">

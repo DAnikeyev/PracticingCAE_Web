@@ -1,65 +1,5 @@
 [
  {
-  "sentence": "She bought ___ umbrella because rain was forecast.",
-  "answer": "an",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "vowel sound",
-  "explanation": "'Umbrella' starts with a vowel sound, so 'an'."
- },
- {
-  "sentence": "He is ___ honest man; everyone trusts him.",
-  "answer": "an",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "silent h",
-  "explanation": "'Honest' starts with a vowel sound (the h is silent), so 'an'."
- },
- {
-  "sentence": "The meeting lasted ___ hour and a half.",
-  "answer": "an",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "silent h",
-  "explanation": "'Hour' starts with a vowel sound, so 'an hour'."
- },
- {
-  "sentence": "My sister studies at ___ university in Berlin.",
-  "answer": "a",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "'yu-' sound",
-  "explanation": "'University' starts with a /juː/ consonant sound, so 'a'."
- },
- {
-  "sentence": "He's got ___ European accent when he speaks French.",
-  "answer": "a",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "'yu-' sound",
-  "explanation": "'European' starts with /j/, a consonant sound, so 'a'."
- },
- {
   "sentence": "It's ___ one-way street, so you can't turn left here.",
   "answer": "a",
   "options": [
@@ -118,18 +58,6 @@
   ],
   "hint": "first mention of one of many",
   "explanation": "First mention of a countable noun takes 'a'; the second mention becomes 'the' (already written out here)."
- },
- {
-  "sentence": "She plays ___ piano beautifully.",
-  "answer": "the",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "musical instrument",
-  "explanation": "After 'play', musical instruments take 'the': play the piano."
  },
  {
   "sentence": "They sailed across ___ Mediterranean last summer.",
@@ -192,18 +120,6 @@
   "explanation": "The + adjective = a group of people: the rich."
  },
  {
-  "sentence": "We had ___ breakfast in bed on Sunday.",
-  "answer": "–",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "meal",
-  "explanation": "Meals take no article: have breakfast/lunch/dinner."
- },
- {
   "sentence": "She goes to ___ school by bus every morning.",
   "answer": "–",
   "options": [
@@ -214,30 +130,6 @@
   ],
   "hint": "set phrase: go to school/work",
   "explanation": "'Go to school/work/bed/church' (as participant) takes no article."
- },
- {
-  "sentence": "He speaks ___ Spanish fluently.",
-  "answer": "–",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "language",
-  "explanation": "Languages take no article: speak Spanish, learn English."
- },
- {
-  "sentence": "They play ___ golf every Saturday morning.",
-  "answer": "–",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "sport",
-  "explanation": "Sports take no article: play golf, play tennis (compare: play the piano)."
  },
  {
   "sentence": "I live on ___ Baker Street, near the tube station.",
@@ -348,18 +240,6 @@
   "explanation": "'At a speed of…' — 'a' is part of this fixed phrase."
  },
  {
-  "sentence": "He wants to become ___ engineer when he grows up.",
-  "answer": "an",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "profession, vowel sound",
-  "explanation": "Professions take a/an; 'engineer' starts with a vowel sound."
- },
- {
   "sentence": "We stayed at ___ hotel right next to the station.",
   "answer": "the",
   "options": [
@@ -430,30 +310,6 @@
   ],
   "hint": "specific building",
   "explanation": "Here 'the prison' is the building she visits, not the institution of imprisonment."
- },
- {
-  "sentence": "She arrived in ___ New York on Monday evening.",
-  "answer": "–",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "city name",
-  "explanation": "City names take no article: New York, London, Madrid."
- },
- {
-  "sentence": "What ___ lovely surprise to see you here!",
-  "answer": "a",
-  "options": [
-   "a",
-   "an",
-   "the",
-   "–"
-  ],
-  "hint": "exclamation with what",
-  "explanation": "'What a + adjective + noun' in exclamations: What a surprise!"
  },
  {
   "sentence": "It was such ___ awful weather that we stayed indoors.",
