@@ -1,0 +1,116 @@
+@page "/faq"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<PageTitle>FAQ — CAE Practice</PageTitle>
+
+<div class="page-shell faq-page">
+    <h1>Frequently asked questions</h1>
+    <p class="muted faq-intro">
+        Everything about how the trainer works, how your progress is stored, and how to run or extend it.
+    </p>
+
+    <div class="faq-list">
+        <details class="faq-item" open>
+            <summary>What is this site?</summary>
+            <div class="faq-body">
+                <p>
+                    A trainer for the <strong>Cambridge C1 Advanced (CAE)</strong> Reading &amp; Use of English
+                    paper — all four parts in exam format — plus focused drills for grammar and vocabulary
+                    topics (articles, prepositions, phrasal verbs, verb patterns, tenses, conditionals and more).
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>Do I need an account?</summary>
+            <div class="faq-body">
+                <p>
+                    No. You can practise immediately — your progress is then kept in this browser. If you
+                    register, your history is stored on the server and follows you across devices; when you
+                    log in for the first time, the work you did anonymously is merged into your account.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>How are sets chosen?</summary>
+            <div class="faq-body">
+                <p>
+                    Every task offers 110+ sets of 8 questions (6 for Part 4). A new set is one you have
+                    <em>never seen before</em> whenever possible; once you have exhausted the bank, the sets
+                    you saw longest ago come back first. Hint usage and revealed answers are excluded from
+                    your accuracy statistics.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>Are these real Cambridge exam papers?</summary>
+            <div class="faq-body">
+                <p>
+                    No. All content is <strong>original</strong>, written for this site in the CAE format.
+                    No Cambridge exam material is reproduced. Exam-style sets follow the real paper's layout;
+                    sets labelled <em>drill</em> are sentence-level practice on the same skills.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>Why was my answer marked wrong?</summary>
+            <div class="faq-body">
+                <p>
+                    Spelling counts. Case and punctuation are ignored, and common variants are accepted where
+                    they exist — after checking, the expected answer (and any accepted alternatives) is shown
+                    with an explanation. For Part 4, your answer must include the key word unchanged and stay
+                    within three to six words.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>How do hints affect my score?</summary>
+            <div class="faq-body">
+                <p>
+                    Hints never reveal the answer — they nudge you towards it. Using them marks the attempt
+                    with a 💡 in your history and in your per-task hint rate, but your accuracy is measured
+                    the same way. "Show answers" reveals everything and records the attempt as revealed,
+                    which is excluded from accuracy statistics entirely.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>Can I run this myself?</summary>
+            <div class="faq-body">
+                <p>
+                    Yes — it is a standard .NET 8 Blazor app. Locally: <code>dotnet run --project src/PracticingCAE.Web</code>.
+                    Anywhere: <code>docker compose up --build</code> — the SQLite database is created and migrated
+                    automatically inside the mounted volume, so users and progress survive restarts and upgrades.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>How can I add more practice content?</summary>
+            <div class="faq-body">
+                <p>
+                    The content lives as readable JSON. Edit the seed banks in
+                    <code>tools/ContentGen/Seeds/</code>, then run <code>dotnet run --project tools/ContentGen</code>.
+                    The generator validates every item (answers, hints, explanations, gap counts) and refuses
+                    to build if any task would drop below 100 sets.
+                </p>
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>What happens to my data?</summary>
+            <div class="faq-body">
+                <p>
+                    Accounts store only an email address and a password hash. Practice attempts are stored to
+                    compute your statistics. Nothing is shared with third parties, there are no trackers, and
+                    no cookies beyond what login and the anonymous-progress id require.
+                </p>
+            </div>
+        </details>
+    </div>
+</div>

@@ -411,3 +411,31 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
     box-shadow: 0 -4px 16px rgba(0,0,0,.08);
 }
 #blazor-error-ui .dismiss { cursor: pointer; margin-left: auto; }
+
+/* ---------- FAQ ---------- */
+.faq-page h1 { font-size: 1.7rem; font-weight: 800; margin-bottom: .3rem; }
+.faq-intro { margin-bottom: 1.5rem; }
+.faq-list { display: flex; flex-direction: column; gap: .7rem; }
+.faq-item {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); box-shadow: var(--shadow);
+    overflow: hidden;
+}
+.faq-item summary {
+    list-style: none; cursor: pointer;
+    padding: 1rem 1.25rem; font-weight: 700; font-size: 1rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+    content: "+"; font-size: 1.25rem; color: var(--primary);
+    font-weight: 800; line-height: 1; transition: transform .15s ease;
+}
+.faq-item[open] summary::after { transform: rotate(45deg); }
+.faq-item[open] summary { color: var(--primary-strong); }
+.faq-body { padding: 0 1.25rem 1.1rem; color: #3c455f; line-height: 1.6; }
+.faq-body p { margin: 0; }
+.faq-body code {
+    background: #eef0f8; color: var(--primary-strong);
+    padding: .1em .4em; border-radius: 6px; font-size: .88em;
+}

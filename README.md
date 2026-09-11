@@ -38,7 +38,40 @@ docker compose up --build
 ```
 
 Then open http://localhost:8088. Progress data persists in the `cae-data` volume
-(mounted at `/data` inside the container).
+(mounted at `/data` inside the container) — the database is created and migrated
+automatically on first start, so users, attempts and stats survive restarts and upgrades.
+
+The container port is bound to `127.0.0.1` — put a reverse proxy in front of it for
+public traffic (see below). `ASPNETCORE_FORWARDEDHEADERS_ENABLED=true` is already set
+so auth redirects keep https behind a proxy.
+
+### Deploying behind nginx (production)
+
+The app speaks plain HTTP on 8080; terminate TLS in nginx. WebSocket support is
+required for Blazor Server circuits:
+
+```nginx
+server {
+    listen 80;
+    server_name cae.example.com;
+
+    location / {
+        proxy_pass         http://127.0.0.1:8088;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection "upgrade";
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 3600s;   # Blazor circuit lifetime
+        proxy_buffering    off;
+    }
+}
+```
+
+Then `certbot --nginx -d cae.example.com` for TLS. This site is deployed exactly this
+way at `cae.ash-twin.com` (docker context `myvps` + nginx + Let's Encrypt).
 
 ## Repository layout
 

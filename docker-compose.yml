@@ -2,7 +2,11 @@ services:
   web:
     build: .
     ports:
-      - "8088:8080"
+      # loopback only — a local nginx (or other reverse proxy) fronts the container
+      - "127.0.0.1:8088:8080"
+    environment:
+      # honour X-Forwarded-Proto/Host from the reverse proxy so auth redirects keep https
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
     volumes:
       - cae-data:/data
     restart: unless-stopped
