@@ -1,0 +1,52 @@
+@using PracticingCAE.Web.Services
+
+@if (Points.Count == 0)
+{
+    <p class="muted chart-empty">@EmptyText</p>
+}
+else
+{
+    <svg viewBox="0 0 @Width @Height" class="line-chart" role="img" aria-label="Accuracy chart">
+        @{
+            var padL = 34; var padR = 10; var padT = 10; var padB = 22;
+            var innerW = Width - padL - padR;
+            var innerH = Height - padT - padB;
+            var n = Points.Count;
+            double X(int i) => n == 1 ? padL + innerW / 2.0 : padL + innerW * i / (n - 1.0);
+            double Y(double pct) => padT + innerH * (1 - pct / 100.0);
+        }
+        <!-- gridlines at 0/50/100% -->
+        <line x1="@padL" y1="@Y(0)" x2="@(padL + innerW)" y2="@Y(0)" class="ch-grid" />
+        <line x1="@padL" y1="@Y(50)" x2="@(padL + innerW)" y2="@Y(50)" class="ch-grid" />
+        <line x1="@padL" y1="@Y(100)" x2="@(padL + innerW)" y2="@Y(100)" class="ch-grid" />
+        <text x="4" y="@(Y(100) + 4)" class="ch-label">100</text>
+        <text x="4" y="@(Y(50) + 4)" class="ch-label">50</text>
+        <text x="10" y="@(Y(0) + 4)" class="ch-label">0</text>
+
+        @if (n == 1)
+        {
+            <circle cx="@X(0)" cy="@Y(Points[0].Accuracy)" r="4" class="ch-dot" />
+        }
+        else
+        {
+            <polyline class="ch-line"
+                      points="@string.Join(" ", Points.Select((p, i) => $"{X(i):0.##},{Y(p.Accuracy):0.##}"))" />
+            @for (var i = 0; i < n; i++)
+            {
+                var i2 = i;
+                <circle cx="@X(i2)" cy="@Y(Points[i2].Accuracy)" r="3.5" class="ch-dot">
+                    <title>@Points[i2].Day.ToString("d MMM") — @Points[i2].Correct/@Points[i2].Items (@Points[i2].Accuracy:0%)</title>
+                </circle>
+            }
+        }
+        <text x="@padL" y="@(Height - 6)" class="ch-label">@Points[0].Day.ToString("d MMM")</text>
+        <text x="@(padL + innerW)" y="@(Height - 6)" text-anchor="end" class="ch-label">@Points[^1].Day.ToString("d MMM")</text>
+    </svg>
+}
+
+@code {
+    [Parameter] public IReadOnlyList<DailyPoint> Points { get; set; } = Array.Empty<DailyPoint>();
+    [Parameter] public int Width { get; set; } = 560;
+    [Parameter] public int Height { get; set; } = 220;
+    [Parameter] public string EmptyText { get; set; } = "No practice recorded in this period yet.";
+}

@@ -1,0 +1,347 @@
+@page "/practice/{TaskId}"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@using PracticingCAE.Web.Services
+@inject ContentRepository Content
+@inject SetSelector Selector
+@inject ProgressService Progress
+@inject OwnerResolver Owner
+@inject NavigationManager Nav
+
+<PageTitle>@(_task?.Title ?? "Practice") — CAE Practice</PageTitle>
+
+@if (_loading)
+{
+    <div class="page-shell"><p class="muted">Loading a set…</p></div>
+}
+else if (_task is null)
+{
+    <div class="page-shell">
+        <h1>Task not found</h1>
+        <p>No task with id “@TaskId”. <a href="/">Back to the overview.</a></p>
+    </div>
+}
+else if (_set is null || _gaps.Count == 0)
+{
+    <div class="page-shell">
+        <h1>@_task.Emoji @_task.Title</h1>
+        <p class="muted">No content available for this task yet.</p>
+        <p><a class="btn btn-outline-primary" href="/">← All tasks</a></p>
+    </div>
+}
+else
+{
+    <div class="page-shell practice-page">
+        <div class="practice-head">
+            <div>
+                <h1>@_task.Emoji @_task.Title</h1>
+                <p class="muted practice-sub">
+                    @_task.Subtitle · set @_set.Id ·
+                    <span class="badge @(IsExamStyle ? "badge-exam" : "badge-drill")">@_set.Source</span>
+                </p>
+            </div>
+            <div class="practice-actions">
+                <button class="btn btn-soft" @onclick="RevealAllHints" disabled="@_checked" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
+                <button class="btn btn-soft" @onclick="RevealAnswers" disabled="@_checked" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
+                <button class="btn btn-primary" @onclick="Check" disabled="@_checked">✔ Check</button>
+                <button class="btn btn-accent" @onclick="NextSet">Next set →</button>
+            </div>
+        </div>
+
+        @_task.Description
+
+        @if (_checked && _result is not null)
+        {
+            var pct = 100 * _result.CorrectCount / Math.Max(1, _result.Total);
+            <div class="score-banner @(pct == 100 ? "score-perfect" : pct >= 60 ? "score-good" : "score-weak")">
+                <strong>@_result.CorrectCount / @_result.Total correct</strong>
+                <span>@(pct == 100 ? "Perfect! 🎉" : pct >= 60 ? "Good — check the gaps below." : "Keep going — review the explanations below.")</span>
+                <button class="btn btn-primary btn-sm" @onclick="NextSet">Next set →</button>
+            </div>
+        }
+
+        @if (IsCloze)
+        {
+            <div class="cloze-text">
+                @foreach (var seg in ContentRepository.ParseCloze(_set.Text))
+                {
+                    if (seg.Gap is { } n)
+                    {
+                        <span class="gap-marker" data-gap="@n">@n</span>
+                    }
+                    else
+                    {
+                        <span>@seg.Text</span>
+                    }
+                }
+            </div>
+        }
+
+        <div class="gap-list">
+            @for (var i = 0; i < _gaps.Count; i++)
+            {
+                var idx = i;
+                var gap = _gaps[i];
+                <div class="gap-row @(FeedbackClass(idx))">
+                    <div class="gap-num">@(idx + 1)</div>
+                    <div class="gap-body">
+                        @if (gap.Lead is not null)
+                        {
+                            <p class="gap-lead">@gap.Lead</p>
+                        }
+                        @if (IsCloze)
+                        {
+                            <div class="gap-answerline">
+                                <span class="gap-marker-static">@idx1(idx)</span>
+                                @if (gap.Base is not null)
+                                {
+                                    <span class="base-badge">@gap.Base</span>
+                                }
+                                @if (gap.Options.Count > 0)
+                                {
+                                    <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
+                                        @foreach (var opt in gap.Options)
+                                        {
+                                            var o = opt;
+                                            <button type="button" role="radio"
+                                                    class="opt-pill @(_answers[idx] == o ? "opt-selected" : "") @OptionFeedback(idx, o)"
+                                                    disabled="@_checked"
+                                                    @onclick="() => SelectOption(idx, o)">@o</button>
+                                        }
+                                    </div>
+                                }
+                                else
+                                {
+                                    <input class="gap-input" @bind="_answers[idx]" @bind:after="() => ClearFeedback(idx)"
+                                           disabled="@_checked" placeholder="your answer"
+                                           aria-label="Answer for question @(idx + 1)" />
+                                }
+                                <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
+                                        @onclick="() => ShowHint(idx)">💡</button>
+                            </div>
+                        }
+                        else if (gap.Sentence is not null)
+                        {
+                            var parts = ContentRepository.SplitSentence(gap.Sentence);
+                            <div class="gap-answerline">
+                                @if (parts is not null)
+                                {
+                                    <span class="sentence">@parts.Value.before</span>
+                                    if (gap.Options.Count > 0)
+                                    {
+                                        <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
+                                            @foreach (var opt in gap.Options)
+                                            {
+                                                var o = opt;
+                                                <button type="button" role="radio"
+                                                        class="opt-pill @(_answers[idx] == o ? "opt-selected" : "") @OptionFeedback(idx, o)"
+                                                        disabled="@_checked"
+                                                        @onclick="() => SelectOption(idx, o)">@o</button>
+                                            }
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <input class="gap-input gap-input-wide" @bind="_answers[idx]"
+                                               disabled="@_checked" placeholder="your answer"
+                                               aria-label="Answer for question @(idx + 1)" />
+                                    }
+                                    <span class="sentence">@parts.Value.after</span>
+                                }
+                                else
+                                {
+                                    <span class="sentence">@gap.Sentence</span>
+                                }
+                                @if (gap.Keyword is not null)
+                                {
+                                    <span class="base-badge" title="Use this word">@gap.Keyword</span>
+                                }
+                                <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
+                                        @onclick="() => ShowHint(idx)">💡</button>
+                            </div>
+                        }
+                        @if (_hints[idx] && !string.IsNullOrWhiteSpace(gap.Hint))
+                        {
+                            <p class="hint-text">💡 @gap.Hint</p>
+                        }
+                        @if (_checked)
+                        {
+                            var r = _result!.Gaps[idx];
+                            <p class="feedback-text @(r.IsCorrect ? "fb-ok" : "fb-bad")">
+                                @if (r.IsCorrect)
+                                {
+                                    <text>✔ Correct.</text>
+                                }
+                                else
+                                {
+                                    <text>✘ Answer: <strong>@gap.Answer</strong>
+                                    @if (gap.Accept.Count > 0)
+                                    {
+                                        <text> (also accepted: @string.Join(", ", gap.Accept))</text>
+                                    }
+                                    </text>
+                                }
+                            </p>
+                            @if (!string.IsNullOrWhiteSpace(gap.Explanation))
+                            {
+                                <p class="explanation">📖 @gap.Explanation</p>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="practice-foot">
+            <a href="/">← All tasks</a>
+            @if (_task.Id.StartsWith("rue"))
+            {
+                <span class="muted">Exam format: @ExamFormatNote</span>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public string TaskId { get; set; } = "";
+
+    private TaskDef? _task;
+    private PracticeSet? _set;
+    private List<PracticeGap> _gaps = new();
+    private string[] _answers = Array.Empty<string>();
+    private bool[] _hints = Array.Empty<bool>();
+    private bool _checked;
+    private bool _loading = true;
+    private SetResult? _result;
+    private string? _ownerId;
+
+    private bool IsCloze => _task is { Kind: SetKind.Rue1 or SetKind.Rue2 or SetKind.Rue3 };
+    private bool IsExamStyle => _set?.Source == "exam-style";
+
+    private static string idx1(int i) => (i + 1).ToString();
+
+    private string ExamFormatNote => _task?.Kind switch
+    {
+        SetKind.Rue1 => "8 gaps, choose A–D",
+        SetKind.Rue2 => "8 gaps, one word each",
+        SetKind.Rue3 => "8 gaps, use the base word",
+        SetKind.Rue4 => "6 items, 3–6 words including the key word",
+        _ => ""
+    } ?? "";
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var task = Content.FindTask(TaskId);
+        if (task != _task)
+        {
+            _task = task;
+            await LoadSet();
+        }
+        _loading = false;
+    }
+
+    private async Task LoadSet()
+    {
+        _loading = true;
+        _ownerId = await Owner.GetOwnerIdAsync();
+        var set = _task is null ? null : await Selector.NextSetAsync(_ownerId, _task.Id);
+        ApplySet(set);
+        _loading = false;
+    }
+
+    private void ApplySet(PracticeSet? set)
+    {
+        _set = set;
+        _gaps = set?.Gaps ?? new List<PracticeGap>();
+        _answers = new string[_gaps.Count];
+        _hints = new bool[_gaps.Count];
+        _checked = false;
+        _result = null;
+    }
+
+    private void SelectOption(int idx, string option)
+    {
+        _answers[idx] = option;
+    }
+
+    private void ShowHint(int idx)
+    {
+        _hints[idx] = true;
+    }
+
+    private void RevealAllHints()
+    {
+        for (var i = 0; i < _hints.Length; i++) _hints[i] = true;
+    }
+
+    private async Task RevealAnswers()
+    {
+        if (_set is null || _checked) return;
+        for (var i = 0; i < _gaps.Count; i++)
+        {
+            _answers[i] = _gaps[i].Answer;
+            _hints[i] = true;
+        }
+        var revealed = new SetResult(false, _hints.Any(h => h),
+            _gaps.Select((g, i) => new GapResult(i, "", false, _hints[i], g.Answer, g.Explanation)).ToList());
+        _result = revealed;
+        _checked = true;
+        try
+        {
+            var owner = await Owner.GetOwnerIdAsync();
+            await Progress.SaveAttemptAsync(owner, _set, revealed, answersRevealed: true);
+        }
+        catch (Exception)
+        {
+            // progress is best-effort; never block practice
+        }
+    }
+
+    private async Task Check()
+    {
+        if (_set is null || _checked) return;
+        var results = new List<GapResult>();
+        for (var i = 0; i < _gaps.Count; i++)
+        {
+            var gap = _gaps[i];
+            var ok = AnswerChecker.IsCorrect(_answers[i], gap);
+            results.Add(new GapResult(i, _answers[i] ?? "", ok, _hints[i], gap.Answer, gap.Explanation));
+        }
+        var result = new SetResult(results.All(r => r.IsCorrect), _hints.Any(h => h), results);
+        _result = result;
+        _checked = true;
+        try
+        {
+            var owner = await Owner.GetOwnerIdAsync();
+            await Progress.SaveAttemptAsync(owner, _set, result);
+        }
+        catch (Exception)
+        {
+            // progress is best-effort; never block practice
+        }
+    }
+
+    private async Task NextSet()
+    {
+        await LoadSet();
+    }
+
+    private void ClearFeedback(int idx)
+    {
+        StateHasChanged();
+    }
+
+    private string FeedbackClass(int idx)
+    {
+        if (!_checked || _result is null) return "";
+        return _result.Gaps[idx].IsCorrect ? "row-ok" : "row-bad";
+    }
+
+    private string OptionFeedback(int idx, string option)
+    {
+        if (!_checked || _result is null) return "";
+        var gap = _gaps[idx];
+        if (option == gap.Answer) return "opt-correct";
+        if (_answers[idx] == option) return "opt-wrong";
+        return "";
+    }
+}

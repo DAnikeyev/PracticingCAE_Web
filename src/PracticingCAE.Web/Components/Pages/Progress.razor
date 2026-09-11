@@ -1,0 +1,164 @@
+@page "/progress"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@using PracticingCAE.Web.Services
+@inject ContentRepository Content
+@inject ProgressService ProgressSvc
+@inject OwnerResolver Owner
+
+<PageTitle>My progress — CAE Practice</PageTitle>
+
+<div class="page-shell">
+    <h1>My progress</h1>
+
+    @if (_overview is null)
+    {
+        <p class="muted">Loading…</p>
+    }
+    else if (_overview.TotalAttempts == 0)
+    {
+        <p class="muted">No practice recorded yet. Pick a task on the <a href="/">home page</a> and complete a set.</p>
+    }
+    else
+    {
+        <div class="stat-cards">
+            <div class="stat-card"><div class="stat-num">@_overview.TotalAttempts</div><div class="stat-label">sets completed</div></div>
+            <div class="stat-card"><div class="stat-num">@_overview.TotalItems</div><div class="stat-label">questions answered</div></div>
+            <div class="stat-card"><div class="stat-num">@_overview.OverallAccuracy.ToString("0")%</div><div class="stat-label">overall accuracy</div></div>
+            <div class="stat-card"><div class="stat-num">@_overview.SetsStarted</div><div class="stat-label">distinct sets seen</div></div>
+        </div>
+
+        <h2>Accuracy over time</h2>
+        <div class="panel">
+            <div class="chart-controls">
+                <label>
+                    Task:
+                    <select @bind="_chartTask" @bind:after="ReloadSeriesAsync">
+                        <option value="">All tasks</option>
+                        @foreach (var t in Content.Tasks.Where(t => _taskStats.Any(s => s.TaskId == t.Id)))
+                        {
+                            <option value="@t.Id">@t.Emoji @t.Title</option>
+                        }
+                    </select>
+                </label>
+                <label>
+                    Period:
+                    <select @bind="_chartDays" @bind:after="ReloadSeriesAsync">
+                        <option value="7">last 7 days</option>
+                        <option value="30">last 30 days</option>
+                        <option value="90">last 90 days</option>
+                    </select>
+                </label>
+            </div>
+            <LineChart Points="_series" Height="240" />
+        </div>
+
+        <h2>By task</h2>
+        <div class="panel table-wrap">
+            <table class="stats-table">
+                <thead>
+                    <tr><th>Task</th><th>Sets</th><th>Questions</th><th>Accuracy</th><th>Hint use</th><th>Last practiced</th><th></th></tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in _taskStats)
+                    {
+                        var def = Content.FindTask(s.TaskId);
+                        <tr>
+                            <td>@(def is null ? s.TaskId : $"{def.Emoji} {def.Title}")</td>
+                            <td>@s.Attempts</td>
+                            <td>@s.ItemsCorrect/@s.ItemsAttempted</td>
+                            <td>
+                                <div class="acc-cell">
+                                    <div class="acc-bar"><div class="acc-fill" style="width:@s.Accuracy.ToString("0")%"></div></div>
+                                    <span>@s.Accuracy.ToString("0")%</span>
+                                </div>
+                            </td>
+                            <td>@s.HintRate.ToString("0")%</td>
+                            <td class="muted">@LocalTime(s.LastPracticedUtc)</td>
+                            <td><a href="/practice/@s.TaskId">practise →</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @if (_mistakes.Count > 0)
+        {
+            <h2>Most frequent mistakes</h2>
+            <div class="panel">
+                <ul class="mistake-list">
+                    @foreach (var m in _mistakes)
+                    {
+                        <li>
+                            <code>@m.Expected</code>
+                            <span class="muted">missed ×@m.Times in @(Content.FindTask(m.TaskId)?.Title ?? m.TaskId)</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <h2>Recent history</h2>
+        <div class="panel table-wrap">
+            <table class="stats-table">
+                <thead>
+                    <tr><th>When</th><th>Task</th><th>Set</th><th>Score</th><th>Notes</th></tr>
+                </thead>
+                <tbody>
+                    @foreach (var h in _history)
+                    {
+                        var def = Content.FindTask(h.TaskId);
+                        <tr>
+                            <td class="muted">@LocalTime(h.TimestampUtc)</td>
+                            <td>@(def is null ? h.TaskId : def.Title)</td>
+                            <td class="muted">@h.SetId</td>
+                            <td>@h.CorrectCount/@h.ItemCount</td>
+                            <td>@(h.HintUsed ? "💡 hints" : "")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@code {
+    private ProgressOverview? _overview;
+    private List<TaskStat> _taskStats = new();
+    private List<DailyPoint> _series = new();
+    private List<ProgressService.HistoryRow> _history = new();
+    private List<(string Expected, int Times, string TaskId)> _mistakes = new();
+    private string _chartTask = "";
+    private int _chartDays = 30;
+    private string? _ownerId;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _ownerId = await Owner.GetOwnerIdAsync();
+            await ReloadAsync();
+            StateHasChanged();
+        }
+    }
+
+    private async Task ReloadAsync()
+    {
+        if (_ownerId is null) return;
+        _overview = await ProgressSvc.GetOverviewAsync(_ownerId);
+        _taskStats = await ProgressSvc.GetTaskStatsAsync(_ownerId);
+        _history = await ProgressSvc.GetHistoryAsync(_ownerId);
+        _mistakes = await ProgressSvc.GetTopMistakesAsync(_ownerId);
+        await ReloadSeriesAsync();
+    }
+
+    private async Task ReloadSeriesAsync()
+    {
+        if (_ownerId is null) return;
+        _series = await ProgressSvc.GetDailySeriesAsync(_ownerId, string.IsNullOrEmpty(_chartTask) ? null : _chartTask, _chartDays);
+        StateHasChanged();
+    }
+
+    private static string LocalTime(DateTime? utc) => utc is null
+        ? "—"
+        : utc.Value.ToLocalTime().ToString("g");
+}

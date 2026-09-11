@@ -1,0 +1,78 @@
+@page "/"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@using PracticingCAE.Web.Services
+@inject ContentRepository Content
+@inject ProgressService ProgressSvc
+@inject OwnerResolver Owner
+
+<PageTitle>CAE Practice — C1 Reading &amp; Use of English trainer</PageTitle>
+
+<div class="page-shell">
+    <section class="hero">
+        <h1>CAE Practice <span class="hero-flag">C1</span></h1>
+        <p>
+            Trainer for the <strong>Cambridge C1 Advanced (CAE)</strong> Reading &amp; Use of English paper,
+            plus focused drills for grammar and vocabulary topics. Every new set picks something you
+            haven’t seen before whenever possible; check your answers with hints and explanations.
+        </p>
+        @if (_overview is not null && _overview.TotalItems > 0)
+        {
+            <p class="hero-stats">
+                So far: <strong>@_overview.TotalAttempts</strong> sets completed ·
+                <strong>@_overview.TotalItems</strong> questions answered ·
+                <strong>@_overview.OverallAccuracy.ToString("0")%</strong> accuracy
+                <a href="/progress">see progress →</a>
+            </p>
+        }
+    </section>
+
+    @foreach (var group in Content.Tasks.GroupBy(t => t.Group).OrderBy(g => g.Key))
+    {
+        <h2 class="group-title">@group.Key</h2>
+        <div class="card-grid">
+            @foreach (var task in group)
+            {
+                <a class="task-card" href="/practice/@task.Id">
+                    <div class="task-card-head">
+                        <span class="task-emoji">@task.Emoji</span>
+                        <h3>@task.Title</h3>
+                    </div>
+                    <p class="task-sub">@task.Subtitle</p>
+                    <p class="task-desc">@task.Description</p>
+                    <div class="task-card-foot">
+                        <span class="badge @(task.Kind == SetKind.Topic ? "badge-drill" : "badge-exam")">
+                            @(task.Kind == SetKind.Topic ? "topic drill" : "exam style")
+                        </span>
+                        <span class="muted">@Content.SetCount(task.Id) sets · @task.QuestionsPerSet questions each</span>
+                    </div>
+                </a>
+            }
+        </div>
+    }
+
+    <p class="muted home-note">
+        Progress is tracked in this browser even without an account — register or log in and your
+        history moves with your account.
+    </p>
+</div>
+
+@code {
+    private ProgressOverview? _overview;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            try
+            {
+                var owner = await Owner.GetOwnerIdAsync();
+                _overview = await ProgressSvc.GetOverviewAsync(owner);
+                StateHasChanged();
+            }
+            catch (Exception)
+            {
+                // stats are optional decoration on the home page
+            }
+        }
+    }
+}

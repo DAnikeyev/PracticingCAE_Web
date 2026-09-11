@@ -1,0 +1,23 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+artifacts/
+
+## databases — progress data is per-deployment, never committed
+*.db
+*.db-shm
+*.db-wal
+
+## tooling
+.dotnet/
+.nuget/
+TestResults/
+*.log
+
+## OS
+Thumbs.db
+.DS_Store
