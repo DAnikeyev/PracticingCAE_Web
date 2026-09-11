@@ -1,0 +1,281 @@
+[
+ {
+  "title": "The secret life of the octopus",
+  "text": "The octopus is without doubt one of the ocean's most {{1}} (MYSTERY) creatures. Scientists describe its intelligence as genuinely {{2}} (REMARK), noting that octopuses can solve puzzles, open jars and even recognise individual keepers. Their eight arms contain more neurons than their brain, giving each arm a degree of {{3}} (INDEPENDENT). Perhaps strangest of all is their talent for disguise: an octopus can change both colour and skin {{4}} (TEXTURE) in less than a second. Some researchers argue that such {{5}} (FLEXIBLE) could only have evolved under intense pressure. Unfortunately, captive octopuses often show signs of {{6}} (BORE), escaping tanks and dismantling equipment. Their short lives — usually just two years — make their achievements all the more {{7}} (ASTONISH). Protecting their deep-sea habitats is now seen as a scientific {{8}} (NECESSARY) rather than a luxury.",
+  "gaps": [
+   {
+    "answer": "mysterious",
+    "base": "MYSTERY",
+    "hint": "adjective after 'most'",
+    "explanation": "Superlative + adjective: most mysterious."
+   },
+   {
+    "answer": "remarkable",
+    "base": "REMARK",
+    "hint": "adjective after 'genuinely'",
+    "explanation": "'genuinely remarkable' — adjective needed."
+   },
+   {
+    "answer": "independence",
+    "base": "INDEPENDENT",
+    "hint": "noun after 'of'",
+    "explanation": "'a degree of independence' — noun form."
+   },
+   {
+    "answer": "texture",
+    "base": "TEXTURE",
+    "hint": "noun: surface quality",
+    "explanation": "'skin texture' — the noun here keeps the base form."
+   },
+   {
+    "answer": "flexibility",
+    "base": "FLEXIBLE",
+    "hint": "noun after 'such'",
+    "explanation": "'such flexibility' — noun form of flexible."
+   },
+   {
+    "answer": "boredom",
+    "base": "BORE",
+    "hint": "noun: the state",
+    "explanation": "'signs of boredom' — the state of being bored."
+   },
+   {
+    "answer": "astonishing",
+    "base": "ASTONISH",
+    "hint": "adjective: causing astonishment",
+    "explanation": "The achievements cause astonishment: astonishing."
+   },
+   {
+    "answer": "necessity",
+    "base": "NECESSARY",
+    "hint": "noun after 'a scientific'",
+    "explanation": "'a scientific necessity' — noun form of necessary."
+   }
+  ]
+ },
+ {
+  "title": "How coffee conquered the world",
+  "text": "Coffee's rise from Ethiopian legend to global habit is a story of trade and obsession. By the seventeenth century, coffee houses had become centres of {{1}} (POLITICS) debate; some rulers briefly banned them, fearing revolution. Coffee's stimulating effect comes from caffeine, a natural chemical the plant produces for its own {{2}} (PROTECT). Today, coffee is grown in over seventy countries and supports the {{3}} (LIVE) of some 125 million people. Yet the industry faces an uncertain future: rising temperatures are making traditional growing regions less {{4}} (SUIT). Scientists are developing more {{5}} (RESIST) varieties, though purists complain about the taste. Coffee drinkers remain fiercely {{6}} (LOYAL) to their favourite blends. For millions of people, the morning cup is simply {{7}} (DISPENSE) — a small daily ritual. Few products can match its combination of {{8}} (POPULAR) and profitability.",
+  "gaps": [
+   {
+    "answer": "political",
+    "base": "POLITICS",
+    "hint": "adjective before 'debate'",
+    "explanation": "'political debate' — adjective from politics."
+   },
+   {
+    "answer": "protection",
+    "base": "PROTECT",
+    "hint": "noun after 'own'",
+    "explanation": "'for its own protection' — noun from protect."
+   },
+   {
+    "answer": "livelihoods",
+    "base": "LIVE",
+    "hint": "plural noun: incomes",
+    "explanation": "'livelihoods' = sources of income; live → livelihood."
+   },
+   {
+    "answer": "suitable",
+    "base": "SUIT",
+    "hint": "adjective after 'less'",
+    "explanation": "'less suitable' — adjective from suit."
+   },
+   {
+    "answer": "resistant",
+    "base": "RESIST",
+    "hint": "adjective: able to resist",
+    "explanation": "'resistant varieties' — adjective from resist."
+   },
+   {
+    "answer": "loyal",
+    "base": "LOYAL",
+    "hint": "adjective after 'fiercely'",
+    "explanation": "'fiercely loyal' — the adjective keeps the base form."
+   },
+   {
+    "answer": "indispensable",
+    "base": "DISPENSE",
+    "hint": "adjective: essential",
+    "explanation": "'indispensable' = impossible to do without."
+   },
+   {
+    "answer": "popularity",
+    "base": "POPULAR",
+    "hint": "noun after 'of'",
+    "explanation": "'its combination of popularity and profitability' — noun forms of both adjectives."
+   }
+  ]
+ },
+ {
+  "title": "Ada Lovelace, the first programmer",
+  "text": "Ada Lovelace, born in 1815, is now celebrated as a pioneer of computing, yet her {{1}} (CONTRIBUTE) was ignored for a century. Daughter of the poet Byron, she was educated in mathematics by her anxious mother, who hoped numbers would discourage any poetic {{2}} (INCLINE). When Ada met Charles Babbage, she was immediately fascinated by his design for a mechanical {{3}} (CALCULATE) engine. Her notes on the machine include what is now regarded as the first computer {{4}} (OPERATE) in history. More strikingly, she foresaw that such machines could manipulate any symbols, not just numbers — an idea of extraordinary {{5}} (DEEP). Babbage, ironically, showed less {{6}} (ENTHUSIASTIC) for this abstraction than she did. Ada died young, and her work sank into {{7}} (OBSCURE) until the twentieth century. Today, her notes are admired as a triumph of scientific {{8}} (IMAGINE).",
+  "gaps": [
+   {
+    "answer": "contribution",
+    "base": "CONTRIBUTE",
+    "hint": "noun after 'her'",
+    "explanation": "'her contribution' — noun from contribute."
+   },
+   {
+    "answer": "inclinations",
+    "base": "INCLINE",
+    "hint": "plural noun: tendencies",
+    "explanation": "'poetic inclinations' — noun from incline.",
+    "accept": [
+     "inclination"
+    ]
+   },
+   {
+    "answer": "calculating",
+    "base": "CALCULATE",
+    "hint": "adjective before 'engine'",
+    "explanation": "'calculating engine' — Babbage's machine was a calculating engine."
+   },
+   {
+    "answer": "operation",
+    "base": "OPERATE",
+    "hint": "noun after 'computer'",
+    "explanation": "'computer operation' — the noun from operate; the notes describe operations."
+   },
+   {
+    "answer": "depth",
+    "base": "DEEP",
+    "hint": "noun after 'extraordinary'",
+    "explanation": "'extraordinary depth' — deep → depth."
+   },
+   {
+    "answer": "enthusiasm",
+    "base": "ENTHUSIASTIC",
+    "hint": "noun after 'less'",
+    "explanation": "'showed less enthusiasm' — the noun form here."
+   },
+   {
+    "answer": "obscurity",
+    "base": "OBSCURE",
+    "hint": "noun after 'into'",
+    "explanation": "'sank into obscurity' — noun from obscure."
+   },
+   {
+    "answer": "imagination",
+    "base": "IMAGINE",
+    "hint": "noun after 'scientific'",
+    "explanation": "'scientific imagination' — noun from imagine."
+   }
+  ]
+ },
+ {
+  "title": "Living walls",
+  "text": "Vertical gardens, or 'living walls', are transforming city architecture. A living wall is a whole surface covered in plants, watered by {{1}} (CONCEAL) irrigation systems. Their benefits go far beyond {{2}} (APPEAR). The plants insulate buildings, cutting energy use, and their leaves trap dust and pollution, measurably improving air {{3}} (QUALIFY). In hot summers a living wall can keep a facade twenty degrees cooler, an effect that has made them {{4}} (INCREASE) popular with city planners. Maintenance, however, is demanding: systems fail if pumps break, and {{5}} (REPAIR) can be costly. The world's largest living wall, in Milan, contains over 44,000 plants and has become a tourist {{6}} (ATTRACT). Critics dismiss such projects as temporary {{7}} (FASHION), but research increasingly supports their {{8}} (EFFECT) at cooling streets and cleaning air.",
+  "gaps": [
+   {
+    "answer": "concealed",
+    "base": "CONCEAL",
+    "hint": "participle adjective: hidden",
+    "explanation": "'concealed irrigation' — hidden, a passive participle."
+   },
+   {
+    "answer": "appearance",
+    "base": "APPEAR",
+    "hint": "noun after 'beyond'",
+    "explanation": "'beyond appearance' — noun from appear."
+   },
+   {
+    "answer": "quality",
+    "base": "QUALIFY",
+    "hint": "the noun of this family",
+    "explanation": "'air quality' — the related noun is quality."
+   },
+   {
+    "answer": "increasingly",
+    "base": "INCREASE",
+    "hint": "adverb before 'popular'",
+    "explanation": "'increasingly popular' — adverb from increase."
+   },
+   {
+    "answer": "repairs",
+    "base": "REPAIR",
+    "hint": "plural noun after 'and'",
+    "explanation": "'repairs can be costly' — the plural noun.",
+    "accept": [
+     "repair"
+    ]
+   },
+   {
+    "answer": "attraction",
+    "base": "ATTRACT",
+    "hint": "noun after 'tourist'",
+    "explanation": "'tourist attraction' — noun from attract."
+   },
+   {
+    "answer": "fashions",
+    "base": "FASHION",
+    "hint": "plural noun: passing trends",
+    "explanation": "'temporary fashions' — plural of fashion.",
+    "accept": [
+     "fashion"
+    ]
+   },
+   {
+    "answer": "effectiveness",
+    "base": "EFFECT",
+    "hint": "noun: how well it works",
+    "explanation": "'their effectiveness' — noun from effective."
+   }
+  ]
+ },
+ {
+  "title": "The psychology of queues",
+  "text": "Queues are a strange form of organised {{1}} (PATIENT). We join them daily, yet psychologists find them endlessly {{2}} (INTEREST). Research shows that waiting feels longer when it is {{3}} (EXPLAIN), unoccupied time is painful, and — crucially — fairness matters more than length. A queue that jumps ahead of us enrages us even when the total wait is unchanged. Airports have exploited this by moving baggage claim further from arrivals: passengers walk rather than wait, and complaints have dropped {{4}} (DRAMA). Supermarkets, meanwhile, prefer to hide the mathematics: several shorter queues feel fairer than one long queue, even when they are less {{5}} (EFFICIENT). Some companies now offer virtual queues, promising a text message instead of standing in line. The technology is {{6}} (DOUBT) clever, but it removes the chance to chat to strangers, which some sociologists regret. Queue behaviour also changes with culture: in some countries the gentle {{7}} (PRESS) of a crowd counts as a place in line, while in Britain a row of shopping baskets marks the social {{8}} (ORDER) of the queue itself.",
+  "gaps": [
+   {
+    "answer": "patience",
+    "base": "PATIENT",
+    "hint": "noun after 'of'",
+    "explanation": "'organised patience' — noun from patient."
+   },
+   {
+    "answer": "interesting",
+    "base": "INTEREST",
+    "hint": "adjective: causing interest",
+    "explanation": "Queues cause interest: they are interesting."
+   },
+   {
+    "answer": "unexplained",
+    "base": "EXPLAIN",
+    "hint": "negative participle: with no reason given",
+    "explanation": "'unexplained' waits feel longer — negative prefix un-."
+   },
+   {
+    "answer": "dramatically",
+    "base": "DRAMA",
+    "hint": "adverb after 'dropped'",
+    "explanation": "'dropped dramatically' — adverb from drama."
+   },
+   {
+    "answer": "efficient",
+    "base": "EFFICIENT",
+    "hint": "adjective after 'less'",
+    "explanation": "'less efficient' — adjective."
+   },
+   {
+    "answer": "undoubtedly",
+    "base": "DOUBT",
+    "hint": "adverb: without doubt",
+    "explanation": "'undoubtedly clever' — adverb from doubt."
+   },
+   {
+    "answer": "pressure",
+    "base": "PRESS",
+    "hint": "noun after 'gentle'",
+    "explanation": "'gentle pressure of a crowd' — noun from press."
+   },
+   {
+    "answer": "order",
+    "base": "ORDER",
+    "hint": "noun: the arrangement",
+    "explanation": "'social order of the queue' — the noun keeps the base form."
+   }
+  ]
+ }
+]

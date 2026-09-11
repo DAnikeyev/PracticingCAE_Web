@@ -1,0 +1,869 @@
+[
+ {
+  "title": "The friendship paradox",
+  "text": "Social scientists have noticed a curious pattern: on average, your friends have more friends than you {{1}}. This 'friendship paradox' is not an insult {{2}} at your social life but simple mathematics. Popular people appear in more people's lists of friends, so when you sample friends randomly, you {{3}} up oversampling popular people. The same logic {{4}} why your sexual partners' partners seem busier, why co-authors have more publications than you, and why the people you follow online seem to lead richer lives. Researchers {{5}} that the effect can distort our judgement: we compare ourselves with an unusually glittering sample of humanity and find ourselves {{6}}. The paradox even has practical {{7}}: during a flu outbreak, checking the friends of randomly chosen people detects epidemics weeks earlier, because well-connected individuals {{8}} infections first. Sometimes being average has its {{9}}.",
+  "gaps": [
+   {
+    "answer": "do",
+    "options": [
+     "do",
+     "make",
+     "have",
+     "get"
+    ],
+    "hint": "auxiliary for emphasis",
+    "explanation": "'more friends than you do' — do substitutes for the verb."
+   },
+   {
+    "answer": "aimed",
+    "options": [
+     "aimed",
+     "directed",
+     "pointed",
+     "thrown"
+    ],
+    "hint": "an insult ___ at something",
+    "explanation": "'aimed at' — fixed participle."
+   },
+   {
+    "answer": "end",
+    "options": [
+     "end",
+     "turn",
+     "come",
+     "finish"
+    ],
+    "hint": "___ up = eventually",
+    "explanation": "'end up + -ing' = eventually be in a state."
+   },
+   {
+    "answer": "explains",
+    "options": [
+     "explains",
+     "expresses",
+     "tells",
+     "says"
+    ],
+    "hint": "gives the reason for",
+    "explanation": "'explains why' = gives the reason why."
+   },
+   {
+    "answer": "argue",
+    "options": [
+     "argue",
+     "announce",
+     "notify",
+     "mention to"
+    ],
+    "hint": "claim, maintain (researchers)",
+    "explanation": "'researchers argue' = claim/maintain a position."
+   },
+   {
+    "answer": "lacking",
+    "options": [
+     "lacking",
+     "lacking in it",
+     "failed",
+     "missing from"
+    ],
+    "hint": "find ourselves ___ (deficient)",
+    "explanation": "'find ourselves lacking' = discover we are not enough."
+   },
+   {
+    "answer": "uses",
+    "options": [
+     "uses",
+     "applications",
+     "benefits",
+     "profits"
+    ],
+    "hint": "practical ___ = applications",
+    "explanation": "'practical uses' — how it can be applied."
+   },
+   {
+    "answer": "catch",
+    "options": [
+     "catch",
+     "hold",
+     "take",
+     "bring"
+    ],
+    "hint": "receive (an illness)",
+    "explanation": "'catch infections' — the collocation for getting a disease."
+   },
+   {
+    "answer": "advantages",
+    "options": [
+     "advantages",
+     "profits",
+     "benefits from",
+     "winnings"
+    ],
+    "hint": "positive sides",
+    "explanation": "'has its advantages' — fixed expression. (8 gaps: gap 0 marker replaced — see note)",
+    "accept": [
+     "benefits"
+    ]
+   }
+  ]
+ },
+ {
+  "title": "The lost art of the weekend",
+  "text": "For an increasing number of professionals, the weekend has stopped being a break. A recent survey {{1}} that almost half of employees check work messages before breakfast on Saturdays, and a third admit to attending {{2}} calls from holiday beaches. The causes are familiar: smartphones that make us permanently {{3}}, workplaces that praise availability, and workloads that quietly expand. What is less familiar is the cost. Doctors link overwork to poor sleep, weakened immunity and {{4}} relationships; economists find that long hours beyond a certain point produce no extra output at all. Some countries have experimented with legal limits on out-of-hours contact, with {{5}} results: in France, employees have had a 'right to disconnect' since 2017. Companies, meanwhile, discover that rested employees are more, not less, {{6}}. Protecting the weekend, researchers insist, is not laziness but {{7}} for sustainable work — and it works best when it is {{8}} from the top.",
+  "gaps": [
+   {
+    "answer": "found",
+    "options": [
+     "found",
+     "proved to",
+     "detected on",
+     "learnt"
+    ],
+    "hint": "discovered (in a survey)",
+    "explanation": "'a survey found that…' — the standard verb for research results."
+   },
+   {
+    "answer": "business",
+    "options": [
+     "business",
+     "job",
+     "workforce",
+     "dutiful"
+    ],
+    "hint": "___ calls = work calls",
+    "explanation": "'business calls' — calls relating to work."
+   },
+   {
+    "answer": "available",
+    "options": [
+     "available",
+     "reachable to",
+     "obtainable",
+     "convenient"
+    ],
+    "hint": "able to be contacted",
+    "explanation": "'permanently available' = contactable at any time."
+   },
+   {
+    "answer": "damaged",
+    "options": [
+     "damaged",
+     "broke",
+     "hurtful",
+     "ruined to"
+    ],
+    "hint": "harmed (relationships)",
+    "explanation": "'damaged relationships' — weakened by the strain."
+   },
+   {
+    "answer": "encouraging",
+    "options": [
+     "encouraging",
+     "encouraged",
+     "encouragement",
+     "encourage"
+    ],
+    "hint": "positive (results)",
+    "explanation": "'encouraging results' — the results give encouragement."
+   },
+   {
+    "answer": "productive",
+    "options": [
+     "productive",
+     "products",
+     "production",
+     "producers"
+    ],
+    "hint": "getting work done",
+    "explanation": "'more productive' — produce more; adjective needed."
+   },
+   {
+    "answer": "maintenance",
+    "options": [
+     "maintenance",
+     "maintaining",
+     "maintained",
+     "maintain"
+    ],
+    "hint": "upkeep (noun)",
+    "explanation": "'maintenance for sustainable work' — keeping it in good condition (noun)."
+   },
+   {
+    "answer": "modelled",
+    "options": [
+     "modelled",
+     "modelling",
+     "modeled at",
+     "models"
+    ],
+    "hint": "shown by example",
+    "explanation": "'modelled from the top' = demonstrated by leaders' behaviour."
+   }
+  ]
+ },
+ {
+  "title": "Why we talk to ourselves",
+  "text": "Talking to yourself used to be a sign to worry {{1}}, but psychologists now see it as a sign of intelligence. 'Private speech' helps children plan actions aloud before they manage it silently, and adults {{2}} the habit under pressure. Athletes famously instruct themselves mid-performance; tennis champions have been heard {{3}} strategies between points. Studies show that self-talk works best in the second person: telling yourself 'You can do this' produces better results in difficult tasks {{4}} saying 'I can do this', perhaps because you hear it as advice from a coach. The tone matters as much as the words — {{5}} self-criticism tends to undermine performance. Researchers recommend instructional self-talk for complex {{6}} ('slowly, smooth movements') and motivational self-talk for endurance ('keep {{7}}'). Far from being a symptom, talking to yourself appears to be one of the mind's most {{8}} tools.",
+  "gaps": [
+   {
+    "answer": "about",
+    "options": [
+     "about",
+     "of from",
+     "around",
+     "against"
+    ],
+    "hint": "worry ___ it",
+    "explanation": "'worry about something' — fixed preposition."
+   },
+   {
+    "answer": "keep",
+    "options": [
+     "keep",
+     "continue to",
+     "remain",
+     "stay"
+    ],
+    "hint": "retain the habit",
+    "explanation": "'adults keep the habit' = continue it; 'continue to' would need a verb after."
+   },
+   {
+    "answer": "discussing",
+    "options": [
+     "discussing",
+     "to discuss",
+     "discussed",
+     "discussion"
+    ],
+    "hint": "heard + -ing",
+    "explanation": "'heard discussing' — the action was in progress."
+   },
+   {
+    "answer": "than",
+    "options": [
+     "than",
+     "from",
+     "against",
+     "over"
+    ],
+    "hint": "comparison word",
+    "explanation": "'better…than' — comparative structure."
+   },
+   {
+    "answer": "harsh",
+    "options": [
+     "harsh",
+     "hardly",
+     "severity",
+     "hardening"
+    ],
+    "hint": "strict, unkind (adjective)",
+    "explanation": "'harsh self-criticism' — severe and unkind."
+   },
+   {
+    "answer": "tasks",
+    "options": [
+     "tasks",
+     "works",
+     "jobs to",
+     "efforts of"
+    ],
+    "hint": "pieces of work",
+    "explanation": "'complex tasks' — countable work items."
+   },
+   {
+    "answer": "going",
+    "options": [
+     "going",
+     "to go",
+     "go on",
+     "gone"
+    ],
+    "hint": "keep + -ing",
+    "explanation": "'keep going' = continue — fixed phrase."
+   },
+   {
+    "answer": "versatile",
+    "options": [
+     "versatile",
+     "versatility",
+     "versatilely",
+     "various"
+    ],
+    "hint": "useful in many ways",
+    "explanation": "'versatile tools' = having many uses."
+   }
+  ]
+ },
+ {
+  "title": "The economics of the takeaway",
+  "text": "The delivery app has changed the restaurant industry more quickly than anyone {{1}} have predicted a decade ago. Dishes that once {{2}} a full restaurant evening can now be sold from a tiny kitchen with no dining {{3}} at all. For customers, the gains are obvious: choice, speed, and the pleasure of restaurant food {{4}} home. The economics are less comfortable. Apps commonly retain up to thirty per cent of each order, which many independent kitchens describe as the {{5}} between profit and loss. Some have responded by publishing 'direct order' prices, quietly {{6}} customers to bypass the apps. Cities, meanwhile, are rewriting zoning rules as delivery-only kitchens multiply in unexpected {{7}}. What nobody doubts is that the change is permanent: convenience, once tasted, is rarely {{8}} up.",
+  "gaps": [
+   {
+    "answer": "would",
+    "options": [
+     "would",
+     "should",
+     "will",
+     "must"
+    ],
+    "hint": "modal: prediction from the past",
+    "explanation": "'anyone would have predicted' — hypothetical past prediction."
+   },
+   {
+    "answer": "required",
+    "options": [
+     "required",
+     "asked for",
+     "demanded to",
+     "requested from"
+    ],
+    "hint": "needed (a full evening)",
+    "explanation": "'required a full restaurant evening' — formal necessity."
+   },
+   {
+    "answer": "space",
+    "options": [
+     "space",
+     "place",
+     "site for",
+     "location of"
+    ],
+    "hint": "room to sit",
+    "explanation": "'dining space' — room where customers eat."
+   },
+   {
+    "answer": "at",
+    "options": [
+     "at",
+     "in the",
+     "on",
+     "to"
+    ],
+    "hint": "food ___ home",
+    "explanation": "'food at home' — location."
+   },
+   {
+    "answer": "difference",
+    "options": [
+     "difference",
+     "differentiate",
+     "distinct",
+     "equality"
+    ],
+    "hint": "the ___ between profit and loss",
+    "explanation": "'the difference between A and B'."
+   },
+   {
+    "answer": "encouraging",
+    "options": [
+     "encouraging",
+     "encouraged to",
+     "urged that",
+     "suggested to"
+    ],
+    "hint": "gently persuading (+ -ing)",
+    "explanation": "'quietly encouraging customers to bypass' — encouraging + object + to-infinitive."
+   },
+   {
+    "answer": "locations",
+    "options": [
+     "locations",
+     "locality",
+     "local",
+     "situated"
+    ],
+    "hint": "places (plural noun)",
+    "explanation": "'unexpected locations' — countable places."
+   },
+   {
+    "answer": "given",
+    "options": [
+     "given",
+     "gave",
+     "giving up",
+     "give"
+    ],
+    "hint": "rarely ___ up (passive)",
+    "explanation": "'is rarely given up' — passive participle."
+   }
+  ]
+ },
+ {
+  "title": "Cities that never sleep?",
+  "text": "Night-time economies have become a measure of urban {{1}}, and cities compete to advertise how much happens after dark. Yet researchers studying night workers tell a more complicated story. The 24-hour city {{2}} on an invisible workforce of cleaners, drivers, bakers and security staff whose routines invert normal life. Working nights is associated with serious health {{3}}, from disrupted sleep to increased risk of certain diseases, and night workers {{4}} report feeling socially invisible: shops, clinics and banks all assume daytime hours. Some cities now appoint 'night mayors' to {{5}} for this workforce, extending transport and services into the small hours. Early evidence suggests the approach {{6}}: restaurants in one pilot city reported better staff retention after late-night bus routes were introduced. The lesson is an old one — a city's glamour depends on workers it {{7}} notices, and supporting them costs far less than {{8}} them.",
+  "gaps": [
+   {
+    "answer": "success",
+    "options": [
+     "success",
+     "successful",
+     "succeed",
+     "successfully"
+    ],
+    "hint": "noun after 'urban'",
+    "explanation": "'urban success' — noun needed."
+   },
+   {
+    "answer": "depends",
+    "options": [
+     "depends",
+     "relies to",
+     "stands on",
+     "rests to"
+    ],
+    "hint": "___ on = relies on",
+    "explanation": "'depends on' — the preposition follows the verb."
+   },
+   {
+    "answer": "problems",
+    "options": [
+     "problems",
+     "troublesome",
+     "bother to",
+     "difficulty"
+    ],
+    "hint": "health ___ (plural noun)",
+    "explanation": "'health problems' — plural noun."
+   },
+   {
+    "answer": "themselves",
+    "options": [
+     "themselves",
+     "theirselves",
+     "them",
+     "each of them"
+    ],
+    "hint": "reflexive: the workers report",
+    "explanation": "'report themselves' — they report their own feeling; reflexive pronoun."
+   },
+   {
+    "answer": "speak",
+    "options": [
+     "speak",
+     "say to",
+     "talk to",
+     "argue"
+    ],
+    "hint": "___ for = represent",
+    "explanation": "'speak for this workforce' — represent their interests."
+   },
+   {
+    "answer": "works",
+    "options": [
+     "works",
+     "operates to",
+     "functions for",
+     "manages"
+    ],
+    "hint": "is effective",
+    "explanation": "'the approach works' = it is effective."
+   },
+   {
+    "answer": "rarely",
+    "options": [
+     "rarely",
+     "scarcely ever not",
+     "hardly never",
+     "uncommon"
+    ],
+    "hint": "seldom (adverb)",
+    "explanation": "'workers it rarely notices' — adverb of frequency."
+   },
+   {
+    "answer": "ignoring",
+    "options": [
+     "ignoring",
+     "ignore to",
+     "ignored from",
+     "neglect of"
+    ],
+    "hint": "___ them = not supporting (gerund)",
+    "explanation": "'costs far less than ignoring them' — gerund after than."
+   }
+  ]
+ },
+ {
+  "title": "The comeback of the cassette",
+  "text": "Music formats rarely get second {{1}}, but the cassette tape is an exception. Sales have {{2}} for five consecutive years, driven partly by nostalgia and partly by the appeal of a physical object in a streaming world. Bands report that cassettes sell best at live shows, where the tape {{3}} as a souvenir of the evening. Industry observers are cautious about the numbers: cassettes remain a rounding error compared with streaming, and much of the revival is {{4}} to collectors rather than listeners. Yet the cassette's limitations are exactly what some fans {{5}}: the effort of rewinding, the hiss, the necessity of listening in order. In an age of infinite playlists, constraints have become a luxury. The lesson, one label executive suggests, is that convenience does not {{6}} replace connection. Formats survive when they mean something, and meaning is the one thing the industry has never {{7}} to manufacture. Whether the cassette's comeback {{8}} depends, as ever, on the music.",
+  "gaps": [
+   {
+    "answer": "chances",
+    "options": [
+     "chances",
+     "opportunity",
+     "possibilities of",
+     "lucky"
+    ],
+    "hint": "second ___ = another attempt",
+    "explanation": "'get second chances' — another opportunity; plural fits the phrase."
+   },
+   {
+    "answer": "risen",
+    "options": [
+     "risen",
+     "raised",
+     "arisen",
+     "rose up"
+    ],
+    "hint": "increased (intransitive participle)",
+    "explanation": "'sales have risen' — rise is intransitive; 'raised' needs an object."
+   },
+   {
+    "answer": "acts",
+    "options": [
+     "acts",
+     "serves for",
+     "works to",
+     "stands"
+    ],
+    "hint": "___ as = functions as",
+    "explanation": "'acts as a souvenir' — fixed phrase."
+   },
+   {
+    "answer": "attributed",
+    "options": [
+     "attributed",
+     "contributed",
+     "distributed",
+     "attributing"
+    ],
+    "hint": "___ to = ascribed to",
+    "explanation": "'attributed to collectors' — be attributed to = be ascribed to."
+   },
+   {
+    "answer": "prize",
+    "options": [
+     "prize",
+     "price",
+     "praise",
+     "appraise"
+    ],
+    "hint": "value highly (verb)",
+    "explanation": "'fans prize' = value highly — the verb 'prize'."
+   },
+   {
+    "answer": "automatically",
+    "options": [
+     "automatically",
+     "automatic",
+     "automation",
+     "automate"
+    ],
+    "hint": "by itself (adverb)",
+    "explanation": "'does not automatically replace' — adverb needed."
+   },
+   {
+    "answer": "managed",
+    "options": [
+     "managed",
+     "succeeded to",
+     "achieved to",
+     "could"
+    ],
+    "hint": "___ to = succeeded in",
+    "explanation": "'has never managed to manufacture' — manage to do."
+   },
+   {
+    "answer": "lasts",
+    "options": [
+     "lasts",
+     "continues to",
+     "survives from",
+     "endures to"
+    ],
+    "hint": "continues (intransitive)",
+    "explanation": "'whether the comeback lasts' — intransitive verb."
+   }
+  ]
+ },
+ {
+  "title": "Should we tax sugar?",
+  "text": "When the United Kingdom introduced a tax on sugary drinks, critics predicted job losses and {{1}} protests about the nanny state. Three years later, the evidence suggests otherwise. Manufacturers reformulated their recipes rather than raise prices, and the average drink now contains significantly less sugar, a change public health experts describe as a quiet {{2}}. Purchases did not fall noticeably, {{3}} suggests shoppers did not feel punished. Opponents still argue that such taxes are unfair, {{4}} poorer households hardest, since they spend a larger share of income on soft drinks. Supporters respond that the health benefits also flow disproportionately to those households, {{5}} diabetes is most common. Other countries have adopted the {{6}} with variations, from milkshake exemptions to fruit-juice bans. Debates continue about the {{7}} of evidence required before such a policy is justified. What is not disputed is that reformulation happened faster than decades of advice {{8}}.",
+  "gaps": [
+   {
+    "answer": "angry",
+    "options": [
+     "angry",
+     "anger",
+     "angrily",
+     "angered to"
+    ],
+    "hint": "furious (adjective)",
+    "explanation": "'angry protests' — adjective before the noun."
+   },
+   {
+    "answer": "success",
+    "options": [
+     "success",
+     "succeed",
+     "successful",
+     "successfully"
+    ],
+    "hint": "noun after 'quiet'",
+    "explanation": "'a quiet success' — noun needed."
+   },
+   {
+    "answer": "which",
+    "options": [
+     "which",
+     "what",
+     "that",
+     "it"
+    ],
+    "hint": "sentential relative after comma",
+    "explanation": "', which suggests…' — 'which' refers to the whole previous clause."
+   },
+   {
+    "answer": "hitting",
+    "options": [
+     "hitting",
+     "hit",
+     "beaten",
+     "struck on"
+    ],
+    "hint": "affecting badly (+ -ing)",
+    "explanation": "', hitting poorer households hardest' — participle clause of result."
+   },
+   {
+    "answer": "where",
+    "options": [
+     "where",
+     "which",
+     "that",
+     "when"
+    ],
+    "hint": "place: ___ diabetes is most common",
+    "explanation": "'where diabetes is most common' — place relative clause."
+   },
+   {
+    "answer": "model",
+    "options": [
+     "model",
+     "modelling",
+     "mode",
+     "modest"
+    ],
+    "hint": "template for a policy",
+    "explanation": "'adopted the model' = copied the approach."
+   },
+   {
+    "answer": "amount",
+    "options": [
+     "amount",
+     "number",
+     "plenty",
+     "size of"
+    ],
+    "hint": "quantity of uncountable evidence",
+    "explanation": "'the amount of evidence' — much/amount with uncountable."
+   },
+   {
+    "answer": "achieved",
+    "options": [
+     "achieved",
+     "managed",
+     "could do",
+     "fulfilled to"
+    ],
+    "hint": "accomplished (past perfect)",
+    "explanation": "'advice had achieved' — accomplished results; past perfect fits 'faster than…had'."
+   }
+  ]
+ },
+ {
+  "title": "The right to repair",
+  "text": "When a farmer cannot repair his own tractor, or a city cannot fix its own buses, something has gone {{1}} with product design. That is the argument behind the growing 'right to repair' movement, which {{2}} manufacturers to make spare parts, tools and manuals available for years after a product is sold. The campaign gained ground when farmers began hacking software to keep ageing machinery {{3}}, and when videos of deliberately destroyed gadgets spread online. Opponents counter that safety and intellectual property justify restrictions, and that some repairs are genuinely {{4}} for amateurs. Regulators in several continents have taken a middle path, {{5}} repairability scores on everything from phones to lawnmowers. Consumers, it turns out, do look at the scores. Early data from France suggests products with better scores now {{6}} slightly higher prices and longer warranties. Design for repair also has an unexpected {{7}}: it creates local jobs, since repairs cannot be {{8}} abroad.",
+  "gaps": [
+   {
+    "answer": "wrong",
+    "options": [
+     "wrong",
+     "badly",
+     "mistakenly",
+     "incorrect"
+    ],
+    "hint": "gone ___ = faulty",
+    "explanation": "'has gone wrong' — stopped working correctly."
+   },
+   {
+    "answer": "obliges",
+    "options": [
+     "obliges",
+     "obligated to",
+     "forces to",
+     "demands for"
+    ],
+    "hint": "makes (legally) necessary",
+    "explanation": "'obliges manufacturers to make' — oblige somebody to do."
+   },
+   {
+    "answer": "running",
+    "options": [
+     "running",
+     "operated",
+     "work to",
+     "drive"
+    ],
+    "hint": "keep machinery ___ (functioning)",
+    "explanation": "'keep machinery running' — keep + object + -ing."
+   },
+   {
+    "answer": "dangerous",
+    "options": [
+     "dangerous",
+     "endanger",
+     "dangerously",
+     "in danger"
+    ],
+    "hint": "risky (adjective)",
+    "explanation": "'genuinely dangerous' — adjective after 'are'."
+   },
+   {
+    "answer": "requiring",
+    "options": [
+     "requiring",
+     "require to",
+     "requirement",
+     "required for"
+    ],
+    "hint": "___ scores = introducing scores",
+    "explanation": "'requiring repairability scores' — participle clause; regulators require makers to display them.",
+    "accept": [
+     "introducing",
+     "adding"
+    ]
+   },
+   {
+    "answer": "sell for",
+    "options": [
+     "sell for",
+     "sold at",
+     "be selling to",
+     "trade in"
+    ],
+    "hint": "fetch (a price)",
+    "explanation": "'sell for slightly higher prices' — fetch as a price.",
+    "accept": [
+     "fetch"
+    ]
+   },
+   {
+    "answer": "benefit",
+    "options": [
+     "benefit",
+     "benefit from",
+     "profit of",
+     "advantage"
+    ],
+    "hint": "positive result (noun)",
+    "explanation": "'an unexpected benefit' — a positive outcome."
+   },
+   {
+    "answer": "outsourced",
+    "options": [
+     "outsourced",
+     "outsource",
+     "outspacing",
+     "outdone"
+    ],
+    "hint": "sent abroad (passive participle)",
+    "explanation": "'cannot be outsourced' — passive: sent to external contractors."
+   }
+  ]
+ },
+ {
+  "title": "What your accent says about you",
+  "text": "Accent discrimination is one of the last openly tolerated prejudices, according to sociolinguists. Job applicants with regional accents are still routinely judged as less {{1}} than those who sound 'neutral', despite the absence of any connection between accent and ability. The bias begins astonishingly early: children as young as five prefer to befriend speakers of high-status accents. Historically, broadcasters were required to adopt standard pronunciation, a rule that survived until the 1970s and whose {{2}} still shapes hiring in some industries. Researchers note that accent prejudice is really class prejudice by {{3}}, since accents map tightly onto social geography. Changing an accent is possible, but many refuse, {{4}} the cost as too high to their sense of identity. Increasingly, employers are being urged to treat accent the way they treat race or gender — as a characteristic on which no judgement of {{5}} can rest. Some organisations now train interviewers to notice their own reactions. Progress, linguists caution, will be slow: accents evolve constantly, and with them the {{6}} for prejudice. But the direction of travel is clear, and the days of the single 'proper' way to sound appear to be {{7}}. What remains is a simple test: if the words are right, the voice should not {{8}}.",
+  "gaps": [
+   {
+    "answer": "capable",
+    "options": [
+     "capable",
+     "capableness",
+     "capacity",
+     "capably"
+    ],
+    "hint": "___ of doing (adjective)",
+    "explanation": "'judged as less capable' — adjective."
+   },
+   {
+    "answer": "legacy",
+    "options": [
+     "legacy",
+     "leftover",
+     "remains",
+     "relics of"
+    ],
+    "hint": "lasting effect",
+    "explanation": "'whose legacy still shapes' — lasting influence."
+   },
+   {
+    "answer": "another",
+    "options": [
+     "another",
+     "other",
+     "others",
+     "the other"
+    ],
+    "hint": "prejudice by ___ name",
+    "explanation": "'prejudice by another name' — fixed phrase."
+   },
+   {
+    "answer": "judging",
+    "options": [
+     "judging",
+     "judged to",
+     "judge that",
+     "assessment"
+    ],
+    "hint": "considering (+ -ing)",
+    "explanation": "judging the cost as too high — judge + object + as + adjective."
+   },
+   {
+    "answer": "competence",
+    "options": [
+     "competence",
+     "competent",
+     "competently",
+     "competition"
+    ],
+    "hint": "noun: ability",
+    "explanation": "'no judgement of competence' — noun needed."
+   },
+   {
+    "answer": "targets",
+    "options": [
+     "targets",
+     "aims at",
+     "goals to",
+     "purposes"
+    ],
+    "hint": "objects of prejudice",
+    "explanation": "'the targets for prejudice' — what prejudice directs itself at."
+   },
+   {
+    "answer": "numbered",
+    "options": [
+     "numbered",
+     "counted",
+     "enumerated",
+     "tallied"
+    ],
+    "hint": "___ days = ending soon",
+    "explanation": "'their days are numbered' — fixed idiom."
+   },
+   {
+    "answer": "matter",
+    "options": [
+     "matter",
+     "case",
+     "issue",
+     "concern to"
+    ],
+    "hint": "be important (verb)",
+    "explanation": "'the voice should not matter' — be important."
+   }
+  ]
+ }
+]

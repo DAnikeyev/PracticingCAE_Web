@@ -1,0 +1,816 @@
+[
+ {
+  "sentence": "They accused him ___ lying to the committee.",
+  "answer": "of",
+  "hint": "accuse sb ___ sth",
+  "explanation": "accuse somebody OF something/doing something."
+ },
+ {
+  "sentence": "She apologised ___ being so late.",
+  "answer": "for",
+  "hint": "apologise ___ sth",
+  "explanation": "apologise FOR something/doing something."
+ },
+ {
+  "sentence": "I'm going to apply ___ that job in Rotterdam.",
+  "answer": "for",
+  "hint": "apply ___ a job",
+  "explanation": "apply FOR a job; apply TO a company/university."
+ },
+ {
+  "sentence": "The committee does not approve ___ the changes.",
+  "answer": "of",
+  "hint": "approve ___ sth (verb)",
+  "explanation": "Verb: approve OF something (noun 'approval' has no preposition)."
+ },
+ {
+  "sentence": "Don't argue ___ your brother about silly things.",
+  "answer": "with",
+  "hint": "argue ___ sb about sth",
+  "explanation": "argue WITH a person ABOUT a topic. 'With' also accepted after argue for a point."
+ },
+ {
+  "sentence": "We arrived ___ the airport two hours early.",
+  "answer": "at",
+  "hint": "arrive ___ (place), ___ (city)",
+  "explanation": "arrive AT a point (airport, hotel), IN a city/country."
+ },
+ {
+  "sentence": "They arrived ___ Rome at dawn.",
+  "answer": "in",
+  "hint": "arrive ___ (place), ___ (city)",
+  "explanation": "arrive IN towns, cities and countries; AT for buildings/points."
+ },
+ {
+  "sentence": "Do you believe ___ ghosts?",
+  "answer": "in",
+  "hint": "believe ___ sth (existence)",
+  "explanation": "believe IN something = think it exists/is right; believe somebody = trust their word."
+ },
+ {
+  "sentence": "She blamed the delay ___ the courier company.",
+  "answer": "on",
+  "hint": "blame sth ___ sb",
+  "explanation": "blame something ON somebody = blame somebody FOR something."
+ },
+ {
+  "sentence": "He boasted ___ winning the race, but nobody believed him.",
+  "answer": "about",
+  "hint": "boast ___ sth",
+  "explanation": "boast ABOUT/OF something. 'About' is the most common.",
+  "accept": [
+   "of"
+  ]
+ },
+ {
+  "sentence": "Can I borrow a pen ___ you?",
+  "answer": "from",
+  "hint": "borrow ___ / lend ___",
+  "explanation": "borrow FROM (take), lend TO (give)."
+ },
+ {
+  "sentence": "She's always cared deeply ___ animal welfare.",
+  "answer": "about",
+  "hint": "care ___ sth (be concerned)",
+  "explanation": "care ABOUT = think it matters; care FOR = look after or like."
+ },
+ {
+  "sentence": "The minister refused to comment ___ the scandal.",
+  "answer": "on",
+  "hint": "comment ___ sth",
+  "explanation": "comment ON a topic."
+ },
+ {
+  "sentence": "This textbook is boring compared ___ the last one.",
+  "answer": "with",
+  "hint": "compared ___",
+  "explanation": "compare WITH (or TO) — 'with' is preferred for comparing similarities/differences; 'to' for 'liken'.",
+  "accept": [
+   "to"
+  ]
+ },
+ {
+  "sentence": "Residents complained ___ the noise every night.",
+  "answer": "about",
+  "hint": "complain ___ sth",
+  "explanation": "complain ABOUT something (or complain TO somebody ABOUT it).",
+  "accept": [
+   "of"
+  ]
+ },
+ {
+  "sentence": "You should concentrate ___ one task at a time.",
+  "answer": "on",
+  "hint": "concentrate ___ sth",
+  "explanation": "concentrate ON something."
+ },
+ {
+  "sentence": "They congratulated her ___ passing her driving test.",
+  "answer": "on",
+  "hint": "congratulate sb ___ sth",
+  "explanation": "congratulate somebody ON an achievement."
+ },
+ {
+  "sentence": "Water consists ___ two hydrogen atoms and one oxygen atom.",
+  "answer": "of",
+  "hint": "consist ___ (be made of)",
+  "explanation": "consist OF = be made of. Compare 'consist in' (= have as its essence), rare."
+ },
+ {
+  "sentence": "The lorry crashed ___ the back of the bus.",
+  "answer": "into",
+  "hint": "crash ___ sth",
+  "explanation": "crash INTO something solid (hit it)."
+ },
+ {
+  "sentence": "Critics attacked the film ___ its slow pace.",
+  "answer": "for",
+  "hint": "criticise sth ___ sth",
+  "explanation": "criticise/criticize something FOR a reason."
+ },
+ {
+  "sentence": "Who is dealing ___ this customer's complaint?",
+  "answer": "with",
+  "hint": "deal ___ sth (handle)",
+  "explanation": "deal WITH = handle, manage; deal IN = trade in goods."
+ },
+ {
+  "sentence": "Our picnic depends ___ the weather.",
+  "answer": "on",
+  "hint": "depend ___",
+  "explanation": "depend ON (upon in formal style).",
+  "accept": [
+   "upon"
+  ]
+ },
+ {
+  "sentence": "He died ___ pneumonia in 1947.",
+  "answer": "of",
+  "hint": "die ___ an illness",
+  "explanation": "die OF (or FROM) an illness/cause.",
+  "accept": [
+   "from"
+  ]
+ },
+ {
+  "sentence": "The results differ sharply ___ last year's.",
+  "answer": "from",
+  "hint": "differ ___ sth",
+  "explanation": "differ FROM something (one thing differs from another); differ WITH = disagree."
+ },
+ {
+  "sentence": "I strongly disapprove ___ smoking indoors.",
+  "answer": "of",
+  "hint": "disapprove ___ sth",
+  "explanation": "disapprove OF something (opposite: approve of)."
+ },
+ {
+  "sentence": "The museum donated the paintings ___ a local school.",
+  "answer": "to",
+  "hint": "donate sth ___ sb",
+  "explanation": "donate something TO a person/organisation."
+ },
+ {
+  "sentence": "She often dreams ___ running her own café.",
+  "answer": "of",
+  "hint": "dream ___ (imagine)",
+  "explanation": "dream OF/ABOUT something you would love to happen.",
+  "accept": [
+   "about"
+  ]
+ },
+ {
+  "sentence": "Two prisoners escaped ___ the high-security wing.",
+  "answer": "from",
+  "hint": "escape ___ a place",
+  "explanation": "escape FROM a place (American English also allows a bare object)."
+ },
+ {
+  "sentence": "Please forgive me ___ interrupting.",
+  "answer": "for",
+  "hint": "forgive sb ___ sth",
+  "explanation": "forgive somebody FOR something/doing something."
+ },
+ {
+  "sentence": "She glanced ___ her watch and stood up.",
+  "answer": "at",
+  "hint": "glance ___ sth",
+  "explanation": "glance AT = look quickly at."
+ },
+ {
+  "sentence": "Have you heard ___ the artist who paints with coffee?",
+  "answer": "about",
+  "hint": "hear ___ (be told)",
+  "explanation": "hear ABOUT = be told about; hear OF = know of the existence; hear FROM = receive news from.",
+  "accept": [
+   "of"
+  ]
+ },
+ {
+  "sentence": "I haven't heard ___ my cousin since Christmas.",
+  "answer": "from",
+  "hint": "hear ___ sb (news)",
+  "explanation": "hear FROM somebody = get a letter/message from them."
+ },
+ {
+  "sentence": "We're hoping ___ the best results this season.",
+  "answer": "for",
+  "hint": "hope ___ sth (want)",
+  "explanation": "hope FOR something = want and expect it."
+ },
+ {
+  "sentence": "She insisted ___ paying for the meal.",
+  "answer": "on",
+  "hint": "insist ___ + -ing",
+  "explanation": "insist ON something/doing something."
+ },
+ {
+  "sentence": "They've invited us ___ their wedding in May.",
+  "answer": "to",
+  "hint": "invite sb ___ sth",
+  "explanation": "invite somebody TO an event."
+ },
+ {
+  "sentence": "Three workers were involved ___ the accident.",
+  "answer": "in",
+  "hint": "involved ___ sth",
+  "explanation": "be involved IN an activity/accident."
+ },
+ {
+  "sentence": "The press joked ___ the politician's hat.",
+  "answer": "about",
+  "hint": "joke ___ sth",
+  "explanation": "joke ABOUT something."
+ },
+ {
+  "sentence": "Everyone laughed ___ his impression of the headmaster.",
+  "answer": "at",
+  "hint": "laugh ___ sth",
+  "explanation": "laugh AT something/somebody."
+ },
+ {
+  "sentence": "Listen ___ me carefully: this is important.",
+  "answer": "to",
+  "hint": "listen ___ sb",
+  "explanation": "listen TO somebody/something."
+ },
+ {
+  "sentence": "Look ___ those clouds — it's going to rain.",
+  "answer": "at",
+  "hint": "look ___ sth (see)",
+  "explanation": "look AT = direct your eyes; look after = take care of; look for = search."
+ },
+ {
+  "sentence": "Could you look ___ my plants while I'm away?",
+  "answer": "after",
+  "hint": "look ___ = take care of",
+  "explanation": "look AFTER somebody/something = take care of them."
+ },
+ {
+  "sentence": "I'm looking ___ my keys — have you seen them?",
+  "answer": "for",
+  "hint": "look ___ = search",
+  "explanation": "look FOR = try to find."
+ },
+ {
+  "sentence": "We're really looking forward ___ the trip.",
+  "answer": "to",
+  "hint": "look forward ___",
+  "explanation": "look forward TO — 'to' is a preposition here, so it is followed by -ing: looking forward to seeing you."
+ },
+ {
+  "sentence": "Several parents objected ___ the new timetable.",
+  "answer": "to",
+  "hint": "object ___ sth",
+  "explanation": "object TO something."
+ },
+ {
+  "sentence": "It never occurred ___ me to check the address.",
+  "answer": "to",
+  "hint": "occur ___ sb (come to mind)",
+  "explanation": "it occurred TO somebody = they thought of it."
+ },
+ {
+  "sentence": "The surgeon operated ___ the patient for four hours.",
+  "answer": "on",
+  "hint": "operate ___ sb",
+  "explanation": "operate ON a patient (for a condition)."
+ },
+ {
+  "sentence": "Over two hundred athletes participated ___ the marathon.",
+  "answer": "in",
+  "hint": "participate ___ sth",
+  "explanation": "participate IN an event (also: take part in)."
+ },
+ {
+  "sentence": "Have you paid ___ the tickets yet?",
+  "answer": "for",
+  "hint": "pay ___ sth (goods)",
+  "explanation": "pay FOR goods/services; pay a bill (no preposition)."
+ },
+ {
+  "sentence": "He pointed ___ the tallest tower in the skyline.",
+  "answer": "at",
+  "hint": "point ___ sth",
+  "explanation": "point AT/TO something.",
+  "accept": [
+   "to"
+  ]
+ },
+ {
+  "sentence": "I much prefer coffee ___ tea.",
+  "answer": "to",
+  "hint": "prefer A ___ B",
+  "explanation": "prefer A TO B (never 'than')."
+ },
+ {
+  "sentence": "The high wall prevents outsiders ___ entering the garden.",
+  "answer": "from",
+  "hint": "prevent sb ___ doing",
+  "explanation": "prevent/stop somebody FROM doing something ('from' is optional after stop)."
+ },
+ {
+  "sentence": "Sunscreen protects the skin ___ UV rays.",
+  "answer": "from",
+  "hint": "protect ___ sth harmful",
+  "explanation": "protect somebody/something FROM (or AGAINST) harm.",
+  "accept": [
+   "against"
+  ]
+ },
+ {
+  "sentence": "They provided us ___ everything we needed.",
+  "answer": "with",
+  "hint": "provide sb ___ sth",
+  "explanation": "provide somebody WITH something, or provide something FOR somebody."
+ },
+ {
+  "sentence": "It took her weeks to recover ___ the operation.",
+  "answer": "from",
+  "hint": "recover ___ sth",
+  "explanation": "recover FROM an illness/experience."
+ },
+ {
+  "sentence": "We rely ___ public transport to get to work.",
+  "answer": "on",
+  "hint": "rely ___ sb/sth",
+  "explanation": "rely ON (upon) somebody/something.",
+  "accept": [
+   "upon"
+  ]
+ },
+ {
+  "sentence": "The song reminds me ___ my first holiday abroad.",
+  "answer": "of",
+  "hint": "remind sb ___ sth",
+  "explanation": "remind somebody OF something = make them remember; remind somebody ABOUT = tell them not to forget."
+ },
+ {
+  "sentence": "Detectives are still searching ___ the missing painting.",
+  "answer": "for",
+  "hint": "search ___ sth (look for)",
+  "explanation": "search FOR something you want to find; search a place = look through it."
+ },
+ {
+  "sentence": "Please don't shout ___ the children.",
+  "answer": "at",
+  "hint": "shout ___ sb (angrily)",
+  "explanation": "shout AT somebody = be aggressive; shout TO = call so they hear."
+ },
+ {
+  "sentence": "She smiled ___ the waiter and ordered tea.",
+  "answer": "at",
+  "hint": "smile ___ sb",
+  "explanation": "smile AT somebody."
+ },
+ {
+  "sentence": "He spends far too much ___ computer games.",
+  "answer": "on",
+  "hint": "spend money/time ___ sth",
+  "explanation": "spend money/time ON something."
+ },
+ {
+  "sentence": "Millions suffer ___ hay fever every summer.",
+  "answer": "from",
+  "hint": "suffer ___ sth",
+  "explanation": "suffer FROM an illness/problem."
+ },
+ {
+  "sentence": "Police suspect him ___ faking the documents.",
+  "answer": "of",
+  "hint": "suspect sb ___ sth",
+  "explanation": "suspect somebody OF something/doing something."
+ },
+ {
+  "sentence": "The novel was translated ___ twelve languages.",
+  "answer": "into",
+  "hint": "translate ___ a language",
+  "explanation": "translate FROM one language INTO another."
+ },
+ {
+  "sentence": "We've been waiting ___ the bus for half an hour.",
+  "answer": "for",
+  "hint": "wait ___ sb/sth",
+  "explanation": "wait FOR somebody/something."
+ },
+ {
+  "sentence": "They warned us ___ the icy roads.",
+  "answer": "about",
+  "hint": "warn sb ___ sth",
+  "explanation": "warn somebody ABOUT/OF a danger; warn somebody AGAINST doing.",
+  "accept": [
+   "of"
+  ]
+ },
+ {
+  "sentence": "Don't worry ___ the exam — you're well prepared.",
+  "answer": "about",
+  "hint": "worry ___ sth",
+  "explanation": "worry ABOUT somebody/something."
+ },
+ {
+  "sentence": "She's terrified ___ spiders.",
+  "answer": "of",
+  "hint": "terrified ___",
+  "explanation": "terrified OF something."
+ },
+ {
+  "sentence": "He's very good ___ solving puzzles.",
+  "answer": "at",
+  "hint": "good ___ doing",
+  "explanation": "good/bad/brilliant AT an activity."
+ },
+ {
+  "sentence": "I'm a bit anxious ___ the results.",
+  "answer": "about",
+  "hint": "anxious ___ sth (worried)",
+  "explanation": "anxious ABOUT something = worried about it.",
+  "accept": [
+   "about"
+  ]
+ },
+ {
+  "sentence": "They're ashamed ___ their behaviour at the match.",
+  "answer": "of",
+  "hint": "ashamed ___ sth",
+  "explanation": "ashamed OF something/doing something."
+ },
+ {
+  "sentence": "Were you aware ___ the change of plan?",
+  "answer": "of",
+  "hint": "aware ___ sth",
+  "explanation": "aware OF something."
+ },
+ {
+  "sentence": "I'm getting bored ___ watching the same series.",
+  "answer": "with",
+  "hint": "bored ___ sth",
+  "explanation": "bored WITH (or BY) something.",
+  "accept": [
+   "by"
+  ]
+ },
+ {
+  "sentence": "She's perfectly capable ___ managing the project alone.",
+  "answer": "of",
+  "hint": "capable ___ doing",
+  "explanation": "capable OF doing something."
+ },
+ {
+  "sentence": "The kids are crazy ___ the new video game.",
+  "answer": "about",
+  "hint": "crazy ___ sth (love)",
+  "explanation": "crazy ABOUT something = love it enthusiastically."
+ },
+ {
+  "sentence": "He was disappointed ___ his exam results.",
+  "answer": "with",
+  "hint": "disappointed ___ sth/sb",
+  "explanation": "disappointed WITH somebody, WITH/ABOUT something.",
+  "accept": [
+   "about",
+   "at"
+  ]
+ },
+ {
+  "sentence": "We're excited ___ our trip to Peru.",
+  "answer": "about",
+  "hint": "excited ___ sth",
+  "explanation": "excited ABOUT something."
+ },
+ {
+  "sentence": "The region is famous ___ its cheese.",
+  "answer": "for",
+  "hint": "famous ___ sth",
+  "explanation": "famous FOR something."
+ },
+ {
+  "sentence": "I'm fed up ___ listening to excuses.",
+  "answer": "with",
+  "hint": "fed up ___",
+  "explanation": "fed up WITH something/doing something."
+ },
+ {
+  "sentence": "She's very fond ___ her nieces.",
+  "answer": "of",
+  "hint": "fond ___ sb/sth",
+  "explanation": "fond OF somebody/something."
+ },
+ {
+  "sentence": "He's not very friendly ___ his new colleagues.",
+  "answer": "with",
+  "hint": "friendly ___ sb",
+  "explanation": "friendly WITH somebody = on good terms; a friendly person is friendly TO others.",
+  "accept": [
+   "to"
+  ]
+ },
+ {
+  "sentence": "They were grateful ___ the firefighters for their quick response.",
+  "answer": "to",
+  "hint": "grateful ___ sb ___ sth (first gap)",
+  "explanation": "grateful TO somebody FOR something. Only the first gap is checked here.",
+  "accept": [
+   "to"
+  ]
+ },
+ {
+  "sentence": "He was found guilty ___ fraud.",
+  "answer": "of",
+  "hint": "guilty ___ sth",
+  "explanation": "guilty OF a crime."
+ },
+ {
+  "sentence": "She's keen ___ joining the photography club.",
+  "answer": "on",
+  "hint": "keen ___ sth/doing",
+  "explanation": "keen ON something/doing something."
+ },
+ {
+  "sentence": "Be kind ___ your little brother.",
+  "answer": "to",
+  "hint": "kind ___ sb",
+  "explanation": "kind TO somebody."
+ },
+ {
+  "sentence": "I'm nervous ___ speaking in public.",
+  "answer": "about",
+  "hint": "nervous ___ sth",
+  "explanation": "nervous ABOUT something/doing something."
+ },
+ {
+  "sentence": "The manager was pleased ___ our progress.",
+  "answer": "with",
+  "hint": "pleased ___ sth/sb",
+  "explanation": "pleased WITH somebody/something."
+ },
+ {
+  "sentence": "Staff must always be polite ___ customers.",
+  "answer": "to",
+  "hint": "polite ___ sb",
+  "explanation": "polite TO somebody."
+ },
+ {
+  "sentence": "This app is very popular ___ teenagers.",
+  "answer": "with",
+  "hint": "popular ___ sb",
+  "explanation": "popular WITH (or AMONG) a group.",
+  "accept": [
+   "among"
+  ]
+ },
+ {
+  "sentence": "She's fiercely proud ___ her origins.",
+  "answer": "of",
+  "hint": "proud ___ sth",
+  "explanation": "proud OF something/somebody."
+ },
+ {
+  "sentence": "Who is responsible ___ locking up?",
+  "answer": "for",
+  "hint": "responsible ___ sth",
+  "explanation": "responsible FOR something/doing something."
+ },
+ {
+  "sentence": "We're not entirely satisfied ___ the service.",
+  "answer": "with",
+  "hint": "satisfied ___ sth",
+  "explanation": "satisfied WITH something."
+ },
+ {
+  "sentence": "The puppies were scared ___ fireworks.",
+  "answer": "of",
+  "hint": "scared ___ sth",
+  "explanation": "scared OF something."
+ },
+ {
+  "sentence": "He's completely serious ___ becoming a chef.",
+  "answer": "about",
+  "hint": "serious ___ sth",
+  "explanation": "serious ABOUT something/doing something."
+ },
+ {
+  "sentence": "Viewers were shocked ___ the violence in the film.",
+  "answer": "at",
+  "hint": "shocked ___ sth",
+  "explanation": "shocked AT/BY something.",
+  "accept": [
+   "by"
+  ]
+ },
+ {
+  "sentence": "Her style is similar ___ her sister's.",
+  "answer": "to",
+  "hint": "similar ___ sth",
+  "explanation": "similar TO something (never 'than')."
+ },
+ {
+  "sentence": "I'm so sorry ___ the confusion I caused.",
+  "answer": "for",
+  "hint": "sorry ___ sth done",
+  "explanation": "sorry FOR/ABOUT something you did; sorry FOR somebody = pity them.",
+  "accept": [
+   "about"
+  ]
+ },
+ {
+  "sentence": "They grew suspicious ___ his constant absences.",
+  "answer": "of",
+  "hint": "suspicious ___ sth/sb",
+  "explanation": "suspicious OF somebody/something."
+ },
+ {
+  "sentence": "I'm sick ___ hearing that song on the radio.",
+  "answer": "of",
+  "hint": "sick ___ sth (annoyed)",
+  "explanation": "sick OF something = fed up with it."
+ },
+ {
+  "sentence": "She soon got tired ___ answering the same questions.",
+  "answer": "of",
+  "hint": "tired ___ sth (bored)",
+  "explanation": "tired OF something = bored/annoyed by it; tired FROM = physically exhausted."
+ },
+ {
+  "sentence": "He was upset ___ losing his keys.",
+  "answer": "about",
+  "hint": "upset ___ sth",
+  "explanation": "upset ABOUT something (BY also possible).",
+  "accept": [
+   "by"
+  ]
+ },
+ {
+  "sentence": "She's slowly getting used ___ the climate.",
+  "answer": "to",
+  "hint": "be used ___ sth",
+  "explanation": "be/get used TO something — 'to' is a preposition, so a gerund follows: used to living."
+ },
+ {
+  "sentence": "There's something wrong ___ this printer.",
+  "answer": "with",
+  "hint": "wrong ___ sth",
+  "explanation": "something wrong WITH something."
+ },
+ {
+  "sentence": "Fast charging is a big advantage ___ this model.",
+  "answer": "of",
+  "hint": "advantage ___ sth",
+  "explanation": "the advantage OF something (for somebody)."
+ },
+ {
+  "sentence": "The press launched an attack ___ the minister's record.",
+  "answer": "on",
+  "hint": "attack ___ sb/sth (noun)",
+  "explanation": "an attack ON somebody/something."
+ },
+ {
+  "sentence": "His attitude ___ work has really improved.",
+  "answer": "to",
+  "hint": "attitude ___ sth",
+  "explanation": "attitude TO (or TOWARDS) something.",
+  "accept": [
+   "towards"
+  ]
+ },
+ {
+  "sentence": "Doctors say stress is a major cause ___ insomnia.",
+  "answer": "of",
+  "hint": "cause ___ sth",
+  "explanation": "the cause OF something."
+ },
+ {
+  "sentence": "There's a direct connection ___ diet and mood.",
+  "answer": "between",
+  "hint": "connection ___ A and B",
+  "explanation": "a connection/link BETWEEN two things."
+ },
+ {
+  "sentence": "What's the difference ___ these two phones?",
+  "answer": "between",
+  "hint": "difference ___ two things",
+  "explanation": "difference BETWEEN two things (difference IN price/size for the respect in which)."
+ },
+ {
+  "sentence": "She had no difficulty ___ finding the station.",
+  "answer": "in",
+  "hint": "difficulty ___ doing",
+  "explanation": "have difficulty (IN) doing something — 'in' is often omitted, but is the expected preposition.",
+  "accept": [
+   "with"
+  ]
+ },
+ {
+  "sentence": "The film had an immediate effect ___ audiences.",
+  "answer": "on",
+  "hint": "effect ___ sth",
+  "explanation": "have an effect ON somebody/something."
+ },
+ {
+  "sentence": "Bamboo is a classic example ___ fast-growing plant.",
+  "answer": "of",
+  "hint": "example ___ sth",
+  "explanation": "an example OF something."
+ },
+ {
+  "sentence": "Is there any excuse ___ being so rude?",
+  "answer": "for",
+  "hint": "excuse ___ sth",
+  "explanation": "an excuse FOR something/doing something."
+ },
+ {
+  "sentence": "Advertising has a huge influence ___ children.",
+  "answer": "on",
+  "hint": "influence ___ sb",
+  "explanation": "have an influence ON somebody/something."
+ },
+ {
+  "sentence": "There's been a sharp increase ___ energy prices.",
+  "answer": "in",
+  "hint": "increase ___ sth (noun)",
+  "explanation": "an increase IN a quantity (verb: increase BY an amount)."
+ },
+ {
+  "sentence": "The project failed through a lack ___ funding.",
+  "answer": "of",
+  "hint": "lack ___ sth",
+  "explanation": "a lack OF something."
+ },
+ {
+  "sentence": "Hopefully we'll find a solution ___ the problem soon.",
+  "answer": "to",
+  "hint": "solution ___ sth",
+  "explanation": "a solution TO a problem (also: answer/key/reply TO)."
+ },
+ {
+  "sentence": "The only reason ___ the delay was the storm.",
+  "answer": "for",
+  "hint": "reason ___ sth",
+  "explanation": "the reason FOR something."
+ },
+ {
+  "sentence": "There's been a huge rise ___ online shopping.",
+  "answer": "in",
+  "hint": "rise ___ sth (noun)",
+  "explanation": "a rise IN a quantity or activity."
+ },
+ {
+  "sentence": "She has a good relationship ___ her students.",
+  "answer": "with",
+  "hint": "relationship ___ sb",
+  "explanation": "a relationship WITH somebody (BETWEEN two parties).",
+  "accept": [
+   "between"
+  ]
+ },
+ {
+  "sentence": "The government imposed new restrictions ___ water use.",
+  "answer": "on",
+  "hint": "restrictions ___ sth",
+  "explanation": "restrictions ON something."
+ },
+ {
+  "sentence": "I'm still waiting for a reply ___ my complaint.",
+  "answer": "to",
+  "hint": "reply ___ sth",
+  "explanation": "a reply TO a letter/complaint/question."
+ },
+ {
+  "sentence": "Further research ___ the disease is needed.",
+  "answer": "into",
+  "hint": "research ___ sth",
+  "explanation": "research INTO a subject (less commonly 'on')."
+ },
+ {
+  "sentence": "The government raised the tax ___ cigarettes again.",
+  "answer": "on",
+  "hint": "tax ___ sth",
+  "explanation": "a tax ON something."
+ },
+ {
+  "sentence": "Plastic waste is a serious threat ___ marine life.",
+  "answer": "to",
+  "hint": "threat ___ sth/sb",
+  "explanation": "a threat TO somebody/something."
+ }
+]

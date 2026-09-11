@@ -1,0 +1,1370 @@
+[
+ {
+  "sentence": "She bought ___ umbrella because rain was forecast.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'Umbrella' starts with a vowel sound, so 'an'."
+ },
+ {
+  "sentence": "He is ___ honest man; everyone trusts him.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "silent h",
+  "explanation": "'Honest' starts with a vowel sound (the h is silent), so 'an'."
+ },
+ {
+  "sentence": "The meeting lasted ___ hour and a half.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "silent h",
+  "explanation": "'Hour' starts with a vowel sound, so 'an hour'."
+ },
+ {
+  "sentence": "My sister studies at ___ university in Berlin.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "'yu-' sound",
+  "explanation": "'University' starts with a /juː/ consonant sound, so 'a'."
+ },
+ {
+  "sentence": "He's got ___ European accent when he speaks French.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "'yu-' sound",
+  "explanation": "'European' starts with /j/, a consonant sound, so 'a'."
+ },
+ {
+  "sentence": "It's ___ one-way street, so you can't turn left here.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "'wuh-' sound",
+  "explanation": "'One' starts with /w/, a consonant sound, so 'a one-way street'."
+ },
+ {
+  "sentence": "I downloaded ___ MP3 file from the band's website.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "letter sound",
+  "explanation": "'MP3' is pronounced /em/, a vowel sound, so 'an'."
+ },
+ {
+  "sentence": "He was born in ___ Netherlands, not in Belgium.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "plural-form country",
+  "explanation": "Country names that are plural or contain 'Kingdom/Republic/States' take 'the': the Netherlands."
+ },
+ {
+  "sentence": "___ sun sets much later in summer.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "unique thing",
+  "explanation": "'The sun' — there is only one, so the definite article is used."
+ },
+ {
+  "sentence": "I saw ___ film last night, and the film was about mountain climbers.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "second mention",
+  "explanation": "The first mention is 'a film'; when we mention it again, it becomes 'the film'."
+ },
+ {
+  "sentence": "She plays ___ piano beautifully.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "musical instrument",
+  "explanation": "After 'play', musical instruments take 'the': play the piano."
+ },
+ {
+  "sentence": "They sailed across ___ Mediterranean last summer.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "sea name",
+  "explanation": "Seas and oceans take 'the': the Mediterranean."
+ },
+ {
+  "sentence": "___ Alps attract skiers from all over the world.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "mountain range",
+  "explanation": "Mountain ranges take 'the' (the Alps), but single peaks take no article (Everest)."
+ },
+ {
+  "sentence": "Mount Everest is ___ highest mountain in the world.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "superlative",
+  "explanation": "Superlatives take 'the': the highest."
+ },
+ {
+  "sentence": "She was elected ___ president of the students' union.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "unique role",
+  "explanation": "After 'elect/appoint/make + role', the article is usually dropped: elected president."
+ },
+ {
+  "sentence": "___ rich should do more to help the poor.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "adjective as group noun",
+  "explanation": "The + adjective = a group of people: the rich."
+ },
+ {
+  "sentence": "We had ___ breakfast in bed on Sunday.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "meal",
+  "explanation": "Meals take no article: have breakfast/lunch/dinner."
+ },
+ {
+  "sentence": "She goes to ___ school by bus every morning.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "set phrase: go to school/work",
+  "explanation": "'Go to school/work/bed/church' (as participant) takes no article."
+ },
+ {
+  "sentence": "He speaks ___ Spanish fluently.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "language",
+  "explanation": "Languages take no article: speak Spanish, learn English."
+ },
+ {
+  "sentence": "They play ___ golf every Saturday morning.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "sport",
+  "explanation": "Sports take no article: play golf, play tennis (compare: play the piano)."
+ },
+ {
+  "sentence": "I live on ___ Baker Street, near the tube station.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "street name",
+  "explanation": "Street names take no article: Baker Street, Oxford Street."
+ },
+ {
+  "sentence": "___ United Kingdom consists of four countries.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "country with 'Kingdom'",
+  "explanation": "'The United Kingdom', 'the USA', 'the Czech Republic' all take 'the'."
+ },
+ {
+  "sentence": "We visited ___ Louvre on our last morning in Paris.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "famous building",
+  "explanation": "Most famous buildings and monuments take 'the': the Louvre, the Eiffel Tower."
+ },
+ {
+  "sentence": "These apples cost two euros ___ kilo.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "per = a",
+  "explanation": "'A/per' is used for rates: two euros a kilo, twice a week, 60 km an hour."
+ },
+ {
+  "sentence": "She goes to the gym twice ___ week.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "rate: twice ___ week",
+  "explanation": "'Twice a week' — rates take 'a' (= per). The other gap is 'the gym'."
+ },
+ {
+  "sentence": "She's got ___ few friends in Madrid, so she visits often.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "a few = some",
+  "explanation": "'A few' means some (positive); 'few' alone means hardly any."
+ },
+ {
+  "sentence": "There was ___ enormous queue for the tickets.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'Enormous' starts with a vowel sound, so 'an enormous queue'."
+ },
+ {
+  "sentence": "___ honesty is the best policy, as the saying goes.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "abstract noun",
+  "explanation": "Abstract nouns used in a general sense take no article: honesty, happiness, love."
+ },
+ {
+  "sentence": "The car crashed into a wall at ___ speed of 90 km/h.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "fixed phrase",
+  "explanation": "'At a speed of…' — 'a' is part of this fixed phrase."
+ },
+ {
+  "sentence": "He wants to become ___ engineer when he grows up.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "profession, vowel sound",
+  "explanation": "Professions take a/an; 'engineer' starts with a vowel sound."
+ },
+ {
+  "sentence": "We stayed at ___ hotel right next to the station.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "specific, known from context",
+  "explanation": "'The station' — in a town there is usually one known station; context makes it definite."
+ },
+ {
+  "sentence": "___ problem is that people don't recycle enough.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "specified problem",
+  "explanation": "The problem (the one we are discussing); people in general takes no article."
+ },
+ {
+  "sentence": "She works as ___ waitress during the summer holidays.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "job after 'as'",
+  "explanation": "After 'as' and 'work as', jobs take a/an: work as a waitress."
+ },
+ {
+  "sentence": "___ Everest was first climbed in 1953.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "single mountain",
+  "explanation": "Single mountain peaks take no article: Everest, Mont Blanc (compare: the Alps)."
+ },
+ {
+  "sentence": "He was sent to ___ prison for armed robbery.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "as a prisoner",
+  "explanation": "'Be sent to prison' (as a prisoner) takes no article; visiting the building is 'go to the prison'."
+ },
+ {
+  "sentence": "His wife goes to ___ prison every Sunday to visit him.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "specific building",
+  "explanation": "Here 'the prison' is the building she visits, not the institution of imprisonment."
+ },
+ {
+  "sentence": "She arrived in ___ New York on Monday evening.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "city name",
+  "explanation": "City names take no article: New York, London, Madrid."
+ },
+ {
+  "sentence": "What ___ lovely surprise to see you here!",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "exclamation with what",
+  "explanation": "'What a + adjective + noun' in exclamations: What a surprise!"
+ },
+ {
+  "sentence": "It was such ___ awful weather that we stayed indoors.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "weather is uncountable",
+  "explanation": "Uncountable nouns take no article after 'such': such awful weather."
+ },
+ {
+  "sentence": "He had ___ operation on his knee last year.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'Operation' starts with a vowel sound, so 'an operation'."
+ },
+ {
+  "sentence": "___ life in the countryside is much quieter.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "general statement",
+  "explanation": "'Life' in a general sense takes no article: Life is hard sometimes."
+ },
+ {
+  "sentence": "The novel had a huge effect on ___ young people of the 1960s.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "specified group",
+  "explanation": "'The young people of the 1960s' — defined by the of-phrase, so 'the'."
+ },
+ {
+  "sentence": "He earns fifty thousand pounds ___ year.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "rate",
+  "explanation": "'Fifty thousand a year' — 'a' = per in rates."
+ },
+ {
+  "sentence": "My uncle is ___ university lecturer and a painter in his free time.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "'yu-' sound",
+  "explanation": "'A university lecturer' (the u sounds like /juː/); the second gap is also 'an artist'."
+ },
+ {
+  "sentence": "Do you know ___ Smiths who live opposite?",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "family name plural",
+  "explanation": "'The + plural surname' = the family: the Smiths."
+ },
+ {
+  "sentence": "___ inflation rose sharply last quarter.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "abstract noun, general",
+  "explanation": "'Inflation' as a general economic concept takes no article."
+ },
+ {
+  "sentence": "He was ___ last person to leave the building.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "ordinal",
+  "explanation": "Ordinals take 'the': the last person, the first time."
+ },
+ {
+  "sentence": "We go to ___ cinema about once a month.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "set phrase",
+  "explanation": "'Go to the cinema/theatre' is a fixed phrase with 'the'."
+ },
+ {
+  "sentence": "She was wearing ___ old denim jacket that I loved at first sight.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An old…' — 'old' starts with a vowel sound."
+ },
+ {
+  "sentence": "___ unemployment has fallen sharply this year.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "abstract general",
+  "explanation": "Unemployment as a general concept takes no article."
+ },
+ {
+  "sentence": "They organized ___ charity concert for flood victims.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "single event, first mention",
+  "explanation": "'A charity concert' — one of many possible concerts, first mention."
+ },
+ {
+  "sentence": "___ water in this bottle tastes strange.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "specified by 'in this bottle'",
+  "explanation": "The of/in-phrase makes the noun definite: the water in this bottle."
+ },
+ {
+  "sentence": "He considers himself ___ expert on medieval art.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An expert' — 'expert' starts with a vowel sound."
+ },
+ {
+  "sentence": "Could you pass me ___ salt, please?",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "shared context",
+  "explanation": "'The salt' — both speakers know which one (on the table)."
+ },
+ {
+  "sentence": "She gets up at six and watches ___ morning news.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "unique programme",
+  "explanation": "'The morning news' — a specific known broadcast, so 'the'."
+ },
+ {
+  "sentence": "It was ___ best meal I've ever had.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "superlative",
+  "explanation": "Superlatives take 'the': the best meal."
+ },
+ {
+  "sentence": "Rome is ___ capital of Italy.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "unique role + of-phrase",
+  "explanation": "'The capital of Italy' — the of-phrase makes it unique and definite."
+ },
+ {
+  "sentence": "He was offered ___ job in the human resources department.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "first mention",
+  "explanation": "'A job' — first mention of one of many possible jobs. Note: 'in human resources' takes no article."
+ },
+ {
+  "sentence": "___ courage he showed amazed everyone.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "specified by of/relative clause",
+  "explanation": "'The courage he showed' — the relative clause makes it definite."
+ },
+ {
+  "sentence": "We had ___ wonderful time in Prague.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "have a … time",
+  "explanation": "'Have a wonderful/great/good time' — 'time' here is countable and takes 'a'."
+ },
+ {
+  "sentence": "___ influenza, or flu, is highly contagious.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "disease name",
+  "explanation": "Most disease names take no article: influenza, flu, malaria (compare: the flu is also heard informally)."
+ },
+ {
+  "sentence": "She spent three weeks in ___ hospital after the accident.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "UK: as a patient",
+  "explanation": "British English: be in hospital (as a patient) takes no article; the building is the hospital."
+ },
+ {
+  "sentence": "___ noise woke me up in the middle of the night.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "known from context",
+  "explanation": "'The noise' — the one that woke me; 'in the night' is a fixed phrase."
+ },
+ {
+  "sentence": "She put ___ money in the safe before leaving.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "both known from context",
+  "explanation": "'The money' and 'the safe' are specific in the situation."
+ },
+ {
+  "sentence": "He is ___ most experienced teacher in the school.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "superlative",
+  "explanation": "Superlative + of/in-phrase: the most experienced teacher in the school."
+ },
+ {
+  "sentence": "I'd like ___ orange juice, please — small or large?",
+  "answer": "some",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "some"
+  ],
+  "hint": "uncountable drink",
+  "explanation": "Drinks offered as an amount take 'some' (or no article): some orange juice."
+ },
+ {
+  "sentence": "___ poverty remains a serious issue worldwide.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "abstract, general",
+  "explanation": "'Poverty' in general takes no article."
+ },
+ {
+  "sentence": "He joined ___ army when he was eighteen.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "institution",
+  "explanation": "Institutions take 'the': the army, the police, the church."
+ },
+ {
+  "sentence": "The tour included ___ visit to the British Museum.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "a/an + visit; museum with 'the'",
+  "explanation": "'A visit' (one of many possible) and 'the British Museum' (museums take 'the')."
+ },
+ {
+  "sentence": "She made ___ decision to move to the countryside.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "make a decision",
+  "explanation": "'Make a decision' is the fixed collocation; 'the countryside' is a fixed phrase with 'the'."
+ },
+ {
+  "sentence": "___ books you left on my desk were really useful.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "specified by relative clause",
+  "explanation": "'The books you left…' — the clause identifies which books."
+ },
+ {
+  "sentence": "He left ___ school at sixteen and went straight into a job.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "leave school = finish education",
+  "explanation": "Leave school (finish education) takes no article."
+ },
+ {
+  "sentence": "It's ___ pity that the concert was cancelled.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "It's a pity",
+  "explanation": "'It's a pity' is a fixed expression with 'a'."
+ },
+ {
+  "sentence": "___ young woman at reception speaks five languages.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "identified by of/at-phrase",
+  "explanation": "'The young woman at reception' — defined by the location phrase."
+ },
+ {
+  "sentence": "This is ___ second time you've been late this week.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "ordinal",
+  "explanation": "'The second time' — ordinals take 'the'."
+ },
+ {
+  "sentence": "They drove to ___ south of France for the summer.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "the south of",
+  "explanation": "'By train' takes no article; 'the south of France' takes 'the' (compass areas)."
+ },
+ {
+  "sentence": "He's always been fascinated by ___ universe.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "unique thing",
+  "explanation": "'The universe' — unique, so 'the'."
+ },
+ {
+  "sentence": "We bought ___ antique mirror at the flea market.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An antique mirror' — 'antique' starts with a vowel sound."
+ },
+ {
+  "sentence": "___ information you sent was extremely helpful.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "specified by clause",
+  "explanation": "'The information you sent' — the clause defines it; information is uncountable."
+ },
+ {
+  "sentence": "She earns her living as ___ journalist.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "profession",
+  "explanation": "Jobs after 'as' take a/an: as a journalist."
+ },
+ {
+  "sentence": "___ Hyde Park is lovely in autumn.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "park names",
+  "explanation": "Most park names take no article: Hyde Park, Central Park (exception: the Grands Boulevards style names)."
+ },
+ {
+  "sentence": "They say ___ apple a day keeps the doctor away.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "proverb with an",
+  "explanation": "'An apple a day…' — 'an' before the vowel sound, 'a' before 'day'."
+ },
+ {
+  "sentence": "___ Galapagos Islands are famous for unique wildlife.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "island group",
+  "explanation": "Groups of islands take 'the': the Galapagos Islands, the Canary Islands."
+ },
+ {
+  "sentence": "He's got ___ MA in translation.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "letter sound",
+  "explanation": "'MA' is pronounced /em/, starting with a vowel sound, so 'an MA'."
+ },
+ {
+  "sentence": "We reached ___ agreement after hours of negotiation.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'Reach an agreement' — 'agreement' starts with a vowel sound."
+ },
+ {
+  "sentence": "___ happiness matters more than money.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "abstract nouns",
+  "explanation": "Both 'happiness' and 'money' are general here, so no article for either gap."
+ },
+ {
+  "sentence": "She works in ___ insurance, not banking.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "industry sectors",
+  "explanation": "Industry/sector names take no article: in insurance, in banking, in marketing."
+ },
+ {
+  "sentence": "The kids spent ___ afternoon playing in the garden.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "known context",
+  "explanation": "'The afternoon' and 'the garden' (our garden) are definite in context."
+ },
+ {
+  "sentence": "He demands ___ answer before the end of the day.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "An answer — vowel sound."
+ },
+ {
+  "sentence": "___ spaceship travelled for six months before reaching Mars.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "unique in the story",
+  "explanation": "The spaceship — the one in the story; Mars takes no article."
+ },
+ {
+  "sentence": "He behaves as if he were ___ owner of the company.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "unique role",
+  "explanation": "'The owner' — there is one owner, so 'the'."
+ },
+ {
+  "sentence": "I only need ___ few more minutes to finish.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "a few = some",
+  "explanation": "'A few minutes' = some minutes; 'few' alone would mean almost none."
+ },
+ {
+  "sentence": "___ curiosity killed the cat, as they say.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "abstract quality",
+  "explanation": "'Curiosity' as an abstract quality takes no article, even in the proverb."
+ },
+ {
+  "sentence": "She's studying history at ___ University of Vienna.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "named with of-phrase",
+  "explanation": "University names with of-phrases take the: the University of Vienna."
+ },
+ {
+  "sentence": "He gave me ___ useful advice about the paperwork.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "advice is uncountable",
+  "explanation": "'Advice' is uncountable — never 'an advice'. Use 'a piece of advice' for one item."
+ },
+ {
+  "sentence": "They moved to ___ coastal town an hour south of the capital.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "first mention",
+  "explanation": "A coastal town — first mention of one of many."
+ },
+ {
+  "sentence": "___ weather was so bad that the match was abandoned.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "always specific",
+  "explanation": "The weather is always definite in a situation."
+ },
+ {
+  "sentence": "It's ___ eight o'clock news — hurry up!",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "specific broadcast",
+  "explanation": "'The eight o'clock news' — a specific, known programme."
+ },
+ {
+  "sentence": "He was wearing ___ strange metal bracelet on his left wrist.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "first mention; body part with 'the'",
+  "explanation": "'A strange bracelet' (first mention); body parts after prepositions traditionally take 'the' (on the left wrist)."
+ },
+ {
+  "sentence": "___ good news is that sales are up by twenty per cent.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "news is uncountable",
+  "explanation": "'News' is uncountable but takes 'the' when specified: the good news is… 'Sales' here is general, so no article."
+ },
+ {
+  "sentence": "She got ___ injury during the warm-up.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An injury' — vowel sound; 'during the warm-up' is the specific one."
+ },
+ {
+  "sentence": "___ rich variety of birds lives in the Danube delta.",
+  "answer": "A",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "a variety of",
+  "explanation": "A rich variety of… — variety is countable here, first mention."
+ },
+ {
+  "sentence": "He drives ___ old van that is always breaking down.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An old van' — 'old' begins with a vowel sound. The second gap is 'the axle'."
+ },
+ {
+  "sentence": "They're building ___ new library near the town hall.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "first mention",
+  "explanation": "A new library — first mention; the town hall is the known one."
+ },
+ {
+  "sentence": "___ antibiotics don't help against flu.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "plural general + illness",
+  "explanation": "Plural general nouns and flu (illness name) take no article."
+ },
+ {
+  "sentence": "It was ___ honour to meet the ambassador.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "silent h",
+  "explanation": "'Honour' starts with a vowel sound (silent h), so 'an honour'."
+ },
+ {
+  "sentence": "He ordered ___ steak, but it arrived cold.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "first mention then second",
+  "explanation": "'A steak' first, then 'the waiter' — the restaurant's waiter, definite in context."
+ },
+ {
+  "sentence": "___ sales figures for October look promising.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "specified by for-phrase",
+  "explanation": "'The sales figures for October' — defined by the for-phrase."
+ },
+ {
+  "sentence": "She has ___ eye for detail.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "have an eye for",
+  "explanation": "'Have an eye for something' — fixed idiom with 'an'."
+ },
+ {
+  "sentence": "___ French enjoy good food.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "nationality as group",
+  "explanation": "'The + nationality adjective' = the people as a group: the French, the British."
+ },
+ {
+  "sentence": "He found ___ coin buried in the sand.",
+  "answer": "a",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "first mention; mass noun",
+  "explanation": "'A coin' first mention; 'in the sand' — sand as a mass takes 'the' here (the sand on that beach)."
+ },
+ {
+  "sentence": "They elected her ___ chairperson for a second term.",
+  "answer": "–",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "elect + role",
+  "explanation": "After 'elect/appoint', roles take no article: elected her chairperson."
+ },
+ {
+  "sentence": "___ noise pollution in cities is getting worse.",
+  "answer": "–",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "–"
+  ],
+  "hint": "abstract general",
+  "explanation": "'Noise pollution' as a general concept takes no article."
+ },
+ {
+  "sentence": "We're going to ___ Algarve for a fortnight in June.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "–"
+  ],
+  "hint": "region name",
+  "explanation": "Region names often take the: the Algarve, the Riviera."
+ }
+]

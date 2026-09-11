@@ -59,7 +59,7 @@ else
             </div>
         }
 
-        @if (IsCloze)
+        @if (IsCloze && !string.IsNullOrEmpty(_set.Text))
         {
             <div class="cloze-text">
                 @foreach (var seg in ContentRepository.ParseCloze(_set.Text))
@@ -88,38 +88,7 @@ else
                         {
                             <p class="gap-lead">@gap.Lead</p>
                         }
-                        @if (IsCloze)
-                        {
-                            <div class="gap-answerline">
-                                <span class="gap-marker-static">@idx1(idx)</span>
-                                @if (gap.Base is not null)
-                                {
-                                    <span class="base-badge">@gap.Base</span>
-                                }
-                                @if (gap.Options.Count > 0)
-                                {
-                                    <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
-                                        @foreach (var opt in gap.Options)
-                                        {
-                                            var o = opt;
-                                            <button type="button" role="radio"
-                                                    class="opt-pill @(_answers[idx] == o ? "opt-selected" : "") @OptionFeedback(idx, o)"
-                                                    disabled="@_checked"
-                                                    @onclick="() => SelectOption(idx, o)">@o</button>
-                                        }
-                                    </div>
-                                }
-                                else
-                                {
-                                    <input class="gap-input" @bind="_answers[idx]" @bind:after="() => ClearFeedback(idx)"
-                                           disabled="@_checked" placeholder="your answer"
-                                           aria-label="Answer for question @(idx + 1)" />
-                                }
-                                <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
-                                        @onclick="() => ShowHint(idx)">💡</button>
-                            </div>
-                        }
-                        else if (gap.Sentence is not null)
+                        @if (gap.Sentence is not null)
                         {
                             var parts = ContentRepository.SplitSentence(gap.Sentence);
                             <div class="gap-answerline">
@@ -151,9 +120,44 @@ else
                                 {
                                     <span class="sentence">@gap.Sentence</span>
                                 }
+                                @if (gap.Base is not null)
+                                {
+                                    <span class="base-badge" title="Base word">@gap.Base</span>
+                                }
                                 @if (gap.Keyword is not null)
                                 {
                                     <span class="base-badge" title="Use this word">@gap.Keyword</span>
+                                }
+                                <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
+                                        @onclick="() => ShowHint(idx)">💡</button>
+                            </div>
+                        }
+                        else if (IsCloze)
+                        {
+                            <div class="gap-answerline">
+                                <span class="gap-marker-static">@idx1(idx)</span>
+                                @if (gap.Base is not null)
+                                {
+                                    <span class="base-badge">@gap.Base</span>
+                                }
+                                @if (gap.Options.Count > 0)
+                                {
+                                    <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
+                                        @foreach (var opt in gap.Options)
+                                        {
+                                            var o = opt;
+                                            <button type="button" role="radio"
+                                                    class="opt-pill @(_answers[idx] == o ? "opt-selected" : "") @OptionFeedback(idx, o)"
+                                                    disabled="@_checked"
+                                                    @onclick="() => SelectOption(idx, o)">@o</button>
+                                        }
+                                    </div>
+                                }
+                                else
+                                {
+                                    <input class="gap-input" @bind="_answers[idx]"
+                                           disabled="@_checked" placeholder="your answer"
+                                           aria-label="Answer for question @(idx + 1)" />
                                 }
                                 <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
                                         @onclick="() => ShowHint(idx)">💡</button>

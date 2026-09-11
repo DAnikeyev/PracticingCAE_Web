@@ -1,0 +1,744 @@
+[
+ {
+  "sentence": "The new law will ___ every driver in the country.",
+  "answer": "affect",
+  "options": ["affect", "effect", "effective", "affection"],
+  "hint": "a verb is needed after 'will'",
+  "explanation": "'Affect' is the verb meaning to have an influence on; 'effect' is normally a noun meaning a result."
+ },
+ {
+  "sentence": "The medicine had an immediate ___ on her pain.",
+  "answer": "effect",
+  "options": ["effect", "affect", "affection", "effective"],
+  "hint": "a noun is needed after 'an immediate'",
+  "explanation": "'Effect' is the noun meaning result; the fixed phrase is 'have an effect on something'."
+ },
+ {
+  "sentence": "The new regulations came into ___ last month.",
+  "answer": "effect",
+  "options": ["effect", "affect", "affection", "affective"],
+  "hint": "fixed phrase: come into ___",
+  "explanation": "'Come into effect' means to start being used; 'affect' is a verb and cannot follow 'into'."
+ },
+ {
+  "sentence": "Can you ___ me on which course to choose?",
+  "answer": "advise",
+  "options": ["advise", "advice", "advices", "advisor"],
+  "hint": "a verb is needed after 'you'",
+  "explanation": "'Advise' is the verb (to give advice); 'advice' is the uncountable noun and 'advices' does not exist."
+ },
+ {
+  "sentence": "She gave me some useful ___ about buying a house.",
+  "answer": "advice",
+  "options": ["advice", "advise", "advices", "advising"],
+  "hint": "a noun is needed after 'some useful'",
+  "explanation": "'Advice' is the uncountable noun; 'advise' is the verb. 'Advices' is not standard English."
+ },
+ {
+  "sentence": "We ___ all major credit cards at the box office.",
+  "answer": "accept",
+  "options": ["accept", "except", "expect", "access"],
+  "hint": "meaning: take or receive willingly",
+  "explanation": "'Accept' means to take or agree to something offered; 'except' means not including."
+ },
+ {
+  "sentence": "The museum is open daily ___ Mondays.",
+  "answer": "except",
+  "options": ["except", "accept", "expect", "exempt"],
+  "hint": "meaning: not including",
+  "explanation": "'Except' means not including; 'accept' is a verb meaning to take willingly."
+ },
+ {
+  "sentence": "Be careful not to ___ your keys on the bus.",
+  "answer": "lose",
+  "options": ["lose", "loose", "loosened", "loss"],
+  "hint": "a verb is needed; meaning: no longer have",
+  "explanation": "'Lose' is the verb (opposite of find); 'loose' is an adjective meaning not tight."
+ },
+ {
+  "sentence": "This tooth is ___ and will probably fall out soon.",
+  "answer": "loose",
+  "options": ["loose", "lose", "loosely", "loss"],
+  "hint": "an adjective is needed after 'is'",
+  "explanation": "'Loose' is an adjective meaning not firmly fixed; 'lose' is the verb meaning to no longer have."
+ },
+ {
+  "sentence": "Please be ___ — the baby is sleeping.",
+  "answer": "quiet",
+  "options": ["quiet", "quite", "quit", "quietly"],
+  "hint": "an adjective is needed after 'be'",
+  "explanation": "'Quiet' means making little or no noise; 'quite' is an adverb meaning fairly or completely."
+ },
+ {
+  "sentence": "The film was ___ good, but not brilliant.",
+  "answer": "quite",
+  "options": ["quite", "quiet", "quit", "quietly"],
+  "hint": "an adverb of degree is needed before 'good'",
+  "explanation": "'Quite' means fairly or rather; 'quiet' is an adjective meaning without noise."
+ },
+ {
+  "sentence": "A car remained ___ at the traffic lights for ages.",
+  "answer": "stationary",
+  "options": ["stationary", "stationery", "steadily", "station"],
+  "hint": "adjective meaning not moving",
+  "explanation": "'Stationary' means not moving; 'stationery' means pens, paper and other writing materials."
+ },
+ {
+  "sentence": "Pens, envelopes and paper are sold in the ___ department.",
+  "answer": "stationery",
+  "options": ["stationery", "stationary", "station", "stationing"],
+  "hint": "noun meaning writing materials",
+  "explanation": "'Stationery' means writing materials; 'stationary' is an adjective meaning not moving."
+ },
+ {
+  "sentence": "The wine ___ the meal perfectly.",
+  "answer": "complemented",
+  "options": ["complemented", "complimented", "complementing", "compliment"],
+  "hint": "meaning: went well with",
+  "explanation": "'Complement' means to combine well with or complete something; 'compliment' means to praise."
+ },
+ {
+  "sentence": "He ___ her on her excellent presentation.",
+  "answer": "complimented",
+  "options": ["complimented", "complemented", "complimenting", "complement"],
+  "hint": "meaning: praised",
+  "explanation": "'Compliment somebody on something' means to praise; 'complement' means to go well with."
+ },
+ {
+  "sentence": "The ___ reason for the delay was the weather.",
+  "answer": "principal",
+  "options": ["principal", "principle", "principally", "principles"],
+  "hint": "adjective meaning main or most important",
+  "explanation": "'Principal' as an adjective means main or most important; 'principle' is a noun meaning a basic rule or belief."
+ },
+ {
+  "sentence": "She refuses to lie on ___.",
+  "answer": "principle",
+  "options": ["principle", "principal", "principally", "principals"],
+  "hint": "noun meaning a moral rule; fixed phrase 'on principle'",
+  "explanation": "'On principle' means because of a moral belief; 'principal' means main or the head of a school."
+ },
+ {
+  "sentence": "After dinner we had chocolate cake for ___.",
+  "answer": "dessert",
+  "options": ["dessert", "desert", "desserts", "deserted"],
+  "hint": "the sweet course of a meal (double 's' like 'sweet stuff')",
+  "explanation": "'Dessert' is the sweet course at the end of a meal; 'desert' is a dry, sandy region."
+ },
+ {
+  "sentence": "The Sahara is the largest hot ___ in the world.",
+  "answer": "desert",
+  "options": ["desert", "dessert", "deserts", "deserted"],
+  "hint": "a dry, sandy region (one 's')",
+  "explanation": "'Desert' is a dry region with little rain; 'dessert' is the sweet course of a meal."
+ },
+ {
+  "sentence": "Thousands of people were forced to ___ their homes.",
+  "answer": "desert",
+  "options": ["desert", "dessert", "deserted", "deserting"],
+  "hint": "a verb is needed after 'to'; meaning: abandon",
+  "explanation": "'Desert' is also a verb meaning to abandon; 'dessert' is only the sweet course of a meal."
+ },
+ {
+  "sentence": "It costs more ___ I expected.",
+  "answer": "than",
+  "options": ["than", "then", "that", "there"],
+  "hint": "used for comparisons",
+  "explanation": "'Than' is used in comparisons; 'then' refers to time or consequence."
+ },
+ {
+  "sentence": "We had lunch, and ___ we went for a walk.",
+  "answer": "then",
+  "options": ["then", "than", "that", "there"],
+  "hint": "refers to what happened next",
+  "explanation": "'Then' means next or after that; 'than' is used in comparisons."
+ },
+ {
+  "sentence": "The children left ___ toys all over the floor.",
+  "answer": "their",
+  "options": ["their", "there", "they're", "theirs"],
+  "hint": "possessive form of 'they'",
+  "explanation": "'Their' shows possession; 'there' is a place; 'they're' means 'they are'; 'theirs' is a possessive pronoun standing alone."
+ },
+ {
+  "sentence": "Look at that bird up ___ in the tree.",
+  "answer": "there",
+  "options": ["there", "their", "they're", "theirs"],
+  "hint": "refers to a place",
+  "explanation": "'There' refers to a place; 'their' shows possession; 'they're' means 'they are'."
+ },
+ {
+  "sentence": "The company has changed ___ logo twice.",
+  "answer": "its",
+  "options": ["its", "it's", "it", "its'"],
+  "hint": "possessive form of 'it' — no apostrophe",
+  "explanation": "'Its' is the possessive form of 'it'; 'it's' means 'it is' or 'it has'. 'Its'' does not exist."
+ },
+ {
+  "sentence": "___ been raining all week.",
+  "answer": "It's",
+  "options": ["It's", "Its", "It", "Its'"],
+  "hint": "short for 'It has'",
+  "explanation": "'It's' is short for 'it is' or 'it has'; here it means 'it has been raining'. The possessive is 'its'."
+ },
+ {
+  "sentence": "___ coming to the party tonight?",
+  "answer": "Who's",
+  "options": ["Who's", "Whose", "Who", "Whom"],
+  "hint": "short for 'Who is'",
+  "explanation": "'Who's' is short for 'who is'; 'whose' asks about possession."
+ },
+ {
+  "sentence": "Do you know ___ bag this is?",
+  "answer": "whose",
+  "options": ["whose", "who's", "who", "whom"],
+  "hint": "asks about possession",
+  "explanation": "'Whose' asks about possession; 'who's' means 'who is'."
+ },
+ {
+  "sentence": "Don't forget to bring ___ umbrella.",
+  "answer": "your",
+  "options": ["your", "you're", "yours", "you"],
+  "hint": "possessive form of 'you'",
+  "explanation": "'Your' shows possession; 'you're' means 'you are'; 'yours' is a possessive pronoun standing alone."
+ },
+ {
+  "sentence": "___ going to love this film.",
+  "answer": "You're",
+  "options": ["You're", "Your", "Yours", "You"],
+  "hint": "short for 'You are'",
+  "explanation": "'You're' is short for 'you are'; 'your' shows possession."
+ },
+ {
+  "sentence": "I'm exhausted — I need to ___ down and rest.",
+  "answer": "lie",
+  "options": ["lie", "lay", "laid", "lying"],
+  "hint": "to recline — no object; forms: lie, lay, lain",
+  "explanation": "'Lie' (lie, lay, lain) means to recline and takes no object; 'lay' (lay, laid, laid) means to put something down and takes an object."
+ },
+ {
+  "sentence": "She ___ the documents on the desk and left.",
+  "answer": "laid",
+  "options": ["laid", "lay", "lain", "lying"],
+  "hint": "past of the verb meaning 'put down' (takes an object)",
+  "explanation": "'Laid' is the past of 'lay' (put something down), which takes an object: she laid the documents."
+ },
+ {
+  "sentence": "He ___ on the sofa all afternoon yesterday.",
+  "answer": "lay",
+  "options": ["lay", "laid", "lain", "lying"],
+  "hint": "past of 'lie' (recline, no object)",
+  "explanation": "'Lay' is the past of 'lie' (recline): he lay on the sofa. 'Laid' would need an object."
+ },
+ {
+  "sentence": "Sales have ___ sharply since January.",
+  "answer": "risen",
+  "options": ["risen", "raised", "rose", "raising"],
+  "hint": "past participle after 'have'; the verb takes no object",
+  "explanation": "'Rise' (rise, rose, risen) takes no object: sales have risen. 'Raise' takes an object: they raised prices."
+ },
+ {
+  "sentence": "The government plans to ___ taxes next year.",
+  "answer": "raise",
+  "options": ["raise", "rise", "arise", "arouse"],
+  "hint": "the verb takes an object: taxes",
+  "explanation": "'Raise' means to lift or increase something (takes an object); 'rise' means to go up (no object)."
+ },
+ {
+  "sentence": "Smoke could be seen ___ from the factory chimneys.",
+  "answer": "rising",
+  "options": ["rising", "raising", "arising", "risen"],
+  "hint": "the smoke goes up by itself — no object",
+  "explanation": "'Rise' (no object) describes the smoke going up; 'raise' would need an object (raise something)."
+ },
+ {
+  "sentence": "Could I ___ your pen for a moment?",
+  "answer": "borrow",
+  "options": ["borrow", "lend", "lent", "renting"],
+  "hint": "meaning: take and return later (from someone's point of view)",
+  "explanation": "'Borrow' means to take something temporarily; 'lend' means to give something temporarily to someone else."
+ },
+ {
+  "sentence": "The bank agreed to ___ him the money.",
+  "answer": "lend",
+  "options": ["lend", "borrow", "lent", "borrowing"],
+  "hint": "meaning: give temporarily (from the giver's point of view)",
+  "explanation": "'Lend' means to give something to someone temporarily; the bank lends money. A base verb is needed after 'to'."
+ },
+ {
+  "sentence": "She ___ me a fascinating story about her childhood.",
+  "answer": "told",
+  "options": ["told", "said", "spoke", "talked"],
+  "hint": "telling a story to a person: ___ + person + story",
+  "explanation": "'Tell' takes a person as object: tell somebody a story. 'Say' does not take the listener directly."
+ },
+ {
+  "sentence": "He ___ that he would be late.",
+  "answer": "said",
+  "options": ["said", "told", "spoke", "say"],
+  "hint": "'___ that ...' without a listener as object",
+  "explanation": "'Say' is used with reported content ('say that ...') without a person object; 'tell' needs one (tell me that ...)."
+ },
+ {
+  "sentence": "Can you ___ the difference between these two words?",
+  "answer": "tell",
+  "options": ["tell", "say", "speak", "talk"],
+  "hint": "fixed expression: ___ the difference",
+  "explanation": "'Tell the difference' is a fixed expression meaning to see or know how things differ."
+ },
+ {
+  "sentence": "Our team ___ the match 3-0.",
+  "answer": "won",
+  "options": ["won", "beat", "succeeded", "defeated"],
+  "hint": "you ___ a match, but ___ the other team",
+  "explanation": "'Win' takes the game or prize as object (win a match); 'beat/defeat' take the opponent as object."
+ },
+ {
+  "sentence": "They managed to ___ the champions in the final.",
+  "answer": "beat",
+  "options": ["beat", "win", "score", "gain"],
+  "hint": "you ___ the opposing team",
+  "explanation": "'Beat' takes the opponent as object (beat the champions); 'win' takes the game or prize."
+ },
+ {
+  "sentence": "Please ___ me to post this letter.",
+  "answer": "remind",
+  "options": ["remind", "remember", "recall", "reminder"],
+  "hint": "make somebody not forget: ___ somebody to do something",
+  "explanation": "'Remind somebody to do something' means to make someone remember; 'remember' is something you do yourself."
+ },
+ {
+  "sentence": "I can still ___ the day we first met.",
+  "answer": "remember",
+  "options": ["remember", "remind", "reminder", "forget"],
+  "hint": "to keep in your memory yourself",
+  "explanation": "'Remember' means to keep something in your memory; 'remind' means to make someone else remember."
+ },
+ {
+  "sentence": "This smell ___ me of my childhood.",
+  "answer": "reminds",
+  "options": ["reminds", "remembers", "recall", "remind"],
+  "hint": "fixed pattern: ___ somebody of something",
+  "explanation": "'Remind somebody of something' means to make someone think of something; 'remember' is not followed by an object + of."
+ },
+ {
+  "sentence": "We spent the evening ___ television.",
+  "answer": "watching",
+  "options": ["watching", "looking", "seeing", "viewing"],
+  "hint": "the standard verb with television and sport",
+  "explanation": "'Watch television' is the fixed collocation; 'look' needs 'at', and 'see television' is not used."
+ },
+ {
+  "sentence": "Did you ___ the new exhibition at the museum?",
+  "answer": "see",
+  "options": ["see", "look", "watch", "notice"],
+  "hint": "to visit and experience something like an exhibition or film",
+  "explanation": "'See an exhibition' means to visit and view it; 'watch' is used for moving images and events."
+ },
+ {
+  "sentence": "___ at this old photo — isn't it amazing?",
+  "answer": "Look",
+  "options": ["Look", "See", "Watch", "Notice"],
+  "hint": "fixed pattern: ___ at something",
+  "explanation": "'Look at' means to direct your eyes towards something; the other verbs cannot be followed by 'at' here."
+ },
+ {
+  "sentence": "I couldn't ___ what he was saying because of the noise.",
+  "answer": "hear",
+  "options": ["hear", "listen", "sound", "listened"],
+  "hint": "to receive sound (not deliberate)",
+  "explanation": "'Hear' means to receive sound; 'listen' means to pay attention deliberately and needs 'to'."
+ },
+ {
+  "sentence": "We sat ___ to the sound of the waves.",
+  "answer": "listening",
+  "options": ["listening", "hearing", "sounding", "heard"],
+  "hint": "deliberately paying attention: ___ to",
+  "explanation": "'Listen to' means to pay attention to sound deliberately; after 'sat' the -ing form is needed."
+ },
+ {
+  "sentence": "The train ___ was delayed by two hours.",
+  "answer": "journey",
+  "options": ["journey", "trip", "travel", "voyage"],
+  "hint": "the act of travelling from A to B, especially by land or rail",
+  "explanation": "'Journey' is an act of travelling from one place to another; 'voyage' is by sea; 'travel' is uncountable."
+ },
+ {
+  "sentence": "We went on a school ___ to the coast.",
+  "answer": "trip",
+  "options": ["trip", "journey", "travel", "voyage"],
+  "hint": "a short outing with a return, often for pleasure or a purpose",
+  "explanation": "'Trip' is a short journey with a return ('a school trip'); 'voyage' is a long journey by sea."
+ },
+ {
+  "sentence": "The Titanic sank on her maiden ___.",
+  "answer": "voyage",
+  "options": ["voyage", "journey", "trip", "travel"],
+  "hint": "a long journey by sea",
+  "explanation": "'Voyage' is a long journey by ship or spacecraft; 'maiden voyage' is a ship's first journey."
+ },
+ {
+  "sentence": "___ broadens the mind.",
+  "answer": "Travel",
+  "options": ["Travel", "Journey", "Trip", "Voyage"],
+  "hint": "the uncountable activity of travelling in general",
+  "explanation": "'Travel' is uncountable when it means travelling in general; the other options are countable nouns."
+ },
+ {
+  "sentence": "Air ___ has become much cheaper in the last twenty years.",
+  "answer": "travel",
+  "options": ["travel", "journey", "trip", "voyage"],
+  "hint": "uncountable noun for travelling in general",
+  "explanation": "'Air travel' is the fixed expression for travelling by plane; 'travel' is uncountable here."
+ },
+ {
+  "sentence": "She has had a brilliant ___ in politics.",
+  "answer": "career",
+  "options": ["career", "job", "work", "occupation"],
+  "hint": "the whole course of a person's professional life",
+  "explanation": "'Career' is the progress through a working life, especially in one profession; 'job' is one position."
+ },
+ {
+  "sentence": "I start my new ___ at the hospital on Monday.",
+  "answer": "job",
+  "options": ["job", "work", "career", "occupation"],
+  "hint": "a single, countable position of employment",
+  "explanation": "'Job' is countable — one particular position; 'work' is uncountable and cannot follow 'a new'."
+ },
+ {
+  "sentence": "After graduating he struggled to find ___ for several months.",
+  "answer": "work",
+  "options": ["work", "job", "career", "occupation"],
+  "hint": "uncountable noun needed after 'find' here",
+  "explanation": "'Work' is uncountable, so it fits after 'find' with no article; 'job' would need 'a job'."
+ },
+ {
+  "sentence": "Please state your ___ on the application form.",
+  "answer": "occupation",
+  "options": ["occupation", "job", "career", "work"],
+  "hint": "the formal word for your type of work, used on forms",
+  "explanation": "'Occupation' is the formal word for a person's job or profession, typically used on official forms."
+ },
+ {
+  "sentence": "Her annual ___ is reviewed every April.",
+  "answer": "salary",
+  "options": ["salary", "wages", "fee", "charge"],
+  "hint": "fixed regular pay for professional work, usually monthly",
+  "explanation": "'Salary' is fixed regular pay for professional or office work, usually paid monthly; 'wages' are usually weekly."
+ },
+ {
+  "sentence": "Factory workers are paid ___ at the end of each week.",
+  "answer": "wages",
+  "options": ["wages", "salary", "fee", "income"],
+  "hint": "pay for manual work, usually weekly",
+  "explanation": "'Wages' are paid weekly, often in cash, for manual or unskilled work; salaries are monthly."
+ },
+ {
+  "sentence": "The lawyer's ___ is 200 pounds an hour.",
+  "answer": "fee",
+  "options": ["fee", "salary", "wages", "income"],
+  "hint": "money paid to a professional for one service",
+  "explanation": "'Fee' is the amount charged by a professional such as a lawyer or doctor for a particular service."
+ },
+ {
+  "sentence": "Tax is calculated on your total annual ___.",
+  "answer": "income",
+  "options": ["income", "salary", "wages", "fee"],
+  "hint": "all the money you receive from every source",
+  "explanation": "'Income' is all the money you receive from work, investments, rent and so on during a period."
+ },
+ {
+  "sentence": "The two leaders signed a ___ peace agreement.",
+  "answer": "historic",
+  "options": ["historic", "historical", "history", "historically"],
+  "hint": "important enough to be remembered in history",
+  "explanation": "'Historic' means important or famous in history; 'historical' just means connected with the past or the study of history."
+ },
+ {
+  "sentence": "The book gives a detailed ___ account of the period.",
+  "answer": "historical",
+  "options": ["historical", "historic", "history", "historically"],
+  "hint": "connected with the study of the past",
+  "explanation": "'Historical' means relating to history or the past; 'historic' means important in history."
+ },
+ {
+  "sentence": "The country is facing a serious ___ crisis.",
+  "answer": "economic",
+  "options": ["economic", "economical", "economy", "economically"],
+  "hint": "connected with money, trade and industry",
+  "explanation": "'Economic' means connected with the economy; 'economical' means saving money."
+ },
+ {
+  "sentence": "This small car is very ___ to run.",
+  "answer": "economical",
+  "options": ["economical", "economic", "economy", "economically"],
+  "hint": "not wasting money",
+  "explanation": "'Economical' means costing little or saving money; 'economic' relates to trade, industry or the economy."
+ },
+ {
+  "sentence": "It would be ___ to take an umbrella — the sky is black.",
+  "answer": "sensible",
+  "options": ["sensible", "sensitive", "sensibly", "sensational"],
+  "hint": "showing good judgement",
+  "explanation": "'Sensible' means showing good judgement; 'sensitive' means easily affected by things or feelings."
+ },
+ {
+  "sentence": "He is very ___ to criticism and takes it personally.",
+  "answer": "sensitive",
+  "options": ["sensitive", "sensible", "sensitively", "sentimental"],
+  "hint": "easily affected or hurt; pattern: ___ to",
+  "explanation": "'Sensitive to something' means easily affected or upset by it; 'sensible' means showing good judgement."
+ },
+ {
+  "sentence": "The ___ cost was much higher than the estimate.",
+  "answer": "actual",
+  "options": ["actual", "current", "actually", "up-to-date"],
+  "hint": "real, as opposed to estimated",
+  "explanation": "'Actual' means real or existing in fact; 'current' means belonging to the present time."
+ },
+ {
+  "sentence": "The ___ issue of the magazine has an interview with the president.",
+  "answer": "current",
+  "options": ["current", "actual", "currently", "topical"],
+  "hint": "belonging to the present time",
+  "explanation": "'Current' means happening or existing now; 'actual' means real as opposed to possible or estimated."
+ },
+ {
+  "sentence": "I was so ___ when I forgot her name in front of everyone.",
+  "answer": "embarrassed",
+  "options": ["embarrassed", "ashamed", "embarrassing", "shameful"],
+  "hint": "how you feel in an awkward social situation",
+  "explanation": "'Embarrassed' describes short-term discomfort in a social situation; 'ashamed' implies guilt about wrongdoing."
+ },
+ {
+  "sentence": "He should be ___ of himself for lying to his friends.",
+  "answer": "ashamed",
+  "options": ["ashamed", "embarrassed", "shameful", "guilty"],
+  "hint": "feeling guilt about something you did; pattern: ___ of",
+  "explanation": "'Ashamed of' means feeling guilt or shame about behaviour; 'embarrassed' is only social discomfort."
+ },
+ {
+  "sentence": "The ___ of repairing the roof was higher than we expected.",
+  "answer": "cost",
+  "options": ["cost", "price", "charge", "fee"],
+  "hint": "the amount of money needed to do something",
+  "explanation": "'The cost of doing something' is the money needed to do it; 'price' is asked for goods, not activities."
+ },
+ {
+  "sentence": "What is the ___ of this jacket?",
+  "answer": "price",
+  "options": ["price", "charge", "tax", "fee"],
+  "hint": "the amount asked for goods in a shop",
+  "explanation": "'Price' is what a seller asks for goods; 'fee' is for professional services and 'charge' for the act of asking payment."
+ },
+ {
+  "sentence": "The bank makes no ___ for using its cash machines.",
+  "answer": "charge",
+  "options": ["charge", "cost", "price", "tip"],
+  "hint": "money asked for a service; pattern: make a ___ for",
+  "explanation": "'Make a charge for something' means to ask payment for a service; 'tip' is extra money for good service."
+ },
+ {
+  "sentence": "Teenagers ___ hours every day on social media.",
+  "answer": "spend",
+  "options": ["spend", "waste", "save", "pay"],
+  "hint": "to use time or money on something (neutral)",
+  "explanation": "'Spend time/money on something' is the neutral verb for using time or money; 'waste' implies useless use."
+ },
+ {
+  "sentence": "You ___ a lot of water by having such long showers.",
+  "answer": "waste",
+  "options": ["waste", "spend", "save", "pay"],
+  "hint": "to use something valuable without needing to",
+  "explanation": "'Waste' means to use more than necessary; 'save' means the opposite — to avoid using."
+ },
+ {
+  "sentence": "We ___ money by cycling to work instead of driving.",
+  "answer": "save",
+  "options": ["save", "spend", "waste", "earn"],
+  "hint": "to keep money instead of spending it",
+  "explanation": "'Save money by doing something' means to avoid spending it; 'earn' means to receive money for work."
+ },
+ {
+  "sentence": "We had great ___ at the beach party.",
+  "answer": "fun",
+  "options": ["fun", "funny", "funnily", "joke"],
+  "hint": "uncountable noun meaning enjoyment",
+  "explanation": "'Fun' is an uncountable noun meaning enjoyment; 'funny' is an adjective meaning causing laughter."
+ },
+ {
+  "sentence": "The comedian was so ___ that everyone cried with laughter.",
+  "answer": "funny",
+  "options": ["funny", "fun", "funnily", "funnier"],
+  "hint": "adjective meaning causing laughter",
+  "explanation": "'Funny' is an adjective describing something that makes you laugh; 'fun' describes enjoyable experiences."
+ },
+ {
+  "sentence": "There is little ___ that the plan will be approved.",
+  "answer": "possibility",
+  "options": ["possibility", "opportunity", "probability", "occasion"],
+  "hint": "pattern: little ___ that something will happen",
+  "explanation": "'Possibility that ...' is the standard pattern; 'opportunity' means a situation that lets you do something."
+ },
+ {
+  "sentence": "Studying abroad is a wonderful ___ to practise your Spanish.",
+  "answer": "opportunity",
+  "options": ["opportunity", "possibility", "probability", "occasion"],
+  "hint": "a situation that lets you do something; pattern: ___ to do",
+  "explanation": "'Opportunity to do something' means a chance a situation gives you; 'possibility' is not followed by 'to'."
+ },
+ {
+  "sentence": "Our team has a good ___ of winning on Saturday.",
+  "answer": "chance",
+  "options": ["chance", "opportunity", "possibility", "occasion"],
+  "hint": "pattern: have a good ___ of doing something",
+  "explanation": "'Have a chance of doing something' is the standard collocation for the likelihood of success."
+ },
+ {
+  "sentence": "She wore ___ heels to the party.",
+  "answer": "high",
+  "options": ["high", "tall", "long", "big"],
+  "hint": "collocation with heels",
+  "explanation": "'High heels' is the fixed collocation; 'tall' is used for people, buildings and trees."
+ },
+ {
+  "sentence": "My brother is six foot three — he is much ___ than me.",
+  "answer": "taller",
+  "options": ["taller", "higher", "longer", "heavier"],
+  "hint": "comparative used for people's height",
+  "explanation": "'Tall' is used for people's height, so the comparative is 'taller'; 'higher' is for heights above a level."
+ },
+ {
+  "sentence": "She studied ___ for her final exams.",
+  "answer": "hard",
+  "options": ["hard", "hardly", "strongly", "toughly"],
+  "hint": "adverb meaning with a lot of effort",
+  "explanation": "'Hard' is an adverb meaning with great effort ('work hard'); 'hardly' means almost not at all."
+ },
+ {
+  "sentence": "There was ___ anything left in the fridge.",
+  "answer": "hardly",
+  "options": ["hardly", "hard", "nearly", "strongly"],
+  "hint": "adverb meaning almost not at all",
+  "explanation": "'Hardly' means almost not ('hardly anything'); 'hard' means with effort or solid."
+ },
+ {
+  "sentence": "The train arrived twenty minutes ___.",
+  "answer": "late",
+  "options": ["late", "lately", "later", "latest"],
+  "hint": "behind the scheduled time",
+  "explanation": "'Late' means behind schedule; 'lately' means recently."
+ },
+ {
+  "sentence": "Have you seen him ___?",
+  "answer": "lately",
+  "options": ["lately", "late", "later", "latest"],
+  "hint": "meaning recently",
+  "explanation": "'Lately' means recently and is typical with the present perfect; 'late' means behind time."
+ },
+ {
+  "sentence": "The hospital is ___ the city centre.",
+  "answer": "near",
+  "options": ["near", "nearly", "nearby", "close"],
+  "hint": "preposition of place — no '-ly'",
+  "explanation": "'Near' is a preposition before a place; 'nearly' is an adverb of degree meaning almost; 'close' needs 'to'."
+ },
+ {
+  "sentence": "It was ___ midnight when we finally arrived.",
+  "answer": "nearly",
+  "options": ["nearly", "near", "close", "nearby"],
+  "hint": "adverb of degree meaning almost",
+  "explanation": "'Nearly' means almost; 'near' as a preposition needs a place object and cannot modify 'midnight'."
+ },
+ {
+  "sentence": "I love Italian food, ___ pizza.",
+  "answer": "especially",
+  "options": ["especially", "specially", "especial", "special"],
+  "hint": "meaning: above all, in particular",
+  "explanation": "'Especially' means in particular or above all; 'specially' means for one particular purpose."
+ },
+ {
+  "sentence": "These shoes were ___ made for the customer.",
+  "answer": "specially",
+  "options": ["specially", "especially", "special", "specialist"],
+  "hint": "meaning: for one particular purpose",
+  "explanation": "'Specially' means for a particular purpose ('specially made'); 'especially' means in particular."
+ },
+ {
+  "sentence": "___ of the film, the hero rides off into the sunset.",
+  "answer": "At the end",
+  "options": ["At the end", "In the end", "At the finish", "Finally"],
+  "hint": "the final part of something (film, book, street)",
+  "explanation": "'At the end of something' refers to the final part; 'in the end' means finally, after a process."
+ },
+ {
+  "sentence": "We looked for the hotel for hours, but ___ we took a taxi.",
+  "answer": "in the end",
+  "options": ["in the end", "at the end", "on the end", "to the end"],
+  "hint": "finally, after a long process",
+  "explanation": "'In the end' means finally, after effort or difficulty; 'at the end' must be followed by 'of something'."
+ },
+ {
+  "sentence": "She sat ___ me during the whole flight.",
+  "answer": "beside",
+  "options": ["beside", "besides", "except", "along"],
+  "hint": "preposition meaning next to",
+  "explanation": "'Beside' means next to; 'besides' means in addition to."
+ },
+ {
+  "sentence": "___ English, she speaks fluent Arabic.",
+  "answer": "Besides",
+  "options": ["Besides", "Beside", "Except", "Unless"],
+  "hint": "meaning: in addition to",
+  "explanation": "'Besides' means in addition to; 'beside' means next to; 'except' means not including."
+ },
+ {
+  "sentence": "The money was divided ___ the four children.",
+  "answer": "among",
+  "options": ["among", "between", "across", "along"],
+  "hint": "for a group of more than two",
+  "explanation": "'Among' is traditionally used for more than two; 'between' is preferred for exactly two."
+ },
+ {
+  "sentence": "It's hard to choose ___ the two options.",
+  "answer": "between",
+  "options": ["between", "among", "amid", "amongst"],
+  "hint": "for exactly two",
+  "explanation": "'Between' is used for two people or things; 'among' for a group of more than two."
+ },
+ {
+  "sentence": "We stayed in Rome ___ two weeks.",
+  "answer": "for",
+  "options": ["for", "during", "since", "from"],
+  "hint": "how long something lasted",
+  "explanation": "'For' is used with a length of time; 'since' is used with a starting point; 'during' is followed by an event or period noun without a length."
+ },
+ {
+  "sentence": "She has lived in this street ___ 2015.",
+  "answer": "since",
+  "options": ["since", "for", "during", "from"],
+  "hint": "starting point of a period up to now",
+  "explanation": "'Since' is used with a point in time when the situation started and continues; 'for' is used with a length of time."
+ },
+ {
+  "sentence": "Many people fell asleep ___ the lecture.",
+  "answer": "during",
+  "options": ["during", "for", "since", "while"],
+  "hint": "within the period of an event",
+  "explanation": "'During' is followed by a noun (the lecture) and means within that time; 'while' needs a clause with a verb."
+ },
+ {
+  "sentence": "The stolen painting was extremely ___.",
+  "answer": "valuable",
+  "options": ["valuable", "valued", "evaluating", "invaluable"],
+  "hint": "worth a lot of money",
+  "explanation": "'Valuable' means worth a lot of money; 'valued' means appreciated; 'invaluable' already means priceless, so it is not graded."
+ },
+ {
+  "sentence": "After twenty years of service, she is one of our most ___ employees.",
+  "answer": "valued",
+  "options": ["valued", "valuable", "evaluating", "worthy"],
+  "hint": "appreciated — valued for their contribution",
+  "explanation": "'A valued member/employee' is someone the organisation appreciates; 'valuable' stresses monetary or practical worth."
+ }
+]

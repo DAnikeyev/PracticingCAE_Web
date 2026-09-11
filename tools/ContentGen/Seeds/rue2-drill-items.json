@@ -1,0 +1,845 @@
+[
+ {
+  "sentence": "My brother works ___ a hospital in Leeds.",
+  "answer": "in",
+  "hint": "building (BrE: not as a patient)",
+  "explanation": "'in a hospital' = inside the building; 'at hospital' would mean as a patient (BrE)."
+ },
+ {
+  "sentence": "She's lived here ___ 2015.",
+  "answer": "since",
+  "hint": "point in time",
+  "explanation": "'since + point in time'; 'for + period'."
+ },
+ {
+  "sentence": "I've been waiting ___ half an hour.",
+  "answer": "for",
+  "hint": "period of time",
+  "explanation": "'for + period'; 'since + starting point'."
+ },
+ {
+  "sentence": "___ you like some more cake?",
+  "answer": "Would",
+  "hint": "polite offer",
+  "explanation": "'Would you like…?' is the polite offer; 'Do you like' asks about a general preference."
+ },
+ {
+  "sentence": "There isn't ___ milk left in the fridge.",
+  "answer": "any",
+  "hint": "negative → any",
+  "explanation": "In negative sentences use 'any' with uncountable nouns."
+ },
+ {
+  "sentence": "He's the man ___ car was stolen.",
+  "answer": "whose",
+  "hint": "possessive relative",
+  "explanation": "'whose' shows possession: the man whose car…"
+ },
+ {
+  "sentence": "We went out ___ it was raining heavily.",
+  "answer": "although",
+  "hint": "contrast concession",
+  "explanation": "'although/though' introduce a contrast clause.",
+  "accept": [
+   "though"
+  ]
+ },
+ {
+  "sentence": "She made me ___ my homework before dinner.",
+  "answer": "do",
+  "hint": "make + bare infinitive",
+  "explanation": "'make somebody do' — bare infinitive after the object."
+ },
+ {
+  "sentence": "If I ___ you, I'd apologise immediately.",
+  "answer": "were",
+  "hint": "unreal second conditional",
+  "explanation": "'If I were you' — subjunctive 'were' for unreal situations."
+ },
+ {
+  "sentence": "The bridge ___ built in 1892.",
+  "answer": "was",
+  "hint": "past passive",
+  "explanation": "Past simple passive: was + participle."
+ },
+ {
+  "sentence": "I'd rather ___ at home tonight.",
+  "answer": "stay",
+  "hint": "would rather + bare inf",
+  "explanation": "'would rather' + infinitive without 'to'."
+ },
+ {
+  "sentence": "This time tomorrow we ___ flying to Rome.",
+  "answer": "will be",
+  "hint": "future continuous",
+  "explanation": "Future continuous: will be + -ing for an action in progress at a future time."
+ },
+ {
+  "sentence": "He asked me where I ___ bought the shoes.",
+  "answer": "had",
+  "hint": "backshift to past perfect",
+  "explanation": "Reported speech: 'Where did you buy…?' → asked where I had bought."
+ },
+ {
+  "sentence": "You needn't ___ worried — everything is fine.",
+  "answer": "be",
+  "hint": "needn't + bare infinitive",
+  "explanation": "'needn't + infinitive without to': needn't be."
+ },
+ {
+  "sentence": "___ spite of the traffic, we arrived on time.",
+  "answer": "In",
+  "hint": "fixed phrase: ___ spite of",
+  "explanation": "'In spite of' + noun/-ing = despite."
+ },
+ {
+  "sentence": "She's not as tall ___ her sister.",
+  "answer": "as",
+  "hint": "as … as comparison",
+  "explanation": "'not as + adjective + as' for negative comparison."
+ },
+ {
+  "sentence": "By the time we arrived, the film ___ already started.",
+  "answer": "had",
+  "hint": "earlier past action",
+  "explanation": "Past perfect for the earlier of two past events."
+ },
+ {
+  "sentence": "I'm looking forward to ___ you next week.",
+  "answer": "seeing",
+  "hint": "look forward to + -ing",
+  "explanation": "'to' is a preposition here, so -ing follows."
+ },
+ {
+  "sentence": "How ___ bread do we need for the recipe?",
+  "answer": "much",
+  "hint": "uncountable quantity",
+  "explanation": "'much' with uncountable nouns; 'many' with countables."
+ },
+ {
+  "sentence": "There were ___ people at the concert than last year.",
+  "answer": "fewer",
+  "hint": "countable comparison",
+  "explanation": "'fewer' with countable nouns; 'less' with uncountables."
+ },
+ {
+  "sentence": "He's got a ___ of stamps from every country he's visited.",
+  "answer": "collection",
+  "hint": "collect → ?",
+  "explanation": "Noun form: collection (a group of collected items)."
+ },
+ {
+  "sentence": "We walked ___ the museum for three hours.",
+  "answer": "round",
+  "hint": "inside, following a route",
+  "explanation": "'walk round a museum' = visit it, moving inside it.",
+  "accept": [
+   "around"
+  ]
+ },
+ {
+  "sentence": "She denied ___ the money.",
+  "answer": "taking",
+  "hint": "deny + -ing",
+  "explanation": "'deny + -ing' (or having + participle)."
+ },
+ {
+  "sentence": "___ you mind opening the window?",
+  "answer": "Would",
+  "hint": "polite request",
+  "explanation": "'Would you mind + -ing?' — polite request."
+ },
+ {
+  "sentence": "The train ___ arrive at six, but it's late as usual.",
+  "answer": "should",
+  "hint": "expected (but uncertain)",
+  "explanation": "'should + infinitive' = what is expected to happen."
+ },
+ {
+  "sentence": "I wish I ___ told him the truth at the time.",
+  "answer": "had",
+  "hint": "past regret",
+  "explanation": "'wish + past perfect' for regret about the past."
+ },
+ {
+  "sentence": "Neither of the answers ___ correct.",
+  "answer": "is",
+  "hint": "neither + singular verb",
+  "explanation": "'Neither of + plural noun + singular verb' (formal English)."
+ },
+ {
+  "sentence": "We'd better ___ going — it's nearly midnight.",
+  "answer": "start",
+  "hint": "had better + bare inf",
+  "explanation": "'had better + infinitive without to'."
+ },
+ {
+  "sentence": "She was made ___ for three hours at the airport.",
+  "answer": "to wait",
+  "hint": "passive of make",
+  "explanation": "Passive 'be made' takes to-infinitive: was made to wait."
+ },
+ {
+  "sentence": "It's the first time I've ___ this dish.",
+  "answer": "eaten",
+  "hint": "present perfect + past participle",
+  "explanation": "'It's the first time + present perfect': have eaten."
+ },
+ {
+  "sentence": "Hardly ___ sat down when the phone rang.",
+  "answer": "had",
+  "hint": "inversion after hardly",
+  "explanation": "'Hardly had + subject + participle… when…'"
+ },
+ {
+  "sentence": "I'm not used to ___ such spicy food.",
+  "answer": "eating",
+  "hint": "be used to + -ing",
+  "explanation": "'be used to + -ing' = be accustomed to."
+ },
+ {
+  "sentence": "The car needs ___ before we leave.",
+  "answer": "cleaning",
+  "hint": "need + -ing (passive meaning)",
+  "explanation": "'need + -ing' = need to be + participle: needs cleaning."
+ },
+ {
+  "sentence": "We stopped ___ some photos on the way.",
+  "answer": "to take",
+  "hint": "stop in order to do",
+  "explanation": "'stop to do' = pause in order to do something."
+ },
+ {
+  "sentence": "She's far ___ to understand the joke.",
+  "answer": "too",
+  "hint": "excess",
+  "explanation": "'too + adjective/adverb + to-infinitive'."
+ },
+ {
+  "sentence": "No sooner had he arrived ___ it started to rain.",
+  "answer": "than",
+  "hint": "no sooner … ?",
+  "explanation": "'No sooner … than…' — fixed pair."
+ },
+ {
+  "sentence": "I'd rather you ___ smoke in here.",
+  "answer": "didn't",
+  "hint": "would rather + sb + past",
+  "explanation": "'would rather + subject + past simple'."
+ },
+ {
+  "sentence": "___ from being annoyed, she was delighted.",
+  "answer": "Far",
+  "hint": "far from + adjective",
+  "explanation": "'far from + adjective' = not at all: Far from being annoyed…"
+ },
+ {
+  "sentence": "He's the ___ of the two brothers.",
+  "answer": "taller",
+  "hint": "comparative for two",
+  "explanation": "With two items, use the comparative with 'the': the taller of the two."
+ },
+ {
+  "sentence": "All the tickets ___ sold out by noon.",
+  "answer": "had been",
+  "hint": "earlier past, passive",
+  "explanation": "Past perfect passive: had been + participle (before the stated past moment)."
+ },
+ {
+  "sentence": "She speaks English ___ than her brother.",
+  "answer": "better",
+  "hint": "comparative adverb of well",
+  "explanation": "Comparative of 'well' is 'better'."
+ },
+ {
+  "sentence": "You ___ have seen a doctor sooner.",
+  "answer": "should",
+  "hint": "past advice",
+  "explanation": "'should have + participle' criticises a past decision."
+ },
+ {
+  "sentence": "It was ___ a good film that we saw it twice.",
+  "answer": "such",
+  "hint": "such + a + adj + noun",
+  "explanation": "'such (+a) + adjective + noun + that…'"
+ },
+ {
+  "sentence": "I'd like to know when the results ___ be published.",
+  "answer": "will",
+  "hint": "reported future",
+  "explanation": "Future in a noun clause: when the results will be published."
+ },
+ {
+  "sentence": "They insisted ___ paying for everything.",
+  "answer": "on",
+  "hint": "insist ___ + -ing",
+  "explanation": "'insist ON + -ing'."
+ },
+ {
+  "sentence": "The hotel room wasn't big ___ for three people.",
+  "answer": "enough",
+  "hint": "adjective + ?",
+  "explanation": "'adjective + enough + to-infinitive/for phrase'."
+ },
+ {
+  "sentence": "We'll start the meeting ___ everyone arrives.",
+  "answer": "when",
+  "hint": "time conjunction",
+  "explanation": "'when/once/until' — here 'when everyone arrives' starts the event.",
+  "accept": [
+   "once",
+   "after"
+  ]
+ },
+ {
+  "sentence": "You can borrow it ___ you give it back by Friday.",
+  "answer": "if",
+  "hint": "condition",
+  "explanation": "'if' introduces the condition.",
+  "accept": [
+   "provided",
+   "as long as",
+   "provided that",
+   "so long as"
+  ]
+ },
+ {
+  "sentence": "She's the woman ___ helped me find the station.",
+  "answer": "who",
+  "hint": "person relative pronoun (subject)",
+  "explanation": "'who' refers to people as subject."
+ },
+ {
+  "sentence": "There's no point ___ about it now.",
+  "answer": "arguing",
+  "hint": "no point + -ing",
+  "explanation": "'there's no point + -ing'."
+ },
+ {
+  "sentence": "He must ___ left already — his coat isn't here.",
+  "answer": "have",
+  "hint": "past deduction",
+  "explanation": "'must have + participle' = certain about the past."
+ },
+ {
+  "sentence": "This is the village ___ my grandmother was born.",
+  "answer": "where",
+  "hint": "place relative",
+  "explanation": "'where' = in which (place).",
+  "accept": [
+   "in which"
+  ]
+ },
+ {
+  "sentence": "Do you know how ___ to the station from here?",
+  "answer": "to get",
+  "hint": "question word + ?",
+  "explanation": "'question word + to-infinitive': how to get."
+ },
+ {
+  "sentence": "She's been ___ TV all morning.",
+  "answer": "watching",
+  "hint": "action all morning",
+  "explanation": "Present perfect continuous for duration up to now: has been watching."
+ },
+ {
+  "sentence": "I'd sooner ___ at home than go to the party.",
+  "answer": "eat",
+  "hint": "would sooner + bare inf",
+  "explanation": "'would sooner + infinitive without to'."
+ },
+ {
+  "sentence": "The roof ___ repaired next week.",
+  "answer": "will be",
+  "hint": "future passive",
+  "explanation": "Future passive: will be + participle."
+ },
+ {
+  "sentence": "He apologised for ___ so rude.",
+  "answer": "being",
+  "hint": "apologise for + -ing",
+  "explanation": "preposition + -ing: for being."
+ },
+ {
+  "sentence": "___ of my parents speaks French, so I translate for them.",
+  "answer": "Neither",
+  "hint": "not one, not the other",
+  "explanation": "'Neither of' = not one and not the other (two people)."
+ },
+ {
+  "sentence": "We could hear the neighbours ___ again last night.",
+  "answer": "arguing",
+  "hint": "hear + -ing (in progress)",
+  "explanation": "'hear + object + -ing' for an action in progress."
+ },
+ {
+  "sentence": "She got the job ___ of her lack of experience.",
+  "answer": "despite",
+  "hint": "despite + noun",
+  "explanation": "'despite/in spite of + noun' — not 'despite of'."
+ },
+ {
+  "sentence": "The letters ___ delivered every morning at eight.",
+  "answer": "are",
+  "hint": "present passive",
+  "explanation": "Present simple passive: are + participle."
+ },
+ {
+  "sentence": "It's time we ___ this room a good clean.",
+  "answer": "gave",
+  "hint": "it's time + past",
+  "explanation": "'It's time + subject + past simple' (unreal past)."
+ },
+ {
+  "sentence": "He was charged ___ dangerous driving.",
+  "answer": "with",
+  "hint": "charge sb ___ sth",
+  "explanation": "'charge somebody WITH a crime'."
+ },
+ {
+  "sentence": "I'll call you as soon ___ I land.",
+  "answer": "as",
+  "hint": "as soon as",
+  "explanation": "'as soon as' = immediately after."
+ },
+ {
+  "sentence": "She's the ___ person I know — she never lies.",
+  "answer": "most honest",
+  "hint": "superlative of honest",
+  "explanation": "'honest' is two syllables: most honest."
+ },
+ {
+  "sentence": "We had the walls ___ last month.",
+  "answer": "painted",
+  "hint": "causative have",
+  "explanation": "'have something done' = arrange for it to be done: had the walls painted."
+ },
+ {
+  "sentence": "He told me ___ touch that switch.",
+  "answer": "not",
+  "hint": "reported negative command",
+  "explanation": "'tell somebody NOT to do'."
+ },
+ {
+  "sentence": "I'd rather not ___ about it over the phone.",
+  "answer": "talk",
+  "hint": "would rather not + bare inf",
+  "explanation": "'would rather + not + infinitive without to'."
+ },
+ {
+  "sentence": "The soup tastes ___ — did you use fresh herbs?",
+  "answer": "delicious",
+  "hint": "taste + adjective",
+  "explanation": "'taste/smell/feel + adjective': tastes delicious."
+ },
+ {
+  "sentence": "By this time next year, she ___ finished her degree.",
+  "answer": "will have",
+  "hint": "future perfect",
+  "explanation": "Future perfect: will have + participle by a future point."
+ },
+ {
+  "sentence": "The thief is believed ___ entered through the roof.",
+  "answer": "to have",
+  "hint": "passive reporting + past infinitive",
+  "explanation": "'is believed to have + participle' for a past event."
+ },
+ {
+  "sentence": "Unless it ___ , the match will go ahead.",
+  "answer": "rains",
+  "hint": "unless + present simple",
+  "explanation": "'unless' = if…not; present simple after time/condition words."
+ },
+ {
+  "sentence": "She's such ___ interesting person.",
+  "answer": "an",
+  "hint": "such + a/an + adj + noun",
+  "explanation": "'such an + adjective + singular noun' — 'interesting' starts with a vowel sound."
+ },
+ {
+  "sentence": "He prefers cycling ___ driving to work.",
+  "answer": "to",
+  "hint": "prefer A ___ B",
+  "explanation": "'prefer A TO B'."
+ },
+ {
+  "sentence": "I'd better not ___ you — you look busy.",
+  "answer": "interrupt",
+  "hint": "had better not + bare inf",
+  "explanation": "'had better + not + infinitive without to'."
+ },
+ {
+  "sentence": "This time yesterday we ___ on the beach.",
+  "answer": "were lying",
+  "hint": "past continuous scene",
+  "explanation": "Past continuous for an action in progress at a past moment.",
+  "accept": [
+   "were lieing"
+  ]
+ },
+ {
+  "sentence": "She's allergic ___ cats.",
+  "answer": "to",
+  "hint": "allergic ___ sth",
+  "explanation": "'allergic TO something'."
+ },
+ {
+  "sentence": "The view from the top was ___ .",
+  "answer": "breathtaking",
+  "hint": "extremely impressive",
+  "explanation": "'breathtaking' = so beautiful it takes your breath away."
+ },
+ {
+  "sentence": "He ___ his keys on the bus this morning.",
+  "answer": "left",
+  "hint": "leave sth somewhere",
+  "explanation": "'leave something somewhere' = forget to take it: left his keys on the bus."
+ },
+ {
+  "sentence": "We're going to ___ our flight if we don't hurry.",
+  "answer": "miss",
+  "hint": "be too late for a plane",
+  "explanation": "'miss a flight/train/bus' = arrive too late for it."
+ },
+ {
+  "sentence": "The company has ___ several new jobs in the area.",
+  "answer": "created",
+  "hint": "bring new jobs into existence",
+  "explanation": "'Create jobs' is the natural collocation."
+ },
+ {
+  "sentence": "She ___ the door quietly behind her.",
+  "answer": "shut",
+  "hint": "close (single word)",
+  "explanation": "'shut the door' = close it.",
+  "accept": [
+   "closed"
+  ]
+ },
+ {
+  "sentence": "I can't find my glasses ___ .",
+  "answer": "anywhere",
+  "hint": "negative sentence place word",
+  "explanation": "'anywhere' in negative sentences (not 'everywhere')."
+ },
+ {
+  "sentence": "He ran so fast that we lost ___ of him.",
+  "answer": "sight",
+  "hint": "lose ___ of somebody",
+  "explanation": "'lose sight of somebody' = no longer see them."
+ },
+ {
+  "sentence": "She's very good ___ explaining difficult ideas.",
+  "answer": "at",
+  "hint": "good ___ doing",
+  "explanation": "'good AT + -ing'."
+ },
+ {
+  "sentence": "The meeting was put ___ until Thursday.",
+  "answer": "off",
+  "hint": "postpone",
+  "explanation": "'put off' = postpone."
+ },
+ {
+  "sentence": "We arrived ___ Lisbon at dawn.",
+  "answer": "in",
+  "hint": "arrive ___ city",
+  "explanation": "'arrive IN' cities and countries."
+ },
+ {
+  "sentence": "How long does the flight ___ ?",
+  "answer": "take",
+  "hint": "duration of journey",
+  "explanation": "'How long does X take?' — duration."
+ },
+ {
+  "sentence": "She's used to ___ long hours.",
+  "answer": "working",
+  "hint": "be used to + -ing",
+  "explanation": "'be used to + -ing' = accustomed to."
+ },
+ {
+  "sentence": "The parcel ___ yesterday, but we weren't home.",
+  "answer": "arrived",
+  "hint": "past event",
+  "explanation": "Past simple for a finished past event."
+ },
+ {
+  "sentence": "He denied ___ the vase, though the camera saw him.",
+  "answer": "breaking",
+  "hint": "deny + -ing",
+  "explanation": "'deny + -ing'."
+ },
+ {
+  "sentence": "There were ___ of people waiting outside.",
+  "answer": "hundreds",
+  "hint": "large number (plural noun)",
+  "explanation": "'hundreds of people' — large unspecified number.",
+  "accept": [
+   "thousands",
+   "dozens",
+   "loads",
+   "lots"
+  ]
+ },
+ {
+  "sentence": "I'd rather walk than ___ the bus.",
+  "answer": "take",
+  "hint": "would rather A than B",
+  "explanation": "'would rather do A than do B' — both bare infinitives."
+ },
+ {
+  "sentence": "The film is based ___ a true story.",
+  "answer": "on",
+  "hint": "be based ___ sth",
+  "explanation": "'based ON something'."
+ },
+ {
+  "sentence": "He ___ the flu last week and missed the finals.",
+  "answer": "caught",
+  "hint": "become ill with",
+  "explanation": "'catch the flu/a cold' = become ill with it."
+ },
+ {
+  "sentence": "The meeting has been ___ forward to Monday.",
+  "answer": "brought",
+  "hint": "move earlier",
+  "explanation": "'bring forward' = move to an earlier time (opposite of put off)."
+ },
+ {
+  "sentence": "We're looking ___ to hearing from you.",
+  "answer": "forward",
+  "hint": "look ___ to",
+  "explanation": "'look forward TO' — the standard closing phrase."
+ },
+ {
+  "sentence": "He's far the ___ player in the team.",
+  "answer": "best",
+  "hint": "superlative after 'by far'",
+  "explanation": "'by far the best' — superlative with emphasiser."
+ },
+ {
+  "sentence": "I couldn't ___ laughing at his accent.",
+  "answer": "help",
+  "hint": "can't help + -ing",
+  "explanation": "'can't help + -ing' = can't stop yourself."
+ },
+ {
+  "sentence": "The concert tickets sold ___ in an hour.",
+  "answer": "out",
+  "hint": "sell ___ = all bought",
+  "explanation": "'sell out' = all tickets sold."
+ },
+ {
+  "sentence": "She speaks ___ English for a beginner.",
+  "answer": "remarkably",
+  "hint": "surprisingly (adverb)",
+  "explanation": "Adverb modifying 'good English': remarkably good.",
+  "accept": [
+   "surprisingly",
+   "amazingly"
+  ]
+ },
+ {
+  "sentence": "He was sacked ___ repeatedly arriving late.",
+  "answer": "for",
+  "hint": "sacked ___ doing sth",
+  "explanation": "'be sacked/fired FOR doing something'."
+ },
+ {
+  "sentence": "By midnight, everyone ___ gone home.",
+  "answer": "had",
+  "hint": "earlier past event",
+  "explanation": "Past perfect for the earlier of two past moments."
+ },
+ {
+  "sentence": "The garden is ___ than I expected — it's huge!",
+  "answer": "bigger",
+  "hint": "comparative",
+  "explanation": "Comparative of 'big' is 'bigger' (double consonant)."
+ },
+ {
+  "sentence": "You ___ be tired after such a long flight.",
+  "answer": "must",
+  "hint": "strong deduction",
+  "explanation": "'must + infinitive' = certain deduction about the present."
+ },
+ {
+  "sentence": "I'll have finished the report ___ Friday.",
+  "answer": "by",
+  "hint": "deadline (not later than)",
+  "explanation": "'by + time' = not later than."
+ },
+ {
+  "sentence": "The children were excited ___ the trip.",
+  "answer": "about",
+  "hint": "excited ___ sth",
+  "explanation": "'excited ABOUT something'."
+ },
+ {
+  "sentence": "She's the most generous person I've ___ met.",
+  "answer": "ever",
+  "hint": "superlative + present perfect",
+  "explanation": "'the best… I've ever seen/met' — 'ever' with superlatives."
+ },
+ {
+  "sentence": "He walked in as ___ nothing had happened.",
+  "answer": "if",
+  "hint": "as if + unreal past",
+  "explanation": "'as if + past' for unreal comparison.",
+  "accept": [
+   "though"
+  ]
+ },
+ {
+  "sentence": "The meeting was held ___ strict secrecy.",
+  "answer": "in",
+  "hint": "held ___ secrecy",
+  "explanation": "'in secrecy/in private' — fixed preposition use."
+ },
+ {
+  "sentence": "Do you happen ___ her mobile number?",
+  "answer": "to know",
+  "hint": "happen + ? (by chance)",
+  "explanation": "'happen to + infinitive' = do something by chance.",
+  "accept": [
+   "to have"
+  ]
+ },
+ {
+  "sentence": "She's been ___ from school three times this term.",
+  "answer": "absent",
+  "hint": "not present (formal)",
+  "explanation": "'be absent from school' — formal way to say not present."
+ },
+ {
+  "sentence": "We ran out ___ petrol on the motorway.",
+  "answer": "of",
+  "hint": "run out ___ sth",
+  "explanation": "'run out OF something' = have none left."
+ },
+ {
+  "sentence": "He's recovering ___ a knee operation.",
+  "answer": "from",
+  "hint": "recover ___ sth",
+  "explanation": "'recover FROM an illness/operation'."
+ },
+ {
+  "sentence": "The new law comes ___ force next month.",
+  "answer": "into",
+  "hint": "come ___ force",
+  "explanation": "'come into force' = officially start to apply."
+ },
+ {
+  "sentence": "She's not in the office ___ — try her mobile.",
+  "answer": "at the moment",
+  "hint": "now, temporarily",
+  "explanation": "'at the moment' = right now (temporary).",
+  "accept": [
+   "currently",
+   "right now",
+   "now"
+  ]
+ },
+ {
+  "sentence": "He was ___ to resign after the scandal.",
+  "answer": "forced",
+  "hint": "made to do (against will)",
+  "explanation": "'be forced to do' = be made to do unwillingly."
+ },
+ {
+  "sentence": "We should make the ___ of the good weather.",
+  "answer": "most",
+  "hint": "make the ___ of",
+  "explanation": "'make the most of' = get the maximum benefit from."
+ },
+ {
+  "sentence": "Her success was largely ___ to her coach.",
+  "answer": "down",
+  "hint": "be ___ to = caused by",
+  "explanation": "'be down to somebody/something' = be caused by."
+ },
+ {
+  "sentence": "The restaurant is famous ___ its seafood.",
+  "answer": "for",
+  "hint": "famous ___ sth",
+  "explanation": "'famous FOR something'."
+ },
+ {
+  "sentence": "I'd like two tickets ___ tonight's performance.",
+  "answer": "for",
+  "hint": "tickets ___ an event",
+  "explanation": "'tickets FOR tonight's show' (also 'to').",
+  "accept": [
+   "to"
+  ]
+ },
+ {
+  "sentence": "He kept ___ even though everyone had left.",
+  "answer": "talking",
+  "hint": "keep + -ing",
+  "explanation": "'keep + -ing' = continue doing."
+ },
+ {
+  "sentence": "It's not worth ___ about the delay now.",
+  "answer": "complaining",
+  "hint": "not worth + -ing",
+  "explanation": "'be worth + -ing'."
+ },
+ {
+  "sentence": "The first edition of the book ___ out in 1998.",
+  "answer": "came",
+  "hint": "be published",
+  "explanation": "'come out' = be published/released."
+ },
+ {
+  "sentence": "She was ___ aware of the risks.",
+  "answer": "fully",
+  "hint": "completely (adverb)",
+  "explanation": "'fully aware' — fixed adverb collocation.",
+  "accept": [
+   "well",
+   "completely"
+  ]
+ },
+ {
+  "sentence": "The fire is believed ___ by faulty wiring.",
+  "answer": "to have been caused",
+  "hint": "passive reporting, past passive infinitive",
+  "explanation": "'believed to have been + participle' — the cause was earlier."
+ },
+ {
+  "sentence": "He's the author of several ___ novels.",
+  "answer": "bestselling",
+  "hint": "selling very well",
+  "explanation": "'bestselling novel' — compound adjective.",
+  "accept": [
+   "best-selling"
+  ]
+ },
+ {
+  "sentence": "They had no ___ but to call the police.",
+  "answer": "choice",
+  "hint": "have no ___ but to",
+  "explanation": "'have no choice/alternative but to do'."
+ },
+ {
+  "sentence": "The demonstrators were ___ from entering the building.",
+  "answer": "prevented",
+  "hint": "be prevented ___ -ing",
+  "explanation": "'prevent somebody FROM doing' — passive: were prevented from entering.",
+  "accept": [
+   "stopped"
+  ]
+ },
+ {
+  "sentence": "She went to university ___ study law.",
+  "answer": "to",
+  "hint": "infinitive of purpose",
+  "explanation": "'to + infinitive' expresses purpose.",
+  "accept": [
+   "in order to",
+   "so as to"
+  ]
+ }
+]

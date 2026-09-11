@@ -1,0 +1,1625 @@
+[
+ {
+  "sentence": "After twenty years of smoking, he finally managed to give it ___.",
+  "answer": "up",
+  "options": [
+   "up",
+   "off",
+   "in",
+   "away"
+  ],
+  "hint": "quit a habit",
+  "explanation": "give up = stop/quit (a habit or attempt)."
+ },
+ {
+  "sentence": "Could you look ___ my suitcase while I buy the tickets?",
+  "answer": "after",
+  "options": [
+   "after",
+   "for",
+   "up",
+   "into"
+  ],
+  "hint": "take care of",
+  "explanation": "look after = take care of; look for = search; look up = check in a reference."
+ },
+ {
+  "sentence": "If you don't know the word, look it ___ in a dictionary.",
+  "answer": "up",
+  "options": [
+   "up",
+   "after",
+   "out",
+   "over"
+  ],
+  "hint": "find information",
+  "explanation": "look a word up = find it in a dictionary/reference."
+ },
+ {
+  "sentence": "I'm really looking forward to ___ you again soon.",
+  "answer": "seeing",
+  "options": [
+   "see",
+   "seeing",
+   "have seen",
+   "be seeing"
+  ],
+  "hint": "look forward to + noun/-ing",
+  "explanation": "look forward TO + -ing: 'to' is a preposition here."
+ },
+ {
+  "sentence": "They put ___ the meeting until everyone could attend.",
+  "answer": "off",
+  "options": [
+   "off",
+   "on",
+   "up",
+   "out"
+  ],
+  "hint": "postpone",
+  "explanation": "put off = postpone."
+ },
+ {
+  "sentence": "I can't put up ___ this noise any longer.",
+  "answer": "with",
+  "options": [
+   "with",
+   "for",
+   "to",
+   "against"
+  ],
+  "hint": "tolerate",
+  "explanation": "put up with = tolerate, endure."
+ },
+ {
+  "sentence": "Please carry ___ with your work; don't mind me.",
+  "answer": "on",
+  "options": [
+   "on",
+   "off",
+   "out",
+   "over"
+  ],
+  "hint": "continue",
+  "explanation": "carry on = continue; carry out = perform (a task)."
+ },
+ {
+  "sentence": "The scientists carried ___ a series of experiments.",
+  "answer": "out",
+  "options": [
+   "out",
+   "on",
+   "off",
+   "away"
+  ],
+  "hint": "perform, conduct",
+  "explanation": "carry out = perform, conduct (research, a plan, an order)."
+ },
+ {
+  "sentence": "I came ___ an old letter while clearing the attic.",
+  "answer": "across",
+  "options": [
+   "across",
+   "over",
+   "up",
+   "into"
+  ],
+  "hint": "find by chance",
+  "explanation": "come across = find/meet by chance."
+ },
+ {
+  "sentence": "She came ___ with a brilliant solution to the problem.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "across",
+   "off"
+  ],
+  "hint": "invent, produce (an idea)",
+  "explanation": "come up with = produce an idea/plan/solution."
+ },
+ {
+  "sentence": "Do you get ___ well with your new colleagues?",
+  "answer": "on",
+  "options": [
+   "on",
+   "by",
+   "over",
+   "through"
+  ],
+  "hint": "have a good relationship",
+  "explanation": "get on (with) = have a good relationship; also get along with (AmE).",
+  "accept": [
+   "along"
+  ]
+ },
+ {
+  "sentence": "It took him weeks to get ___ the flu.",
+  "answer": "over",
+  "options": [
+   "over",
+   "on",
+   "up",
+   "through"
+  ],
+  "hint": "recover from",
+  "explanation": "get over an illness/upset = recover from it."
+ },
+ {
+  "sentence": "We're trying to get rid ___ these old boxes.",
+  "answer": "of",
+  "options": [
+   "of",
+   "off",
+   "from",
+   "out"
+  ],
+  "hint": "throw away, remove",
+  "explanation": "get rid OF something = remove it."
+ },
+ {
+  "sentence": "The negotiators refused to give ___ to the hijackers' demands.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "off",
+   "away"
+  ],
+  "hint": "stop resisting",
+  "explanation": "give in (to) = stop arguing and accept; give up = quit."
+ },
+ {
+  "sentence": "She's been going ___ a difficult time at work.",
+  "answer": "through",
+  "options": [
+   "through",
+   "over",
+   "off",
+   "out"
+  ],
+  "hint": "experience sth unpleasant",
+  "explanation": "go through = experience something difficult."
+ },
+ {
+  "sentence": "Hold ___ a moment — I'll check if he's in.",
+  "answer": "on",
+  "options": [
+   "on",
+   "up",
+   "in",
+   "out"
+  ],
+  "hint": "wait (phone)",
+  "explanation": "hold on = wait (especially on the phone).",
+  "accept": [
+   "up"
+  ]
+ },
+ {
+  "sentence": "The team was let ___ by its own supporters.",
+  "answer": "down",
+  "options": [
+   "down",
+   "off",
+   "out",
+   "up"
+  ],
+  "hint": "disappoint",
+  "explanation": "let somebody down = disappoint them by failing to help."
+ },
+ {
+  "sentence": "Police are looking ___ the cause of the crash.",
+  "answer": "into",
+  "options": [
+   "into",
+   "after",
+   "up",
+   "for"
+  ],
+  "hint": "investigate",
+  "explanation": "look into = investigate."
+ },
+ {
+  "sentence": "I can't make ___ what the sign says from here.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "over",
+   "off"
+  ],
+  "hint": "see/understand with difficulty",
+  "explanation": "make out = see, hear or understand with difficulty."
+ },
+ {
+  "sentence": "The kids made ___ a story about a stolen dog.",
+  "answer": "up",
+  "options": [
+   "up",
+   "out",
+   "off",
+   "over"
+  ],
+  "hint": "invent (a lie/story)",
+  "explanation": "make up = invent (a story, excuse). Compare make up for = compensate."
+ },
+ {
+  "sentence": "I'll pay you ___ as soon as I get paid.",
+  "answer": "back",
+  "options": [
+   "back",
+   "off",
+   "out",
+   "up"
+  ],
+  "hint": "return money",
+  "explanation": "pay somebody back = return borrowed money; pay off a debt = finish paying it."
+ },
+ {
+  "sentence": "He picked ___ Spanish surprisingly fast.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "over",
+   "in"
+  ],
+  "hint": "learn casually",
+  "explanation": "pick up = learn without formal study; also collect (pick somebody up)."
+ },
+ {
+  "sentence": "During the tour she pointed ___ the oldest house in town.",
+  "answer": "out",
+  "options": [
+   "out",
+   "at",
+   "off",
+   "up"
+  ],
+  "hint": "draw attention to",
+  "explanation": "point out = mention/draw attention to a fact."
+ },
+ {
+  "sentence": "Put ___ your coat — it's freezing outside.",
+  "answer": "on",
+  "options": [
+   "on",
+   "off",
+   "up",
+   "away"
+  ],
+  "hint": "dress in",
+  "explanation": "put on = dress in; put off = postpone."
+ },
+ {
+  "sentence": "We've run out ___ coffee again.",
+  "answer": "of",
+  "options": [
+   "of",
+   "off",
+   "from",
+   "up"
+  ],
+  "hint": "have none left",
+  "explanation": "run out OF something = have none left."
+ },
+ {
+  "sentence": "The protesters set ___ at dawn from the village square.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "out",
+   "in"
+  ],
+  "hint": "begin a journey",
+  "explanation": "set off/out = begin a journey; set up = establish.",
+  "accept": [
+   "out"
+  ]
+ },
+ {
+  "sentence": "They've set ___ a new charity for homeless dogs.",
+  "answer": "up",
+  "options": [
+   "up",
+   "off",
+   "out",
+   "on"
+  ],
+  "hint": "establish, found",
+  "explanation": "set up = establish, found (an organization)."
+ },
+ {
+  "sentence": "He loves showing ___ his new car to the neighbours.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "out",
+   "around"
+  ],
+  "hint": "behave to impress",
+  "explanation": "show off = try to impress people with your abilities/possessions."
+ },
+ {
+  "sentence": "It took all morning to sort ___ the garage.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "off",
+   "over"
+  ],
+  "hint": "organize, solve",
+  "explanation": "sort out = organize/put in order, or solve (a problem)."
+ },
+ {
+  "sentence": "Everyone says she takes ___ her grandmother.",
+  "answer": "after",
+  "options": [
+   "after",
+   "up",
+   "on",
+   "over"
+  ],
+  "hint": "resemble a relative",
+  "explanation": "take after a relative = resemble them in character/looks."
+ },
+ {
+  "sentence": "The plane takes ___ in ten minutes.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "on",
+   "in"
+  ],
+  "hint": "leave the ground",
+  "explanation": "take off = leave the ground (plane); also remove clothes; become successful (career took off)."
+ },
+ {
+  "sentence": "Who will take ___ from the current director?",
+  "answer": "over",
+  "options": [
+   "over",
+   "off",
+   "up",
+   "in"
+  ],
+  "hint": "assume control",
+  "explanation": "take over = take control of a job/company."
+ },
+ {
+  "sentence": "She's taken ___ knitting to relax after work.",
+  "answer": "up",
+  "options": [
+   "up",
+   "off",
+   "over",
+   "in"
+  ],
+  "hint": "start a hobby",
+  "explanation": "take up = start (a hobby, sport, activity)."
+ },
+ {
+  "sentence": "I had to turn ___ their invitation because I was ill.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "off",
+   "over"
+  ],
+  "hint": "reject",
+  "explanation": "turn down = reject an offer/invitation; turn up = appear."
+ },
+ {
+  "sentence": "Don't worry — he always turns ___ late.",
+  "answer": "up",
+  "options": [
+   "up",
+   "over",
+   "on",
+   "out"
+  ],
+  "hint": "arrive, appear",
+  "explanation": "turn up = arrive, often unexpectedly or late."
+ },
+ {
+  "sentence": "They worked ___ a compromise after hours of discussion.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "find a solution by thinking",
+  "explanation": "work out = find the solution to; understand; also exercise."
+ },
+ {
+  "sentence": "She was brought ___ by her grandparents.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "over",
+   "out"
+  ],
+  "hint": "raise a child",
+  "explanation": "bring up a child = raise, educate them."
+ },
+ {
+  "sentence": "The car broke ___ on the motorway.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "in",
+   "off"
+  ],
+  "hint": "stop working (vehicle)",
+  "explanation": "break down = stop working (machines/vehicles)."
+ },
+ {
+  "sentence": "They broke ___ after only two years of marriage.",
+  "answer": "up",
+  "options": [
+   "up",
+   "down",
+   "off",
+   "in"
+  ],
+  "hint": "end a relationship",
+  "explanation": "break up = end a relationship."
+ },
+ {
+  "sentence": "The match was called ___ because of the storm.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "out",
+   "down"
+  ],
+  "hint": "cancel",
+  "explanation": "call off = cancel an event."
+ },
+ {
+  "sentence": "You go ahead; I'll catch ___ with you later.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "in",
+   "over"
+  ],
+  "hint": "reach the same level",
+  "explanation": "catch up (with) = reach the same point/level as somebody."
+ },
+ {
+  "sentence": "The hotel was full, so we couldn't check ___.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "on",
+   "out"
+  ],
+  "hint": "register at hotel/airport",
+  "explanation": "check in = register; check out = leave and pay."
+ },
+ {
+  "sentence": "She cheered ___ when she heard the news.",
+  "answer": "up",
+  "options": [
+   "up",
+   "off",
+   "out",
+   "over"
+  ],
+  "hint": "become happier",
+  "explanation": "cheer up = become happier (also transitive: cheer somebody up)."
+ },
+ {
+  "sentence": "You should cut down ___ sugar if you want to lose weight.",
+  "answer": "on",
+  "options": [
+   "on",
+   "out",
+   "off",
+   "up"
+  ],
+  "hint": "reduce consumption",
+  "explanation": "cut down ON something = reduce it; cut out = eliminate completely."
+ },
+ {
+  "sentence": "The band broke ___ in the middle of the song.",
+  "answer": "off",
+  "options": [
+   "off",
+   "in",
+   "up",
+   "down"
+  ],
+  "hint": "stop suddenly",
+  "explanation": "break off = stop suddenly (speaking, engagement)."
+ },
+ {
+  "sentence": "We've decided to do ___ a holiday this year.",
+  "answer": "without",
+  "options": [
+   "without",
+   "away",
+   "off",
+   "out"
+  ],
+  "hint": "live without sth",
+  "explanation": "do without = manage without having something."
+ },
+ {
+  "sentence": "Feel free to drop ___ for a coffee any time.",
+  "answer": "in",
+  "options": [
+   "in",
+   "off",
+   "out",
+   "up"
+  ],
+  "hint": "visit informally",
+  "explanation": "drop in = pay a casual visit; drop off = fall asleep or deliver."
+ },
+ {
+  "sentence": "I fell ___ with my best friend over a silly remark.",
+  "answer": "out",
+  "options": [
+   "out",
+   "down",
+   "off",
+   "up"
+  ],
+  "hint": "quarrel",
+  "explanation": "fall out (with somebody) = have an argument and stop being friendly."
+ },
+ {
+  "sentence": "Please fill ___ this form and sign at the bottom.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "out",
+   "over"
+  ],
+  "hint": "complete a document",
+  "explanation": "fill in/out a form (British prefers in).",
+  "accept": [
+   "out"
+  ]
+ },
+ {
+  "sentence": "We found ___ that the flight had been cancelled.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "discover",
+  "explanation": "find out = discover information."
+ },
+ {
+  "sentence": "He stole the pens and got away ___ it.",
+  "answer": "with",
+  "options": [
+   "with",
+   "from",
+   "off",
+   "out"
+  ],
+  "hint": "escape punishment",
+  "explanation": "get away with something = do wrong without being punished."
+ },
+ {
+  "sentence": "They get ___ on very little money.",
+  "answer": "by",
+  "options": [
+   "by",
+   "on",
+   "up",
+   "over"
+  ],
+  "hint": "manage with difficulty",
+  "explanation": "get by = manage to survive (with difficulty)."
+ },
+ {
+  "sentence": "The gang gave ___ the stolen paintings to a gallery.",
+  "answer": "away",
+  "options": [
+   "away",
+   "in",
+   "up",
+   "off"
+  ],
+  "hint": "give free of charge; reveal",
+  "explanation": "give away = give free of charge, or reveal (a secret)."
+ },
+ {
+  "sentence": "Their son grew ___ and moved abroad.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "out",
+   "over"
+  ],
+  "hint": "become adult",
+  "explanation": "grow up = become an adult."
+ },
+ {
+  "sentence": "Hang ___ — this won't take long.",
+  "answer": "on",
+  "options": [
+   "on",
+   "up",
+   "in",
+   "out"
+  ],
+  "hint": "wait",
+  "explanation": "hang on = wait a moment."
+ },
+ {
+  "sentence": "An accident held ___ the traffic for two hours.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "off",
+   "out"
+  ],
+  "hint": "delay",
+  "explanation": "hold up = delay."
+ },
+ {
+  "sentence": "Hurry ___ or we'll miss the ferry!",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "over",
+   "out"
+  ],
+  "hint": "be quick",
+  "explanation": "hurry up = do something faster."
+ },
+ {
+  "sentence": "Come on, join ___ — it's easy once you start.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "over",
+   "out"
+  ],
+  "hint": "take part",
+  "explanation": "join in = take part in an activity others are doing."
+ },
+ {
+  "sentence": "It's hard to keep ___ with the latest slang.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "in",
+   "out"
+  ],
+  "hint": "stay level with",
+  "explanation": "keep up with = stay level with somebody/something changing."
+ },
+ {
+  "sentence": "The old cinema was knocked ___ to build a car park.",
+  "answer": "down",
+  "options": [
+   "down",
+   "out",
+   "off",
+   "up"
+  ],
+  "hint": "demolish",
+  "explanation": "knock down = demolish a building; hit with a vehicle."
+ },
+ {
+  "sentence": "The factory laid ___ two hundred workers.",
+  "answer": "off",
+  "options": [
+   "off",
+   "down",
+   "out",
+   "up"
+  ],
+  "hint": "dismiss (no fault)",
+  "explanation": "lay off = dismiss workers because there is not enough work."
+ },
+ {
+  "sentence": "Don't leave ___ any details in your report.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "omit",
+  "explanation": "leave out = not include, omit."
+ },
+ {
+  "sentence": "The judge let him ___ with a warning.",
+  "answer": "off",
+  "options": [
+   "off",
+   "out",
+   "up",
+   "down"
+  ],
+  "hint": "not punish",
+  "explanation": "let somebody off = not punish them, or give a light punishment."
+ },
+ {
+  "sentence": "The film didn't live up ___ my expectations.",
+  "answer": "to",
+  "options": [
+   "to",
+   "up",
+   "with",
+   "for"
+  ],
+  "hint": "be as good as expected",
+  "explanation": "live up TO something = be as good as expected."
+ },
+ {
+  "sentence": "Looking back ___ it, the risk was worth taking.",
+  "answer": "on",
+  "options": [
+   "on",
+   "at",
+   "up",
+   "to"
+  ],
+  "hint": "remember, reconsider",
+  "explanation": "look back ON something = remember and think about the past."
+ },
+ {
+  "sentence": "She looks ___ on people who disagree with her.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "out",
+   "over"
+  ],
+  "hint": "think sb inferior",
+  "explanation": "look down on = consider inferior (opposite: look up to)."
+ },
+ {
+  "sentence": "The bonus made up ___ all the overtime we had done.",
+  "answer": "for",
+  "options": [
+   "for",
+   "up",
+   "out",
+   "over"
+  ],
+  "hint": "make up ___ sth (compensate)",
+  "explanation": "make up FOR something = compensate for it."
+ },
+ {
+  "sentence": "I've mixed ___ the twins' names again.",
+  "answer": "up",
+  "options": [
+   "up",
+   "with",
+   "out",
+   "over"
+  ],
+  "hint": "confuse two things",
+  "explanation": "mix up = confuse one thing/person with another."
+ },
+ {
+  "sentence": "They've just moved ___ to their new flat.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "off",
+   "out"
+  ],
+  "hint": "start living somewhere",
+  "explanation": "move in = start living in a new home."
+ },
+ {
+  "sentence": "Her grandfather passed ___ last spring.",
+  "answer": "away",
+  "options": [
+   "away",
+   "out",
+   "off",
+   "up"
+  ],
+  "hint": "die (polite)",
+  "explanation": "pass away = die (a polite expression)."
+ },
+ {
+  "sentence": "Several runners passed ___ in the heat.",
+  "answer": "out",
+  "options": [
+   "out",
+   "away",
+   "off",
+   "up"
+  ],
+  "hint": "faint",
+  "explanation": "pass out = faint."
+ },
+ {
+  "sentence": "Put ___ your toys when you've finished playing.",
+  "answer": "away",
+  "options": [
+   "away",
+   "on",
+   "off",
+   "up"
+  ],
+  "hint": "put in the right place",
+  "explanation": "put away = put something in its usual place."
+ },
+ {
+  "sentence": "A new proposal was put ___ at the meeting.",
+  "answer": "forward",
+  "options": [
+   "forward",
+   "off",
+   "up",
+   "out"
+  ],
+  "hint": "suggest formally",
+  "explanation": "put forward = propose, suggest (an idea, plan, name)."
+ },
+ {
+  "sentence": "I ran ___ my old teacher at the airport.",
+  "answer": "into",
+  "options": [
+   "into",
+   "over",
+   "off",
+   "up"
+  ],
+  "hint": "meet unexpectedly",
+  "explanation": "run into somebody = meet them by chance (also: bump into)."
+ },
+ {
+  "sentence": "We saw our guests ___ at the station.",
+  "answer": "off",
+  "options": [
+   "off",
+   "out",
+   "up",
+   "over"
+  ],
+  "hint": "say goodbye to a traveller",
+  "explanation": "see somebody off = go with a traveller to say goodbye."
+ },
+ {
+  "sentence": "The concert tickets sold ___ within an hour.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "all bought",
+  "explanation": "sell out = all tickets/goods are sold."
+ },
+ {
+  "sentence": "They set ___ to climb the north face in April.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "in"
+  ],
+  "hint": "start a project/mission",
+  "explanation": "set out (to do) = begin a job/mission with a goal."
+ },
+ {
+  "sentence": "I stand ___ my decision — it was the right one.",
+  "answer": "by",
+  "options": [
+   "by",
+   "for",
+   "up",
+   "out"
+  ],
+  "hint": "remain loyal to",
+  "explanation": "stand by something = continue to support it; stand by somebody = help and support them."
+ },
+ {
+  "sentence": "What does UNESCO stand ___?",
+  "answer": "for",
+  "options": [
+   "for",
+   "by",
+   "up",
+   "in"
+  ],
+  "hint": "represent, mean",
+  "explanation": "stand for = represent (letters, initials, principles)."
+ },
+ {
+  "sentence": "Her essay stands ___ from the rest of the class.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "by",
+   "for"
+  ],
+  "hint": "be noticeably better",
+  "explanation": "stand out = be easy to notice, be better/different."
+ },
+ {
+  "sentence": "Let's start ___ — the first version had too many errors.",
+  "answer": "over",
+  "options": [
+   "over",
+   "up",
+   "off",
+   "out"
+  ],
+  "hint": "begin again",
+  "explanation": "start over = begin again from the beginning."
+ },
+ {
+  "sentence": "To sum ___, we need more time and a bigger budget.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "out",
+   "over"
+  ],
+  "hint": "conclude",
+  "explanation": "sum up = summarize the main points."
+ },
+ {
+  "sentence": "They want to try ___ the new software before buying.",
+  "answer": "out",
+  "options": [
+   "out",
+   "on",
+   "up",
+   "over"
+  ],
+  "hint": "test (a product/method)",
+  "explanation": "try out = test something to see if it works."
+ },
+ {
+  "sentence": "The caterpillar will turn ___ a butterfly.",
+  "answer": "into",
+  "options": [
+   "into",
+   "up",
+   "over",
+   "out"
+  ],
+  "hint": "become",
+  "explanation": "turn into = become, change into."
+ },
+ {
+  "sentence": "Wake ___ — you'll be late for school!",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "out",
+   "over"
+  ],
+  "hint": "stop sleeping",
+  "explanation": "wake up = stop sleeping."
+ },
+ {
+  "sentence": "These old boots are completely worn ___.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "old and unusable",
+  "explanation": "wear out = become thin/unusable through use."
+ },
+ {
+  "sentence": "The flood wiped ___ the entire harvest.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "destroy completely",
+  "explanation": "wipe out = destroy completely."
+ },
+ {
+  "sentence": "Who is going to deal ___ the angry customer?",
+  "answer": "with",
+  "options": [
+   "with",
+   "in",
+   "out",
+   "over"
+  ],
+  "hint": "handle",
+  "explanation": "deal with = handle; deal in = trade."
+ },
+ {
+  "sentence": "This old house needs doing ___ before winter.",
+  "answer": "up",
+  "options": [
+   "up",
+   "out",
+   "over",
+   "off"
+  ],
+  "hint": "repair and decorate",
+  "explanation": "do up = repair and decorate a building. (British usage)"
+ },
+ {
+  "sentence": "How do you account ___ the sudden change of plan?",
+  "answer": "for",
+  "options": [
+   "for",
+   "on",
+   "to",
+   "with"
+  ],
+  "hint": "explain",
+  "explanation": "account for = explain the cause of."
+ },
+ {
+  "sentence": "The new manager wants to back ___ the sales team's proposal.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "off",
+   "out"
+  ],
+  "hint": "support",
+  "explanation": "back up = support (a person, plan); also make a copy of data."
+ },
+ {
+  "sentence": "The fire blew ___ the gas cylinder exploded.",
+  "answer": "up",
+  "options": [
+   "up",
+   "out",
+   "off",
+   "over"
+  ],
+  "hint": "explode",
+  "explanation": "blow up = explode, or make something explode."
+ },
+ {
+  "sentence": "The store decided to branch ___ into online sales.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "off",
+   "in"
+  ],
+  "hint": "expand into new areas",
+  "explanation": "branch out = start doing something new and different."
+ },
+ {
+  "sentence": "The strike brought ___ major changes in the law.",
+  "answer": "about",
+  "options": [
+   "about",
+   "up",
+   "on",
+   "out"
+  ],
+  "hint": "cause to happen",
+  "explanation": "bring about = cause to happen."
+ },
+ {
+  "sentence": "The scandal brought ___ the government.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "about",
+   "off"
+  ],
+  "hint": "cause to lose power",
+  "explanation": "bring down = cause a government/person to lose power; reduce (prices)."
+ },
+ {
+  "sentence": "I bumped ___ my neighbour at the dentist's.",
+  "answer": "into",
+  "options": [
+   "into",
+   "on",
+   "over",
+   "up"
+  ],
+  "hint": "meet by chance",
+  "explanation": "bump into somebody = meet by chance."
+ },
+ {
+  "sentence": "This job calls ___ someone with patience.",
+  "answer": "for",
+  "options": [
+   "for",
+   "on",
+   "up",
+   "out"
+  ],
+  "hint": "require, need",
+  "explanation": "call for = require, demand (circumstances call for action)."
+ },
+ {
+  "sentence": "Calm ___ — everything is under control.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "off",
+   "out"
+  ],
+  "hint": "stop being angry",
+  "explanation": "calm down = become less angry/upset."
+ },
+ {
+  "sentence": "Do come round ___ dinner next week.",
+  "answer": "for",
+  "options": [
+   "for",
+   "in",
+   "at",
+   "up"
+  ],
+  "hint": "visit (come round ___ sth)",
+  "explanation": "come round = visit; come round FOR dinner/TO our place."
+ },
+ {
+  "sentence": "You can count ___ me if you need help.",
+  "answer": "on",
+  "options": [
+   "on",
+   "in",
+   "for",
+   "up"
+  ],
+  "hint": "rely on",
+  "explanation": "count on somebody = rely on them."
+ },
+ {
+  "sentence": "The subject cropped ___ again at dinner.",
+  "answer": "up",
+  "options": [
+   "up",
+   "off",
+   "in",
+   "out"
+  ],
+  "hint": "appear unexpectedly",
+  "explanation": "crop up = appear or happen unexpectedly."
+ },
+ {
+  "sentence": "Our street was cut ___ for three hours after the storm.",
+  "answer": "off",
+  "options": [
+   "off",
+   "out",
+   "up",
+   "down"
+  ],
+  "hint": "disconnected",
+  "explanation": "cut off = disconnected (power, phone); isolate (a village cut off by snow)."
+ },
+ {
+  "sentence": "Lawyers are drawing ___ the contract now.",
+  "answer": "up",
+  "options": [
+   "up",
+   "in",
+   "off",
+   "out"
+  ],
+  "hint": "prepare a document",
+  "explanation": "draw up = prepare and write (a contract, list, plan)."
+ },
+ {
+  "sentence": "The plane will drop ___ the parcels at the next farm.",
+  "answer": "off",
+  "options": [
+   "off",
+   "in",
+   "up",
+   "over"
+  ],
+  "hint": "deliver sb/sth",
+  "explanation": "drop off = deliver somebody/something; also become less (sales dropped off)."
+ },
+ {
+  "sentence": "He ended ___ selling insurance, though he'd trained as a chef.",
+  "answer": "up",
+  "options": [
+   "up",
+   "in",
+   "over",
+   "on"
+  ],
+  "hint": "finish somewhere unplanned",
+  "explanation": "end up = finally be in a place/situation/state."
+ },
+ {
+  "sentence": "It's time you faced up ___ your responsibilities.",
+  "answer": "to",
+  "options": [
+   "to",
+   "with",
+   "for",
+   "on"
+  ],
+  "hint": "accept sth difficult",
+  "explanation": "face up TO something = accept and deal with something difficult."
+ },
+ {
+  "sentence": "The deal fell ___ at the last minute.",
+  "answer": "through",
+  "options": [
+   "through",
+   "down",
+   "off",
+   "out"
+  ],
+  "hint": "fail to happen",
+  "explanation": "fall through = (a plan/deal) fail to happen."
+ },
+ {
+  "sentence": "I can't figure ___ how this app works.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "over",
+   "off"
+  ],
+  "hint": "understand after thinking",
+  "explanation": "figure out = understand after thinking."
+ },
+ {
+  "sentence": "A sales rep will follow ___ your enquiry next week.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "over",
+   "in"
+  ],
+  "hint": "take further action",
+  "explanation": "follow up = take further action after something."
+ },
+ {
+  "sentence": "The players are gearing ___ for the final.",
+  "answer": "up",
+  "options": [
+   "up",
+   "on",
+   "off",
+   "in"
+  ],
+  "hint": "prepare for",
+  "explanation": "gear up for = prepare for a big event."
+ },
+ {
+  "sentence": "Please hand ___ your essays by Friday.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "over",
+   "out"
+  ],
+  "hint": "give to a person in authority",
+  "explanation": "hand in = give work/documents to somebody in authority."
+ },
+ {
+  "sentence": "The two founders hit it ___ immediately.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "in",
+   "out"
+  ],
+  "hint": "like each other at once",
+  "explanation": "hit it off = like each other and become friendly quickly."
+ },
+ {
+  "sentence": "We need to iron ___ a few details before signing.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "over",
+   "off"
+  ],
+  "hint": "remove (problems)",
+  "explanation": "iron out = remove small problems/differences."
+ },
+ {
+  "sentence": "She keyed ___ the password and logged on.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "on",
+   "out"
+  ],
+  "hint": "type (a password)",
+  "explanation": "key in = type in (a password, code)."
+ },
+ {
+  "sentence": "The match kicks ___ at three o'clock.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "out",
+   "in"
+  ],
+  "hint": "start (a match)",
+  "explanation": "kick off = (of a match) start."
+ },
+ {
+  "sentence": "Prices levelled ___ after the crazy spring market.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "out",
+   "in"
+  ],
+  "hint": "stop rising or falling",
+  "explanation": "level off = stop rising or falling and stay the same."
+ },
+ {
+  "sentence": "They live ___ their pension and a small rent.",
+  "answer": "off",
+  "options": [
+   "off",
+   "on",
+   "by",
+   "up"
+  ],
+  "hint": "have as income/food",
+  "explanation": "live off = have as income/food; live on = have as income (money).",
+  "accept": [
+   "on"
+  ]
+ },
+ {
+  "sentence": "It's wise to look ___ before making a career move.",
+  "answer": "ahead",
+  "options": [
+   "ahead",
+   "out",
+   "up",
+   "over"
+  ],
+  "hint": "plan for the future",
+  "explanation": "look ahead = think about and plan for the future."
+ },
+ {
+  "sentence": "The new stadium made ___ an impressive sight.",
+  "answer": "for",
+  "options": [
+   "for",
+   "up",
+   "out",
+   "over"
+  ],
+  "hint": "produce a result",
+  "explanation": "make for = produce a particular result (make for a good atmosphere); also move towards."
+ },
+ {
+  "sentence": "Can we narrow the list ___ to three names?",
+  "answer": "down",
+  "options": [
+   "down",
+   "off",
+   "out",
+   "up"
+  ],
+  "hint": "reduce in number",
+  "explanation": "narrow down = reduce the number of possibilities."
+ },
+ {
+  "sentence": "Many consumers now opt ___ cheaper brands.",
+  "answer": "for",
+  "options": [
+   "for",
+   "on",
+   "up",
+   "to"
+  ],
+  "hint": "choose",
+  "explanation": "opt for something = choose it."
+ },
+ {
+  "sentence": "The old buses are being phased ___ next year.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "down",
+   "up"
+  ],
+  "hint": "remove gradually",
+  "explanation": "phase out = stop using something gradually."
+ },
+ {
+  "sentence": "The ministry tried to play ___ the incident.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "off",
+   "out"
+  ],
+  "hint": "make sth seem less serious",
+  "explanation": "play down = make something seem less important (opposite: play up)."
+ },
+ {
+  "sentence": "The doctors pulled him ___ after a difficult night.",
+  "answer": "through",
+  "options": [
+   "through",
+   "up",
+   "off",
+   "out"
+  ],
+  "hint": "survive illness",
+  "explanation": "pull through = recover from a serious illness."
+ },
+ {
+  "sentence": "She put her ideas ___ clearly and confidently.",
+  "answer": "across",
+  "options": [
+   "across",
+   "off",
+   "up",
+   "over"
+  ],
+  "hint": "communicate successfully",
+  "explanation": "put across = communicate an idea successfully."
+ },
+ {
+  "sentence": "He puts his success down ___ hard work and a bit of luck.",
+  "answer": "to",
+  "options": [
+   "to",
+   "on",
+   "for",
+   "with"
+  ],
+  "hint": "put sth down ___ sth",
+  "explanation": "put something down TO something = believe it has that cause."
+ },
+ {
+  "sentence": "It's hard to reason ___ someone in a panic.",
+  "answer": "with",
+  "options": [
+   "with",
+   "to",
+   "for",
+   "up"
+  ],
+  "hint": "persuade logically",
+  "explanation": "reason with somebody = try to persuade them logically."
+ },
+ {
+  "sentence": "Sales figures have tailed ___ since the summer.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "in",
+   "out"
+  ],
+  "hint": "gradually decrease",
+  "explanation": "tail off = gradually become less."
+ },
+ {
+  "sentence": "Don't ___ up all the milk — we need some for breakfast.",
+  "answer": "use",
+  "options": [
+   "use",
+   "put",
+   "give",
+   "take"
+  ],
+  "hint": "finish the supply",
+  "explanation": "use up = finish the whole supply of something."
+ },
+ {
+  "sentence": "The evidence finally backed ___ his version of events.",
+  "answer": "up",
+  "options": [
+   "up",
+   "off",
+   "out",
+   "over"
+  ],
+  "hint": "supported, confirmed",
+  "explanation": "back up = support with evidence (a claim backs up a story)."
+ },
+ {
+  "sentence": "Can I ___ on these boots before buying them?",
+  "answer": "try",
+  "options": [
+   "try",
+   "put",
+   "take",
+   "look"
+  ],
+  "hint": "test for fit",
+  "explanation": "try on = put on clothes/shoes to check the fit."
+ },
+ {
+  "sentence": "The new law will phase ___ disposable plastics by 2030.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "in",
+   "up"
+  ],
+  "hint": "stop gradually",
+  "explanation": "phase out = gradually stop using something."
+ },
+ {
+  "sentence": "We had to call ___ the order because the kitchen had closed.",
+  "answer": "off",
+  "options": [
+   "off",
+   "up",
+   "out",
+   "in"
+  ],
+  "hint": "cancel",
+  "explanation": "call off = cancel."
+ },
+ {
+  "sentence": "She always gets round ___ washing up by promising to do it later.",
+  "answer": "to",
+  "options": [
+   "to",
+   "for",
+   "at",
+   "with"
+  ],
+  "hint": "find a way to avoid",
+  "explanation": "get round to = finally find time for; here: avoid a duty — test the preposition after get round."
+ }
+]

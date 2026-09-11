@@ -1,0 +1,1367 @@
+[
+ {
+  "sentence": "I really can't afford ___ on holiday this year.",
+  "answer": "to go",
+  "options": [
+   "to go",
+   "going",
+   "go",
+   "to going"
+  ],
+  "hint": "afford + ?",
+  "explanation": "afford takes the to-infinitive: can't afford to go."
+ },
+ {
+  "sentence": "She avoided ___ about the accident.",
+  "answer": "talking",
+  "options": [
+   "to talk",
+   "talking",
+   "talk",
+   "to talking"
+  ],
+  "hint": "avoid + ?",
+  "explanation": "avoid is followed by -ing: avoid talking."
+ },
+ {
+  "sentence": "Would you mind ___ the window? It's boiling in here.",
+  "answer": "opening",
+  "options": [
+   "to open",
+   "opening",
+   "open",
+   "opened"
+  ],
+  "hint": "mind + ?",
+  "explanation": "mind is followed by -ing: Would you mind opening…?"
+ },
+ {
+  "sentence": "He suggested ___ a taxi instead of walking.",
+  "answer": "taking",
+  "options": [
+   "to take",
+   "taking",
+   "take",
+   "to taking"
+  ],
+  "hint": "suggest + ?",
+  "explanation": "suggest + -ing (no infinitive with a person: suggest that we take is also possible)."
+ },
+ {
+  "sentence": "If you keep ___ like this, you'll exhaust yourself.",
+  "answer": "working",
+  "options": [
+   "to work",
+   "working",
+   "work",
+   "worked"
+  ],
+  "hint": "keep + ?",
+  "explanation": "keep (+ on) is followed by -ing: keep working."
+ },
+ {
+  "sentence": "Have you ever considered ___ abroad?",
+  "answer": "moving",
+  "options": [
+   "to move",
+   "moving",
+   "move",
+   "to moving"
+  ],
+  "hint": "consider + ?",
+  "explanation": "consider + -ing: consider moving."
+ },
+ {
+  "sentence": "He denied ___ the money, but nobody believed him.",
+  "answer": "taking",
+  "options": [
+   "to take",
+   "taking",
+   "take",
+   "to taking"
+  ],
+  "hint": "deny + ?",
+  "explanation": "deny + -ing: deny taking."
+ },
+ {
+  "sentence": "You risk ___ your licence if you drink and drive.",
+  "answer": "losing",
+  "options": [
+   "to lose",
+   "losing",
+   "lose",
+   "to losing"
+  ],
+  "hint": "risk + ?",
+  "explanation": "risk + -ing: risk losing."
+ },
+ {
+  "sentence": "Do you fancy ___ to the cinema tonight?",
+  "answer": "going",
+  "options": [
+   "to go",
+   "going",
+   "go",
+   "to going"
+  ],
+  "hint": "fancy + ? (informal)",
+  "explanation": "fancy + -ing (informal British): Do you fancy going…?"
+ },
+ {
+  "sentence": "I can't imagine ___ in a tiny village again.",
+  "answer": "living",
+  "options": [
+   "to live",
+   "living",
+   "live",
+   "to living"
+  ],
+  "hint": "imagine + ?",
+  "explanation": "imagine + -ing: imagine living."
+ },
+ {
+  "sentence": "We mustn't miss ___ this exhibition — it ends on Sunday.",
+  "answer": "seeing",
+  "options": [
+   "to see",
+   "seeing",
+   "see",
+   "to seeing"
+  ],
+  "hint": "miss + ?",
+  "explanation": "miss + -ing: miss seeing."
+ },
+ {
+  "sentence": "Renovating the kitchen involved ___ a wall.",
+  "answer": "knocking",
+  "options": [
+   "to knock",
+   "knocking",
+   "knock",
+   "to knocking"
+  ],
+  "hint": "involve + ?",
+  "explanation": "involve + -ing: involved knocking down."
+ },
+ {
+  "sentence": "They've postponed ___ the new bridge until spring.",
+  "answer": "building",
+  "options": [
+   "to build",
+   "building",
+   "build",
+   "to building"
+  ],
+  "hint": "postpone + ?",
+  "explanation": "postpone + -ing (like delay): postponed building."
+ },
+ {
+  "sentence": "She decided ___ the job offer in Berlin.",
+  "answer": "to accept",
+  "options": [
+   "accepting",
+   "to accept",
+   "accept",
+   "to accepting"
+  ],
+  "hint": "decide + ?",
+  "explanation": "decide takes the to-infinitive: decided to accept."
+ },
+ {
+  "sentence": "We hope ___ from you soon.",
+  "answer": "to hear",
+  "options": [
+   "hearing",
+   "to hear",
+   "hear",
+   "to hearing"
+  ],
+  "hint": "hope + ?",
+  "explanation": "hope takes the to-infinitive: hope to hear."
+ },
+ {
+  "sentence": "They managed ___ the fire before it spread.",
+  "answer": "to put",
+  "options": [
+   "putting",
+   "to put",
+   "put",
+   "to putting"
+  ],
+  "hint": "manage + ? (succeed)",
+  "explanation": "manage takes the to-infinitive: managed to put out."
+ },
+ {
+  "sentence": "I can't wait ___ you the photos.",
+  "answer": "to show",
+  "options": [
+   "showing",
+   "to show",
+   "show",
+   "to showing"
+  ],
+  "hint": "can't wait + ?",
+  "explanation": "can't wait + to-infinitive: can't wait to show."
+ },
+ {
+  "sentence": "He refused ___ for the damage.",
+  "answer": "to pay",
+  "options": [
+   "paying",
+   "to pay",
+   "pay",
+   "to paying"
+  ],
+  "hint": "refuse + ?",
+  "explanation": "refuse takes the to-infinitive: refused to pay."
+ },
+ {
+  "sentence": "She promised ___ late again.",
+  "answer": "not to be",
+  "options": [
+   "not being",
+   "to not be",
+   "not to be",
+   "not be"
+  ],
+  "hint": "promise + ? (negative)",
+  "explanation": "Negative infinitive: promised not to be late — 'not' goes before 'to'."
+ },
+ {
+  "sentence": "The hotel offered ___ our room free of charge.",
+  "answer": "to upgrade",
+  "options": [
+   "upgrading",
+   "to upgrade",
+   "upgrade",
+   "to upgrading"
+  ],
+  "hint": "offer + ?",
+  "explanation": "offer takes the to-infinitive: offered to upgrade."
+ },
+ {
+  "sentence": "Do you know how ___ this machine?",
+  "answer": "to operate",
+  "options": [
+   "operating",
+   "to operate",
+   "operate",
+   "to operating"
+  ],
+  "hint": "know how + ?",
+  "explanation": "know how/what/where + to-infinitive: know how to operate."
+ },
+ {
+  "sentence": "He seems ___ the news already.",
+  "answer": "to know",
+  "options": [
+   "knowing",
+   "to know",
+   "know",
+   "to knowing"
+  ],
+  "hint": "seem + ?",
+  "explanation": "seem/appear take the to-infinitive: seems to know."
+ },
+ {
+  "sentence": "I'm learning ___ the guitar at the moment.",
+  "answer": "to play",
+  "options": [
+   "playing",
+   "to play",
+   "play",
+   "to playing"
+  ],
+  "hint": "learn + ?",
+  "explanation": "learn takes the to-infinitive (learn how to play)."
+ },
+ {
+  "sentence": "She pretended ___ the question.",
+  "answer": "not to hear",
+  "options": [
+   "not hearing",
+   "to not hear",
+   "not to hear",
+   "not hear"
+  ],
+  "hint": "pretend + ? (negative)",
+  "explanation": "pretend + to-infinitive; negative: not to hear."
+ },
+ {
+  "sentence": "The team failed ___ the deadline.",
+  "answer": "to meet",
+  "options": [
+   "meeting",
+   "to meet",
+   "meet",
+   "to meeting"
+  ],
+  "hint": "fail + ?",
+  "explanation": "fail takes the to-infinitive: failed to meet."
+ },
+ {
+  "sentence": "We expect ___ the results by Friday.",
+  "answer": "to receive",
+  "options": [
+   "receiving",
+   "to receive",
+   "receive",
+   "to receiving"
+  ],
+  "hint": "expect + ?",
+  "explanation": "expect takes the to-infinitive: expect to receive."
+ },
+ {
+  "sentence": "I like ___ up early in summer.",
+  "answer": "getting",
+  "options": [
+   "to get",
+   "getting",
+   "get",
+   "to getting"
+  ],
+  "hint": "like + both, but for enjoyment…",
+  "explanation": "With 'like' meaning enjoy, -ing is preferred: like getting up. 'Would like' takes to: I'd like to get up."
+ },
+ {
+  "sentence": "I'd like ___ a word with you, please.",
+  "answer": "to have",
+  "options": [
+   "having",
+   "to have",
+   "have",
+   "to having"
+  ],
+  "hint": "would like + ?",
+  "explanation": "would like always takes the to-infinitive: I'd like to have."
+ },
+ {
+  "sentence": "It started ___ just as we left the house.",
+  "answer": "to rain",
+  "options": [
+   "raining",
+   "to rain",
+   "rain",
+   "to raining"
+  ],
+  "hint": "start: both forms OK",
+  "explanation": "start/begin take either -ing or to-infinitive; with continuous or states, 'to' is preferred. Both accepted.",
+  "accept": [
+   "raining"
+  ]
+ },
+ {
+  "sentence": "He continued ___ as if nothing had happened.",
+  "answer": "working",
+  "options": [
+   "to work",
+   "working",
+   "work",
+   "to working"
+  ],
+  "hint": "continue + both OK",
+  "explanation": "continue takes -ing or to-infinitive. Both accepted.",
+  "accept": [
+   "to work"
+  ]
+ },
+ {
+  "sentence": "On the way to Rome we stopped ___ some photos.",
+  "answer": "to take",
+  "options": [
+   "taking",
+   "to take",
+   "take",
+   "to taking"
+  ],
+  "hint": "stop in order to do sth",
+  "explanation": "stop to do = pause in order to do; stop doing = finish doing. Here they paused to take photos."
+ },
+ {
+  "sentence": "You should stop ___ so much coffee late at night.",
+  "answer": "drinking",
+  "options": [
+   "to drink",
+   "drinking",
+   "drink",
+   "to drinking"
+  ],
+  "hint": "stop the activity itself",
+  "explanation": "stop + -ing = end the activity: stop drinking coffee."
+ },
+ {
+  "sentence": "I remembered ___ the door, so I went back to check.",
+  "answer": "locking",
+  "options": [
+   "to lock",
+   "locking",
+   "lock",
+   "to locking"
+  ],
+  "hint": "memory of a past action",
+  "explanation": "remember + -ing = recall a past action; remember to do = not forget a duty."
+ },
+ {
+  "sentence": "Remember ___ your passport to the airport.",
+  "answer": "to bring",
+  "options": [
+   "bringing",
+   "to bring",
+   "bring",
+   "to bringing"
+  ],
+  "hint": "not forget a duty",
+  "explanation": "remember + to-infinitive = not forget to do something."
+ },
+ {
+  "sentence": "She forgot ___ the email, so she sent it twice.",
+  "answer": "sending",
+  "options": [
+   "to send",
+   "sending",
+   "send",
+   "to sending"
+  ],
+  "hint": "she had already sent it",
+  "explanation": "forget + -ing = lose the memory of a past action (she did send it)."
+ },
+ {
+  "sentence": "Don't forget ___ the plants while we're away.",
+  "answer": "to water",
+  "options": [
+   "watering",
+   "to water",
+   "water",
+   "to watering"
+  ],
+  "hint": "a duty, not yet done",
+  "explanation": "forget + to-infinitive = fail to do something you should do."
+ },
+ {
+  "sentence": "I regret ___ you that the flight has been cancelled.",
+  "answer": "to inform",
+  "options": [
+   "informing",
+   "to inform",
+   "inform",
+   "to informing"
+  ],
+  "hint": "formal bad news",
+  "explanation": "regret + to-infinitive (formal announcements); regret + -ing = be sorry about the past."
+ },
+ {
+  "sentence": "I regret ___ so rude to her at the party.",
+  "answer": "being",
+  "options": [
+   "to be",
+   "being",
+   "be",
+   "to being"
+  ],
+  "hint": "be sorry about the past",
+  "explanation": "regret + -ing = feel sorry about something you did."
+ },
+ {
+  "sentence": "Try ___ the handle — sometimes it sticks.",
+  "answer": "turning",
+  "options": [
+   "to turn",
+   "turning",
+   "turn",
+   "to turning"
+  ],
+  "hint": "experiment with this",
+  "explanation": "try + -ing = experiment with a method; try to do = make an effort."
+ },
+ {
+  "sentence": "I tried ___ the shelf up, but it was too heavy.",
+  "answer": "to lift",
+  "options": [
+   "lifting",
+   "to lift",
+   "lift",
+   "to lifting"
+  ],
+  "hint": "make an effort (and struggle)",
+  "explanation": "try + to-infinitive = attempt, make an effort."
+ },
+ {
+  "sentence": "My parents wouldn't let me ___ out that late.",
+  "answer": "go",
+  "options": [
+   "to go",
+   "going",
+   "go",
+   "to going"
+  ],
+  "hint": "let + ?",
+  "explanation": "let takes the bare infinitive: let me go (no 'to')."
+ },
+ {
+  "sentence": "She made her son ___ his room before dinner.",
+  "answer": "tidy",
+  "options": [
+   "to tidy",
+   "tidying",
+   "tidy",
+   "tidied"
+  ],
+  "hint": "make sb + ?",
+  "explanation": "make + object + bare infinitive: made him tidy (passive takes to: was made to tidy)."
+ },
+ {
+  "sentence": "Could you help me ___ these boxes upstairs?",
+  "answer": "carry",
+  "options": [
+   "to carry",
+   "carrying",
+   "carry",
+   "carry to"
+  ],
+  "hint": "help + (to) do",
+  "explanation": "help takes a bare infinitive or to-infinitive: help me (to) carry. Both accepted.",
+  "accept": [
+   "to carry"
+  ]
+ },
+ {
+  "sentence": "I want you ___ the truth, whatever it is.",
+  "answer": "to tell",
+  "options": [
+   "tell",
+   "telling",
+   "to tell",
+   "told"
+  ],
+  "hint": "want sb + ?",
+  "explanation": "want + object + to-infinitive: want you to tell."
+ },
+ {
+  "sentence": "They don't allow ___ in the museum.",
+  "answer": "photography",
+  "options": [
+   "photography",
+   "to photograph",
+   "photograph",
+   "photographing"
+  ],
+  "hint": "allow + noun / allow sb to do",
+  "explanation": "allow + noun/-ing (no personal object): they don't allow photography. With a person: allow visitors to photograph.",
+  "accept": [
+   "photographing"
+  ]
+ },
+ {
+  "sentence": "The teacher advised us ___ the essay twice.",
+  "answer": "to check",
+  "options": [
+   "checking",
+   "to check",
+   "check",
+   "to checking"
+  ],
+  "hint": "advise sb + ?",
+  "explanation": "advise + object + to-infinitive: advised us to check. (advise + -ing is possible without object: advise checking.)"
+ },
+ {
+  "sentence": "I'm looking forward to ___ from you.",
+  "answer": "hearing",
+  "options": [
+   "hear",
+   "to hear",
+   "hearing",
+   "heard"
+  ],
+  "hint": "look forward to + ?",
+  "explanation": "'to' is a preposition in look forward to, so -ing follows: hearing."
+ },
+ {
+  "sentence": "She insisted on ___ for the meal herself.",
+  "answer": "paying",
+  "options": [
+   "to pay",
+   "paying",
+   "pay",
+   "to paying"
+  ],
+  "hint": "insist on + ?",
+  "explanation": "insist ON + -ing: insisted on paying."
+ },
+ {
+  "sentence": "He's not used to ___ so early.",
+  "answer": "getting",
+  "options": [
+   "get",
+   "to get",
+   "getting",
+   "got"
+  ],
+  "hint": "be used to + ?",
+  "explanation": "be used TO + -ing: not used to getting (it's a habit he isn't accustomed to)."
+ },
+ {
+  "sentence": "When I was a student, I used ___ in shared flats.",
+  "answer": "to live",
+  "options": [
+   "living",
+   "to live",
+   "live",
+   "to living"
+  ],
+  "hint": "past habit: used ___ live",
+  "explanation": "used TO + infinitive = past habit/state: used to live. (Compare: be used to living.)"
+ },
+ {
+  "sentence": "There's no point ___ about it now.",
+  "answer": "worrying",
+  "options": [
+   "to worry",
+   "worrying",
+   "worry",
+   "to worrying"
+  ],
+  "hint": "no point + ?",
+  "explanation": "there's no point + -ing: no point worrying."
+ },
+ {
+  "sentence": "It's not worth ___ over spilt milk.",
+  "answer": "crying",
+  "options": [
+   "to cry",
+   "crying",
+   "cry",
+   "to crying"
+  ],
+  "hint": "not worth + ?",
+  "explanation": "be worth + -ing: not worth crying."
+ },
+ {
+  "sentence": "We're thinking of ___ to the coast for the weekend.",
+  "answer": "driving",
+  "options": [
+   "to drive",
+   "driving",
+   "drive",
+   "to driving"
+  ],
+  "hint": "think of + ?",
+  "explanation": "think of/about + -ing: thinking of driving."
+ },
+ {
+  "sentence": "He's brilliant at ___ difficult customers.",
+  "answer": "handling",
+  "options": [
+   "to handle",
+   "handling",
+   "handle",
+   "to handling"
+  ],
+  "hint": "good at + ?",
+  "explanation": "preposition + -ing: good at handling."
+ },
+ {
+  "sentence": "Instead of ___ , why don't you ask for help?",
+  "answer": "struggling",
+  "options": [
+   "to struggle",
+   "struggling",
+   "struggle",
+   "to struggling"
+  ],
+  "hint": "instead of + ?",
+  "explanation": "preposition + -ing: instead of struggling."
+ },
+ {
+  "sentence": "She left the room without ___ goodbye.",
+  "answer": "saying",
+  "options": [
+   "to say",
+   "saying",
+   "say",
+   "to saying"
+  ],
+  "hint": "without + ?",
+  "explanation": "preposition + -ing: without saying."
+ },
+ {
+  "sentence": "I'd rather ___ at home tonight.",
+  "answer": "stay",
+  "options": [
+   "to stay",
+   "staying",
+   "stay",
+   "to staying"
+  ],
+  "hint": "would rather + ?",
+  "explanation": "would rather takes the bare infinitive: I'd rather stay."
+ },
+ {
+  "sentence": "You'd better ___ a taxi or you'll miss the plane.",
+  "answer": "take",
+  "options": [
+   "to take",
+   "taking",
+   "take",
+   "to taking"
+  ],
+  "hint": "had better + ?",
+  "explanation": "had better takes the bare infinitive: you'd better take."
+ },
+ {
+  "sentence": "We spent the whole morning ___ for tickets.",
+  "answer": "queueing",
+  "options": [
+   "to queue",
+   "queueing",
+   "queue",
+   "to queueing"
+  ],
+  "hint": "spend time + ?",
+  "explanation": "spend time + -ing: spent the morning queueing.",
+  "accept": [
+   "queuing"
+  ]
+ },
+ {
+  "sentence": "She's too young ___ home alone.",
+  "answer": "to stay",
+  "options": [
+   "staying",
+   "to stay",
+   "stay",
+   "to staying"
+  ],
+  "hint": "too + adjective + ?",
+  "explanation": "too + adjective + to-infinitive: too young to stay."
+ },
+ {
+  "sentence": "The box was heavy enough ___ two people.",
+  "answer": "to need",
+  "options": [
+   "needing",
+   "to need",
+   "need",
+   "to needing"
+  ],
+  "hint": "enough + to-inf",
+  "explanation": "adjective + enough + to-infinitive: heavy enough to need."
+ },
+ {
+  "sentence": "They made me ___ for the whole team's mistake.",
+  "answer": "apologise",
+  "options": [
+   "to apologise",
+   "apologising",
+   "apologise",
+   "apologised"
+  ],
+  "hint": "made + bare infinitive",
+  "explanation": "make + object + bare infinitive in active sentences: made me apologise."
+ },
+ {
+  "sentence": "I was made ___ the dustbin lorry at six in the morning.",
+  "answer": "to wait",
+  "options": [
+   "waiting",
+   "to wait",
+   "wait",
+   "waited"
+  ],
+  "hint": "passive: was made ___",
+  "explanation": "In the passive, make takes the to-infinitive: was made to wait."
+ },
+ {
+  "sentence": "Do you want me ___ you at the station?",
+  "answer": "to meet",
+  "options": [
+   "meet",
+   "meeting",
+   "to meet",
+   "met"
+  ],
+  "hint": "want sb + ?",
+  "explanation": "want + object + to-infinitive: want me to meet."
+ },
+ {
+  "sentence": "She can't stand ___ in queues.",
+  "answer": "waiting",
+  "options": [
+   "to wait",
+   "waiting",
+   "wait",
+   "to waiting"
+  ],
+  "hint": "can't stand + both, prefer -ing",
+  "explanation": "can't stand + -ing (also to-infinitive in AmE): can't stand waiting. -ing accepted as standard.",
+  "accept": [
+   "to wait"
+  ]
+ },
+ {
+  "sentence": "It's no use ___ about the weather.",
+  "answer": "complaining",
+  "options": [
+   "to complain",
+   "complaining",
+   "complain",
+   "to complaining"
+  ],
+  "hint": "it's no use + ?",
+  "explanation": "it's no use + -ing: no use complaining."
+ },
+ {
+  "sentence": "He's considering ___ his job and travelling for a year.",
+  "answer": "quitting",
+  "options": [
+   "to quit",
+   "quitting",
+   "quit",
+   "to quitting"
+  ],
+  "hint": "consider + ?",
+  "explanation": "consider + -ing: considering quitting."
+ },
+ {
+  "sentence": "I'd prefer ___ at home rather than go out.",
+  "answer": "to eat",
+  "options": [
+   "eating",
+   "to eat",
+   "eat",
+   "to eating"
+  ],
+  "hint": "would prefer + ?",
+  "explanation": "would prefer + to-infinitive: I'd prefer to eat. (prefer + -ing for general likes.)"
+ },
+ {
+  "sentence": "They agreed ___ the fence between the two gardens.",
+  "answer": "to mend",
+  "options": [
+   "mending",
+   "to mend",
+   "mend",
+   "to mending"
+  ],
+  "hint": "agree + ?",
+  "explanation": "agree takes the to-infinitive: agreed to mend."
+ },
+ {
+  "sentence": "Don't bother ___ — the shop's shut.",
+  "answer": "going",
+  "options": [
+   "to go",
+   "going",
+   "go",
+   "to going"
+  ],
+  "hint": "bother + both, -ing common",
+  "explanation": "bother + -ing (or to-infinitive): don't bother going. Both accepted.",
+  "accept": [
+   "to go"
+  ]
+ },
+ {
+  "sentence": "She can't afford ___ her car repaired this month.",
+  "answer": "to get",
+  "options": [
+   "getting",
+   "to get",
+   "get",
+   "to getting"
+  ],
+  "hint": "afford + ?",
+  "explanation": "afford + to-infinitive: can't afford to get."
+ },
+ {
+  "sentence": "We'd better not ___ the neighbours again.",
+  "answer": "disturb",
+  "options": [
+   "to disturb",
+   "disturbing",
+   "disturb",
+   "disturbed"
+  ],
+  "hint": "had better not + ?",
+  "explanation": "had better + bare infinitive (not comes after better): better not disturb."
+ },
+ {
+  "sentence": "I saw him ___ the wall and disappear into the garden.",
+  "answer": "climb",
+  "options": [
+   "to climb",
+   "climbing",
+   "climb",
+   "climbed"
+  ],
+  "hint": "see sb do (complete action)",
+  "explanation": "see/hear + object + bare infinitive = the complete action; -ing = the action in progress. Both readings possible here; the bare infinitive is expected.",
+  "accept": [
+   "climbing"
+  ]
+ },
+ {
+  "sentence": "I could hear the neighbours ___ again last night.",
+  "answer": "arguing",
+  "options": [
+   "to argue",
+   "arguing",
+   "argue",
+   "argued"
+  ],
+  "hint": "hear sb do — in progress",
+  "explanation": "hear + object + -ing = hear an action in progress: hear them arguing."
+ },
+ {
+  "sentence": "She's busy ___ for her exams.",
+  "answer": "revising",
+  "options": [
+   "to revise",
+   "revising",
+   "revise",
+   "to revising"
+  ],
+  "hint": "busy + ?",
+  "explanation": "busy + -ing: busy revising."
+ },
+ {
+  "sentence": "He spent hours ___ to fix the printer.",
+  "answer": "trying",
+  "options": [
+   "to try",
+   "trying",
+   "try",
+   "to trying"
+  ],
+  "hint": "spend time + ?",
+  "explanation": "spend time + -ing: spent hours trying."
+ },
+ {
+  "sentence": "Is it worth ___ the engine or should we buy a new car?",
+  "answer": "repairing",
+  "options": [
+   "to repair",
+   "repairing",
+   "repair",
+   "to repairing"
+  ],
+  "hint": "worth + ?",
+  "explanation": "be worth + -ing: worth repairing."
+ },
+ {
+  "sentence": "The children are looking forward to ___ Father Christmas.",
+  "answer": "meeting",
+  "options": [
+   "meet",
+   "to meet",
+   "meeting",
+   "met"
+  ],
+  "hint": "look forward to + ?",
+  "explanation": "look forward TO + -ing: looking forward to meeting."
+ },
+ {
+  "sentence": "I didn't mean ___ you — it was a joke.",
+  "answer": "to upset",
+  "options": [
+   "upsetting",
+   "to upset",
+   "upset",
+   "to upsetting"
+  ],
+  "hint": "mean (intend) + ?",
+  "explanation": "mean (= intend) takes the to-infinitive: didn't mean to upset. (mean + -ing = involve.)"
+ },
+ {
+  "sentence": "This new timetable will mean ___ earlier trains.",
+  "answer": "catching",
+  "options": [
+   "to catch",
+   "catching",
+   "catch",
+   "to catching"
+  ],
+  "hint": "mean (involve) + ?",
+  "explanation": "mean + -ing = involve: will mean catching."
+ },
+ {
+  "sentence": "He went on ___ even after the audience had left.",
+  "answer": "talking",
+  "options": [
+   "to talk",
+   "talking",
+   "talk",
+   "to talking"
+  ],
+  "hint": "continue the same activity",
+  "explanation": "go on + -ing = continue the same activity; go on to do = do something next."
+ },
+ {
+  "sentence": "After introducing herself, she went on ___ the main findings.",
+  "answer": "to describe",
+  "options": [
+   "describing",
+   "to describe",
+   "describe",
+   "to describing"
+  ],
+  "hint": "move on to a new activity",
+  "explanation": "go on + to-infinitive = do something after finishing something else."
+ },
+ {
+  "sentence": "I'm sorry for ___ so long to reply.",
+  "answer": "taking",
+  "options": [
+   "to take",
+   "taking",
+   "take",
+   "to taking"
+  ],
+  "hint": "sorry for + ?",
+  "explanation": "preposition + -ing: sorry for taking."
+ },
+ {
+  "sentence": "They accused me of ___ the rules.",
+  "answer": "breaking",
+  "options": [
+   "to break",
+   "breaking",
+   "break",
+   "to breaking"
+  ],
+  "hint": "accuse of + ?",
+  "explanation": "preposition + -ing: accused of breaking."
+ },
+ {
+  "sentence": "She's thinking about ___ a puppy.",
+  "answer": "getting",
+  "options": [
+   "to get",
+   "getting",
+   "get",
+   "to getting"
+  ],
+  "hint": "think about + ?",
+  "explanation": "think about + -ing: thinking about getting."
+ },
+ {
+  "sentence": "We managed ___ everyone before the storm hit.",
+  "answer": "to warn",
+  "options": [
+   "warning",
+   "to warn",
+   "warn",
+   "to warning"
+  ],
+  "hint": "manage + ?",
+  "explanation": "manage + to-infinitive: managed to warn."
+ },
+ {
+  "sentence": "He apologized for ___ so abrupt in the meeting.",
+  "answer": "being",
+  "options": [
+   "to be",
+   "being",
+   "be",
+   "to being"
+  ],
+  "hint": "apologize for + ?",
+  "explanation": "preposition + -ing: apologised for being."
+ },
+ {
+  "sentence": "Would you like ___ now or later?",
+  "answer": "to eat",
+  "options": [
+   "eating",
+   "to eat",
+   "eat",
+   "to eating"
+  ],
+  "hint": "would like + ?",
+  "explanation": "would like takes the to-infinitive: would like to eat."
+ },
+ {
+  "sentence": "I miss ___ by the sea.",
+  "answer": "living",
+  "options": [
+   "to live",
+   "living",
+   "live",
+   "to living"
+  ],
+  "hint": "miss + ?",
+  "explanation": "miss + -ing: miss living."
+ },
+ {
+  "sentence": "We can't risk ___ the connection flight.",
+  "answer": "missing",
+  "options": [
+   "to miss",
+   "missing",
+   "miss",
+   "to missing"
+  ],
+  "hint": "risk + ?",
+  "explanation": "risk + -ing: risk missing."
+ },
+ {
+  "sentence": "The scheme aims ___ younger visitors to the museum.",
+  "answer": "to attract",
+  "options": [
+   "attracting",
+   "to attract",
+   "attract",
+   "to attracting"
+  ],
+  "hint": "aim + ?",
+  "explanation": "aim + to-infinitive: aims to attract (aim at + -ing is also possible in BrE).",
+  "accept": [
+   "at attracting"
+  ]
+ },
+ {
+  "sentence": "She appears ___ the situation completely.",
+  "answer": "to control",
+  "options": [
+   "controlling",
+   "to control",
+   "control",
+   "to controlling"
+  ],
+  "hint": "appear + ?",
+  "explanation": "appear/seem + to-infinitive: appears to control."
+ },
+ {
+  "sentence": "It's high time we ___ this attic.",
+  "answer": "cleared",
+  "options": [
+   "clear",
+   "to clear",
+   "cleared",
+   "clearing"
+  ],
+  "hint": "it's time + past form",
+  "explanation": "it's (high) time + subject + past simple (unreal past): time we cleared."
+ },
+ {
+  "sentence": "He'd sooner ___ than ask for directions.",
+  "answer": "drive",
+  "options": [
+   "to drive",
+   "driving",
+   "drive",
+   "driven"
+  ],
+  "hint": "would sooner + ?",
+  "explanation": "would sooner + bare infinitive (like would rather): sooner drive."
+ },
+ {
+  "sentence": "I happen ___ her from university.",
+  "answer": "to know",
+  "options": [
+   "knowing",
+   "to know",
+   "know",
+   "to knowing"
+  ],
+  "hint": "happen + ? (chance)",
+  "explanation": "happen + to-infinitive = do something by chance: happen to know."
+ },
+ {
+  "sentence": "They can't help ___ at his impression of the boss.",
+  "answer": "laughing",
+  "options": [
+   "to laugh",
+   "laughing",
+   "laugh",
+   "to laughing"
+  ],
+  "hint": "can't help + ?",
+  "explanation": "can't help + -ing = can't stop yourself: can't help laughing."
+ },
+ {
+  "sentence": "I'd rather you ___ smoke in here.",
+  "answer": "didn't",
+  "options": [
+   "don't",
+   "didn't",
+   "not",
+   "won't"
+  ],
+  "hint": "would rather + sb + past",
+  "explanation": "would rather + somebody + past simple: I'd rather you didn't smoke."
+ },
+ {
+  "sentence": "She was the first woman ___ the peak in winter.",
+  "answer": "to climb",
+  "options": [
+   "climbing",
+   "to climb",
+   "climb",
+   "climbed"
+  ],
+  "hint": "the first/last + ?",
+  "explanation": "the first/second/last + to-infinitive: the first woman to climb."
+ },
+ {
+  "sentence": "Do you have any idea how ___ this knot?",
+  "answer": "to undo",
+  "options": [
+   "undoing",
+   "to undo",
+   "undo",
+   "to undoing"
+  ],
+  "hint": "how + ?",
+  "explanation": "question word + to-infinitive: how to undo."
+ },
+ {
+  "sentence": "Let's not ___ about it until we know more.",
+  "answer": "argue",
+  "options": [
+   "to argue",
+   "arguing",
+   "argue",
+   "argued"
+  ],
+  "hint": "let's + bare infinitive",
+  "explanation": "let's + bare infinitive (negative: let's not argue)."
+ },
+ {
+  "sentence": "I look forward to ___ your suggestions at the meeting.",
+  "answer": "hearing",
+  "options": [
+   "hear",
+   "to hear",
+   "hearing",
+   "heard"
+  ],
+  "hint": "look forward to + ?",
+  "explanation": "look forward TO + -ing: to hearing."
+ },
+ {
+  "sentence": "We stopped at a village ___ some lunch.",
+  "answer": "to have",
+  "options": [
+   "having",
+   "to have",
+   "have",
+   "to having"
+  ],
+  "hint": "stop in order to",
+  "explanation": "stop to do = pause in order to do something: stopped to have lunch."
+ },
+ {
+  "sentence": "Don't forget ___ off the lights when you leave.",
+  "answer": "to turn",
+  "options": [
+   "turning",
+   "to turn",
+   "turn",
+   "to turning"
+  ],
+  "hint": "future duty",
+  "explanation": "forget + to-infinitive = fail to do a duty: forget to turn."
+ },
+ {
+  "sentence": "She denied ___ anything wrong.",
+  "answer": "having done",
+  "options": [
+   "to do",
+   "doing",
+   "having done",
+   "done"
+  ],
+  "hint": "deny + ?/having + ?",
+  "explanation": "deny + -ing or having + past participle: denied doing/having done. Both accepted.",
+  "accept": [
+   "doing"
+  ]
+ },
+ {
+  "sentence": "Despite ___ three times, he didn't give up.",
+  "answer": "failing",
+  "options": [
+   "to fail",
+   "failing",
+   "fail",
+   "to failing"
+  ],
+  "hint": "despite + ?",
+  "explanation": "despite + -ing: despite failing."
+ },
+ {
+  "sentence": "They're planning ___ the flat before selling it.",
+  "answer": "to redecorate",
+  "options": [
+   "redecorating",
+   "to redecorate",
+   "redecorate",
+   "to redecorating"
+  ],
+  "hint": "plan + ?",
+  "explanation": "plan + to-infinitive (plan on + -ing also occurs informally): planning to redecorate.",
+  "accept": [
+   "on redecorating"
+  ]
+ },
+ {
+  "sentence": "I've always wanted ___ how to sail.",
+  "answer": "to learn",
+  "options": [
+   "learning",
+   "to learn",
+   "learn",
+   "to learning"
+  ],
+  "hint": "want + ?",
+  "explanation": "want + to-infinitive: wanted to learn."
+ },
+ {
+  "sentence": "My boss won't ___ me take Friday off.",
+  "answer": "let",
+  "options": [
+   "let",
+   "allow",
+   "make",
+   "permit"
+  ],
+  "hint": "verb + me + take (bare)",
+  "explanation": "let + object + bare infinitive: won't let me take. (allow/permit take to: allow me to take.)"
+ },
+ {
+  "sentence": "The rules don't ___ visitors to touch the paintings.",
+  "answer": "allow",
+  "options": [
+   "let",
+   "allow",
+   "make",
+   "have"
+  ],
+  "hint": "verb + object + to touch",
+  "explanation": "allow + object + to-infinitive: allow visitors to touch. (let + bare: let visitors touch.)"
+ },
+ {
+  "sentence": "She couldn't resist ___ the last biscuit.",
+  "answer": "taking",
+  "options": [
+   "to take",
+   "taking",
+   "take",
+   "to taking"
+  ],
+  "hint": "can't resist + ?",
+  "explanation": "can't resist + -ing: couldn't resist taking."
+ },
+ {
+  "sentence": "It took me ages ___ used to the new keyboard.",
+  "answer": "to get",
+  "options": [
+   "getting",
+   "to get",
+   "get",
+   "to getting"
+  ],
+  "hint": "it takes time + ?",
+  "explanation": "it takes time + to-infinitive: took me ages to get used to the keyboard."
+ }
+]

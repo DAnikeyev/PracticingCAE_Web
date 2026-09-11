@@ -1,0 +1,1151 @@
+[
+ {
+  "sentence": "She gave a very ___ (CONFUSE) explanation of the rules.",
+  "answer": "confusing",
+  "options": [
+   "confusing",
+   "confused",
+   "confusion",
+   "confusingly"
+  ],
+  "hint": "adjective: causing confusion",
+  "explanation": "'Confusing' describes something that causes confusion; 'confused' describes the person affected."
+ },
+ {
+  "sentence": "The ___ (DECIDE) to close the factory was announced yesterday.",
+  "answer": "decision",
+  "options": [
+   "decision",
+   "deciding",
+   "decisive",
+   "decisively"
+  ],
+  "hint": "noun after 'the'",
+  "explanation": "'The decision' — noun form of decide."
+ },
+ {
+  "sentence": "He is one of the most ___ (SUCCESS) businessmen in the region.",
+  "answer": "successful",
+  "options": [
+   "successful",
+   "success",
+   "succeed",
+   "successfully"
+  ],
+  "hint": "adjective after 'most'",
+  "explanation": "Superlative needs an adjective: successful."
+ },
+ {
+  "sentence": "Her sudden ___ (DIE) shocked the whole village.",
+  "answer": "death",
+  "options": [
+   "death",
+   "deathly",
+   "dead",
+   "dying"
+  ],
+  "hint": "noun needed",
+  "explanation": "'Her sudden death' — 'die' is the verb, 'death' the noun."
+ },
+ {
+  "sentence": "The instructions were ___ (WRITE) in six languages.",
+  "answer": "written",
+  "options": [
+   "written",
+   "wrote",
+   "writting",
+   "writable"
+  ],
+  "hint": "past participle (passive)",
+  "explanation": "Passive voice: were written — irregular participle of write."
+ },
+ {
+  "sentence": "This shop offers a wide ___ (SELECT) of cheeses.",
+  "answer": "selection",
+  "options": [
+   "selection",
+   "select",
+   "selective",
+   "selectively"
+  ],
+  "hint": "noun: a range",
+  "explanation": "'A selection of' = a range of items to choose from."
+ },
+ {
+  "sentence": "He was praised for his ___ (BRAVE) during the fire.",
+  "answer": "bravery",
+  "options": [
+   "bravery",
+   "brave",
+   "bravely",
+   "braveness"
+  ],
+  "hint": "noun after possessive",
+  "explanation": "'His bravery' — quality noun; 'braveness' exists but is rare; 'bravery' is standard."
+ },
+ {
+  "sentence": "The results of the survey were highly ___ (SURPRISE).",
+  "answer": "surprising",
+  "options": [
+   "surprising",
+   "surprised",
+   "surprisingly",
+   "surprise"
+  ],
+  "hint": "adjective: causing surprise",
+  "explanation": "The results cause surprise: surprising."
+ },
+ {
+  "sentence": "She's studying ___ (MANAGE) at university.",
+  "answer": "management",
+  "options": [
+   "management",
+   "managing",
+   "manageable",
+   "manager"
+  ],
+  "hint": "subject field (noun)",
+  "explanation": "'Studying management' — the field is called management."
+ },
+ {
+  "sentence": "The road was closed because of ___ (VISIBLE) conditions.",
+  "answer": "poor visibility",
+  "options": [
+   "poor visibility",
+   "poor visible",
+   "poor vision",
+   "poor visibly"
+  ],
+  "hint": "noun phrase: how far you can see",
+  "explanation": "'Visibility' = the distance you can see; paired with 'poor'."
+ },
+ {
+  "sentence": "He spoke ___ (CONFIDENT) in front of the camera.",
+  "answer": "confidently",
+  "options": [
+   "confidently",
+   "confident",
+   "confidence",
+   "confiding"
+  ],
+  "hint": "adverb for 'spoke'",
+  "explanation": "Adverb needed to modify 'spoke': confidently."
+ },
+ {
+  "sentence": "They're ___ (HOPE) that the talks will resume.",
+  "answer": "hopeful",
+  "options": [
+   "hopeful",
+   "hope",
+   "hoped",
+   "hopefully"
+  ],
+  "hint": "adjective: feeling hope",
+  "explanation": "'Be hopeful that…' = feeling hope; 'hopefully' is the adverb."
+ },
+ {
+  "sentence": "The museum's ___ (EXHIBIT) of Egyptian art opens on Friday.",
+  "answer": "exhibition",
+  "options": [
+   "exhibition",
+   "exhibit",
+   "exhibiting",
+   "exhibitor"
+  ],
+  "hint": "noun: a public show",
+  "explanation": "'An exhibition' = a public display of art; 'an exhibit' is a single item."
+ },
+ {
+  "sentence": "She was ___ (ABLE) to attend because of illness.",
+  "answer": "unable",
+  "options": [
+   "unable",
+   "disably",
+   "inable",
+   "nonable"
+  ],
+  "hint": "negative adjective",
+  "explanation": "'Unable to attend' — negative of able is unable."
+ },
+ {
+  "sentence": "The company has made huge ___ (INVEST) in training.",
+  "answer": "investments",
+  "options": [
+   "investments",
+   "investing",
+   "investors",
+   "investment's"
+  ],
+  "hint": "plural noun after 'huge'",
+  "explanation": "'Huge investments in…' — plural countable noun."
+ },
+ {
+  "sentence": "It's ___ (LEGAL) to drive without insurance.",
+  "answer": "illegal",
+  "options": [
+   "illegal",
+   "unlegal",
+   "nonlegal",
+   "dislegal"
+  ],
+  "hint": "negative of legal",
+  "explanation": "Negative prefix for 'legal' is 'il-' before l: illegal."
+ },
+ {
+  "sentence": "He suffers from ___ (SLEEP) since the accident.",
+  "answer": "sleeplessness",
+  "options": [
+   "sleeplessness",
+   "sleepless",
+   "sleeplessly",
+   "asleep"
+  ],
+  "hint": "noun: inability to sleep",
+  "explanation": "'Suffer from sleeplessness/insomnia' — noun needed after 'from'."
+ },
+ {
+  "sentence": "The ___ (APPLY) for the visa took three weeks.",
+  "answer": "application",
+  "options": [
+   "application",
+   "appliance",
+   "applicant",
+   "applying"
+  ],
+  "hint": "noun: the process/form",
+  "explanation": "'The application' = the act or form of applying; 'applicant' = the person."
+ },
+ {
+  "sentence": "She's a highly ___ (QUALIFY) engineer.",
+  "answer": "qualified",
+  "options": [
+   "qualified",
+   "qualifying",
+   "qualification",
+   "qualifier"
+  ],
+  "hint": "participle adjective",
+  "explanation": "'Highly qualified' — participle used as adjective."
+ },
+ {
+  "sentence": "The village is ___ (ACCESS) only by boat.",
+  "answer": "accessible",
+  "options": [
+   "accessible",
+   "access",
+   "accessing",
+   "accessibly"
+  ],
+  "hint": "adjective: can be reached",
+  "explanation": "'Accessible' = easy to reach; the -ible spelling follows 'access'."
+ },
+ {
+  "sentence": "He was ___ (APPOINT) at the election result.",
+  "answer": "disappointed",
+  "options": [
+   "disappointed",
+   "unappointed",
+   "misappointed",
+   "deappointed"
+  ],
+  "hint": "negative feeling adjective",
+  "explanation": "'Disappointed' — prefix dis- with appoint."
+ },
+ {
+  "sentence": "The ___ (ARRIVE) of the Queen caused a stir.",
+  "answer": "arrival",
+  "options": [
+   "arrival",
+   "arrive",
+   "arriving",
+   "arrivance"
+  ],
+  "hint": "noun: act of arriving",
+  "explanation": "'The arrival' — noun form of arrive."
+ },
+ {
+  "sentence": "Smoking is ___ (HARM) to your health.",
+  "answer": "harmful",
+  "options": [
+   "harmful",
+   "harmless",
+   "harm",
+   "harmed"
+  ],
+  "hint": "adjective: causes harm",
+  "explanation": "'Harmful' = causing harm; 'harmless' is the opposite."
+ },
+ {
+  "sentence": "The ___ (ARGUE) went on for hours.",
+  "answer": "argument",
+  "options": [
+   "argument",
+   "arguing",
+   "arguable",
+   "arguer"
+  ],
+  "hint": "noun: a quarrel",
+  "explanation": "'Argument' — note the e is dropped from argue."
+ },
+ {
+  "sentence": "She was ___ (GRATE) for all their support.",
+  "answer": "grateful",
+  "options": [
+   "grateful",
+   "greatful",
+   "gratefully",
+   "gratified"
+  ],
+  "hint": "adjective: thankful",
+  "explanation": "'Grateful' — beware the common misspelling 'greatful'."
+ },
+ {
+  "sentence": "The film was a critical and ___ (COMMERCE) success.",
+  "answer": "commercial",
+  "options": [
+   "commercial",
+   "commerce",
+   "commercially",
+   "commercialise"
+  ],
+  "hint": "adjective before 'success'",
+  "explanation": "'Commercial success' — adjective from commerce."
+ },
+ {
+  "sentence": "He's under ___ (PRESS) to resign.",
+  "answer": "pressure",
+  "options": [
+   "pressure",
+   "pressuring",
+   "pressed",
+   "pressurise"
+  ],
+  "hint": "noun after 'under'",
+  "explanation": "'Under pressure' — fixed noun phrase."
+ },
+ {
+  "sentence": "The engine has a ___ (PERFORM) problem.",
+  "answer": "performance",
+  "options": [
+   "performance",
+   "performing",
+   "performer",
+   "performed"
+  ],
+  "hint": "noun modifying 'problem'",
+  "explanation": "'Performance problem' — noun used attributively."
+ },
+ {
+  "sentence": "The ___ (DIFFICULT) terrain slowed the rescue team.",
+  "answer": "difficult",
+  "options": [
+   "difficult",
+   "difficulty",
+   "difficultly",
+   "difficultness"
+  ],
+  "hint": "adjective before noun",
+  "explanation": "'Difficult terrain' — adjective needed; 'difficulty' is the noun."
+ },
+ {
+  "sentence": "She gave a moving ___ (PERFORM) of the sonata.",
+  "answer": "performance",
+  "options": [
+   "performance",
+   "performing",
+   "performer",
+   "performed"
+  ],
+  "hint": "noun after 'moving'",
+  "explanation": "'A performance of the sonata' — the act of performing."
+ },
+ {
+  "sentence": "The medicine is available without ___ (PRESCRIBE).",
+  "answer": "prescription",
+  "options": [
+   "prescription",
+   "prescribing",
+   "prescriptive",
+   "prescribed"
+  ],
+  "hint": "noun: doctor's order",
+  "explanation": "'Without prescription' — noun; also 'over the counter'."
+ },
+ {
+  "sentence": "They searched the area ___ (SYSTEM) for clues.",
+  "answer": "systematically",
+  "options": [
+   "systematically",
+   "systematic",
+   "system",
+   "systemisation"
+  ],
+  "hint": "adverb for 'searched'",
+  "explanation": "Adverb needed: systematically (method by method)."
+ },
+ {
+  "sentence": "The two sides failed to reach an ___ (AGREE).",
+  "answer": "agreement",
+  "options": [
+   "agreement",
+   "agreeing",
+   "agreeable",
+   "agreance"
+  ],
+  "hint": "noun: a settled deal",
+  "explanation": "'Reach an agreement' — the noun form."
+ },
+ {
+  "sentence": "He's studying ___ (BOTANY) at Cambridge.",
+  "answer": "botany",
+  "options": [
+   "botany",
+   "botanic",
+   "botanist",
+   "botanically"
+  ],
+  "hint": "the subject field",
+  "explanation": "The subject is 'botany'; a specialist is a 'botanist'."
+ },
+ {
+  "sentence": "The trainers were ___ (COMFORT) for long walks.",
+  "answer": "comfortable",
+  "options": [
+   "comfortable",
+   "comfort",
+   "comfortably",
+   "comforted"
+  ],
+  "hint": "adjective after 'were'",
+  "explanation": "'Were comfortable' — adjective; note the spelling: -able, not -ible."
+ },
+ {
+  "sentence": "Her ___ (CONFIDENT) grew after each concert.",
+  "answer": "confidence",
+  "options": [
+   "confidence",
+   "confident",
+   "confiding",
+   "confidingly"
+  ],
+  "hint": "noun after possessive",
+  "explanation": "'Her confidence' — the noun; 'confident' is the adjective."
+ },
+ {
+  "sentence": "The parcel arrived ___ (DAMAGE).",
+  "answer": "damaged",
+  "options": [
+   "damaged",
+   "damage",
+   "damaging",
+   "damagely"
+  ],
+  "hint": "participle: in a damaged state",
+  "explanation": "'Arrived damaged' — participle describing the state of the parcel."
+ },
+ {
+  "sentence": "The company is famous for its ___ (INNOVATE) designs.",
+  "answer": "innovative",
+  "options": [
+   "innovative",
+   "innovation",
+   "innovator",
+   "innovativeness"
+  ],
+  "hint": "adjective before 'designs'",
+  "explanation": "'Innovative designs' — adjective from innovate."
+ },
+ {
+  "sentence": "He made a full ___ (RECOVER) after six months.",
+  "answer": "recovery",
+  "options": [
+   "recovery",
+   "recover",
+   "recovering",
+   "recoverer"
+  ],
+  "hint": "noun after 'full'",
+  "explanation": "'A full recovery' — noun from recover."
+ },
+ {
+  "sentence": "The bridge is an ___ (IMPRESS) piece of engineering.",
+  "answer": "impressive",
+  "options": [
+   "impressive",
+   "impressed",
+   "impression",
+   "impressively"
+  ],
+  "hint": "adjective: inspires admiration",
+  "explanation": "The bridge impresses people: it is impressive."
+ },
+ {
+  "sentence": "She explained the process ___ (PATIENT) to each visitor.",
+  "answer": "patiently",
+  "options": [
+   "patiently",
+   "patient",
+   "patience",
+   "impatience"
+  ],
+  "hint": "adverb for 'explained'",
+  "explanation": "Adverb needed: patiently (with patience)."
+ },
+ {
+  "sentence": "The report needs ___ (REVISE) before submission.",
+  "answer": "revising",
+  "options": [
+   "revising",
+   "to revise",
+   "revision",
+   "revised"
+  ],
+  "hint": "need + -ing (passive meaning)",
+  "explanation": "'Needs revising' = needs to be revised — need + -ing."
+ },
+ {
+  "sentence": "He's a regular ___ (CONTRIBUTE) to the magazine.",
+  "answer": "contributor",
+  "options": [
+   "contributor",
+   "contribution",
+   "contributing",
+   "contributive"
+  ],
+  "hint": "person noun (-or)",
+  "explanation": "'A contributor' = a person who contributes."
+ },
+ {
+  "sentence": "The ___ (LONG) of the film is 145 minutes.",
+  "answer": "length",
+  "options": [
+   "length",
+   "long",
+   "longly",
+   "longness"
+  ],
+  "hint": "noun from long",
+  "explanation": "'The length' — noun from long (spelling change: long → length)."
+ },
+ {
+  "sentence": "She showed great ___ (WISE) in avoiding the deal.",
+  "answer": "wisdom",
+  "options": [
+   "wisdom",
+   "wisely",
+   "wise",
+   "wiseness"
+  ],
+  "hint": "noun: quality of being wise",
+  "explanation": "'Wisdom' — the quality noun from wise (spelling: wise → wisdom)."
+ },
+ {
+  "sentence": "The new rules were ___ (WIDE) criticised.",
+  "answer": "widely",
+  "options": [
+   "widely",
+   "wide",
+   "width",
+   "widen"
+  ],
+  "hint": "adverb for 'criticised'",
+  "explanation": "'Widely criticised' = by many people — adverb."
+ },
+ {
+  "sentence": "There's a growing ___ (AWARE) of mental health issues.",
+  "answer": "awareness",
+  "options": [
+   "awareness",
+   "aware",
+   "awaring",
+   "awarely"
+  ],
+  "hint": "noun after 'growing'",
+  "explanation": "'Awareness' — noun from aware (-ness suffix)."
+ },
+ {
+  "sentence": "The chairman gave a brief ___ (INTRODUCE).",
+  "answer": "introduction",
+  "options": [
+   "introduction",
+   "introducing",
+   "introductory",
+   "introducer"
+  ],
+  "hint": "noun: opening remarks",
+  "explanation": "'A brief introduction' — the noun from introduce."
+ },
+ {
+  "sentence": "The band's ___ (PERFORM) was unforgettable.",
+  "answer": "performance",
+  "options": [
+   "performance",
+   "performing",
+   "performed",
+   "performer"
+  ],
+  "hint": "noun after possessive",
+  "explanation": "'The band's performance' — noun from perform."
+ },
+ {
+  "sentence": "He lost his ___ (CONFIDENT) after the failure.",
+  "answer": "confidence",
+  "options": [
+   "confidence",
+   "confident",
+   "confidingly",
+   "confide"
+  ],
+  "hint": "noun after possessive",
+  "explanation": "'Lost his confidence' — the noun form."
+ },
+ {
+  "sentence": "The ___ (DISCOVER) of penicillin changed medicine.",
+  "answer": "discovery",
+  "options": [
+   "discovery",
+   "discovering",
+   "discoverer",
+   "discoverable"
+  ],
+  "hint": "noun: act of finding",
+  "explanation": "'The discovery of…' — noun from discover (y-ending)."
+ },
+ {
+  "sentence": "She answered all the questions ___ (CORRECT).",
+  "answer": "correctly",
+  "options": [
+   "correctly",
+   "correct",
+   "correctness",
+   "correction"
+  ],
+  "hint": "adverb for 'answered'",
+  "explanation": "Adverb needed: correctly."
+ },
+ {
+  "sentence": "The novel is a ___ (FICTION) account of real events.",
+  "answer": "fictional",
+  "options": [
+   "fictional",
+   "fiction",
+   "fictionally",
+   "fictitious of"
+  ],
+  "hint": "adjective before 'account'",
+  "explanation": "'Fictional account' — adjective; 'fictitious' implies deliberate falsehood."
+ },
+ {
+  "sentence": "The law was introduced to stop ___ (CHEAT) by companies.",
+  "answer": "cheating",
+  "options": [
+   "cheating",
+   "cheat",
+   "cheated",
+   "cheatness"
+  ],
+  "hint": "gerund after 'stop'",
+  "explanation": "'Stop + -ing': stop cheating."
+ },
+ {
+  "sentence": "The city is ___ (FAME) for its architecture.",
+  "answer": "famous",
+  "options": [
+   "famous",
+   "famed for",
+   "fame",
+   "infamous for"
+  ],
+  "hint": "adjective + for",
+  "explanation": "'Famous for' — 'infamous' means notorious (famous for bad things)."
+ },
+ {
+  "sentence": "He was ___ (SATISFY) with the settlement.",
+  "answer": "satisfied",
+  "options": [
+   "satisfied",
+   "satisfying",
+   "satisfaction",
+   "satisfactory"
+  ],
+  "hint": "how he felt",
+  "explanation": "People are satisfied; things are satisfying or satisfactory."
+ },
+ {
+  "sentence": "The pilot made an ___ (EMERGENCY) landing.",
+  "answer": "emergency",
+  "options": [
+   "emergency",
+   "emergent",
+   "emergence",
+   "emergently"
+  ],
+  "hint": "noun as modifier",
+  "explanation": "'Emergency landing' — noun used attributively."
+ },
+ {
+  "sentence": "His ___ (BEHAVE) at school has improved.",
+  "answer": "behaviour",
+  "options": [
+   "behaviour",
+   "behaved",
+   "behavioural",
+   "behave"
+  ],
+  "hint": "noun: conduct",
+  "explanation": "'His behaviour' — noun from behave (BrE spelling -our).",
+  "accept": [
+   "behavior"
+  ]
+ },
+ {
+  "sentence": "The company needs to ___ (MODERN) its factories.",
+  "answer": "modernise",
+  "options": [
+   "modernise",
+   "modern",
+   "modernly",
+   "modernness"
+  ],
+  "hint": "verb: make modern",
+  "explanation": "'Modernise' (BrE) / 'modernize' — verb with -ise.",
+  "accept": [
+   "modernize"
+  ]
+ },
+ {
+  "sentence": "The team celebrated their ___ (CHAMPION) victory.",
+  "answer": "championship",
+  "options": [
+   "championship",
+   "champion",
+   "championing",
+   "champion's"
+  ],
+  "hint": "noun: the contest/title",
+  "explanation": "'Championship victory' — the title/contest, not the person."
+ },
+ {
+  "sentence": "He was ___ (COURAGE) enough to speak first.",
+  "answer": "courageous",
+  "options": [
+   "courageous",
+   "courage",
+   "encouraged",
+   "courageously"
+  ],
+  "hint": "adjective: full of courage",
+  "explanation": "'Courageous' — adjective from courage (-ous suffix)."
+ },
+ {
+  "sentence": "The ___ (SAFE) of passengers is our priority.",
+  "answer": "safety",
+  "options": [
+   "safety",
+   "safe",
+   "safely",
+   "safeness"
+  ],
+  "hint": "noun from safe",
+  "explanation": "'Safety' — the quality noun from safe (safe → safety)."
+ },
+ {
+  "sentence": "She's a leading ___ (SCIENCE) in climate research.",
+  "answer": "scientist",
+  "options": [
+   "scientist",
+   "science",
+   "scientific",
+   "scientifically"
+  ],
+  "hint": "person noun (-ist)",
+  "explanation": "'A scientist' — person who does science."
+ },
+ {
+  "sentence": "The house needs ___ (REPAIR) urgently.",
+  "answer": "repairing",
+  "options": [
+   "repairing",
+   "to repair",
+   "repair",
+   "repairable"
+  ],
+  "hint": "need + -ing",
+  "explanation": "'Needs repairing' = needs to be repaired."
+ },
+ {
+  "sentence": "He gave me some very useful ___ (ADVISE).",
+  "answer": "advice",
+  "options": [
+   "advice",
+   "advices",
+   "advising",
+   "advise"
+  ],
+  "hint": "uncountable noun",
+  "explanation": "'Advice' is uncountable — never 'advices'; 'advise' is the verb."
+ },
+ {
+  "sentence": "The ___ (DEEP) of the lake is unknown.",
+  "answer": "depth",
+  "options": [
+   "depth",
+   "deep",
+   "deeply",
+   "deepness"
+  ],
+  "hint": "noun from deep",
+  "explanation": "'Depth' — noun from deep (spelling change: deep → depth)."
+ },
+ {
+  "sentence": "The police appealed for ___ (CALM).",
+  "answer": "calm",
+  "options": [
+   "calm",
+   "calmness",
+   "calmly",
+   "calming"
+  ],
+  "hint": "noun after 'for'",
+  "explanation": "'Appealed for calm' — the set phrase uses 'calm' as noun."
+ },
+ {
+  "sentence": "His ___ (REFUSE) to help surprised everyone.",
+  "answer": "refusal",
+  "options": [
+   "refusal",
+   "refusing",
+   "refused",
+   "refuser"
+  ],
+  "hint": "noun from refuse",
+  "explanation": "'His refusal' — noun from refuse (-al suffix)."
+ },
+ {
+  "sentence": "The medicine may cause ___ (SLEEPY).",
+  "answer": "drowsiness",
+  "options": [
+   "drowsiness",
+   "drowsy",
+   "drowsily",
+   "drowse"
+  ],
+  "hint": "noun: state of feeling sleepy",
+  "explanation": "'Cause drowsiness' — the quality noun from drowsy."
+ },
+ {
+  "sentence": "They're ___ (OPTIMISM) about the future.",
+  "answer": "optimistic",
+  "options": [
+   "optimistic",
+   "optimism",
+   "optimistically",
+   "optimise"
+  ],
+  "hint": "adjective after 'are'",
+  "explanation": "'Optimistic' is the adjective; 'optimism' is the noun."
+ },
+ {
+  "sentence": "The storm caused ___ (EXTENSIVE) damage.",
+  "answer": "extensive",
+  "options": [
+   "extensive",
+   "extension",
+   "extensively",
+   "extent"
+  ],
+  "hint": "adjective before 'damage'",
+  "explanation": "'Extensive damage' — adjective meaning widespread."
+ },
+ {
+  "sentence": "The job requires ___ (STRONG) and stamina.",
+  "answer": "strength",
+  "options": [
+   "strength",
+   "strong",
+   "strongly",
+   "strengthen"
+  ],
+  "hint": "noun from strong",
+  "explanation": "'Strength' — noun from strong (spelling change)."
+ },
+ {
+  "sentence": "She's our most ___ (TRUST) colleague.",
+  "answer": "trustworthy",
+  "options": [
+   "trustworthy",
+   "trusted",
+   "trusting",
+   "trust"
+  ],
+  "hint": "adjective: can be trusted",
+  "explanation": "'Trustworthy' = deserving trust; 'trusted' also works but 'trustworthy' is the quality.",
+  "accept": [
+   "trusted"
+  ]
+ },
+ {
+  "sentence": "The audience gave a huge ___ (APPLAUD).",
+  "answer": "applause",
+  "options": [
+   "applause",
+   "applauding",
+   "applaud",
+   "applauder"
+  ],
+  "hint": "noun: clapping",
+  "explanation": "'Applause' is the noun; 'applaud' is the verb."
+ },
+ {
+  "sentence": "He's an expert in ___ (ENVIRONMENT) law.",
+  "answer": "environmental",
+  "options": [
+   "environmental",
+   "environment",
+   "environmentally",
+   "environmentalist"
+  ],
+  "hint": "adjective before 'law'",
+  "explanation": "'Environmental law' — adjective from environment."
+ },
+ {
+  "sentence": "The thief was ___ (ARREST) at the border.",
+  "answer": "arrested",
+  "options": [
+   "arrested",
+   "arresting",
+   "arrest",
+   "arrestment"
+  ],
+  "hint": "passive past participle",
+  "explanation": "Passive: was arrested."
+ },
+ {
+  "sentence": "The ___ (IMPORTANT) of sleep is often ignored.",
+  "answer": "importance",
+  "options": [
+   "importance",
+   "important",
+   "importantly",
+   "importation"
+  ],
+  "hint": "noun after 'the'",
+  "explanation": "'The importance of…' — noun from important."
+ },
+ {
+  "sentence": "He speaks French ___ (FLUENT).",
+  "answer": "fluently",
+  "options": [
+   "fluently",
+   "fluent",
+   "fluency",
+   "influent"
+  ],
+  "hint": "adverb for 'speaks'",
+  "explanation": "Adverb needed: fluently."
+ },
+ {
+  "sentence": "The journey was ___ (TIRE) but rewarding.",
+  "answer": "tiring",
+  "options": [
+   "tiring",
+   "tired",
+   "tire",
+   "tiresome of"
+  ],
+  "hint": "adjective: causing tiredness",
+  "explanation": "The journey causes tiredness: tiring. 'Tiresome' means annoying."
+ },
+ {
+  "sentence": "We've received your ___ (REQUEST) for a refund.",
+  "answer": "request",
+  "options": [
+   "request",
+   "requesting",
+   "requester",
+   "requested"
+  ],
+  "hint": "noun after 'your'",
+  "explanation": "'Your request' — the noun from request."
+ },
+ {
+  "sentence": "The doctor advised ___ (OPERATE) immediately.",
+  "answer": "operating",
+  "options": [
+   "operating",
+   "to operate",
+   "operation",
+   "operator"
+  ],
+  "hint": "advise + -ing (no object)",
+  "explanation": "'Advise + -ing' (without a personal object): advised operating."
+ },
+ {
+  "sentence": "The ___ (OWN) of the car park charges by the hour.",
+  "answer": "owner",
+  "options": [
+   "owner",
+   "ownership",
+   "owning",
+   "own"
+  ],
+  "hint": "person noun",
+  "explanation": "'The owner' — the person who owns it; 'ownership' is the state."
+ },
+ {
+  "sentence": "She's ___ (GRATEFUL) acknowledged in the preface.",
+  "answer": "gratefully",
+  "options": [
+   "gratefully",
+   "grateful",
+   "gratefulness",
+   "gratified"
+  ],
+  "hint": "adverb for 'acknowledged'",
+  "explanation": "Adverb needed: gratefully acknowledged."
+ },
+ {
+  "sentence": "The council rejected plans for a new ___ (DEVELOP).",
+  "answer": "development",
+  "options": [
+   "development",
+   "developing",
+   "developer",
+   "developed"
+  ],
+  "hint": "noun: a building project",
+  "explanation": "'A development' = a building project; 'developer' = the company."
+ },
+ {
+  "sentence": "He has a ___ (TEND) to exaggerate.",
+  "answer": "tendency",
+  "options": [
+   "tendency",
+   "tend",
+   "tending",
+   "tender"
+  ],
+  "hint": "noun after 'a'",
+  "explanation": "'A tendency to do something' — noun from tend."
+ },
+ {
+  "sentence": "The twins were ___ (BELIEVE) similar.",
+  "answer": "unbelievably",
+  "options": [
+   "unbelievably",
+   "unbelievable",
+   "unbelief",
+   "believing"
+  ],
+  "hint": "adverb for 'similar'",
+  "explanation": "Adverb needed: unbelievably similar."
+ },
+ {
+  "sentence": "Her ___ (PERSIST) finally paid off.",
+  "answer": "persistence",
+  "options": [
+   "persistence",
+   "persistent",
+   "persistently",
+   "persistency of"
+  ],
+  "hint": "noun after possessive",
+  "explanation": "'Her persistence' — the quality noun from persistent."
+ },
+ {
+  "sentence": "The switch ___ (ACTIVE) the alarm.",
+  "answer": "activates",
+  "options": [
+   "activates",
+   "active",
+   "actively",
+   "activity"
+  ],
+  "hint": "verb (present)",
+  "explanation": "'Activates' — verb from active (-ate suffix)."
+ },
+ {
+  "sentence": "He was ___ (SUSPECT) of fraud last year.",
+  "answer": "suspected",
+  "options": [
+   "suspected",
+   "suspicious",
+   "suspicion",
+   "suspensively"
+  ],
+  "hint": "passive participle",
+  "explanation": "'Was suspected of' — passive; 'suspicious' describes a person who suspects."
+ },
+ {
+  "sentence": "The plane made a hard but ___ (SUCCESS) landing.",
+  "answer": "successful",
+  "options": [
+   "successful",
+   "success",
+   "successfully",
+   "succeeding"
+  ],
+  "hint": "adjective before 'landing'",
+  "explanation": "'Successful landing' — adjective needed."
+ },
+ {
+  "sentence": "The palace is open to ___ (VISIT) all year.",
+  "answer": "visitors",
+  "options": [
+   "visitors",
+   "visit",
+   "visiting",
+   "visitant"
+  ],
+  "hint": "people noun (plural)",
+  "explanation": "'Open to visitors' — plural person noun."
+ },
+ {
+  "sentence": "The smell was absolutely ___ (DISGUST).",
+  "answer": "disgusting",
+  "options": [
+   "disgusting",
+   "disgusted",
+   "disgust",
+   "disgustingly"
+  ],
+  "hint": "adjective: causing disgust",
+  "explanation": "The smell causes disgust: disgusting."
+ },
+ {
+  "sentence": "He's an ___ (ENTHUSIASM) supporter of the team.",
+  "answer": "enthusiastic",
+  "options": [
+   "enthusiastic",
+   "enthusiasm",
+   "enthusiastically",
+   "enthused"
+  ],
+  "hint": "adjective before 'supporter'",
+  "explanation": "'Enthusiastic supporter' — adjective from enthusiasm."
+ },
+ {
+  "sentence": "The report was highly ___ (CRITICISE) of the ministry.",
+  "answer": "critical",
+  "options": [
+   "critical",
+   "criticising",
+   "criticism",
+   "critically"
+  ],
+  "hint": "adjective: finding fault",
+  "explanation": "'Be critical of' — adjective; 'criticism' is the noun."
+ },
+ {
+  "sentence": "The sculpture is a ___ (MASTER) piece of the Renaissance.",
+  "answer": "master",
+  "options": [
+   "master",
+   "masterly",
+   "mastery",
+   "mastered"
+  ],
+  "hint": "compound noun",
+  "explanation": "'Masterpiece' = master + piece, written as one word here split by the gap: master… piece."
+ }
+]

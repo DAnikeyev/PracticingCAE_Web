@@ -27,9 +27,10 @@ public static class AnswerChecker
             sb.Append(c);
         }
 
-        // collapse runs of whitespace
+        // collapse runs of whitespace (tabs, newlines, NBSP after mapping)
         var text = sb.ToString();
-        var normalized = string.Join(' ', text.Split(' ', StringSplitOptions.RemoveEmptyEntries));
+        var normalized = string.Join(' ',
+            text.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries));
         normalized = normalized.ToLowerInvariant();
 
         return normalized.TrimEnd('.', ',', '!', '?', ';', ':');

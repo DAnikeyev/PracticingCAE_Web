@@ -1,0 +1,182 @@
+[
+  {"title":"The birth of the daily commute","text":"Commuting {{1}} become such an accepted part of working life that few of us question it. Yet {{2}} the invention of the railway, most people simply lived within walking distance {{3}} their workplace. Trains changed everything, allowing workers to travel {{4}} the suburbs into city centres each morning. Today, although many of us dream {{5}} working from home, the majority still make the daily journey. Transport experts argue {{6}} this will only change if employers become more flexible. Whatever happens, it seems unlikely {{7}} the morning rush hour will disappear completely {{8}} our lifetime.","gaps":[
+    {"answer":"has","hint":"perfect auxiliary: ___ become","explanation":"Present perfect: commuting has become — 'it' would need 'it has become' after 'commuting' as subject."},
+    {"answer":"before","hint":"time: prior to the railway","explanation":"'Before the invention of the railway' — time reference to an earlier period."},
+    {"answer":"from","hint":"distance ___ their workplace","explanation":"'within walking distance FROM their workplace' — from marks the starting point."},
+    {"answer":"from","hint":"travel ___ the suburbs","explanation":"travel from A to B — from marks the origin of the journey."},
+    {"answer":"of","hint":"dream ___ something","explanation":"dream OF/ABOUT something."},
+    {"answer":"that","hint":"argue ___ this will…","explanation":"'argue that + clause' — introduces the reported claim.","accept":[""]},
+    {"answer":"that","hint":"it seems unlikely ___ …","explanation":"The conjunction 'that' links 'it seems unlikely' with the following clause."},
+    {"answer":"in","hint":"___ our lifetime","explanation":"'in our lifetime' — fixed time expression."}
+  ]},
+  {"title":"A helpfully short history of the umbrella","text":"The umbrella {{1}} invented to protect people from the sun, not the rain. Ancient civilisations {{2}} Egypt and China used parasols as symbols of power. In Europe, umbrellas were initially viewed {{3}} ridiculous, and the first man to carry one in public in London was showered {{4}} insults. Gradually, however, attitudes changed, {{5}} by the end of the eighteenth century almost everybody carried one. Umbrella manufacture became a major industry, {{6}} in the development of stronger, lighter frames. Today's folding models would have been unimaginable {{7}} those early pioneers, {{8}} inventions were heavy and awkward.","gaps":[
+    {"answer":"was","hint":"passive: ___ invented","explanation":"Past simple passive: the umbrella was invented."},
+    {"answer":"like","hint":"civilisations ___ Egypt","explanation":"'like' = such as, giving examples."},
+    {"answer":"as","hint":"viewed ___ ridiculous","explanation":"'be viewed as + adjective' = be considered."},
+    {"answer":"with","hint":"showered ___ insults","explanation":"'showered with insults' — fixed passive expression."},
+    {"answer":"so","hint":"changed, ___ by the end…","explanation":"'so' links result: attitudes changed, so by 1800 everybody carried one."},
+    {"answer":"leading","hint":"___ in the development","explanation":"Participle clause of result: leading to the development."},
+    {"answer":"by","hint":"unimaginable ___ those pioneers","explanation":"'to/by those pioneers' — for them as observers; 'by' chosen for the frame.","accept":["to","for"]},
+    {"answer":"whose","hint":"___ inventions were heavy","explanation":"Possessive relative pronoun: whose inventions."}
+  ]},
+  {"title":"Why we love lists","text":"{{1}} you are packing for a trip or planning a wedding, there is something deeply satisfying about writing a list. Psychologists believe lists reduce anxiety {{2}} giving us a sense of control. A written list also frees {{3}} mental space: once a task is on paper, the brain no longer needs {{4}} hold on to it. Some people take list-making {{5}} extreme, noting down every minor chore. Interestingly, research suggests that people {{6}} write lists complete more tasks, but only {{7}} the lists are realistic. If not, the list becomes a source {{8}} guilt rather than comfort.","gaps":[
+    {"answer":"Whether","hint":"___ … or … (choice)","explanation":"'Whether…or…' introduces alternatives."},
+    {"answer":"by","hint":"reduce anxiety ___ giving","explanation":"'by + -ing' = by means of."},
+    {"answer":"up","hint":"frees ___ mental space","explanation":"'free up' = make available."},
+    {"answer":"to","hint":"needs ___ hold on","explanation":"'need to do' — to-infinitive."},
+    {"answer":"to","hint":"take ___ an extreme","explanation":"'take something to an extreme' — fixed phrase."},
+    {"answer":"who","hint":"people ___ write lists","explanation":"Relative pronoun for people (subject): who."},
+    {"answer":"if","hint":"only ___ the lists are realistic","explanation":"'only if' = in that circumstance alone.","accept":["when"]},
+    {"answer":"of","hint":"a source ___ guilt","explanation":"'a source OF something'."}
+  ]},
+  {"title":"The surprising life of honey","text":"Honey {{1}} been prized for thousands of years, not only {{2}} a food but also as a medicine. Because of its low water content and natural acidity, bacteria cannot survive {{3}} it, which explains {{4}} honey found in ancient tombs was still edible. Honey is the only food produced {{5}} an insect that humans eat. However, beekeepers have recently reported worrying declines in bee populations, {{6}} could have serious consequences for agriculture, as bees pollinate many of the crops {{7}} depend on. Scientists are still not entirely sure {{8}} is causing the decline, though pesticides and disease are the main suspects.","gaps":[
+    {"answer":"has","hint":"___ been prized","explanation":"Present perfect: honey has been prized (state continuing to now)."},
+    {"answer":"as","hint":"not only ___ a food","explanation":"'not only as… but also as…' — parallel preposition phrases."},
+    {"answer":"in","hint":"cannot survive ___ it","explanation":"survive IN it (inside honey)."},
+    {"answer":"why","hint":"explains ___ the honey was edible","explanation":"'explains why' — the reason."},
+    {"answer":"by","hint":"produced ___ an insect","explanation":"Passive agent: produced BY an insect."},
+    {"answer":"which","hint":"___ could have consequences","explanation":"Non-defining relative clause: …, which could have…"},
+    {"answer":"we","hint":"the crops ___ depend on","explanation":"'the crops (that) we depend on' — contact clause.","accept":["people","farmers"]},
+    {"answer":"what","hint":"sure ___ is causing","explanation":"'what' = the thing that — the subject of 'is causing'."}
+  ]},
+  {"title":"The psychology of colour","text":"Companies spend millions choosing the right colours {{1}} their brands, believing that colour affects how we feel {{2}} what we buy. Red, for example, is said to stimulate appetite, {{3}} is why so many fast-food chains use it. Blue, on the other {{4}} , is associated with trust and calm, which explains {{5}} popularity with banks. However, cultural differences matter: white symbolises purity in some cultures {{6}} death in others. Psychologists warn that the effects of colour are modest, {{7}} , and that context matters more {{8}} colour itself. A bright red bank would still seem strange, though.","gaps":[
+    {"answer":"for","hint":"colours ___ their brands","explanation":"'colours FOR their brands' — purpose/beneficiary."},
+    {"answer":"and","hint":"how we feel ___ what we buy","explanation":"Joins two parallel wh-clauses as objects of 'affects'."},
+    {"answer":"which","hint":"___ is why","explanation":"Sentential relative 'which' refers to the previous clause."},
+    {"answer":"hand","hint":"on the other ___","explanation":"'on the other hand' — contrast phrase."},
+    {"answer":"its","hint":"explains ___ popularity","explanation":"Possessive determiner: its (blue's) popularity."},
+    {"answer":"but","hint":"purity in some cultures ___ death in others","explanation":"Contrast within the sentence."},
+    {"answer":"though","hint":"are modest, ___","explanation":"'though' as final adverb = however (soft contrast).","accept":["however"]},
+    {"answer":"than","hint":"more ___ colour itself","explanation":"'more…than' — comparative."}
+  ]},
+  {"title":"Learning to sail the hard way","text":"Nobody had warned me {{1}} handling a dinghy was so physical. Within minutes of leaving the shore, my arms were aching and I was completely soaked. My instructor shouted instructions, {{2}} of which I could understand over the wind. Worst of {{3}} , the boat tipped and I ended up in the water. Despite {{4}} thoroughly humiliating, the experience taught me more in an hour than weeks of theory. I learned to respect the weather, to read the water and, {{5}} importantly, to laugh at myself. By the end of the week I could sail a triangular course {{6}} capsizing once. Now, whenever I struggle {{7}} something new, I remind {{8}} how much can be learned by falling in.","gaps":[
+    {"answer":"that","hint":"warned me ___ handling…","explanation":"'warn somebody that + clause'."},
+    {"answer":"none","hint":"___ of which I could understand","explanation":"'none of which' — negative quantifier with of which."},
+    {"answer":"all","hint":"Worst of ___","explanation":"'worst of all' — fixed phrase."},
+    {"answer":"being","hint":"Despite ___ humiliating","explanation":"'despite + -ing': despite being humiliating."},
+    {"answer":"most","hint":"___ importantly","explanation":"'most importantly' — superlative adverb."},
+    {"answer":"without","hint":"sail ___ capsizing once","explanation":"'without + -ing'."},
+    {"answer":"with","hint":"struggle ___ something","explanation":"'struggle with something' — fixed preposition."},
+    {"answer":"myself","hint":"remind ___ (reflexive)","explanation":"'remind myself' — reflexive pronoun."}
+  ]},
+  {"title":"Office plants: more than decoration","text":"It would be easy to assume that office plants are {{1}} there to look nice. In fact, research shows that greenery in the workplace measurably improves both concentration {{2}} wellbeing. One study found that employees {{3}} desks contained plants were 15 per cent more productive than those working in bare offices. Plants also absorb sound, reducing the background noise {{4}} makes open-plan offices so exhausting. Even a small plant on a windowsill can make people {{5}} calmer, perhaps because we respond positively {{6}} anything natural. So if your employer refuses {{7}} invest in greenery, why not bring {{8}} your own? Your colleagues may thank you for it.","gaps":[
+    {"answer":"just","hint":"___ there to look nice","explanation":"'just/only there to look nice' — limiting adverb.","accept":["only","merely","simply"]},
+    {"answer":"and","hint":"concentration ___ wellbeing","explanation":"'both…and…' / parallel objects."},
+    {"answer":"whose","hint":"employees ___ desks contained plants","explanation":"'whose desks' — possessive relative."},
+    {"answer":"that","hint":"noise ___ makes offices exhausting","explanation":"Defining relative pronoun: noise that/which makes…","accept":["which"]},
+    {"answer":"feel","hint":"make people ___ calmer","explanation":"'make + object + bare infinitive': make people feel."},
+    {"answer":"to","hint":"respond positively ___ anything","explanation":"'respond TO something'."},
+    {"answer":"to","hint":"refuses ___ invest","explanation":"'refuse to do' — to-infinitive."},
+    {"answer":"in","hint":"bring ___ your own","explanation":"'bring in' = introduce, bring along."}
+  ]},
+  {"title":"How the barcode changed retail","text":"Few inventions have transformed shopping {{1}} thoroughly as the barcode. Before its introduction in the 1970s, shop assistants typed every price {{2}} hand, and queues were endless. The barcode allowed retailers to track stock automatically, {{3}} meant fewer empty shelves and lower prices. Consumers initially feared the technology {{4}} be used to spy on their purchases, but such concerns soon faded. Today the humble stripe pattern appears {{5}} everywhere, from hospital wristbands to luggage tags. Researchers estimate that barcodes save the retail industry billions each year, {{6}} is a remarkable return on a simple idea. It is hard to imagine modern shopping {{7}} it. Like many great inventions, the barcode succeeded not because it was clever, {{8}} because it solved a real problem reliably.","gaps":[
+    {"answer":"so","hint":"___ thoroughly as","explanation":"'not so…as' — comparison in the negative."},
+    {"answer":"by","hint":"typed every price ___ hand","explanation":"'by hand' = manually."},
+    {"answer":"which","hint":"___ meant fewer empty shelves","explanation":"Sentential 'which' refers to the previous clause."},
+    {"answer":"might","hint":"___ be used to spy","explanation":"'might be used' — possibility passive.","accept":["could","would"]},
+    {"answer":"almost","hint":"appears ___ everywhere","explanation":"'almost everywhere' — degree adverb."},
+    {"answer":"which","hint":"___ is a remarkable return","explanation":"Sentential 'which' again."},
+    {"answer":"without","hint":"shopping ___ it","explanation":"'without it' = in its absence."},
+    {"answer":"but","hint":"not because…, ___ because…","explanation":"'not…but…' — contrast of reasons."}
+  ]},
+  {"title":"The return of the night train","text":"For years, night trains seemed {{1}} to disappear from European timetables, victims {{2}} cheap flights and high-speed rail. Recently, however, they have been making {{3}} comeback. Environmental concerns have played {{4}} part, as have overcrowded airports. Travellers are rediscovering the pleasure of falling asleep in Paris {{5}} waking up in Vienna, with no airport security to endure. Railway companies have responded by investing {{6}} new carriages and routes. The service is still not perfect: delays are common, {{7}} the beds are narrow. Nevertheless, demand is growing so fast that several new routes {{8}} announced for next year.","gaps":[
+    {"answer":"likely","hint":"seemed ___ to disappear","explanation":"'seem likely to do' — adjective + to-infinitive."},
+    {"answer":"of","hint":"victims ___ cheap flights","explanation":"'victims OF something'."},
+    {"answer":"a","hint":"making ___ comeback","explanation":"'make a comeback' — fixed phrase."},
+    {"answer":"a","hint":"played ___ part","explanation":"'play a part' — fixed phrase."},
+    {"answer":"and","hint":"Paris ___ waking up","explanation":"Joins the two -ing phrases."},
+    {"answer":"in","hint":"investing ___ carriages","explanation":"'invest IN something'."},
+    {"answer":"and","hint":"delays are common, ___ the beds…","explanation":"Adds another negative point.","accept":["as"]},
+    {"answer":"have","hint":"routes ___ announced","explanation":"Present perfect passive: routes have been announced — 'been' follows."}
+  ]},
+  {"title":"Why do we procrastinate?","text":"Procrastination is usually blamed {{1}} laziness, but psychologists disagree. Far {{2}} being idle, procrastinators are often perfectionists {{3}} fear that their work will not be good enough. Putting off a task gives short-term relief, {{4}} the guilt that follows makes the problem worse. Researchers recommend breaking large tasks {{5}} small, concrete steps, since vagueness fuels avoidance. {{6}} helps is setting a timer for just five minutes; starting is the hardest part, and momentum does the rest. It also helps to remove distractions {{7}} — leave the phone in another room. Most importantly, forgive yourself: studies show that students {{8}} forgave themselves for procrastinating procrastinated less afterwards.","gaps":[
+    {"answer":"on","hint":"blamed ___ laziness","explanation":"'blame something ON something'."},
+    {"answer":"from","hint":"Far ___ being idle","explanation":"'far from + -ing' = not at all."},
+    {"answer":"who","hint":"perfectionists ___ fear","explanation":"Relative pronoun for people.","accept":["that"]},
+    {"answer":"but","hint":"relief, ___ the guilt…","explanation":"Contrast: relief but then guilt."},
+    {"answer":"into","hint":"breaking tasks ___ steps","explanation":"'break something down/into steps' — into marks division.","accept":["down into"]},
+    {"answer":"What","hint":"___ helps is…","explanation":"Nominal relative: What helps = the thing that helps."},
+    {"answer":"too","hint":"remove distractions ___","explanation":"'too' = as well."},
+    {"answer":"who","hint":"students ___ forgave","explanation":"Relative pronoun for people (subject).","accept":["that"]}
+  ]},
+  {"title":"The village that moved indoors","text":"In {{1}} Arctic town of Kiruna, Sweden, the ground itself is a problem: the iron ore mined below the streets {{2}} slowly hollowing them out. Rather {{3}} lose the mine, which employs most of the population, the town is being moved — {{4}} entire buildings — three kilometres east. Residents were compensated for their homes, {{5}} some complained that the money did not cover the loss of a community. The church, {{6}} dates from 1908, was moved on wheels in a single operation. Remarkably, most residents chose to follow, {{7}} a deep attachment to the place. The mine is expected {{8}} operate until 2100, by which time the new Kiruna will have had a century to grow into its own character.","gaps":[
+    {"answer":"the","hint":"___ Arctic town of Kiruna","explanation":"'the town of X' — specific town named."},
+    {"answer":"is","hint":"the mine ___ hollowing","explanation":"Present continuous: the ore is hollowing them out."},
+    {"answer":"than","hint":"Rather ___ lose","explanation":"'rather than + infinitive' = instead of."},
+    {"answer":"including","hint":"moved — ___ entire buildings","explanation":"'including' introduces an example."},
+    {"answer":"though","hint":"compensated, ___ some complained","explanation":"Concession linker between clauses.","accept":["although","but"]},
+    {"answer":"which","hint":"The church, ___ dates from","explanation":"Non-defining relative pronoun for a thing."},
+    {"answer":"citing","hint":"___ a deep attachment","explanation":"Participle clause: citing = giving as a reason.","accept":["because of","owing to"]},
+    {"answer":"to","hint":"expected ___ operate","explanation":"'be expected to do' — to-infinitive."}
+  ]},
+  {"title":"Reading in the digital age","text":"Sales of printed books have been rising for several years, {{1}} surprised many in the publishing industry. E-books were supposed {{2}} replace paper entirely; instead, the two now coexist. Readers explain that paper suits long, concentrated reading, {{3}} screens are convenient for quick reference. Studies back this up: comprehension of complex texts is measurably better {{4}} paper. There is also the question of memory. Many readers remember {{5}} they have read a physical book, including {{6}} a key passage appeared. Psychologists suspect that the physical experience of a book — its weight and shape — provides {{7}} cues. Whatever the reason, few readers now argue that one format must {{8}} the other. Paper, it turns out, is technology too.","gaps":[
+    {"answer":"which","hint":"___ surprised many","explanation":"Sentential 'which' refers to the rising sales."},
+    {"answer":"to","hint":"were supposed ___ replace","explanation":"'be supposed to do'."},
+    {"answer":"while","hint":"long reading, ___ screens are…","explanation":"'while' contrasts the two cases.","accept":["whereas"]},
+    {"answer":"on","hint":"better ___ paper","explanation":"'on paper' — the medium takes 'on'."},
+    {"answer":"where","hint":"remember ___ they read it","explanation":"'where' = in which place (metaphorically, in the book)."},
+    {"answer":"where","hint":"including ___ a passage appeared","explanation":"'where' again — location in the text."},
+    {"answer":"memory","hint":"provides ___ cues","explanation":"'memory cues' — compound noun; spatial memory aids recall."},
+    {"answer":"defeat","hint":"one format must ___ the other","explanation":"'defeat/replace the other' — verb after must.","accept":["replace","kill","exclude"]}
+  ]},
+  {"title":"A city built for walking","text":"Pontevedra, in north-west Spain, has done something radical: it has {{1}} banished cars from its centre. Since the reform, traffic accidents have fallen {{2}} zero in the pedestrian zone, and air quality has improved dramatically. Businesses feared losing customers; in fact, footfall rose, {{3}} people linger and shop when streets are calm. Not {{4}} is pleased, of course. Drivers from outside the city complain bitterly, and deliveries require special permits. The mayor argues {{5}} the needs of pedestrians must come first in a city centre, {{6}} most people are, simply, on foot. Other Spanish towns are now copying the model, {{7}} similar schemes in Pontevedra being studied abroad. It proves, its supporters say, that streets designed {{8}} people rather than vehicles are not nostalgia — they work.","gaps":[
+    {"answer":"all","hint":"has ___ banished (emphatic)","explanation":"'has all but banished' = almost completely.","accept":["almost"]},
+    {"answer":"to","hint":"fallen ___ zero","explanation":"'fallen to zero' — the level it reached."},
+    {"answer":"because","hint":"footfall rose, ___ people linger","explanation":"'because + clause' — causal.","accept":["since","as"]},
+    {"answer":"everyone","hint":"Not ___ is pleased","explanation":"'Not everyone is pleased' — partial negation."},
+    {"answer":"that","hint":"argues ___ the needs…","explanation":"'argue that + clause'."},
+    {"answer":"where","hint":"a city centre, ___ most people are","explanation":"Non-defining 'where' — place reference."},
+    {"answer":"with","hint":"___ similar schemes… being studied","explanation":"'with + noun + -ing' absolute clause."},
+    {"answer":"for","hint":"designed ___ people","explanation":"'designed FOR people' — purpose/beneficiary."}
+  ]},
+  {"title":"The economics of birthday parties","text":"Parents in many cities now spend astonishing sums {{1}} children's birthday parties. Entertainers, themed cakes and hired venues can easily push the total {{2}} several hundred pounds. Sociologists trace the trend {{3}} social media, {{4}} images of elaborate parties circulate constantly, raising expectations. There is also an element of competition: no parent wishes to appear mean. Yet children themselves consistently report preferring simple parties {{5}} elaborate ones, provided friends are present. Psychologists suggest {{6}} the key ingredient is uninterrupted attention, not expense. Some schools have begun encouraging parents to agree limits — no presents, {{7}} instance, or a fixed guest list. Whether such pacts survive contact {{8}} reality is another matter.","gaps":[
+    {"answer":"on","hint":"spend sums ___ parties","explanation":"'spend money ON something'."},
+    {"answer":"to","hint":"push the total ___ hundreds","explanation":"'push to' — the level reached.","accept":["towards","beyond","over"]},
+    {"answer":"to","hint":"trace the trend ___ social media","explanation":"'trace A to B' = find its origin in B."},
+    {"answer":"where","hint":"social media, ___ images circulate","explanation":"'where' = on which (metaphorical place)."},
+    {"answer":"to","hint":"simple parties ___ elaborate ones","explanation":"'prefer A to B' — comparison of preference."},
+    {"answer":"that","hint":"suggest ___ the key ingredient","explanation":"'suggest that + clause'."},
+    {"answer":"for","hint":"no presents, ___ instance","explanation":"'for instance' — fixed phrase."},
+    {"answer":"with","hint":"survive contact ___ reality","explanation":"'survive contact with reality' — fixed expression."}
+  ]},
+  {"title":"The oldest message in a bottle","text":"When a fisherman dragged a battered bottle {{1}} the North Sea, he found {{2}} he assumed was rubbish. In fact, it contained the {{3}} known message in a bottle, dropped from a German research vessel in 1908. The note asked the finder to return it {{4}} the address given, promising a small reward. Such bottles were used {{5}} scientists to chart ocean currents; each returned note mapped {{6}} the sea carries floating objects. The fisherman's reward, adjusted for inflation, turned {{7}} to be a crate of beer. The bottle now sits in a museum, {{8}} it attracts a steady stream of curious visitors.","gaps":[
+    {"answer":"from","hint":"dragged a bottle ___ the sea","explanation":"'dragged from the sea' — out of the water."},
+    {"answer":"what","hint":"found ___ he assumed was rubbish","explanation":"'what' = the thing that — object of found."},
+    {"answer":"oldest","hint":"the ___ known message","explanation":"Superlative with 'known': the oldest known."},
+    {"answer":"to","hint":"return it ___ the address","explanation":"'return it to' — direction."},
+    {"answer":"by","hint":"used ___ scientists","explanation":"Passive agent: used BY scientists."},
+    {"answer":"where","hint":"mapped ___ the sea carries","explanation":"'where' = the places in which."},
+    {"answer":"out","hint":"turned ___ to be","explanation":"'turn out to be' = prove to be."},
+    {"answer":"where","hint":"a museum, ___ it attracts","explanation":"Non-defining 'where' — place."}
+  ]},
+  {"title":"Teaching robots to say no","text":"One of the hardest problems in robotics is not movement {{1}} judgement. A household robot must decide not only how to carry out tasks but {{2}} whether to carry them out at all. Demand a cup of tea and a well-designed robot will comply; demand {{3}} absurd a hundred times, and it should perhaps object. Researchers in Bristol have programmed a robot to refuse politely when requests become unreasonable, {{4}} on factors such as repetition and safety. The robot explains {{5}} it is refusing, which users report makes refusal far less annoying. The team stresses {{6}} the goal is not stubbornness but cooperation: {{7}} machines that push back occasionally are easier to trust than machines that never do. Early trials suggest people adjust quickly, often moderating their demands {{8}} their own accord.","gaps":[
+    {"answer":"but","hint":"not movement ___ judgement","explanation":"'not A but B' — contrast of nouns."},
+    {"answer":"also","hint":"not only how… but ___ whether","explanation":"'not only…but also' — the 'also' completes the pair."},
+    {"answer":"it","hint":"demand ___ absurd a hundred times","explanation":"'demand it' — the same request; pronoun refers to the tea demand.","accept":["that"]},
+    {"answer":"drawing","hint":"___ on factors","explanation":"'draw on' = use as a basis; participle clause.","accept":["basing","deciding","depending"]},
+    {"answer":"why","hint":"explains ___ it is refusing","explanation":"'explains why' — reason clause."},
+    {"answer":"that","hint":"stresses ___ the goal is","explanation":"'stress that + clause'."},
+    {"answer":"machines","hint":"___ that push back","explanation":"Subject noun repeated in apposition: machines that push back are easier to trust.","accept":["robots"]},
+    {"answer":"of","hint":"___ their own accord","explanation":"'of their own accord' = voluntarily — fixed phrase."}
+  ]},
+  {"title":"Slow television and the art of watching nothing","text":"In 2009, Norwegian broadcasters showed a seven-hour train journey, {{1}} stopping for nothing. Cameras filmed the view from the front of the train, unedited, {{2}} eight hours. Audiences, it turned out, loved it. The genre, known {{3}} 'slow TV', has since included a ferry voyage, a knitting marathon and even the burning of firewood — four hours of a fire, live. Critics assumed nobody would watch; {{4}} , millions did, partly as company, partly as meditation. Slow TV offers {{5}} modern media rarely does: an experience with no highlights reel, {{6}} requires nothing from the viewer. Producers stress that the appeal is not nostalgia {{7}} attention itself. In an age of endless scrolling, simply watching a train pass {{8}} oddly radical.","gaps":[
+    {"answer":"and","hint":"journey, ___ stopping for nothing","explanation":"Could also be a dash; 'and' joins clauses loosely. Many options — the intended word is 'and'.","accept":["while"]},
+    {"answer":"for","hint":"___ eight hours","explanation":"'for + duration'."},
+    {"answer":"as","hint":"known ___ slow TV","explanation":"'known as' — named."},
+    {"answer":"however","hint":"; ___ , millions did","explanation":"Contrast adverb with punctuation.","accept":["instead"]},
+    {"answer":"what","hint":"offers ___ modern media rarely does","explanation":"Nominal relative: what = the thing that."},
+    {"answer":"which","hint":"___ requires nothing","explanation":"Non-defining 'which'."},
+    {"answer":"but","hint":"not nostalgia ___ attention","explanation":"'not…but…'."},
+    {"answer":"seems","hint":"watching… ___ oddly radical","explanation":"'seems + adjective' — appears to be.","accept":["feels","is"]}
+  ]},
+  {"title":"In defence of the paper map","text":"Satellite navigation has made map-reading a dying skill, {{1}} many hikers still refuse to leave home without a paper map. Their reasons are practical rather {{2}} sentimental. Batteries die, signals vanish in valleys, and a folded map never needs charging. More importantly, map-reading builds what psychologists call spatial thinking: the ability to picture landscape {{3}} above. Studies suggest this skill transfers {{4}} other domains, from geometry to packing a car boot. GPS, {{5}} contrast, delivers answers without requiring understanding; follow it blindly and you can be led {{6}} trouble. The wisest approach combines both: navigation devices for speed, the map for judgement. Learn the map, and you will never be completely {{7}} , wherever you wander. That sense of self-reliance, say veteran walkers, is {{8}} makes the paper map worth carrying.","gaps":[
+    {"answer":"yet","hint":"___ many hikers still refuse","explanation":"Contrast linking two clauses.","accept":["but","although","though"]},
+    {"answer":"than","hint":"rather ___ sentimental","explanation":"'rather than' — instead of."},
+    {"answer":"from","hint":"landscape ___ above","explanation":"'picture the landscape from above' — viewpoint.","accept":["as if from"]},
+    {"answer":"to","hint":"transfers ___ other domains","explanation":"'transfer to' — move across to."},
+    {"answer":"by","hint":"GPS, ___ contrast","explanation":"'by contrast' — fixed phrase."},
+    {"answer":"into","hint":"led ___ trouble","explanation":"'lead somebody into trouble'."},
+    {"answer":"lost","hint":"never be completely ___","explanation":"'be lost' — unable to find your way."},
+    {"answer":"what","hint":"is ___ makes…","explanation":"Nominal relative: what makes it worth carrying."}
+  ]}
+]
