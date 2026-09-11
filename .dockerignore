@@ -8,6 +8,4 @@
 **/*.db
 **/*.db-shm
 **/*.db-wal
-tests/
-tools/
 data/

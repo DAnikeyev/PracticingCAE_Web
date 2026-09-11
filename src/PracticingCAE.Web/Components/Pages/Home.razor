@@ -26,7 +26,7 @@
         }
     </section>
 
-    @foreach (var group in Content.Tasks.GroupBy(t => t.Group).OrderBy(g => g.Key))
+    @foreach (var group in Content.Tasks.GroupBy(t => t.Group).OrderBy(g => g.Key == "Reading & Use of English" ? 0 : 1))
     {
         <h2 class="group-title">@group.Key</h2>
         <div class="card-grid">

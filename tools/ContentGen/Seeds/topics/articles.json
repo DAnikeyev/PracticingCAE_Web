@@ -109,15 +109,15 @@
  },
  {
   "sentence": "I saw ___ film last night, and the film was about mountain climbers.",
-  "answer": "the",
+  "answer": "a",
   "options": [
    "a",
    "an",
    "the",
    "–"
   ],
-  "hint": "second mention",
-  "explanation": "The first mention is 'a film'; when we mention it again, it becomes 'the film'."
+  "hint": "first mention of one of many",
+  "explanation": "First mention of a countable noun takes 'a'; the second mention becomes 'the' (already written out here)."
  },
  {
   "sentence": "She plays ___ piano beautifully.",

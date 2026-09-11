@@ -11,7 +11,7 @@
   "lead": "'I broke the window,' said the boy.",
   "sentence": "The boy ___ breaking the window.",
   "keyword": "ADMITTED",
-  "answer": "admitted (to)",
+  "answer": "admitted",
   "hint": "admit + -ing",
   "explanation": "admit + -ing (optionally 'to'): admitted breaking / admitted to breaking.",
   "accept": [
@@ -22,10 +22,11 @@
   "lead": "It isn't necessary for you to bring any food.",
   "sentence": "You ___ bring any food.",
   "keyword": "NEED",
-  "answer": "need not / needn't",
+  "answer": "need not",
   "hint": "lack of obligation",
   "explanation": "needn't (need not) = it isn't necessary. Do not confuse with mustn't (prohibition).",
   "accept": [
+   "needn't",
    "need not"
   ]
  },
@@ -105,7 +106,7 @@
   "lead": "It was a mistake to sell the boat.",
   "sentence": "We ___ the boat.",
   "keyword": "SOLD",
-  "answer": "should not have sold / shouldn't have sold",
+  "answer": "should not have sold",
   "hint": "past regret with should",
   "explanation": "should/shouldn't have + past participle criticises a past action.",
   "accept": [
@@ -148,10 +149,11 @@
   "lead": "She moved to Paris and now finds the pace normal.",
   "sentence": "She ___ the pace of life in Paris.",
   "keyword": "USED",
-  "answer": "has got used to / is used to",
+  "answer": "has got used to",
   "hint": "get used to = become accustomed",
   "explanation": "get used to / be used to + -ing or noun: is now used to. 'got used to' also fits if the process is complete.",
   "accept": [
+   "is used to",
    "has got used to"
   ]
  },
@@ -191,7 +193,7 @@
   "lead": "'Have you finished the report?' the manager asked her.",
   "sentence": "The manager asked ___ the report.",
   "keyword": "FINISHED",
-  "answer": "if she had finished / whether she had finished",
+  "answer": "if she had finished",
   "hint": "reported yes/no question",
   "explanation": "Yes/no questions are reported with if/whether + statement word order.",
   "accept": [
@@ -202,7 +204,7 @@
   "lead": "You can borrow the car as long as you drive carefully.",
   "sentence": "You can borrow the car ___ carefully.",
   "keyword": "PROVIDED",
-  "answer": "provided you drive / provided that you drive",
+  "answer": "provided you drive",
   "hint": "provided (that) = as long as",
   "explanation": "provided (that) introduces the condition: provided you drive carefully.",
   "accept": [
@@ -352,7 +354,7 @@
   "lead": "It's a pity you didn't tell me earlier.",
   "sentence": "You really ___ me earlier.",
   "keyword": "TOLD",
-  "answer": "should have told / ought to have told",
+  "answer": "should have told",
   "hint": "past advice",
   "explanation": "should/ought to have + participle expresses past regret/advice.",
   "accept": [
@@ -387,7 +389,7 @@
   "lead": "The company denied that it had polluted the river.",
   "sentence": "The company denied ___ the river.",
   "keyword": "POLLUTING",
-  "answer": "polluting / having polluted",
+  "answer": "polluting",
   "hint": "deny + -ing / having + pp",
   "explanation": "deny + -ing (or having + past participle): denied polluting.",
   "accept": [
@@ -414,7 +416,7 @@
   "lead": "It's possible that she forgot about the meeting.",
   "sentence": "She ___ about the meeting.",
   "keyword": "FORGOTTEN",
-  "answer": "may have forgotten / might have forgotten",
+  "answer": "may have forgotten",
   "hint": "past possibility",
   "explanation": "may/might have + participle = possibility in the past.",
   "accept": [
@@ -449,7 +451,7 @@
   "lead": "'Let's have a barbecue,' said Dan.",
   "sentence": "Dan ___ a barbecue.",
   "keyword": "SUGGESTED",
-  "answer": "suggested having / suggested that they have",
+  "answer": "suggested having",
   "hint": "suggest + -ing",
   "explanation": "suggest + -ing (or suggest that + clause): suggested having.",
   "accept": [
@@ -556,7 +558,7 @@
   "lead": "They chose her for the lead role because of her voice.",
   "sentence": "Her voice was ___ for the lead role.",
   "keyword": "REASON",
-  "answer": "the reason she was chosen / the reason why she was chosen",
+  "answer": "the reason she was chosen",
   "hint": "the reason + clause",
   "explanation": "the reason (why/that) + clause: the reason (why) she was chosen.",
   "accept": [
@@ -634,7 +636,7 @@
   "lead": "'I didn't write the graffiti,' the teenager said.",
   "sentence": "The teenager ___ the graffiti.",
   "keyword": "DENIED",
-  "answer": "denied writing / denied having written",
+  "answer": "denied writing",
   "hint": "deny + -ing",
   "explanation": "deny + -ing (or having + participle).",
   "accept": [
@@ -744,10 +746,11 @@
   "lead": "His salary is low, but he enjoys his work.",
   "sentence": "He enjoys his work, ___ low.",
   "keyword": "THOUGH",
-  "answer": "though his salary is / though it is low…",
+  "answer": "though his salary is",
   "hint": "though clause",
   "explanation": "…though his salary is low — 'though' links the concession.",
   "accept": [
+   "though it is low…",
    "though his salary is"
   ]
  },
@@ -771,7 +774,7 @@
   "lead": "Nobody can deny that he works hard.",
   "sentence": "Nobody can deny ___ hard.",
   "keyword": "WORKS",
-  "answer": "that he works / his working",
+  "answer": "that he works",
   "hint": "deny that-clause / deny + -ing",
   "explanation": "deny that + clause, or deny + -ing: deny his working (formal).",
   "accept": [
@@ -790,7 +793,7 @@
   "lead": "I got used to night shifts after a month.",
   "sentence": "After a month, I ___ night shifts.",
   "keyword": "USED",
-  "answer": "was used to / had got used to",
+  "answer": "was used to",
   "hint": "become accustomed",
   "explanation": "After a period: be used to (state) or had got used to (achievement).",
   "accept": [
@@ -817,7 +820,7 @@
   "lead": "She is writing a novel, but she won't tell anyone about it.",
   "sentence": "She is writing a novel, ___ about it.",
   "keyword": "ANYONE",
-  "answer": "but she won't tell anyone / which she won't tell anyone",
+  "answer": "but she won't tell anyone",
   "hint": "join the clauses",
   "explanation": "Two natural joins: but she won't tell anyone / which she won't tell anyone about it (non-defining clause).",
   "accept": [
@@ -828,7 +831,7 @@
   "lead": "Cars must not exceed 30 km/h in this zone.",
   "sentence": "Cars ___ 30 km/h in this zone.",
   "keyword": "EXCEED",
-  "answer": "must not exceed / mustn't exceed",
+  "answer": "must not exceed",
   "hint": "must not + infinitive",
   "explanation": "must not (mustn't) + infinitive for prohibition.",
   "accept": [
@@ -887,7 +890,7 @@
   "lead": "She got up early so that she wouldn't miss the train.",
   "sentence": "She got up early ___ the train.",
   "keyword": "MISS",
-  "answer": "so as not to miss / in order not to miss",
+  "answer": "so as not to miss",
   "hint": "negative purpose",
   "explanation": "so as not to / in order not to + infinitive express negative purpose.",
   "accept": [
@@ -941,7 +944,7 @@
   "lead": "You need to renew your passport before June.",
   "sentence": "Your passport ___ before June.",
   "keyword": "NEEDS",
-  "answer": "needs renewing / needs to be renewed",
+  "answer": "needs renewing",
   "hint": "need + -ing (passive meaning)",
   "explanation": "need + -ing = need to be + participle: needs renewing.",
   "accept": [
@@ -1008,7 +1011,7 @@
   "lead": "'Have you seen my keys anywhere?' he asked us.",
   "sentence": "He asked us ___ seen his keys anywhere.",
   "keyword": "WHETHER",
-  "answer": "whether we had / if we had",
+  "answer": "whether we had",
   "hint": "reported yes/no question + backshift",
   "explanation": "if/whether + subject + had + participle: whether we had seen.",
   "accept": [
@@ -1043,11 +1046,11 @@
   "lead": "'I'm sorry I was rude to your sister,' Maria said.",
   "sentence": "Maria apologised ___ rude to my sister.",
   "keyword": "BEING",
-  "answer": "for having been / for being",
+  "answer": "for being",
   "hint": "apologise for + -ing / having + pp",
   "explanation": "apologise for + -ing (or having + participle for the earlier action).",
   "accept": [
-   "for being"
+   "for having been"
   ]
  },
  {
@@ -1089,7 +1092,7 @@
   "lead": "My grandfather planted all these apple trees.",
   "sentence": "My grandfather is the ___ all these apple trees.",
   "keyword": "PLANTED",
-  "answer": "one who planted / person who planted",
+  "answer": "one who planted",
   "hint": "relative clause with one/person",
   "explanation": "'the one who planted' identifies the agent with a relative clause.",
   "accept": [

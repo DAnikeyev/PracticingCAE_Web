@@ -170,7 +170,8 @@ int GenerateDrillSets(string taskId, string file, int itemsPerSet)
     var dir = Path.Combine(setsRoot, taskId);
     Directory.CreateDirectory(dir);
 
-    var counter = 0;
+    // continue numbering after any exam-style sets already written for this task
+    var counter = Directory.EnumerateFiles(dir, "*.json").Count();
     var pool = new List<PracticeGap>();
     foreach (var _ in Enumerable.Range(0, TargetSetsPerTask))
     {

@@ -110,7 +110,7 @@ else
                                     }
                                     else
                                     {
-                                        <input class="gap-input gap-input-wide" @bind="_answers[idx]"
+                                        <input class="gap-input gap-input-wide" value="@_answers[idx]" @oninput="@(e => _answers[idx] = e.Value?.ToString() ?? "")"
                                                disabled="@_checked" placeholder="your answer"
                                                aria-label="Answer for question @(idx + 1)" />
                                     }
@@ -155,7 +155,7 @@ else
                                 }
                                 else
                                 {
-                                    <input class="gap-input" @bind="_answers[idx]"
+                                    <input class="gap-input" value="@_answers[idx]" @oninput="@(e => _answers[idx] = e.Value?.ToString() ?? "")"
                                            disabled="@_checked" placeholder="your answer"
                                            aria-label="Answer for question @(idx + 1)" />
                                 }

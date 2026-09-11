@@ -1,0 +1,814 @@
+[
+ {
+  "sentence": "How ___ sugar do you take in your coffee?",
+  "answer": "much",
+  "options": ["much", "many", "few", "several"],
+  "hint": "'sugar' is uncountable",
+  "explanation": "'Much' is used with uncountable nouns like sugar; 'many' is for countable plurals."
+ },
+ {
+  "sentence": "How ___ people came to the meeting?",
+  "answer": "many",
+  "options": ["many", "much", "little", "several"],
+  "hint": "'people' is a countable plural",
+  "explanation": "'Many' is used with countable plural nouns like people; 'much' is for uncountables."
+ },
+ {
+  "sentence": "We haven't received ___ information about the delay.",
+  "answer": "much",
+  "options": ["much", "many", "few", "several"],
+  "hint": "'information' is uncountable",
+  "explanation": "'Information' is uncountable, so 'much' is required in the negative sentence."
+ },
+ {
+  "sentence": "There are too ___ tourists in Venice in August.",
+  "answer": "many",
+  "options": ["many", "much", "several", "little"],
+  "hint": "'too' + quantifier + countable plural",
+  "explanation": "'Too many' is used before countable plurals like tourists; 'too much' is for uncountables."
+ },
+ {
+  "sentence": "How ___ luggage are you taking?",
+  "answer": "much",
+  "options": ["much", "many", "little", "several"],
+  "hint": "'luggage' is uncountable",
+  "explanation": "'Luggage' is an uncountable noun, so 'how much' is used."
+ },
+ {
+  "sentence": "There weren't ___ chairs, so some guests had to stand.",
+  "answer": "many",
+  "options": ["many", "much", "little", "few"],
+  "hint": "countable plural after 'weren't'",
+  "explanation": "'Chairs' is countable and plural, so 'many' fits; 'much' and 'little' are for uncountables."
+ },
+ {
+  "sentence": "Does the project need ___ more work?",
+  "answer": "much",
+  "options": ["much", "many", "several", "few"],
+  "hint": "'work' is uncountable",
+  "explanation": "'Work' is uncountable here, so 'much more work' is correct; 'many more work' is impossible."
+ },
+ {
+  "sentence": "How ___ eggs do we need for the cake?",
+  "answer": "many",
+  "options": ["many", "much", "little", "few"],
+  "hint": "'eggs' is a countable plural",
+  "explanation": "'Eggs' is countable and plural, so 'how many' is used."
+ },
+ {
+  "sentence": "There is so ___ crime in this area that people are afraid.",
+  "answer": "much",
+  "options": ["much", "many", "several", "plenty"],
+  "hint": "'so' + quantifier + uncountable noun",
+  "explanation": "'So much' is used with uncountable nouns like crime; 'plenty' would need 'of'."
+ },
+ {
+  "sentence": "Not ___ candidates applied for the position.",
+  "answer": "many",
+  "options": ["many", "much", "few", "little"],
+  "hint": "countable plural after 'Not'",
+  "explanation": "'Not many' is used with countable plurals like candidates; 'not much' is for uncountables."
+ },
+ {
+  "sentence": "There's ___ milk left — just enough for one cup.",
+  "answer": "a little",
+  "options": ["a little", "a few", "few", "little"],
+  "hint": "positive meaning: a small amount is enough; 'milk' is uncountable",
+  "explanation": "'A little' means a small but sufficient amount and is used with uncountables like milk."
+ },
+ {
+  "sentence": "We had very ___ rain this spring, so the garden suffered.",
+  "answer": "little",
+  "options": ["little", "few", "a little", "a few"],
+  "hint": "negative meaning (not enough); 'rain' is uncountable",
+  "explanation": "'Little' means not much and is used with uncountables; the garden suffering shows an insufficient amount."
+ },
+ {
+  "sentence": "Only ___ people attended the talk, which was disappointing.",
+  "answer": "a few",
+  "options": ["a few", "a little", "few", "little"],
+  "hint": "countable plural; 'only a few' is the natural pattern",
+  "explanation": "'Only a few people' is the standard way to say a small number; 'only few' is not used."
+ },
+ {
+  "sentence": "He's lucky: he has ___ good friends he can rely on.",
+  "answer": "a few",
+  "options": ["a few", "a little", "few", "little"],
+  "hint": "positive meaning with a countable plural",
+  "explanation": "'A few' means some — a positive idea — and is used with countable plurals like friends."
+ },
+ {
+  "sentence": "Very ___ applicants had the required experience.",
+  "answer": "few",
+  "options": ["few", "little", "a few", "a little"],
+  "hint": "'very' + negative quantifier with a countable plural",
+  "explanation": "'Very few' means almost none and is used with countables; 'very a few' is impossible."
+ },
+ {
+  "sentence": "I'd like ___ more time to think about your offer.",
+  "answer": "a little",
+  "options": ["a little", "a few", "little", "few"],
+  "hint": "'time' is uncountable",
+  "explanation": "'A little more time' means a small additional amount; 'time' is uncountable so 'a few' is wrong."
+ },
+ {
+  "sentence": "The village is remote and has ___ facilities — not even a post office.",
+  "answer": "few",
+  "options": ["few", "a few", "little", "a little"],
+  "hint": "negative meaning with a countable plural",
+  "explanation": "'Few facilities' means almost none, which matches 'not even a post office'; 'facilities' is countable."
+ },
+ {
+  "sentence": "Don't worry, we still have ___ time before the gates close.",
+  "answer": "a little",
+  "options": ["a little", "a few", "few", "little"],
+  "hint": "positive meaning: there is some time; 'time' is uncountable",
+  "explanation": "'A little time' means some time, which reassures; 'time' is uncountable."
+ },
+ {
+  "sentence": "She made very ___ mistakes in the essay, so she nearly got full marks.",
+  "answer": "few",
+  "options": ["few", "little", "a few", "a little"],
+  "hint": "'very' + negative quantifier; 'mistakes' is countable",
+  "explanation": "'Very few mistakes' means almost none, which explains the high mark; 'mistakes' is countable."
+ },
+ {
+  "sentence": "Can I ask you ___ questions about your trip?",
+  "answer": "a few",
+  "options": ["a few", "a little", "few", "little"],
+  "hint": "polite request with a countable plural",
+  "explanation": "'A few questions' means some questions and is the natural pattern in polite requests."
+ },
+ {
+  "sentence": "There's ___ point in complaining — no one will listen.",
+  "answer": "little",
+  "options": ["little", "few", "a little", "a few"],
+  "hint": "fixed expression: ___ point in doing something",
+  "explanation": "'There's little point in doing something' means it is hardly worth doing; 'point' is uncountable here."
+ },
+ {
+  "sentence": "He took ___ notice of the warning and carried on as before.",
+  "answer": "little",
+  "options": ["little", "few", "a little", "a few"],
+  "hint": "fixed expression: take ___ notice of",
+  "explanation": "'Take little notice of' means to pay hardly any attention; 'notice' is uncountable here."
+ },
+ {
+  "sentence": "Would you like ___ more tea?",
+  "answer": "some",
+  "options": ["some", "any", "no", "none"],
+  "hint": "offers politely expect 'yes'",
+  "explanation": "'Some' is used in offers and requests where we expect agreement; 'any' is for neutral questions."
+ },
+ {
+  "sentence": "I haven't got ___ cash on me — I'll pay by card.",
+  "answer": "any",
+  "options": ["any", "some", "no", "none"],
+  "hint": "negative sentence",
+  "explanation": "'Any' is the normal quantifier in negative sentences; 'haven't got no cash' would be a double negative."
+ },
+ {
+  "sentence": "___ of my friends knew about the concert, so I went on my own.",
+  "answer": "None",
+  "options": ["None", "Any", "No", "Nothing"],
+  "hint": "zero friends — sentence-initial quantifier + 'of'",
+  "explanation": "'None of my friends' means zero friends; 'no' cannot stand before 'of' and 'nothing' is not a quantifier here."
+ },
+ {
+  "sentence": "There's ___ at the door — go and see who it is.",
+  "answer": "somebody",
+  "options": ["somebody", "anybody", "nobody", "everybody"],
+  "hint": "affirmative statement: an unknown person",
+  "explanation": "'Somebody' is used in affirmative sentences for an unknown person; 'anybody' belongs to questions and negatives."
+ },
+ {
+  "sentence": "I looked everywhere, but I couldn't find my keys ___.",
+  "answer": "anywhere",
+  "options": ["anywhere", "somewhere", "everywhere", "nowhere"],
+  "hint": "negative sentence needs an 'any-' word",
+  "explanation": "After a negative verb, 'anywhere' is used; 'somewhere' belongs to affirmative sentences."
+ },
+ {
+  "sentence": "I asked ___ in the office, but nobody knew the answer.",
+  "answer": "everybody",
+  "options": ["everybody", "somebody", "anybody", "everything"],
+  "hint": "contrasts with 'nobody knew'",
+  "explanation": "'I asked everybody' (all the people) contrasts with 'nobody knew'; 'everything' refers to things, not people."
+ },
+ {
+  "sentence": "We went to the exhibition, but there was ___ worth seeing.",
+  "answer": "nothing",
+  "options": ["nothing", "something", "anything", "everything"],
+  "hint": "'but' signals a negative result",
+  "explanation": "'But' introduces a contrast, so 'nothing worth seeing' fits the disappointment."
+ },
+ {
+  "sentence": "She's very fussy — she refuses to eat ___ green.",
+  "answer": "anything",
+  "options": ["anything", "something", "nothing", "everything"],
+  "hint": "after 'refuse' the clause is negative in meaning",
+  "explanation": "Verbs like refuse, deny and avoid create a negative context, so 'anything' is used."
+ },
+ {
+  "sentence": "The hall was so crowded that ___ found a seat.",
+  "answer": "nobody",
+  "options": ["nobody", "somebody", "everybody", "anybody"],
+  "hint": "a crowded hall means no one succeeded",
+  "explanation": "'So crowded that nobody found a seat' matches the logic of the sentence; 'anybody' cannot be the subject of an affirmative clause."
+ },
+ {
+  "sentence": "___ smells burnt in here — can you check the oven?",
+  "answer": "Something",
+  "options": ["Something", "Anything", "Nothing", "Everything"],
+  "hint": "affirmative statement about an unknown thing",
+  "explanation": "'Something' is used in affirmative sentences for an unknown thing; the request to check the oven shows the speaker believes it."
+ },
+ {
+  "sentence": "Have we got ___ eggs for breakfast?",
+  "answer": "any",
+  "options": ["any", "some", "no", "none"],
+  "hint": "neutral yes/no question",
+  "explanation": "'Any' is the normal quantifier in neutral questions; 'none' cannot stand before a noun."
+ },
+ {
+  "sentence": "I'd love ___ help with the decorating, if you're free.",
+  "answer": "some",
+  "options": ["some", "any", "no", "none"],
+  "hint": "affirmative, hopeful request",
+  "explanation": "'Some' is used in requests and hopes where the speaker wants agreement."
+ },
+ {
+  "sentence": "There is ___ milk in the fridge — help yourself.",
+  "answer": "some",
+  "options": ["some", "any", "no", "none"],
+  "hint": "affirmative statement; the invitation confirms it",
+  "explanation": "'Some milk' fits the affirmative statement and the invitation; 'no milk' would contradict 'help yourself'."
+ },
+ {
+  "sentence": "It's so quiet here — there's hardly ___ around.",
+  "answer": "anybody",
+  "options": ["anybody", "somebody", "nobody", "everybody"],
+  "hint": "'hardly' makes the clause negative",
+  "explanation": "'Hardly' is a negative adverb, so it combines with 'anybody' (hardly anybody = almost nobody); 'nobody' would double the negative."
+ },
+ {
+  "sentence": "He had ___ money, so he couldn't even buy a bus ticket.",
+  "answer": "no",
+  "options": ["no", "any", "some", "none"],
+  "hint": "zero money + a 'so' result",
+  "explanation": "'Had no money' states zero and explains the result; 'none' cannot stand directly before a noun."
+ },
+ {
+  "sentence": "We need to find ___ who can fix the boiler.",
+  "answer": "someone",
+  "options": ["someone", "anyone", "no one", "everyone"],
+  "hint": "affirmative statement: an unknown but existing person",
+  "explanation": "'Someone' is used in affirmative sentences; 'anyone' belongs to questions and negatives."
+ },
+ {
+  "sentence": "Let's find ___ quiet to study.",
+  "answer": "somewhere",
+  "options": ["somewhere", "anywhere", "nowhere", "everywhere"],
+  "hint": "affirmative suggestion: an unknown place",
+  "explanation": "'Somewhere' is used in affirmative sentences; adjectives like 'quiet' follow the -where word."
+ },
+ {
+  "sentence": "The box was empty — there was ___ inside.",
+  "answer": "nothing",
+  "options": ["nothing", "something", "anything", "everything"],
+  "hint": "an empty box contains zero",
+  "explanation": "'Empty' explains 'there was nothing inside'; the other options contradict emptiness."
+ },
+ {
+  "sentence": "Don't rush — we've got ___ of time.",
+  "answer": "plenty",
+  "options": ["plenty", "lot", "much", "few"],
+  "hint": "fixed pattern: ___ of time (no article needed)",
+  "explanation": "'Plenty of time' needs no article; 'lot of time' would need 'a', and 'much of time' needs 'the'."
+ },
+ {
+  "sentence": "There's ___ of room for improvement in this essay.",
+  "answer": "plenty",
+  "options": ["plenty", "lot", "much", "several"],
+  "hint": "quantifier + 'of' that needs no article",
+  "explanation": "'Plenty of room' is the fixed pattern; 'a lot of' would need the article 'a', which is not in the sentence."
+ },
+ {
+  "sentence": "___ of work has been done on the house since we bought it.",
+  "answer": "A lot of",
+  "options": ["A lot of", "Much", "Little", "Few"],
+  "hint": "the sentence already contains 'of'",
+  "explanation": "'A lot of work' fits the pattern '___ of work'; 'much of work' would need 'the', and 'few' is for countables."
+ },
+ {
+  "sentence": "He made a ___ of money in property.",
+  "answer": "lot",
+  "options": ["lot", "lots", "plenty", "deal"],
+  "hint": "the article 'a' is already in the sentence",
+  "explanation": "'A lot of money' is the fixed phrase; 'a lots of', 'a plenty of' and 'a deal of' do not exist."
+ },
+ {
+  "sentence": "We had a ___ of fun at the fair.",
+  "answer": "lot",
+  "options": ["lot", "lots", "plenty", "deal"],
+  "hint": "pattern: a ___ of + uncountable noun",
+  "explanation": "'A lot of fun' is the fixed phrase; 'fun' is uncountable and the article 'a' forces 'lot'."
+ },
+ {
+  "sentence": "There are plenty ___ chairs for everyone.",
+  "answer": "of",
+  "options": ["of", "off", "for", "from"],
+  "hint": "'plenty' is always followed by this preposition before a noun",
+  "explanation": "'Plenty of + noun' is the fixed pattern; no other preposition follows 'plenty'."
+ },
+ {
+  "sentence": "A ___ of people complained about the noise.",
+  "answer": "lot",
+  "options": ["lot", "lots", "plenty", "great"],
+  "hint": "the article 'A' is already in the sentence",
+  "explanation": "'A lot of people' is the fixed phrase; 'a lots of' and 'a plenty of' are wrong, and 'a great' needs 'deal ... of'."
+ },
+ {
+  "sentence": "It cost a great ___ of money to repair the roof.",
+  "answer": "deal",
+  "options": ["deal", "lot", "plenty", "number"],
+  "hint": "fixed phrase: a great ___ of",
+  "explanation": "'A great deal of' is used with uncountable nouns like money; 'a great lot of' and 'a great plenty of' do not exist."
+ },
+ {
+  "sentence": "There were ___ people in the lift, and it broke down.",
+  "answer": "too many",
+  "options": ["too many", "too much", "too", "enough"],
+  "hint": "countable plural + more than necessary",
+  "explanation": "'Too many' is used before countable plurals like people; 'too much' is for uncountables."
+ },
+ {
+  "sentence": "I put ___ sugar in your tea by mistake.",
+  "answer": "too much",
+  "options": ["too much", "too many", "too", "enough"],
+  "hint": "uncountable noun + more than necessary",
+  "explanation": "'Too much' is used before uncountable nouns like sugar; 'too sugar' is impossible."
+ },
+ {
+  "sentence": "This suitcase is ___ heavy to carry.",
+  "answer": "too",
+  "options": ["too", "very", "so", "enough"],
+  "hint": "adjective + this word + to-infinitive = impossible result",
+  "explanation": "'Too heavy to carry' means it is more heavy than possible; 'very' and 'so' cannot be followed directly by 'to'."
+ },
+ {
+  "sentence": "He isn't old ___ to drive a car.",
+  "answer": "enough",
+  "options": ["enough", "too", "much", "very"],
+  "hint": "adjective + this word = sufficient",
+  "explanation": "'Old enough' means sufficiently old; 'enough' follows the adjective, while 'too' gives the opposite meaning."
+ },
+ {
+  "sentence": "We haven't got ___ chairs for everyone.",
+  "answer": "enough",
+  "options": ["enough", "too", "so", "very"],
+  "hint": "sufficient number before a noun",
+  "explanation": "'Enough chairs' means a sufficient number; 'too' before the noun would give the wrong meaning and position."
+ },
+ {
+  "sentence": "You've given me far ___ information.",
+  "answer": "too",
+  "options": ["too", "very", "so", "much"],
+  "hint": "'far' intensifies this word before 'much + uncountable'",
+  "explanation": "'Far too much information' is the correct intensifier pattern; 'far much' and 'far very' do not exist."
+ },
+ {
+  "sentence": "It's ___ cold to swim today.",
+  "answer": "too",
+  "options": ["too", "very", "so", "enough"],
+  "hint": "adjective + this word + to-infinitive = impossible",
+  "explanation": "'Too cold to swim' means the temperature prevents swimming; 'enough' would follow the adjective."
+ },
+ {
+  "sentence": "Is it warm ___ to swim?",
+  "answer": "enough",
+  "options": ["enough", "too", "very", "much"],
+  "hint": "adjective + this word = sufficient",
+  "explanation": "'Warm enough' means sufficiently warm; 'enough' follows the adjective."
+ },
+ {
+  "sentence": "He was driving ___ fast for the icy road.",
+  "answer": "too",
+  "options": ["too", "very much", "so", "enough"],
+  "hint": "fixed pattern: ___ fast for something",
+  "explanation": "'Too fast for something' means faster than is safe; 'so fast' needs a 'that' clause, not 'for'."
+ },
+ {
+  "sentence": "There isn't ___ room in here for a piano.",
+  "answer": "enough",
+  "options": ["enough", "too", "so", "very"],
+  "hint": "sufficient space",
+  "explanation": "'Enough room' means sufficient space; the negative 'isn't' shows the space is insufficient."
+ },
+ {
+  "sentence": "___ of the students has been given a personal timetable.",
+  "answer": "Each",
+  "options": ["Each", "Every", "All", "Both"],
+  "hint": "this is the only option that can be followed by 'of' and take a singular verb",
+  "explanation": "'Each of the students has ...' is correct; 'every' cannot take 'of' here and 'all/both' need a plural verb."
+ },
+ {
+  "sentence": "___ everyone in the office passed the safety test.",
+  "answer": "Almost",
+  "options": ["Almost", "Each", "All", "Every"],
+  "hint": "the only adverb that can modify 'everyone'",
+  "explanation": "'Almost everyone' is the standard pattern; 'each', 'all' and 'every' cannot directly precede 'everyone'."
+ },
+ {
+  "sentence": "She carried a suitcase in ___ hand.",
+  "answer": "each",
+  "options": ["each", "every", "all", "whole"],
+  "hint": "one of two, considered individually",
+  "explanation": "'Each hand' views the two hands individually; 'every hand' is not used for body parts this way."
+ },
+ {
+  "sentence": "The night bus runs ___ twenty minutes.",
+  "answer": "every",
+  "options": ["every", "each", "all", "whole"],
+  "hint": "regular intervals: ___ + number + time unit",
+  "explanation": "'Every twenty minutes' expresses regular intervals; 'each twenty minutes' is not used."
+ },
+ {
+  "sentence": "___ time I visit Rome, I discover something new.",
+  "answer": "Every",
+  "options": ["Every", "All", "Whole", "Almost"],
+  "hint": "fixed pattern with repeated occasions",
+  "explanation": "'Every time I ...' introduces repeated occasions; 'all time' and 'whole time' are not used here."
+ },
+ {
+  "sentence": "___ of her two brothers lives abroad.",
+  "answer": "Each",
+  "options": ["Each", "Every", "Both", "All"],
+  "hint": "'of' + singular verb",
+  "explanation": "'Each of her two brothers lives ...' is correct; 'every' cannot take 'of' and 'both/all' need a plural verb."
+ },
+ {
+  "sentence": "The tickets cost fifteen pounds ___.",
+  "answer": "each",
+  "options": ["each", "every", "all", "whole"],
+  "hint": "price per item comes at the end",
+  "explanation": "'Fifteen pounds each' means fifteen pounds per ticket; 'every' cannot stand alone in this position."
+ },
+ {
+  "sentence": "___ single room in the hotel was fully booked.",
+  "answer": "Every",
+  "options": ["Every", "Each", "All", "Whole"],
+  "hint": "fixed emphatic phrase: ___ single",
+  "explanation": "'Every single room' is the emphatic collocation meaning 'without exception'."
+ },
+ {
+  "sentence": "She gave the children two sweets ___.",
+  "answer": "each",
+  "options": ["each", "every", "all", "whole"],
+  "hint": "distribution per child at the end of the sentence",
+  "explanation": "'Two sweets each' means two per child; 'every' cannot stand alone here."
+ },
+ {
+  "sentence": "We see our grandparents ___ other weekend.",
+  "answer": "every",
+  "options": ["every", "each", "all", "this"],
+  "hint": "fixed pattern: ___ other + time expression",
+  "explanation": "'Every other weekend' means alternate weekends; 'each other' has a different, reciprocal meaning."
+ },
+ {
+  "sentence": "___ of my parents is retired.",
+  "answer": "Neither",
+  "options": ["Neither", "Both", "All", "None"],
+  "hint": "two parents + singular verb",
+  "explanation": "'Neither of my parents is ...' is correct for two items with a singular verb; 'both/all' need a plural verb and 'none' is not used for two."
+ },
+ {
+  "sentence": "There are two cafes here, but ___ of them is open on Mondays.",
+  "answer": "neither",
+  "options": ["neither", "both", "either", "all"],
+  "hint": "negative meaning + singular verb",
+  "explanation": "'Neither of them is open' is correct for two items with a singular verb; 'both' and 'all' would need 'are'."
+ },
+ {
+  "sentence": "You can park on ___ side of the street.",
+  "answer": "either",
+  "options": ["either", "neither", "both", "all"],
+  "hint": "singular noun meaning 'this one or that one'",
+  "explanation": "'Either side' means one side or the other (both are allowed); 'both' would need the plural 'sides'."
+ },
+ {
+  "sentence": "___ of the two films has been shown on television.",
+  "answer": "Neither",
+  "options": ["Neither", "Both", "All", "None"],
+  "hint": "two films + singular verb",
+  "explanation": "'Neither of the two films has ...' is correct for two items; 'none' is not used for two and 'both/all' need a plural verb."
+ },
+ {
+  "sentence": "She speaks ___ Spanish and Italian fluently.",
+  "answer": "both",
+  "options": ["both", "neither", "either", "all"],
+  "hint": "correlative pattern: ___ ... and",
+  "explanation": "'Both ... and ...' links two items affirmatively; 'neither/either' pair with 'nor/or'."
+ },
+ {
+  "sentence": "___ the food was eaten within minutes.",
+  "answer": "All",
+  "options": ["All", "Both", "Neither", "Whole"],
+  "hint": "uncountable noun",
+  "explanation": "'All the food' is correct with an uncountable noun; 'whole' needs 'the whole of' and 'both' needs two separate items."
+ },
+ {
+  "sentence": "We had five applications, but ___ of the candidates was suitable.",
+  "answer": "None",
+  "options": ["None", "Neither", "Both", "All"],
+  "hint": "more than two candidates + singular verb",
+  "explanation": "'None of the candidates was ...' is used for three or more; 'neither' is reserved for two."
+ },
+ {
+  "sentence": "We can take the ferry or the tunnel — ___ way takes about three hours.",
+  "answer": "either",
+  "options": ["either", "neither", "both", "all"],
+  "hint": "one of two options, singular noun",
+  "explanation": "'Either way' means whichever of the two you choose; 'both' would need 'ways'."
+ },
+ {
+  "sentence": "___ John and his brother are doctors.",
+  "answer": "Both",
+  "options": ["Both", "Neither", "Either", "All"],
+  "hint": "correlative pattern: ___ ... and",
+  "explanation": "'Both John and his brother are ...' links two people affirmatively; 'neither' and 'either' pair with 'nor/or'."
+ },
+ {
+  "sentence": "He has lived in Berlin and Prague, and loves ___ cities.",
+  "answer": "both",
+  "options": ["both", "neither", "either", "all"],
+  "hint": "two cities",
+  "explanation": "'Both cities' refers to the two cities mentioned; 'all' would suggest three or more."
+ },
+ {
+  "sentence": "There are trees on ___ side of the road.",
+  "answer": "either",
+  "options": ["either", "neither", "both", "all"],
+  "hint": "singular noun: each of the two sides",
+  "explanation": "'Either side' means each of the two sides; 'both' would need the plural 'sides'."
+ },
+ {
+  "sentence": "___ of my two brothers work in banking.",
+  "answer": "Both",
+  "options": ["Both", "All", "Neither", "None"],
+  "hint": "two people + plural verb",
+  "explanation": "'Both of my two brothers work ...' is correct; 'all' and 'none' are not used for two."
+ },
+ {
+  "sentence": "I don't like ___ of these two paintings.",
+  "answer": "either",
+  "options": ["either", "neither", "both", "all"],
+  "hint": "'not ... either' = neither (avoid the double negative)",
+  "explanation": "After 'don't like', 'either' is used: 'not ... either of them' means zero of the two; 'neither' would double the negative."
+ },
+ {
+  "sentence": "We inspected the four bridges, but ___ of them was safe.",
+  "answer": "None",
+  "options": ["None", "Neither", "Both", "All"],
+  "hint": "four items + singular verb",
+  "explanation": "'None of them was ...' is used for three or more items; 'neither' is only for two."
+ },
+ {
+  "sentence": "The twins are ___ over six feet tall.",
+  "answer": "both",
+  "options": ["both", "all", "neither", "either"],
+  "hint": "exactly two people",
+  "explanation": "'Both' is used for exactly two; 'all' is for three or more."
+ },
+ {
+  "sentence": "___ the information you gave was correct.",
+  "answer": "All",
+  "options": ["All", "Both", "Neither", "None"],
+  "hint": "uncountable noun without 'of'",
+  "explanation": "'All the information' is correct; 'none/neither' would need 'of' and 'both' requires two separate countable items."
+ },
+ {
+  "sentence": "This cup is cracked — could I have ___ one?",
+  "answer": "another",
+  "options": ["another", "other", "others", "the other"],
+  "hint": "an additional, unspecified cup",
+  "explanation": "'Another one' means one more, unspecified; 'the other one' would mean a specific second cup."
+ },
+ {
+  "sentence": "Some people like classical music, while ___ prefer jazz.",
+  "answer": "others",
+  "options": ["others", "the others", "another", "other"],
+  "hint": "'some ... while ___' contrasts unspecified people",
+  "explanation": "The pattern 'some ... others ...' contrasts unspecified groups; 'the others' would need a previously defined group."
+ },
+ {
+  "sentence": "She has two children. One lives in Leeds, and ___ lives in York.",
+  "answer": "the other",
+  "options": ["the other", "another", "others", "other"],
+  "hint": "one of a pair of two",
+  "explanation": "'One ... the other ...' is the pattern for exactly two; 'another' would imply more than two."
+ },
+ {
+  "sentence": "I'll see you ___ day.",
+  "answer": "another",
+  "options": ["another", "other", "others", "the other"],
+  "hint": "an unspecified day in the future",
+  "explanation": "'Another day' means some other, unspecified day; 'the other day' refers to the recent past."
+ },
+ {
+  "sentence": "Where are the ___ guests? Haven't they arrived yet?",
+  "answer": "other",
+  "options": ["other", "another", "others", "rest"],
+  "hint": "adjective before the plural noun 'guests'",
+  "explanation": "'The other guests' uses 'other' as an adjective; 'others' is a pronoun and cannot precede the noun."
+ },
+ {
+  "sentence": "Three of the six books were mine; ___ were my sister's.",
+  "answer": "the others",
+  "options": ["the others", "others", "another", "the other"],
+  "hint": "the defined remainder of a set of six",
+  "explanation": "'The others' refers to the specific remaining books in the known set of six."
+ },
+ {
+  "sentence": "The hotel was full, so we had to look for ___ hotel.",
+  "answer": "another",
+  "options": ["another", "other", "the other", "others"],
+  "hint": "an additional, unspecified hotel",
+  "explanation": "'Another hotel' means some other, unspecified one; 'the other hotel' would imply exactly two known hotels."
+ },
+ {
+  "sentence": "One of my shoes is tighter than ___.",
+  "answer": "the other",
+  "options": ["the other", "another", "other", "others"],
+  "hint": "shoes come in pairs of two",
+  "explanation": "'One ... than the other' is the pattern for two items; 'another' would suggest more than two."
+ },
+ {
+  "sentence": "Some metals are magnetic; ___ are not.",
+  "answer": "others",
+  "options": ["others", "the others", "another", "other"],
+  "hint": "'some ... ; ___' contrasts unspecified groups",
+  "explanation": "'Some ... others ...' contrasts unspecified groups; 'the others' would need a closed, known set."
+ },
+ {
+  "sentence": "I don't like this colour — do you have it in ___ colours?",
+  "answer": "other",
+  "options": ["other", "another", "the others", "others"],
+  "hint": "adjective + plural noun",
+  "explanation": "'Other colours' uses 'other' as an adjective before the plural noun; 'another' is followed by singular nouns."
+ },
+ {
+  "sentence": "___ words, the plan is too expensive.",
+  "answer": "Other",
+  "options": ["Other", "Another", "Others", "The"],
+  "hint": "fixed phrase: In ___ words",
+  "explanation": "'In other words' is the fixed phrase for rephrasing; 'another' cannot modify the plural 'words'."
+ },
+ {
+  "sentence": "Five students passed. ___ all failed.",
+  "answer": "The others",
+  "options": ["The others", "Others", "Another", "The other"],
+  "hint": "the defined remainder of a known group",
+  "explanation": "'The others' refers to the specific remaining students; 'the other' is singular."
+ },
+ {
+  "sentence": "This year the festival attracted ___ visitors than in 2024.",
+  "answer": "fewer",
+  "options": ["fewer", "less", "little", "least"],
+  "hint": "comparative + countable plural ('than' follows)",
+  "explanation": "'Fewer' is the comparative for countable plurals like visitors; 'less' is for uncountables."
+ },
+ {
+  "sentence": "Try to eat ___ sugar and more vegetables.",
+  "answer": "less",
+  "options": ["less", "fewer", "little", "smaller"],
+  "hint": "comparative + uncountable noun",
+  "explanation": "'Less' is the comparative for uncountable nouns like sugar; 'fewer' is for countables."
+ },
+ {
+  "sentence": "The new model has ___ moving parts, so it breaks down less often.",
+  "answer": "fewer",
+  "options": ["fewer", "less", "least", "little"],
+  "hint": "countable plural noun",
+  "explanation": "'Fewer moving parts' is correct because 'parts' is countable and plural."
+ },
+ {
+  "sentence": "If you walk instead of driving, you'll spend ___ on petrol.",
+  "answer": "less",
+  "options": ["less", "fewer", "few", "little"],
+  "hint": "money is uncountable; comparative needed",
+  "explanation": "'Spend less' is the comparative with uncountable money; 'fewer' is for countable nouns."
+ },
+ {
+  "sentence": "She spent a great ___ of time preparing the report.",
+  "answer": "deal",
+  "options": ["deal", "lot", "plenty", "number"],
+  "hint": "fixed phrase: a great ___ of + uncountable",
+  "explanation": "'A great deal of time' is used with uncountable nouns; 'a great number of' needs a countable plural."
+ },
+ {
+  "sentence": "A large ___ of students have applied this year.",
+  "answer": "number",
+  "options": ["number", "amount", "deal", "quantity"],
+  "hint": "countable plural ('students have')",
+  "explanation": "'A large number of students' is used with countable plurals; 'amount' is for uncountables."
+ },
+ {
+  "sentence": "A ___ of people object to the plans.",
+  "answer": "large number",
+  "options": ["large number", "great deal", "large amount", "plenty"],
+  "hint": "countable plural ('people object')",
+  "explanation": "'A large number of people' is correct for countables; 'a great deal of people' and 'an amount of people' are wrong."
+ },
+ {
+  "sentence": "It took a great ___ of courage to admit the mistake.",
+  "answer": "deal",
+  "options": ["deal", "lot", "plenty", "number"],
+  "hint": "uncountable noun after 'a great ___ of'",
+  "explanation": "'A great deal of courage' is the standard pattern with uncountables; 'a great number of' needs countables."
+ },
+ {
+  "sentence": "Three out of four respondents — that is, the ___ — supported the change.",
+  "answer": "majority",
+  "options": ["majority", "minority", "average", "total"],
+  "hint": "three out of four = more than half",
+  "explanation": "Three out of four is more than half, so 'the majority' is the correct label."
+ },
+ {
+  "sentence": "The ___ of teenagers own a smartphone these days.",
+  "answer": "majority",
+  "options": ["majority", "plenty", "lot", "number"],
+  "hint": "more than half, after 'The'",
+  "explanation": "'The majority of + plural noun' means most of them; 'the number of teenagers own' would be ungrammatical."
+ },
+ {
+  "sentence": "___ people enjoy a sunny holiday.",
+  "answer": "Most",
+  "options": ["Most", "Most of", "Mostly", "The most"],
+  "hint": "general statement without 'the' — 'people' has no article",
+  "explanation": "'Most people' means people in general; 'most of' needs 'the' (most of the people)."
+ },
+ {
+  "sentence": "___ the students passed with good grades.",
+  "answer": "Most of",
+  "options": ["Most of", "Most", "Mostly", "The most"],
+  "hint": "a specific group follows ('the students')",
+  "explanation": "Before 'the + noun' use 'most of': 'Most of the students'; 'most the students' is wrong."
+ },
+ {
+  "sentence": "This is ___ beautiful beach on the island.",
+  "answer": "the most",
+  "options": ["the most", "most", "mostly", "more"],
+  "hint": "superlative before a long adjective",
+  "explanation": "'The most beautiful' is the superlative form used for comparisons within a group."
+ },
+ {
+  "sentence": "She was ___ in a bad mood.",
+  "answer": "mostly",
+  "options": ["mostly", "most", "the most", "much"],
+  "hint": "adverb meaning 'on most occasions'",
+  "explanation": "'Mostly' is an adverb meaning mainly or usually; 'most' as a quantifier needs a noun."
+ },
+ {
+  "sentence": "___ of what he says is nonsense.",
+  "answer": "Most",
+  "options": ["Most", "The most", "Mostly", "More"],
+  "hint": "quantifier before the pronoun 'what'",
+  "explanation": "'Most of what he says' is the pattern 'most of + noun clause'; 'the most of' is wrong."
+ },
+ {
+  "sentence": "___ lakes in this region freeze in winter.",
+  "answer": "Most",
+  "options": ["Most", "Most of", "The most", "Mostly"],
+  "hint": "general statement; 'lakes' has no article",
+  "explanation": "'Most lakes' speaks about lakes in general; 'most of' would need 'the lakes'."
+ },
+ {
+  "sentence": "___ of the workforce is part-time now.",
+  "answer": "Half",
+  "options": ["Half", "The half", "Both", "Double"],
+  "hint": "pattern: ___ of + specific group; singular verb",
+  "explanation": "'Half of the workforce is ...' is the correct pattern; 'the half of' is not used in this position."
+ },
+ {
+  "sentence": "Cut the orange in ___.",
+  "answer": "half",
+  "options": ["half", "halves", "the half", "middle"],
+  "hint": "fixed phrase: in ___ (two equal parts)",
+  "explanation": "'Cut something in half' is the fixed expression; 'in middle' would need 'the middle'."
+ },
+ {
+  "sentence": "___ attempts were made to contact her.",
+  "answer": "Several",
+  "options": ["Several", "Much", "Little", "A great deal of"],
+  "hint": "countable plural noun ('attempts were')",
+  "explanation": "'Several' is used with countable plurals; 'much', 'little' and 'a great deal of' need uncountables."
+ },
+ {
+  "sentence": "He faced ___ charges of fraud.",
+  "answer": "several",
+  "options": ["several", "much", "little", "a great deal of"],
+  "hint": "countable plural noun ('charges')",
+  "explanation": "'Several charges' means more than two; the other options are used only with uncountable nouns."
+ }
+]

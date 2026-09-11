@@ -37,7 +37,7 @@ and applies migrations automatically on first start.
 docker compose up --build
 ```
 
-Then open http://localhost:8080. Progress data persists in the `cae-data` volume
+Then open http://localhost:8088. Progress data persists in the `cae-data` volume
 (mounted at `/data` inside the container).
 
 ## Repository layout

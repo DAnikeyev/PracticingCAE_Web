@@ -118,9 +118,10 @@ public class ProgressServiceTests : IDisposable
             new GapResult(3, "a", true, false, "a", null),
         }));
         var top = await _progress.GetTopMistakesAsync("o1");
-        Assert.Equal(3, top.Count);
+        Assert.Equal(2, top.Count);
         Assert.Equal("an", top[0].Expected);
-        Assert.Equal(2, top[0].Times);
+        Assert.Equal(3, top[0].Times);
+        Assert.Equal("the", top[1].Expected);
         Assert.Equal(1, top[1].Times);
     }
 

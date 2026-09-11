@@ -1,0 +1,821 @@
+[
+ {
+  "sentence": "She works as a bank ___ (MANAGE).",
+  "answer": "manager",
+  "options": ["manager", "manage", "management", "managing"],
+  "hint": "person needed (someone's job)",
+  "explanation": "A bank manager is a person; 'management' is the activity and 'manage' is the verb."
+ },
+ {
+  "sentence": "He is one of the best ___ (SCIENCE) in the field.",
+  "answer": "scientists",
+  "options": ["scientists", "scientist", "scientific", "science"],
+  "hint": "plural person needed after 'one of the best'",
+  "explanation": "'One of the best' is followed by a plural noun for people: scientists."
+ },
+ {
+  "sentence": "The company is a major ___ (EMPLOY) in the region.",
+  "answer": "employer",
+  "options": ["employer", "employee", "employment", "employed"],
+  "hint": "the company gives jobs — it is the one who employs",
+  "explanation": "An employer gives work; an employee receives it. The sentence is about the company."
+ },
+ {
+  "sentence": "She has been a loyal ___ (EMPLOY) of the firm for twenty years.",
+  "answer": "employee",
+  "options": ["employee", "employer", "employment", "employing"],
+  "hint": "person needed: someone who works for the firm",
+  "explanation": "An employee works for a company; 'employment' is the uncountable state of having a job."
+ },
+ {
+  "sentence": "Charles Darwin was a famous ___ (BIOLOGY).",
+  "answer": "biologist",
+  "options": ["biologist", "biological", "biology", "biologically"],
+  "hint": "person needed (-ist for fields of study)",
+  "explanation": "The suffix -ist forms the person who studies a subject: biology becomes biologist."
+ },
+ {
+  "sentence": "Mozart was the greatest ___ (MUSIC) of his age.",
+  "answer": "musician",
+  "options": ["musician", "musical", "music", "musically"],
+  "hint": "person needed (-ian for people)",
+  "explanation": "The suffix -ian forms the person: music becomes musician."
+ },
+ {
+  "sentence": "He trained as an ___ (ELECTRIC).",
+  "answer": "electrician",
+  "options": ["electrician", "electric", "electrical", "electricity"],
+  "hint": "person needed: someone who installs wiring",
+  "explanation": "An electrician is the person who works with electricity; 'electric' and 'electrical' are adjectives."
+ },
+ {
+  "sentence": "The ___ (INTERVIEW) asked her some difficult questions.",
+  "answer": "interviewer",
+  "options": ["interviewer", "interviewee", "interviewing", "interview"],
+  "hint": "the person who asks the questions (-er = doer)",
+  "explanation": "The interviewer asks; the interviewee answers. The suffix -er marks the doer."
+ },
+ {
+  "sentence": "He answered all the questions with great ___ (CONFIDENT).",
+  "answer": "confidence",
+  "options": ["confidence", "confident", "confidential", "confiding"],
+  "hint": "noun needed after 'great'",
+  "explanation": "'Great' needs a noun: confidence. 'Confident' is the adjective."
+ },
+ {
+  "sentence": "The ___ of the new bridge will take two years (CONSTRUCT).",
+  "answer": "construction",
+  "options": ["construction", "constructive", "constructing", "construct"],
+  "hint": "noun needed as subject of the sentence",
+  "explanation": "The subject needs a noun: construction (the -tion noun); 'constructive' is an adjective."
+ },
+ {
+  "sentence": "There has been a big ___ (IMPROVE) in her tennis.",
+  "answer": "improvement",
+  "options": ["improvement", "improving", "improved", "improvable"],
+  "hint": "noun needed after 'a big'",
+  "explanation": "After 'a big' a noun is needed: improvement (-ment noun)."
+ },
+ {
+  "sentence": "The government's ___ (DECIDE) to raise taxes was criticized.",
+  "answer": "decision",
+  "options": ["decision", "decisive", "decided", "deciding"],
+  "hint": "noun needed after the possessive",
+  "explanation": "After 'The government's' a noun is needed: decision (-sion noun); 'decisive' is an adjective."
+ },
+ {
+  "sentence": "His ___ (DETERMINE) to become a doctor never wavered.",
+  "answer": "determination",
+  "options": ["determination", "determined", "determining", "determiner"],
+  "hint": "noun needed after 'His'",
+  "explanation": "A noun is needed after 'His': determination (-ation noun); 'determined' is the adjective."
+ },
+ {
+  "sentence": "We had no ___ (CHOOSE) but to cancel the trip.",
+  "answer": "choice",
+  "options": ["choice", "choosing", "choose", "choosy"],
+  "hint": "noun needed after 'no'",
+  "explanation": "'Have no choice but to do something' is the fixed phrase; the noun of 'choose' is an irregular 'choice'."
+ },
+ {
+  "sentence": "Her kindness and ___ (GENEROUS) made her very popular.",
+  "answer": "generosity",
+  "options": ["generosity", "generous", "generously", "general"],
+  "hint": "noun needed, parallel to 'kindness'",
+  "explanation": "Parallel to 'kindness', a noun is needed: generosity (note the irregular -osity spelling)."
+ },
+ {
+  "sentence": "___ is the best policy (HONEST).",
+  "answer": "Honesty",
+  "options": ["Honesty", "Honest", "Honestly", "Honestness"],
+  "hint": "subject of the sentence: noun needed (-ness becomes -ty here)",
+  "explanation": "The subject must be a noun: Honesty. The spelling changes -ness to -ty; 'honestness' is not a word."
+ },
+ {
+  "sentence": "We watched the match in ___ (EXCITE).",
+  "answer": "excitement",
+  "options": ["excitement", "excited", "exciting", "excitedly"],
+  "hint": "noun needed after the preposition 'in'",
+  "explanation": "After 'in' a noun is needed: excitement (-ment noun)."
+ },
+ {
+  "sentence": "The treaty will strengthen economic ___ between the two countries (COOPERATE).",
+  "answer": "cooperation",
+  "options": ["cooperation", "cooperative", "cooperatively", "cooperators"],
+  "hint": "noun needed after the adjective 'economic'",
+  "explanation": "An adjective is followed by a noun: cooperation (-tion noun)."
+ },
+ {
+  "sentence": "His ___ (REFUSE) to help surprised everyone.",
+  "answer": "refusal",
+  "options": ["refusal", "refusing", "refused", "refuse"],
+  "hint": "noun needed after 'His'; note the -al suffix",
+  "explanation": "The noun of 'refuse' is 'refusal' (-al noun); 'refuse' as a noun means rubbish."
+ },
+ {
+  "sentence": "The storm caused serious ___ (DESTROY) along the coast.",
+  "answer": "destruction",
+  "options": ["destruction", "destructive", "destroyed", "destroying"],
+  "hint": "noun needed after 'serious'",
+  "explanation": "After the adjective 'serious' a noun is needed: destruction (-tion noun)."
+ },
+ {
+  "sentence": "She showed great ___ (PATIENT) with the children.",
+  "answer": "patience",
+  "options": ["patience", "patients", "patient", "patiently"],
+  "hint": "noun needed; beware the similar word meaning 'people in hospital'",
+  "explanation": "'Patience' is the noun (show patience); 'patients' are people receiving medical care."
+ },
+ {
+  "sentence": "The two countries signed a peace ___ (TREAT).",
+  "answer": "treaty",
+  "options": ["treaty", "treatment", "treating", "treated"],
+  "hint": "noun needed: a formal agreement",
+  "explanation": "A peace treaty is a formal agreement; 'treatment' means medical care or the way you behave towards someone."
+ },
+ {
+  "sentence": "There was a lot of ___ (OPPOSE) to the new road.",
+  "answer": "opposition",
+  "options": ["opposition", "opposite", "opposing", "opposed"],
+  "hint": "noun needed after 'a lot of'",
+  "explanation": "'A lot of' needs a noun: opposition (-tion noun); 'opposite' is an adjective or noun meaning the contrary."
+ },
+ {
+  "sentence": "Air ___ (POLLUTE) is a serious problem in big cities.",
+  "answer": "pollution",
+  "options": ["pollution", "pollutant", "polluted", "polluting"],
+  "hint": "noun needed as the subject",
+  "explanation": "The subject must be a noun: pollution (-tion noun); a pollutant is a specific polluting substance."
+ },
+ {
+  "sentence": "Her ___ (PERFORM) in the final was outstanding.",
+  "answer": "performance",
+  "options": ["performance", "performing", "performers", "performative"],
+  "hint": "noun needed after 'Her'",
+  "explanation": "After 'Her' a noun is needed: performance (-ance noun); performers are people."
+ },
+ {
+  "sentence": "Scientists have made an important ___ (DISCOVER).",
+  "answer": "discovery",
+  "options": ["discovery", "discovering", "discoverers", "discovered"],
+  "hint": "noun needed after 'an important'",
+  "explanation": "After 'an important' a noun is needed: discovery (note the change from -er to -y)."
+ },
+ {
+  "sentence": "The ___ (ARRIVE) of the train was announced.",
+  "answer": "arrival",
+  "options": ["arrival", "arrive", "arriving", "arrived"],
+  "hint": "noun needed as subject; -al suffix",
+  "explanation": "The subject must be a noun: arrival (-al noun of 'arrive')."
+ },
+ {
+  "sentence": "Do you believe in the ___ (EXIST) of life on other planets?",
+  "answer": "existence",
+  "options": ["existence", "existing", "existent", "existential"],
+  "hint": "noun needed after 'the'",
+  "explanation": "After 'the' a noun is needed: existence (-ence noun)."
+ },
+ {
+  "sentence": "There are many ___ (SIMILAR) between the two languages.",
+  "answer": "similarities",
+  "options": ["similarities", "similar", "similarly", "similarity"],
+  "hint": "plural noun needed after 'many'",
+  "explanation": "'Many' needs a plural countable noun: similarities (note the -ty to -ties spelling)."
+ },
+ {
+  "sentence": "She apologized for the ___ caused by the delay (CONVENIENT).",
+  "answer": "inconvenience",
+  "options": ["inconvenience", "convenience", "convenient", "inconvenient"],
+  "hint": "negative noun needed — the delay was a bad thing",
+  "explanation": "A delay causes inconvenience (negative prefix in- + noun); the sentence needs the noun, not the adjectives."
+ },
+ {
+  "sentence": "He was respected for his ___ (WISE).",
+  "answer": "wisdom",
+  "options": ["wisdom", "wise", "wisely", "wisedom"],
+  "hint": "noun needed after 'his'; irregular suffix",
+  "explanation": "The noun of 'wise' is 'wisdom' (-dom suffix); 'wisedom' is a common misspelling."
+ },
+ {
+  "sentence": "The trip gave us a lot of ___ (PLEASE).",
+  "answer": "pleasure",
+  "options": ["pleasure", "pleasant", "pleased", "pleasing"],
+  "hint": "noun needed after 'a lot of'",
+  "explanation": "'A lot of' needs a noun: pleasure (note the irregular spelling)."
+ },
+ {
+  "sentence": "Their ___ goes back to their schooldays (FRIEND).",
+  "answer": "friendship",
+  "options": ["friendship", "friendly", "friendliness", "friended"],
+  "hint": "noun needed: the state of being friends (-ship)",
+  "explanation": "The suffix -ship forms nouns of state: friendship means the relationship between friends."
+ },
+ {
+  "sentence": "He had a happy ___ in the countryside (CHILD).",
+  "answer": "childhood",
+  "options": ["childhood", "childish", "childlike", "child"],
+  "hint": "noun needed: the period of being a child (-hood)",
+  "explanation": "The suffix -hood forms period-of-life nouns: childhood."
+ },
+ {
+  "sentence": "The room was in complete ___ (DARK).",
+  "answer": "darkness",
+  "options": ["darkness", "dark", "darkly", "darkening"],
+  "hint": "noun needed after 'complete' (-ness)",
+  "explanation": "After 'complete' a noun is needed: darkness (-ness noun of 'dark')."
+ },
+ {
+  "sentence": "Her ___ was caused by overwork (ILL).",
+  "answer": "illness",
+  "options": ["illness", "ill", "ailing", "ills"],
+  "hint": "noun needed after 'Her' (-ness)",
+  "explanation": "After 'Her' a noun is needed: illness (-ness noun of 'ill')."
+ },
+ {
+  "sentence": "It is almost ___ to park in the city centre (POSSIBLE).",
+  "answer": "impossible",
+  "options": ["impossible", "possible", "impossibly", "impossibility"],
+  "hint": "negative adjective needed — parking is extremely difficult",
+  "explanation": "The in- of 'possible' becomes im- before p: impossible. The context shows a negative meaning."
+ },
+ {
+  "sentence": "Her behaviour was highly ___ (USUAL).",
+  "answer": "unusual",
+  "options": ["unusual", "unusually", "usual", "unused"],
+  "hint": "negative adjective needed after 'was'",
+  "explanation": "The prefix un- forms the negative adjective: unusual. An adjective is needed after 'was'."
+ },
+ {
+  "sentence": "He denied all knowledge of the ___ (APPEAR) of the documents.",
+  "answer": "disappearance",
+  "options": ["disappearance", "appearance", "disappearing", "appeared"],
+  "hint": "negative noun needed: they vanished",
+  "explanation": "The documents vanished, so the negative noun 'disappearance' is needed; 'appearance' means coming into view."
+ },
+ {
+  "sentence": "Her answer was ___ , so we had to ask again (RELEVANT).",
+  "answer": "irrelevant",
+  "options": ["irrelevant", "relevant", "irrelevantly", "relevance"],
+  "hint": "negative adjective needed — it did not relate to the question",
+  "explanation": "The negative of 'relevant' is 'irrelevant' (ir- before r). An adjective is needed after 'was'."
+ },
+ {
+  "sentence": "It is ___ to smoke inside public buildings (LEGAL).",
+  "answer": "illegal",
+  "options": ["illegal", "legal", "illegally", "legality"],
+  "hint": "negative adjective needed: against the law (il-)",
+  "explanation": "The negative of 'legal' is 'illegal' (il- before l). An adjective is needed after 'is'."
+ },
+ {
+  "sentence": "She was fired for ___ behaviour at work (PROFESSIONAL).",
+  "answer": "unprofessional",
+  "options": ["unprofessional", "professional", "unprofessionally", "professionalism"],
+  "hint": "negative adjective needed before the noun 'behaviour'",
+  "explanation": "The prefix un- forms the negative adjective: unprofessional behaviour is behaviour below professional standards."
+ },
+ {
+  "sentence": "He lost his job because of his ___ (HONESTY).",
+  "answer": "dishonesty",
+  "options": ["dishonesty", "honesty", "dishonest", "dishonestly"],
+  "hint": "negative noun needed — he lost his job",
+  "explanation": "Losing a job implies wrongdoing, so the negative noun 'dishonesty' (dis- + honesty) is needed."
+ },
+ {
+  "sentence": "Being blamed for something you didn't do is completely ___ (FAIR).",
+  "answer": "unfair",
+  "options": ["unfair", "unfairly", "fair", "unfairness"],
+  "hint": "negative adjective needed after 'is'",
+  "explanation": "An adjective is needed after 'is', and the situation is negative: unfair (un- + fair)."
+ },
+ {
+  "sentence": "I'm afraid your passport is ___ — it expired last month (VALID).",
+  "answer": "invalid",
+  "options": ["invalid", "valid", "invalidly", "validate"],
+  "hint": "negative adjective needed: it has expired",
+  "explanation": "An expired document is invalid (in- + valid); an adjective is needed after 'is'."
+ },
+ {
+  "sentence": "She was ___ to accept the conditions at first (WILLING).",
+  "answer": "unwilling",
+  "options": ["unwilling", "willing", "willingly", "willingness"],
+  "hint": "negative adjective needed: she did not want to",
+  "explanation": "'At first' suggests reluctance, so the negative adjective 'unwilling' (un- + willing) is needed."
+ },
+ {
+  "sentence": "The article was full of ___ information (ACCURATE).",
+  "answer": "inaccurate",
+  "options": ["inaccurate", "inaccurately", "accurate", "accuracy"],
+  "hint": "negative adjective needed before the noun 'information'",
+  "explanation": "The negative adjective 'inaccurate' (in- + accurate) modifies the noun 'information'."
+ },
+ {
+  "sentence": "The delay was caused by a simple ___ (UNDERSTAND).",
+  "answer": "misunderstanding",
+  "options": ["misunderstanding", "understanding", "misunderstood", "understood"],
+  "hint": "negative noun needed: they understood wrongly (mis-)",
+  "explanation": "The prefix mis- means wrongly: a misunderstanding is a failure to understand correctly."
+ },
+ {
+  "sentence": "He felt he was ___ for the work he did, so he asked for a raise (PAY).",
+  "answer": "underpaid",
+  "options": ["underpaid", "overpaid", "unpaid", "paid"],
+  "hint": "paid too little — he wants a raise (under-)",
+  "explanation": "The prefix under- means too little: underpaid means paid less than deserved, which explains asking for a raise."
+ },
+ {
+  "sentence": "Her suitcase was ___ , so the airline charged extra (WEIGHT).",
+  "answer": "overweight",
+  "options": ["overweight", "underweight", "weighted", "weightless"],
+  "hint": "weighing too much — that is why she paid extra (over-)",
+  "explanation": "The prefix over- means too much: overweight explains the extra charge."
+ },
+ {
+  "sentence": "Don't ___ your children — let them make their own mistakes (PROTECT).",
+  "answer": "overprotect",
+  "options": ["overprotect", "protect", "underprotect", "protective"],
+  "hint": "protect too much (over-); a base verb is needed",
+  "explanation": "The prefix over- means excessively: overprotect means to protect too much. A base verb follows 'Don't'."
+ },
+ {
+  "sentence": "The prison was ___ , with three men in cells meant for one (CROWDED).",
+  "answer": "overcrowded",
+  "options": ["overcrowded", "overcrowding", "uncrowded", "crowded"],
+  "hint": "too full — more people than the space allows (over-)",
+  "explanation": "Three men in one cell means too crowded: overcrowded (over- + crowded). An adjective is needed after 'was'."
+ },
+ {
+  "sentence": "We ___ the cost of the trip and ran out of money (ESTIMATE).",
+  "answer": "underestimated",
+  "options": ["underestimated", "overestimated", "estimate", "underestimating"],
+  "hint": "judged it too low — that is why the money ran out (under-)",
+  "explanation": "Running out of money shows the estimate was too low: underestimated (under- + estimated)."
+ },
+ {
+  "sentence": "In my opinion, that restaurant is ___ — the food is nothing special (RATE).",
+  "answer": "overrated",
+  "options": ["overrated", "underrated", "rating", "rated"],
+  "hint": "praised more than it deserves (over-)",
+  "explanation": "'Nothing special' shows the restaurant is praised too much: overrated (over- + rated)."
+ },
+ {
+  "sentence": "After the fire, the theatre had to be completely ___ (BUILD).",
+  "answer": "rebuilt",
+  "options": ["rebuilt", "building", "built", "builder"],
+  "hint": "build again after destruction (re-); past participle needed",
+  "explanation": "The prefix re- means again: rebuilt. The passive needs the past participle after 'had to be'."
+ },
+ {
+  "sentence": "The instructions were unclear, so I had to ___ them completely (WRITE).",
+  "answer": "rewrite",
+  "options": ["rewrite", "rewriting", "writer", "written"],
+  "hint": "write again — unclear the first time (re-); base verb needed",
+  "explanation": "The prefix re- means again: rewrite. A base verb is needed after 'had to'."
+ },
+ {
+  "sentence": "When the costs rose, we had to ___ our plans (CONSIDER).",
+  "answer": "reconsider",
+  "options": ["reconsider", "reconsidering", "reconsideration", "considerably"],
+  "hint": "think again because things changed (re-)",
+  "explanation": "The prefix re- means again: reconsider means to think about something again. A base verb follows 'had to'."
+ },
+ {
+  "sentence": "The meeting has been ___ until Thursday (SCHEDULE).",
+  "answer": "rescheduled",
+  "options": ["rescheduled", "rescheduling", "schedule", "schedules"],
+  "hint": "arranged for a new time (re-); past participle needed",
+  "explanation": "The prefix re- means again/afresh: rescheduled means given a new time. The passive needs the past participle."
+ },
+ {
+  "sentence": "Be careful not to ___ the medicine — read the label twice (USE).",
+  "answer": "misuse",
+  "options": ["misuse", "misusing", "misused", "useful"],
+  "hint": "use wrongly (mis-); base verb needed",
+  "explanation": "The prefix mis- means wrongly: misuse means to use something incorrectly. A base verb follows 'not to'."
+ },
+ {
+  "sentence": "The magazine ___ the politician's words, which caused a scandal (QUOTE).",
+  "answer": "misquoted",
+  "options": ["misquoted", "quoted", "quoting", "quotation"],
+  "hint": "quoted wrongly — that is why there was a scandal (mis-)",
+  "explanation": "The prefix mis- means wrongly: misquoted explains the scandal. The past tense is needed."
+ },
+ {
+  "sentence": "The ___ (INVENT) of the new engine worked day and night.",
+  "answer": "inventor",
+  "options": ["inventor", "invention", "inventive", "invent"],
+  "hint": "person needed (-or = doer)",
+  "explanation": "The person who worked day and night is the inventor; 'invention' is the thing created."
+ },
+ {
+  "sentence": "It is ___ to book tickets in advance during the festival (ADVICE).",
+  "answer": "advisable",
+  "options": ["advisable", "advising", "advised", "advisory"],
+  "hint": "adjective needed after 'It is' (-able)",
+  "explanation": "The suffix -able forms the adjective: advisable means worth recommending. 'It is + adjective + to-infinitive'."
+ },
+ {
+  "sentence": "The instructions were so ___ that nobody could follow them (CONFUSE).",
+  "answer": "confusing",
+  "options": ["confusing", "confused", "confusion", "confusingly"],
+  "hint": "the instructions cause the confusion (-ing)",
+  "explanation": "Things that cause a feeling take -ing: confusing instructions. 'Confused' describes the people who feel it."
+ },
+ {
+  "sentence": "After the long journey, we were all ___ (EXHAUST).",
+  "answer": "exhausted",
+  "options": ["exhausted", "exhausting", "exhaustion", "exhaustive"],
+  "hint": "how we felt (-ed describes feelings)",
+  "explanation": "People who experience the feeling take -ed: we were exhausted. The journey was exhausting."
+ },
+ {
+  "sentence": "The audience found the lecture extremely ___ (BORE).",
+  "answer": "boring",
+  "options": ["boring", "bored", "boredom", "boringly"],
+  "hint": "the lecture causes the boredom (-ing)",
+  "explanation": "The lecture causes boredom, so it is boring; the audience would be bored."
+ },
+ {
+  "sentence": "She is very ___ in modern art (INTEREST).",
+  "answer": "interested",
+  "options": ["interested", "interesting", "interest", "interestingly"],
+  "hint": "how she feels: -ed; fixed pattern '___ in'",
+  "explanation": "'Interested in something' describes the person's feeling; 'interesting' describes the thing that causes it."
+ },
+ {
+  "sentence": "This guidebook is really ___ for travellers (USE).",
+  "answer": "useful",
+  "options": ["useful", "useless", "usefully", "usage"],
+  "hint": "positive adjective (-ful = full of use)",
+  "explanation": "The suffix -ful means full of: useful. 'Useless' is the negative opposite."
+ },
+ {
+  "sentence": "Try to be ___ when you cross the busy road (CARE).",
+  "answer": "careful",
+  "options": ["careful", "careless", "carefully", "caring"],
+  "hint": "positive adjective after 'be' (-ful)",
+  "explanation": "An adjective is needed after 'be': careful (-ful). 'Carefully' is an adverb and cannot follow 'be'."
+ },
+ {
+  "sentence": "He made a ___ mistake and lost all the data (CARE).",
+  "answer": "careless",
+  "options": ["careless", "careful", "carelessly", "care"],
+  "hint": "negative adjective: without care (-less)",
+  "explanation": "The suffix -less means without: careless means not taking care. It modifies the noun 'mistake'."
+ },
+ {
+  "sentence": "The thunderstorm was absolutely ___ , so the children hid under the blankets (TERRIFY).",
+  "answer": "terrifying",
+  "options": ["terrifying", "terrified", "terrific", "terror"],
+  "hint": "the storm causes the fear (-ing); note 'terrific' means excellent",
+  "explanation": "The storm causes terror, so it is terrifying; the children felt terrified. 'Terrific' means excellent."
+ },
+ {
+  "sentence": "He is very ___ about local history (KNOW).",
+  "answer": "knowledgeable",
+  "options": ["knowledgeable", "knowledge", "knowing", "known"],
+  "hint": "adjective needed after 'very'; pattern '___ about'",
+  "explanation": "'Knowledgeable about something' means knowing a lot about it; it is the adjective form of 'knowledge'."
+ },
+ {
+  "sentence": "The island is ___ , with no permanent residents (HABIT).",
+  "answer": "uninhabited",
+  "options": ["uninhabited", "inhabited", "inhabitable", "inhabitant"],
+  "hint": "negative adjective: nobody lives there (un-)",
+  "explanation": "'No permanent residents' shows the negative: uninhabited (un- + inhabited). An adjective is needed after 'is'."
+ },
+ {
+  "sentence": "It is highly ___ that she will win — she leads by ten points (LIKE).",
+  "answer": "likely",
+  "options": ["likely", "unlikely", "liked", "likening"],
+  "hint": "probable — she is winning (adjective after 'highly')",
+  "explanation": "The context shows probability, so 'likely' is needed; 'unlikely' would contradict her lead."
+ },
+ {
+  "sentence": "My grandfather is still very ___ for his age (ACT).",
+  "answer": "active",
+  "options": ["active", "action", "activity", "actively"],
+  "hint": "adjective needed after 'very' (-ive)",
+  "explanation": "An adjective is needed after 'very': active (-ive). 'Activity' is a noun and 'actively' an adverb."
+ },
+ {
+  "sentence": "We had a ___ view of the coast from the plane (SPECTACLE).",
+  "answer": "spectacular",
+  "options": ["spectacular", "spectacle", "spectacles", "spectacularly"],
+  "hint": "adjective needed before the noun 'view'",
+  "explanation": "The adjective of 'spectacle' is spectacular; it modifies the noun 'view'."
+ },
+ {
+  "sentence": "The soup tastes a bit ___ ; add some salt (TASTE).",
+  "answer": "tasteless",
+  "options": ["tasteless", "tasty", "taste", "tastefully"],
+  "hint": "negative adjective: it needs salt (-less)",
+  "explanation": "The suffix -less means without: tasteless explains why salt is needed. An adjective follows 'tastes'."
+ },
+ {
+  "sentence": "She gave a very ___ account of the incident that had everyone laughing (HUMOUR).",
+  "answer": "humorous",
+  "options": ["humorous", "humour", "humoured", "humourless"],
+  "hint": "positive adjective: it was funny (-ous)",
+  "explanation": "Everyone laughed, so the adjective is humorous (-ous). 'Humourless' means serious and would contradict the laughter."
+ },
+ {
+  "sentence": "The hospital provides ___ care around the clock (PERSON).",
+  "answer": "personal",
+  "options": ["personal", "personnel", "personally", "person"],
+  "hint": "adjective needed before the noun 'care'; beware the word meaning 'staff'",
+  "explanation": "'Personal care' uses the adjective 'personal'; 'personnel' is a noun meaning staff."
+ },
+ {
+  "sentence": "The street market sells ___ fruit in summer (JUICE).",
+  "answer": "juicy",
+  "options": ["juicy", "juicer", "juicily", "juice"],
+  "hint": "adjective needed before the noun 'fruit' (-y)",
+  "explanation": "The suffix -y forms the adjective: juicy fruit. A comparative or adverb cannot modify 'fruit'."
+ },
+ {
+  "sentence": "The tracks become ___ after heavy rain (ACCESS).",
+  "answer": "inaccessible",
+  "options": ["inaccessible", "accessible", "access", "accessing"],
+  "hint": "negative adjective: impossible to reach (in- + -ible)",
+  "explanation": "Heavy rain blocks the tracks, so the negative adjective 'inaccessible' (in- + accessible) is needed."
+ },
+ {
+  "sentence": "She ___ admitted that she had made a mistake (HONEST).",
+  "answer": "honestly",
+  "options": ["honestly", "honest", "honesty", "honestness"],
+  "hint": "adverb needed to modify 'admitted' (-ly)",
+  "explanation": "The suffix -ly forms adverbs: honestly modifies the verb 'admitted'."
+ },
+ {
+  "sentence": "The train arrived ___ , despite the snow (PUNCTUAL).",
+  "answer": "punctually",
+  "options": ["punctually", "punctual", "punctuation", "punctuality"],
+  "hint": "adverb needed to modify 'arrived' (-ly)",
+  "explanation": "An adverb is needed to modify 'arrived': punctually (-ly). 'Punctuality' is the noun."
+ },
+ {
+  "sentence": "He ___ denied knowing anything about the plan (FIRM).",
+  "answer": "firmly",
+  "options": ["firmly", "firm", "firmness", "firmer"],
+  "hint": "adverb needed to modify 'denied' (-ly)",
+  "explanation": "An adverb modifies the verb 'denied': firmly. Note the doubled m before -ly."
+ },
+ {
+  "sentence": "___ , the fire brigade arrived within minutes (LUCKY).",
+  "answer": "Luckily",
+  "options": ["Luckily", "Lucky", "Luck", "Luckiness"],
+  "hint": "sentence adverb needed at the start (-ly)",
+  "explanation": "A sentence adverb comments on the whole statement: Luckily. The adjective 'lucky' cannot start the sentence."
+ },
+ {
+  "sentence": "The team played ___ and deserved to win (EXCELLENT).",
+  "answer": "excellently",
+  "options": ["excellently", "excellent", "excellence", "excellency"],
+  "hint": "adverb needed to modify 'played' (-ly)",
+  "explanation": "An adverb modifies the verb 'played': excellently (-ly)."
+ },
+ {
+  "sentence": "She speaks English ___ for a beginner (REMARKABLE).",
+  "answer": "remarkably",
+  "options": ["remarkably", "remarkable", "remark", "remarkableness"],
+  "hint": "adverb needed to modify 'speaks' (-ly)",
+  "explanation": "An adverb modifies the verb 'speaks': remarkably (-ly)."
+ },
+ {
+  "sentence": "He ___ forgets to bring the tickets, as usual (TYPICAL).",
+  "answer": "typically",
+  "options": ["typically", "typical", "typify", "typified"],
+  "hint": "adverb of frequency needed to modify 'forgets' (-ly)",
+  "explanation": "An adverb modifies the verb 'forgets': typically means in the usual way."
+ },
+ {
+  "sentence": "The crowd waited ___ for the gates to open (PATIENT).",
+  "answer": "patiently",
+  "options": ["patiently", "patience", "patient", "patients"],
+  "hint": "adverb needed to modify 'waited' (-ly)",
+  "explanation": "An adverb modifies the verb 'waited': patiently. 'Patients' are people in hospital."
+ },
+ {
+  "sentence": "The old factory will be ___ into flats (MODERN).",
+  "answer": "modernised",
+  "options": ["modernised", "modern", "modernisation", "modernising"],
+  "hint": "verb needed in the passive (-ise); past participle",
+  "explanation": "The suffix -ise forms the verb: modernise. The passive 'will be' needs the past participle 'modernised'."
+ },
+ {
+  "sentence": "New technology has ___ the way we work (REVOLUTION).",
+  "answer": "revolutionised",
+  "options": ["revolutionised", "revolutionary", "revolution", "revolutionising"],
+  "hint": "verb needed after 'has' (-ise); past participle",
+  "explanation": "The suffix -ise forms the verb: revolutionise. After 'has' the past participle 'revolutionised' is needed."
+ },
+ {
+  "sentence": "The training course will ___ you to work abroad (QUALIFY).",
+  "answer": "qualify",
+  "options": ["qualify", "quality", "qualification", "qualifying"],
+  "hint": "base verb needed after 'will' (-ify)",
+  "explanation": "The suffix -ify forms the verb: qualify. A base verb follows 'will'."
+ },
+ {
+  "sentence": "Add flour to ___ the sauce (THICK).",
+  "answer": "thicken",
+  "options": ["thicken", "thick", "thickness", "thickly"],
+  "hint": "verb needed after 'to' (-en)",
+  "explanation": "The suffix -en forms verbs from adjectives: thicken. A base verb follows 'to'."
+ },
+ {
+  "sentence": "We must ___ our efforts to finish on time (STRONG).",
+  "answer": "strengthen",
+  "options": ["strengthen", "strong", "strength", "strongly"],
+  "hint": "verb needed after 'must' (-en)",
+  "explanation": "The suffix -en forms the verb: strengthen. A base verb follows 'must'."
+ },
+ {
+  "sentence": "The crisis could ___ the economic situation (WORSE).",
+  "answer": "worsen",
+  "options": ["worsen", "worse", "worst", "worsening"],
+  "hint": "verb needed after 'could' (-en)",
+  "explanation": "The suffix -en forms the verb: worsen means to make worse. A base verb follows 'could'."
+ },
+ {
+  "sentence": "This grant will ___ her to study abroad (ABLE).",
+  "answer": "enable",
+  "options": ["enable", "able", "disable", "ability"],
+  "hint": "positive verb needed: make it possible (en-)",
+  "explanation": "The prefix en- forms the verb: enable means to make able. 'Disable' is the negative opposite."
+ },
+ {
+  "sentence": "The mixture will ___ as it cools (SOLID).",
+  "answer": "solidify",
+  "options": ["solidify", "solid", "solidity", "solidly"],
+  "hint": "verb needed after 'will' (-ify)",
+  "explanation": "The suffix -ify forms the verb: solidify means to become solid. A base verb follows 'will'."
+ },
+ {
+  "sentence": "The government wants to ___ the tax system (SIMPLE).",
+  "answer": "simplify",
+  "options": ["simplify", "simple", "simplicity", "simply"],
+  "hint": "verb needed after 'to' (-ify)",
+  "explanation": "The suffix -ify forms the verb: simplify means to make simple. A base verb follows 'to'."
+ },
+ {
+  "sentence": "The sky began to ___ as the storm approached (DARK).",
+  "answer": "darken",
+  "options": ["darken", "dark", "darkness", "darkly"],
+  "hint": "verb needed after 'to' (-en)",
+  "explanation": "The suffix -en forms the verb: darken means to become dark. A base verb follows 'to'."
+ },
+ {
+  "sentence": "The audience was ___ by her performance (CAPTIVE).",
+  "answer": "captivated",
+  "options": ["captivated", "captivity", "captivate", "captivating"],
+  "hint": "passive verb needed: past participle (-ate)",
+  "explanation": "The suffix -ate forms the verb: captivate. The passive 'was ... by' needs the past participle 'captivated'."
+ },
+ {
+  "sentence": "The alarm ___ automatically at night (ACTIVE).",
+  "answer": "activates",
+  "options": ["activates", "actively", "active", "activity"],
+  "hint": "verb needed with a singular subject (-ate)",
+  "explanation": "The suffix -ate forms the verb: activate. The singular subject 'alarm' needs the -s form 'activates'."
+ },
+ {
+  "sentence": "We must take ___ for our own health (RESPONSIBLE).",
+  "answer": "responsibility",
+  "options": ["responsibility", "responsible", "responsibly", "inability"],
+  "hint": "noun needed after 'take' (-ity)",
+  "explanation": "'Take responsibility for something' is the fixed phrase; the -ity noun is needed."
+ },
+ {
+  "sentence": "The campaign aims to raise ___ of road safety (AWARE).",
+  "answer": "awareness",
+  "options": ["awareness", "unawares", "aware", "unaware"],
+  "hint": "noun needed after 'raise' (-ness)",
+  "explanation": "The suffix -ness forms the noun: raise awareness is the fixed phrase; 'aware' is an adjective."
+ },
+ {
+  "sentence": "His sudden ___ came as a shock to everyone (DEPART).",
+  "answer": "departure",
+  "options": ["departure", "departed", "departing", "department"],
+  "hint": "noun needed as subject (-ure); beware the word meaning 'part of an organisation'",
+  "explanation": "The noun of 'depart' is departure (-ure); a department is a section of an organisation."
+ },
+ {
+  "sentence": "The airline is known for its excellent ___ (SERVE).",
+  "answer": "service",
+  "options": ["service", "servant", "serving", "serve"],
+  "hint": "noun needed after 'excellent'; note the spelling change",
+  "explanation": "The noun of 'serve' is 'service' (-ice); a servant is a person who serves."
+ },
+ {
+  "sentence": "She gave a brief ___ of her plans (DESCRIBE).",
+  "answer": "description",
+  "options": ["description", "descriptive", "describing", "described"],
+  "hint": "noun needed after 'a brief' (-tion)",
+  "explanation": "After 'a brief' a noun is needed: description (-tion)."
+ },
+ {
+  "sentence": "The ___ between rich and poor is widening (DIVIDE).",
+  "answer": "division",
+  "options": ["division", "divided", "divisive", "dividing"],
+  "hint": "noun needed as subject (-sion)",
+  "explanation": "The subject must be a noun: division (-sion). 'Divisive' is an adjective."
+ },
+ {
+  "sentence": "Their ___ was celebrated with a big party (MARRY).",
+  "answer": "marriage",
+  "options": ["marriage", "married", "marrying", "marriageable"],
+  "hint": "noun needed after 'Their'; note the spelling change",
+  "explanation": "The noun of 'marry' is 'marriage' (-age); an adjective cannot follow 'Their' as subject."
+ },
+ {
+  "sentence": "She showed great ___ in dealing with the crisis (ABLE).",
+  "answer": "ability",
+  "options": ["ability", "inability", "able", "ably"],
+  "hint": "positive noun needed after 'great' (-ity)",
+  "explanation": "After 'great' a positive noun is needed: ability (-ity); 'inability' is the negative opposite."
+ },
+ {
+  "sentence": "The report highlighted the ___ of sport in schools (IMPORTANT).",
+  "answer": "importance",
+  "options": ["importance", "important", "importantly", "unimportant"],
+  "hint": "noun needed after 'the' (-ance)",
+  "explanation": "After 'the' a noun is needed: importance (-ance)."
+ },
+ {
+  "sentence": "Heavy snow made the mountain road ___ (PASS).",
+  "answer": "impassable",
+  "options": ["impassable", "passable", "passage", "passing"],
+  "hint": "negative adjective needed: impossible to travel through (im- + -able)",
+  "explanation": "Heavy snow blocks the road, so the negative adjective 'impassable' (im- + pass + -able) is needed."
+ },
+ {
+  "sentence": "His ___ behaviour embarrassed his colleagues (CHILD).",
+  "answer": "childish",
+  "options": ["childish", "childlike", "childhood", "childishly"],
+  "hint": "negative adjective needed (-ish): not appropriate for an adult",
+  "explanation": "'Childish' is negative (silly, immature); 'childlike' is positive (innocent). The embarrassment shows the negative sense."
+ },
+ {
+  "sentence": "He is under a lot of ___ at work (PRESS).",
+  "answer": "pressure",
+  "options": ["pressure", "pressing", "pressed", "press"],
+  "hint": "noun needed after 'a lot of'; fixed phrase 'under ___'",
+  "explanation": "'Under pressure' is the fixed phrase; the noun of 'press' is 'pressure'."
+ },
+ {
+  "sentence": "The economy shows signs of ___ (RECOVER).",
+  "answer": "recovery",
+  "options": ["recovery", "recovering", "recovered", "recoverable"],
+  "hint": "noun needed after 'signs of'; note the spelling change",
+  "explanation": "After 'signs of' a noun is needed: recovery (the -er of 'recover' becomes -ery)."
+ },
+ {
+  "sentence": "It was ___ of you to double-check the figures (SENSE).",
+  "answer": "sensible",
+  "options": ["sensible", "sensitive", "sensibility", "sensation"],
+  "hint": "positive adjective: showing good judgement (-ible)",
+  "explanation": "'It was sensible of you to do something' praises good judgement; 'sensitive' means easily affected."
+ },
+ {
+  "sentence": "The village has changed beyond ___ (RECOGNISE).",
+  "answer": "recognition",
+  "options": ["recognition", "recognisable", "recognised", "recognising"],
+  "hint": "noun needed after 'beyond' (-tion)",
+  "explanation": "'Beyond recognition' is the fixed phrase; after 'beyond' a noun is needed."
+ },
+ {
+  "sentence": "We need ___ proof before we can act (CONCLUDE).",
+  "answer": "conclusive",
+  "options": ["conclusive", "conclusion", "concluding", "conclusively"],
+  "hint": "adjective needed before the noun 'proof' (-ive)",
+  "explanation": "An adjective is needed before 'proof': conclusive (-ive). 'Conclusion' is the noun."
+ },
+ {
+  "sentence": "The ___ of the evidence convinced the jury (WEIGH).",
+  "answer": "weight",
+  "options": ["weight", "weigh", "weighty", "weighing"],
+  "hint": "noun needed after 'The'; fixed phrase 'the ___ of the evidence'",
+  "explanation": "'The weight of the evidence' is a fixed phrase; 'weight' is the noun of 'weigh'."
+ }
+]
