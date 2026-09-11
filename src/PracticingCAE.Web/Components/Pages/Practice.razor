@@ -101,10 +101,12 @@ else
                                             @foreach (var opt in gap.Options)
                                             {
                                                 var o = opt;
-                                                <button type="button" role="radio"
-                                                        class="opt-pill @(_answers[idx] == o ? "opt-selected" : "") @OptionFeedback(idx, o)"
-                                                        disabled="@_checked"
-                                                        @onclick="() => SelectOption(idx, o)">@o</button>
+                                                <label class="opt-pill @OptionFeedback(idx, o)">
+                                                <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
+                                                       checked="@(_answers[idx] == o)" disabled="@_checked"
+                                                       @onchange="@(e => SelectOption(idx, o))" />
+                                                <span>@o</span>
+                                            </label>
                                             }
                                         </div>
                                     }
@@ -150,10 +152,12 @@ else
                                         @foreach (var opt in gap.Options)
                                         {
                                             var o = opt;
-                                            <button type="button" role="radio"
-                                                    class="opt-pill @(_answers[idx] == o ? "opt-selected" : "") @OptionFeedback(idx, o)"
-                                                    disabled="@_checked"
-                                                    @onclick="() => SelectOption(idx, o)">@o</button>
+                                            <label class="opt-pill @OptionFeedback(idx, o)">
+                                                <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
+                                                       checked="@(_answers[idx] == o)" disabled="@_checked"
+                                                       @onchange="@(e => SelectOption(idx, o))" />
+                                                <span>@o</span>
+                                            </label>
                                         }
                                     </div>
                                 }

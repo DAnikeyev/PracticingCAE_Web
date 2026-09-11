@@ -485,3 +485,35 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
 }
 .btn-danger { background: var(--danger); border-color: transparent; color: #fff; }
 .btn-danger:hover { background: #bb3a50; color: #fff; }
+
+/* ---------- instant-select option pills (real radios, zero-latency highlight) ---------- */
+.opt-pill { position: relative; }
+.opt-pill input[type="radio"] {
+    position: absolute; inset: 0;
+    opacity: 0; margin: 0; cursor: pointer;
+}
+.opt-pill:has(input:checked) {
+    border-color: var(--primary);
+    background: var(--primary-soft);
+    color: var(--primary-strong);
+    font-weight: 700;
+    box-shadow: 0 3px 10px -5px rgba(74, 85, 226, .6);
+}
+.opt-pill:has(input:disabled) { cursor: default; opacity: .9; }
+.opt-pill.opt-correct:has(input:disabled) {
+    border-color: var(--accent); background: var(--accent-soft); color: #0a6b4a; opacity: 1;
+}
+.opt-pill.opt-wrong:has(input:disabled) {
+    border-color: var(--danger); background: var(--danger-soft); color: #97293d; opacity: 1;
+}
+
+/* ---------- password eye ---------- */
+.pw-wrap { position: relative; }
+.pw-wrap .form-control { padding-right: 2.6rem; width: 100%; }
+.pw-eye {
+    position: absolute; right: .55rem; top: 50%; transform: translateY(-50%);
+    border: none; background: transparent; cursor: pointer;
+    font-size: 1rem; line-height: 1; padding: .2rem; border-radius: 7px;
+    z-index: 2;
+}
+.pw-eye:hover { background: #eef0f8; }

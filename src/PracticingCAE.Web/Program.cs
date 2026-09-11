@@ -88,3 +88,6 @@ app.MapRazorComponents<App>()
 app.MapAdditionalIdentityEndpoints();
 
 app.Run();
+
+// Expose Program to WebApplicationFactory in integration tests.
+public partial class Program { }

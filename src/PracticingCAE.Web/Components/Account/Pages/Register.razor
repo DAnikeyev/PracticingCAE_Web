@@ -30,14 +30,16 @@
         <label for="email">Email</label>
         <ValidationMessage For="() => Input.Email" class="text-danger" />
     </div>
-    <div class="form-floating mb-3">
-        <InputText type="password" @bind-Value="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
-        <label for="password">Password</label>
+    <div class="form-floating mb-3 pw-wrap">
+            <InputText type="password" @bind-Value="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label for="password">Password</label>
+            <button type="button" class="pw-eye" onclick="caeUi.togglePw(this)" aria-label="Show password">👁</button>
         <ValidationMessage For="() => Input.Password" class="text-danger" />
     </div>
-    <div class="form-floating mb-3">
-        <InputText type="password" @bind-Value="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
-        <label for="confirm-password">Confirm Password</label>
+    <div class="form-floating mb-3 pw-wrap">
+            <InputText type="password" @bind-Value="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label for="confirm-password">Confirm Password</label>
+            <button type="button" class="pw-eye" onclick="caeUi.togglePw(this)" aria-label="Show password">👁</button>
         <ValidationMessage For="() => Input.ConfirmPassword" class="text-danger" />
     </div>
     <button type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
