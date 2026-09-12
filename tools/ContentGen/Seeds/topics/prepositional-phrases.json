@@ -1,0 +1,332 @@
+[
+ {
+  "sentence": "___ first, the plan sounded ridiculous — then it grew on us.",
+  "answer": "At",
+  "hint": "___ first = initially",
+  "explanation": "'At first' = in the beginning (contrast with 'first' = before anything else)."
+ },
+ {
+  "sentence": "We finished the report ___ time for the meeting.",
+  "answer": "in",
+  "hint": "___ time for = early enough",
+  "explanation": "'in time for' = early enough; 'on time' = punctual."
+ },
+ {
+  "sentence": "The 8:15 train left ___ time, to the second.",
+  "answer": "on",
+  "hint": "punctual = ___ time",
+  "explanation": "'on time' = exactly as scheduled."
+ },
+ {
+  "sentence": "She's ___ charge of the whole marketing department.",
+  "answer": "in",
+  "hint": "responsible for",
+  "explanation": "'in charge of' = responsible for managing."
+ },
+ {
+  "sentence": "The file was deleted ___ accident.",
+  "answer": "by",
+  "hint": "___ accident = unintentionally",
+  "explanation": "'by accident' = accidentally (opposite: on purpose)."
+ },
+ {
+  "sentence": "___ no circumstances should you share this password.",
+  "answer": "Under",
+  "hint": "formal prohibition phrase",
+  "explanation": "'Under no circumstances' — formal emphatic prohibition."
+ },
+ {
+  "sentence": "I'll be there ___ ten minutes at the latest.",
+  "answer": "in",
+  "hint": "after a period from now",
+  "explanation": "'in ten minutes' = after ten minutes have passed."
+ },
+ {
+  "sentence": "He completed the marathon despite being ___ breath.",
+  "answer": "out of",
+  "hint": "not able to breathe properly",
+  "explanation": "'out of breath' = breathing fast from effort."
+ },
+ {
+  "sentence": "___ the whole, the feedback was positive.",
+  "answer": "On",
+  "hint": "generally speaking",
+  "explanation": "'On the whole' = considering everything."
+ },
+ {
+  "sentence": "The decision was taken ___ my behalf while I was away.",
+  "answer": "on",
+  "hint": "for someone, in their place",
+  "explanation": "'on somebody's behalf' = in their interest or place."
+ },
+ {
+  "sentence": "There's no point arguing ___ it now — the contract is signed.",
+  "answer": "about",
+  "hint": "argue ___ sth",
+  "explanation": "'argue about something' — also 'over'.",
+  "accept": [
+   "over"
+  ]
+ },
+ {
+  "sentence": "The tickets sold out ___ a matter of hours.",
+  "answer": "in",
+  "hint": "within a short period",
+  "explanation": "'in a matter of hours' = within only a few hours."
+ },
+ {
+  "sentence": "She succeeded ___ of all expectations.",
+  "answer": "beyond",
+  "hint": "further than expected",
+  "explanation": "'beyond all expectations' = better than anyone predicted."
+ },
+ {
+  "sentence": "___ second thoughts, maybe we should postpone.",
+  "answer": "On",
+  "hint": "reconsidering",
+  "explanation": "'On second thoughts' = having reconsidered (BrE)."
+ },
+ {
+  "sentence": "The refugees were admitted ___ the country on humanitarian grounds.",
+  "answer": "into",
+  "hint": "admitted ___ a place",
+  "explanation": "admitted INTO a place/country."
+ },
+ {
+  "sentence": "He stayed ___ touch with every colleague he'd ever had.",
+  "answer": "in",
+  "hint": "___ touch = in contact",
+  "explanation": "'in touch with' = maintaining contact."
+ },
+ {
+  "sentence": "___ comparison with last year, sales have doubled.",
+  "answer": "By",
+  "hint": "when compared",
+  "explanation": "'By comparison with' = compared to."
+ },
+ {
+  "sentence": "The project is ___ way to completion ahead of schedule.",
+  "answer": "under",
+  "hint": "___ way = in progress",
+  "explanation": "'under way' = already in progress (two words)."
+ },
+ {
+  "sentence": "I'm afraid we're ___ of options at this point.",
+  "answer": "out",
+  "hint": "have none remaining",
+  "explanation": "'out of options' = no options remaining."
+ },
+ {
+  "sentence": "The amendments take effect ___ 1 January.",
+  "answer": "from",
+  "hint": "starting at (a date)",
+  "explanation": "'from 1 January' = beginning on that date (also 'with effect from')."
+ },
+ {
+  "sentence": "The bus was so crowded that we travelled ___ discomfort.",
+  "answer": "in",
+  "hint": "___ discomfort = experiencing it",
+  "explanation": "'in discomfort/silence/agreement' — 'in + abstract noun' for states."
+ },
+ {
+  "sentence": "Everything was left ___ the care of the neighbours.",
+  "answer": "in",
+  "hint": "entrusted to",
+  "explanation": "'in the care of' = looked after by."
+ },
+ {
+  "sentence": "The two reports differ ___ several important respects.",
+  "answer": "in",
+  "hint": "___ respects = aspects",
+  "explanation": "'in several respects' = in several aspects."
+ },
+ {
+  "sentence": "They kept the negotiation ___ wraps until the deal was signed.",
+  "answer": "under",
+  "hint": "___ wraps = secret",
+  "explanation": "'keep something under wraps' = keep it secret."
+ },
+ {
+  "sentence": "___ the circumstances, the committee chose leniency.",
+  "answer": "In",
+  "hint": "considering the situation",
+  "explanation": "'in the circumstances' = given the situation (also 'under').",
+  "accept": [
+   "Under"
+  ]
+ },
+ {
+  "sentence": "Her latest novel is ___ far her best.",
+  "answer": "by",
+  "hint": "___ far = by a large margin",
+  "explanation": "'by far' = by a big margin, with superlatives."
+ },
+ {
+  "sentence": "The scheme was abandoned ___ lack of interest.",
+  "answer": "for",
+  "hint": "because of (formal)",
+  "explanation": "'for lack of' = because there was none."
+ },
+ {
+  "sentence": "We spoke ___ the phone for an hour.",
+  "answer": "on",
+  "hint": "communication medium",
+  "explanation": "'on the phone', 'on television', 'on the radio'."
+ },
+ {
+  "sentence": "The company is ___ serious financial difficulties.",
+  "answer": "in",
+  "hint": "experiencing (a state)",
+  "explanation": "'in difficulties/trouble/debt' — 'in + difficult state'."
+ },
+ {
+  "sentence": "___ contrast to her sister, she loves publicity.",
+  "answer": "In",
+  "hint": "opposite to",
+  "explanation": "'in contrast to' = when compared oppositely."
+ },
+ {
+  "sentence": "The proposal was rejected ___ a single vote.",
+  "answer": "by",
+  "hint": "margin of defeat",
+  "explanation": "'by a single vote / by two goals' — the margin takes 'by'."
+ },
+ {
+  "sentence": "He did it ___ purpose, just to annoy her.",
+  "answer": "on",
+  "hint": "intentionally",
+  "explanation": "'on purpose' = deliberately."
+ },
+ {
+  "sentence": "___ his credit, he apologised immediately.",
+  "answer": "To",
+  "hint": "to his credit = in his favour",
+  "explanation": "'to somebody's credit' — something in their favour."
+ },
+ {
+  "sentence": "The museum is open to the public ___ appointment only.",
+  "answer": "by",
+  "hint": "arranged in advance",
+  "explanation": "'by appointment' = only if arranged beforehand."
+ },
+ {
+  "sentence": "She learnt Russian ___ watching films alone.",
+  "answer": "through",
+  "hint": "by means of",
+  "explanation": "'through + -ing/noun' = by means of.",
+  "accept": [
+   "by"
+  ]
+ },
+ {
+  "sentence": "The neighbours complained ___ the noise until dawn.",
+  "answer": "about",
+  "hint": "complain ___ sth (first gap)",
+  "explanation": "complain ABOUT something; 'in the small hours' = after midnight. Only the first gap is checked."
+ },
+ {
+  "sentence": "We're ___ the impression that the offer had expired.",
+  "answer": "under",
+  "hint": "___ the impression = believing",
+  "explanation": "'under the impression that…' = believing, often wrongly."
+ },
+ {
+  "sentence": "The castle dates ___ to the fourteenth century.",
+  "answer": "back",
+  "hint": "___ to = originate in",
+  "explanation": "'date back to' = have existed since."
+ },
+ {
+  "sentence": "The new policy was introduced ___ response to rising demand.",
+  "answer": "in",
+  "hint": "___ response to",
+  "explanation": "'in response to' = as a reaction to."
+ },
+ {
+  "sentence": "She's ___ no means certain to win, but she's the favourite.",
+  "answer": "by",
+  "hint": "___ no means = definitely not",
+  "explanation": "'by no means' = definitely not."
+ },
+ {
+  "sentence": "The village is accessible only ___ foot.",
+  "answer": "on",
+  "hint": "travel mode: ___ foot",
+  "explanation": "'on foot' = walking (never 'by foot' in careful usage)."
+ },
+ {
+  "sentence": "Everything happened ___ such short notice that we panicked.",
+  "answer": "at",
+  "hint": "___ short notice",
+  "explanation": "'at short notice' = with little warning."
+ },
+ {
+  "sentence": "The company collapsed ___ a pile of debts.",
+  "answer": "under",
+  "hint": "crushed by weight (figurative)",
+  "explanation": "'under a pile/mountain of debt' — 'under' for crushing weight, literal or figurative."
+ },
+ {
+  "sentence": "___ terms of quality, the cheaper model wins.",
+  "answer": "In",
+  "hint": "regarding",
+  "explanation": "'in terms of' = with regard to."
+ },
+ {
+  "sentence": "The negotiations broke down ___ the very brink of success.",
+  "answer": "on",
+  "hint": "___ the brink of",
+  "explanation": "'on the brink of' = on the point of."
+ },
+ {
+  "sentence": "I did it ___ my own initiative — nobody asked me.",
+  "answer": "of",
+  "hint": "___ one's own initiative",
+  "explanation": "'of one's own initiative' = without being asked."
+ },
+ {
+  "sentence": "The smell was ___ this world — absolutely incredible.",
+  "answer": "out",
+  "hint": "___ this world = amazing",
+  "explanation": "'out of this world' = extraordinary (idiom: with 'of')."
+ },
+ {
+  "sentence": "He denied everything ___ the face of the evidence.",
+  "answer": "in",
+  "hint": "___ the face of = when confronted with",
+  "explanation": "'in the face of' = despite / when confronted by."
+ },
+ {
+  "sentence": "There's little to choose ___ the two finalists.",
+  "answer": "between",
+  "hint": "choose ___ two",
+  "explanation": "'between' for two; 'among' for more than two."
+ },
+ {
+  "sentence": "The original manuscript is ___ permanent display in Vienna.",
+  "answer": "on",
+  "hint": "___ display",
+  "explanation": "'on display' = being shown to the public."
+ },
+ {
+  "sentence": "She resigned ___ the grounds of ill health.",
+  "answer": "on",
+  "hint": "___ the grounds of = because of",
+  "explanation": "'on the grounds of' = for the reason of."
+ },
+ {
+  "sentence": "The letter arrived ___ due course — three weeks later.",
+  "answer": "in",
+  "hint": "___ due course = at the expected time",
+  "explanation": "'in due course' = at the proper time eventually."
+ },
+ {
+  "sentence": "___ good fortune, nobody was hurt in the collapse.",
+  "answer": "Through",
+  "hint": "thanks to / because of (chance)",
+  "explanation": "'through good fortune' = by means of luck.",
+  "accept": [
+   "By"
+  ]
+ }
+]

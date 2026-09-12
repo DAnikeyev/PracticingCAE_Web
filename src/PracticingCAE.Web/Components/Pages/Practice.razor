@@ -6,6 +6,7 @@
 @inject ProgressService ProgressSvc
 @inject OwnerResolver Owner
 @inject NavigationManager Nav
+@inject IJSRuntime JS
 
 <PageTitle>@(_task?.Title ?? "Practice") — CAE Practice</PageTitle>
 
@@ -40,6 +41,13 @@ else
                 </p>
             </div>
             <div class="practice-actions">
+                @if (_hasOptions)
+                {
+                    <label class="mode-toggle" title="Type your answers instead of clicking the options">
+                        <input type="checkbox" checked="@_typeMode" @onchange="ToggleTypeMode" />
+                        ✍️ Type answers
+                    </label>
+                }
                 <button class="btn btn-soft" @onclick="RevealAllHints" disabled="@_checked" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
                 <button class="btn btn-soft" @onclick="RevealAnswers" disabled="@_checked" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
                 <button class="btn btn-primary" @onclick="Check" disabled="@_checked">✔ Check</button>
@@ -95,7 +103,7 @@ else
                                 @if (parts is not null)
                                 {
                                     <span class="sentence">@parts.Value.before</span>
-                                    if (gap.Options.Count > 0)
+                                    if (gap.Options.Count > 0 && !_typeMode)
                                     {
                                         <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
                                             @foreach (var opt in gap.Options)
@@ -146,7 +154,7 @@ else
                                 {
                                     <span class="base-badge">@gap.Base</span>
                                 }
-                                @if (gap.Options.Count > 0)
+                                @if (gap.Options.Count > 0 && !_typeMode)
                                 {
                                     <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
                                         @foreach (var opt in gap.Options)
@@ -233,9 +241,44 @@ else
     private bool _loading = true;
     private SetResult? _result;
     private string? _ownerId;
+    private bool _typeMode;
+    private bool _loaded;
 
     private bool IsCloze => _task is { Kind: SetKind.Rue1 or SetKind.Rue2 or SetKind.Rue3 };
     private bool IsExamStyle => _set?.Source == "exam-style";
+    private bool _hasOptions => _gaps.Any(g => g.Options.Count > 0);
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (_loaded) return;
+        _loaded = true;
+        try
+        {
+            _typeMode = await JS.InvokeAsync<bool>("caeUi.getPref", "typeMode", false);
+            StateHasChanged();
+            if (_typeMode) await JS.InvokeVoidAsync("caeUi.focusFirstGap");
+        }
+        catch (Exception)
+        {
+            // interop is best-effort (circuit reconnecting)
+        }
+    }
+
+    private async Task ToggleTypeMode(ChangeEventArgs e)
+    {
+        _typeMode = e.Value is true;
+        try
+        {
+            await JS.InvokeVoidAsync("caeUi.setPref", "typeMode", _typeMode);
+            StateHasChanged();
+            if (_typeMode)
+                await JS.InvokeVoidAsync("caeUi.fillGapInputs", _answers);
+        }
+        catch (Exception)
+        {
+            // interop is best-effort
+        }
+    }
 
     private static string idx1(int i) => (i + 1).ToString();
 

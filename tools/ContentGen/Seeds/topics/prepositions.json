@@ -42,12 +42,6 @@
   "explanation": "arrive IN towns, cities and countries; AT for buildings/points."
  },
  {
-  "sentence": "Do you believe ___ ghosts?",
-  "answer": "in",
-  "hint": "believe ___ sth (existence)",
-  "explanation": "believe IN something = think it exists/is right; believe somebody = trust their word."
- },
- {
   "sentence": "She blamed the delay ___ the courier company.",
   "answer": "on",
   "hint": "blame sth ___ sb",
@@ -247,18 +241,6 @@
   "answer": "at",
   "hint": "laugh ___ sth",
   "explanation": "laugh AT something/somebody."
- },
- {
-  "sentence": "Listen ___ me carefully: this is important.",
-  "answer": "to",
-  "hint": "listen ___ sb",
-  "explanation": "listen TO somebody/something."
- },
- {
-  "sentence": "Look ___ those clouds — it's going to rain.",
-  "answer": "at",
-  "hint": "look ___ sth (see)",
-  "explanation": "look AT = direct your eyes; look after = take care of; look for = search."
  },
  {
   "sentence": "Could you look ___ my plants while I'm away?",

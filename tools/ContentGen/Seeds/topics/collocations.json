@@ -2,791 +2,1344 @@
  {
   "sentence": "The committee will ___ a decision next week.",
   "answer": "make",
-  "options": ["make", "do", "give", "take"],
+  "options": [
+   "make",
+   "do",
+   "give",
+   "take"
+  ],
   "hint": "fixed collocation with 'decision'",
   "explanation": "make a decision is the fixed collocation; we do not 'do' or 'give' a decision."
  },
  {
   "sentence": "She has ___ great progress since she changed schools.",
   "answer": "made",
-  "options": ["made", "done", "taken", "given"],
+  "options": [
+   "made",
+   "done",
+   "taken",
+   "given"
+  ],
   "hint": "past participle needed after 'has'",
   "explanation": "make progress is the collocation; after 'has' the past participle 'made' is needed."
  },
  {
-  "sentence": "I'd like to ___ an appointment to see the manager.",
-  "answer": "make",
-  "options": ["make", "do", "take", "give"],
-  "hint": "you arrange an appointment by ___ing it",
-  "explanation": "make an appointment is the fixed collocation for arranging a meeting time."
- },
- {
   "sentence": "It's hard to ___ friends when you move to a new city.",
   "answer": "make",
-  "options": ["make", "get", "do", "take"],
+  "options": [
+   "make",
+   "get",
+   "do",
+   "take"
+  ],
   "hint": "collocation with 'friends'",
   "explanation": "make friends is the fixed expression for forming friendships."
  },
  {
   "sentence": "Could you ___ me a favour and close the window?",
   "answer": "do",
-  "options": ["do", "make", "give", "take"],
+  "options": [
+   "do",
+   "make",
+   "give",
+   "take"
+  ],
   "hint": "collocation with 'favour'",
   "explanation": "do somebody a favour is the fixed collocation; 'make a favour' is a common error."
  },
  {
   "sentence": "The scientists are ___ research into new forms of energy.",
   "answer": "doing",
-  "options": ["doing", "making", "taking", "giving"],
+  "options": [
+   "doing",
+   "making",
+   "taking",
+   "giving"
+  ],
   "hint": "collocation with 'research'",
   "explanation": "do research (into something) is the collocation; 'make research' is wrong."
  },
  {
   "sentence": "Smoking can ___ serious harm to your health.",
   "answer": "do",
-  "options": ["do", "make", "give", "take"],
+  "options": [
+   "do",
+   "make",
+   "give",
+   "take"
+  ],
   "hint": "collocation with 'harm'",
   "explanation": "do harm to something is the fixed phrase; 'make harm' is a common learner error."
  },
  {
   "sentence": "They ___ a lot of business with companies in Asia.",
   "answer": "do",
-  "options": ["do", "make", "have", "take"],
+  "options": [
+   "do",
+   "make",
+   "have",
+   "take"
+  ],
   "hint": "collocation with 'business'",
   "explanation": "do business with somebody is the fixed expression for commercial activity."
  },
  {
   "sentence": "We ___ our shopping at the local market every Saturday.",
   "answer": "do",
-  "options": ["do", "make", "take", "go"],
+  "options": [
+   "do",
+   "make",
+   "take",
+   "go"
+  ],
   "hint": "collocation with 'the shopping'",
   "explanation": "do the shopping is the collocation for buying food and household goods."
  },
  {
   "sentence": "She ___ very well in her end-of-year exams.",
   "answer": "did",
-  "options": ["did", "made", "took", "went"],
+  "options": [
+   "did",
+   "made",
+   "took",
+   "went"
+  ],
   "hint": "collocation: to ___ well in an exam",
   "explanation": "do well in an exam is the standard phrase meaning to perform successfully."
  },
  {
   "sentence": "We were asked to ___ an experiment in the laboratory.",
   "answer": "do",
-  "options": ["do", "make", "take", "give"],
+  "options": [
+   "do",
+   "make",
+   "take",
+   "give"
+  ],
   "hint": "collocation with 'experiment'",
   "explanation": "do an experiment is the standard collocation in scientific contexts."
  },
  {
   "sentence": "I must ___ my homework before I can go out.",
   "answer": "do",
-  "options": ["do", "make", "write", "take"],
+  "options": [
+   "do",
+   "make",
+   "write",
+   "take"
+  ],
   "hint": "collocation with 'homework'",
   "explanation": "do homework is the fixed collocation; 'make homework' is a common learner error."
  },
  {
   "sentence": "The storm ___ a lot of damage to the roof.",
   "answer": "did",
-  "options": ["did", "made", "took", "gave"],
+  "options": [
+   "did",
+   "made",
+   "took",
+   "gave"
+  ],
   "hint": "collocation with 'damage'",
   "explanation": "do damage to something is the collocation; past tense 'did' is needed here."
  },
  {
   "sentence": "He was exhausted because he had ___ the cooking for twenty people.",
   "answer": "done",
-  "options": ["done", "made", "given", "taken"],
+  "options": [
+   "done",
+   "made",
+   "given",
+   "taken"
+  ],
   "hint": "collocation with 'the cooking'",
   "explanation": "do the cooking is the fixed phrase; after 'had' the past participle 'done' is needed."
  },
  {
   "sentence": "Who ___ the washing-up in your house?",
   "answer": "does",
-  "options": ["does", "makes", "washes", "cleans"],
+  "options": [
+   "does",
+   "makes",
+   "washes",
+   "cleans"
+  ],
   "hint": "collocation with 'the washing-up'",
   "explanation": "do the washing-up means to wash the dishes; the -s form is needed with 'who'."
  },
  {
   "sentence": "We should ___ an effort to arrive on time.",
   "answer": "make",
-  "options": ["make", "do", "give", "take"],
+  "options": [
+   "make",
+   "do",
+   "give",
+   "take"
+  ],
   "hint": "collocation with 'effort'",
   "explanation": "make an effort is the fixed collocation meaning to try hard."
  },
  {
   "sentence": "The manager ___ an announcement about the changes yesterday.",
   "answer": "made",
-  "options": ["made", "did", "gave", "took"],
+  "options": [
+   "made",
+   "did",
+   "gave",
+   "took"
+  ],
   "hint": "collocation with 'announcement'",
   "explanation": "make an announcement is the fixed collocation for stating something publicly."
  },
  {
   "sentence": "I'd like to ___ a suggestion, if I may.",
   "answer": "make",
-  "options": ["make", "do", "give", "say"],
+  "options": [
+   "make",
+   "do",
+   "give",
+   "say"
+  ],
   "hint": "collocation with 'suggestion'",
   "explanation": "make a suggestion is the fixed collocation; 'say a suggestion' is not used."
  },
  {
   "sentence": "Her company ___ a huge profit last year.",
   "answer": "made",
-  "options": ["made", "did", "won", "took"],
+  "options": [
+   "made",
+   "did",
+   "won",
+   "took"
+  ],
   "hint": "collocation with 'profit'",
   "explanation": "make a profit (or make a loss) is the fixed business collocation."
  },
  {
   "sentence": "The children were told not to ___ so much noise.",
   "answer": "make",
-  "options": ["make", "do", "have", "say"],
+  "options": [
+   "make",
+   "do",
+   "have",
+   "say"
+  ],
   "hint": "collocation with 'noise'",
   "explanation": "make a noise / make noise is the fixed collocation."
  },
  {
   "sentence": "Can we ___ a phone call before we leave?",
   "answer": "make",
-  "options": ["make", "do", "give", "take"],
+  "options": [
+   "make",
+   "do",
+   "give",
+   "take"
+  ],
   "hint": "collocation with 'phone call'",
   "explanation": "make a phone call / make a call is the standard collocation."
  },
  {
   "sentence": "Please ___ sure that all the windows are locked.",
   "answer": "make",
-  "options": ["make", "do", "take", "give"],
+  "options": [
+   "make",
+   "do",
+   "take",
+   "give"
+  ],
   "hint": "fixed phrase: ___ sure",
   "explanation": "make sure means to check that something is true or has been done."
  },
  {
   "sentence": "We are still ___ arrangements for the wedding.",
   "answer": "making",
-  "options": ["making", "doing", "taking", "giving"],
+  "options": [
+   "making",
+   "doing",
+   "taking",
+   "giving"
+  ],
   "hint": "collocation with 'arrangements'",
   "explanation": "make arrangements is the fixed collocation for organising plans."
  },
  {
   "sentence": "He ___ a fortune selling software online.",
   "answer": "made",
-  "options": ["made", "did", "won", "took"],
+  "options": [
+   "made",
+   "did",
+   "won",
+   "took"
+  ],
   "hint": "collocation with 'a fortune'",
   "explanation": "make a fortune means to earn a very large amount of money."
  },
  {
   "sentence": "It took her years to ___ a living from her painting.",
   "answer": "make",
-  "options": ["make", "do", "get", "take"],
+  "options": [
+   "make",
+   "do",
+   "get",
+   "take"
+  ],
   "hint": "fixed phrase: ___ a living",
   "explanation": "make a living means to earn enough money to live on."
  },
  {
   "sentence": "She always ___ her best, even in friendly matches.",
   "answer": "does",
-  "options": ["does", "makes", "puts", "takes"],
+  "options": [
+   "does",
+   "makes",
+   "puts",
+   "takes"
+  ],
   "hint": "fixed phrase: ___ one's best",
   "explanation": "do one's best means to try as hard as possible; the -es form agrees with 'she'."
  },
  {
   "sentence": "I'm ___ a course in web design this term.",
   "answer": "doing",
-  "options": ["doing", "making", "giving", "going"],
+  "options": [
+   "doing",
+   "making",
+   "giving",
+   "going"
+  ],
   "hint": "collocation with 'a course'",
   "explanation": "do a course is the British English collocation for studying on a course."
  },
  {
   "sentence": "He ___ some ridiculous excuse about his car breaking down.",
   "answer": "made",
-  "options": ["made", "did", "told", "said"],
+  "options": [
+   "made",
+   "did",
+   "told",
+   "said"
+  ],
   "hint": "collocation with 'excuse'",
   "explanation": "make an excuse is the fixed collocation; 'tell an excuse' is not used."
  },
  {
   "sentence": "We ___ breakfast on the terrace every morning in summer.",
   "answer": "have",
-  "options": ["have", "make", "take", "do"],
+  "options": [
+   "have",
+   "make",
+   "take",
+   "do"
+  ],
   "hint": "collocation with meals: ___ breakfast",
   "explanation": "have breakfast/lunch/dinner is the standard collocation for eating meals."
  },
  {
   "sentence": "She ___ a quick shower before leaving the gym.",
   "answer": "had",
-  "options": ["had", "made", "did", "gave"],
+  "options": [
+   "had",
+   "made",
+   "did",
+   "gave"
+  ],
   "hint": "collocation with 'shower'",
   "explanation": "have a shower is the standard British English collocation; 'made a shower' is wrong."
  },
  {
   "sentence": "Let's ___ a rest before we continue.",
   "answer": "have",
-  "options": ["have", "do", "make", "give"],
+  "options": [
+   "have",
+   "do",
+   "make",
+   "give"
+  ],
   "hint": "collocation with 'rest'",
   "explanation": "have a rest is the fixed collocation for pausing to relax."
  },
  {
   "sentence": "The children ___ great fun at the party.",
   "answer": "had",
-  "options": ["had", "made", "did", "took"],
+  "options": [
+   "had",
+   "made",
+   "did",
+   "took"
+  ],
   "hint": "collocation with 'fun'",
   "explanation": "have fun / have great fun is the fixed collocation; 'made fun' means mocked someone."
  },
  {
   "sentence": "He ___ a serious accident on his motorbike last year.",
   "answer": "had",
-  "options": ["had", "made", "did", "took"],
+  "options": [
+   "had",
+   "made",
+   "did",
+   "took"
+  ],
   "hint": "collocation with 'accident'",
   "explanation": "have an accident is the fixed collocation for being involved in one."
  },
  {
   "sentence": "I ___ a strange dream last night.",
   "answer": "had",
-  "options": ["had", "made", "did", "saw"],
+  "options": [
+   "had",
+   "made",
+   "did",
+   "saw"
+  ],
   "hint": "collocation with 'dream'",
   "explanation": "have a dream is the English collocation; 'see a dream' is a common learner error."
  },
  {
   "sentence": "The neighbours ___ a loud argument in the garden last night.",
   "answer": "had",
-  "options": ["had", "made", "did", "gave"],
+  "options": [
+   "had",
+   "made",
+   "did",
+   "gave"
+  ],
   "hint": "collocation with 'argument'",
   "explanation": "have an argument (with somebody) is the fixed collocation for quarrelling."
  },
  {
   "sentence": "We stopped at a cafe to ___ a chat.",
   "answer": "have",
-  "options": ["have", "make", "do", "give"],
+  "options": [
+   "have",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'chat'",
   "explanation": "have a chat is the fixed collocation for a friendly, informal conversation."
  },
  {
   "sentence": "Why don't we ___ lunch together on Friday?",
   "answer": "have",
-  "options": ["have", "do", "make", "give"],
+  "options": [
+   "have",
+   "do",
+   "make",
+   "give"
+  ],
   "hint": "collocation with meals",
   "explanation": "have lunch is the standard collocation for eating lunch."
  },
  {
   "sentence": "She ___ no difficulty finding the address.",
   "answer": "had",
-  "options": ["had", "made", "did", "took"],
+  "options": [
+   "had",
+   "made",
+   "did",
+   "took"
+  ],
   "hint": "fixed pattern: ___ no difficulty doing something",
   "explanation": "have no difficulty (in) doing something is the fixed pattern; 'made no difficulty' is wrong."
  },
  {
   "sentence": "Let me ___ a photo of you both.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'photo'",
   "explanation": "take a photo/picture is the fixed collocation for photographing something."
  },
  {
   "sentence": "All candidates must ___ the written exam in June.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'exam' from the candidate's side",
   "explanation": "take an exam (or sit an exam) means to be tested; 'give an exam' is not used in British English."
  },
  {
   "sentence": "Over five hundred athletes will ___ part in the games.",
   "answer": "take",
-  "options": ["take", "have", "make", "give"],
+  "options": [
+   "take",
+   "have",
+   "make",
+   "give"
+  ],
   "hint": "fixed phrase: ___ part in",
   "explanation": "take part in something means to participate in it."
  },
  {
   "sentence": "Who will ___ responsibility for the project now that Jane has left?",
   "answer": "take",
-  "options": ["take", "have", "make", "do"],
+  "options": [
+   "take",
+   "have",
+   "make",
+   "do"
+  ],
   "hint": "fixed phrase: ___ responsibility for",
   "explanation": "take responsibility for something means to accept the duty of dealing with it."
  },
  {
   "sentence": "The wedding will ___ place in the village church.",
   "answer": "take",
-  "options": ["take", "have", "make", "give"],
+  "options": [
+   "take",
+   "have",
+   "make",
+   "give"
+  ],
   "hint": "fixed phrase: ___ place",
   "explanation": "take place means to happen; it is the fixed phrase for events."
  },
  {
   "sentence": "Let me ___ a look at that cut on your arm.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'a look'",
   "explanation": "take a look (at something) is the fixed collocation for examining something briefly."
  },
  {
   "sentence": "We ___ a taxi from the airport because it was raining.",
   "answer": "took",
-  "options": ["took", "made", "did", "went"],
+  "options": [
+   "took",
+   "made",
+   "did",
+   "went"
+  ],
   "hint": "collocation with 'taxi'",
   "explanation": "take a taxi/bus/train is the standard collocation for using transport."
  },
  {
   "sentence": "She ___ great pride in her grandchildren's achievements.",
   "answer": "takes",
-  "options": ["takes", "makes", "does", "gives"],
+  "options": [
+   "takes",
+   "makes",
+   "does",
+   "gives"
+  ],
   "hint": "fixed phrase: ___ pride in",
   "explanation": "take pride in something means to be pleased and satisfied with it."
  },
  {
   "sentence": "You are ___ a big risk if you invest all your money in one company.",
   "answer": "taking",
-  "options": ["taking", "making", "doing", "giving"],
+  "options": [
+   "taking",
+   "making",
+   "doing",
+   "giving"
+  ],
   "hint": "fixed phrase: ___ a risk",
   "explanation": "take a risk means to do something that might have a bad result."
  },
  {
   "sentence": "I would never ___ advice from someone I don't respect.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'advice' from the receiver's side",
   "explanation": "take advice from somebody means to accept and follow it; the adviser gives advice."
  },
  {
   "sentence": "Please ___ your seats; the performance is about to begin.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "fixed phrase: ___ your seats",
   "explanation": "take your seats is the formal way of asking people to sit down."
  },
  {
   "sentence": "Let's ___ a break and continue after lunch.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'break'",
   "explanation": "take a break is the fixed collocation for pausing work or activity."
  },
  {
   "sentence": "Students should ___ notes while they listen to the lecture.",
   "answer": "take",
-  "options": ["take", "put", "set", "hold"],
+  "options": [
+   "take",
+   "put",
+   "set",
+   "hold"
+  ],
   "hint": "collocation with 'notes'",
   "explanation": "take notes is the standard collocation for writing down information."
  },
  {
   "sentence": "He didn't ___ any interest in politics until university.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "fixed phrase: ___ an interest in",
   "explanation": "take an interest in something means to become curious or involved in it."
  },
  {
   "sentence": "It's your turn to ___ care of the dog this weekend.",
   "answer": "take",
-  "options": ["take", "make", "do", "give"],
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "fixed phrase: ___ care of",
   "explanation": "take care of somebody/something means to look after them."
  },
  {
   "sentence": "He was sent to prison for ___ the law.",
   "answer": "breaking",
-  "options": ["breaking", "keeping", "making", "doing"],
+  "options": [
+   "breaking",
+   "keeping",
+   "making",
+   "doing"
+  ],
   "hint": "collocation with 'the law' (opposite of obeying it)",
   "explanation": "break the law means to commit a crime; after the preposition 'for' the -ing form is needed."
  },
  {
   "sentence": "The newspapers ___ the story about the minister's resignation.",
   "answer": "broke",
-  "options": ["broke", "burst", "cracked", "damaged"],
+  "options": [
+   "broke",
+   "burst",
+   "cracked",
+   "damaged"
+  ],
   "hint": "collocation with 'a story' meaning revealed it first",
   "explanation": "break a story is the journalism collocation meaning to be the first to report news."
  },
  {
   "sentence": "She ___ the world record for the 100 metres last year.",
   "answer": "broke",
-  "options": ["broke", "won", "lost", "followed"],
+  "options": [
+   "broke",
+   "won",
+   "lost",
+   "followed"
+  ],
   "hint": "collocation with 'record'",
   "explanation": "break a record is the fixed collocation for performing better than the record."
  },
  {
   "sentence": "It took him months to ___ the habit of biting his nails.",
   "answer": "break",
-  "options": ["break", "stop", "delete", "cancel"],
+  "options": [
+   "break",
+   "stop",
+   "delete",
+   "cancel"
+  ],
   "hint": "collocation with 'habit'",
   "explanation": "break a habit (or kick a habit) means to stop doing something you do regularly."
  },
  {
   "sentence": "A sudden clap of thunder ___ the silence.",
   "answer": "broke",
-  "options": ["broke", "stopped", "cut", "missed"],
+  "options": [
+   "broke",
+   "stopped",
+   "cut",
+   "missed"
+  ],
   "hint": "collocation with 'silence'",
   "explanation": "break the silence is the fixed collocation for ending a quiet period."
  },
  {
   "sentence": "The referee warned the players not to ___ the rules.",
   "answer": "break",
-  "options": ["break", "make", "do", "obey"],
+  "options": [
+   "break",
+   "make",
+   "do",
+   "obey"
+  ],
   "hint": "collocation with 'rules' (the referee warns against it)",
   "explanation": "break the rules means to disobey them; the context ('warned not to') requires this meaning."
  },
  {
   "sentence": "Wrap up warm, or you'll ___ a cold.",
   "answer": "catch",
-  "options": ["catch", "take", "make", "bring"],
+  "options": [
+   "catch",
+   "take",
+   "make",
+   "bring"
+  ],
   "hint": "collocation with 'a cold'",
   "explanation": "catch a cold is the fixed collocation for becoming ill with one."
  },
  {
   "sentence": "I was nearly late, but I managed to ___ the last bus.",
   "answer": "catch",
-  "options": ["catch", "miss", "lose", "escape"],
+  "options": [
+   "catch",
+   "miss",
+   "lose",
+   "escape"
+  ],
   "hint": "to get on a bus or train in time",
   "explanation": "catch a bus/train means to arrive in time to board it; the words 'managed to' and 'nearly late' show success."
  },
  {
   "sentence": "The thief ran so fast that no one could ___ him.",
   "answer": "catch",
-  "options": ["catch", "follow", "reach", "allow"],
+  "options": [
+   "catch",
+   "follow",
+   "reach",
+   "allow"
+  ],
   "hint": "to capture someone who is running away",
   "explanation": "catch somebody means to capture or seize them after chasing."
  },
  {
   "sentence": "The poster in the shop window ___ my eye.",
   "answer": "caught",
-  "options": ["caught", "took", "made", "saw"],
+  "options": [
+   "caught",
+   "took",
+   "made",
+   "saw"
+  ],
   "hint": "fixed idiom: ___ somebody's eye",
   "explanation": "catch somebody's eye means to attract someone's attention."
  },
  {
   "sentence": "I only ___ sight of the celebrity for a second before the crowd closed in.",
   "answer": "caught",
-  "options": ["caught", "made", "took", "had"],
+  "options": [
+   "caught",
+   "made",
+   "took",
+   "had"
+  ],
   "hint": "fixed phrase: ___ sight of",
   "explanation": "catch sight of somebody/something means to notice them briefly."
  },
  {
   "sentence": "A true friend will always ___ a secret.",
   "answer": "keep",
-  "options": ["keep", "take", "hold", "save"],
+  "options": [
+   "keep",
+   "take",
+   "hold",
+   "save"
+  ],
   "hint": "collocation with 'a secret'",
   "explanation": "keep a secret is the fixed collocation for not telling it to anyone."
  },
  {
   "sentence": "Despite the pressure, the surgeon ___ calm throughout the operation.",
   "answer": "kept",
-  "options": ["kept", "held", "made", "took"],
+  "options": [
+   "kept",
+   "held",
+   "made",
+   "took"
+  ],
   "hint": "collocation with 'calm'",
   "explanation": "keep calm (or stay calm) means to remain calm; the past tense is needed here."
  },
  {
   "sentence": "Even after she moved abroad, we ___ in touch by email.",
   "answer": "kept",
-  "options": ["kept", "made", "held", "put"],
+  "options": [
+   "kept",
+   "made",
+   "held",
+   "put"
+  ],
   "hint": "fixed phrase: ___ in touch",
   "explanation": "keep in touch means to maintain contact with someone."
  },
  {
   "sentence": "She has ___ a diary since she was twelve.",
   "answer": "kept",
-  "options": ["kept", "written", "made", "held"],
+  "options": [
+   "kept",
+   "written",
+   "made",
+   "held"
+  ],
   "hint": "collocation with 'a diary'",
   "explanation": "keep a diary is the fixed collocation for writing in one regularly."
  },
  {
   "sentence": "You should ___ track of your spending.",
   "answer": "keep",
-  "options": ["keep", "follow", "hold", "take"],
+  "options": [
+   "keep",
+   "follow",
+   "hold",
+   "take"
+  ],
   "hint": "fixed phrase: ___ track of",
   "explanation": "keep track of something means to stay informed about it."
  },
  {
   "sentence": "Unlike some politicians, she ___ her promises.",
   "answer": "keeps",
-  "options": ["keeps", "breaks", "makes", "takes"],
+  "options": [
+   "keeps",
+   "breaks",
+   "makes",
+   "takes"
+  ],
   "hint": "collocation with 'promises' (she is unlike other politicians)",
   "explanation": "keep a promise means to do what you promised; the contrast with other politicians shows the positive verb."
  },
  {
   "sentence": "The doctor has ___ detailed records of every patient since 1990.",
   "answer": "kept",
-  "options": ["kept", "made", "written", "taken"],
+  "options": [
+   "kept",
+   "made",
+   "written",
+   "taken"
+  ],
   "hint": "collocation with 'records'",
   "explanation": "keep records (of something) is the fixed collocation for storing information."
  },
  {
   "sentence": "Try to ___ quiet — the exam is in progress.",
   "answer": "keep",
-  "options": ["keep", "make", "do", "give"],
+  "options": [
+   "keep",
+   "make",
+   "do",
+   "give"
+  ],
   "hint": "collocation with 'quiet'",
   "explanation": "keep quiet means to stay silent; 'make quiet' is not used."
  },
  {
   "sentence": "Students should ___ attention when the teacher is speaking.",
   "answer": "pay",
-  "options": ["pay", "give", "make", "take"],
+  "options": [
+   "pay",
+   "give",
+   "make",
+   "take"
+  ],
   "hint": "collocation with 'attention'",
   "explanation": "pay attention is the fixed collocation for listening or concentrating carefully."
  },
  {
   "sentence": "He ___ her a compliment on her new hairstyle.",
   "answer": "paid",
-  "options": ["paid", "gave", "made", "did"],
+  "options": [
+   "paid",
+   "gave",
+   "made",
+   "did"
+  ],
   "hint": "fixed phrase: ___ somebody a compliment",
   "explanation": "pay somebody a compliment is the fixed collocation for praising someone."
  },
  {
   "sentence": "We ___ a visit to the museum while we were in Vienna.",
   "answer": "paid",
-  "options": ["paid", "made", "did", "gave"],
+  "options": [
+   "paid",
+   "made",
+   "did",
+   "gave"
+  ],
   "hint": "fixed phrase: ___ a visit to",
   "explanation": "pay a visit to somebody/something means to go and see them briefly."
  },
  {
   "sentence": "We ___ a fortune for our new kitchen.",
   "answer": "paid",
-  "options": ["paid", "spent", "cost", "bought"],
+  "options": [
+   "paid",
+   "spent",
+   "cost",
+   "bought"
+  ],
   "hint": "fixed phrase: ___ a fortune for something",
   "explanation": "pay a fortune for something means to spend a very large amount buying it; the preposition 'for' follows 'pay'."
  },
  {
   "sentence": "I'd rather ___ by card than carry cash.",
   "answer": "pay",
-  "options": ["pay", "spend", "charge", "cost"],
+  "options": [
+   "pay",
+   "spend",
+   "charge",
+   "cost"
+  ],
   "hint": "fixed phrase: ___ by card",
   "explanation": "pay by card/in cash is the fixed pattern for the method of payment."
  },
  {
   "sentence": "The company ___ interest on the money it borrows.",
   "answer": "pays",
-  "options": ["pays", "gives", "returns", "spends"],
+  "options": [
+   "pays",
+   "gives",
+   "returns",
+   "spends"
+  ],
   "hint": "fixed phrase: ___ interest",
   "explanation": "pay interest is the standard financial collocation."
  },
  {
   "sentence": "We stayed indoors because of the ___ rain.",
   "answer": "heavy",
-  "options": ["heavy", "strong", "thick", "large"],
+  "options": [
+   "heavy",
+   "strong",
+   "thick",
+   "large"
+  ],
   "hint": "collocation with 'rain'",
   "explanation": "heavy rain is the standard collocation; 'strong rain' is not used."
  },
  {
   "sentence": "The ___ traffic added an hour to our journey.",
   "answer": "heavy",
-  "options": ["heavy", "thick", "strong", "full"],
+  "options": [
+   "heavy",
+   "thick",
+   "strong",
+   "full"
+  ],
   "hint": "collocation with 'traffic'",
   "explanation": "heavy traffic means a lot of vehicles on the road; 'thick traffic' is not standard."
  },
  {
   "sentence": "There was ___ fog at the airport all morning.",
   "answer": "thick",
-  "options": ["thick", "strong", "big", "large"],
+  "options": [
+   "thick",
+   "strong",
+   "big",
+   "large"
+  ],
   "hint": "collocation with 'fog'",
   "explanation": "thick fog (or dense fog) is the standard collocation; 'strong fog' is wrong."
  },
  {
   "sentence": "She has a ___ Scottish accent that is hard to miss.",
   "answer": "strong",
-  "options": ["strong", "heavy", "deep", "big"],
+  "options": [
+   "strong",
+   "heavy",
+   "deep",
+   "big"
+  ],
   "hint": "collocation with 'accent'",
   "explanation": "a strong accent is the standard collocation; 'heavy accent' and 'deep accent' are not used."
  },
  {
   "sentence": "Do you want a ___ cup of tea or a weak one?",
   "answer": "strong",
-  "options": ["strong", "thick", "heavy", "firm"],
+  "options": [
+   "strong",
+   "thick",
+   "heavy",
+   "firm"
+  ],
   "hint": "collocation with 'tea/coffee'; opposite of weak",
   "explanation": "strong tea/coffee means made with a lot of tea leaves or coffee; its opposite is weak."
  },
  {
   "sentence": "The roads were almost empty — the traffic was surprisingly ___.",
   "answer": "light",
-  "options": ["light", "thin", "weak", "small"],
+  "options": [
+   "light",
+   "thin",
+   "weak",
+   "small"
+  ],
   "hint": "collocation with 'traffic'; opposite of heavy",
   "explanation": "light traffic means few vehicles on the road; its opposite is heavy traffic."
  },
  {
   "sentence": "Halfway through the film, the children were fast ___.",
   "answer": "asleep",
-  "options": ["asleep", "awake", "sleeping", "slept"],
+  "options": [
+   "asleep",
+   "awake",
+   "sleeping",
+   "slept"
+  ],
   "hint": "fixed phrase: fast ___",
   "explanation": "fast asleep means completely asleep; it is the fixed collocation with 'fast'."
  },
  {
   "sentence": "It was three in the morning, but I was wide ___.",
   "answer": "awake",
-  "options": ["awake", "asleep", "woken", "waking"],
+  "options": [
+   "awake",
+   "asleep",
+   "woken",
+   "waking"
+  ],
   "hint": "fixed phrase: wide ___",
   "explanation": "wide awake means completely awake; it is the fixed collocation with 'wide'."
  },
  {
   "sentence": "Local residents are deeply ___ about the new motorway plan.",
   "answer": "concerned",
-  "options": ["concerned", "delighted", "awake", "cold"],
+  "options": [
+   "concerned",
+   "delighted",
+   "awake",
+   "cold"
+  ],
   "hint": "adjective collocating with 'deeply' meaning worried",
   "explanation": "deeply concerned is the standard collocation meaning very worried; the other adjectives do not collocate with 'deeply'."
  },
  {
   "sentence": "Make sure you are fully ___ of the terms before you sign.",
   "answer": "aware",
-  "options": ["aware", "disappointed", "ridiculous", "asleep"],
+  "options": [
+   "aware",
+   "disappointed",
+   "ridiculous",
+   "asleep"
+  ],
   "hint": "adjective collocating with 'fully'; pattern: ___ of",
   "explanation": "fully aware of something is the fixed collocation meaning knowing completely."
  },
  {
   "sentence": "Everyone agreed the suggestion was utterly ___.",
   "answer": "ridiculous",
-  "options": ["ridiculous", "aware", "ill", "awake"],
+  "options": [
+   "ridiculous",
+   "aware",
+   "ill",
+   "awake"
+  ],
   "hint": "adjective collocating with 'utterly' meaning absurd",
   "explanation": "utterly ridiculous is the standard collocation; 'utterly' is used with extreme adjectives."
  },
  {
   "sentence": "I was slightly ___ by his rude reply.",
   "answer": "annoyed",
-  "options": ["annoyed", "delighted", "thrilled", "overjoyed"],
+  "options": [
+   "annoyed",
+   "delighted",
+   "thrilled",
+   "overjoyed"
+  ],
   "hint": "adjective collocating with 'slightly'",
   "explanation": "slightly annoyed is a standard collocation; the other options are too strong to be 'slight'."
  },
  {
   "sentence": "The crash left several passengers seriously ___.",
   "answer": "injured",
-  "options": ["injured", "delighted", "amused", "relieved"],
+  "options": [
+   "injured",
+   "delighted",
+   "amused",
+   "relieved"
+  ],
   "hint": "adjective collocating with 'seriously'",
   "explanation": "seriously injured is the standard collocation describing bad injuries in accidents."
  },
  {
   "sentence": "She was bitterly ___ when her proposal was rejected.",
   "answer": "disappointed",
-  "options": ["disappointed", "delighted", "confident", "relaxed"],
+  "options": [
+   "disappointed",
+   "delighted",
+   "confident",
+   "relaxed"
+  ],
   "hint": "adjective collocating with 'bitterly' after bad news",
   "explanation": "bitterly disappointed is the standard collocation; 'bitterly' combines with negative feelings."
  },
  {
   "sentence": "It gets bitterly ___ here in January.",
   "answer": "cold",
-  "options": ["cold", "hot", "warm", "mild"],
+  "options": [
+   "cold",
+   "hot",
+   "warm",
+   "mild"
+  ],
   "hint": "adjective collocating with 'bitterly'",
   "explanation": "bitterly cold is the fixed collocation for extremely cold weather."
  },
  {
   "sentence": "Our guide was highly ___ and had climbed the mountain five times.",
   "answer": "experienced",
-  "options": ["experienced", "bored", "asleep", "awake"],
+  "options": [
+   "experienced",
+   "bored",
+   "asleep",
+   "awake"
+  ],
   "hint": "adjective collocating with 'highly'",
   "explanation": "highly experienced is the standard collocation; 'highly' combines with participial adjectives."
  },
  {
   "sentence": "He was so badly ___ in the fall that he needed an operation.",
   "answer": "hurt",
-  "options": ["hurt", "pleased", "amused", "relieved"],
+  "options": [
+   "hurt",
+   "pleased",
+   "amused",
+   "relieved"
+  ],
   "hint": "adjective collocating with 'badly'",
   "explanation": "badly hurt is the standard collocation meaning seriously injured."
  },
  {
   "sentence": "We were deeply ___ by the news of the accident.",
   "answer": "shocked",
-  "options": ["shocked", "delighted", "thrilled", "amused"],
+  "options": [
+   "shocked",
+   "delighted",
+   "thrilled",
+   "amused"
+  ],
   "hint": "adjective collocating with 'deeply'",
   "explanation": "deeply shocked is the standard collocation for a strong negative reaction to news."
  },
  {
   "sentence": "Her family has ___ a small hotel for thirty years.",
   "answer": "run",
-  "options": ["run", "made", "did", "took"],
+  "options": [
+   "run",
+   "made",
+   "did",
+   "took"
+  ],
   "hint": "collocation with 'a hotel/business' meaning managed it",
   "explanation": "run a business/hotel means to manage or operate it; the past participle is needed after 'has'."
  },
  {
   "sentence": "Ordering your food online can ___ you a lot of time.",
   "answer": "save",
-  "options": ["save", "waste", "spend", "buy"],
+  "options": [
+   "save",
+   "waste",
+   "spend",
+   "buy"
+  ],
   "hint": "fixed phrase: ___ somebody time",
   "explanation": "save somebody time means to make it possible for them to use less time."
  },
  {
   "sentence": "He ___ a fortune by buying his train ticket in advance.",
   "answer": "saved",
-  "options": ["saved", "wasted", "earned", "won"],
+  "options": [
+   "saved",
+   "wasted",
+   "earned",
+   "won"
+  ],
   "hint": "fixed phrase: ___ a fortune (kept money)",
   "explanation": "save a fortune means to avoid spending a large amount; buying in advance keeps money."
  },
  {
   "sentence": "I ___ hours yesterday trying to fix the printer, and it still doesn't work.",
   "answer": "wasted",
-  "options": ["wasted", "saved", "earned", "bought"],
+  "options": [
+   "wasted",
+   "saved",
+   "earned",
+   "bought"
+  ],
   "hint": "fixed phrase: to use time without any result",
   "explanation": "waste time means to spend time uselessly; the second clause shows there was no result."
  },
  {
   "sentence": "Stop ___ money on things you never use.",
   "answer": "wasting",
-  "options": ["wasting", "saving", "earning", "buying"],
+  "options": [
+   "wasting",
+   "saving",
+   "earning",
+   "buying"
+  ],
   "hint": "to use money on useless things; -ing form after 'Stop'",
   "explanation": "waste money on something means to spend it on useless things; 'stop' is followed by the -ing form."
  },
  {
   "sentence": "He always ___ the truth, however unpleasant it is.",
   "answer": "tells",
-  "options": ["tells", "says", "speaks", "talks"],
+  "options": [
+   "tells",
+   "says",
+   "speaks",
+   "talks"
+  ],
   "hint": "collocation with 'the truth'",
   "explanation": "tell the truth is the fixed collocation; 'say the truth' is a common learner error."
  },
  {
   "sentence": "The boy knew it was wrong to ___ lies.",
   "answer": "tell",
-  "options": ["tell", "say", "speak", "talk"],
+  "options": [
+   "tell",
+   "say",
+   "speak",
+   "talk"
+  ],
   "hint": "collocation with 'lies'",
   "explanation": "tell a lie / tell lies is the fixed collocation; a base verb is needed after 'to'."
  },
  {
   "sentence": "Grandad's best man ___ a joke that made everyone laugh.",
   "answer": "told",
-  "options": ["told", "said", "spoke", "announced"],
+  "options": [
+   "told",
+   "said",
+   "spoke",
+   "announced"
+  ],
   "hint": "collocation with 'a joke'",
   "explanation": "tell a joke is the fixed collocation; 'say a joke' is not used."
  },
  {
   "sentence": "The children ___ us a long story about a dragon.",
   "answer": "told",
-  "options": ["told", "said", "spoke", "talked"],
+  "options": [
+   "told",
+   "said",
+   "spoke",
+   "talked"
+  ],
   "hint": "collocation with 'a story' and a listener",
   "explanation": "tell somebody a story is the fixed pattern; 'say' and 'speak' do not take this pattern."
  },
  {
   "sentence": "Most children learn to ___ the time before they start school.",
   "answer": "tell",
-  "options": ["tell", "say", "speak", "talk"],
+  "options": [
+   "tell",
+   "say",
+   "speak",
+   "talk"
+  ],
   "hint": "fixed phrase: ___ the time (read a clock)",
   "explanation": "tell the time means to be able to read a clock; it is a fixed expression."
  },
  {
   "sentence": "After six hours of talks, the two sides finally ___ an agreement.",
   "answer": "reached",
-  "options": ["reached", "arrived", "obtained", "won"],
+  "options": [
+   "reached",
+   "arrived",
+   "obtained",
+   "won"
+  ],
   "hint": "collocation with 'an agreement' (without a preposition)",
   "explanation": "reach an agreement/decision is the collocation; 'arrive' would need 'at', which is not in the sentence."
  },
  {
   "sentence": "The jury was unable to ___ a decision.",
   "answer": "reach",
-  "options": ["reach", "arrive", "gain", "win"],
+  "options": [
+   "reach",
+   "arrive",
+   "gain",
+   "win"
+  ],
   "hint": "collocation with 'a decision' (no preposition)",
   "explanation": "reach a decision is the fixed collocation; 'arrive' needs 'at' and cannot be followed directly by the object."
  },
  {
   "sentence": "We ___ to the conclusion that the project was not viable.",
   "answer": "came",
-  "options": ["came", "reached", "arrived", "thought"],
+  "options": [
+   "came",
+   "reached",
+   "arrived",
+   "thought"
+  ],
   "hint": "fixed phrase: ___ to the conclusion",
   "explanation": "come to the conclusion that ... is the fixed phrase; 'reach' and 'arrive' do not take 'to'."
  },
  {
   "sentence": "If you ___ your word, people will trust you.",
   "answer": "keep",
-  "options": ["keep", "hold", "save", "protect"],
+  "options": [
+   "keep",
+   "hold",
+   "save",
+   "protect"
+  ],
   "hint": "fixed phrase: ___ your word",
   "explanation": "keep your word means to do what you promised."
  },
  {
   "sentence": "Shall we split it, or will you ___ the bill?",
   "answer": "pay",
-  "options": ["pay", "spend", "buy", "take"],
+  "options": [
+   "pay",
+   "spend",
+   "buy",
+   "take"
+  ],
   "hint": "collocation with 'the bill'",
   "explanation": "pay the bill is the fixed collocation in restaurants; 'spend the bill' is wrong."
  },
  {
   "sentence": "It was the manager's job to ___ the bad news to the staff.",
   "answer": "break",
-  "options": ["break", "spend", "keep", "throw"],
+  "options": [
+   "break",
+   "spend",
+   "keep",
+   "throw"
+  ],
   "hint": "fixed phrase: ___ the news to somebody",
   "explanation": "break the news to somebody means to tell them something difficult or upsetting first."
  },
  {
   "sentence": "My brother and I ___ turns washing up after dinner.",
   "answer": "take",
-  "options": ["take", "give", "make", "do"],
+  "options": [
+   "take",
+   "give",
+   "make",
+   "do"
+  ],
   "hint": "fixed phrase: ___ turns",
   "explanation": "take turns means to do something one after another, alternating."
  }

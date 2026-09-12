@@ -517,3 +517,41 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
     z-index: 2;
 }
 .pw-eye:hover { background: #eef0f8; }
+
+/* ---------- typing-mode toggle ---------- */
+.mode-toggle {
+    display: inline-flex; align-items: center; gap: .45rem;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 999px; padding: .42rem .9rem;
+    font-size: .9rem; font-weight: 600; color: var(--muted);
+    cursor: pointer; user-select: none;
+}
+.mode-toggle input { accent-color: var(--primary); cursor: pointer; }
+.mode-toggle:has(input:checked) {
+    border-color: var(--primary); color: var(--primary-strong);
+    background: var(--primary-soft);
+}
+
+/* ---------- progress page upgrades ---------- */
+.progress-top {
+    display: flex; gap: 1.25rem; align-items: stretch; flex-wrap: wrap;
+}
+.progress-top .stat-cards { flex: 1; min-width: 300px; margin: 0; }
+.accuracy-ring {
+    flex: 0 0 auto; display: flex; align-items: center; justify-content: center;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: .8rem; width: 168px;
+}
+.accuracy-ring svg { width: 148px; height: 148px; transform: rotate(-90deg); }
+.ring-bg { fill: none; stroke: #eef0f7; stroke-width: 10; }
+.ring-fill {
+    fill: none; stroke: var(--primary); stroke-width: 10; stroke-linecap: round;
+    transition: stroke-dasharray .6s ease;
+}
+.ring-num { font-size: 24px; font-weight: 800; fill: var(--primary-strong); transform: rotate(90deg); transform-origin: 55px 55px; }
+.ring-label { font-size: 10px; fill: var(--muted); transform: rotate(90deg); transform-origin: 55px 55px; }
+.trend { font-weight: 800; white-space: nowrap; }
+.trend-up { color: var(--accent); }
+.trend-down { color: var(--danger); }
+.trend-flat { color: var(--muted); }

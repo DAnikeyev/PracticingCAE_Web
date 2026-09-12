@@ -19,7 +19,7 @@ public class ContentRepositoryTests
     [Fact]
     public void Tasks_AreLoaded()
     {
-        Assert.Equal(19, Repo.Tasks.Count);
+        Assert.Equal(21, Repo.Tasks.Count);
     }
 
     [Fact]

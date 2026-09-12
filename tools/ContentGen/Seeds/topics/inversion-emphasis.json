@@ -1,0 +1,319 @@
+[
+ {
+  "sentence": "No sooner had he sat down ___ the phone rang.",
+  "answer": "than",
+  "hint": "no sooner … ?",
+  "explanation": "No sooner … than — fixed pair with inversion after 'no sooner'."
+ },
+ {
+  "sentence": "Hardly had we started ___ the engine failed.",
+  "answer": "when",
+  "hint": "hardly … ?",
+  "explanation": "Hardly … when — fixed pair: Hardly had we started when…"
+ },
+ {
+  "sentence": "Never have I ___ such a stubborn refusal.",
+  "answer": "seen",
+  "hint": "Never have I + participle",
+  "explanation": "Inversion: Never have I + past participle — never adds emphasis."
+ },
+ {
+  "sentence": "Only after the third attempt ___ she pass the test.",
+  "answer": "did",
+  "hint": "Only after … + inversion",
+  "explanation": "'Only after' at the front forces question word order: did she pass."
+ },
+ {
+  "sentence": "Not until the film ended ___ anybody speak.",
+  "answer": "did",
+  "hint": "Not until … + inversion",
+  "explanation": "Not until + time clause at the front: did anybody speak."
+ },
+ {
+  "sentence": "Under no circumstances ___ this door be left unlocked.",
+  "answer": "must",
+  "hint": "negative adverbial + modal inversion",
+  "explanation": "Under no circumstances + must + subject + infinitive."
+ },
+ {
+  "sentence": "Little ___ they know that the deal had already collapsed.",
+  "answer": "did",
+  "hint": "Little + inversion (they didn't realise)",
+  "explanation": "Little did they know = they had no idea — emphatic idiom with inversion."
+ },
+ {
+  "sentence": "Rarely ___ this metro line run this late.",
+  "answer": "does",
+  "hint": "Rarely + inversion (present simple)",
+  "explanation": "Rarely at the front: does + subject + infinitive."
+ },
+ {
+  "sentence": "Seldom have I been so ___ by a performance.",
+  "answer": "moved",
+  "hint": "be moved = emotionally affected",
+  "explanation": "'moved' — the audience was emotionally affected; inversion with have been."
+ },
+ {
+  "sentence": "No sooner ___ the contract been signed than problems arose.",
+  "answer": "had",
+  "hint": "passive: no sooner had … been",
+  "explanation": "Past perfect passive with inversion: had … been signed."
+ },
+ {
+  "sentence": "So convincing ___ his argument that nobody objected.",
+  "answer": "was",
+  "hint": "So + adjective + be + subject",
+  "explanation": "So + adjective at the front: was his argument that…"
+ },
+ {
+  "sentence": "Such ___ the demand for tickets that the website crashed.",
+  "answer": "was",
+  "hint": "Such + be + noun",
+  "explanation": "Such was the demand that… — emphatic result structure."
+ },
+ {
+  "sentence": "Should you ___ any problems, call reception immediately.",
+  "answer": "experience",
+  "hint": "inverted first conditional (formal)",
+  "explanation": "Should you experience… = If you experience… — formal conditional inversion."
+ },
+ {
+  "sentence": "___ I known about the deadline, I would have hurried.",
+  "answer": "Had",
+  "hint": "inverted third conditional",
+  "explanation": "Had I known = If I had known — inversion replaces 'if'."
+ },
+ {
+  "sentence": "___ it not been for your help, we would have failed.",
+  "answer": "Had",
+  "hint": "Were/Had it not been for",
+  "explanation": "Had it not been for = if it hadn't been for — fixed inverted conditional."
+ },
+ {
+  "sentence": "___ I richer, I would travel the world.",
+  "answer": "Were",
+  "hint": "inverted second conditional",
+  "explanation": "Were I richer = If I were richer — formal inversion."
+ },
+ {
+  "sentence": "___ the rain to stop, we'll play the match as planned.",
+  "answer": "Should",
+  "hint": "inverted first conditional with 'to'",
+  "explanation": "Should the rain stop = If the rain stops — should + subject + infinitive."
+ },
+ {
+  "sentence": "Only when the audit was complete ___ the accounts released.",
+  "answer": "were",
+  "hint": "Only when + passive inversion",
+  "explanation": "Only when X happened were the accounts released — inversion after only when."
+ },
+ {
+  "sentence": "Not only ___ she apologise, she also paid for the damage.",
+  "answer": "did",
+  "hint": "Not only … but also",
+  "explanation": "Not only did she…, (but) she also… — inversion after not only."
+ },
+ {
+  "sentence": "Not only ___ the tickets expensive, but they were also sold out.",
+  "answer": "were",
+  "hint": "Not only + be inversion",
+  "explanation": "Not only were the tickets… — inversion with 'be' needs no auxiliary."
+ },
+ {
+  "sentence": "At no point ___ the pilot leave the cockpit.",
+  "answer": "did",
+  "hint": "At no point + inversion",
+  "explanation": "At no point did… = never did… — negative adverbial inversion."
+ },
+ {
+  "sentence": "In no way ___ this report reflect the views of the editor.",
+  "answer": "does",
+  "hint": "In no way + inversion",
+  "explanation": "In no way does this reflect… — formal disclaimer structure."
+ },
+ {
+  "sentence": "___ had the meeting begun than the fire alarm went off.",
+  "answer": "No",
+  "hint": "… sooner than",
+  "explanation": "No sooner … than: the pair begins with 'No'."
+ },
+ {
+  "sentence": "Only by practising daily ___ you improve your fluency.",
+  "answer": "will",
+  "hint": "Only by + -ing + inversion",
+  "explanation": "Only by doing X will you… — future inversion after only by."
+ },
+ {
+  "sentence": "Never before ___ the city seen flooding on this scale.",
+  "answer": "had",
+  "hint": "Never before + past perfect",
+  "explanation": "Never before had the city seen… — past perfect inversion."
+ },
+ {
+  "sentence": "So ___ was the crowd that the concert was postponed.",
+  "answer": "great",
+  "hint": "So + adjective (size of crowd)",
+  "explanation": "So great was the crowd that… = the crowd was so great that…"
+ },
+ {
+  "sentence": "To such an extent ___ prices risen that buyers withdrew.",
+  "answer": "had",
+  "hint": "To such an extent + past perfect",
+  "explanation": "To such an extent had prices risen that… — emphatic result."
+ },
+ {
+  "sentence": "Come ___ it may, the trial must proceed.",
+  "answer": "what",
+  "hint": "come what may",
+  "explanation": "'Come what may' — fixed inverted idiom = whatever happens."
+ },
+ {
+  "sentence": "___ as it may sound, the machine still works perfectly.",
+  "answer": "Strange",
+  "hint": "Adjective + as it may sound",
+  "explanation": "Adjective + as + subject + verb = although it sounds strange."
+ },
+ {
+  "sentence": "Try ___ she might, she couldn't restart the engine.",
+  "answer": "as",
+  "hint": "Try as she might",
+  "explanation": "'Try as somebody might' — fixed concessive inversion."
+ },
+ {
+  "sentence": "Barely ___ the survey published when the complaints arrived.",
+  "answer": "had",
+  "hint": "Barely … when",
+  "explanation": "Barely had X happened when Y — like hardly… when."
+ },
+ {
+  "sentence": "Nowhere ___ the report mention the missing funds.",
+  "answer": "does",
+  "hint": "Nowhere + inversion",
+  "explanation": "Nowhere does the report mention… — present simple inversion."
+ },
+ {
+  "sentence": "On no account ___ passengers open this door.",
+  "answer": "should",
+  "hint": "On no account + modal",
+  "explanation": "On no account should passengers… — formal prohibition."
+ },
+ {
+  "sentence": "Only in an emergency ___ this exit be used.",
+  "answer": "may",
+  "hint": "only in… + modal passive",
+  "explanation": "may + be + participle: this exit may be used only in an emergency."
+ },
+ {
+  "sentence": "Not since the 1990s ___ unemployment been so low.",
+  "answer": "has",
+  "hint": "Not since + present perfect",
+  "explanation": "Not since X has Y happened — present perfect inversion."
+ },
+ {
+  "sentence": "___ the committee reach a decision, we cannot proceed.",
+  "answer": "Until",
+  "hint": "fronted time clause (emphatic)",
+  "explanation": "Fronting 'Until…' emphasises the condition blocking progress."
+ },
+ {
+  "sentence": "So difficult ___ the exam that half the candidates failed.",
+  "answer": "was",
+  "hint": "So + adjective + be + subject",
+  "explanation": "So difficult was the exam that… — inversion for emphasis."
+ },
+ {
+  "sentence": "___ you stands the man responsible for the discovery.",
+  "answer": "Before",
+  "hint": "dramatic fronted preposition phrase",
+  "explanation": "Dramatic inversion: 'Before you stands the man…' — the phrase of place is fronted and the verb precedes the subject."
+ },
+ {
+  "sentence": "Among the guests ___ the ambassador and her staff.",
+  "answer": "were",
+  "hint": "fronted 'among' — verb agrees with later subject",
+  "explanation": "Among the guests were the ambassador and her staff — verb before subject."
+ },
+ {
+  "sentence": "Also worth ___ is the museum's medieval wing.",
+  "answer": "noting",
+  "hint": "also worth + -ing",
+  "explanation": "Also worth noting is… — fronted comment structure."
+ },
+ {
+  "sentence": "Only after the interview ___ I realise how nervous I had been.",
+  "answer": "did",
+  "hint": "only after + did",
+  "explanation": "Only after X did I realise… — inversion."
+ },
+ {
+  "sentence": "Not once ___ the defendant change his statement.",
+  "answer": "has",
+  "hint": "Not once + present perfect",
+  "explanation": "Not once has he changed… — emphatic negative with present perfect."
+ },
+ {
+  "sentence": "Scarcely ___ the ink dried before the rumours started.",
+  "answer": "had",
+  "hint": "Scarcely … before",
+  "explanation": "Scarcely had X happened before Y — like hardly… when."
+ },
+ {
+  "sentence": "So widespread ___ the outage that servers abroad noticed.",
+  "answer": "was",
+  "hint": "So + adjective + be + subject",
+  "explanation": "So widespread was the outage that… — inversion."
+ },
+ {
+  "sentence": "Never ___ I imagine the project would take two years.",
+  "answer": "would",
+  "hint": "Never would I + infinitive",
+  "explanation": "Never would I have imagined… — conditional flavour with inversion."
+ },
+ {
+  "sentence": "___ the storm passed did the ferries resume service.",
+  "answer": "Only",
+  "hint": "Only + time clause",
+  "explanation": "Only after/once the storm passed did… — fronted 'only' phrase.",
+  "accept": [
+   "Only after",
+   "Only once",
+   "Only when"
+  ]
+ },
+ {
+  "sentence": "To ___ did you address that complaint, exactly?",
+  "answer": "whom",
+  "hint": "formal preposition + relative pronoun",
+  "explanation": "'To whom…' — formal fronted preposition + whom."
+ },
+ {
+  "sentence": "Little ___ the chances of success be improved by patience.",
+  "answer": "will",
+  "hint": "Little + will inversion",
+  "explanation": "Little will the chances be improved… — inversion with future."
+ },
+ {
+  "sentence": "Enclosed ___ the contract a copy of the invoice.",
+  "answer": "is",
+  "hint": "fronted 'enclosed' — singular verb",
+  "explanation": "'Enclosed is the contract' — inversion after fronted participle."
+ },
+ {
+  "sentence": "Only when she apologised ___ he agree to meet again.",
+  "answer": "did",
+  "hint": "Only when + did",
+  "explanation": "Only when she apologised did he agree — inversion."
+ },
+ {
+  "sentence": "___ the second half begin than the rain returned.",
+  "answer": "No",
+  "hint": "No sooner pattern (harder order)",
+  "explanation": "No sooner did the second half begin than… — inversion with do-support."
+ },
+ {
+  "sentence": "Should the temperature ___ 40 degrees, the system shuts down.",
+  "answer": "exceed",
+  "hint": "inverted conditional + formal verb",
+  "explanation": "Should the temperature exceed… = if it exceeds… — technical register."
+ }
+]

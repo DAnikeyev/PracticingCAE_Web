@@ -61,6 +61,8 @@ var topics = new List<TaskDef>
     Topic("relative-clauses", "Relative Clauses", "who, which, that, whose, where", "Choose the relative pronoun; defining vs non-defining.", "⛓️"),
     Topic("quantifiers", "Quantifiers", "some/any/much/many/few/little", "Countable vs uncountable, (a) few vs (a) little, much/many.", "🔢"),
     Topic("word-formation", "Word Formation Drill", "prefixes and suffixes", "Sentence-level practice of the Part 3 skill: build the right word from the base.", "🧩"),
+    Topic("inversion-emphasis", "Inversion & Emphasis", "advanced structures (typed)", "Never had I…, No sooner…than, Should you… — the C1/C2 inversion and emphasis structures, typed answers only.", "🎭"),
+    Topic("prepositional-phrases", "Prepositional Phrases", "fixed expressions (typed)", "in time vs on time, under wraps, by far — the fixed preposition phrases C1 exams love, typed answers only.", "🧭"),
 };
 
 tasks.AddRange(topics);

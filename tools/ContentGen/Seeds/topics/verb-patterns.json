@@ -156,30 +156,6 @@
   "explanation": "postpone + -ing (like delay): postponed building."
  },
  {
-  "sentence": "She decided ___ the job offer in Berlin.",
-  "answer": "to accept",
-  "options": [
-   "accepting",
-   "to accept",
-   "accept",
-   "to accepting"
-  ],
-  "hint": "decide + ?",
-  "explanation": "decide takes the to-infinitive: decided to accept."
- },
- {
-  "sentence": "We hope ___ from you soon.",
-  "answer": "to hear",
-  "options": [
-   "hearing",
-   "to hear",
-   "hear",
-   "to hearing"
-  ],
-  "hint": "hope + ?",
-  "explanation": "hope takes the to-infinitive: hope to hear."
- },
- {
   "sentence": "They managed ___ the fire before it spread.",
   "answer": "to put",
   "options": [
@@ -202,18 +178,6 @@
   ],
   "hint": "can't wait + ?",
   "explanation": "can't wait + to-infinitive: can't wait to show."
- },
- {
-  "sentence": "He refused ___ for the damage.",
-  "answer": "to pay",
-  "options": [
-   "paying",
-   "to pay",
-   "pay",
-   "to paying"
-  ],
-  "hint": "refuse + ?",
-  "explanation": "refuse takes the to-infinitive: refused to pay."
  },
  {
   "sentence": "She promised ___ late again.",

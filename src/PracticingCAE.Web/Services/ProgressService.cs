@@ -159,6 +159,38 @@ public sealed class ProgressService(IDbContextFactory<ApplicationDbContext> dbFa
         return attempts.Count;
     }
 
+    /// <summary>
+    /// Per-task momentum: accuracy of the 5 most recent attempts minus the accuracy of
+    /// the 5 before them (percentage points; positive = improving). 0 when there is
+    /// not enough history to compare.
+    /// </summary>
+    public async Task<Dictionary<string, double>> GetTaskTrendsAsync(string ownerId)
+    {
+        await using var db = await dbFactory.CreateDbContextAsync();
+        var attempts = await db.Attempts.AsNoTracking()
+            .Where(a => a.OwnerId == ownerId && !a.AnswersRevealed)
+            .OrderBy(a => a.TimestampUtc)
+            .Select(a => new { a.TaskId, a.CorrectCount, a.ItemCount })
+            .ToListAsync();
+
+        static double Accuracy(IEnumerable<(int Correct, int Items)> rows)
+        {
+            int correct = 0, total = 0;
+            foreach (var r in rows) { correct += r.Correct; total += r.Items; }
+            return total == 0 ? 0 : 100.0 * correct / total;
+        }
+
+        var trends = new Dictionary<string, double>();
+        foreach (var g in attempts.GroupBy(a => a.TaskId))
+        {
+            var rows = g.Select(a => (Correct: a.CorrectCount, Items: a.ItemCount)).ToList();
+            var last = rows.TakeLast(5);
+            var prev = rows.SkipLast(5).TakeLast(5);
+            trends[g.Key] = prev.Any() ? Accuracy(last) - Accuracy(prev) : 0;
+        }
+        return trends;
+    }
+
     /// <summary>Gaps the owner got wrong most often, per task — the "mistake focus" list.</summary>
     public async Task<List<(string Expected, int Times, string TaskId)>> GetTopMistakesAsync(string ownerId, int take = 20)
     {
