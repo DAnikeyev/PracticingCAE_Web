@@ -794,5 +794,149 @@
   "answer": "to",
   "hint": "threat ___ sth/sb",
   "explanation": "a threat TO somebody/something."
+ },
+ {
+  "sentence": "She insisted ___ paying for the meal herself.",
+  "answer": "on",
+  "options": [
+   "on",
+   "for",
+   "to",
+   "at"
+  ],
+  "hint": "insist ___ + -ing",
+  "explanation": "'Insist on doing something' — fixed preposition."
+ },
+ {
+  "sentence": "The film is based ___ a true story.",
+  "answer": "on",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "by"
+  ],
+  "hint": "based ___",
+  "explanation": "'Based on' = developed from."
+ },
+ {
+  "sentence": "He's brilliant ___ solving all kinds of puzzles.",
+  "answer": "at",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "for"
+  ],
+  "hint": "good/bad/brilliant ___",
+  "explanation": "Adjectives of skill take 'at': brilliant at something."
+ },
+ {
+  "sentence": "They apologised ___ the delay in replying.",
+  "answer": "for",
+  "options": [
+   "for",
+   "of",
+   "about",
+   "by"
+  ],
+  "hint": "apologise ___ something",
+  "explanation": "'Apologise for something' — the thing excused takes 'for'."
+ },
+ {
+  "sentence": "I'm not familiar ___ this software yet.",
+  "answer": "with",
+  "options": [
+   "with",
+   "to",
+   "at",
+   "from"
+  ],
+  "hint": "familiar ___ something",
+  "explanation": "'Familiar with' = knowing something well."
+ },
+ {
+  "sentence": "The outcome depends ___ the weather, as always.",
+  "answer": "on",
+  "options": [
+   "on",
+   "of",
+   "from",
+   "with"
+  ],
+  "hint": "depend ___",
+  "explanation": "'Depend on/upon' — never 'depend of'."
+ },
+ {
+  "sentence": "She's responsible ___ training the new staff.",
+  "answer": "for",
+  "options": [
+   "for",
+   "of",
+   "with",
+   "to"
+  ],
+  "hint": "responsible ___ doing something",
+  "explanation": "'Responsible for' = in charge of."
+ },
+ {
+  "sentence": "He was charged ___ driving without insurance.",
+  "answer": "with",
+  "options": [
+   "with",
+   "of",
+   "for",
+   "by"
+  ],
+  "hint": "charge somebody ___ something",
+  "explanation": "'Charge somebody with an offence' — legal collocation."
+ },
+ {
+  "sentence": "I'm really looking forward ___ the holiday.",
+  "answer": "to",
+  "options": [
+   "to",
+   "for",
+   "at",
+   "with"
+  ],
+  "hint": "look forward ___",
+  "explanation": "'Look forward to' — 'to' is a preposition here."
+ },
+ {
+  "sentence": "The village was cut ___ by the floods for three days.",
+  "answer": "off",
+  "options": [
+   "off",
+   "out",
+   "up",
+   "down"
+  ],
+  "hint": "cut ___ = isolated",
+  "explanation": "'Cut off' = unable to reach or be reached."
+ },
+ {
+  "sentence": "This perfume always reminds me ___ my grandmother.",
+  "answer": "of",
+  "options": [
+   "of",
+   "about",
+   "with",
+   "to"
+  ],
+  "hint": "remind somebody ___ something",
+  "explanation": "'Remind somebody of something' = make them think of it."
+ },
+ {
+  "sentence": "She suffered ___ migraines for years before the surgery.",
+  "answer": "from",
+  "options": [
+   "from",
+   "of",
+   "by",
+   "with"
+  ],
+  "hint": "suffer ___ an illness",
+  "explanation": "'Suffer from' an illness or condition."
  }
 ]

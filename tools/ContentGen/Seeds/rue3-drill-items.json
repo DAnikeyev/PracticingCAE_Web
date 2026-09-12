@@ -1447,5 +1447,401 @@
   ],
   "hint": "noun: not having enough",
   "explanation": "'Shortage of funds' — the noun for an insufficient amount."
+ },
+ {
+  "sentence": "She gazed at the mural in silent ___ (ADMIRE).",
+  "answer": "admiration",
+  "options": [
+   "admiration",
+   "admirer",
+   "admiring",
+   "admirable"
+  ],
+  "hint": "noun: respect felt",
+  "explanation": "'In silent admiration' — the noun for the feeling."
+ },
+ {
+  "sentence": "You will need written ___ (PERMIT) to enter the site.",
+  "answer": "permission",
+  "options": [
+   "permission",
+   "permitted",
+   "permissible",
+   "permitting"
+  ],
+  "hint": "noun: official agreement",
+  "explanation": "'Written permission' — the noun you can be given in writing."
+ },
+ {
+  "sentence": "The wind ___ (STRONG) during the night.",
+  "answer": "strengthened",
+  "options": [
+   "strengthened",
+   "strength",
+   "strong",
+   "strongly"
+  ],
+  "hint": "verb: became stronger",
+  "explanation": "'The wind strengthened' — the verb from STRONG."
+ },
+ {
+  "sentence": "The report was highly ___ (CRITIC) of the new scheme.",
+  "answer": "critical",
+  "options": [
+   "critical",
+   "criticism",
+   "criticise",
+   "critically"
+  ],
+  "hint": "adjective: finding fault",
+  "explanation": "'Highly critical of' — the adjective describing a judgement."
+ },
+ {
+  "sentence": "The journal gave full ___ (COVER) to the election.",
+  "answer": "coverage",
+  "options": [
+   "coverage",
+   "covering",
+   "covered",
+   "cover"
+  ],
+  "hint": "noun: reporting in the media",
+  "explanation": "'Media coverage' — the noun for how much something is reported."
+ },
+ {
+  "sentence": "The factory will ___ (EMPLOY) fifty more workers next year.",
+  "answer": "employ",
+  "options": [
+   "employ",
+   "employee",
+   "employment",
+   "employer"
+  ],
+  "hint": "verb after will",
+  "explanation": "The bare verb follows 'will': will employ."
+ },
+ {
+  "sentence": "His alibi was highly ___ (SUSPECT).",
+  "answer": "suspicious",
+  "options": [
+   "suspicious",
+   "suspected",
+   "suspect",
+   "suspiciously"
+  ],
+  "hint": "adjective: seeming guilty",
+  "explanation": "'Highly suspicious' — the adjective for something that looks wrong."
+ },
+ {
+  "sentence": "There is no ___ (PROVE) that he was anywhere near the bank.",
+  "answer": "proof",
+  "options": [
+   "proof",
+   "proven",
+   "proved",
+   "proves"
+  ],
+  "hint": "noun: evidence",
+  "explanation": "'No proof that …' — the noun for evidence."
+ },
+ {
+  "sentence": "The hotel is ___ (CONVENIENT) situated near the station.",
+  "answer": "conveniently",
+  "options": [
+   "conveniently",
+   "convenient",
+   "convenience",
+   "inconvenience"
+  ],
+  "hint": "adverb before the participle",
+  "explanation": "'Conveniently situated' — the adverb modifies the participle."
+ },
+ {
+  "sentence": "The problem was ___ (SIMPLE) a matter of bad timing.",
+  "answer": "simply",
+  "options": [
+   "simply",
+   "simple",
+   "simplicity",
+   "simplification"
+  ],
+  "hint": "adverb: merely",
+  "explanation": "'Simply a matter of' = only a matter of."
+ },
+ {
+  "sentence": "She beat three hundred ___ (COMPETE) for the title.",
+  "answer": "competitors",
+  "options": [
+   "competitors",
+   "competitive",
+   "competition",
+   "competently"
+  ],
+  "hint": "plural noun: the people she beat",
+  "explanation": "'Three hundred competitors' — plural noun for the people taking part."
+ },
+ {
+  "sentence": "Send your ___ (APPLY) to the address below.",
+  "answer": "application",
+  "options": [
+   "application",
+   "applicant",
+   "applying",
+   "applicable"
+  ],
+  "hint": "singular noun: the form",
+  "explanation": "'Your application' — the document you send; an applicant is a person."
+ },
+ {
+  "sentence": "The vaccine gives ___ (PROTECT) against three strains.",
+  "answer": "protection",
+  "options": [
+   "protection",
+   "protective",
+   "protect",
+   "protectively"
+  ],
+  "hint": "noun after gives",
+  "explanation": "'Gives protection against' — the noun is required."
+ },
+ {
+  "sentence": "The document is of great ___ (IMPORTANT) to the case.",
+  "answer": "importance",
+  "options": [
+   "importance",
+   "important",
+   "importantly",
+   "import"
+  ],
+  "hint": "noun after of great",
+  "explanation": "'Of great importance' — the noun form."
+ },
+ {
+  "sentence": "They settled the dispute after a long ___ (ARGUE).",
+  "answer": "argument",
+  "options": [
+   "argument",
+   "arguing",
+   "arguable",
+   "arguably"
+  ],
+  "hint": "noun: disagreement",
+  "explanation": "'A long argument' — the noun."
+ },
+ {
+  "sentence": "Her ___ (APPOINT) as captain surprised no one.",
+  "answer": "appointment",
+  "options": [
+   "appointment",
+   "appointed",
+   "appointing",
+   "appointee"
+  ],
+  "hint": "noun: being given the role",
+  "explanation": "'Her appointment as captain' — the event of being appointed."
+ },
+ {
+  "sentence": "The leaflet gives a clear ___ (EXPLAIN) of the rules.",
+  "answer": "explanation",
+  "options": [
+   "explanation",
+   "explanatory",
+   "explained",
+   "explaining"
+  ],
+  "hint": "noun after clear",
+  "explanation": "'A clear explanation' — the noun."
+ },
+ {
+  "sentence": "The team celebrated a quick ___ (SOLVE) to the crisis.",
+  "answer": "solution",
+  "options": [
+   "solution",
+   "solving",
+   "solved",
+   "solvent"
+  ],
+  "hint": "noun: the answer",
+  "explanation": "'A solution to the crisis' — the noun."
+ },
+ {
+  "sentence": "The committee's ___ (DECIDE) was announced this morning.",
+  "answer": "decision",
+  "options": [
+   "decision",
+   "decisive",
+   "decided",
+   "decisively"
+  ],
+  "hint": "noun: what they chose",
+  "explanation": "The noun from DECIDE is 'decision'."
+ },
+ {
+  "sentence": "He has a wide ___ (KNOW) of local history.",
+  "answer": "knowledge",
+  "options": [
+   "knowledge",
+   "knowledgeable",
+   "knowing",
+   "known"
+  ],
+  "hint": "noun: what you know",
+  "explanation": "'A wide knowledge of' — the noun."
+ },
+ {
+  "sentence": "The team's ___ (LOSE) came as a shock to the fans.",
+  "answer": "loss",
+  "options": [
+   "loss",
+   "losing",
+   "lost",
+   "looseness"
+  ],
+  "hint": "noun: being defeated",
+  "explanation": "'Their loss' — the noun for a defeat or disappearance."
+ },
+ {
+  "sentence": "The soup is a ___ (MIX) of herbs and spices.",
+  "answer": "mixture",
+  "options": [
+   "mixture",
+   "mixed",
+   "mixing",
+   "mixer"
+  ],
+  "hint": "noun: things combined",
+  "explanation": "'A mixture of' — the noun for a blend."
+ },
+ {
+  "sentence": "With careful ___ (PREPARE), the trek is perfectly safe.",
+  "answer": "preparation",
+  "options": [
+   "preparation",
+   "prepared",
+   "preparatory",
+   "preparing"
+  ],
+  "hint": "noun after careful",
+  "explanation": "'Careful preparation' — the noun."
+ },
+ {
+  "sentence": "The ___ (INTRODUCE) of the euro changed European trade.",
+  "answer": "introduction",
+  "options": [
+   "introduction",
+   "introductory",
+   "introduced",
+   "introducing"
+  ],
+  "hint": "noun: bringing something in",
+  "explanation": "'The introduction of' — the noun for starting something new."
+ },
+ {
+  "sentence": "Last night's ___ (PERFORM) ended with a standing ovation.",
+  "answer": "performance",
+  "options": [
+   "performance",
+   "perform",
+   "performed",
+   "performing"
+  ],
+  "hint": "noun: the show",
+  "explanation": "'Last night's performance' — the noun for the event."
+ },
+ {
+  "sentence": "The programme aims at the ___ (EDUCATE) of young farmers.",
+  "answer": "education",
+  "options": [
+   "education",
+   "educated",
+   "educational",
+   "educators"
+  ],
+  "hint": "noun after the",
+  "explanation": "'The education of' — the noun."
+ },
+ {
+  "sentence": "The shop is under new ___ (MANAGE) from Monday.",
+  "answer": "management",
+  "options": [
+   "management",
+   "managing",
+   "managed",
+   "managers"
+  ],
+  "hint": "noun: those who run it",
+  "explanation": "'Under new management' — the fixed phrase."
+ },
+ {
+  "sentence": "Her coach's ___ (ENCOURAGE) kept her racing.",
+  "answer": "encouragement",
+  "options": [
+   "encouragement",
+   "encouraging",
+   "encouraged",
+   "encouragingly"
+  ],
+  "hint": "noun: supportive words",
+  "explanation": "'Her coach's encouragement' — the noun."
+ },
+ {
+  "sentence": "The new ___ (GOVERN) takes office in May.",
+  "answer": "government",
+  "options": [
+   "government",
+   "governing",
+   "governed",
+   "governmental"
+  ],
+  "hint": "noun: ruling body",
+  "explanation": "'The new government' — the noun."
+ },
+ {
+  "sentence": "The bridge has a maximum ___ (WEIGH) of ten tonnes.",
+  "answer": "weight",
+  "options": [
+   "weight",
+   "weighing",
+   "weighed",
+   "weighty"
+  ],
+  "hint": "noun: how heavy",
+  "explanation": "'A maximum weight' — the noun."
+ },
+ {
+  "sentence": "The refugees celebrated their ___ (FREE) at last.",
+  "answer": "freedom",
+  "options": [
+   "freedom",
+   "freely",
+   "freeing",
+   "freeman"
+  ],
+  "hint": "noun: being free",
+  "explanation": "'Their freedom' — the noun."
+ },
+ {
+  "sentence": "There were three ___ (BURGLE) on our street last month.",
+  "answer": "burglaries",
+  "options": [
+   "burglaries",
+   "burglars",
+   "burgled",
+   "burglar"
+  ],
+  "hint": "plural noun: the crimes",
+  "explanation": "'Three burglaries' — plural noun for the crime; burglars are people."
+ },
+ {
+  "sentence": "The model predicts the weather with remarkable ___ (ACCURATE).",
+  "answer": "accuracy",
+  "options": [
+   "accuracy",
+   "accurately",
+   "accurate",
+   "inaccuracies"
+  ],
+  "hint": "noun after remarkable",
+  "explanation": "'With remarkable accuracy' — the noun."
  }
 ]

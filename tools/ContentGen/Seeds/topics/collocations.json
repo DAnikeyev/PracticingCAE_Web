@@ -1342,5 +1342,149 @@
   ],
   "hint": "fixed phrase: ___ turns",
   "explanation": "take turns means to do something one after another, alternating."
+ },
+ {
+  "sentence": "He ___ a speech at the wedding that moved everyone.",
+  "answer": "made",
+  "options": [
+   "made",
+   "told",
+   "said",
+   "spoke"
+  ],
+  "hint": "make/deliver a speech",
+  "explanation": "'Make a speech' is the collocation; say/tell take different structures."
+ },
+ {
+  "sentence": "The judge ___ the verdict after four hours of deliberation.",
+  "answer": "delivered",
+  "options": [
+   "delivered",
+   "told",
+   "spoke",
+   "said"
+  ],
+  "hint": "deliver a verdict",
+  "explanation": "'Deliver a verdict/judgement' is the legal collocation."
+ },
+ {
+  "sentence": "We ___ the risk of flooding very seriously.",
+  "answer": "take",
+  "options": [
+   "take",
+   "make",
+   "do",
+   "give"
+  ],
+  "hint": "take something seriously",
+  "explanation": "'Take something seriously' is the fixed phrase."
+ },
+ {
+  "sentence": "She ___ attention to every detail of the contract.",
+  "answer": "paid",
+  "options": [
+   "paid",
+   "did",
+   "made",
+   "took"
+  ],
+  "hint": "pay attention",
+  "explanation": "'Pay attention to' is the collocation."
+ },
+ {
+  "sentence": "The two sides struggled to ___ an agreement before the deadline.",
+  "answer": "reach",
+  "options": [
+   "reach",
+   "take",
+   "give",
+   "put"
+  ],
+  "hint": "reach an agreement",
+  "explanation": "'Reach an agreement' = arrive at one."
+ },
+ {
+  "sentence": "It ___ no difference whether we leave today or tomorrow.",
+  "answer": "makes",
+  "options": [
+   "makes",
+   "does",
+   "gives",
+   "takes"
+  ],
+  "hint": "make a difference",
+  "explanation": "'Make no difference' is the fixed phrase."
+ },
+ {
+  "sentence": "The critics ___ praise on the young violinist.",
+  "answer": "heaped",
+  "options": [
+   "heaped",
+   "dropped",
+   "stacked",
+   "folded"
+  ],
+  "hint": "heap praise on somebody",
+  "explanation": "'Heap praise on' = give a great deal of praise."
+ },
+ {
+  "sentence": "She ___ her breath before diving into the pool.",
+  "answer": "held",
+  "options": [
+   "held",
+   "kept",
+   "stopped",
+   "caught"
+  ],
+  "hint": "hold your breath",
+  "explanation": "'Hold one's breath' — catching breath is recovering it afterwards."
+ },
+ {
+  "sentence": "The company ___ losses of two million last year.",
+  "answer": "reported",
+  "options": [
+   "reported",
+   "spoke",
+   "talked",
+   "told"
+  ],
+  "hint": "report losses",
+  "explanation": "'Report losses/profits' is the business collocation."
+ },
+ {
+  "sentence": "He ___ the blame for the accident onto the weather.",
+  "answer": "shifted",
+  "options": [
+   "shifted",
+   "moved",
+   "carried",
+   "brought"
+  ],
+  "hint": "shift the blame (onto)",
+  "explanation": "'Shift the blame onto somebody' = transfer responsibility."
+ },
+ {
+  "sentence": "The children ___ great fun at the fair.",
+  "answer": "had",
+  "options": [
+   "had",
+   "made",
+   "did",
+   "took"
+  ],
+  "hint": "have fun",
+  "explanation": "'Have fun' — make/do do not collocate."
+ },
+ {
+  "sentence": "Their wedding ___ place on a remote island.",
+  "answer": "took",
+  "options": [
+   "took",
+   "made",
+   "had",
+   "gave"
+  ],
+  "hint": "take place = happen",
+  "explanation": "'Take place' is the fixed phrase for events."
  }
 ]

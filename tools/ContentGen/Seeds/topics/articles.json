@@ -1450,5 +1450,125 @@
   ],
   "hint": "'only' identifies uniquely",
   "explanation": "'The only person' — 'only' makes the noun unique, so 'the'."
+ },
+ {
+  "sentence": "___ rich often object to paying inheritance tax.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "–"
+  ],
+  "hint": "adjective as a group",
+  "explanation": "'The rich' = rich people as a group."
+ },
+ {
+  "sentence": "She was ___ heir to a shipping fortune.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "silent h",
+  "explanation": "'Heir' begins with a vowel sound — the h is silent."
+ },
+ {
+  "sentence": "He spent three years in ___ United States.",
+  "answer": "the",
+  "options": [
+   "the",
+   "–",
+   "a",
+   "an"
+  ],
+  "hint": "plural-form country name",
+  "explanation": "'The United States' — plural-form names take 'the'."
+ },
+ {
+  "sentence": "___ honest answer would have saved everyone time.",
+  "answer": "An",
+  "options": [
+   "An",
+   "A",
+   "The",
+   "–"
+  ],
+  "hint": "silent h",
+  "explanation": "'Honest' begins with a vowel sound."
+ },
+ {
+  "sentence": "The committee meets twice ___ week.",
+  "answer": "a",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "hint": "frequency phrase",
+  "explanation": "'Twice a week' — 'a' means per."
+ },
+ {
+  "sentence": "___ most people agree that change is needed.",
+  "answer": "–",
+  "options": [
+   "–",
+   "The",
+   "A",
+   "An"
+  ],
+  "hint": "general plural",
+  "explanation": "'Most people' in a general sense takes no article."
+ },
+ {
+  "sentence": "The company is looking for ___ accredited supplier of packaging.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'Accredited' begins with a vowel sound — 'an accredited supplier'."
+ },
+ {
+  "sentence": "___ few days he had left were spent packing.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "–"
+  ],
+  "hint": "specific small number",
+  "explanation": "'The few days' identifies particular days."
+ },
+ {
+  "sentence": "She works as ___ editor for a travel magazine.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'Editor' begins with a vowel sound."
+ },
+ {
+  "sentence": "___ bicycles are a cheap way of seeing the city.",
+  "answer": "–",
+  "options": [
+   "–",
+   "The",
+   "A",
+   "An"
+  ],
+  "hint": "plural noun in general",
+  "explanation": "Plural nouns in a general sense take no article."
  }
 ]

@@ -6,7 +6,7 @@ namespace PracticingCAE.Tests;
 /// <summary>
 /// Validates the whole committed content bank: every set must be well-formed,
 /// every answer must be complete (hint + explanation), and every task must
-/// offer at least 100 sets — the bar set for this project.
+/// offer at least 200 sets — the bar set for this project.
 /// </summary>
 public class ContentRepositoryTests
 {
@@ -35,7 +35,7 @@ public class ContentRepositoryTests
     {
         foreach (var task in Repo.Tasks)
         {
-            Assert.True(Repo.SetCount(task.Id) >= 100,
+            Assert.True(Repo.SetCount(task.Id) >= 200,
                 $"{task.Id} has only {Repo.SetCount(task.Id)} sets");
         }
     }

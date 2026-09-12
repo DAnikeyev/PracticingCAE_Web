@@ -1,112 +1,1505 @@
 [
- {"sentence":"If the alarm sounds, ___ the building immediately.","answer":"leave","options":["leave","will leave","leaving","to leave"],"hint":"an instruction after if, imperative result","explanation":"Instructions after 'if' keep the present simple in the if-clause and use the imperative as the result: leave."},
- {"sentence":"If you ___ a muscle, apply ice at once.","answer":"pull","options":["pull","will pull","pulled","had pulled"],"hint":"medical instruction, present simple after if","explanation":"The if-clause of a conditional instruction uses the present simple, never 'will': pull."},
- {"sentence":"If plants ___ enough light, their leaves turn yellow.","answer":"do not get","options":["do not get","will not get","did not get","had not got"],"hint":"a general truth in the if-clause","explanation":"Zero conditionals state general truths with the present simple in both clauses: do not get."},
- {"sentence":"If the red light ___, the machine needs servicing.","answer":"flashes","options":["flashes","will flash","flashed","would flash"],"hint":"a general rule stated with if","explanation":"Rules and general facts use the present simple in the if-clause: flashes."},
- {"sentence":"If you mix blue and yellow, you always ___ green.","answer":"get","options":["get","got","would get","are getting"],"hint":"always marks a timeless result","explanation":"The adverb 'always' signals a timeless result, so the present simple fits: get."},
- {"sentence":"If the battery is completely flat, the engine ___ at all.","answer":"does not start","options":["does not start","did not start","would not start","had not started"],"hint":"a permanent characteristic, present simple","explanation":"A permanent characteristic takes the present simple in a zero conditional: does not start."},
- {"sentence":"If the pain ___, stop taking the tablets and call your doctor.","answer":"gets worse","options":["gets worse","will get worse","got worse","would get worse"],"hint":"medical instruction with present after if","explanation":"Conditional instructions use the present simple in the if-clause: gets worse."},
- {"sentence":"Ice ___ if you leave it in the sun.","answer":"melts","options":["melts","melted","would melt","is melting"],"hint":"general fact, both clauses present","explanation":"In zero conditionals both clauses use the present simple: melts."},
- {"sentence":"If it ___ tomorrow, the match will be cancelled.","answer":"rains","options":["rains","will rain","rained","would rain"],"hint":"likely future, if plus present","explanation":"In first conditionals the if-clause takes the present simple even with future meaning: rains."},
- {"sentence":"Unless you ___ the form by Friday, your application will not be considered.","answer":"submit","options":["submit","will submit","submitted","had submitted"],"hint":"unless means if not, present simple","explanation":"'Unless' means 'if not' and, like if, takes the present simple: submit."},
- {"sentence":"If you ___ me tonight, I will send you the files first thing.","answer":"email","options":["email","will email","emailed","had emailed"],"hint":"open condition about the future","explanation":"A realistic future condition uses the present simple after 'if': email."},
- {"sentence":"We will lose the deposit if we ___ the booking now.","answer":"cancel","options":["cancel","will cancel","cancelled","had cancelled"],"hint":"the if-clause never takes will","explanation":"The result clause carries 'will'; the if-clause stays in the present simple: cancel."},
- {"sentence":"If the taxi ___ in five minutes, we are going to miss our flight.","answer":"does not arrive","options":["does not arrive","will not arrive","did not arrive","had not arrived"],"hint":"real future risk in the if-clause","explanation":"Real future conditions take the present simple in the if-clause: does not arrive."},
- {"sentence":"I will tell her the news when I ___ her at the party.","answer":"see","options":["see","will see","saw","would see"],"hint":"when clauses take present for future","explanation":"Time clauses with future meaning use the present simple, not 'will': see."},
- {"sentence":"Take a jacket in case it ___ cold later.","answer":"gets","options":["gets","will get","got","would get"],"hint":"in case plus present simple","explanation":"'In case' is followed by the present simple for future possibilities: gets."},
- {"sentence":"Provided that the weather ___ dry, the festival will go ahead.","answer":"stays","options":["stays","will stay","stayed","had stayed"],"hint":"provided that works like if","explanation":"'Provided that' introduces the condition and takes the present simple: stays."},
- {"sentence":"As long as you ___ the rules, you will have no problems here.","answer":"follow","options":["follow","will follow","followed","had followed"],"hint":"as long as states the condition","explanation":"'As long as' introduces the condition and takes the present simple: follow."},
- {"sentence":"If we ___ tickets today, they will cost half the price.","answer":"book","options":["book","will book","booked","would book"],"hint":"present decision with future result","explanation":"The condition is present simple; only the result clause uses 'will': book."},
- {"sentence":"She will be furious if she ___ about this.","answer":"finds out","options":["finds out","will find out","found out","would find out"],"hint":"real future consequence after if","explanation":"First conditional: the if-clause stays in the present simple: finds out."},
- {"sentence":"I will write down the address in case I ___ it.","answer":"forget","options":["forget","will forget","forgot","would forget"],"hint":"in case describes a precaution","explanation":"'In case' describes a precaution against a possibility and takes the present simple: forget."},
- {"sentence":"If you ___ late again, the manager will have to speak to you.","answer":"are","options":["are","will be","were","would be"],"hint":"a warning about a real future","explanation":"A real warning about the future keeps the if-clause in the present simple: are."},
- {"sentence":"What will you do if the train ___ before you get there?","answer":"leaves","options":["leaves","will leave","left","would leave"],"hint":"future question, if plus present","explanation":"Even in questions about the future, the if-clause uses the present simple: leaves."},
- {"sentence":"If this medicine ___ relief within an hour, call me back.","answer":"does not bring","options":["does not bring","will not bring","did not bring","had not brought"],"hint":"conditional instruction with present tense","explanation":"Conditional instructions use the present simple in the if-clause: does not bring."},
- {"sentence":"You can borrow the car provided that you ___ it back by Sunday.","answer":"bring","options":["bring","will bring","brought","had brought"],"hint":"provided that sets the requirement","explanation":"'Provided that' introduces a requirement and takes the present simple: bring."},
- {"sentence":"If you order before midnight, delivery ___ nothing.","answer":"will cost","options":["will cost","is costing","costed","has cost"],"hint":"result clause of a first conditional","explanation":"The result of a real future condition takes 'will': will cost."},
- {"sentence":"If I ___ a million euros, I would travel the world for a year.","answer":"won","options":["won","win","had won","would win"],"hint":"unreal present, past in if-clause","explanation":"Second conditionals use the past simple after 'if' for unreal presents: won."},
- {"sentence":"If she ___ here now, she would know exactly what to do.","answer":"were","options":["were","was","is","would be"],"accept":["was"],"hint":"unreal present needs the subjunctive were","explanation":"For unreal present conditions, formal English uses 'were' for all persons: were."},
- {"sentence":"If the route ___ safer, I would cycle to work.","answer":"were","options":["were","was","is","would be"],"accept":["was"],"hint":"an imaginary present situation, subjunctive were","explanation":"Unreal present conditions formally take 'were' rather than 'is': were."},
- {"sentence":"If you pressed that red button, what ___?","answer":"would happen","options":["would happen","will happen","happened","had happened"],"hint":"hypothetical result of an unreal action","explanation":"The result of an unreal present condition takes 'would': would happen."},
- {"sentence":"If we ___ nearer the station, we would not need the car at all.","answer":"lived","options":["lived","live","had lived","would live"],"hint":"unreal present situation, past tense","explanation":"An unreal present situation takes the past simple in the if-clause: lived."},
- {"sentence":"He would be healthier if he ___ so much red meat.","answer":"did not eat","options":["did not eat","does not eat","had not eaten","would not eat"],"hint":"an unreal present habit, past simple","explanation":"For an unreal present habit, the if-clause uses the past simple: did not eat."},
- {"sentence":"In your position, I ___ for a written contract.","answer":"would ask","options":["would ask","will ask","asked","had asked"],"hint":"imaginary advice about the present","explanation":"Giving imaginary advice uses 'would' for an unreal present: would ask."},
- {"sentence":"If the museum opened on Mondays, we ___ visit tomorrow.","answer":"could","options":["could","can","will","would have been able"],"hint":"unreal condition with a possible result","explanation":"An unreal condition takes 'could' in the result to show what would then be possible: could."},
- {"sentence":"If dogs ___ wings, they would fly.","answer":"had","options":["had","have","would have","had had"],"hint":"an impossible present, past simple if-clause","explanation":"Impossible present conditions still take the past simple after 'if': had."},
- {"sentence":"I would not buy that flat if I ___ you.","answer":"were","options":["were","was","am","would be"],"accept":["was"],"hint":"the fixed advice pattern if I were","explanation":"'If I were you' is the fixed unreal-present pattern for advice: were."},
- {"sentence":"If people ___ less time on their phones, they would read more.","answer":"spent","options":["spent","spend","had spent","would spend"],"hint":"an unreal present general habit","explanation":"An unreal present habit takes the past simple in the if-clause: spent."},
- {"sentence":"Would you ___ me if I told you a secret?","answer":"forgive","options":["forgive","forgave","have forgiven","be forgiving"],"hint":"would plus infinitive in result clause","explanation":"The result clause of a second conditional uses 'would' plus the infinitive: forgive."},
- {"sentence":"If the hotel ___ a pool, we would book it for the whole team.","answer":"had","options":["had","has","had had","would have"],"hint":"unreal present lack of a facility","explanation":"The hotel does not have a pool now, so the if-clause takes the past simple: had."},
- {"sentence":"If he ___ so stubborn, we would have reached an agreement by now.","answer":"were not","options":["were not","was not","would not be","is not"],"accept":["was not"],"hint":"present cause with a result up to now","explanation":"An unreal present cause can produce a result reaching into the past; formally 'were' is used: were not."},
- {"sentence":"If I ___ the answer, I would tell you immediately.","answer":"knew","options":["knew","know","had known","would know"],"hint":"unreal present lack of knowledge","explanation":"The speaker does not know now, so the if-clause takes the past simple: knew."},
- {"sentence":"If we had left earlier, we ___ the ferry.","answer":"would have caught","options":["would have caught","would catch","had caught","will have caught"],"hint":"unreal past, would have plus participle","explanation":"Third conditionals take 'would have' plus the past participle in the result clause: would have caught."},
- {"sentence":"If she ___ the warning signs, the accident would not have happened.","answer":"had noticed","options":["had noticed","noticed","has noticed","would have noticed"],"hint":"unreal past condition, past perfect","explanation":"The unreal past condition takes the past perfect: had noticed."},
- {"sentence":"They would have won the match if their best player ___ injured.","answer":"had not been","options":["had not been","has not been","would not be","is not"],"hint":"unreal past needs the past perfect","explanation":"The unreal past condition requires the past perfect: had not been."},
- {"sentence":"If you ___ me, I would have helped you move house.","answer":"had asked","options":["had asked","asked","have asked","would have asked"],"hint":"a missed request in the past","explanation":"An unreal past condition takes the past perfect: had asked."},
- {"sentence":"I would never have found the house if you ___ me the postcode.","answer":"had not sent","options":["had not sent","would not send","have not sent","had not send"],"hint":"unreal past condition after if","explanation":"The unreal past condition takes the past perfect: had not sent."},
- {"sentence":"If it ___ for your quick thinking, the fire would have spread.","answer":"had not been","options":["had not been","was not","would not be","has not been"],"hint":"the fixed phrase if it had not been for","explanation":"The fixed expression 'if it had not been for' takes the past perfect: had not been."},
- {"sentence":"___ harder, she would have passed the exam.","answer":"Had she studied","options":["Had she studied","If she studied","Did she study","Should she study"],"hint":"inversion replaces if in formal English","explanation":"Formal English can drop 'if' and invert: Had she studied harder, she would have passed."},
- {"sentence":"If they ___ us about the delay, we would still be waiting at the airport.","answer":"had not told","options":["had not told","did not tell","have not told","would not tell"],"accept":["did not tell"],"hint":"past cause with a result right now","explanation":"A past unreal condition with a present result is a mixed conditional: had not told."},
- {"sentence":"If I had known you were coming, I ___ a cake.","answer":"would have baked","options":["would have baked","would bake","had baked","will have baked"],"hint":"unreal past result, would have participle","explanation":"The result of an unreal past condition is 'would have' plus the past participle: would have baked."},
- {"sentence":"You ___ the truth if you had asked me directly.","answer":"would have been told","options":["would have been told","would be told","had been told","would have told"],"hint":"a passive result in the third conditional","explanation":"The third-conditional result clause can be passive: would have been told."},
- {"sentence":"If the pilot ___ the storm, we would have landed on time.","answer":"had avoided","options":["had avoided","avoided","has avoided","would have avoided"],"hint":"unreal past condition, past perfect","explanation":"The unreal past condition takes the past perfect: had avoided."},
- {"sentence":"Had I ___ the risks, I would never have invested.","answer":"known","options":["known","knew","know","knowing"],"hint":"inverted had plus past participle","explanation":"After inverted 'Had I', the past participle follows: known."},
- {"sentence":"If you had watered the plants, they ___.","answer":"would not have died","options":["would not have died","would not die","had not died","did not die"],"hint":"negative unreal past result with would","explanation":"The unreal past result takes 'would not have' plus the past participle: would not have died."},
- {"sentence":"What ___ if the bridge had collapsed?","answer":"would have happened","options":["would have happened","would happen","had happened","will happen"],"hint":"a question about an unreal past","explanation":"Questions about unreal pasts use 'would have' plus the participle: would have happened."},
- {"sentence":"If he had not left his passport at home, he ___ the earlier flight.","answer":"would have caught","options":["would have caught","would catch","had caught","will have caught"],"hint":"third conditional result, would have participle","explanation":"The unreal past result takes 'would have' plus the participle: would have caught."},
- {"sentence":"If we ___ a map, we would have arrived hours ago.","answer":"had brought","options":["had brought","have brought","would bring","were bringing"],"hint":"unreal past condition with past perfect","explanation":"The unreal past condition takes the past perfect: had brought."},
- {"sentence":"If I ___ that job offer, I would be living in Singapore now.","answer":"had accepted","options":["had accepted","accepted","accept","would accept"],"hint":"mixed: past choice, present result","explanation":"A past unreal condition with a present result is a mixed conditional: had accepted."},
- {"sentence":"If she were more organised, she ___ the deadline last week.","answer":"would not have missed","options":["would not have missed","would not miss","had not missed","did not miss"],"hint":"mixed: present cause, past result","explanation":"A present unreal cause with a past result is a mixed conditional: would not have missed."},
- {"sentence":"If you had set an alarm, you ___.","answer":"would not still be asleep","options":["would not still be asleep","would not sleep","had not slept","did not sleep"],"hint":"mixed: past cause, present result","explanation":"The present result of a past unreal condition takes 'would not be': would not still be asleep."},
- {"sentence":"Had we booked earlier, we ___ much cheaper flights.","answer":"would have got","options":["would have got","would get","had got","will have got"],"accept":["would have gotten"],"hint":"inversion had with a third conditional","explanation":"Inverted 'Had we booked' works like 'If we had booked' and takes 'would have got'."},
- {"sentence":"If only I had taken that job — I ___ much happier now.","answer":"would be","options":["would be","would have been","had been","will be"],"hint":"mixed wish: past event, present result","explanation":"'Now' anchors the result in the present, so 'would be' is needed."},
- {"sentence":"Were the budget larger, we ___ more experiments.","answer":"could run","options":["could run","can run","had run","would have run"],"hint":"inverted were with a present result","explanation":"Inverted 'Were the budget larger' replaces 'If the budget were larger', and the present result takes 'could': could run."},
- {"sentence":"Should you ___ any problems, please contact support.","answer":"experience","options":["experience","experienced","will experience","have experienced"],"hint":"should inversion, a formal conditional","explanation":"'Should you plus infinitive' is a formal way to say 'If you ...': experience."},
- {"sentence":"I wish I ___ how to play the piano.","answer":"knew","options":["knew","know","had known","would know"],"hint":"wish plus past for present regret","explanation":"'Wish' plus past simple expresses regret about a present situation: knew."},
- {"sentence":"I wish I ___ to your advice — then I would not be in this mess.","answer":"had listened","options":["had listened","listened","have listened","would listen"],"hint":"regret about the past, past perfect","explanation":"'Wish' plus the past perfect expresses regret about the past: had listened."},
- {"sentence":"If only I ___ more free time these days.","answer":"had","options":["had","have","would have","had had"],"hint":"if only plus past, present wish","explanation":"'If only' works like 'wish' and takes the past simple for present regrets: had."},
- {"sentence":"I wish you ___ your shoes in the middle of the floor!","answer":"would not leave","options":["would not leave","did not leave","do not leave","had not left"],"accept":["did not leave"],"hint":"irritation about a habit, wish would","explanation":"'Wish' plus 'would' expresses irritation about a habit you want changed: would not leave."},
- {"sentence":"I wish it ___ raining so we could go for a walk.","answer":"would stop","options":["would stop","stops","stopped","had stopped"],"hint":"a desired change, wish plus would","explanation":"To wish for a change in the weather or behavior, use 'would': would stop."},
- {"sentence":"I wish I ___ you at the airport last week, but I was abroad.","answer":"had met","options":["had met","have met","would meet","were meeting"],"hint":"regret about a missed past meeting","explanation":"Regret about something that did not happen takes 'wish' plus the past perfect: had met."},
- {"sentence":"He wishes he ___ harder at school when he had the chance.","answer":"had worked","options":["had worked","has worked","would work","was working"],"hint":"past regret, wish plus past perfect","explanation":"Regret about past behavior takes the past perfect after 'wish': had worked."},
- {"sentence":"If only we ___ the tickets before they sold out!","answer":"had bought","options":["had bought","have bought","would buy","were buying"],"hint":"a missed opportunity, past perfect","explanation":"'If only' plus the past perfect regrets a missed past opportunity: had bought."},
- {"sentence":"I wish I ___ so much cake — I feel sick now.","answer":"had not eaten","options":["had not eaten","do not eat","would not eat","am not eating"],"hint":"past act with a present consequence","explanation":"The regret is about a past action, so 'wish' takes the past perfect: had not eaten."},
- {"sentence":"I wish I ___ taller, but genes are genes.","answer":"were","options":["were","was","am","would be"],"accept":["was"],"hint":"an impossible present wish with were","explanation":"For impossible present wishes, formal English uses 'were': were."},
- {"sentence":"Do you wish you ___ somewhere warmer this winter?","answer":"lived","options":["lived","live","had lived","would live"],"hint":"a wish about the present situation","explanation":"A wish about the present takes the past simple: lived."},
- {"sentence":"If only I ___ my umbrella — I am getting soaked!","answer":"had brought","options":["had brought","have brought","would bring","were bringing"],"hint":"present regret about an earlier decision","explanation":"'If only' plus the past perfect expresses a present regret about a past decision: had brought."},
- {"sentence":"I wish you ___ so pessimistic about the project.","answer":"were not","options":["were not","was not","are not","would not be"],"accept":["was not"],"hint":"a wish about a present attitude","explanation":"Wishes about present states use 'were': were not."},
- {"sentence":"She wishes she ___ the job offer when it came.","answer":"had accepted","options":["had accepted","has accepted","would accept","was accepting"],"hint":"regret about a past decision","explanation":"Regret about a past decision takes the past perfect: had accepted."},
- {"sentence":"I wish he ___ where the keys are — nobody can find them.","answer":"knew","options":["knew","knows","had known","would know"],"hint":"a wish about a present lack","explanation":"A wish about a present lack of knowledge takes the past simple: knew."},
- {"sentence":"If only the government ___ something about housing costs!","answer":"would do","options":["would do","did","does","had done"],"accept":["did"],"hint":"a strong wish for change, would","explanation":"'If only' plus 'would' expresses a strong wish for change: would do."},
- {"sentence":"I wish we ___ longer, but our train leaves at six.","answer":"could stay","options":["could stay","can stay","stayed","had stayed"],"hint":"wish plus could for ability","explanation":"'Wish' plus 'could' expresses regret about present ability: could stay."},
- {"sentence":"If only I ___ faster — we might still catch the train.","answer":"could run","options":["could run","can run","ran","had run"],"hint":"if only plus could, present inability","explanation":"'If only' plus 'could' expresses a present inability you regret: could run."},
- {"sentence":"I wish the meeting ___ tomorrow; I would rather sleep in.","answer":"were not","options":["were not","is not","would not be","had not been"],"accept":["was not"],"hint":"a wish about a present arrangement","explanation":"Wishes about present facts use 'were': were not."},
- {"sentence":"He wishes he ___ his temper in the meeting yesterday.","answer":"had not lost","options":["had not lost","has not lost","would not lose","was not losing"],"hint":"past regret with wish plus past perfect","explanation":"Regret about past behavior takes the past perfect: had not lost."},
- {"sentence":"You will not pass the course unless you ___ all the assignments.","answer":"complete","options":["complete","will complete","completed","had completed"],"hint":"unless means if not, present simple","explanation":"'Unless' introduces a negative condition and takes the present simple: complete."},
- {"sentence":"Unless the strike ___, flights will be grounded all weekend.","answer":"is called off","options":["is called off","will be called off","was called off","had been called off"],"hint":"unless plus a present passive verb","explanation":"'Unless' clauses use the present simple, here in the passive: is called off."},
- {"sentence":"I will not apologise unless I ___ wrong.","answer":"am","options":["am","will be","were","would be"],"hint":"unless keeps the present simple","explanation":"Like if, 'unless' takes the present simple for future conditions: am."},
- {"sentence":"Unless you ___ the exact change, the machine will not accept it.","answer":"have","options":["have","will have","had","would have"],"hint":"a real condition with unless","explanation":"'Unless' states the condition that must be met and takes the present simple: have."},
- {"sentence":"Unless the road ___, the coach cannot use this route.","answer":"is widened","options":["is widened","will be widened","was widened","would be widened"],"hint":"unless plus a present passive","explanation":"'Unless' takes the present simple, here in the passive: is widened."},
- {"sentence":"You cannot enter the studio unless you ___ a visitor badge.","answer":"wear","options":["wear","will wear","wore","would wear"],"hint":"a rule stated with unless","explanation":"Rules with 'unless' keep the present simple: wear."},
- {"sentence":"Unless it ___ below five degrees tonight, the event will go ahead.","answer":"drops","options":["drops","will drop","dropped","had dropped"],"hint":"unless plus present, future result","explanation":"'Unless' clauses take the present simple even when referring to tonight: drops."},
- {"sentence":"Unless something urgent ___, I will be at my desk all morning.","answer":"comes up","options":["comes up","will come up","came up","had come up"],"hint":"unless introduces the exception, present simple","explanation":"'Unless' introduces the exception to the plan and takes the present simple: comes up."},
- {"sentence":"You can stay out late as long as you ___ me a text when you arrive.","answer":"send","options":["send","will send","sent","had sent"],"hint":"as long as plus present simple","explanation":"'As long as' introduces the condition and takes the present simple: send."},
- {"sentence":"We will refund the item provided that you ___ the receipt.","answer":"have","options":["have","will have","had","would have"],"hint":"provided that plus a present requirement","explanation":"'Provided that' states a requirement using the present simple: have."},
- {"sentence":"As long as the budget ___, we can hire two more staff.","answer":"is approved","options":["is approved","will be approved","was approved","had been approved"],"hint":"as long as plus a passive condition","explanation":"'As long as' takes the present simple, here in the passive: is approved."},
- {"sentence":"Children may use the pool provided that they ___ by an adult.","answer":"are accompanied","options":["are accompanied","will be accompanied","were accompanied","would be accompanied"],"hint":"provided that plus a passive rule","explanation":"Rules with 'provided that' use the present simple passive: are accompanied."},
- {"sentence":"As long as nobody ___, we will finish before lunch.","answer":"objects","options":["objects","will object","objected","had objected"],"hint":"as long as plus a present verb","explanation":"'As long as' clauses take the present simple: objects."},
- {"sentence":"You may keep the book provided that you ___ it by Friday.","answer":"return","options":["return","will return","returned","would return"],"hint":"provided that sets the condition","explanation":"'Provided that' introduces a condition in the present simple: return."},
- {"sentence":"Take some sun cream in case the weather ___ hot.","answer":"turns","options":["turns","will turn","turned","would turn"],"hint":"in case plus present, a precaution","explanation":"'In case' is followed by the present simple even with future meaning: turns."},
- {"sentence":"She keeps a spare key at her mother's in case she ___ herself out.","answer":"locks","options":["locks","will lock","locked","had locked"],"hint":"a precaution, in case plus present","explanation":"'In case' clauses use the present simple for possible future problems: locks."},
- {"sentence":"He always carries a power bank in case his phone ___.","answer":"dies","options":["dies","will die","died","would die"],"hint":"in case plus the present simple","explanation":"'In case' takes the present simple for things that might happen: dies."},
- {"sentence":"In case of fire, ___ the nearest exit.","answer":"use","options":["use","will use","using","to use"],"hint":"in case of plus an emergency instruction","explanation":"'In case of' plus a noun introduces an emergency instruction with the imperative: use."},
- {"sentence":"I will note the reference number in case I ___ it later.","answer":"need","options":["need","will need","needed","would need"],"hint":"in case means as a precaution","explanation":"'In case' describes a precaution and takes the present simple: need."},
- {"sentence":"I would tell you if I ___, but it is a secret.","answer":"knew","options":["knew","know","had known","would know"],"hint":"unreal present condition, past simple","explanation":"An unreal present condition takes the past simple after 'if': knew."},
- {"sentence":"If the drug ___ tested properly, the side effects would have been found earlier.","answer":"had been","options":["had been","has been","is being","would be"],"hint":"passive verb in an unreal past condition","explanation":"The unreal past condition takes the past perfect, here in the passive: had been."},
- {"sentence":"Should the fire alarm ___, leave the hall by the nearest exit.","answer":"sound","options":["sound","sounds","sounded","will sound"],"hint":"should inversion with a base verb","explanation":"After inverted 'Should', the base form of the verb follows: sound."},
- {"sentence":"Were it not for your support, I ___ where I am today.","answer":"would not be","options":["would not be","will not be","had not been","am not"],"accept":["would not have been"],"hint":"inverted were, present result clause","explanation":"Inverted 'Were it not for' works like 'If it were not for', and the present result takes 'would not be': would not be."},
- {"sentence":"If the walls ___ soundproofed, we would not hear the neighbours.","answer":"were","options":["were","was","are","would be"],"accept":["was"],"hint":"unreal present with the subjunctive were","explanation":"Unreal present conditions formally take 'were': were."},
- {"sentence":"I will be surprised if he ___ on time for once.","answer":"arrives","options":["arrives","will arrive","arrived","would arrive"],"hint":"real future condition after if","explanation":"The if-clause of a real future condition takes the present simple: arrives."},
- {"sentence":"Unless the tickets ___ within a week, ask for a refund.","answer":"arrive","options":["arrive","will arrive","arrived","would arrive"],"hint":"unless plus present before an imperative","explanation":"'Unless' clauses take the present simple, even before an imperative result: arrive."},
- {"sentence":"If you ___ a red light, you must stop.","answer":"come to","options":["come to","will come to","came to","had come to"],"hint":"general rule, present after if","explanation":"General rules use the present simple in the if-clause: come to."}
+ {
+  "sentence": "If the alarm sounds, ___ the building immediately.",
+  "answer": "leave",
+  "options": [
+   "leave",
+   "will leave",
+   "leaving",
+   "to leave"
+  ],
+  "hint": "an instruction after if, imperative result",
+  "explanation": "Instructions after 'if' keep the present simple in the if-clause and use the imperative as the result: leave."
+ },
+ {
+  "sentence": "If you ___ a muscle, apply ice at once.",
+  "answer": "pull",
+  "options": [
+   "pull",
+   "will pull",
+   "pulled",
+   "had pulled"
+  ],
+  "hint": "medical instruction, present simple after if",
+  "explanation": "The if-clause of a conditional instruction uses the present simple, never 'will': pull."
+ },
+ {
+  "sentence": "If plants ___ enough light, their leaves turn yellow.",
+  "answer": "do not get",
+  "options": [
+   "do not get",
+   "will not get",
+   "did not get",
+   "had not got"
+  ],
+  "hint": "a general truth in the if-clause",
+  "explanation": "Zero conditionals state general truths with the present simple in both clauses: do not get."
+ },
+ {
+  "sentence": "If the red light ___, the machine needs servicing.",
+  "answer": "flashes",
+  "options": [
+   "flashes",
+   "will flash",
+   "flashed",
+   "would flash"
+  ],
+  "hint": "a general rule stated with if",
+  "explanation": "Rules and general facts use the present simple in the if-clause: flashes."
+ },
+ {
+  "sentence": "If you mix blue and yellow, you always ___ green.",
+  "answer": "get",
+  "options": [
+   "get",
+   "got",
+   "would get",
+   "are getting"
+  ],
+  "hint": "always marks a timeless result",
+  "explanation": "The adverb 'always' signals a timeless result, so the present simple fits: get."
+ },
+ {
+  "sentence": "If the battery is completely flat, the engine ___ at all.",
+  "answer": "does not start",
+  "options": [
+   "does not start",
+   "did not start",
+   "would not start",
+   "had not started"
+  ],
+  "hint": "a permanent characteristic, present simple",
+  "explanation": "A permanent characteristic takes the present simple in a zero conditional: does not start."
+ },
+ {
+  "sentence": "If the pain ___, stop taking the tablets and call your doctor.",
+  "answer": "gets worse",
+  "options": [
+   "gets worse",
+   "will get worse",
+   "got worse",
+   "would get worse"
+  ],
+  "hint": "medical instruction with present after if",
+  "explanation": "Conditional instructions use the present simple in the if-clause: gets worse."
+ },
+ {
+  "sentence": "Ice ___ if you leave it in the sun.",
+  "answer": "melts",
+  "options": [
+   "melts",
+   "melted",
+   "would melt",
+   "is melting"
+  ],
+  "hint": "general fact, both clauses present",
+  "explanation": "In zero conditionals both clauses use the present simple: melts."
+ },
+ {
+  "sentence": "If it ___ tomorrow, the match will be cancelled.",
+  "answer": "rains",
+  "options": [
+   "rains",
+   "will rain",
+   "rained",
+   "would rain"
+  ],
+  "hint": "likely future, if plus present",
+  "explanation": "In first conditionals the if-clause takes the present simple even with future meaning: rains."
+ },
+ {
+  "sentence": "Unless you ___ the form by Friday, your application will not be considered.",
+  "answer": "submit",
+  "options": [
+   "submit",
+   "will submit",
+   "submitted",
+   "had submitted"
+  ],
+  "hint": "unless means if not, present simple",
+  "explanation": "'Unless' means 'if not' and, like if, takes the present simple: submit."
+ },
+ {
+  "sentence": "If you ___ me tonight, I will send you the files first thing.",
+  "answer": "email",
+  "options": [
+   "email",
+   "will email",
+   "emailed",
+   "had emailed"
+  ],
+  "hint": "open condition about the future",
+  "explanation": "A realistic future condition uses the present simple after 'if': email."
+ },
+ {
+  "sentence": "We will lose the deposit if we ___ the booking now.",
+  "answer": "cancel",
+  "options": [
+   "cancel",
+   "will cancel",
+   "cancelled",
+   "had cancelled"
+  ],
+  "hint": "the if-clause never takes will",
+  "explanation": "The result clause carries 'will'; the if-clause stays in the present simple: cancel."
+ },
+ {
+  "sentence": "If the taxi ___ in five minutes, we are going to miss our flight.",
+  "answer": "does not arrive",
+  "options": [
+   "does not arrive",
+   "will not arrive",
+   "did not arrive",
+   "had not arrived"
+  ],
+  "hint": "real future risk in the if-clause",
+  "explanation": "Real future conditions take the present simple in the if-clause: does not arrive."
+ },
+ {
+  "sentence": "I will tell her the news when I ___ her at the party.",
+  "answer": "see",
+  "options": [
+   "see",
+   "will see",
+   "saw",
+   "would see"
+  ],
+  "hint": "when clauses take present for future",
+  "explanation": "Time clauses with future meaning use the present simple, not 'will': see."
+ },
+ {
+  "sentence": "Take a jacket in case it ___ cold later.",
+  "answer": "gets",
+  "options": [
+   "gets",
+   "will get",
+   "got",
+   "would get"
+  ],
+  "hint": "in case plus present simple",
+  "explanation": "'In case' is followed by the present simple for future possibilities: gets."
+ },
+ {
+  "sentence": "Provided that the weather ___ dry, the festival will go ahead.",
+  "answer": "stays",
+  "options": [
+   "stays",
+   "will stay",
+   "stayed",
+   "had stayed"
+  ],
+  "hint": "provided that works like if",
+  "explanation": "'Provided that' introduces the condition and takes the present simple: stays."
+ },
+ {
+  "sentence": "As long as you ___ the rules, you will have no problems here.",
+  "answer": "follow",
+  "options": [
+   "follow",
+   "will follow",
+   "followed",
+   "had followed"
+  ],
+  "hint": "as long as states the condition",
+  "explanation": "'As long as' introduces the condition and takes the present simple: follow."
+ },
+ {
+  "sentence": "If we ___ tickets today, they will cost half the price.",
+  "answer": "book",
+  "options": [
+   "book",
+   "will book",
+   "booked",
+   "would book"
+  ],
+  "hint": "present decision with future result",
+  "explanation": "The condition is present simple; only the result clause uses 'will': book."
+ },
+ {
+  "sentence": "She will be furious if she ___ about this.",
+  "answer": "finds out",
+  "options": [
+   "finds out",
+   "will find out",
+   "found out",
+   "would find out"
+  ],
+  "hint": "real future consequence after if",
+  "explanation": "First conditional: the if-clause stays in the present simple: finds out."
+ },
+ {
+  "sentence": "I will write down the address in case I ___ it.",
+  "answer": "forget",
+  "options": [
+   "forget",
+   "will forget",
+   "forgot",
+   "would forget"
+  ],
+  "hint": "in case describes a precaution",
+  "explanation": "'In case' describes a precaution against a possibility and takes the present simple: forget."
+ },
+ {
+  "sentence": "If you ___ late again, the manager will have to speak to you.",
+  "answer": "are",
+  "options": [
+   "are",
+   "will be",
+   "were",
+   "would be"
+  ],
+  "hint": "a warning about a real future",
+  "explanation": "A real warning about the future keeps the if-clause in the present simple: are."
+ },
+ {
+  "sentence": "What will you do if the train ___ before you get there?",
+  "answer": "leaves",
+  "options": [
+   "leaves",
+   "will leave",
+   "left",
+   "would leave"
+  ],
+  "hint": "future question, if plus present",
+  "explanation": "Even in questions about the future, the if-clause uses the present simple: leaves."
+ },
+ {
+  "sentence": "If this medicine ___ relief within an hour, call me back.",
+  "answer": "does not bring",
+  "options": [
+   "does not bring",
+   "will not bring",
+   "did not bring",
+   "had not brought"
+  ],
+  "hint": "conditional instruction with present tense",
+  "explanation": "Conditional instructions use the present simple in the if-clause: does not bring."
+ },
+ {
+  "sentence": "You can borrow the car provided that you ___ it back by Sunday.",
+  "answer": "bring",
+  "options": [
+   "bring",
+   "will bring",
+   "brought",
+   "had brought"
+  ],
+  "hint": "provided that sets the requirement",
+  "explanation": "'Provided that' introduces a requirement and takes the present simple: bring."
+ },
+ {
+  "sentence": "If you order before midnight, delivery ___ nothing.",
+  "answer": "will cost",
+  "options": [
+   "will cost",
+   "is costing",
+   "costed",
+   "has cost"
+  ],
+  "hint": "result clause of a first conditional",
+  "explanation": "The result of a real future condition takes 'will': will cost."
+ },
+ {
+  "sentence": "If I ___ a million euros, I would travel the world for a year.",
+  "answer": "won",
+  "options": [
+   "won",
+   "win",
+   "had won",
+   "would win"
+  ],
+  "hint": "unreal present, past in if-clause",
+  "explanation": "Second conditionals use the past simple after 'if' for unreal presents: won."
+ },
+ {
+  "sentence": "If she ___ here now, she would know exactly what to do.",
+  "answer": "were",
+  "options": [
+   "were",
+   "was",
+   "is",
+   "would be"
+  ],
+  "accept": [
+   "was"
+  ],
+  "hint": "unreal present needs the subjunctive were",
+  "explanation": "For unreal present conditions, formal English uses 'were' for all persons: were."
+ },
+ {
+  "sentence": "If the route ___ safer, I would cycle to work.",
+  "answer": "were",
+  "options": [
+   "were",
+   "was",
+   "is",
+   "would be"
+  ],
+  "accept": [
+   "was"
+  ],
+  "hint": "an imaginary present situation, subjunctive were",
+  "explanation": "Unreal present conditions formally take 'were' rather than 'is': were."
+ },
+ {
+  "sentence": "If you pressed that red button, what ___?",
+  "answer": "would happen",
+  "options": [
+   "would happen",
+   "will happen",
+   "happened",
+   "had happened"
+  ],
+  "hint": "hypothetical result of an unreal action",
+  "explanation": "The result of an unreal present condition takes 'would': would happen."
+ },
+ {
+  "sentence": "If we ___ nearer the station, we would not need the car at all.",
+  "answer": "lived",
+  "options": [
+   "lived",
+   "live",
+   "had lived",
+   "would live"
+  ],
+  "hint": "unreal present situation, past tense",
+  "explanation": "An unreal present situation takes the past simple in the if-clause: lived."
+ },
+ {
+  "sentence": "He would be healthier if he ___ so much red meat.",
+  "answer": "did not eat",
+  "options": [
+   "did not eat",
+   "does not eat",
+   "had not eaten",
+   "would not eat"
+  ],
+  "hint": "an unreal present habit, past simple",
+  "explanation": "For an unreal present habit, the if-clause uses the past simple: did not eat."
+ },
+ {
+  "sentence": "In your position, I ___ for a written contract.",
+  "answer": "would ask",
+  "options": [
+   "would ask",
+   "will ask",
+   "asked",
+   "had asked"
+  ],
+  "hint": "imaginary advice about the present",
+  "explanation": "Giving imaginary advice uses 'would' for an unreal present: would ask."
+ },
+ {
+  "sentence": "If the museum opened on Mondays, we ___ visit tomorrow.",
+  "answer": "could",
+  "options": [
+   "could",
+   "can",
+   "will",
+   "would have been able"
+  ],
+  "hint": "unreal condition with a possible result",
+  "explanation": "An unreal condition takes 'could' in the result to show what would then be possible: could."
+ },
+ {
+  "sentence": "If dogs ___ wings, they would fly.",
+  "answer": "had",
+  "options": [
+   "had",
+   "have",
+   "would have",
+   "had had"
+  ],
+  "hint": "an impossible present, past simple if-clause",
+  "explanation": "Impossible present conditions still take the past simple after 'if': had."
+ },
+ {
+  "sentence": "I would not buy that flat if I ___ you.",
+  "answer": "were",
+  "options": [
+   "were",
+   "was",
+   "am",
+   "would be"
+  ],
+  "accept": [
+   "was"
+  ],
+  "hint": "the fixed advice pattern if I were",
+  "explanation": "'If I were you' is the fixed unreal-present pattern for advice: were."
+ },
+ {
+  "sentence": "If people ___ less time on their phones, they would read more.",
+  "answer": "spent",
+  "options": [
+   "spent",
+   "spend",
+   "had spent",
+   "would spend"
+  ],
+  "hint": "an unreal present general habit",
+  "explanation": "An unreal present habit takes the past simple in the if-clause: spent."
+ },
+ {
+  "sentence": "Would you ___ me if I told you a secret?",
+  "answer": "forgive",
+  "options": [
+   "forgive",
+   "forgave",
+   "have forgiven",
+   "be forgiving"
+  ],
+  "hint": "would plus infinitive in result clause",
+  "explanation": "The result clause of a second conditional uses 'would' plus the infinitive: forgive."
+ },
+ {
+  "sentence": "If the hotel ___ a pool, we would book it for the whole team.",
+  "answer": "had",
+  "options": [
+   "had",
+   "has",
+   "had had",
+   "would have"
+  ],
+  "hint": "unreal present lack of a facility",
+  "explanation": "The hotel does not have a pool now, so the if-clause takes the past simple: had."
+ },
+ {
+  "sentence": "If he ___ so stubborn, we would have reached an agreement by now.",
+  "answer": "were not",
+  "options": [
+   "were not",
+   "was not",
+   "would not be",
+   "is not"
+  ],
+  "accept": [
+   "was not"
+  ],
+  "hint": "present cause with a result up to now",
+  "explanation": "An unreal present cause can produce a result reaching into the past; formally 'were' is used: were not."
+ },
+ {
+  "sentence": "If I ___ the answer, I would tell you immediately.",
+  "answer": "knew",
+  "options": [
+   "knew",
+   "know",
+   "had known",
+   "would know"
+  ],
+  "hint": "unreal present lack of knowledge",
+  "explanation": "The speaker does not know now, so the if-clause takes the past simple: knew."
+ },
+ {
+  "sentence": "If we had left earlier, we ___ the ferry.",
+  "answer": "would have caught",
+  "options": [
+   "would have caught",
+   "would catch",
+   "had caught",
+   "will have caught"
+  ],
+  "hint": "unreal past, would have plus participle",
+  "explanation": "Third conditionals take 'would have' plus the past participle in the result clause: would have caught."
+ },
+ {
+  "sentence": "If she ___ the warning signs, the accident would not have happened.",
+  "answer": "had noticed",
+  "options": [
+   "had noticed",
+   "noticed",
+   "has noticed",
+   "would have noticed"
+  ],
+  "hint": "unreal past condition, past perfect",
+  "explanation": "The unreal past condition takes the past perfect: had noticed."
+ },
+ {
+  "sentence": "They would have won the match if their best player ___ injured.",
+  "answer": "had not been",
+  "options": [
+   "had not been",
+   "has not been",
+   "would not be",
+   "is not"
+  ],
+  "hint": "unreal past needs the past perfect",
+  "explanation": "The unreal past condition requires the past perfect: had not been."
+ },
+ {
+  "sentence": "If you ___ me, I would have helped you move house.",
+  "answer": "had asked",
+  "options": [
+   "had asked",
+   "asked",
+   "have asked",
+   "would have asked"
+  ],
+  "hint": "a missed request in the past",
+  "explanation": "An unreal past condition takes the past perfect: had asked."
+ },
+ {
+  "sentence": "I would never have found the house if you ___ me the postcode.",
+  "answer": "had not sent",
+  "options": [
+   "had not sent",
+   "would not send",
+   "have not sent",
+   "had not send"
+  ],
+  "hint": "unreal past condition after if",
+  "explanation": "The unreal past condition takes the past perfect: had not sent."
+ },
+ {
+  "sentence": "If it ___ for your quick thinking, the fire would have spread.",
+  "answer": "had not been",
+  "options": [
+   "had not been",
+   "was not",
+   "would not be",
+   "has not been"
+  ],
+  "hint": "the fixed phrase if it had not been for",
+  "explanation": "The fixed expression 'if it had not been for' takes the past perfect: had not been."
+ },
+ {
+  "sentence": "___ harder, she would have passed the exam.",
+  "answer": "Had she studied",
+  "options": [
+   "Had she studied",
+   "If she studied",
+   "Did she study",
+   "Should she study"
+  ],
+  "hint": "inversion replaces if in formal English",
+  "explanation": "Formal English can drop 'if' and invert: Had she studied harder, she would have passed."
+ },
+ {
+  "sentence": "If they ___ us about the delay, we would still be waiting at the airport.",
+  "answer": "had not told",
+  "options": [
+   "had not told",
+   "did not tell",
+   "have not told",
+   "would not tell"
+  ],
+  "accept": [
+   "did not tell"
+  ],
+  "hint": "past cause with a result right now",
+  "explanation": "A past unreal condition with a present result is a mixed conditional: had not told."
+ },
+ {
+  "sentence": "If I had known you were coming, I ___ a cake.",
+  "answer": "would have baked",
+  "options": [
+   "would have baked",
+   "would bake",
+   "had baked",
+   "will have baked"
+  ],
+  "hint": "unreal past result, would have participle",
+  "explanation": "The result of an unreal past condition is 'would have' plus the past participle: would have baked."
+ },
+ {
+  "sentence": "You ___ the truth if you had asked me directly.",
+  "answer": "would have been told",
+  "options": [
+   "would have been told",
+   "would be told",
+   "had been told",
+   "would have told"
+  ],
+  "hint": "a passive result in the third conditional",
+  "explanation": "The third-conditional result clause can be passive: would have been told."
+ },
+ {
+  "sentence": "If the pilot ___ the storm, we would have landed on time.",
+  "answer": "had avoided",
+  "options": [
+   "had avoided",
+   "avoided",
+   "has avoided",
+   "would have avoided"
+  ],
+  "hint": "unreal past condition, past perfect",
+  "explanation": "The unreal past condition takes the past perfect: had avoided."
+ },
+ {
+  "sentence": "Had I ___ the risks, I would never have invested.",
+  "answer": "known",
+  "options": [
+   "known",
+   "knew",
+   "know",
+   "knowing"
+  ],
+  "hint": "inverted had plus past participle",
+  "explanation": "After inverted 'Had I', the past participle follows: known."
+ },
+ {
+  "sentence": "If you had watered the plants, they ___.",
+  "answer": "would not have died",
+  "options": [
+   "would not have died",
+   "would not die",
+   "had not died",
+   "did not die"
+  ],
+  "hint": "negative unreal past result with would",
+  "explanation": "The unreal past result takes 'would not have' plus the past participle: would not have died."
+ },
+ {
+  "sentence": "What ___ if the bridge had collapsed?",
+  "answer": "would have happened",
+  "options": [
+   "would have happened",
+   "would happen",
+   "had happened",
+   "will happen"
+  ],
+  "hint": "a question about an unreal past",
+  "explanation": "Questions about unreal pasts use 'would have' plus the participle: would have happened."
+ },
+ {
+  "sentence": "If he had not left his passport at home, he ___ the earlier flight.",
+  "answer": "would have caught",
+  "options": [
+   "would have caught",
+   "would catch",
+   "had caught",
+   "will have caught"
+  ],
+  "hint": "third conditional result, would have participle",
+  "explanation": "The unreal past result takes 'would have' plus the participle: would have caught."
+ },
+ {
+  "sentence": "If we ___ a map, we would have arrived hours ago.",
+  "answer": "had brought",
+  "options": [
+   "had brought",
+   "have brought",
+   "would bring",
+   "were bringing"
+  ],
+  "hint": "unreal past condition with past perfect",
+  "explanation": "The unreal past condition takes the past perfect: had brought."
+ },
+ {
+  "sentence": "If I ___ that job offer, I would be living in Singapore now.",
+  "answer": "had accepted",
+  "options": [
+   "had accepted",
+   "accepted",
+   "accept",
+   "would accept"
+  ],
+  "hint": "mixed: past choice, present result",
+  "explanation": "A past unreal condition with a present result is a mixed conditional: had accepted."
+ },
+ {
+  "sentence": "If she were more organised, she ___ the deadline last week.",
+  "answer": "would not have missed",
+  "options": [
+   "would not have missed",
+   "would not miss",
+   "had not missed",
+   "did not miss"
+  ],
+  "hint": "mixed: present cause, past result",
+  "explanation": "A present unreal cause with a past result is a mixed conditional: would not have missed."
+ },
+ {
+  "sentence": "If you had set an alarm, you ___.",
+  "answer": "would not still be asleep",
+  "options": [
+   "would not still be asleep",
+   "would not sleep",
+   "had not slept",
+   "did not sleep"
+  ],
+  "hint": "mixed: past cause, present result",
+  "explanation": "The present result of a past unreal condition takes 'would not be': would not still be asleep."
+ },
+ {
+  "sentence": "Had we booked earlier, we ___ much cheaper flights.",
+  "answer": "would have got",
+  "options": [
+   "would have got",
+   "would get",
+   "had got",
+   "will have got"
+  ],
+  "accept": [
+   "would have gotten"
+  ],
+  "hint": "inversion had with a third conditional",
+  "explanation": "Inverted 'Had we booked' works like 'If we had booked' and takes 'would have got'."
+ },
+ {
+  "sentence": "If only I had taken that job — I ___ much happier now.",
+  "answer": "would be",
+  "options": [
+   "would be",
+   "would have been",
+   "had been",
+   "will be"
+  ],
+  "hint": "mixed wish: past event, present result",
+  "explanation": "'Now' anchors the result in the present, so 'would be' is needed."
+ },
+ {
+  "sentence": "Were the budget larger, we ___ more experiments.",
+  "answer": "could run",
+  "options": [
+   "could run",
+   "can run",
+   "had run",
+   "would have run"
+  ],
+  "hint": "inverted were with a present result",
+  "explanation": "Inverted 'Were the budget larger' replaces 'If the budget were larger', and the present result takes 'could': could run."
+ },
+ {
+  "sentence": "Should you ___ any problems, please contact support.",
+  "answer": "experience",
+  "options": [
+   "experience",
+   "experienced",
+   "will experience",
+   "have experienced"
+  ],
+  "hint": "should inversion, a formal conditional",
+  "explanation": "'Should you plus infinitive' is a formal way to say 'If you ...': experience."
+ },
+ {
+  "sentence": "I wish I ___ how to play the piano.",
+  "answer": "knew",
+  "options": [
+   "knew",
+   "know",
+   "had known",
+   "would know"
+  ],
+  "hint": "wish plus past for present regret",
+  "explanation": "'Wish' plus past simple expresses regret about a present situation: knew."
+ },
+ {
+  "sentence": "I wish I ___ to your advice — then I would not be in this mess.",
+  "answer": "had listened",
+  "options": [
+   "had listened",
+   "listened",
+   "have listened",
+   "would listen"
+  ],
+  "hint": "regret about the past, past perfect",
+  "explanation": "'Wish' plus the past perfect expresses regret about the past: had listened."
+ },
+ {
+  "sentence": "If only I ___ more free time these days.",
+  "answer": "had",
+  "options": [
+   "had",
+   "have",
+   "would have",
+   "had had"
+  ],
+  "hint": "if only plus past, present wish",
+  "explanation": "'If only' works like 'wish' and takes the past simple for present regrets: had."
+ },
+ {
+  "sentence": "I wish you ___ your shoes in the middle of the floor!",
+  "answer": "would not leave",
+  "options": [
+   "would not leave",
+   "did not leave",
+   "do not leave",
+   "had not left"
+  ],
+  "accept": [
+   "did not leave"
+  ],
+  "hint": "irritation about a habit, wish would",
+  "explanation": "'Wish' plus 'would' expresses irritation about a habit you want changed: would not leave."
+ },
+ {
+  "sentence": "I wish it ___ raining so we could go for a walk.",
+  "answer": "would stop",
+  "options": [
+   "would stop",
+   "stops",
+   "stopped",
+   "had stopped"
+  ],
+  "hint": "a desired change, wish plus would",
+  "explanation": "To wish for a change in the weather or behavior, use 'would': would stop."
+ },
+ {
+  "sentence": "I wish I ___ you at the airport last week, but I was abroad.",
+  "answer": "had met",
+  "options": [
+   "had met",
+   "have met",
+   "would meet",
+   "were meeting"
+  ],
+  "hint": "regret about a missed past meeting",
+  "explanation": "Regret about something that did not happen takes 'wish' plus the past perfect: had met."
+ },
+ {
+  "sentence": "He wishes he ___ harder at school when he had the chance.",
+  "answer": "had worked",
+  "options": [
+   "had worked",
+   "has worked",
+   "would work",
+   "was working"
+  ],
+  "hint": "past regret, wish plus past perfect",
+  "explanation": "Regret about past behavior takes the past perfect after 'wish': had worked."
+ },
+ {
+  "sentence": "If only we ___ the tickets before they sold out!",
+  "answer": "had bought",
+  "options": [
+   "had bought",
+   "have bought",
+   "would buy",
+   "were buying"
+  ],
+  "hint": "a missed opportunity, past perfect",
+  "explanation": "'If only' plus the past perfect regrets a missed past opportunity: had bought."
+ },
+ {
+  "sentence": "I wish I ___ so much cake — I feel sick now.",
+  "answer": "had not eaten",
+  "options": [
+   "had not eaten",
+   "do not eat",
+   "would not eat",
+   "am not eating"
+  ],
+  "hint": "past act with a present consequence",
+  "explanation": "The regret is about a past action, so 'wish' takes the past perfect: had not eaten."
+ },
+ {
+  "sentence": "I wish I ___ taller, but genes are genes.",
+  "answer": "were",
+  "options": [
+   "were",
+   "was",
+   "am",
+   "would be"
+  ],
+  "accept": [
+   "was"
+  ],
+  "hint": "an impossible present wish with were",
+  "explanation": "For impossible present wishes, formal English uses 'were': were."
+ },
+ {
+  "sentence": "Do you wish you ___ somewhere warmer this winter?",
+  "answer": "lived",
+  "options": [
+   "lived",
+   "live",
+   "had lived",
+   "would live"
+  ],
+  "hint": "a wish about the present situation",
+  "explanation": "A wish about the present takes the past simple: lived."
+ },
+ {
+  "sentence": "If only I ___ my umbrella — I am getting soaked!",
+  "answer": "had brought",
+  "options": [
+   "had brought",
+   "have brought",
+   "would bring",
+   "were bringing"
+  ],
+  "hint": "present regret about an earlier decision",
+  "explanation": "'If only' plus the past perfect expresses a present regret about a past decision: had brought."
+ },
+ {
+  "sentence": "I wish you ___ so pessimistic about the project.",
+  "answer": "were not",
+  "options": [
+   "were not",
+   "was not",
+   "are not",
+   "would not be"
+  ],
+  "accept": [
+   "was not"
+  ],
+  "hint": "a wish about a present attitude",
+  "explanation": "Wishes about present states use 'were': were not."
+ },
+ {
+  "sentence": "She wishes she ___ the job offer when it came.",
+  "answer": "had accepted",
+  "options": [
+   "had accepted",
+   "has accepted",
+   "would accept",
+   "was accepting"
+  ],
+  "hint": "regret about a past decision",
+  "explanation": "Regret about a past decision takes the past perfect: had accepted."
+ },
+ {
+  "sentence": "I wish he ___ where the keys are — nobody can find them.",
+  "answer": "knew",
+  "options": [
+   "knew",
+   "knows",
+   "had known",
+   "would know"
+  ],
+  "hint": "a wish about a present lack",
+  "explanation": "A wish about a present lack of knowledge takes the past simple: knew."
+ },
+ {
+  "sentence": "If only the government ___ something about housing costs!",
+  "answer": "would do",
+  "options": [
+   "would do",
+   "did",
+   "does",
+   "had done"
+  ],
+  "accept": [
+   "did"
+  ],
+  "hint": "a strong wish for change, would",
+  "explanation": "'If only' plus 'would' expresses a strong wish for change: would do."
+ },
+ {
+  "sentence": "I wish we ___ longer, but our train leaves at six.",
+  "answer": "could stay",
+  "options": [
+   "could stay",
+   "can stay",
+   "stayed",
+   "had stayed"
+  ],
+  "hint": "wish plus could for ability",
+  "explanation": "'Wish' plus 'could' expresses regret about present ability: could stay."
+ },
+ {
+  "sentence": "If only I ___ faster — we might still catch the train.",
+  "answer": "could run",
+  "options": [
+   "could run",
+   "can run",
+   "ran",
+   "had run"
+  ],
+  "hint": "if only plus could, present inability",
+  "explanation": "'If only' plus 'could' expresses a present inability you regret: could run."
+ },
+ {
+  "sentence": "I wish the meeting ___ tomorrow; I would rather sleep in.",
+  "answer": "were not",
+  "options": [
+   "were not",
+   "is not",
+   "would not be",
+   "had not been"
+  ],
+  "accept": [
+   "was not"
+  ],
+  "hint": "a wish about a present arrangement",
+  "explanation": "Wishes about present facts use 'were': were not."
+ },
+ {
+  "sentence": "He wishes he ___ his temper in the meeting yesterday.",
+  "answer": "had not lost",
+  "options": [
+   "had not lost",
+   "has not lost",
+   "would not lose",
+   "was not losing"
+  ],
+  "hint": "past regret with wish plus past perfect",
+  "explanation": "Regret about past behavior takes the past perfect: had not lost."
+ },
+ {
+  "sentence": "You will not pass the course unless you ___ all the assignments.",
+  "answer": "complete",
+  "options": [
+   "complete",
+   "will complete",
+   "completed",
+   "had completed"
+  ],
+  "hint": "unless means if not, present simple",
+  "explanation": "'Unless' introduces a negative condition and takes the present simple: complete."
+ },
+ {
+  "sentence": "Unless the strike ___, flights will be grounded all weekend.",
+  "answer": "is called off",
+  "options": [
+   "is called off",
+   "will be called off",
+   "was called off",
+   "had been called off"
+  ],
+  "hint": "unless plus a present passive verb",
+  "explanation": "'Unless' clauses use the present simple, here in the passive: is called off."
+ },
+ {
+  "sentence": "I will not apologise unless I ___ wrong.",
+  "answer": "am",
+  "options": [
+   "am",
+   "will be",
+   "were",
+   "would be"
+  ],
+  "hint": "unless keeps the present simple",
+  "explanation": "Like if, 'unless' takes the present simple for future conditions: am."
+ },
+ {
+  "sentence": "Unless you ___ the exact change, the machine will not accept it.",
+  "answer": "have",
+  "options": [
+   "have",
+   "will have",
+   "had",
+   "would have"
+  ],
+  "hint": "a real condition with unless",
+  "explanation": "'Unless' states the condition that must be met and takes the present simple: have."
+ },
+ {
+  "sentence": "Unless the road ___, the coach cannot use this route.",
+  "answer": "is widened",
+  "options": [
+   "is widened",
+   "will be widened",
+   "was widened",
+   "would be widened"
+  ],
+  "hint": "unless plus a present passive",
+  "explanation": "'Unless' takes the present simple, here in the passive: is widened."
+ },
+ {
+  "sentence": "You cannot enter the studio unless you ___ a visitor badge.",
+  "answer": "wear",
+  "options": [
+   "wear",
+   "will wear",
+   "wore",
+   "would wear"
+  ],
+  "hint": "a rule stated with unless",
+  "explanation": "Rules with 'unless' keep the present simple: wear."
+ },
+ {
+  "sentence": "Unless it ___ below five degrees tonight, the event will go ahead.",
+  "answer": "drops",
+  "options": [
+   "drops",
+   "will drop",
+   "dropped",
+   "had dropped"
+  ],
+  "hint": "unless plus present, future result",
+  "explanation": "'Unless' clauses take the present simple even when referring to tonight: drops."
+ },
+ {
+  "sentence": "Unless something urgent ___, I will be at my desk all morning.",
+  "answer": "comes up",
+  "options": [
+   "comes up",
+   "will come up",
+   "came up",
+   "had come up"
+  ],
+  "hint": "unless introduces the exception, present simple",
+  "explanation": "'Unless' introduces the exception to the plan and takes the present simple: comes up."
+ },
+ {
+  "sentence": "You can stay out late as long as you ___ me a text when you arrive.",
+  "answer": "send",
+  "options": [
+   "send",
+   "will send",
+   "sent",
+   "had sent"
+  ],
+  "hint": "as long as plus present simple",
+  "explanation": "'As long as' introduces the condition and takes the present simple: send."
+ },
+ {
+  "sentence": "We will refund the item provided that you ___ the receipt.",
+  "answer": "have",
+  "options": [
+   "have",
+   "will have",
+   "had",
+   "would have"
+  ],
+  "hint": "provided that plus a present requirement",
+  "explanation": "'Provided that' states a requirement using the present simple: have."
+ },
+ {
+  "sentence": "As long as the budget ___, we can hire two more staff.",
+  "answer": "is approved",
+  "options": [
+   "is approved",
+   "will be approved",
+   "was approved",
+   "had been approved"
+  ],
+  "hint": "as long as plus a passive condition",
+  "explanation": "'As long as' takes the present simple, here in the passive: is approved."
+ },
+ {
+  "sentence": "Children may use the pool provided that they ___ by an adult.",
+  "answer": "are accompanied",
+  "options": [
+   "are accompanied",
+   "will be accompanied",
+   "were accompanied",
+   "would be accompanied"
+  ],
+  "hint": "provided that plus a passive rule",
+  "explanation": "Rules with 'provided that' use the present simple passive: are accompanied."
+ },
+ {
+  "sentence": "As long as nobody ___, we will finish before lunch.",
+  "answer": "objects",
+  "options": [
+   "objects",
+   "will object",
+   "objected",
+   "had objected"
+  ],
+  "hint": "as long as plus a present verb",
+  "explanation": "'As long as' clauses take the present simple: objects."
+ },
+ {
+  "sentence": "You may keep the book provided that you ___ it by Friday.",
+  "answer": "return",
+  "options": [
+   "return",
+   "will return",
+   "returned",
+   "would return"
+  ],
+  "hint": "provided that sets the condition",
+  "explanation": "'Provided that' introduces a condition in the present simple: return."
+ },
+ {
+  "sentence": "Take some sun cream in case the weather ___ hot.",
+  "answer": "turns",
+  "options": [
+   "turns",
+   "will turn",
+   "turned",
+   "would turn"
+  ],
+  "hint": "in case plus present, a precaution",
+  "explanation": "'In case' is followed by the present simple even with future meaning: turns."
+ },
+ {
+  "sentence": "She keeps a spare key at her mother's in case she ___ herself out.",
+  "answer": "locks",
+  "options": [
+   "locks",
+   "will lock",
+   "locked",
+   "had locked"
+  ],
+  "hint": "a precaution, in case plus present",
+  "explanation": "'In case' clauses use the present simple for possible future problems: locks."
+ },
+ {
+  "sentence": "He always carries a power bank in case his phone ___.",
+  "answer": "dies",
+  "options": [
+   "dies",
+   "will die",
+   "died",
+   "would die"
+  ],
+  "hint": "in case plus the present simple",
+  "explanation": "'In case' takes the present simple for things that might happen: dies."
+ },
+ {
+  "sentence": "In case of fire, ___ the nearest exit.",
+  "answer": "use",
+  "options": [
+   "use",
+   "will use",
+   "using",
+   "to use"
+  ],
+  "hint": "in case of plus an emergency instruction",
+  "explanation": "'In case of' plus a noun introduces an emergency instruction with the imperative: use."
+ },
+ {
+  "sentence": "I will note the reference number in case I ___ it later.",
+  "answer": "need",
+  "options": [
+   "need",
+   "will need",
+   "needed",
+   "would need"
+  ],
+  "hint": "in case means as a precaution",
+  "explanation": "'In case' describes a precaution and takes the present simple: need."
+ },
+ {
+  "sentence": "I would tell you if I ___, but it is a secret.",
+  "answer": "knew",
+  "options": [
+   "knew",
+   "know",
+   "had known",
+   "would know"
+  ],
+  "hint": "unreal present condition, past simple",
+  "explanation": "An unreal present condition takes the past simple after 'if': knew."
+ },
+ {
+  "sentence": "If the drug ___ tested properly, the side effects would have been found earlier.",
+  "answer": "had been",
+  "options": [
+   "had been",
+   "has been",
+   "is being",
+   "would be"
+  ],
+  "hint": "passive verb in an unreal past condition",
+  "explanation": "The unreal past condition takes the past perfect, here in the passive: had been."
+ },
+ {
+  "sentence": "Should the fire alarm ___, leave the hall by the nearest exit.",
+  "answer": "sound",
+  "options": [
+   "sound",
+   "sounds",
+   "sounded",
+   "will sound"
+  ],
+  "hint": "should inversion with a base verb",
+  "explanation": "After inverted 'Should', the base form of the verb follows: sound."
+ },
+ {
+  "sentence": "Were it not for your support, I ___ where I am today.",
+  "answer": "would not be",
+  "options": [
+   "would not be",
+   "will not be",
+   "had not been",
+   "am not"
+  ],
+  "accept": [
+   "would not have been"
+  ],
+  "hint": "inverted were, present result clause",
+  "explanation": "Inverted 'Were it not for' works like 'If it were not for', and the present result takes 'would not be': would not be."
+ },
+ {
+  "sentence": "If the walls ___ soundproofed, we would not hear the neighbours.",
+  "answer": "were",
+  "options": [
+   "were",
+   "was",
+   "are",
+   "would be"
+  ],
+  "accept": [
+   "was"
+  ],
+  "hint": "unreal present with the subjunctive were",
+  "explanation": "Unreal present conditions formally take 'were': were."
+ },
+ {
+  "sentence": "I will be surprised if he ___ on time for once.",
+  "answer": "arrives",
+  "options": [
+   "arrives",
+   "will arrive",
+   "arrived",
+   "would arrive"
+  ],
+  "hint": "real future condition after if",
+  "explanation": "The if-clause of a real future condition takes the present simple: arrives."
+ },
+ {
+  "sentence": "Unless the tickets ___ within a week, ask for a refund.",
+  "answer": "arrive",
+  "options": [
+   "arrive",
+   "will arrive",
+   "arrived",
+   "would arrive"
+  ],
+  "hint": "unless plus present before an imperative",
+  "explanation": "'Unless' clauses take the present simple, even before an imperative result: arrive."
+ },
+ {
+  "sentence": "If you ___ a red light, you must stop.",
+  "answer": "come to",
+  "options": [
+   "come to",
+   "will come to",
+   "came to",
+   "had come to"
+  ],
+  "hint": "general rule, present after if",
+  "explanation": "General rules use the present simple in the if-clause: come to."
+ },
+ {
+  "sentence": "If she ___ the lottery, she would travel the world.",
+  "answer": "won",
+  "options": [
+   "won",
+   "would win",
+   "will win",
+   "has won"
+  ],
+  "hint": "unreal present",
+  "explanation": "Second conditional: if + past simple, would + infinitive."
+ },
+ {
+  "sentence": "___ you mix blue and red, you get purple.",
+  "answer": "If",
+  "options": [
+   "If",
+   "Unless",
+   "Were",
+   "Had"
+  ],
+  "hint": "zero conditional",
+  "explanation": "General truths: if + present simple, present simple."
+ },
+ {
+  "sentence": "I'd have helped if I ___ about the problem.",
+  "answer": "had known",
+  "options": [
+   "had known",
+   "knew",
+   "have known",
+   "would know"
+  ],
+  "hint": "unreal past",
+  "explanation": "Third conditional: if + past perfect, would have + participle."
+ },
+ {
+  "sentence": "He wouldn't be so tired today ___ so late last night.",
+  "answer": "if he hadn't stayed up",
+  "options": [
+   "if he hadn't stayed up",
+   "unless he stayed up",
+   "if he didn't stay up",
+   "had he not staying up"
+  ],
+  "hint": "mixed conditional",
+  "explanation": "Past condition with present result: if + past perfect, would + infinitive."
+ },
+ {
+  "sentence": "We'll be fine ___ the forecast is wrong.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "so that",
+   "although"
+  ],
+  "hint": "if … not",
+  "explanation": "'Unless the forecast is wrong' = if it is not wrong."
+ },
+ {
+  "sentence": "If only I ___ more at university!",
+  "answer": "had studied",
+  "options": [
+   "had studied",
+   "studied",
+   "have studied",
+   "would study"
+  ],
+  "hint": "regret about the past",
+  "explanation": "'If only + past perfect' — regret about a past failure."
+ },
+ {
+  "sentence": "___ there be any problems, call this number.",
+  "answer": "Should",
+  "options": [
+   "Should",
+   "Would",
+   "Could",
+   "Had"
+  ],
+  "hint": "inverted first conditional",
+  "explanation": "'Should there be …' = 'If there should be …'."
+ },
+ {
+  "sentence": "She'd be a great lawyer if she ___ more patient.",
+  "answer": "were",
+  "options": [
+   "were",
+   "is",
+   "will be",
+   "would be"
+  ],
+  "hint": "unreal present, formal subjunctive",
+  "explanation": "Second conditional with 'be': 'were' for all persons."
+ },
+ {
+  "sentence": "The plants would have survived ___ them more often.",
+  "answer": "if we had watered",
+  "options": [
+   "if we had watered",
+   "unless we watered",
+   "if we watered",
+   "had we water"
+  ],
+  "hint": "unreal past",
+  "explanation": "Third conditional: 'if we had watered them more often'."
+ },
+ {
+  "sentence": "You can borrow the car ___ you return it by Sunday.",
+  "answer": "provided",
+  "options": [
+   "provided",
+   "unless",
+   "in case",
+   "whether"
+  ],
+  "hint": "provided (that) = on condition that",
+  "explanation": "'Provided you return it' sets a condition."
+ },
+ {
+  "sentence": "If the alarm ___ , everyone must leave by the stairs.",
+  "answer": "goes off",
+  "options": [
+   "goes off",
+   "will go off",
+   "went off",
+   "would go off"
+  ],
+  "hint": "first conditional",
+  "explanation": "Real possibility: if + present simple, will/modal."
+ },
+ {
+  "sentence": "Had I realized the danger, I ___ the trip.",
+  "answer": "would have cancelled",
+  "options": [
+   "would have cancelled",
+   "would cancel",
+   "had cancelled",
+   "will cancel"
+  ],
+  "hint": "inverted third conditional",
+  "explanation": "'Had I realized …' = 'If I had realized …' + would have cancelled."
+ }
 ]

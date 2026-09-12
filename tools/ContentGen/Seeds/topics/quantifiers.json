@@ -1390,5 +1390,137 @@
   ],
   "hint": "countable plural noun ('charges')",
   "explanation": "'Several charges' means more than two; the other options are used only with uncountable nouns."
+ },
+ {
+  "sentence": "___ of the milk has gone off, so do not drink it.",
+  "answer": "All",
+  "options": [
+   "All",
+   "Whole",
+   "Every",
+   "Each"
+  ],
+  "hint": "the entire amount",
+  "explanation": "'All of the milk' — 'whole' would need 'the whole of the milk'."
+ },
+ {
+  "sentence": "There's ___ point asking him again — he never replies.",
+  "answer": "no",
+  "options": [
+   "no",
+   "none",
+   "any",
+   "neither"
+  ],
+  "hint": "negative noun phrase",
+  "explanation": "'There's no point' — 'point' needs the adjective 'no', not the pronoun 'none'."
+ },
+ {
+  "sentence": "We had ___ luggage that the taxi couldn't take it all.",
+  "answer": "so much",
+  "options": [
+   "so much",
+   "so many",
+   "such many",
+   "too many"
+  ],
+  "hint": "uncountable + result clause",
+  "explanation": "'So much luggage that …' — luggage is uncountable."
+ },
+ {
+  "sentence": "___ students joined the trip this year than last.",
+  "answer": "Fewer",
+  "options": [
+   "Fewer",
+   "Less",
+   "Few",
+   "Little"
+  ],
+  "hint": "countable comparative",
+  "explanation": "'Fewer … than' for countable students."
+ },
+ {
+  "sentence": "She has ___ patience with rude customers.",
+  "answer": "little",
+  "options": [
+   "little",
+   "few",
+   "a few",
+   "many"
+  ],
+  "hint": "uncountable, negative sense",
+  "explanation": "'Little patience' — uncountable and insufficient."
+ },
+ {
+  "sentence": "There were ___ than twenty people at the meeting.",
+  "answer": "fewer",
+  "options": [
+   "fewer",
+   "less",
+   "few",
+   "little"
+  ],
+  "hint": "countable + than",
+  "explanation": "'Fewer than twenty' — countable people."
+ },
+ {
+  "sentence": "___ candidate was given five minutes to speak.",
+  "answer": "Each",
+  "options": [
+   "Each",
+   "All",
+   "Both",
+   "Some"
+  ],
+  "hint": "one at a time, singular verb",
+  "explanation": "'Each candidate was given' — singular agreement; 'all candidate' is wrong."
+ },
+ {
+  "sentence": "Hardly ___ came to the afternoon lecture.",
+  "answer": "anyone",
+  "options": [
+   "anyone",
+   "no one",
+   "someone",
+   "none"
+  ],
+  "hint": "hardly = almost not",
+  "explanation": "'Hardly anyone' is already negative — do not add 'no one'."
+ },
+ {
+  "sentence": "There isn't ___ room for another desk in here.",
+  "answer": "enough",
+  "options": [
+   "enough",
+   "too",
+   "many",
+   "much"
+  ],
+  "hint": "sufficient",
+  "explanation": "'Not enough room' = insufficient space."
+ },
+ {
+  "sentence": "___ of the two proposals has been approved so far.",
+  "answer": "Neither",
+  "options": [
+   "Neither",
+   "None",
+   "Anything",
+   "No"
+  ],
+  "hint": "two items, not approved",
+  "explanation": "'Neither of the two' — 'none' is for three or more."
+ },
+ {
+  "sentence": "___ money was spent on advertising last year.",
+  "answer": "Little",
+  "options": [
+   "Little",
+   "Few",
+   "A few",
+   "Many"
+  ],
+  "hint": "uncountable, small amount",
+  "explanation": "'Little money' — uncountable noun."
  }
 ]

@@ -834,5 +834,191 @@
   "answer": "much",
   "hint": "uncountable",
   "explanation": "so much + uncountable noun (confusion)."
+ },
+ {
+  "sentence": "The letter was written ___ hand, not typed.",
+  "answer": "by",
+  "hint": "written ___ hand = by typewriter or pen?",
+  "explanation": "'Written by hand' = handwritten; 'by' names the means."
+ },
+ {
+  "sentence": "He was accused ___ stealing the confidential documents.",
+  "answer": "of",
+  "hint": "accused ___ doing something",
+  "explanation": "'Accuse somebody of doing something' — the preposition is fixed."
+ },
+ {
+  "sentence": "It's the first time I've ___ eaten oysters.",
+  "answer": "ever",
+  "hint": "experience up to now",
+  "explanation": "'The first time + present perfect + ever' emphasises novelty."
+ },
+ {
+  "sentence": "You'd better hurry, ___ you'll miss the flight.",
+  "answer": "otherwise",
+  "hint": "or else",
+  "explanation": "'Otherwise' = if you do not, then this will happen."
+ },
+ {
+  "sentence": "The bridge is ___ repair, so traffic uses the bypass.",
+  "answer": "under",
+  "hint": "being fixed",
+  "explanation": "'Under repair' = being repaired."
+ },
+ {
+  "sentence": "She made the cake ___, without any help at all.",
+  "answer": "herself",
+  "hint": "reflexive pronoun",
+  "explanation": "'She made it herself' — the reflexive stresses she did it alone."
+ },
+ {
+  "sentence": "Hardly had we sat down ___ the lights went out.",
+  "answer": "when",
+  "hint": "hardly … ?",
+  "explanation": "'Hardly … when' is the fixed pair; 'than' belongs to 'no sooner'."
+ },
+ {
+  "sentence": "By this time tomorrow, we ___ have finished the whole report.",
+  "answer": "will",
+  "hint": "future perfect",
+  "explanation": "'By + future time' calls for the future perfect: will have finished."
+ },
+ {
+  "sentence": "The more you practise, ___ easier it becomes.",
+  "answer": "the",
+  "hint": "the + comparative, the + comparative",
+  "explanation": "'The more … the easier …' — both halves take 'the'."
+ },
+ {
+  "sentence": "He talks as if he ___ the owner of the place.",
+  "answer": "were",
+  "hint": "unreal comparison",
+  "explanation": "'As if he were' — subjunctive for an unreal comparison."
+ },
+ {
+  "sentence": "___ of the two passwords works — try the other one.",
+  "answer": "Neither",
+  "hint": "not one and not the other",
+  "explanation": "'Neither of the two' = not either of them."
+ },
+ {
+  "sentence": "It was ___ a lovely evening that nobody wanted to leave.",
+  "answer": "such",
+  "hint": "such + adjective + noun",
+  "explanation": "'Such a lovely evening that …' — 'so' would go directly before an adjective."
+ },
+ {
+  "sentence": "I wish it ___ stop raining.",
+  "answer": "would",
+  "hint": "wish about an annoying habit",
+  "explanation": "'Wish + would' complains about something you want to stop or change."
+ },
+ {
+  "sentence": "She denied ___ the last piece of cake.",
+  "answer": "taking",
+  "hint": "deny + gerund",
+  "explanation": "'Deny doing something' — the gerund follows 'deny'."
+ },
+ {
+  "sentence": "The window has ___ been repaired, I'm glad to say.",
+  "answer": "since",
+  "hint": "between then and now",
+  "explanation": "'Has since been repaired' = between that time and now."
+ },
+ {
+  "sentence": "No matter how hard he pulled, he ___ open the drawer.",
+  "answer": "couldn't",
+  "hint": "unable in the past",
+  "explanation": "'Couldn't open it' — past inability."
+ },
+ {
+  "sentence": "There were ___ many customers for the staff to serve properly.",
+  "answer": "too",
+  "hint": "more than enough",
+  "explanation": "'Too many … to …' — excess preventing an outcome."
+ },
+ {
+  "sentence": "The committee meets ___ other month, always on a Tuesday.",
+  "answer": "every",
+  "hint": "every other = alternate",
+  "explanation": "'Every other month' = one month yes, one month no."
+ },
+ {
+  "sentence": "It was not ___ midnight that the results were announced.",
+  "answer": "until",
+  "hint": "not … until",
+  "explanation": "'Not until midnight' = only then."
+ },
+ {
+  "sentence": "He'd rather cook at home tonight, ___ he?",
+  "answer": "wouldn't",
+  "hint": "question tag for would rather",
+  "explanation": "The tag repeats the auxiliary: would → wouldn't."
+ },
+ {
+  "sentence": "The museum charges for entry; ___, under-twenties visit free.",
+  "answer": "however",
+  "hint": "contrast after a semicolon",
+  "explanation": "'However' marks the contrast between paying and free."
+ },
+ {
+  "sentence": "The plane took ___ despite the thick fog.",
+  "answer": "off",
+  "hint": "leave the ground",
+  "explanation": "'Take off' = leave the ground."
+ },
+ {
+  "sentence": "She was ___ the impression that the interview was today.",
+  "answer": "under",
+  "hint": "under the ___ = wrongly believing",
+  "explanation": "'Under the impression that …' = believing, perhaps wrongly."
+ },
+ {
+  "sentence": "They marched through the capital ___ protest.",
+  "answer": "in",
+  "hint": "in ___ = to show disagreement",
+  "explanation": "'In protest' = as a way of protesting."
+ },
+ {
+  "sentence": "The findings will be published in ___ course.",
+  "answer": "due",
+  "hint": "in ___ course = at the right time",
+  "explanation": "'In due course' = eventually, when the time is right."
+ },
+ {
+  "sentence": "___ further delay, the doors opened and we went in.",
+  "answer": "Without",
+  "hint": "with no …",
+  "explanation": "'Without further delay' = immediately."
+ },
+ {
+  "sentence": "I couldn't reach the shelf, ___ how tall I am.",
+  "answer": "no",
+  "hint": "no matter how …",
+  "explanation": "'No matter how tall' = however tall."
+ },
+ {
+  "sentence": "___ being nervous, she delivered a flawless speech.",
+  "answer": "Despite",
+  "hint": "although she was",
+  "explanation": "'Despite being nervous' — concession + gerund."
+ },
+ {
+  "sentence": "The report needs ___ before Friday, doesn't it?",
+  "answer": "finishing",
+  "hint": "need + gerund (passive meaning)",
+  "explanation": "'Needs finishing' = needs to be finished."
+ },
+ {
+  "sentence": "___ the whole, the trip was a great success.",
+  "answer": "On",
+  "hint": "generally speaking",
+  "explanation": "'On the whole' = mostly, in general."
+ },
+ {
+  "sentence": "The project ran ___ of money halfway through.",
+  "answer": "out",
+  "hint": "run ___ of = have no more",
+  "explanation": "'Run out of' = use up the supply."
  }
 ]

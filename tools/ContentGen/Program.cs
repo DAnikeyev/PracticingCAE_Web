@@ -10,7 +10,7 @@ var seedsDir = Path.Combine(repoRoot, "tools", "ContentGen", "Seeds");
 var contentDir = Path.Combine(repoRoot, "content");
 var rng = new Random(20260911); // deterministic output — reruns only change content when seeds change
 
-const int TargetSetsPerTask = 110;
+const int TargetSetsPerTask = 200;
 
 var tasks = new List<TaskDef>
 {
@@ -99,11 +99,11 @@ foreach (var t in tasks)
 }
 
 // ---------- summary ----------
-Console.WriteLine($"{"task",-22} {"sets",6}  meets >=100");
+Console.WriteLine($"{"task",-22} {"sets",6}  meets >=200");
 foreach (var s in summary.GroupBy(x => x.Id).Select(g => (Id: g.Key, Sets: g.Sum(x => x.Sets))))
 {
-    Console.WriteLine($"{s.Id,-22} {s.Sets,6}  {(s.Sets >= 100 ? "YES" : "NO !!")}");
-    if (s.Sets < 100) problems.Add($"{s.Id}: only {s.Sets} sets");
+    Console.WriteLine($"{s.Id,-22} {s.Sets,6}  {(s.Sets >= 200 ? "YES" : "NO !!")}");
+    if (s.Sets < 200) problems.Add($"{s.Id}: only {s.Sets} sets");
 }
 Console.WriteLine($"Total sets: {summary.Sum(s => s.Sets)}");
 

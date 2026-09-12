@@ -471,5 +471,137 @@
   "answer": "will",
   "hint": "nowhere + future/modal",
   "explanation": "'Nowhere will you find …' — inverted future/modal."
+ },
+ {
+  "sentence": "Only later ___ we realise what he had done.",
+  "answer": "did",
+  "hint": "only later + inversion",
+  "explanation": "'Only later did we realise' — inverted past simple."
+ },
+ {
+  "sentence": "Not once ___ she mentioned the incident to anyone.",
+  "answer": "has",
+  "hint": "not once + present perfect",
+  "explanation": "'Not once has she mentioned' — inversion with the perfect."
+ },
+ {
+  "sentence": "Never again ___ they offer credit to first-time customers.",
+  "answer": "would",
+  "hint": "never again + modal",
+  "explanation": "'Never again would they offer' — inverted modal for a past decision."
+ },
+ {
+  "sentence": "Barely ___ the ink dried when the complaints began to arrive.",
+  "answer": "had",
+  "hint": "barely + past perfect",
+  "explanation": "'Barely had the ink dried when …' — inverted past perfect."
+ },
+ {
+  "sentence": "Only after the audit ___ the missing funds come to light.",
+  "answer": "did",
+  "hint": "only after + inversion",
+  "explanation": "'Only after the audit did the funds come to light'."
+ },
+ {
+  "sentence": "In no way ___ this decision reflect the views of the board.",
+  "answer": "does",
+  "hint": "present simple inversion",
+  "explanation": "'In no way does this decision reflect …' — auxiliary 'does' + base verb."
+ },
+ {
+  "sentence": "On no account ___ personal data be shared with third parties.",
+  "answer": "must",
+  "hint": "formal prohibition",
+  "explanation": "'On no account must/should data be shared' — modal + inversion."
+ },
+ {
+  "sentence": "So loud ___ the music that the neighbours called the police.",
+  "answer": "was",
+  "hint": "so + adjective + that",
+  "explanation": "'So loud was the music that …' — fronted 'so + adj' with inversion."
+ },
+ {
+  "sentence": "To such extremes ___ the fans go that the police were called in.",
+  "answer": "did",
+  "hint": "to such extremes + inversion",
+  "explanation": "'To such extremes did the fans go that …' — inverted past simple."
+ },
+ {
+  "sentence": "Only since the redesign ___ the app gained new users.",
+  "answer": "has",
+  "hint": "only since + present perfect",
+  "explanation": "'Only since the redesign has the app gained …' — perfect inversion."
+ },
+ {
+  "sentence": "___ had I hung up than the phone rang again.",
+  "answer": "No sooner",
+  "hint": "___ … than = immediately after",
+  "explanation": "'No sooner had I hung up than …' — the fixed inverted pair."
+ },
+ {
+  "sentence": "Not until the second edition ___ the book become a bestseller.",
+  "answer": "did",
+  "hint": "not until + inversion",
+  "explanation": "'Not until the second edition did the book become …'."
+ },
+ {
+  "sentence": "Should the alarm ___, evacuate the building immediately.",
+  "answer": "sound",
+  "hint": "inverted conditional + base verb",
+  "explanation": "'Should the alarm sound' = 'If the alarm should sound' — base verb follows.'"
+ },
+ {
+  "sentence": "___ it not been for the lifeguard, the boy would have drowned.",
+  "answer": "Had",
+  "hint": "third conditional inversion",
+  "explanation": "'Had it not been for …' = 'If it had not been for …'."
+ },
+ {
+  "sentence": "Little ___ the villagers suspect that the mine would ever reopen.",
+  "answer": "did",
+  "hint": "little did they …",
+  "explanation": "'Little did the villagers suspect' — they had no idea."
+ },
+ {
+  "sentence": "Only by chance ___ the letters discovered decades later.",
+  "answer": "were",
+  "hint": "passive inversion",
+  "explanation": "'Only by chance were the letters discovered' — inverted passive."
+ },
+ {
+  "sentence": "Rarely ___ a debut film attracted such wide attention.",
+  "answer": "has",
+  "hint": "rarely + present perfect",
+  "explanation": "'Rarely has a debut film attracted …' — perfect inversion."
+ },
+ {
+  "sentence": "Not only ___ the bridge unsafe, but it was also far too narrow.",
+  "answer": "was",
+  "hint": "not only + inversion",
+  "explanation": "'Not only was the bridge unsafe' — inverted past simple of be."
+ },
+ {
+  "sentence": "Under no circumstances ___ refunds be given after this date.",
+  "answer": "will",
+  "hint": "formal rule",
+  "explanation": "'Under no circumstances will refunds be given' — inverted modal passive."
+ },
+ {
+  "sentence": "At no time ___ the crew aware of the danger.",
+  "answer": "was",
+  "hint": "at no time + inversion",
+  "explanation": "'At no time was the crew aware' — inverted past simple of be."
+ },
+ {
+  "sentence": "Only when the last guest had left ___ she sit down.",
+  "answer": "did",
+  "hint": "only when + inversion",
+  "explanation": "'Only when … had left did she sit down' — inverted past simple."
+ },
+ {
+  "sentence": "So convinced ___ he of his innocence that he refused the deal.",
+  "answer": "was",
+  "hint": "so + adjective + that",
+  "explanation": "'So convinced was he of …' — inversion after fronted 'so + adj'."
  }
 ]

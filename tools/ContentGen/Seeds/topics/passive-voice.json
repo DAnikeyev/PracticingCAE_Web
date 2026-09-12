@@ -1,114 +1,1094 @@
 [
- {"sentence":"The parcels ___ (deliver) every morning before the shop opens.","answer":"are delivered","options":[],"hint":"routine action, plural subject","explanation":"Present simple passive (am/is/are + past participle) for regular, repeated actions: are delivered."},
- {"sentence":"English ___ (speak) as a first language in more than fifty countries.","answer":"is spoken","options":[],"hint":"general fact, singular subject","explanation":"Present simple passive: is + spoken. Facts about the language, not about a speaker."},
- {"sentence":"Passengers ___ (ask) to fasten their seatbelts before take-off.","answer":"are asked","options":[],"hint":"routine instruction, plural subject","explanation":"Present simple passive: are + asked. The agent (crew) is obvious and omitted."},
- {"sentence":"These wetlands ___ (threaten) by pollution every single year.","answer":"are threatened","options":[],"hint":"present simple + by + agent","explanation":"Present simple passive with the agent introduced by 'by': are threatened by."},
- {"sentence":"The museum ___ (close) to the public on Mondays.","answer":"is closed","options":[],"hint":"regular weekly event","explanation":"Present simple passive: is + closed. No agent needed; the routine is what matters."},
- {"sentence":"Refunds ___ (not give) without a receipt.","answer":"are not given","options":[],"accept":["aren't given"],"hint":"negative present simple passive","explanation":"Negative present simple passive: are not + past participle (given)."},
- {"sentence":"The novel ___ (write) in under three months.","answer":"was written","options":[],"hint":"finished action in the past","explanation":"Past simple passive (was/were + past participle): was written. The writer is not mentioned."},
- {"sentence":"All the tickets ___ (sell) within an hour of going on sale.","answer":"were sold","options":[],"hint":"completed past action, plural subject","explanation":"Past simple passive: were + sold. 'All the tickets' takes a plural verb."},
- {"sentence":"The ruins ___ (discover) by farmers digging a well in 1923.","answer":"were discovered","options":[],"hint":"past passive + by + agent","explanation":"Past simple passive with a expressed agent: were discovered by farmers."},
- {"sentence":"The decision ___ (announce) at yesterday's press conference.","answer":"was announced","options":[],"hint":"yesterday = past simple","explanation":"'Yesterday' signals past simple passive: was + announced."},
- {"sentence":"Thousands of homes ___ (flood) when the river burst its banks.","answer":"were flooded","options":[],"hint":"past event, plural subject","explanation":"Past simple passive: were + flooded. The cause (the river) is in the when-clause."},
- {"sentence":"The original manuscript ___ (lose) for over a century.","answer":"was lost","options":[],"hint":"state resulting from a past passive action","explanation":"Past simple passive: was + lost. The person who lost it is unknown or unimportant."},
- {"sentence":"The results ___ (publish) on the university website next Friday.","answer":"will be published","options":[],"hint":"future passive with will","explanation":"Future simple passive: will be + past participle. 'Next Friday' fixes the future reference."},
- {"sentence":"The new bridge ___ (open) by the mayor next month.","answer":"will be opened","options":[],"accept":["is going to be opened"],"hint":"future passive + by + agent","explanation":"Future simple passive: will be + opened, with the agent in a by-phrase."},
- {"sentence":"Your luggage ___ (weigh) at check-in, so allow extra time.","answer":"will be weighed","options":[],"hint":"future arrangement, no agent needed","explanation":"Future simple passive: will be + weighed. The agent (staff) is obvious."},
- {"sentence":"The winners ___ (notify) by email at the end of the week.","answer":"will be notified","options":[],"accept":["are going to be notified"],"hint":"future passive, plural subject","explanation":"Future simple passive: will be + notified for the plural subject 'the winners'."},
- {"sentence":"The office ___ (repaint) at the moment, so we're working from home.","answer":"is being repainted","options":[],"hint":"action in progress now","explanation":"Present continuous passive: am/is/are being + past participle. 'At the moment' signals it."},
- {"sentence":"Historic documents ___ (digitise) right now, which is why the archive is shut.","answer":"are being digitised","options":[],"hint":"action in progress now, plural subject","explanation":"Present continuous passive: are being + digitised for an action happening around now."},
- {"sentence":"The finalists ___ (interview) live on air as we speak.","answer":"are being interviewed","options":[],"hint":"happening at this very moment","explanation":"'As we speak' demands the present continuous passive: are being + interviewed."},
- {"sentence":"My usual barber's chair ___ (fix), so I'm trying a new salon.","answer":"is being fixed","options":[],"hint":"temporary situation in progress","explanation":"Present continuous passive: is being + fixed for an unfinished, ongoing repair."},
- {"sentence":"The stairs ___ (reinforce) when part of the ceiling gave way.","answer":"were being reinforced","options":[],"hint":"action in progress at a past moment","explanation":"Past continuous passive: was/were being + past participle, interrupted by a sudden past event."},
- {"sentence":"I couldn't use the meeting room because it ___ (clean) all morning.","answer":"was being cleaned","options":[],"hint":"ongoing past action blocking another","explanation":"Past continuous passive: was being + cleaned over a period in the past."},
- {"sentence":"While the sets ___ (build), the actors rehearsed in a warehouse.","answer":"were being built","options":[],"hint":"two past actions, one passive and ongoing","explanation":"Past continuous passive (were being built) for the longer background action."},
- {"sentence":"The road ___ (resurface) at the time, so we took the coast route instead.","answer":"was being resurfaced","options":[],"hint":"in progress at a past moment","explanation":"'At the time' requires past continuous passive: was being + resurfaced."},
- {"sentence":"The missing manuscripts ___ (find) — the search is officially over.","answer":"have been found","options":[],"hint":"recent event with present result","explanation":"Present perfect passive: have/has been + past participle. The result matters now."},
- {"sentence":"Every complaint ___ (investigate) since the new ombudsman took over.","answer":"has been investigated","options":[],"hint":"singular subject + since","explanation":"'Every complaint' is singular, so present perfect passive: has been + investigated."},
- {"sentence":"Over two hundred bird species ___ (record) in the valley this spring.","answer":"have been recorded","options":[],"hint":"unfinished time period (this spring)","explanation":"'This spring' is an open time frame, so present perfect passive: have been + recorded."},
- {"sentence":"Your booking ___ (confirm) by email — check your spam folder.","answer":"has been confirmed","options":[],"hint":"completed action with present relevance","explanation":"Present perfect passive: has been + confirmed; the confirmation exists now."},
- {"sentence":"All the passwords ___ (reset) after last week's security breach.","answer":"have been reset","options":[],"hint":"recent past, plural subject, present relevance","explanation":"Present perfect passive: have been + reset for a recently completed action."},
- {"sentence":"By the time the reporters arrived, the evidence ___ (destroy).","answer":"had been destroyed","options":[],"hint":"earlier of two past events","explanation":"Past perfect passive: had been + past participle for the action completed before the arrival."},
- {"sentence":"The house looked deserted; it ___ (empty) years earlier.","answer":"had been emptied","options":[],"hint":"past event before another past point","explanation":"'Years earlier' is before the past reference point, so past perfect passive: had been + emptied."},
- {"sentence":"She couldn't pay because her wallet ___ (steal) at the market.","answer":"had been stolen","options":[],"hint":"earlier past action causing a past problem","explanation":"The theft happened before the failed payment: past perfect passive, had been + stolen."},
- {"sentence":"The stage was still wet — the scenery ___ (paint) only hours before.","answer":"had been painted","options":[],"hint":"'before' + past reference point","explanation":"'Only hours before' points to the past perfect passive: had been + painted."},
- {"sentence":"By next June, the entire collection ___ (move) to the new wing.","answer":"will have been moved","options":[],"hint":"completion by a future deadline","explanation":"Future perfect passive: will have been + past participle for something finished by 'next June'."},
- {"sentence":"By the time you read this, the treaty ___ (sign) by all twelve delegations.","answer":"will have been signed","options":[],"hint":"finished before a future moment","explanation":"'By the time + present clause' with a future meaning takes the future perfect passive."},
- {"sentence":"By Friday afternoon, every application ___ (process).","answer":"will have been processed","options":[],"hint":"deadline in the future ('by Friday')","explanation":"'By + future time' signals future perfect passive: will have been + processed."},
- {"sentence":"This form ___ (sign) in ink — digital signatures aren't valid.","answer":"must be signed","options":[],"accept":["has to be signed"],"hint":"strong obligation, passive","explanation":"Modal passive: modal + be + past participle. Obligation: must (also has to) be signed."},
- {"sentence":"Your name ___ (find) anywhere on the guest list, I'm afraid.","answer":"cannot be found","options":[],"accept":["can't be found"],"hint":"impossibility, modal passive","explanation":"Modal passive of ability/possibility: cannot be + past participle."},
- {"sentence":"Parcels ___ (leave) in the porch if nobody is home.","answer":"should be left","options":[],"accept":["are left","can be left"],"hint":"recommendation in the passive","explanation":"Modal passive: should be + left. A recommendation; 'are left' (routine) is also acceptable."},
- {"sentence":"The debt ___ (repay) in full by May, he promised.","answer":"would be repaid","options":[],"hint":"future-in-the-past passive","explanation":"Reported future passive: would be + past participle after a past reporting verb."},
- {"sentence":"The match ___ (abandon) because of the storm, so we got a refund.","answer":"had to be abandoned","options":[],"hint":"past necessity in the passive","explanation":"Modal passive with have to: had to be + past participle for past obligation."},
- {"sentence":"The markings ___ (see) with the naked eye.","answer":"cannot be seen","options":[],"accept":["can't be seen"],"hint":"impossibility with modal","explanation":"Modal passive: cannot be + seen. The context (astronomy) implies impossibility."},
- {"sentence":"Endangered plants ___ (not pick) anywhere in the reserve.","answer":"must not be picked","options":[],"accept":["mustn't be picked"],"hint":"prohibition in the passive","explanation":"Modal passive of prohibition: must not be + past participle."},
- {"sentence":"The whole engine ___ (strip down) before the fault could be located.","answer":"had to be stripped down","options":[],"hint":"past necessity, phrasal verb passive","explanation":"Past necessity: had to be + stripped down (phrasal verbs passivise too, particle retained)."},
- {"sentence":"The rare print ___ (steal) from the locked cabinet — the lock wasn't forced.","answer":"must have been stolen","options":[],"hint":"deduction about the past","explanation":"Perfect modal passive: must have been + past participle for a confident past deduction."},
- {"sentence":"The invitation ___ (send) to the wrong address — nobody on this street received one.","answer":"must have been sent","options":[],"hint":"past deduction from evidence","explanation":"Perfect modal passive: must have been + sent. The evidence forces the conclusion."},
- {"sentence":"This wall ___ (build) centuries ago — no modern tool leaves marks like these.","answer":"must have been built","options":[],"hint":"speculating about the past","explanation":"Perfect modal passive: must have been + built to draw a conclusion about the past."},
- {"sentence":"The village ___ (reach) by road until 1962; only mules could make the climb.","answer":"couldn't be reached","options":[],"accept":["could not be reached"],"hint":"past impossibility/ability","explanation":"'Until 1962' describes a past state of affairs: could not be + past participle."},
- {"sentence":"The manuscript is too fragile ___ (handle) without gloves.","answer":"to be handled","options":[],"hint":"passive infinitive after 'too'","explanation":"Passive to-infinitive: to be + past participle. The manuscript receives the handling."},
- {"sentence":"Several issues remain ___ (resolve) before the launch.","answer":"to be resolved","options":[],"hint":"passive infinitive after 'remain'","explanation":"'Remain' + passive infinitive (to be resolved) expresses unfinished business."},
- {"sentence":"She hates ___ (interrupt) when she's deep in work.","answer":"being interrupted","options":[],"hint":"passive -ing form after 'hate'","explanation":"Passive gerund: being + past participle, after verbs like hate, like, avoid."},
- {"sentence":"He refuses ___ (tell) what to do by people he's never met.","answer":"to be told","options":[],"hint":"passive infinitive after 'refuse'","explanation":"'Refuse' takes a to-infinitive; passive meaning needs to be + told."},
- {"sentence":"The house is ___ (sell) on Tuesday unless a buyer comes forward first.","answer":"to be sold","options":[],"hint":"'be to' arrangement in the passive","explanation":"'Be + passive infinitive' (is to be sold) expresses an official arrangement."},
- {"sentence":"There's still a lot of paperwork ___ (complete) before we can close the account.","answer":"to be completed","options":[],"hint":"passive infinitive after a noun","explanation":"Noun + passive to-infinitive (paperwork to be completed) — the paperwork receives the action."},
- {"sentence":"The escaped prisoner ___ (believe) to be hiding in the mountains.","answer":"is believed","options":[],"hint":"impersonal reporting passive","explanation":"Impersonal passive pattern: subject + is believed/said/reported + to-infinitive."},
- {"sentence":"The company ___ (say) to be on the verge of bankruptcy.","answer":"is said","options":[],"hint":"reported opinion in the passive","explanation":"It is said that... → The company is said to be... Present simple passive: is said."},
- {"sentence":"The two leaders ___ (report) to have reached a provisional agreement.","answer":"are reported","options":[],"hint":"plural subject + impersonal passive","explanation":"Plural subject needs are: are reported to have reached (perfect infinitive for the earlier event)."},
- {"sentence":"She ___ (think) to be the finest violinist of her generation.","answer":"is thought","options":[],"hint":"passive reporting verb","explanation":"Impersonal passive: is thought to be. The thinkers are general, not stated."},
- {"sentence":"The divers ___ (know) to have been working without insurance.","answer":"are known","options":[],"hint":"passive reporting + perfect infinitive","explanation":"are known to have been working: the knowing is present, the working was ongoing before."},
- {"sentence":"The temple is thought ___ (build) more than two thousand years ago.","answer":"to have been built","options":[],"hint":"perfect passive infinitive","explanation":"Perfect passive infinitive: to have been + built for an event earlier than the main verb."},
- {"sentence":"The painting is believed ___ (steal) by an organised gang.","answer":"to have been stolen","options":[],"hint":"earlier event, passive infinitive","explanation":"The theft preceded the believing: is believed to have been + stolen."},
- {"sentence":"The Eiffel Tower ___ (design) by Gustave Eiffel's engineering firm.","answer":"was designed","options":[],"hint":"historical fact + by + agent","explanation":"Past simple passive with agent: was designed by. Historical events take past simple."},
- {"sentence":"The national anthem ___ (compose) by a little-known music teacher.","answer":"was composed","options":[],"hint":"past simple + by + agent","explanation":"Past simple passive: was + composed; 'by a music teacher' names the agent."},
- {"sentence":"The ambush ___ (plan) by someone with intimate knowledge of the valley.","answer":"had been planned","options":[],"accept":["was planned"],"hint":"planning completed before the event","explanation":"Past perfect passive (had been planned) stresses completion before the ambush; was planned is also acceptable."},
- {"sentence":"Hamlet ___ (perform) almost continuously since it was written.","answer":"has been performed","options":[],"hint":"'since' + present perfect passive","explanation":"'Since + past clause' requires present perfect passive: has been + performed."},
- {"sentence":"We're having the kitchen ___ (renovate) next month.","answer":"renovated","options":[],"hint":"have something done","explanation":"Causative 'have something done': have + object + past participle. Professionals do it for us."},
- {"sentence":"She had her laptop ___ (repair) after the coffee spill.","answer":"repaired","options":[],"hint":"have something done (past)","explanation":"Causative structure: had + her laptop + repaired. A technician performed the repair."},
- {"sentence":"You should get that rash ___ (look at) by a doctor.","answer":"looked at","options":[],"hint":"get something done","explanation":"Causative 'get something done': get + object + past participle (looked at)."},
- {"sentence":"I must get my passport ___ (renew) before the trip.","answer":"renewed","options":[],"hint":"get something done","explanation":"'Get + object + past participle': the passport is renewed by an authority, not by me."},
- {"sentence":"They're getting the garden ___ (landscape) this spring.","answer":"landscaped","options":[],"hint":"get something done (ongoing arrangement)","explanation":"Causative with get: are getting + the garden + landscaped."},
- {"sentence":"He had his wisdom tooth ___ (take out) yesterday morning.","answer":"taken out","options":[],"hint":"have something done; phrasal verb","explanation":"Causative: had + his wisdom tooth + taken out. The particle 'out' stays with the participle."},
- {"sentence":"We had the whole house ___ (repaint) before the wedding.","answer":"repainted","options":[],"hint":"have something done","explanation":"'Had the house repainted' — painters did it at our request. Object + past participle."},
- {"sentence":"Did you have the brakes ___ (check) before the long drive?","answer":"checked","options":[],"hint":"question form of have something done","explanation":"Causative question: Did you have + the brakes + checked? A mechanic did the checking."},
- {"sentence":"The experiments ___ (conduct) under strict laboratory conditions last year.","answer":"were conducted","options":[],"hint":"'last year' = past simple passive","explanation":"'Last year' fixes past simple passive: were + conducted for the plural subject."},
- {"sentence":"A new ring road ___ (construct) around the city at present.","answer":"is being constructed","options":[],"hint":"'at present' = continuous passive","explanation":"'At present' requires present continuous passive: is being + constructed."},
- {"sentence":"The refugees ___ (provide) with blankets and hot meals last night.","answer":"were provided","options":[],"hint":"past simple passive, plural subject","explanation":"Past simple passive: were + provided. Note the pattern provide somebody WITH something."},
- {"sentence":"Too much time ___ (waste) on pointless meetings these days.","answer":"is wasted","options":[],"hint":"'these days' = present simple passive","explanation":"'These days' signals a present general situation: is + wasted (singular 'time')."},
- {"sentence":"The old cinema ___ (demolish) last month.","answer":"was demolished","options":[],"hint":"'last month' = past simple passive","explanation":"Past simple passive: was + demolished. The demolition company is not mentioned."},
- {"sentence":"Her memoir ___ (translate) into fourteen languages so far.","answer":"has been translated","options":[],"hint":"'so far' = present perfect passive","explanation":"'So far' requires present perfect passive: has been + translated (singular 'memoir')."},
- {"sentence":"The stolen car ___ (find) abandoned in a car park this morning.","answer":"was found","options":[],"hint":"finished point in time","explanation":"'This morning' (now over) takes past simple passive: was + found."},
- {"sentence":"All new students ___ (give) a locker key on their first day.","answer":"are given","options":[],"hint":"routine, plural subject","explanation":"Present simple passive: are + given. Passives of give keep the indirect object as subject."},
- {"sentence":"The bridge ___ (inspect) twice a year for signs of corrosion.","answer":"is inspected","options":[],"hint":"frequent routine","explanation":"'Twice a year' marks a routine: present simple passive, is + inspected."},
- {"sentence":"Construction ___ (halt) after the discovery of Roman remains.","answer":"was halted","options":[],"hint":"single completed past event","explanation":"Past simple passive: was + halted. The halting authority is unnamed."},
- {"sentence":"The recipe ___ (pass down) from generation to generation.","answer":"has been passed down","options":[],"hint":"continuing relevance from past to now","explanation":"Present perfect passive: has been + passed down; the process links past and present."},
- {"sentence":"My laptop ___ (service) next week, so back up your files beforehand.","answer":"will be serviced","options":[],"accept":["is being serviced"],"hint":"future arrangement","explanation":"'Next week' takes the future passive: will be + serviced (is being serviced is also a valid arrangement)."},
- {"sentence":"The castle ___ (restore) at present, so the east wing is closed to visitors.","answer":"is being restored","options":[],"hint":"'at present' + ongoing work","explanation":"Present continuous passive: is being + restored for work in progress now."},
- {"sentence":"The new stadium ___ by the end of the decade.","answer":"will have been completed","options":["will have been completed","will have completed","will be completing","is completing"],"hint":"passive + deadline in the future","explanation":"'By the end of the decade' needs future perfect passive: will have been + completed. The stadium is completed by somebody."},
- {"sentence":"A decision ___ once all the evidence has been reviewed.","answer":"will be made","options":["will be made","will make","is making","has made"],"hint":"future passive of 'make a decision'","explanation":"The decision cannot make itself: future passive will be + made."},
- {"sentence":"The suspect is believed ___ the country weeks ago.","answer":"to have left","options":["to have left","to be left","leaving","have left"],"hint":"perfect infinitive after 'is believed'","explanation":"Believe + to-infinitive; 'weeks ago' demands the perfect infinitive to have left."},
- {"sentence":"The tickets ___ at the door from seven o'clock.","answer":"can be collected","options":["can be collected","can collect","are collecting","collect"],"hint":"modal passive of possibility","explanation":"Modal passive: can be + collected. The tickets are collected by the buyers."},
- {"sentence":"These wires must ___ by a qualified electrician.","answer":"be checked","options":["be checked","check","been checked","to check"],"hint":"bare infinitive after modal","explanation":"After a modal, passive = be + past participle: must be checked. 'Been' needs 'have'."},
- {"sentence":"The ancient scrolls are far too brittle ___ .","answer":"to be unrolled","options":["to be unrolled","to unroll","unrolling","for unrolling"],"hint":"passive infinitive after 'too...to'","explanation":"The scrolls receive the action: passive infinitive to be + unrolled."},
- {"sentence":"By this time tomorrow, the results ___ to every candidate.","answer":"will have been emailed","options":["will have been emailed","will have emailed","are emailing","have emailed"],"hint":"future perfect passive","explanation":"'By this time tomorrow' requires future perfect passive: will have been + emailed."},
- {"sentence":"She's having her wedding dress ___ by a tailor in Naples.","answer":"made","options":["made","making","to make","make"],"hint":"causative have something done","explanation":"Have + object + past participle: having her dress made by a professional."},
- {"sentence":"I don't like ___ how to run my own department.","answer":"being told","options":["being told","to tell","telling","be told"],"hint":"passive gerund after 'like'","explanation":"The speaker receives the telling: passive gerund being + told."},
- {"sentence":"The fault ___ by the time the auditor arrived.","answer":"had already been fixed","options":["had already been fixed","had already fixed","was already fixing","has already been fixed"],"hint":"past perfect passive","explanation":"The fixing preceded the arrival: past perfect passive had been + fixed."},
- {"sentence":"A cheaper version of the vaccine ___ right now.","answer":"is being developed","options":["is being developed","is developing","develops","has developed"],"hint":"present continuous passive","explanation":"'Right now' requires present continuous passive: is being + developed."},
- {"sentence":"The report must ___ before Friday's board meeting.","answer":"be submitted","options":["be submitted","submit","been submitted","submitting"],"hint":"modal + passive bare infinitive","explanation":"Modal passive: must be + submitted. 'Been' would require have (must have been submitted)."},
- {"sentence":"The letters ___ while the family was on holiday.","answer":"were being opened","options":["were being opened","were opening","have been opening","are opened"],"hint":"past continuous passive","explanation":"Ongoing during the holiday: past continuous passive were being + opened."},
- {"sentence":"The manuscript is said ___ in a private vault for decades.","answer":"to have been kept","options":["to have been kept","to be kept","keeping","been kept"],"hint":"perfect passive infinitive","explanation":"'For decades' before now: perfect passive infinitive to have been + kept."},
- {"sentence":"The theatre ___ in 1897 and reopened last year.","answer":"was built","options":["was built","is built","has built","built"],"hint":"dated historical event","explanation":"A finished date (1897) takes past simple passive: was + built."},
- {"sentence":"Guests ___ to arrive no later than seven.","answer":"are asked","options":["are asked","are asking","ask","asking"],"hint":"present simple passive","explanation":"Guests receive the request: present simple passive are + asked."},
- {"sentence":"Your contract will ___ for a further twelve months.","answer":"be renewed","options":["be renewed","renew","been renewed","renewing"],"hint":"future passive bare infinitive","explanation":"After 'will', passive = be + past participle: will be renewed."},
- {"sentence":"The evidence ___ by an independent laboratory at present.","answer":"is being analysed","options":["is being analysed","is analysing","has analysed","analysed"],"hint":"'at present' = continuous passive","explanation":"'At present' needs present continuous passive: is being + analysed. The lab does the analysing."},
- {"sentence":"The whole street ___ when the gas main burst.","answer":"had to be evacuated","options":["had to be evacuated","had to evacuate","must evacuate","must be evacuating"],"hint":"past necessity in the passive","explanation":"The street was evacuated by others: past necessity had to be + evacuated."},
- {"sentence":"I need this report ___ by noon, not five.","answer":"typed","options":["typed","typing","to type","type"],"hint":"need something done","explanation":"Need + object + past participle: the report is typed by somebody else (causative-like)."},
- {"sentence":"The winners ___ a trophy at the closing ceremony.","answer":"will be given","options":["will be given","will give","are giving","have given"],"hint":"passive of a verb with two objects","explanation":"Give somebody something → somebody is given something: future passive will be + given."},
- {"sentence":"The matter ___ at this very moment, so no comment yet.","answer":"is being looked into","options":["is being looked into","is looking into","has looked into","looks into"],"hint":"phrasal verb in continuous passive","explanation":"Look into (investigate) passivises with the particle kept: is being looked into."},
- {"sentence":"The manuscript might ___ if you keep touching it with bare hands.","answer":"get damaged","options":["get damaged","get damage","getting damaged","got damaged"],"hint":"get-passive","explanation":"Get + past participle (get damaged) is an informal passive common with mishaps."},
- {"sentence":"Nothing ___ about the incident until the inquiry began.","answer":"was known","options":["was known","knew","was knowing","has known"],"hint":"past simple passive of 'know'","explanation":"Nothing was known by anybody: past simple passive was + known."},
- {"sentence":"He's getting his eyes ___ next week.","answer":"tested","options":["tested","testing","test","to test"],"hint":"get something done","explanation":"Causative get + object + past participle: getting his eyes tested (by an optician)."},
- {"sentence":"The message ___ have been misheard by the interpreter.","answer":"must","options":["must","must be","must been","must being"],"hint":"perfect modal passive deduction","explanation":"Perfect modal passive = modal + have been + past participle: must have been misheard."}
+ {
+  "sentence": "The parcels ___ (deliver) every morning before the shop opens.",
+  "answer": "are delivered",
+  "options": [],
+  "hint": "routine action, plural subject",
+  "explanation": "Present simple passive (am/is/are + past participle) for regular, repeated actions: are delivered."
+ },
+ {
+  "sentence": "English ___ (speak) as a first language in more than fifty countries.",
+  "answer": "is spoken",
+  "options": [],
+  "hint": "general fact, singular subject",
+  "explanation": "Present simple passive: is + spoken. Facts about the language, not about a speaker."
+ },
+ {
+  "sentence": "Passengers ___ (ask) to fasten their seatbelts before take-off.",
+  "answer": "are asked",
+  "options": [],
+  "hint": "routine instruction, plural subject",
+  "explanation": "Present simple passive: are + asked. The agent (crew) is obvious and omitted."
+ },
+ {
+  "sentence": "These wetlands ___ (threaten) by pollution every single year.",
+  "answer": "are threatened",
+  "options": [],
+  "hint": "present simple + by + agent",
+  "explanation": "Present simple passive with the agent introduced by 'by': are threatened by."
+ },
+ {
+  "sentence": "The museum ___ (close) to the public on Mondays.",
+  "answer": "is closed",
+  "options": [],
+  "hint": "regular weekly event",
+  "explanation": "Present simple passive: is + closed. No agent needed; the routine is what matters."
+ },
+ {
+  "sentence": "Refunds ___ (not give) without a receipt.",
+  "answer": "are not given",
+  "options": [],
+  "accept": [
+   "aren't given"
+  ],
+  "hint": "negative present simple passive",
+  "explanation": "Negative present simple passive: are not + past participle (given)."
+ },
+ {
+  "sentence": "The novel ___ (write) in under three months.",
+  "answer": "was written",
+  "options": [],
+  "hint": "finished action in the past",
+  "explanation": "Past simple passive (was/were + past participle): was written. The writer is not mentioned."
+ },
+ {
+  "sentence": "All the tickets ___ (sell) within an hour of going on sale.",
+  "answer": "were sold",
+  "options": [],
+  "hint": "completed past action, plural subject",
+  "explanation": "Past simple passive: were + sold. 'All the tickets' takes a plural verb."
+ },
+ {
+  "sentence": "The ruins ___ (discover) by farmers digging a well in 1923.",
+  "answer": "were discovered",
+  "options": [],
+  "hint": "past passive + by + agent",
+  "explanation": "Past simple passive with a expressed agent: were discovered by farmers."
+ },
+ {
+  "sentence": "The decision ___ (announce) at yesterday's press conference.",
+  "answer": "was announced",
+  "options": [],
+  "hint": "yesterday = past simple",
+  "explanation": "'Yesterday' signals past simple passive: was + announced."
+ },
+ {
+  "sentence": "Thousands of homes ___ (flood) when the river burst its banks.",
+  "answer": "were flooded",
+  "options": [],
+  "hint": "past event, plural subject",
+  "explanation": "Past simple passive: were + flooded. The cause (the river) is in the when-clause."
+ },
+ {
+  "sentence": "The original manuscript ___ (lose) for over a century.",
+  "answer": "was lost",
+  "options": [],
+  "hint": "state resulting from a past passive action",
+  "explanation": "Past simple passive: was + lost. The person who lost it is unknown or unimportant."
+ },
+ {
+  "sentence": "The results ___ (publish) on the university website next Friday.",
+  "answer": "will be published",
+  "options": [],
+  "hint": "future passive with will",
+  "explanation": "Future simple passive: will be + past participle. 'Next Friday' fixes the future reference."
+ },
+ {
+  "sentence": "The new bridge ___ (open) by the mayor next month.",
+  "answer": "will be opened",
+  "options": [],
+  "accept": [
+   "is going to be opened"
+  ],
+  "hint": "future passive + by + agent",
+  "explanation": "Future simple passive: will be + opened, with the agent in a by-phrase."
+ },
+ {
+  "sentence": "Your luggage ___ (weigh) at check-in, so allow extra time.",
+  "answer": "will be weighed",
+  "options": [],
+  "hint": "future arrangement, no agent needed",
+  "explanation": "Future simple passive: will be + weighed. The agent (staff) is obvious."
+ },
+ {
+  "sentence": "The winners ___ (notify) by email at the end of the week.",
+  "answer": "will be notified",
+  "options": [],
+  "accept": [
+   "are going to be notified"
+  ],
+  "hint": "future passive, plural subject",
+  "explanation": "Future simple passive: will be + notified for the plural subject 'the winners'."
+ },
+ {
+  "sentence": "The office ___ (repaint) at the moment, so we're working from home.",
+  "answer": "is being repainted",
+  "options": [],
+  "hint": "action in progress now",
+  "explanation": "Present continuous passive: am/is/are being + past participle. 'At the moment' signals it."
+ },
+ {
+  "sentence": "Historic documents ___ (digitise) right now, which is why the archive is shut.",
+  "answer": "are being digitised",
+  "options": [],
+  "hint": "action in progress now, plural subject",
+  "explanation": "Present continuous passive: are being + digitised for an action happening around now."
+ },
+ {
+  "sentence": "The finalists ___ (interview) live on air as we speak.",
+  "answer": "are being interviewed",
+  "options": [],
+  "hint": "happening at this very moment",
+  "explanation": "'As we speak' demands the present continuous passive: are being + interviewed."
+ },
+ {
+  "sentence": "My usual barber's chair ___ (fix), so I'm trying a new salon.",
+  "answer": "is being fixed",
+  "options": [],
+  "hint": "temporary situation in progress",
+  "explanation": "Present continuous passive: is being + fixed for an unfinished, ongoing repair."
+ },
+ {
+  "sentence": "The stairs ___ (reinforce) when part of the ceiling gave way.",
+  "answer": "were being reinforced",
+  "options": [],
+  "hint": "action in progress at a past moment",
+  "explanation": "Past continuous passive: was/were being + past participle, interrupted by a sudden past event."
+ },
+ {
+  "sentence": "I couldn't use the meeting room because it ___ (clean) all morning.",
+  "answer": "was being cleaned",
+  "options": [],
+  "hint": "ongoing past action blocking another",
+  "explanation": "Past continuous passive: was being + cleaned over a period in the past."
+ },
+ {
+  "sentence": "While the sets ___ (build), the actors rehearsed in a warehouse.",
+  "answer": "were being built",
+  "options": [],
+  "hint": "two past actions, one passive and ongoing",
+  "explanation": "Past continuous passive (were being built) for the longer background action."
+ },
+ {
+  "sentence": "The road ___ (resurface) at the time, so we took the coast route instead.",
+  "answer": "was being resurfaced",
+  "options": [],
+  "hint": "in progress at a past moment",
+  "explanation": "'At the time' requires past continuous passive: was being + resurfaced."
+ },
+ {
+  "sentence": "The missing manuscripts ___ (find) — the search is officially over.",
+  "answer": "have been found",
+  "options": [],
+  "hint": "recent event with present result",
+  "explanation": "Present perfect passive: have/has been + past participle. The result matters now."
+ },
+ {
+  "sentence": "Every complaint ___ (investigate) since the new ombudsman took over.",
+  "answer": "has been investigated",
+  "options": [],
+  "hint": "singular subject + since",
+  "explanation": "'Every complaint' is singular, so present perfect passive: has been + investigated."
+ },
+ {
+  "sentence": "Over two hundred bird species ___ (record) in the valley this spring.",
+  "answer": "have been recorded",
+  "options": [],
+  "hint": "unfinished time period (this spring)",
+  "explanation": "'This spring' is an open time frame, so present perfect passive: have been + recorded."
+ },
+ {
+  "sentence": "Your booking ___ (confirm) by email — check your spam folder.",
+  "answer": "has been confirmed",
+  "options": [],
+  "hint": "completed action with present relevance",
+  "explanation": "Present perfect passive: has been + confirmed; the confirmation exists now."
+ },
+ {
+  "sentence": "All the passwords ___ (reset) after last week's security breach.",
+  "answer": "have been reset",
+  "options": [],
+  "hint": "recent past, plural subject, present relevance",
+  "explanation": "Present perfect passive: have been + reset for a recently completed action."
+ },
+ {
+  "sentence": "By the time the reporters arrived, the evidence ___ (destroy).",
+  "answer": "had been destroyed",
+  "options": [],
+  "hint": "earlier of two past events",
+  "explanation": "Past perfect passive: had been + past participle for the action completed before the arrival."
+ },
+ {
+  "sentence": "The house looked deserted; it ___ (empty) years earlier.",
+  "answer": "had been emptied",
+  "options": [],
+  "hint": "past event before another past point",
+  "explanation": "'Years earlier' is before the past reference point, so past perfect passive: had been + emptied."
+ },
+ {
+  "sentence": "She couldn't pay because her wallet ___ (steal) at the market.",
+  "answer": "had been stolen",
+  "options": [],
+  "hint": "earlier past action causing a past problem",
+  "explanation": "The theft happened before the failed payment: past perfect passive, had been + stolen."
+ },
+ {
+  "sentence": "The stage was still wet — the scenery ___ (paint) only hours before.",
+  "answer": "had been painted",
+  "options": [],
+  "hint": "'before' + past reference point",
+  "explanation": "'Only hours before' points to the past perfect passive: had been + painted."
+ },
+ {
+  "sentence": "By next June, the entire collection ___ (move) to the new wing.",
+  "answer": "will have been moved",
+  "options": [],
+  "hint": "completion by a future deadline",
+  "explanation": "Future perfect passive: will have been + past participle for something finished by 'next June'."
+ },
+ {
+  "sentence": "By the time you read this, the treaty ___ (sign) by all twelve delegations.",
+  "answer": "will have been signed",
+  "options": [],
+  "hint": "finished before a future moment",
+  "explanation": "'By the time + present clause' with a future meaning takes the future perfect passive."
+ },
+ {
+  "sentence": "By Friday afternoon, every application ___ (process).",
+  "answer": "will have been processed",
+  "options": [],
+  "hint": "deadline in the future ('by Friday')",
+  "explanation": "'By + future time' signals future perfect passive: will have been + processed."
+ },
+ {
+  "sentence": "This form ___ (sign) in ink — digital signatures aren't valid.",
+  "answer": "must be signed",
+  "options": [],
+  "accept": [
+   "has to be signed"
+  ],
+  "hint": "strong obligation, passive",
+  "explanation": "Modal passive: modal + be + past participle. Obligation: must (also has to) be signed."
+ },
+ {
+  "sentence": "Your name ___ (find) anywhere on the guest list, I'm afraid.",
+  "answer": "cannot be found",
+  "options": [],
+  "accept": [
+   "can't be found"
+  ],
+  "hint": "impossibility, modal passive",
+  "explanation": "Modal passive of ability/possibility: cannot be + past participle."
+ },
+ {
+  "sentence": "Parcels ___ (leave) in the porch if nobody is home.",
+  "answer": "should be left",
+  "options": [],
+  "accept": [
+   "are left",
+   "can be left"
+  ],
+  "hint": "recommendation in the passive",
+  "explanation": "Modal passive: should be + left. A recommendation; 'are left' (routine) is also acceptable."
+ },
+ {
+  "sentence": "The debt ___ (repay) in full by May, he promised.",
+  "answer": "would be repaid",
+  "options": [],
+  "hint": "future-in-the-past passive",
+  "explanation": "Reported future passive: would be + past participle after a past reporting verb."
+ },
+ {
+  "sentence": "The match ___ (abandon) because of the storm, so we got a refund.",
+  "answer": "had to be abandoned",
+  "options": [],
+  "hint": "past necessity in the passive",
+  "explanation": "Modal passive with have to: had to be + past participle for past obligation."
+ },
+ {
+  "sentence": "The markings ___ (see) with the naked eye.",
+  "answer": "cannot be seen",
+  "options": [],
+  "accept": [
+   "can't be seen"
+  ],
+  "hint": "impossibility with modal",
+  "explanation": "Modal passive: cannot be + seen. The context (astronomy) implies impossibility."
+ },
+ {
+  "sentence": "Endangered plants ___ (not pick) anywhere in the reserve.",
+  "answer": "must not be picked",
+  "options": [],
+  "accept": [
+   "mustn't be picked"
+  ],
+  "hint": "prohibition in the passive",
+  "explanation": "Modal passive of prohibition: must not be + past participle."
+ },
+ {
+  "sentence": "The whole engine ___ (strip down) before the fault could be located.",
+  "answer": "had to be stripped down",
+  "options": [],
+  "hint": "past necessity, phrasal verb passive",
+  "explanation": "Past necessity: had to be + stripped down (phrasal verbs passivise too, particle retained)."
+ },
+ {
+  "sentence": "The rare print ___ (steal) from the locked cabinet — the lock wasn't forced.",
+  "answer": "must have been stolen",
+  "options": [],
+  "hint": "deduction about the past",
+  "explanation": "Perfect modal passive: must have been + past participle for a confident past deduction."
+ },
+ {
+  "sentence": "The invitation ___ (send) to the wrong address — nobody on this street received one.",
+  "answer": "must have been sent",
+  "options": [],
+  "hint": "past deduction from evidence",
+  "explanation": "Perfect modal passive: must have been + sent. The evidence forces the conclusion."
+ },
+ {
+  "sentence": "This wall ___ (build) centuries ago — no modern tool leaves marks like these.",
+  "answer": "must have been built",
+  "options": [],
+  "hint": "speculating about the past",
+  "explanation": "Perfect modal passive: must have been + built to draw a conclusion about the past."
+ },
+ {
+  "sentence": "The village ___ (reach) by road until 1962; only mules could make the climb.",
+  "answer": "couldn't be reached",
+  "options": [],
+  "accept": [
+   "could not be reached"
+  ],
+  "hint": "past impossibility/ability",
+  "explanation": "'Until 1962' describes a past state of affairs: could not be + past participle."
+ },
+ {
+  "sentence": "The manuscript is too fragile ___ (handle) without gloves.",
+  "answer": "to be handled",
+  "options": [],
+  "hint": "passive infinitive after 'too'",
+  "explanation": "Passive to-infinitive: to be + past participle. The manuscript receives the handling."
+ },
+ {
+  "sentence": "Several issues remain ___ (resolve) before the launch.",
+  "answer": "to be resolved",
+  "options": [],
+  "hint": "passive infinitive after 'remain'",
+  "explanation": "'Remain' + passive infinitive (to be resolved) expresses unfinished business."
+ },
+ {
+  "sentence": "She hates ___ (interrupt) when she's deep in work.",
+  "answer": "being interrupted",
+  "options": [],
+  "hint": "passive -ing form after 'hate'",
+  "explanation": "Passive gerund: being + past participle, after verbs like hate, like, avoid."
+ },
+ {
+  "sentence": "He refuses ___ (tell) what to do by people he's never met.",
+  "answer": "to be told",
+  "options": [],
+  "hint": "passive infinitive after 'refuse'",
+  "explanation": "'Refuse' takes a to-infinitive; passive meaning needs to be + told."
+ },
+ {
+  "sentence": "The house is ___ (sell) on Tuesday unless a buyer comes forward first.",
+  "answer": "to be sold",
+  "options": [],
+  "hint": "'be to' arrangement in the passive",
+  "explanation": "'Be + passive infinitive' (is to be sold) expresses an official arrangement."
+ },
+ {
+  "sentence": "There's still a lot of paperwork ___ (complete) before we can close the account.",
+  "answer": "to be completed",
+  "options": [],
+  "hint": "passive infinitive after a noun",
+  "explanation": "Noun + passive to-infinitive (paperwork to be completed) — the paperwork receives the action."
+ },
+ {
+  "sentence": "The escaped prisoner ___ (believe) to be hiding in the mountains.",
+  "answer": "is believed",
+  "options": [],
+  "hint": "impersonal reporting passive",
+  "explanation": "Impersonal passive pattern: subject + is believed/said/reported + to-infinitive."
+ },
+ {
+  "sentence": "The company ___ (say) to be on the verge of bankruptcy.",
+  "answer": "is said",
+  "options": [],
+  "hint": "reported opinion in the passive",
+  "explanation": "It is said that... → The company is said to be... Present simple passive: is said."
+ },
+ {
+  "sentence": "The two leaders ___ (report) to have reached a provisional agreement.",
+  "answer": "are reported",
+  "options": [],
+  "hint": "plural subject + impersonal passive",
+  "explanation": "Plural subject needs are: are reported to have reached (perfect infinitive for the earlier event)."
+ },
+ {
+  "sentence": "She ___ (think) to be the finest violinist of her generation.",
+  "answer": "is thought",
+  "options": [],
+  "hint": "passive reporting verb",
+  "explanation": "Impersonal passive: is thought to be. The thinkers are general, not stated."
+ },
+ {
+  "sentence": "The divers ___ (know) to have been working without insurance.",
+  "answer": "are known",
+  "options": [],
+  "hint": "passive reporting + perfect infinitive",
+  "explanation": "are known to have been working: the knowing is present, the working was ongoing before."
+ },
+ {
+  "sentence": "The temple is thought ___ (build) more than two thousand years ago.",
+  "answer": "to have been built",
+  "options": [],
+  "hint": "perfect passive infinitive",
+  "explanation": "Perfect passive infinitive: to have been + built for an event earlier than the main verb."
+ },
+ {
+  "sentence": "The painting is believed ___ (steal) by an organised gang.",
+  "answer": "to have been stolen",
+  "options": [],
+  "hint": "earlier event, passive infinitive",
+  "explanation": "The theft preceded the believing: is believed to have been + stolen."
+ },
+ {
+  "sentence": "The Eiffel Tower ___ (design) by Gustave Eiffel's engineering firm.",
+  "answer": "was designed",
+  "options": [],
+  "hint": "historical fact + by + agent",
+  "explanation": "Past simple passive with agent: was designed by. Historical events take past simple."
+ },
+ {
+  "sentence": "The national anthem ___ (compose) by a little-known music teacher.",
+  "answer": "was composed",
+  "options": [],
+  "hint": "past simple + by + agent",
+  "explanation": "Past simple passive: was + composed; 'by a music teacher' names the agent."
+ },
+ {
+  "sentence": "The ambush ___ (plan) by someone with intimate knowledge of the valley.",
+  "answer": "had been planned",
+  "options": [],
+  "accept": [
+   "was planned"
+  ],
+  "hint": "planning completed before the event",
+  "explanation": "Past perfect passive (had been planned) stresses completion before the ambush; was planned is also acceptable."
+ },
+ {
+  "sentence": "Hamlet ___ (perform) almost continuously since it was written.",
+  "answer": "has been performed",
+  "options": [],
+  "hint": "'since' + present perfect passive",
+  "explanation": "'Since + past clause' requires present perfect passive: has been + performed."
+ },
+ {
+  "sentence": "We're having the kitchen ___ (renovate) next month.",
+  "answer": "renovated",
+  "options": [],
+  "hint": "have something done",
+  "explanation": "Causative 'have something done': have + object + past participle. Professionals do it for us."
+ },
+ {
+  "sentence": "She had her laptop ___ (repair) after the coffee spill.",
+  "answer": "repaired",
+  "options": [],
+  "hint": "have something done (past)",
+  "explanation": "Causative structure: had + her laptop + repaired. A technician performed the repair."
+ },
+ {
+  "sentence": "You should get that rash ___ (look at) by a doctor.",
+  "answer": "looked at",
+  "options": [],
+  "hint": "get something done",
+  "explanation": "Causative 'get something done': get + object + past participle (looked at)."
+ },
+ {
+  "sentence": "I must get my passport ___ (renew) before the trip.",
+  "answer": "renewed",
+  "options": [],
+  "hint": "get something done",
+  "explanation": "'Get + object + past participle': the passport is renewed by an authority, not by me."
+ },
+ {
+  "sentence": "They're getting the garden ___ (landscape) this spring.",
+  "answer": "landscaped",
+  "options": [],
+  "hint": "get something done (ongoing arrangement)",
+  "explanation": "Causative with get: are getting + the garden + landscaped."
+ },
+ {
+  "sentence": "He had his wisdom tooth ___ (take out) yesterday morning.",
+  "answer": "taken out",
+  "options": [],
+  "hint": "have something done; phrasal verb",
+  "explanation": "Causative: had + his wisdom tooth + taken out. The particle 'out' stays with the participle."
+ },
+ {
+  "sentence": "We had the whole house ___ (repaint) before the wedding.",
+  "answer": "repainted",
+  "options": [],
+  "hint": "have something done",
+  "explanation": "'Had the house repainted' — painters did it at our request. Object + past participle."
+ },
+ {
+  "sentence": "Did you have the brakes ___ (check) before the long drive?",
+  "answer": "checked",
+  "options": [],
+  "hint": "question form of have something done",
+  "explanation": "Causative question: Did you have + the brakes + checked? A mechanic did the checking."
+ },
+ {
+  "sentence": "The experiments ___ (conduct) under strict laboratory conditions last year.",
+  "answer": "were conducted",
+  "options": [],
+  "hint": "'last year' = past simple passive",
+  "explanation": "'Last year' fixes past simple passive: were + conducted for the plural subject."
+ },
+ {
+  "sentence": "A new ring road ___ (construct) around the city at present.",
+  "answer": "is being constructed",
+  "options": [],
+  "hint": "'at present' = continuous passive",
+  "explanation": "'At present' requires present continuous passive: is being + constructed."
+ },
+ {
+  "sentence": "The refugees ___ (provide) with blankets and hot meals last night.",
+  "answer": "were provided",
+  "options": [],
+  "hint": "past simple passive, plural subject",
+  "explanation": "Past simple passive: were + provided. Note the pattern provide somebody WITH something."
+ },
+ {
+  "sentence": "Too much time ___ (waste) on pointless meetings these days.",
+  "answer": "is wasted",
+  "options": [],
+  "hint": "'these days' = present simple passive",
+  "explanation": "'These days' signals a present general situation: is + wasted (singular 'time')."
+ },
+ {
+  "sentence": "The old cinema ___ (demolish) last month.",
+  "answer": "was demolished",
+  "options": [],
+  "hint": "'last month' = past simple passive",
+  "explanation": "Past simple passive: was + demolished. The demolition company is not mentioned."
+ },
+ {
+  "sentence": "Her memoir ___ (translate) into fourteen languages so far.",
+  "answer": "has been translated",
+  "options": [],
+  "hint": "'so far' = present perfect passive",
+  "explanation": "'So far' requires present perfect passive: has been + translated (singular 'memoir')."
+ },
+ {
+  "sentence": "The stolen car ___ (find) abandoned in a car park this morning.",
+  "answer": "was found",
+  "options": [],
+  "hint": "finished point in time",
+  "explanation": "'This morning' (now over) takes past simple passive: was + found."
+ },
+ {
+  "sentence": "All new students ___ (give) a locker key on their first day.",
+  "answer": "are given",
+  "options": [],
+  "hint": "routine, plural subject",
+  "explanation": "Present simple passive: are + given. Passives of give keep the indirect object as subject."
+ },
+ {
+  "sentence": "The bridge ___ (inspect) twice a year for signs of corrosion.",
+  "answer": "is inspected",
+  "options": [],
+  "hint": "frequent routine",
+  "explanation": "'Twice a year' marks a routine: present simple passive, is + inspected."
+ },
+ {
+  "sentence": "Construction ___ (halt) after the discovery of Roman remains.",
+  "answer": "was halted",
+  "options": [],
+  "hint": "single completed past event",
+  "explanation": "Past simple passive: was + halted. The halting authority is unnamed."
+ },
+ {
+  "sentence": "The recipe ___ (pass down) from generation to generation.",
+  "answer": "has been passed down",
+  "options": [],
+  "hint": "continuing relevance from past to now",
+  "explanation": "Present perfect passive: has been + passed down; the process links past and present."
+ },
+ {
+  "sentence": "My laptop ___ (service) next week, so back up your files beforehand.",
+  "answer": "will be serviced",
+  "options": [],
+  "accept": [
+   "is being serviced"
+  ],
+  "hint": "future arrangement",
+  "explanation": "'Next week' takes the future passive: will be + serviced (is being serviced is also a valid arrangement)."
+ },
+ {
+  "sentence": "The castle ___ (restore) at present, so the east wing is closed to visitors.",
+  "answer": "is being restored",
+  "options": [],
+  "hint": "'at present' + ongoing work",
+  "explanation": "Present continuous passive: is being + restored for work in progress now."
+ },
+ {
+  "sentence": "The new stadium ___ by the end of the decade.",
+  "answer": "will have been completed",
+  "options": [
+   "will have been completed",
+   "will have completed",
+   "will be completing",
+   "is completing"
+  ],
+  "hint": "passive + deadline in the future",
+  "explanation": "'By the end of the decade' needs future perfect passive: will have been + completed. The stadium is completed by somebody."
+ },
+ {
+  "sentence": "A decision ___ once all the evidence has been reviewed.",
+  "answer": "will be made",
+  "options": [
+   "will be made",
+   "will make",
+   "is making",
+   "has made"
+  ],
+  "hint": "future passive of 'make a decision'",
+  "explanation": "The decision cannot make itself: future passive will be + made."
+ },
+ {
+  "sentence": "The suspect is believed ___ the country weeks ago.",
+  "answer": "to have left",
+  "options": [
+   "to have left",
+   "to be left",
+   "leaving",
+   "have left"
+  ],
+  "hint": "perfect infinitive after 'is believed'",
+  "explanation": "Believe + to-infinitive; 'weeks ago' demands the perfect infinitive to have left."
+ },
+ {
+  "sentence": "The tickets ___ at the door from seven o'clock.",
+  "answer": "can be collected",
+  "options": [
+   "can be collected",
+   "can collect",
+   "are collecting",
+   "collect"
+  ],
+  "hint": "modal passive of possibility",
+  "explanation": "Modal passive: can be + collected. The tickets are collected by the buyers."
+ },
+ {
+  "sentence": "These wires must ___ by a qualified electrician.",
+  "answer": "be checked",
+  "options": [
+   "be checked",
+   "check",
+   "been checked",
+   "to check"
+  ],
+  "hint": "bare infinitive after modal",
+  "explanation": "After a modal, passive = be + past participle: must be checked. 'Been' needs 'have'."
+ },
+ {
+  "sentence": "The ancient scrolls are far too brittle ___ .",
+  "answer": "to be unrolled",
+  "options": [
+   "to be unrolled",
+   "to unroll",
+   "unrolling",
+   "for unrolling"
+  ],
+  "hint": "passive infinitive after 'too...to'",
+  "explanation": "The scrolls receive the action: passive infinitive to be + unrolled."
+ },
+ {
+  "sentence": "By this time tomorrow, the results ___ to every candidate.",
+  "answer": "will have been emailed",
+  "options": [
+   "will have been emailed",
+   "will have emailed",
+   "are emailing",
+   "have emailed"
+  ],
+  "hint": "future perfect passive",
+  "explanation": "'By this time tomorrow' requires future perfect passive: will have been + emailed."
+ },
+ {
+  "sentence": "She's having her wedding dress ___ by a tailor in Naples.",
+  "answer": "made",
+  "options": [
+   "made",
+   "making",
+   "to make",
+   "make"
+  ],
+  "hint": "causative have something done",
+  "explanation": "Have + object + past participle: having her dress made by a professional."
+ },
+ {
+  "sentence": "I don't like ___ how to run my own department.",
+  "answer": "being told",
+  "options": [
+   "being told",
+   "to tell",
+   "telling",
+   "be told"
+  ],
+  "hint": "passive gerund after 'like'",
+  "explanation": "The speaker receives the telling: passive gerund being + told."
+ },
+ {
+  "sentence": "The fault ___ by the time the auditor arrived.",
+  "answer": "had already been fixed",
+  "options": [
+   "had already been fixed",
+   "had already fixed",
+   "was already fixing",
+   "has already been fixed"
+  ],
+  "hint": "past perfect passive",
+  "explanation": "The fixing preceded the arrival: past perfect passive had been + fixed."
+ },
+ {
+  "sentence": "A cheaper version of the vaccine ___ right now.",
+  "answer": "is being developed",
+  "options": [
+   "is being developed",
+   "is developing",
+   "develops",
+   "has developed"
+  ],
+  "hint": "present continuous passive",
+  "explanation": "'Right now' requires present continuous passive: is being + developed."
+ },
+ {
+  "sentence": "The report must ___ before Friday's board meeting.",
+  "answer": "be submitted",
+  "options": [
+   "be submitted",
+   "submit",
+   "been submitted",
+   "submitting"
+  ],
+  "hint": "modal + passive bare infinitive",
+  "explanation": "Modal passive: must be + submitted. 'Been' would require have (must have been submitted)."
+ },
+ {
+  "sentence": "The letters ___ while the family was on holiday.",
+  "answer": "were being opened",
+  "options": [
+   "were being opened",
+   "were opening",
+   "have been opening",
+   "are opened"
+  ],
+  "hint": "past continuous passive",
+  "explanation": "Ongoing during the holiday: past continuous passive were being + opened."
+ },
+ {
+  "sentence": "The manuscript is said ___ in a private vault for decades.",
+  "answer": "to have been kept",
+  "options": [
+   "to have been kept",
+   "to be kept",
+   "keeping",
+   "been kept"
+  ],
+  "hint": "perfect passive infinitive",
+  "explanation": "'For decades' before now: perfect passive infinitive to have been + kept."
+ },
+ {
+  "sentence": "The theatre ___ in 1897 and reopened last year.",
+  "answer": "was built",
+  "options": [
+   "was built",
+   "is built",
+   "has built",
+   "built"
+  ],
+  "hint": "dated historical event",
+  "explanation": "A finished date (1897) takes past simple passive: was + built."
+ },
+ {
+  "sentence": "Guests ___ to arrive no later than seven.",
+  "answer": "are asked",
+  "options": [
+   "are asked",
+   "are asking",
+   "ask",
+   "asking"
+  ],
+  "hint": "present simple passive",
+  "explanation": "Guests receive the request: present simple passive are + asked."
+ },
+ {
+  "sentence": "Your contract will ___ for a further twelve months.",
+  "answer": "be renewed",
+  "options": [
+   "be renewed",
+   "renew",
+   "been renewed",
+   "renewing"
+  ],
+  "hint": "future passive bare infinitive",
+  "explanation": "After 'will', passive = be + past participle: will be renewed."
+ },
+ {
+  "sentence": "The evidence ___ by an independent laboratory at present.",
+  "answer": "is being analysed",
+  "options": [
+   "is being analysed",
+   "is analysing",
+   "has analysed",
+   "analysed"
+  ],
+  "hint": "'at present' = continuous passive",
+  "explanation": "'At present' needs present continuous passive: is being + analysed. The lab does the analysing."
+ },
+ {
+  "sentence": "The whole street ___ when the gas main burst.",
+  "answer": "had to be evacuated",
+  "options": [
+   "had to be evacuated",
+   "had to evacuate",
+   "must evacuate",
+   "must be evacuating"
+  ],
+  "hint": "past necessity in the passive",
+  "explanation": "The street was evacuated by others: past necessity had to be + evacuated."
+ },
+ {
+  "sentence": "I need this report ___ by noon, not five.",
+  "answer": "typed",
+  "options": [
+   "typed",
+   "typing",
+   "to type",
+   "type"
+  ],
+  "hint": "need something done",
+  "explanation": "Need + object + past participle: the report is typed by somebody else (causative-like)."
+ },
+ {
+  "sentence": "The winners ___ a trophy at the closing ceremony.",
+  "answer": "will be given",
+  "options": [
+   "will be given",
+   "will give",
+   "are giving",
+   "have given"
+  ],
+  "hint": "passive of a verb with two objects",
+  "explanation": "Give somebody something → somebody is given something: future passive will be + given."
+ },
+ {
+  "sentence": "The matter ___ at this very moment, so no comment yet.",
+  "answer": "is being looked into",
+  "options": [
+   "is being looked into",
+   "is looking into",
+   "has looked into",
+   "looks into"
+  ],
+  "hint": "phrasal verb in continuous passive",
+  "explanation": "Look into (investigate) passivises with the particle kept: is being looked into."
+ },
+ {
+  "sentence": "The manuscript might ___ if you keep touching it with bare hands.",
+  "answer": "get damaged",
+  "options": [
+   "get damaged",
+   "get damage",
+   "getting damaged",
+   "got damaged"
+  ],
+  "hint": "get-passive",
+  "explanation": "Get + past participle (get damaged) is an informal passive common with mishaps."
+ },
+ {
+  "sentence": "Nothing ___ about the incident until the inquiry began.",
+  "answer": "was known",
+  "options": [
+   "was known",
+   "knew",
+   "was knowing",
+   "has known"
+  ],
+  "hint": "past simple passive of 'know'",
+  "explanation": "Nothing was known by anybody: past simple passive was + known."
+ },
+ {
+  "sentence": "He's getting his eyes ___ next week.",
+  "answer": "tested",
+  "options": [
+   "tested",
+   "testing",
+   "test",
+   "to test"
+  ],
+  "hint": "get something done",
+  "explanation": "Causative get + object + past participle: getting his eyes tested (by an optician)."
+ },
+ {
+  "sentence": "The message ___ have been misheard by the interpreter.",
+  "answer": "must",
+  "options": [
+   "must",
+   "must be",
+   "must been",
+   "must being"
+  ],
+  "hint": "perfect modal passive deduction",
+  "explanation": "Perfect modal passive = modal + have been + past participle: must have been misheard."
+ },
+ {
+  "sentence": "The road ___ at the moment — use the bypass.",
+  "answer": "is being repaired",
+  "options": [
+   "is being repaired",
+   "is repaired",
+   "repairs",
+   "has repaired"
+  ],
+  "hint": "present continuous passive",
+  "explanation": "'At the moment' — present continuous passive: is being repaired."
+ },
+ {
+  "sentence": "The castle ___ in the twelfth century.",
+  "answer": "was built",
+  "options": [
+   "was built",
+   "has been built",
+   "is built",
+   "built"
+  ],
+  "hint": "finished past time",
+  "explanation": "A completed past date takes the past simple passive."
+ },
+ {
+  "sentence": "The letters ___ by the time I arrived at the office.",
+  "answer": "had been sent",
+  "options": [
+   "had been sent",
+   "were sent",
+   "are sent",
+   "have been sent"
+  ],
+  "hint": "before a past moment",
+  "explanation": "Past perfect passive: the sending preceded the arrival."
+ },
+ {
+  "sentence": "The suspect ___ to have left the country.",
+  "answer": "is believed",
+  "options": [
+   "is believed",
+   "believes",
+   "believed",
+   "has believed"
+  ],
+  "hint": "impersonal passive",
+  "explanation": "'People believe' → 'is believed to have left'."
+ },
+ {
+  "sentence": "A new policy ___ next month.",
+  "answer": "will be introduced",
+  "options": [
+   "will be introduced",
+   "will introduce",
+   "is introducing",
+   "has introduced"
+  ],
+  "hint": "future passive",
+  "explanation": "The policy receives the action: 'will be introduced'."
+ },
+ {
+  "sentence": "The house ___ badly since the owner emigrated.",
+  "answer": "has been neglected",
+  "options": [
+   "has been neglected",
+   "is neglected",
+   "neglected",
+   "had neglected"
+  ],
+  "hint": "from then until now",
+  "explanation": "'Since' + present perfect passive."
+ },
+ {
+  "sentence": "The results ___ tomorrow at noon.",
+  "answer": "will be announced",
+  "options": [
+   "will be announced",
+   "will announce",
+   "are announcing",
+   "have announced"
+  ],
+  "hint": "future passive",
+  "explanation": "The results receive the action: 'will be announced'."
+ },
+ {
+  "sentence": "The bridge ___ by a locally trained architect.",
+  "answer": "was designed",
+  "options": [
+   "was designed",
+   "designed",
+   "is designing",
+   "has designed"
+  ],
+  "hint": "past simple passive + agent",
+  "explanation": "'Was designed by' — passive with the agent in a by-phrase."
+ },
+ {
+  "sentence": "Nothing ___ about the leak until the inspector came.",
+  "answer": "was said",
+  "options": [
+   "was said",
+   "said",
+   "says",
+   "is saying"
+  ],
+  "hint": "past passive",
+  "explanation": "'Nothing was said' — the passive of 'nobody said'."
+ },
+ {
+  "sentence": "The passengers ___ to fasten their seatbelts as the plane entered the storm.",
+  "answer": "were told",
+  "options": [
+   "were told",
+   "told",
+   "telling",
+   "tell"
+  ],
+  "hint": "passive reporting verb",
+  "explanation": "'The passengers were told to …' — passive of 'tell somebody to do'."
+ },
+ {
+  "sentence": "This bridge ___ repaired twice this year already.",
+  "answer": "has been",
+  "options": [
+   "has been",
+   "is",
+   "was",
+   "had been"
+  ],
+  "hint": "experience up to now",
+  "explanation": "'Already' + present perfect passive: has been repaired."
+ },
+ {
+  "sentence": "He ___ to be the best chef in the region.",
+  "answer": "is thought",
+  "options": [
+   "is thought",
+   "thinks",
+   "thought",
+   "thinking"
+  ],
+  "hint": "impersonal passive",
+  "explanation": "'People think he is …' → 'he is thought to be …'."
+ }
 ]

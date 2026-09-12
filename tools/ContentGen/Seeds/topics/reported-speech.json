@@ -1,116 +1,1041 @@
 [
- {"sentence":"'I'm exhausted,' she said. She said she ___ exhausted.","answer":"was","options":[],"hint":"backshift present→past","explanation":"Present simple/progressive shifts to past in reported speech: am → was."},
- {"sentence":"'I work from home on Fridays,' he explained. He explained that he ___ from home on Fridays.","answer":"worked","options":[],"hint":"present simple → past simple","explanation":"After a past reporting verb, present simple backshifts to past simple: work → worked."},
- {"sentence":"'We're moving to Lisbon,' they announced. They announced that they ___ to Lisbon.","answer":"were moving","options":[],"hint":"present continuous → past continuous","explanation":"Present continuous backshifts to past continuous: are moving → were moving."},
- {"sentence":"'I've lost my keys,' she admitted. She admitted that she ___ her keys.","answer":"had lost","options":[],"hint":"present perfect → past perfect","explanation":"Present perfect backshifts to past perfect: have lost → had lost."},
- {"sentence":"'I saw the accident happen,' the witness stated. The witness stated that he ___ the accident happen.","answer":"had seen","options":[],"hint":"past simple → past perfect","explanation":"Past simple backshifts to past perfect after a past reporting verb: saw → had seen."},
- {"sentence":"'The train left ten minutes ago,' she said. She said the train ___ ten minutes before.","answer":"had left","options":[],"hint":"past simple → past perfect + ago→before","explanation":"Past simple becomes past perfect, and 'ago' becomes 'before': had left ten minutes before."},
- {"sentence":"'I'll call you later,' he promised. He promised that he ___ call me later.","answer":"would","options":[],"hint":"will → would","explanation":"Will backshifts to would in reported speech."},
- {"sentence":"'We won't stay long,' they said. They said they ___ stay long.","answer":"wouldn't","options":[],"hint":"negative will → wouldn't","explanation":"will not → would not (wouldn't) after a past reporting verb."},
- {"sentence":"'I can swim,' the boy boasted. The boy boasted that he ___ swim.","answer":"could","options":[],"hint":"can → could","explanation":"Can backshifts to could in reported speech."},
- {"sentence":"'You may leave early,' the manager said. The manager said we ___ leave early.","answer":"might","options":[],"hint":"may (permission) → might","explanation":"May (permission/possibility) backshifts to might."},
- {"sentence":"'I must finish this today,' she said. She said she ___ finish it that day.","answer":"had to","options":[],"hint":"must (obligation) → had to","explanation":"Must expressing obligation usually becomes had to in reported speech; 'today' becomes 'that day'."},
- {"sentence":"'I'll be waiting outside the cinema,' he said. He said he ___ waiting outside the cinema.","answer":"would be","options":[],"hint":"future continuous backshift","explanation":"will be + -ing becomes would be + -ing in reported speech."},
- {"sentence":"'I've been studying all night,' she said. She said she ___ studying all night.","answer":"had been","options":[],"hint":"present perfect continuous → past perfect continuous","explanation":"have been + -ing backshifts to had been + -ing."},
- {"sentence":"'They were arguing all through dinner,' he said. He said they ___ arguing all through dinner.","answer":"had been","options":[],"hint":"past continuous → past perfect continuous","explanation":"Past continuous backshifts to past perfect continuous: were arguing → had been arguing."},
- {"sentence":"'I had already eaten,' she said. She said she ___ already eaten.","answer":"had","options":[],"hint":"past perfect stays past perfect","explanation":"The past perfect cannot backshift further; it remains had + past participle."},
- {"sentence":"'The shop closes at six,' she reminded me. She reminded me that the shop ___ at six.","answer":"closed","options":[],"hint":"routine backshifts too","explanation":"Even habitual present simple backshifts after a past reporting verb: closes → closed."},
- {"sentence":"'I don't like seafood,' he confessed. He confessed that he ___ like seafood.","answer":"didn't","options":[],"hint":"negative backshift","explanation":"Present simple negative backshifts: don't like → didn't like."},
- {"sentence":"'We may be a few minutes late,' they warned. They warned that they ___ be a few minutes late.","answer":"might","options":[],"hint":"may → might","explanation":"May (possibility) backshifts to might after 'warned'."},
- {"sentence":"'I have to catch the last train,' she said. She said she ___ catch the last train.","answer":"had to","options":[],"hint":"have to → had to","explanation":"Have to (obligation) backshifts to had to after a past reporting verb."},
- {"sentence":"'I might take a gap year,' he said. He said he ___ take a gap year.","answer":"might","options":[],"hint":"might does not change","explanation":"Might has no further backshift form; it stays might."},
- {"sentence":"'I can't find my passport anywhere,' she moaned. She moaned that she ___ find her passport anywhere.","answer":"couldn't","options":[],"hint":"can't → couldn't","explanation":"Negative can backshifts to couldn't in reported speech."},
- {"sentence":"'We've been waiting for hours,' the passengers complained. The passengers complained that they ___ waiting for hours.","answer":"had been","options":[],"hint":"present perfect continuous → past perfect continuous","explanation":"have been waiting → had been waiting after the past reporting verb 'complained'."},
- {"sentence":"'I will always love you,' he whispered. He whispered that he ___ always love me.","answer":"would","options":[],"hint":"will → would","explanation":"Will backshifts to would; 'you' shifts to 'me' from the speaker's new perspective."},
- {"sentence":"'The earth goes round the sun,' the teacher said. The teacher said that the earth ___ round the sun.","answer":"goes","options":[],"hint":"general truth: no backshift","explanation":"Timeless general truths may keep the present simple after a past reporting verb."},
- {"sentence":"'I was living in Berlin at the time,' she recalled. She recalled that she ___ living in Berlin at the time.","answer":"had been","options":[],"hint":"past continuous → past perfect continuous","explanation":"Past continuous backshifts to past perfect continuous: was living → had been living."},
- {"sentence":"'I'd love to come,' she said. She said she ___ love to come.","answer":"would","options":[],"hint":"'d = would","explanation":"'I'd love' is I would love; would does not change in reported speech."},
- {"sentence":"'We'd already booked when you called,' they said. They said they ___ already booked when I called.","answer":"had","options":[],"hint":"past perfect unchanged","explanation":"Past perfect stays past perfect; only the pronoun you → I shifts."},
- {"sentence":"'I'm about to leave,' he said at six. At six he said he ___ about to leave.","answer":"was","options":[],"hint":"present backshift with 'be about to'","explanation":"'Be about to' backshifts like any present form: am about to → was about to."},
- {"sentence":"'You can rely on me,' she assured me. She assured me that I ___ rely on her.","answer":"could","options":[],"hint":"can → could","explanation":"Can backshifts to could after the past reporting verb 'assured'."},
- {"sentence":"'The road is being resurfaced,' the council said. The council said the road ___ resurfaced.","answer":"was being","options":[],"hint":"continuous passive backshift","explanation":"Present continuous passive (is being resurfaced) backshifts to past continuous passive: was being resurfaced."},
- {"sentence":"'Someone has stolen my bike,' he cried. He cried that someone ___ his bike.","answer":"had stolen","options":[],"hint":"present perfect → past perfect","explanation":"have stolen backshifts to had stolen after the past reporting verb 'cried'."},
- {"sentence":"'I'll have finished by noon,' she promised. She promised she ___ finished by noon.","answer":"would have","options":[],"hint":"future perfect backshift","explanation":"will have + past participle becomes would have + past participle."},
- {"sentence":"'We might have missed the turning,' he admitted. He admitted that they ___ have missed the turning.","answer":"might","options":[],"hint":"might stays might","explanation":"Might has no further backshift form, so it is unchanged."},
- {"sentence":"'I used to live in Cairo,' she mentioned. She mentioned that she ___ to live in Cairo.","answer":"used","options":[],"hint":"used to does not change","explanation":"'Used to' has no backshift form; it remains used to after a past reporting verb."},
- {"sentence":"'You must be joking!' I exclaimed. I exclaimed that he ___ be joking.","answer":"must","options":[],"hint":"must of deduction does not backshift","explanation":"Must expressing confident deduction usually stays must; only obligation shifts to had to."},
- {"sentence":"'Where do you live?' he asked me. He asked me where I ___.","answer":"lived","options":[],"hint":"reported question: backshift + statement order","explanation":"Reported questions use statement word order, and present simple backshifts: do you live → I lived."},
- {"sentence":"'What time does the bank open?' she asked. She asked what time the bank ___.","answer":"opened","options":[],"hint":"wh-word + statement order","explanation":"The question reverts to statement word order and the verb backshifts: opens → opened."},
- {"sentence":"'Are you coming to the party?' they asked me. They asked ___ coming to the party.","answer":"if I was","options":[],"accept":["whether I was"],"hint":"yes/no question → if/whether","explanation":"Yes/no questions become if/whether clauses; pronouns and tenses shift: if I was coming."},
- {"sentence":"'Have you finished the report?' the boss asked. The boss asked ___ finished the report.","answer":"whether I had","options":[],"accept":["if I had"],"hint":"present perfect → past perfect in a yes/no question","explanation":"Have you finished → whether/if I had finished; statement word order throughout."},
- {"sentence":"'Why did you cancel the order?' he asked. He asked why I ___ the order.","answer":"had cancelled","options":[],"hint":"why + backshifted past perfect","explanation":"Wh-questions keep the wh-word but drop do-support and backshift: did you cancel → I had cancelled."},
- {"sentence":"'How long have you worked here?' she asked him. She asked him how long he ___ there.","answer":"had worked","options":[],"hint":"present perfect backshift + here→there","explanation":"have worked → had worked; 'here' becomes 'there' in reported speech."},
- {"sentence":"'Do you speak Japanese?' the interviewer asked. The interviewer asked ___ Japanese.","answer":"if I spoke","options":[],"accept":["whether I spoke"],"hint":"if/whether + backshift","explanation":"Yes/no question → if I spoke; present simple backshifts to past simple."},
- {"sentence":"'Where are you going?' she asked her brother. She asked her brother where he ___ going.","answer":"was","options":[],"hint":"past continuous in reported question","explanation":"are you going → he was going: statement order with backshifted continuous."},
- {"sentence":"'Who broke the window?' the teacher demanded. The teacher demanded ___ the window.","answer":"to know who had broken","options":[],"hint":"demand + to-infinitive + embedded question","explanation":"'Demand to know + wh-clause' with statement order; past simple backshifts to past perfect."},
- {"sentence":"'Will you marry me?' he asked her. He asked her ___ marry him.","answer":"if she would","options":[],"accept":["whether she would"],"hint":"if/whether + would","explanation":"Will you...? → if/whether she would...: statement word order, backshifted modal."},
- {"sentence":"'When did the ancient city fall?' we asked the guide. We asked the guide when the ancient city ___.","answer":"had fallen","options":[],"hint":"no do-support, past perfect","explanation":"did...fall → had fallen: the auxiliary 'did' disappears and the verb backshifts."},
- {"sentence":"'Which seat do you prefer?' the steward asked. The steward asked which seat I ___.","answer":"preferred","options":[],"hint":"wh-clause with backshift","explanation":"do you prefer → I preferred: statement order, present simple backshifted."},
- {"sentence":"'Why hasn't she replied?' he wondered. He wondered why she ___ replied.","answer":"hadn't","options":[],"hint":"present perfect negative backshift","explanation":"hasn't replied → hadn't replied: statement order and past perfect."},
- {"sentence":"'Shall I close the window?' he asked. He asked ___ close the window.","answer":"if he should","options":[],"accept":["whether he should"],"hint":"shall (offer) → should","explanation":"Shall I...? (offering) becomes if/whether he should... in reported speech."},
- {"sentence":"'Have you ever been to Iceland?' she asked. She asked ___ ever been to Iceland.","answer":"if I had","options":[],"accept":["whether I had"],"hint":"yes/no question, perfect backshift","explanation":"Have you been → if I had been: if/whether with past perfect."},
- {"sentence":"'What are your plans for the weekend?' he asked. He asked what my plans for the weekend ___.","answer":"were","options":[],"hint":"be backshifts to was/were","explanation":"are → were: the copula backshifts like any other verb."},
- {"sentence":"'Where will you be staying?' they asked. They asked where ___ be staying.","answer":"I would","options":[],"hint":"future continuous backshift in a question","explanation":"will you be staying → I would be staying: statement order, would for will."},
- {"sentence":"'Do you know the way?' she asked me. She asked me ___ the way.","answer":"if I knew","options":[],"accept":["whether I knew"],"hint":"if/whether + backshift","explanation":"Do you know → if I knew: no do-support in the reported clause."},
- {"sentence":"'How much does this cost?' I asked the vendor. I asked the vendor how much it ___.","answer":"cost","options":[],"hint":"irregular verb backshift","explanation":"does cost → cost: the past simple of 'cost' is 'cost', used with statement word order."},
- {"sentence":"'Do you take sugar?' he asked. He asked ___ took sugar.","answer":"if I","options":["if I","do I","that I","am I"],"hint":"reported yes/no question","explanation":"Yes/no questions take if/whether, not do-support or 'that': asked if I took sugar."},
- {"sentence":"'Sit down, please,' the nurse said to me. The nurse asked me ___ down.","answer":"to sit","options":[],"hint":"ask sb to do sth","explanation":"Requests are reported with ask + object + to-infinitive: asked me to sit down."},
- {"sentence":"'Don't touch the wet paint,' the caretaker warned us. The caretaker warned us ___ the wet paint.","answer":"not to touch","options":[],"hint":"negative command: not to do","explanation":"Negative commands become not to + infinitive after told/asked/warned."},
- {"sentence":"'Leave the building immediately!' the firefighter ordered. The firefighter ordered us ___ the building immediately.","answer":"to leave","options":[],"hint":"order sb to do sth","explanation":"Orders are reported with order + object + to-infinitive."},
- {"sentence":"'Please, please help me,' the woman begged. The woman begged ___ her.","answer":"us to help","options":[],"hint":"beg + object + to-infinitive","explanation":"Begging is reported as beg + somebody + to do something."},
- {"sentence":"'Don't forget to lock up,' my mother said. My mother reminded me ___ up.","answer":"to lock","options":[],"hint":"remind sb to do sth","explanation":"'Don't forget' corresponds to remind + object + to-infinitive."},
- {"sentence":"'Stop the car!' the passenger shouted. The passenger shouted at the driver ___ the car.","answer":"to stop","options":[],"hint":"shout at sb to do sth","explanation":"The command is reported with shout at + object + to-infinitive."},
- {"sentence":"'Don't be late again,' the coach told him. The coach told him ___ late again.","answer":"not to be","options":[],"hint":"negative infinitive with be","explanation":"Negative commands: not to be, with the negative before the whole infinitive."},
- {"sentence":"'Could you open the window?' she asked. She asked me ___ the window.","answer":"to open","options":[],"hint":"polite request → to-infinitive","explanation":"'Could you...?' requests are reported with ask + object + to-infinitive; no could remains."},
- {"sentence":"'Get out of my way!' the guard snapped. The guard snapped at me ___ out of my way.","answer":"to get","options":[],"hint":"snap at sb to do sth","explanation":"The order is reported as snapped at me + to-infinitive."},
- {"sentence":"'Please don't smoke in here,' the host said. The host asked me ___ in there.","answer":"not to smoke","options":[],"hint":"negative request + place shift","explanation":"Negative requests: asked me not to smoke; 'here' shifts to 'there'."},
- {"sentence":"'Hand in your phones,' the invigilator instructed. The invigilator instructed us ___ in our phones.","answer":"to hand","options":[],"hint":"instruct sb to do sth","explanation":"Formal commands: instruct + object + to-infinitive; the particle 'in' stays with the verb."},
- {"sentence":"'Please reconsider my application,' she wrote. She ___ them to reconsider her application.","answer":"asked","options":[],"hint":"ask sb to do sth","explanation":"A polite written request is reported with asked + object + to-infinitive."},
- {"sentence":"'Don't leave your belongings unattended,' the announcement repeated. The announcement ___ passengers not to leave their belongings unattended.","answer":"warned","options":[],"hint":"warn sb not to do sth","explanation":"The warning fits warn + object + not to + infinitive."},
- {"sentence":"'Please, please don't leave me,' he sobbed. He begged her ___ leave him.","answer":"not to","options":[],"hint":"beg sb not to do sth","explanation":"Negative begging: begged her not to leave; the negative precedes the infinitive."},
- {"sentence":"'I'll see you tomorrow,' he said. He said he would see me ___.","answer":"the next day","options":[],"accept":["the following day"],"hint":"tomorrow → the next day","explanation":"Time expressions shift: tomorrow becomes the next day / the following day."},
- {"sentence":"'I saw her yesterday,' she said. She said she had seen her ___.","answer":"the day before","options":[],"accept":["the previous day"],"hint":"yesterday → the day before","explanation":"Yesterday becomes the day before (or the previous day) in reported speech."},
- {"sentence":"'We're leaving here at dawn,' they said. They said they were leaving ___ at dawn.","answer":"there","options":[],"hint":"here → there","explanation":"Place adverbs shift with the speaker's perspective: here → there."},
- {"sentence":"'I'll finish the report today,' she said. She said she would finish the report ___.","answer":"that day","options":[],"hint":"today → that day","explanation":"Today becomes that day when reported later."},
- {"sentence":"'I moved here two years ago,' he explained. He explained that he had moved there two years ___.","answer":"before","options":[],"accept":["earlier"],"hint":"ago → before","explanation":"'Ago' becomes 'before' (or 'earlier') in reported speech; here → there as well."},
- {"sentence":"'I'm meeting them tomorrow evening,' she said. She said she was meeting them ___ evening.","answer":"the next","options":[],"accept":["the following"],"hint":"tomorrow → the next/following","explanation":"Tomorrow evening becomes the next (or the following) evening."},
- {"sentence":"'We stayed at this hotel last summer,' they recalled. They recalled that they had stayed at ___ hotel the summer before.","answer":"that","options":[],"hint":"this → that","explanation":"Demonstratives shift: this hotel → that hotel; last summer → the summer before."},
- {"sentence":"'The flight leaves now,' the announcer said. The announcer said that the flight left ___.","answer":"then","options":[],"hint":"now → then","explanation":"Now becomes then in reported speech."},
- {"sentence":"'I'll call you next week,' he promised. He promised he would call me ___.","answer":"the following week","options":[],"accept":["the next week"],"hint":"next week → the following week","explanation":"'Next week' shifts to the following week (or the next week) from a later standpoint."},
- {"sentence":"'She arrived last night,' he told us. He told us that she had arrived ___.","answer":"the night before","options":[],"accept":["the previous night"],"hint":"last night → the night before","explanation":"'Last night' becomes the night before (the previous night) in reported speech."},
- {"sentence":"'I saw him this morning,' she said on Monday afternoon. She said she had seen him ___ morning.","answer":"that","options":[],"hint":"this morning → that morning","explanation":"This morning, reported later the same day, becomes that morning."},
- {"sentence":"'Come round to my house tomorrow,' she said. She invited me round to her house ___.","answer":"the next day","options":[],"accept":["the following day"],"hint":"invitation + time shift","explanation":"Tomorrow becomes the next day (the following day) when the invitation is reported."},
- {"sentence":"They ___ us that the museum had closed early.","answer":"told","options":[],"hint":"tell takes a personal object","explanation":"Tell somebody (that)... — 'told' needs the direct personal object 'us'; 'said' cannot take it."},
- {"sentence":"She ___ that she would be waiting by the main entrance.","answer":"said","options":[],"hint":"say takes no personal object here","explanation":"Say (that)... without a personal object; 'told that' is impossible without the object."},
- {"sentence":"The witness ___ the police that he knew nothing.","answer":"told","options":[],"hint":"tell + object + that-clause","explanation":"Tell somebody that... — the personal object 'the police' requires told, not said."},
- {"sentence":"He ___ to the reporters that the deal was off.","answer":"said","options":[],"hint":"say to somebody that...","explanation":"'Said to the reporters that...' is correct; tell cannot be followed by 'to'."},
- {"sentence":"He ___ me that the meeting had been cancelled.","answer":"told","options":["told","said","spoke","talked"],"hint":"say vs tell","explanation":"'Tell' takes a personal object (told me); 'said me' is wrong, and speak/talk don't take that-clauses."},
- {"sentence":"She ___ that the storm had passed.","answer":"said","options":["said","told","spoke","talked"],"hint":"no personal object → say","explanation":"Without a personal object, use said (that)...; told requires an object."},
- {"sentence":"'Let's take a break,' she said. She ___ taking a break.","answer":"suggested","options":[],"hint":"suggest + -ing","explanation":"Suggestions are reported as suggest + -ing (or suggest that we take). Never 'suggested to take'."},
- {"sentence":"'I'm sorry I shouted at you,' he said. He ___ shouting at me.","answer":"apologised for","options":[],"hint":"apologise for + -ing","explanation":"Apologies take apologise for + -ing: apologised for shouting."},
- {"sentence":"'I'll definitely pay you back,' he said. He ___ to pay me back.","answer":"promised","options":[],"hint":"promise + to-infinitive","explanation":"Promises take promise + to-infinitive: promised to pay me back."},
- {"sentence":"'Leave now or I'll call the police!' he shouted. He ___ to call the police.","answer":"threatened","options":[],"hint":"threaten + to-infinitive","explanation":"A threatening conditional utterance is reported as threatened to do something."},
- {"sentence":"'You broke my phone!' she said to her brother. She ___ her brother of breaking her phone.","answer":"accused","options":[],"hint":"accuse sb of + -ing","explanation":"Accusations: accuse somebody of + -ing."},
- {"sentence":"'I'll carry those bags for you,' he said. He ___ to carry my bags.","answer":"offered","options":[],"hint":"offer + to-infinitive","explanation":"Offers of help are reported as offered to do something."},
- {"sentence":"'No, I won't open the door,' he said. He ___ to open the door.","answer":"refused","options":[],"hint":"refuse + to-infinitive","explanation":"Refusals are reported with refuse + to-infinitive."},
- {"sentence":"'OK, I'll help you move house,' she said. She ___ to help me move house.","answer":"agreed","options":[],"hint":"agree + to-infinitive","explanation":"Agreement to a request is reported as agreed to do something."},
- {"sentence":"'It was me who ate the last biscuit,' the boy admitted. The boy ___ eating the last biscuit.","answer":"admitted","options":[],"hint":"admit + -ing","explanation":"Admit takes a gerund (admit doing) or admit that + clause — never admit to do."},
- {"sentence":"'I didn't take your charger,' she insisted. She ___ taking my charger.","answer":"denied","options":[],"hint":"deny + -ing","explanation":"Denials are reported as deny + -ing: denied taking."},
- {"sentence":"'You should apply for the grant,' he told me. He ___ me to apply for the grant.","answer":"advised","options":[],"hint":"advise sb to do sth","explanation":"Advice is reported as advise + object + to-infinitive."},
- {"sentence":"'Don't forget your tickets,' she said to us. She ___ us to take our tickets.","answer":"reminded","options":[],"hint":"remind sb to do sth","explanation":"'Don't forget' maps onto remind + object + to-infinitive."},
- {"sentence":"'Would you like to stay for dinner?' they asked. They ___ me to stay for dinner.","answer":"invited","options":[],"hint":"invite sb to do sth","explanation":"Offers of this kind are reported as invited somebody to do something."},
- {"sentence":"'Well done, you've passed!' the examiner said. The examiner ___ me on passing.","answer":"congratulated","options":[],"hint":"congratulate sb on + -ing","explanation":"Congratulations: congratulate somebody on + -ing."},
- {"sentence":"'Watch out for the ice on the road,' she said. She ___ us about the icy road.","answer":"warned","options":[],"hint":"warn sb about sth","explanation":"Warnings about a danger: warn somebody about something (or warn sb to do)."},
- {"sentence":"'The delay is your fault,' the manager said to her. The manager ___ her for the delay.","answer":"blamed","options":[],"hint":"blame sb for sth","explanation":"Blame takes the pattern blame somebody for something."},
- {"sentence":"'I really must have that report by five,' the editor said. The editor ___ on having the report by five.","answer":"insisted","options":[],"hint":"insist on + -ing","explanation":"Insisting on a demand: insist on + -ing (or insist that + clause)."},
- {"sentence":"'Thank you for delivering it so quickly,' she said. She ___ me for delivering it so quickly.","answer":"thanked","options":[],"hint":"thank sb for + -ing","explanation":"Thanks are reported as thank somebody for + -ing."},
- {"sentence":"'You really ought to try the tasting menu,' the waiter said. The waiter ___ trying the tasting menu.","answer":"recommended","options":[],"hint":"recommend + -ing","explanation":"Recommend takes a gerund (recommend doing) when there is no object."},
- {"sentence":"She ___ on seeing the manager immediately.","answer":"insisted","options":["insisted","suggested","offered","promised"],"hint":"verb + on + -ing","explanation":"Only 'insist' takes on + -ing; suggest and offer take bare -ing/to-infinitive respectively."},
- {"sentence":"He ___ me of leaking the story to the press.","answer":"accused","options":["accused","blamed","thanked","congratulated"],"hint":"verb + sb + of + -ing","explanation":"Accuse somebody of + -ing. Blame uses 'for', thank and congratulate use different prepositions."},
- {"sentence":"They ___ for arriving so late.","answer":"apologised","options":["apologised","denied","suggested","threatened"],"hint":"verb + for + -ing","explanation":"Apologise for + -ing; the other verbs do not take 'for + -ing' in this pattern."},
- {"sentence":"The colonel ___ his soldiers to advance at dawn.","answer":"ordered","options":["ordered","suggested","offered","hoped"],"hint":"verb + object + to-infinitive","explanation":"Order + object + to-infinitive reports a command; suggest and hope do not take object + infinitive."},
- {"sentence":"The hijackers ___ to blow up the plane unless their demands were met.","answer":"threatened","options":["threatened","promised","offered","agreed"],"hint":"negative conditional + to-infinitive","explanation":"A declared harmful action is reported as threatened to do something."},
- {"sentence":"She ___ me not to worry about the deadline.","answer":"told","options":["told","said","spoke","talked"],"hint":"tell sb not to do sth","explanation":"Only 'tell' takes a personal object + not to + infinitive; 'said me not to' is impossible."},
- {"sentence":"He ___ me his car for the weekend.","answer":"offered","options":["offered","suggested","denied","insisted"],"hint":"offer sb sth","explanation":"Offer takes the double-object pattern (offer somebody something); the others do not."},
- {"sentence":"They ___ breaking the window, but nobody believed them.","answer":"denied","options":["denied","admitted","apologised","offered"],"hint":"deny + -ing","explanation":"Deny + -ing reports a rejection of the accusation; 'but nobody believed them' confirms the meaning."}
+ {
+  "sentence": "'I'm exhausted,' she said. She said she ___ exhausted.",
+  "answer": "was",
+  "options": [],
+  "hint": "backshift present→past",
+  "explanation": "Present simple/progressive shifts to past in reported speech: am → was."
+ },
+ {
+  "sentence": "'I work from home on Fridays,' he explained. He explained that he ___ from home on Fridays.",
+  "answer": "worked",
+  "options": [],
+  "hint": "present simple → past simple",
+  "explanation": "After a past reporting verb, present simple backshifts to past simple: work → worked."
+ },
+ {
+  "sentence": "'We're moving to Lisbon,' they announced. They announced that they ___ to Lisbon.",
+  "answer": "were moving",
+  "options": [],
+  "hint": "present continuous → past continuous",
+  "explanation": "Present continuous backshifts to past continuous: are moving → were moving."
+ },
+ {
+  "sentence": "'I've lost my keys,' she admitted. She admitted that she ___ her keys.",
+  "answer": "had lost",
+  "options": [],
+  "hint": "present perfect → past perfect",
+  "explanation": "Present perfect backshifts to past perfect: have lost → had lost."
+ },
+ {
+  "sentence": "'I saw the accident happen,' the witness stated. The witness stated that he ___ the accident happen.",
+  "answer": "had seen",
+  "options": [],
+  "hint": "past simple → past perfect",
+  "explanation": "Past simple backshifts to past perfect after a past reporting verb: saw → had seen."
+ },
+ {
+  "sentence": "'The train left ten minutes ago,' she said. She said the train ___ ten minutes before.",
+  "answer": "had left",
+  "options": [],
+  "hint": "past simple → past perfect + ago→before",
+  "explanation": "Past simple becomes past perfect, and 'ago' becomes 'before': had left ten minutes before."
+ },
+ {
+  "sentence": "'I'll call you later,' he promised. He promised that he ___ call me later.",
+  "answer": "would",
+  "options": [],
+  "hint": "will → would",
+  "explanation": "Will backshifts to would in reported speech."
+ },
+ {
+  "sentence": "'We won't stay long,' they said. They said they ___ stay long.",
+  "answer": "wouldn't",
+  "options": [],
+  "hint": "negative will → wouldn't",
+  "explanation": "will not → would not (wouldn't) after a past reporting verb."
+ },
+ {
+  "sentence": "'I can swim,' the boy boasted. The boy boasted that he ___ swim.",
+  "answer": "could",
+  "options": [],
+  "hint": "can → could",
+  "explanation": "Can backshifts to could in reported speech."
+ },
+ {
+  "sentence": "'You may leave early,' the manager said. The manager said we ___ leave early.",
+  "answer": "might",
+  "options": [],
+  "hint": "may (permission) → might",
+  "explanation": "May (permission/possibility) backshifts to might."
+ },
+ {
+  "sentence": "'I must finish this today,' she said. She said she ___ finish it that day.",
+  "answer": "had to",
+  "options": [],
+  "hint": "must (obligation) → had to",
+  "explanation": "Must expressing obligation usually becomes had to in reported speech; 'today' becomes 'that day'."
+ },
+ {
+  "sentence": "'I'll be waiting outside the cinema,' he said. He said he ___ waiting outside the cinema.",
+  "answer": "would be",
+  "options": [],
+  "hint": "future continuous backshift",
+  "explanation": "will be + -ing becomes would be + -ing in reported speech."
+ },
+ {
+  "sentence": "'I've been studying all night,' she said. She said she ___ studying all night.",
+  "answer": "had been",
+  "options": [],
+  "hint": "present perfect continuous → past perfect continuous",
+  "explanation": "have been + -ing backshifts to had been + -ing."
+ },
+ {
+  "sentence": "'They were arguing all through dinner,' he said. He said they ___ arguing all through dinner.",
+  "answer": "had been",
+  "options": [],
+  "hint": "past continuous → past perfect continuous",
+  "explanation": "Past continuous backshifts to past perfect continuous: were arguing → had been arguing."
+ },
+ {
+  "sentence": "'I had already eaten,' she said. She said she ___ already eaten.",
+  "answer": "had",
+  "options": [],
+  "hint": "past perfect stays past perfect",
+  "explanation": "The past perfect cannot backshift further; it remains had + past participle."
+ },
+ {
+  "sentence": "'The shop closes at six,' she reminded me. She reminded me that the shop ___ at six.",
+  "answer": "closed",
+  "options": [],
+  "hint": "routine backshifts too",
+  "explanation": "Even habitual present simple backshifts after a past reporting verb: closes → closed."
+ },
+ {
+  "sentence": "'I don't like seafood,' he confessed. He confessed that he ___ like seafood.",
+  "answer": "didn't",
+  "options": [],
+  "hint": "negative backshift",
+  "explanation": "Present simple negative backshifts: don't like → didn't like."
+ },
+ {
+  "sentence": "'We may be a few minutes late,' they warned. They warned that they ___ be a few minutes late.",
+  "answer": "might",
+  "options": [],
+  "hint": "may → might",
+  "explanation": "May (possibility) backshifts to might after 'warned'."
+ },
+ {
+  "sentence": "'I have to catch the last train,' she said. She said she ___ catch the last train.",
+  "answer": "had to",
+  "options": [],
+  "hint": "have to → had to",
+  "explanation": "Have to (obligation) backshifts to had to after a past reporting verb."
+ },
+ {
+  "sentence": "'I might take a gap year,' he said. He said he ___ take a gap year.",
+  "answer": "might",
+  "options": [],
+  "hint": "might does not change",
+  "explanation": "Might has no further backshift form; it stays might."
+ },
+ {
+  "sentence": "'I can't find my passport anywhere,' she moaned. She moaned that she ___ find her passport anywhere.",
+  "answer": "couldn't",
+  "options": [],
+  "hint": "can't → couldn't",
+  "explanation": "Negative can backshifts to couldn't in reported speech."
+ },
+ {
+  "sentence": "'We've been waiting for hours,' the passengers complained. The passengers complained that they ___ waiting for hours.",
+  "answer": "had been",
+  "options": [],
+  "hint": "present perfect continuous → past perfect continuous",
+  "explanation": "have been waiting → had been waiting after the past reporting verb 'complained'."
+ },
+ {
+  "sentence": "'I will always love you,' he whispered. He whispered that he ___ always love me.",
+  "answer": "would",
+  "options": [],
+  "hint": "will → would",
+  "explanation": "Will backshifts to would; 'you' shifts to 'me' from the speaker's new perspective."
+ },
+ {
+  "sentence": "'The earth goes round the sun,' the teacher said. The teacher said that the earth ___ round the sun.",
+  "answer": "goes",
+  "options": [],
+  "hint": "general truth: no backshift",
+  "explanation": "Timeless general truths may keep the present simple after a past reporting verb."
+ },
+ {
+  "sentence": "'I was living in Berlin at the time,' she recalled. She recalled that she ___ living in Berlin at the time.",
+  "answer": "had been",
+  "options": [],
+  "hint": "past continuous → past perfect continuous",
+  "explanation": "Past continuous backshifts to past perfect continuous: was living → had been living."
+ },
+ {
+  "sentence": "'I'd love to come,' she said. She said she ___ love to come.",
+  "answer": "would",
+  "options": [],
+  "hint": "'d = would",
+  "explanation": "'I'd love' is I would love; would does not change in reported speech."
+ },
+ {
+  "sentence": "'We'd already booked when you called,' they said. They said they ___ already booked when I called.",
+  "answer": "had",
+  "options": [],
+  "hint": "past perfect unchanged",
+  "explanation": "Past perfect stays past perfect; only the pronoun you → I shifts."
+ },
+ {
+  "sentence": "'I'm about to leave,' he said at six. At six he said he ___ about to leave.",
+  "answer": "was",
+  "options": [],
+  "hint": "present backshift with 'be about to'",
+  "explanation": "'Be about to' backshifts like any present form: am about to → was about to."
+ },
+ {
+  "sentence": "'You can rely on me,' she assured me. She assured me that I ___ rely on her.",
+  "answer": "could",
+  "options": [],
+  "hint": "can → could",
+  "explanation": "Can backshifts to could after the past reporting verb 'assured'."
+ },
+ {
+  "sentence": "'The road is being resurfaced,' the council said. The council said the road ___ resurfaced.",
+  "answer": "was being",
+  "options": [],
+  "hint": "continuous passive backshift",
+  "explanation": "Present continuous passive (is being resurfaced) backshifts to past continuous passive: was being resurfaced."
+ },
+ {
+  "sentence": "'Someone has stolen my bike,' he cried. He cried that someone ___ his bike.",
+  "answer": "had stolen",
+  "options": [],
+  "hint": "present perfect → past perfect",
+  "explanation": "have stolen backshifts to had stolen after the past reporting verb 'cried'."
+ },
+ {
+  "sentence": "'I'll have finished by noon,' she promised. She promised she ___ finished by noon.",
+  "answer": "would have",
+  "options": [],
+  "hint": "future perfect backshift",
+  "explanation": "will have + past participle becomes would have + past participle."
+ },
+ {
+  "sentence": "'We might have missed the turning,' he admitted. He admitted that they ___ have missed the turning.",
+  "answer": "might",
+  "options": [],
+  "hint": "might stays might",
+  "explanation": "Might has no further backshift form, so it is unchanged."
+ },
+ {
+  "sentence": "'I used to live in Cairo,' she mentioned. She mentioned that she ___ to live in Cairo.",
+  "answer": "used",
+  "options": [],
+  "hint": "used to does not change",
+  "explanation": "'Used to' has no backshift form; it remains used to after a past reporting verb."
+ },
+ {
+  "sentence": "'You must be joking!' I exclaimed. I exclaimed that he ___ be joking.",
+  "answer": "must",
+  "options": [],
+  "hint": "must of deduction does not backshift",
+  "explanation": "Must expressing confident deduction usually stays must; only obligation shifts to had to."
+ },
+ {
+  "sentence": "'Where do you live?' he asked me. He asked me where I ___.",
+  "answer": "lived",
+  "options": [],
+  "hint": "reported question: backshift + statement order",
+  "explanation": "Reported questions use statement word order, and present simple backshifts: do you live → I lived."
+ },
+ {
+  "sentence": "'What time does the bank open?' she asked. She asked what time the bank ___.",
+  "answer": "opened",
+  "options": [],
+  "hint": "wh-word + statement order",
+  "explanation": "The question reverts to statement word order and the verb backshifts: opens → opened."
+ },
+ {
+  "sentence": "'Are you coming to the party?' they asked me. They asked ___ coming to the party.",
+  "answer": "if I was",
+  "options": [],
+  "accept": [
+   "whether I was"
+  ],
+  "hint": "yes/no question → if/whether",
+  "explanation": "Yes/no questions become if/whether clauses; pronouns and tenses shift: if I was coming."
+ },
+ {
+  "sentence": "'Have you finished the report?' the boss asked. The boss asked ___ finished the report.",
+  "answer": "whether I had",
+  "options": [],
+  "accept": [
+   "if I had"
+  ],
+  "hint": "present perfect → past perfect in a yes/no question",
+  "explanation": "Have you finished → whether/if I had finished; statement word order throughout."
+ },
+ {
+  "sentence": "'Why did you cancel the order?' he asked. He asked why I ___ the order.",
+  "answer": "had cancelled",
+  "options": [],
+  "hint": "why + backshifted past perfect",
+  "explanation": "Wh-questions keep the wh-word but drop do-support and backshift: did you cancel → I had cancelled."
+ },
+ {
+  "sentence": "'How long have you worked here?' she asked him. She asked him how long he ___ there.",
+  "answer": "had worked",
+  "options": [],
+  "hint": "present perfect backshift + here→there",
+  "explanation": "have worked → had worked; 'here' becomes 'there' in reported speech."
+ },
+ {
+  "sentence": "'Do you speak Japanese?' the interviewer asked. The interviewer asked ___ Japanese.",
+  "answer": "if I spoke",
+  "options": [],
+  "accept": [
+   "whether I spoke"
+  ],
+  "hint": "if/whether + backshift",
+  "explanation": "Yes/no question → if I spoke; present simple backshifts to past simple."
+ },
+ {
+  "sentence": "'Where are you going?' she asked her brother. She asked her brother where he ___ going.",
+  "answer": "was",
+  "options": [],
+  "hint": "past continuous in reported question",
+  "explanation": "are you going → he was going: statement order with backshifted continuous."
+ },
+ {
+  "sentence": "'Who broke the window?' the teacher demanded. The teacher demanded ___ the window.",
+  "answer": "to know who had broken",
+  "options": [],
+  "hint": "demand + to-infinitive + embedded question",
+  "explanation": "'Demand to know + wh-clause' with statement order; past simple backshifts to past perfect."
+ },
+ {
+  "sentence": "'Will you marry me?' he asked her. He asked her ___ marry him.",
+  "answer": "if she would",
+  "options": [],
+  "accept": [
+   "whether she would"
+  ],
+  "hint": "if/whether + would",
+  "explanation": "Will you...? → if/whether she would...: statement word order, backshifted modal."
+ },
+ {
+  "sentence": "'When did the ancient city fall?' we asked the guide. We asked the guide when the ancient city ___.",
+  "answer": "had fallen",
+  "options": [],
+  "hint": "no do-support, past perfect",
+  "explanation": "did...fall → had fallen: the auxiliary 'did' disappears and the verb backshifts."
+ },
+ {
+  "sentence": "'Which seat do you prefer?' the steward asked. The steward asked which seat I ___.",
+  "answer": "preferred",
+  "options": [],
+  "hint": "wh-clause with backshift",
+  "explanation": "do you prefer → I preferred: statement order, present simple backshifted."
+ },
+ {
+  "sentence": "'Why hasn't she replied?' he wondered. He wondered why she ___ replied.",
+  "answer": "hadn't",
+  "options": [],
+  "hint": "present perfect negative backshift",
+  "explanation": "hasn't replied → hadn't replied: statement order and past perfect."
+ },
+ {
+  "sentence": "'Shall I close the window?' he asked. He asked ___ close the window.",
+  "answer": "if he should",
+  "options": [],
+  "accept": [
+   "whether he should"
+  ],
+  "hint": "shall (offer) → should",
+  "explanation": "Shall I...? (offering) becomes if/whether he should... in reported speech."
+ },
+ {
+  "sentence": "'Have you ever been to Iceland?' she asked. She asked ___ ever been to Iceland.",
+  "answer": "if I had",
+  "options": [],
+  "accept": [
+   "whether I had"
+  ],
+  "hint": "yes/no question, perfect backshift",
+  "explanation": "Have you been → if I had been: if/whether with past perfect."
+ },
+ {
+  "sentence": "'What are your plans for the weekend?' he asked. He asked what my plans for the weekend ___.",
+  "answer": "were",
+  "options": [],
+  "hint": "be backshifts to was/were",
+  "explanation": "are → were: the copula backshifts like any other verb."
+ },
+ {
+  "sentence": "'Where will you be staying?' they asked. They asked where ___ be staying.",
+  "answer": "I would",
+  "options": [],
+  "hint": "future continuous backshift in a question",
+  "explanation": "will you be staying → I would be staying: statement order, would for will."
+ },
+ {
+  "sentence": "'Do you know the way?' she asked me. She asked me ___ the way.",
+  "answer": "if I knew",
+  "options": [],
+  "accept": [
+   "whether I knew"
+  ],
+  "hint": "if/whether + backshift",
+  "explanation": "Do you know → if I knew: no do-support in the reported clause."
+ },
+ {
+  "sentence": "'How much does this cost?' I asked the vendor. I asked the vendor how much it ___.",
+  "answer": "cost",
+  "options": [],
+  "hint": "irregular verb backshift",
+  "explanation": "does cost → cost: the past simple of 'cost' is 'cost', used with statement word order."
+ },
+ {
+  "sentence": "'Do you take sugar?' he asked. He asked ___ took sugar.",
+  "answer": "if I",
+  "options": [
+   "if I",
+   "do I",
+   "that I",
+   "am I"
+  ],
+  "hint": "reported yes/no question",
+  "explanation": "Yes/no questions take if/whether, not do-support or 'that': asked if I took sugar."
+ },
+ {
+  "sentence": "'Sit down, please,' the nurse said to me. The nurse asked me ___ down.",
+  "answer": "to sit",
+  "options": [],
+  "hint": "ask sb to do sth",
+  "explanation": "Requests are reported with ask + object + to-infinitive: asked me to sit down."
+ },
+ {
+  "sentence": "'Don't touch the wet paint,' the caretaker warned us. The caretaker warned us ___ the wet paint.",
+  "answer": "not to touch",
+  "options": [],
+  "hint": "negative command: not to do",
+  "explanation": "Negative commands become not to + infinitive after told/asked/warned."
+ },
+ {
+  "sentence": "'Leave the building immediately!' the firefighter ordered. The firefighter ordered us ___ the building immediately.",
+  "answer": "to leave",
+  "options": [],
+  "hint": "order sb to do sth",
+  "explanation": "Orders are reported with order + object + to-infinitive."
+ },
+ {
+  "sentence": "'Please, please help me,' the woman begged. The woman begged ___ her.",
+  "answer": "us to help",
+  "options": [],
+  "hint": "beg + object + to-infinitive",
+  "explanation": "Begging is reported as beg + somebody + to do something."
+ },
+ {
+  "sentence": "'Don't forget to lock up,' my mother said. My mother reminded me ___ up.",
+  "answer": "to lock",
+  "options": [],
+  "hint": "remind sb to do sth",
+  "explanation": "'Don't forget' corresponds to remind + object + to-infinitive."
+ },
+ {
+  "sentence": "'Stop the car!' the passenger shouted. The passenger shouted at the driver ___ the car.",
+  "answer": "to stop",
+  "options": [],
+  "hint": "shout at sb to do sth",
+  "explanation": "The command is reported with shout at + object + to-infinitive."
+ },
+ {
+  "sentence": "'Don't be late again,' the coach told him. The coach told him ___ late again.",
+  "answer": "not to be",
+  "options": [],
+  "hint": "negative infinitive with be",
+  "explanation": "Negative commands: not to be, with the negative before the whole infinitive."
+ },
+ {
+  "sentence": "'Could you open the window?' she asked. She asked me ___ the window.",
+  "answer": "to open",
+  "options": [],
+  "hint": "polite request → to-infinitive",
+  "explanation": "'Could you...?' requests are reported with ask + object + to-infinitive; no could remains."
+ },
+ {
+  "sentence": "'Get out of my way!' the guard snapped. The guard snapped at me ___ out of my way.",
+  "answer": "to get",
+  "options": [],
+  "hint": "snap at sb to do sth",
+  "explanation": "The order is reported as snapped at me + to-infinitive."
+ },
+ {
+  "sentence": "'Please don't smoke in here,' the host said. The host asked me ___ in there.",
+  "answer": "not to smoke",
+  "options": [],
+  "hint": "negative request + place shift",
+  "explanation": "Negative requests: asked me not to smoke; 'here' shifts to 'there'."
+ },
+ {
+  "sentence": "'Hand in your phones,' the invigilator instructed. The invigilator instructed us ___ in our phones.",
+  "answer": "to hand",
+  "options": [],
+  "hint": "instruct sb to do sth",
+  "explanation": "Formal commands: instruct + object + to-infinitive; the particle 'in' stays with the verb."
+ },
+ {
+  "sentence": "'Please reconsider my application,' she wrote. She ___ them to reconsider her application.",
+  "answer": "asked",
+  "options": [],
+  "hint": "ask sb to do sth",
+  "explanation": "A polite written request is reported with asked + object + to-infinitive."
+ },
+ {
+  "sentence": "'Don't leave your belongings unattended,' the announcement repeated. The announcement ___ passengers not to leave their belongings unattended.",
+  "answer": "warned",
+  "options": [],
+  "hint": "warn sb not to do sth",
+  "explanation": "The warning fits warn + object + not to + infinitive."
+ },
+ {
+  "sentence": "'Please, please don't leave me,' he sobbed. He begged her ___ leave him.",
+  "answer": "not to",
+  "options": [],
+  "hint": "beg sb not to do sth",
+  "explanation": "Negative begging: begged her not to leave; the negative precedes the infinitive."
+ },
+ {
+  "sentence": "'I'll see you tomorrow,' he said. He said he would see me ___.",
+  "answer": "the next day",
+  "options": [],
+  "accept": [
+   "the following day"
+  ],
+  "hint": "tomorrow → the next day",
+  "explanation": "Time expressions shift: tomorrow becomes the next day / the following day."
+ },
+ {
+  "sentence": "'I saw her yesterday,' she said. She said she had seen her ___.",
+  "answer": "the day before",
+  "options": [],
+  "accept": [
+   "the previous day"
+  ],
+  "hint": "yesterday → the day before",
+  "explanation": "Yesterday becomes the day before (or the previous day) in reported speech."
+ },
+ {
+  "sentence": "'We're leaving here at dawn,' they said. They said they were leaving ___ at dawn.",
+  "answer": "there",
+  "options": [],
+  "hint": "here → there",
+  "explanation": "Place adverbs shift with the speaker's perspective: here → there."
+ },
+ {
+  "sentence": "'I'll finish the report today,' she said. She said she would finish the report ___.",
+  "answer": "that day",
+  "options": [],
+  "hint": "today → that day",
+  "explanation": "Today becomes that day when reported later."
+ },
+ {
+  "sentence": "'I moved here two years ago,' he explained. He explained that he had moved there two years ___.",
+  "answer": "before",
+  "options": [],
+  "accept": [
+   "earlier"
+  ],
+  "hint": "ago → before",
+  "explanation": "'Ago' becomes 'before' (or 'earlier') in reported speech; here → there as well."
+ },
+ {
+  "sentence": "'I'm meeting them tomorrow evening,' she said. She said she was meeting them ___ evening.",
+  "answer": "the next",
+  "options": [],
+  "accept": [
+   "the following"
+  ],
+  "hint": "tomorrow → the next/following",
+  "explanation": "Tomorrow evening becomes the next (or the following) evening."
+ },
+ {
+  "sentence": "'We stayed at this hotel last summer,' they recalled. They recalled that they had stayed at ___ hotel the summer before.",
+  "answer": "that",
+  "options": [],
+  "hint": "this → that",
+  "explanation": "Demonstratives shift: this hotel → that hotel; last summer → the summer before."
+ },
+ {
+  "sentence": "'The flight leaves now,' the announcer said. The announcer said that the flight left ___.",
+  "answer": "then",
+  "options": [],
+  "hint": "now → then",
+  "explanation": "Now becomes then in reported speech."
+ },
+ {
+  "sentence": "'I'll call you next week,' he promised. He promised he would call me ___.",
+  "answer": "the following week",
+  "options": [],
+  "accept": [
+   "the next week"
+  ],
+  "hint": "next week → the following week",
+  "explanation": "'Next week' shifts to the following week (or the next week) from a later standpoint."
+ },
+ {
+  "sentence": "'She arrived last night,' he told us. He told us that she had arrived ___.",
+  "answer": "the night before",
+  "options": [],
+  "accept": [
+   "the previous night"
+  ],
+  "hint": "last night → the night before",
+  "explanation": "'Last night' becomes the night before (the previous night) in reported speech."
+ },
+ {
+  "sentence": "'I saw him this morning,' she said on Monday afternoon. She said she had seen him ___ morning.",
+  "answer": "that",
+  "options": [],
+  "hint": "this morning → that morning",
+  "explanation": "This morning, reported later the same day, becomes that morning."
+ },
+ {
+  "sentence": "'Come round to my house tomorrow,' she said. She invited me round to her house ___.",
+  "answer": "the next day",
+  "options": [],
+  "accept": [
+   "the following day"
+  ],
+  "hint": "invitation + time shift",
+  "explanation": "Tomorrow becomes the next day (the following day) when the invitation is reported."
+ },
+ {
+  "sentence": "They ___ us that the museum had closed early.",
+  "answer": "told",
+  "options": [],
+  "hint": "tell takes a personal object",
+  "explanation": "Tell somebody (that)... — 'told' needs the direct personal object 'us'; 'said' cannot take it."
+ },
+ {
+  "sentence": "She ___ that she would be waiting by the main entrance.",
+  "answer": "said",
+  "options": [],
+  "hint": "say takes no personal object here",
+  "explanation": "Say (that)... without a personal object; 'told that' is impossible without the object."
+ },
+ {
+  "sentence": "The witness ___ the police that he knew nothing.",
+  "answer": "told",
+  "options": [],
+  "hint": "tell + object + that-clause",
+  "explanation": "Tell somebody that... — the personal object 'the police' requires told, not said."
+ },
+ {
+  "sentence": "He ___ to the reporters that the deal was off.",
+  "answer": "said",
+  "options": [],
+  "hint": "say to somebody that...",
+  "explanation": "'Said to the reporters that...' is correct; tell cannot be followed by 'to'."
+ },
+ {
+  "sentence": "He ___ me that the meeting had been cancelled.",
+  "answer": "told",
+  "options": [
+   "told",
+   "said",
+   "spoke",
+   "talked"
+  ],
+  "hint": "say vs tell",
+  "explanation": "'Tell' takes a personal object (told me); 'said me' is wrong, and speak/talk don't take that-clauses."
+ },
+ {
+  "sentence": "She ___ that the storm had passed.",
+  "answer": "said",
+  "options": [
+   "said",
+   "told",
+   "spoke",
+   "talked"
+  ],
+  "hint": "no personal object → say",
+  "explanation": "Without a personal object, use said (that)...; told requires an object."
+ },
+ {
+  "sentence": "'Let's take a break,' she said. She ___ taking a break.",
+  "answer": "suggested",
+  "options": [],
+  "hint": "suggest + -ing",
+  "explanation": "Suggestions are reported as suggest + -ing (or suggest that we take). Never 'suggested to take'."
+ },
+ {
+  "sentence": "'I'm sorry I shouted at you,' he said. He ___ shouting at me.",
+  "answer": "apologised for",
+  "options": [],
+  "hint": "apologise for + -ing",
+  "explanation": "Apologies take apologise for + -ing: apologised for shouting."
+ },
+ {
+  "sentence": "'I'll definitely pay you back,' he said. He ___ to pay me back.",
+  "answer": "promised",
+  "options": [],
+  "hint": "promise + to-infinitive",
+  "explanation": "Promises take promise + to-infinitive: promised to pay me back."
+ },
+ {
+  "sentence": "'Leave now or I'll call the police!' he shouted. He ___ to call the police.",
+  "answer": "threatened",
+  "options": [],
+  "hint": "threaten + to-infinitive",
+  "explanation": "A threatening conditional utterance is reported as threatened to do something."
+ },
+ {
+  "sentence": "'You broke my phone!' she said to her brother. She ___ her brother of breaking her phone.",
+  "answer": "accused",
+  "options": [],
+  "hint": "accuse sb of + -ing",
+  "explanation": "Accusations: accuse somebody of + -ing."
+ },
+ {
+  "sentence": "'I'll carry those bags for you,' he said. He ___ to carry my bags.",
+  "answer": "offered",
+  "options": [],
+  "hint": "offer + to-infinitive",
+  "explanation": "Offers of help are reported as offered to do something."
+ },
+ {
+  "sentence": "'No, I won't open the door,' he said. He ___ to open the door.",
+  "answer": "refused",
+  "options": [],
+  "hint": "refuse + to-infinitive",
+  "explanation": "Refusals are reported with refuse + to-infinitive."
+ },
+ {
+  "sentence": "'OK, I'll help you move house,' she said. She ___ to help me move house.",
+  "answer": "agreed",
+  "options": [],
+  "hint": "agree + to-infinitive",
+  "explanation": "Agreement to a request is reported as agreed to do something."
+ },
+ {
+  "sentence": "'It was me who ate the last biscuit,' the boy admitted. The boy ___ eating the last biscuit.",
+  "answer": "admitted",
+  "options": [],
+  "hint": "admit + -ing",
+  "explanation": "Admit takes a gerund (admit doing) or admit that + clause — never admit to do."
+ },
+ {
+  "sentence": "'I didn't take your charger,' she insisted. She ___ taking my charger.",
+  "answer": "denied",
+  "options": [],
+  "hint": "deny + -ing",
+  "explanation": "Denials are reported as deny + -ing: denied taking."
+ },
+ {
+  "sentence": "'You should apply for the grant,' he told me. He ___ me to apply for the grant.",
+  "answer": "advised",
+  "options": [],
+  "hint": "advise sb to do sth",
+  "explanation": "Advice is reported as advise + object + to-infinitive."
+ },
+ {
+  "sentence": "'Don't forget your tickets,' she said to us. She ___ us to take our tickets.",
+  "answer": "reminded",
+  "options": [],
+  "hint": "remind sb to do sth",
+  "explanation": "'Don't forget' maps onto remind + object + to-infinitive."
+ },
+ {
+  "sentence": "'Would you like to stay for dinner?' they asked. They ___ me to stay for dinner.",
+  "answer": "invited",
+  "options": [],
+  "hint": "invite sb to do sth",
+  "explanation": "Offers of this kind are reported as invited somebody to do something."
+ },
+ {
+  "sentence": "'Well done, you've passed!' the examiner said. The examiner ___ me on passing.",
+  "answer": "congratulated",
+  "options": [],
+  "hint": "congratulate sb on + -ing",
+  "explanation": "Congratulations: congratulate somebody on + -ing."
+ },
+ {
+  "sentence": "'Watch out for the ice on the road,' she said. She ___ us about the icy road.",
+  "answer": "warned",
+  "options": [],
+  "hint": "warn sb about sth",
+  "explanation": "Warnings about a danger: warn somebody about something (or warn sb to do)."
+ },
+ {
+  "sentence": "'The delay is your fault,' the manager said to her. The manager ___ her for the delay.",
+  "answer": "blamed",
+  "options": [],
+  "hint": "blame sb for sth",
+  "explanation": "Blame takes the pattern blame somebody for something."
+ },
+ {
+  "sentence": "'I really must have that report by five,' the editor said. The editor ___ on having the report by five.",
+  "answer": "insisted",
+  "options": [],
+  "hint": "insist on + -ing",
+  "explanation": "Insisting on a demand: insist on + -ing (or insist that + clause)."
+ },
+ {
+  "sentence": "'Thank you for delivering it so quickly,' she said. She ___ me for delivering it so quickly.",
+  "answer": "thanked",
+  "options": [],
+  "hint": "thank sb for + -ing",
+  "explanation": "Thanks are reported as thank somebody for + -ing."
+ },
+ {
+  "sentence": "'You really ought to try the tasting menu,' the waiter said. The waiter ___ trying the tasting menu.",
+  "answer": "recommended",
+  "options": [],
+  "hint": "recommend + -ing",
+  "explanation": "Recommend takes a gerund (recommend doing) when there is no object."
+ },
+ {
+  "sentence": "She ___ on seeing the manager immediately.",
+  "answer": "insisted",
+  "options": [
+   "insisted",
+   "suggested",
+   "offered",
+   "promised"
+  ],
+  "hint": "verb + on + -ing",
+  "explanation": "Only 'insist' takes on + -ing; suggest and offer take bare -ing/to-infinitive respectively."
+ },
+ {
+  "sentence": "He ___ me of leaking the story to the press.",
+  "answer": "accused",
+  "options": [
+   "accused",
+   "blamed",
+   "thanked",
+   "congratulated"
+  ],
+  "hint": "verb + sb + of + -ing",
+  "explanation": "Accuse somebody of + -ing. Blame uses 'for', thank and congratulate use different prepositions."
+ },
+ {
+  "sentence": "They ___ for arriving so late.",
+  "answer": "apologised",
+  "options": [
+   "apologised",
+   "denied",
+   "suggested",
+   "threatened"
+  ],
+  "hint": "verb + for + -ing",
+  "explanation": "Apologise for + -ing; the other verbs do not take 'for + -ing' in this pattern."
+ },
+ {
+  "sentence": "The colonel ___ his soldiers to advance at dawn.",
+  "answer": "ordered",
+  "options": [
+   "ordered",
+   "suggested",
+   "offered",
+   "hoped"
+  ],
+  "hint": "verb + object + to-infinitive",
+  "explanation": "Order + object + to-infinitive reports a command; suggest and hope do not take object + infinitive."
+ },
+ {
+  "sentence": "The hijackers ___ to blow up the plane unless their demands were met.",
+  "answer": "threatened",
+  "options": [
+   "threatened",
+   "promised",
+   "offered",
+   "agreed"
+  ],
+  "hint": "negative conditional + to-infinitive",
+  "explanation": "A declared harmful action is reported as threatened to do something."
+ },
+ {
+  "sentence": "She ___ me not to worry about the deadline.",
+  "answer": "told",
+  "options": [
+   "told",
+   "said",
+   "spoke",
+   "talked"
+  ],
+  "hint": "tell sb not to do sth",
+  "explanation": "Only 'tell' takes a personal object + not to + infinitive; 'said me not to' is impossible."
+ },
+ {
+  "sentence": "He ___ me his car for the weekend.",
+  "answer": "offered",
+  "options": [
+   "offered",
+   "suggested",
+   "denied",
+   "insisted"
+  ],
+  "hint": "offer sb sth",
+  "explanation": "Offer takes the double-object pattern (offer somebody something); the others do not."
+ },
+ {
+  "sentence": "They ___ breaking the window, but nobody believed them.",
+  "answer": "denied",
+  "options": [
+   "denied",
+   "admitted",
+   "apologised",
+   "offered"
+  ],
+  "hint": "deny + -ing",
+  "explanation": "Deny + -ing reports a rejection of the accusation; 'but nobody believed them' confirms the meaning."
+ },
+ {
+  "sentence": "\"I will call you tomorrow.\" — She said she ___ me the next day.",
+  "answer": "would call",
+  "options": [
+   "would call",
+   "will call",
+   "called",
+   "is calling"
+  ],
+  "hint": "will → would",
+  "explanation": "Backshift: 'will call' becomes 'would call'."
+ },
+ {
+  "sentence": "\"Where do you live?\" — He asked me where I ___.",
+  "answer": "lived",
+  "options": [
+   "lived",
+   "do I live",
+   "did I live",
+   "am living"
+  ],
+  "hint": "reported question word order",
+  "explanation": "Statement order + backshift: 'where I lived'."
+ },
+ {
+  "sentence": "\"Do not touch the wire!\" — She warned me ___ the wire.",
+  "answer": "not to touch",
+  "options": [
+   "not to touch",
+   "to not touch",
+   "do not touch",
+   "not touching"
+  ],
+  "hint": "negative infinitive",
+  "explanation": "'Warn somebody not to do' — 'not' comes before 'to'."
+ },
+ {
+  "sentence": "\"Have you finished?\" — She asked ___ finished.",
+  "answer": "whether I had",
+  "options": [
+   "whether I had",
+   "did I have",
+   "if I have",
+   "that I had"
+  ],
+  "hint": "yes/no question + backshift",
+  "explanation": "'Whether/if' + statement order + 'had' for the present perfect."
+ },
+ {
+  "sentence": "\"I saw him yesterday.\" — He said he ___ him the day before.",
+  "answer": "had seen",
+  "options": [
+   "had seen",
+   "saw",
+   "has seen",
+   "was seeing"
+  ],
+  "hint": "past simple → past perfect",
+  "explanation": "Backshift one step: saw → had seen; yesterday → the day before."
+ },
+ {
+  "sentence": "\"We are leaving now.\" — They said they ___ then.",
+  "answer": "were leaving",
+  "options": [
+   "were leaving",
+   "are leaving",
+   "left",
+   "will leave"
+  ],
+  "hint": "present continuous backshift",
+  "explanation": "'Are leaving' → 'were leaving'; now → then."
+ },
+ {
+  "sentence": "\"Can you help me?\" — She asked ___ help her.",
+  "answer": "if I could",
+  "options": [
+   "if I could",
+   "could I",
+   "if I can",
+   "that I could"
+  ],
+  "hint": "request as question",
+  "explanation": "'Can' backshifts to 'could'; statement order after 'if'."
+ },
+ {
+  "sentence": "\"You broke my phone!\" — She accused me ___ her phone.",
+  "answer": "of breaking",
+  "options": [
+   "of breaking",
+   "to break",
+   "breaking",
+   "for breaking"
+  ],
+  "hint": "accuse somebody of + -ing",
+  "explanation": "'Accuse somebody of doing something'."
+ },
+ {
+  "sentence": "\"It was your fault.\" — They blamed me ___ the accident.",
+  "answer": "for",
+  "options": [
+   "for",
+   "of",
+   "about",
+   "to"
+  ],
+  "hint": "blame somebody for something",
+  "explanation": "'Blame somebody for something'."
+ },
+ {
+  "sentence": "\"Congratulations!\" — She ___ me on passing the exam.",
+  "answer": "congratulated",
+  "options": [
+   "congratulated",
+   "celebrated",
+   "thanked",
+   "wished"
+  ],
+  "hint": "congratulate somebody on",
+  "explanation": "'Congratulate somebody on something' reports congratulations."
+ },
+ {
+  "sentence": "\"I am sorry I am late.\" — He ___ for being late.",
+  "answer": "apologised",
+  "options": [
+   "apologised",
+   "excused",
+   "forgave",
+   "regretted"
+  ],
+  "hint": "apologise for",
+  "explanation": "'Apologise for doing something' reports an apology."
+ },
+ {
+  "sentence": "\"Would you like a drink?\" — He ___ me a drink.",
+  "answer": "offered",
+  "options": [
+   "offered",
+   "suggested",
+   "invited",
+   "told"
+  ],
+  "hint": "report an offer",
+  "explanation": "'Offer somebody something' reports \"Would you like …?\""
+ }
 ]

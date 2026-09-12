@@ -2,771 +2,1429 @@
  {
   "sentence": "The man ___ lives next door is a doctor.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "person as subject of 'lives'",
   "explanation": "'Who' refers to people as the subject of the clause; 'which' is for things and 'whose' shows possession."
  },
  {
   "sentence": "A nurse is a person ___ looks after patients.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "person as subject of 'looks after'",
   "explanation": "'Who' introduces a defining clause about a person performing the action."
  },
  {
   "sentence": "The woman ___ won the prize gave a short speech.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "person as subject of 'won'",
   "explanation": "The gap is the subject pronoun for a person, so 'who' is needed; 'whose' would show possession."
  },
  {
   "sentence": "Students ___ hand in their essays late will lose marks.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "people as subject of 'hand in'",
   "explanation": "'Who' refers to the students performing the action; the verb 'will lose' follows later in the sentence."
  },
  {
   "sentence": "The police have arrested the man ___ stole the painting.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "person as subject of 'stole'",
   "explanation": "'Who' is the subject relative pronoun for people in defining clauses."
  },
  {
   "sentence": "The girl ___ sits behind me in class is from Peru.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "person as subject of 'sits'",
   "explanation": "'Who' refers to a person who is the subject; 'which' refers only to things."
  },
  {
   "sentence": "Anyone ___ wants to join the trip should sign up today.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "person as subject of 'wants'",
   "explanation": "'Anyone who' is the standard pattern; 'who' is the subject pronoun for people."
  },
  {
   "sentence": "The people ___ moved in upstairs are very quiet.",
   "answer": "who",
-  "options": ["who", "which", "whose", "where"],
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "where"
+  ],
   "hint": "people as subject of 'moved'",
   "explanation": "'Who' is the subject relative pronoun for people; 'whose' would need a noun after it."
  },
  {
   "sentence": "The book ___ I borrowed from the library is two weeks overdue.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as object of 'borrowed'",
   "explanation": "'Which' refers to things; 'who' refers only to people and 'where' to places."
  },
  {
   "sentence": "The river ___ runs through the town often floods in spring.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as subject of 'runs'",
   "explanation": "'Which' is the subject relative pronoun for things and animals."
  },
  {
   "sentence": "The programme ___ I watched last night was about volcanoes.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as object of 'watched'",
   "explanation": "'Which' refers to things, even when it is the object of the clause."
  },
  {
   "sentence": "The house ___ stands on the corner dates from 1870.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as subject of 'stands'",
   "explanation": "'Which' is needed because a house is a thing; 'where' would introduce information about location, not a subject."
  },
  {
   "sentence": "The company ___ produces these parts has factories in three countries.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "organisation treated as a thing",
   "explanation": "A company takes 'which' as subject; 'who' is normally reserved for individual people."
  },
  {
   "sentence": "The train ___ leaves at six is usually very crowded.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as subject of 'leaves'",
   "explanation": "'Which' is the subject pronoun for things; the clause sits between the subject 'train' and its verb 'is'."
  },
  {
   "sentence": "The letter ___ arrived this morning is from my aunt.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as subject of 'arrived'",
   "explanation": "'Which' refers to the letter, a thing, as the subject of 'arrived'."
  },
  {
   "sentence": "We stayed in a hotel ___ overlooked the harbour.",
   "answer": "which",
-  "options": ["which", "who", "whose", "where"],
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
   "hint": "thing as subject of 'overlooked'",
   "explanation": "Here the hotel does the action ('overlooked'), so 'which' is needed, not 'where'."
  },
  {
   "sentence": "My uncle, ___ lives in Canada, is coming to stay next week.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "non-defining clause after a comma about a person",
   "explanation": "In non-defining clauses (between commas) 'that' is not allowed; 'who' refers to people."
  },
  {
   "sentence": "Mrs Patterson, ___ taught me maths, has just retired.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "extra information after a comma about a person",
   "explanation": "After a comma the relative clause is non-defining, so 'that' is impossible and 'who' refers to the person."
  },
  {
   "sentence": "Pablo, ___ speaks five languages, works as an interpreter.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "person + comma; 'that' is forbidden here",
   "explanation": "Non-defining clauses about people take 'who'; 'that' never follows a comma in standard English."
  },
  {
   "sentence": "The director, ___ we met at the conference, has written to us.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "person as object, but the clause is non-defining",
   "explanation": "In non-defining clauses 'that' cannot replace 'who', even when the person is the object."
  },
  {
   "sentence": "Anna's father, ___ is a dentist, has offered to check my teeth.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "extra information about a person between commas",
   "explanation": "Non-defining relative clauses about people use 'who' as subject; 'that' is wrong after a comma."
  },
  {
   "sentence": "Our new neighbours, ___ have three children, moved in last week.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "people as subject; clause between commas",
   "explanation": "'Who' is used for people in non-defining clauses; 'which' is for things."
  },
  {
   "sentence": "The winner, ___ was only seventeen, broke the championship record.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "person as subject after a comma",
   "explanation": "The clause adds extra information about a person, so 'who' is required and 'that' is impossible."
  },
  {
   "sentence": "My colleague Anna, ___ joined us in May, has already been promoted.",
   "answer": "who",
-  "options": ["who", "which", "that", "whose"],
+  "options": [
+   "who",
+   "which",
+   "that",
+   "whose"
+  ],
   "hint": "non-defining clause about a person",
   "explanation": "'Who' refers to Anna; non-defining clauses never use 'that'."
  },
  {
   "sentence": "The Eiffel Tower, ___ attracts millions of visitors, was completed in 1889.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "thing; non-defining clause between commas",
   "explanation": "For things in non-defining clauses use 'which'; 'that' is not allowed after a comma."
  },
  {
   "sentence": "The new bridge, ___ cost two billion euros, opened last month.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "thing + extra information after a comma",
   "explanation": "'Which' introduces non-defining clauses about things; 'that' is forbidden there."
  },
  {
   "sentence": "This clock, ___ belonged to my grandmother, is still working perfectly.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "thing as subject; clause between commas",
   "explanation": "The clock is a thing, so 'which' is correct; 'that' cannot be used in a non-defining clause."
  },
  {
   "sentence": "The company's shares, ___ rose sharply yesterday, are still undervalued.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "thing as subject; non-defining",
   "explanation": "'Which' refers to the shares; 'that' is impossible in a clause set off by commas."
  },
  {
   "sentence": "The house at the end of the street, ___ has been empty for years, is for sale.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "extra information about a thing",
   "explanation": "Non-defining clauses about things take 'which'; 'who' is for people and 'that' is not allowed here."
  },
  {
   "sentence": "His latest film, ___ was shot entirely in Iceland, won three awards.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "thing as subject between commas",
   "explanation": "'Which' is the subject pronoun for the film; 'that' never appears in non-defining clauses."
  },
  {
   "sentence": "The Blue Train, ___ runs between Pretoria and Cape Town, is famous for its luxury.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "thing as subject; extra information",
   "explanation": "For a thing in a non-defining clause use 'which'; 'that' cannot follow the comma."
  },
  {
   "sentence": "Mount Everest, ___ was first climbed in 1953, attracts hundreds of climbers every year.",
   "answer": "which",
-  "options": ["which", "who", "that", "whose"],
+  "options": [
+   "which",
+   "who",
+   "that",
+   "whose"
+  ],
   "hint": "non-defining clause about a thing",
   "explanation": "'Which' introduces extra information about the mountain; 'that' is wrong after a comma."
  },
  {
   "sentence": "He passed all his exams first time, ___ surprised everyone.",
   "answer": "which",
-  "options": ["which", "that", "who", "what"],
+  "options": [
+   "which",
+   "that",
+   "who",
+   "what"
+  ],
   "hint": "refers to the whole previous clause",
   "explanation": "'Which' can refer to a whole idea ('he passed first time'); this non-defining use never takes 'that'."
  },
  {
   "sentence": "She was two hours late, ___ annoyed the interviewer.",
   "answer": "which",
-  "options": ["which", "that", "who", "what"],
+  "options": [
+   "which",
+   "that",
+   "who",
+   "what"
+  ],
   "hint": "comment on the whole situation before the comma",
   "explanation": "When a clause comments on the whole previous statement, use 'which' after the comma."
  },
  {
   "sentence": "The shower suddenly stopped working, ___ meant we had to call a plumber.",
   "answer": "which",
-  "options": ["which", "that", "who", "what"],
+  "options": [
+   "which",
+   "that",
+   "who",
+   "what"
+  ],
   "hint": "refers back to the whole event",
   "explanation": "'Which' refers to the whole preceding clause; 'what' cannot introduce this kind of clause after a comma."
  },
  {
   "sentence": "They said nothing at all, ___ I found rather strange.",
   "answer": "which",
-  "options": ["which", "that", "who", "what"],
+  "options": [
+   "which",
+   "that",
+   "who",
+   "what"
+  ],
   "hint": "comment clause after a comma",
   "explanation": "'Which' here means 'and this'; it refers to the whole situation and follows a comma."
  },
  {
   "sentence": "The woman ___ car was stolen reported it immediately.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "possession: her car",
   "explanation": "'Whose' shows possession (her car); 'who's' means 'who is' and would be ungrammatical here."
  },
  {
   "sentence": "That's the boy ___ dog won first prize at the show.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "the dog belongs to the boy",
   "explanation": "'Whose dog' means 'his dog'; 'who's' would mean 'who is', which makes no sense here."
  },
  {
   "sentence": "The author ___ books sell millions worldwide lives in Iceland.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "possession: the author's books",
   "explanation": "'Whose' links the author to her books; 'who' could not be followed directly by 'books'."
  },
  {
   "sentence": "We interviewed a candidate ___ references were excellent.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "the references belong to the candidate",
   "explanation": "'Whose references' means 'the candidate's references', so the possessive relative 'whose' is needed."
  },
  {
   "sentence": "The man ___ wallet I found works at the post office.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "the wallet belongs to him",
   "explanation": "'Whose wallet' means 'the man's wallet'; 'who's' means 'who is' and cannot precede a noun."
  },
  {
   "sentence": "It was Marie Curie ___ discoveries changed modern medicine.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "her discoveries",
   "explanation": "'Whose discoveries' means 'Marie Curie's discoveries'; 'who's' would mean 'who is'."
  },
  {
   "sentence": "Have you met the couple ___ son is in your class?",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "the son belongs to the couple",
   "explanation": "'Whose son' means 'their son'; the possessive relative 'whose' is required."
  },
  {
   "sentence": "The photographer ___ camera was damaged is claiming compensation.",
   "answer": "whose",
-  "options": ["whose", "who's", "who", "whom"],
+  "options": [
+   "whose",
+   "who's",
+   "who",
+   "whom"
+  ],
   "hint": "possession of the camera",
   "explanation": "'Whose' shows that the camera belongs to the photographer; 'who's' means 'who is'."
  },
  {
   "sentence": "We bought a table ___ legs had been damaged in transit.",
   "answer": "whose",
-  "options": ["whose", "which", "who", "that"],
+  "options": [
+   "whose",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "possession with a thing: the table's legs",
   "explanation": "'Whose' can show possession with things too: 'the table whose legs ...' means 'the table's legs'."
  },
  {
   "sentence": "They lived in a house ___ windows were always shuttered.",
   "answer": "whose",
-  "options": ["whose", "which", "who", "that"],
+  "options": [
+   "whose",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "the windows belonged to the house",
   "explanation": "'Whose windows' means 'the house's windows'; 'which' cannot show possession directly."
  },
  {
   "sentence": "The committee rejected a plan ___ costs had been underestimated.",
   "answer": "whose",
-  "options": ["whose", "which", "who", "that"],
+  "options": [
+   "whose",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "the plan's costs",
   "explanation": "'Whose costs' means 'the plan's costs'; 'which' would need 'the costs of which'."
  },
  {
   "sentence": "He repaired the car ___ engine had failed.",
   "answer": "whose",
-  "options": ["whose", "which", "who", "that"],
+  "options": [
+   "whose",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "the engine belongs to the car",
   "explanation": "'Whose engine' means 'the car's engine', showing possession even with objects."
  },
  {
   "sentence": "___ responsible for locking up tonight?",
   "answer": "Who's",
-  "options": ["Who's", "Whose", "Who", "Whom"],
+  "options": [
+   "Who's",
+   "Whose",
+   "Who",
+   "Whom"
+  ],
   "hint": "short for 'Who is'",
   "explanation": "'Who's' is the contraction of 'who is'; 'whose' shows possession and cannot stand before an adjective alone."
  },
  {
   "sentence": "Do you know ___ been invited to the wedding?",
   "answer": "who's",
-  "options": ["who's", "whose", "who", "whom"],
+  "options": [
+   "who's",
+   "whose",
+   "who",
+   "whom"
+  ],
   "hint": "short for 'who has'",
   "explanation": "'Who's' can mean 'who has' in 'who's been invited'; 'whose' would need a noun after it."
  },
  {
   "sentence": "This is the hotel ___ we stayed last summer.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "place adverb: we stayed there",
   "explanation": "'Where' means 'in which' and needs no preposition; 'the hotel which we stayed' would be ungrammatical."
  },
  {
   "sentence": "The cafe ___ we first met has closed down.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "location: we met in the cafe",
   "explanation": "'Where' replaces 'in which' for places; 'which' would need a preposition ('in which')."
  },
  {
   "sentence": "Is this the street ___ the accident happened?",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "place: the accident happened there",
   "explanation": "'Where' introduces information about location; 'the street which the accident happened' is wrong."
  },
  {
   "sentence": "The village ___ my grandmother was born has no shops.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "place: she was born there",
   "explanation": "'Where' is the relative adverb for places; 'which' cannot stand alone here because no preposition is present."
  },
  {
   "sentence": "That's the office ___ I worked for ten years.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "location of the working",
   "explanation": "'Where' means 'in which'; 'I worked the office' shows the place role of the gap."
  },
  {
   "sentence": "The stadium ___ the final will be held holds ninety thousand people.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "place adverb inside the relative clause",
   "explanation": "'Where' stands for 'in which place'; 'which' would leave the clause without a subject or object."
  },
  {
   "sentence": "This is the beach ___ we used to play as children.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "place: we played there",
   "explanation": "'Where' introduces place information; 'we used to play' already has a subject and object, so 'which' is impossible."
  },
  {
   "sentence": "The restaurant ___ we had dinner last night has excellent reviews.",
   "answer": "where",
-  "options": ["where", "which", "when", "who"],
+  "options": [
+   "where",
+   "which",
+   "when",
+   "who"
+  ],
   "hint": "location: we had dinner there",
   "explanation": "'Where' replaces 'in which' after place nouns; no preposition appears in the clause."
  },
  {
   "sentence": "The country is in a situation ___ an election seems inevitable.",
   "answer": "where",
-  "options": ["where", "which", "who", "whose"],
+  "options": [
+   "where",
+   "which",
+   "who",
+   "whose"
+  ],
   "hint": "'where' with abstract 'situations'",
   "explanation": "'Where' is used with abstract nouns like situation, case and point; 'which' cannot introduce the clause here."
  },
  {
   "sentence": "We have reached the point ___ we must decide whether to continue.",
   "answer": "where",
-  "options": ["where", "which", "who", "whose"],
+  "options": [
+   "where",
+   "which",
+   "who",
+   "whose"
+  ],
   "hint": "'where' after 'the point'",
   "explanation": "'The point where ...' is a standard abstract use of 'where', meaning 'at which'."
  },
  {
   "sentence": "There are cases ___ this rule simply does not apply.",
   "answer": "where",
-  "options": ["where", "which", "whose", "that"],
+  "options": [
+   "where",
+   "which",
+   "whose",
+   "that"
+  ],
   "hint": "'where' with abstract 'cases'",
   "explanation": "'Cases where ...' means 'cases in which ...'; 'that' cannot introduce the clause without a subject."
  },
  {
   "sentence": "The discussion got to a stage ___ nobody was listening any more.",
   "answer": "where",
-  "options": ["where", "which", "who", "that"],
+  "options": [
+   "where",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "'where' with the abstract noun 'stage'",
   "explanation": "'A stage where ...' means 'a stage at which ...'; the clause has its own subject and verb, so 'which' is impossible."
  },
  {
   "sentence": "I'll never forget the day ___ we first met.",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time adverb: we met then",
   "explanation": "'When' replaces 'on which' after time nouns like day, year and moment."
  },
  {
   "sentence": "Do you remember the time ___ we got lost in Rome?",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time: we got lost then",
   "explanation": "'When' introduces defining clauses after 'the time'; 'which' would need a preposition."
  },
  {
   "sentence": "The moment ___ she saw the results, she burst into tears.",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time reference after 'the moment'",
   "explanation": "'When' links the moment to the action; 'where' and 'why' do not fit a time noun."
  },
  {
   "sentence": "July and August are the months ___ most Italians take their holidays.",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time adverb after 'the months'",
   "explanation": "'When' means 'in which' after time expressions; the clause describes when the action happens."
  },
  {
   "sentence": "That was the year ___ the company nearly went bankrupt.",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time: it happened in that year",
   "explanation": "'When' is used after 'the year'; 'which' would need 'in which'."
  },
  {
   "sentence": "There are times ___ I really miss my home town.",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time expression 'times' + relative adverb",
   "explanation": "'There are times when ...' is a standard pattern; 'when' stands for 'at which'."
  },
  {
   "sentence": "We arrived at the hotel at noon, ___ the rooms were not ready.",
   "answer": "when",
-  "options": ["when", "where", "which", "that"],
+  "options": [
+   "when",
+   "where",
+   "which",
+   "that"
+  ],
   "hint": "non-defining clause about a time",
   "explanation": "'When' introduces non-defining clauses about time after a comma; 'that' is impossible after a comma."
  },
  {
   "sentence": "The 1990s was the decade ___ mobile phones became common.",
   "answer": "when",
-  "options": ["when", "where", "why", "which"],
+  "options": [
+   "when",
+   "where",
+   "why",
+   "which"
+  ],
   "hint": "time adverb after 'the decade'",
   "explanation": "'When' replaces 'in which' after time nouns; 'which' cannot stand alone here."
  },
  {
   "sentence": "Nobody knows the reason ___ he resigned so suddenly.",
   "answer": "why",
-  "options": ["why", "which", "when", "where"],
+  "options": [
+   "why",
+   "which",
+   "when",
+   "where"
+  ],
   "hint": "relative adverb after 'the reason'",
   "explanation": "'The reason why ...' is the standard pattern; 'why' means 'for which'."
  },
  {
   "sentence": "The reason ___ I'm calling is to confirm your appointment.",
   "answer": "why",
-  "options": ["why", "which", "when", "where"],
+  "options": [
+   "why",
+   "which",
+   "when",
+   "where"
+  ],
   "hint": "'the reason ___' introduces the cause",
   "explanation": "'The reason why' introduces the explanation or cause; the other options do not express reason."
  },
  {
   "sentence": "Nobody explained the reason ___ the flight was cancelled.",
   "answer": "why",
-  "options": ["why", "which", "when", "where"],
+  "options": [
+   "why",
+   "which",
+   "when",
+   "where"
+  ],
   "hint": "reason clause after 'the reason'",
   "explanation": "'Why' introduces the cause after 'the reason'; it means 'for which'."
  },
  {
   "sentence": "Is there a reason ___ you're behaving so strangely?",
   "answer": "why",
-  "options": ["why", "which", "when", "where"],
+  "options": [
+   "why",
+   "which",
+   "when",
+   "where"
+  ],
   "hint": "asking for the cause",
   "explanation": "'A reason why ...' asks about the cause; the other relative words cannot express reason."
  },
  {
   "sentence": "The person to ___ I addressed the letter has moved house.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "after a preposition, the object form for people",
   "explanation": "After a preposition the object pronoun 'whom' is required for people; 'that' and 'who' cannot follow a preposition."
  },
  {
   "sentence": "Mrs Chan, with ___ I worked for ten years, has retired.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "preposition + person in a non-defining clause",
   "explanation": "'With whom' is the formal pattern for people after a preposition; 'with who' and 'with that' are wrong."
  },
  {
   "sentence": "They chose a guide on ___ they could rely completely.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "rely on somebody — person after preposition",
   "explanation": "After the preposition 'on', the person takes 'whom'; 'which' is only for things."
  },
  {
   "sentence": "The author, about ___ there has been much debate, will speak at the festival.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "debate about the author — person after preposition",
   "explanation": "'About whom' is required after the preposition 'about' when referring to a person."
  },
  {
   "sentence": "The manager, for ___ the team played so hard, thanked everyone.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "played for the manager — person after preposition",
   "explanation": "The preposition 'for' demands the object form 'whom' for a person."
  },
  {
   "sentence": "The lawyers, against ___ the case was brought, denied everything.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "the case was brought against them",
   "explanation": "'Against whom' is the formal relative pattern; 'who' and 'that' cannot follow prepositions."
  },
  {
   "sentence": "She has three daughters, all of ___ are at university.",
   "answer": "whom",
-  "options": ["whom", "which", "them", "who"],
+  "options": [
+   "whom",
+   "which",
+   "them",
+   "who"
+  ],
   "hint": "quantity expression + of + person",
   "explanation": "'All of whom' refers to people after 'of'; 'all of which' is for things and 'all of them' cannot join the clauses after a comma."
  },
  {
   "sentence": "He is a colleague on ___ you can always depend.",
   "answer": "whom",
-  "options": ["whom", "which", "who", "that"],
+  "options": [
+   "whom",
+   "which",
+   "who",
+   "that"
+  ],
   "hint": "depend on somebody — after preposition",
   "explanation": "After 'on', the formal relative pronoun for a person is 'whom'."
  },
  {
   "sentence": "This is the house in ___ I was born.",
   "answer": "which",
-  "options": ["which", "where", "that", "whom"],
+  "options": [
+   "which",
+   "where",
+   "that",
+   "whom"
+  ],
   "hint": "preposition + place (thing)",
   "explanation": "'In which' is the formal pattern; 'in where' does not exist and 'in that' is impossible in relative clauses."
  },
  {
   "sentence": "The chair on ___ the cat was sleeping was my grandmother's.",
   "answer": "which",
-  "options": ["which", "that", "whom", "where"],
+  "options": [
+   "which",
+   "that",
+   "whom",
+   "where"
+  ],
   "hint": "preposition + thing",
   "explanation": "'On which' is the formal pattern for things; 'on where' and 'on that' are not grammatical."
  },
  {
   "sentence": "The exam, the results of ___ will be published on Friday, was very difficult.",
   "answer": "which",
-  "options": ["which", "whom", "that", "them"],
+  "options": [
+   "which",
+   "whom",
+   "that",
+   "them"
+  ],
   "hint": "quantity noun + of + thing in a non-defining clause",
   "explanation": "'The results of which' joins the clauses formally; 'of whom' is for people and 'of them' cannot link clauses after a comma."
  },
  {
   "sentence": "The tool with ___ I fixed the shelf is in the garage.",
   "answer": "which",
-  "options": ["which", "that", "whom", "where"],
+  "options": [
+   "which",
+   "that",
+   "whom",
+   "where"
+  ],
   "hint": "preposition + thing",
   "explanation": "'With which' is required after the preposition; relative 'that' cannot follow a preposition."
  },
  {
   "sentence": "The bridge, on ___ repairs are still continuing, will reopen in May.",
   "answer": "which",
-  "options": ["which", "that", "whom", "where"],
+  "options": [
+   "which",
+   "that",
+   "whom",
+   "where"
+  ],
   "hint": "non-defining clause; preposition + thing",
   "explanation": "'On which' is the formal pattern; 'where' cannot follow a preposition, and 'that' is barred from non-defining clauses."
  },
  {
   "sentence": "The festival, during ___ the town is full of visitors, takes place in July.",
   "answer": "which",
-  "options": ["which", "that", "whom", "when"],
+  "options": [
+   "which",
+   "that",
+   "whom",
+   "when"
+  ],
   "hint": "preposition + event in a non-defining clause",
   "explanation": "'During which' is the formal pattern; 'during when' does not exist."
  },
  {
   "sentence": "He showed me the drawer in ___ the keys were kept.",
   "answer": "which",
-  "options": ["which", "that", "whom", "where"],
+  "options": [
+   "which",
+   "that",
+   "whom",
+   "where"
+  ],
   "hint": "preposition + thing",
   "explanation": "'In which' is the formal relative pattern for things; 'in where' is ungrammatical."
  },
  {
   "sentence": "The degree to ___ the climate is changing alarms scientists.",
   "answer": "which",
-  "options": ["which", "that", "whom", "where"],
+  "options": [
+   "which",
+   "that",
+   "whom",
+   "where"
+  ],
   "hint": "formal pattern: the degree to ___",
   "explanation": "'The degree to which ...' is a formal pattern used with abstract nouns; 'that' cannot follow the preposition."
  },
  {
   "sentence": "___ surprised me most was his calm.",
   "answer": "What",
-  "options": ["What", "That", "Who", "Whom"],
+  "options": [
+   "What",
+   "That",
+   "Who",
+   "Whom"
+  ],
   "hint": "'what' = the thing that; the sentence has no other subject",
   "explanation": "'What' means 'the thing that' and acts as subject: 'What surprised me most ...' — 'that' cannot introduce this nominal clause."
  },
  {
   "sentence": "She told me ___ had happened, but I didn't believe her.",
   "answer": "what",
-  "options": ["what", "that", "which", "whom"],
+  "options": [
+   "what",
+   "that",
+   "which",
+   "whom"
+  ],
   "hint": "the things that had happened",
   "explanation": "'What had happened' means 'the things that had happened'; 'that' cannot stand alone as the subject here."
  },
  {
   "sentence": "Show me ___ you have written so far.",
   "answer": "what",
-  "options": ["what", "that", "whom", "whose"],
+  "options": [
+   "what",
+   "that",
+   "whom",
+   "whose"
+  ],
   "hint": "'what' = the thing(s) that",
   "explanation": "'What you have written' means 'the things that you have written'; 'that' cannot head a nominal clause after 'me'."
  },
  {
   "sentence": "We must decide ___ to do next.",
   "answer": "what",
-  "options": ["what", "that", "whom", "whose"],
+  "options": [
+   "what",
+   "that",
+   "whom",
+   "whose"
+  ],
   "hint": "'what' + to-infinitive",
   "explanation": "'What to do' is the standard pattern meaning 'the thing that we should do'."
  },
  {
   "sentence": "That's exactly ___ I needed — thank you!",
   "answer": "what",
-  "options": ["what", "which", "that", "whom"],
+  "options": [
+   "what",
+   "which",
+   "that",
+   "whom"
+  ],
   "hint": "the thing that I needed",
   "explanation": "'What I needed' means 'the thing that I needed'; 'that' cannot be used in this free relative position."
  },
  {
   "sentence": "I can't remember ___ happened next.",
   "answer": "what",
-  "options": ["what", "that", "whom", "whose"],
+  "options": [
+   "what",
+   "that",
+   "whom",
+   "whose"
+  ],
   "hint": "the thing that happened",
   "explanation": "'What happened next' means 'the thing that happened'; 'that' cannot introduce the clause here because the sentence needs a subject inside it."
  },
  {
   "sentence": "This is ___ I meant.",
   "answer": "what",
-  "options": ["what", "which", "that", "whom"],
+  "options": [
+   "what",
+   "which",
+   "that",
+   "whom"
+  ],
   "hint": "the thing that I meant",
   "explanation": "'What I meant' means 'the thing that I meant'; 'that I meant' would be an incomplete relative clause."
  },
  {
   "sentence": "Nobody knows ___ caused the fire.",
   "answer": "what",
-  "options": ["what", "that", "whom", "whose"],
+  "options": [
+   "what",
+   "that",
+   "whom",
+   "whose"
+  ],
   "hint": "the thing that caused it",
   "explanation": "'What caused the fire' means 'the thing that caused it'; 'that' cannot act as the subject of this nominal clause."
  },
  {
   "sentence": "Tell me ___ you said to her.",
   "answer": "what",
-  "options": ["what", "that", "whose", "whom"],
+  "options": [
+   "what",
+   "that",
+   "whose",
+   "whom"
+  ],
   "hint": "the words that you said",
   "explanation": "'What you said' means 'the words that you said'; 'that' cannot head the clause after 'me'."
  },
  {
   "sentence": "The children were amazed by ___ they saw at the circus.",
   "answer": "what",
-  "options": ["what", "that", "whose", "whom"],
+  "options": [
+   "what",
+   "that",
+   "whose",
+   "whom"
+  ],
   "hint": "the things that they saw",
   "explanation": "'What they saw' means 'the things that they saw'; after the preposition 'by' only a nominal clause like this fits."
  },
  {
   "sentence": "All ___ glitters is not gold.",
   "answer": "that",
-  "options": ["that", "what", "which", "who"],
+  "options": [
+   "that",
+   "what",
+   "which",
+   "who"
+  ],
   "hint": "after 'all', the relative pronoun is not 'what'",
   "explanation": "'All that glitters' is the proverb pattern; 'what' cannot follow 'all', and 'which' is avoided after 'all'."
  },
  {
   "sentence": "All ___ I want is a quiet weekend at home.",
   "answer": "that",
-  "options": ["that", "what", "which", "whose"],
+  "options": [
+   "that",
+   "what",
+   "which",
+   "whose"
+  ],
   "hint": "after 'all', use this pronoun (or nothing)",
   "explanation": "After 'all' the relative pronoun is 'that' (often omitted); 'all what' is always wrong."
  },
  {
   "sentence": "I've told you everything ___ you need to know.",
   "answer": "that",
-  "options": ["that", "which", "what", "whom"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "whom"
+  ],
   "hint": "after 'everything', this pronoun is preferred",
   "explanation": "After 'everything', 'that' is used (and may be omitted); 'which' is avoided after 'everything'."
  },
  {
   "sentence": "It was the best meal ___ I have ever eaten.",
   "answer": "that",
-  "options": ["that", "which", "what", "who"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "who"
+  ],
   "hint": "after a superlative, this pronoun is preferred",
   "explanation": "After superlatives ('the best ...'), 'that' is the preferred relative pronoun in defining clauses."
  },
  {
   "sentence": "This is the worst storm ___ we have had for years.",
   "answer": "that",
-  "options": ["that", "which", "what", "whose"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "whose"
+  ],
   "hint": "after a superlative ('the worst'), use this pronoun",
   "explanation": "'That' follows superlatives in defining relative clauses; 'which' is considered poor style there."
  },
  {
   "sentence": "Have you got anything ___ will remove this stain?",
   "answer": "that",
-  "options": ["that", "which", "what", "who"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "who"
+  ],
   "hint": "after 'anything', this pronoun is preferred",
   "explanation": "After 'anything', 'that' is the preferred relative pronoun; 'which' is avoided after -thing words."
  },
  {
   "sentence": "There is nothing ___ I would change about the design.",
   "answer": "that",
-  "options": ["that", "which", "what", "whose"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "whose"
+  ],
   "hint": "after 'nothing', this pronoun is preferred",
   "explanation": "After 'nothing', use 'that' (or omit the pronoun); 'which' and 'what' do not fit."
  },
  {
   "sentence": "It is one of the most impressive buildings ___ I have ever seen.",
   "answer": "that",
-  "options": ["that", "which", "what", "who"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "who"
+  ],
   "hint": "superlative ('the most impressive') + this pronoun",
   "explanation": "After superlative expressions, 'that' is the standard relative pronoun in defining clauses."
  },
  {
   "sentence": "There was something ___ smelled awful in the kitchen.",
   "answer": "that",
-  "options": ["that", "what", "whose", "whom"],
+  "options": [
+   "that",
+   "what",
+   "whose",
+   "whom"
+  ],
   "hint": "after 'something', this pronoun is preferred",
   "explanation": "After 'something', 'that' is the standard relative pronoun; 'what' cannot follow 'something'."
  },
  {
   "sentence": "It was the first time ___ I had ever driven on my own.",
   "answer": "that",
-  "options": ["that", "which", "what", "whom"],
+  "options": [
+   "that",
+   "which",
+   "what",
+   "whom"
+  ],
   "hint": "after 'the first time', use this pronoun",
   "explanation": "'The first time that ...' is the standard pattern; the pronoun may also be omitted, but 'which' and 'what' do not fit."
+ },
+ {
+  "sentence": "The film, ___ was shot entirely in Iceland, won three awards.",
+  "answer": "which",
+  "options": [
+   "which",
+   "that",
+   "who",
+   "what"
+  ],
+  "hint": "non-defining clause",
+  "explanation": "After a comma, 'that' is impossible: use 'which'."
+ },
+ {
+  "sentence": "The candidate ___ speech impressed us most got the job.",
+  "answer": "whose",
+  "options": [
+   "whose",
+   "who",
+   "whom",
+   "which"
+  ],
+  "hint": "possessive relative",
+  "explanation": "'Whose speech' — the speech belonged to the candidate."
+ },
+ {
+  "sentence": "Everything ___ he said turned out to be true.",
+  "answer": "that",
+  "options": [
+   "that",
+   "which",
+   "what",
+   "who"
+  ],
+  "hint": "after everything",
+  "explanation": "After 'everything', the relative is 'that' (or nothing)."
+ },
+ {
+  "sentence": "The people ___ live upstairs are very quiet.",
+  "answer": "who",
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "whom"
+  ],
+  "hint": "people as subject",
+  "explanation": "'Who' is the subject relative for people."
+ },
+ {
+  "sentence": "The assistant ___ I spoke to was extremely helpful.",
+  "answer": "whom",
+  "options": [
+   "whom",
+   "which",
+   "whose",
+   "what"
+  ],
+  "hint": "formal object relative",
+  "explanation": "'Whom' is the formal object form after a preposition-style clause."
+ },
+ {
+  "sentence": "1998 was the year ___ the factory finally closed.",
+  "answer": "when",
+  "options": [
+   "when",
+   "where",
+   "whose",
+   "whom"
+  ],
+  "hint": "time reference",
+  "explanation": "'When' introduces the clause of time."
+ },
+ {
+  "sentence": "The reason ___ he resigned was never explained.",
+  "answer": "why",
+  "options": [
+   "why",
+   "which",
+   "when",
+   "where"
+  ],
+  "hint": "reason",
+  "explanation": "'The reason why' is the fixed pattern."
+ },
+ {
+  "sentence": "The house ___ windows were broken has now been sold.",
+  "answer": "whose",
+  "options": [
+   "whose",
+   "which",
+   "that",
+   "who"
+  ],
+  "hint": "possessive for things",
+  "explanation": "'Whose windows' — the windows belong to the house."
+ },
+ {
+  "sentence": "My laptop, ___ I bought only last year, has already crashed twice.",
+  "answer": "which",
+  "options": [
+   "which",
+   "that",
+   "who",
+   "whose"
+  ],
+  "hint": "non-defining, thing",
+  "explanation": "Non-defining clause about a thing: 'which', never 'that'."
  }
 ]

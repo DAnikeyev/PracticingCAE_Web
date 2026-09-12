@@ -1284,5 +1284,237 @@
   "answer": "lack of experience affect",
   "hint": "no experience = lack of experience (noun subject)",
   "explanation": "The noun subject 'lack of experience' takes the verb 'affect'."
+ },
+ {
+  "lead": "The film we saw last week was better than this one.",
+  "sentence": "This film is not ___ the one we saw last week.",
+  "keyword": "GOOD",
+  "answer": "as good as",
+  "hint": "comparison with as",
+  "explanation": "'Not as good as' expresses an inferior comparison."
+ },
+ {
+  "lead": "The play was so boring that we left early.",
+  "sentence": "It was ___ we left early.",
+  "keyword": "SUCH",
+  "answer": "such a boring play that",
+  "hint": "such + a + adjective + noun",
+  "explanation": "'So boring' becomes 'such a boring play that …'."
+ },
+ {
+  "lead": "It isn't necessary to book in advance.",
+  "sentence": "You ___ in advance.",
+  "keyword": "HAVE",
+  "answer": "don't have to book",
+  "hint": "absence of obligation",
+  "explanation": "'Don't have to' = it is not necessary."
+ },
+ {
+  "lead": "They won't allow you to enter without a ticket.",
+  "sentence": "You ___ to enter without a ticket.",
+  "keyword": "ALLOW",
+  "answer": "won't be allowed",
+  "hint": "passive of allow",
+  "explanation": "'They won't allow you' becomes 'you won't be allowed'."
+ },
+ {
+  "lead": "She started working here five years ago.",
+  "sentence": "She ___ five years.",
+  "keyword": "WORKED",
+  "answer": "has worked here for",
+  "hint": "action continuing until now",
+  "explanation": "'Started five years ago' → present perfect with 'for'."
+ },
+ {
+  "lead": "Do you know whose this umbrella is?",
+  "sentence": "Do you know ___?",
+  "keyword": "BELONGS",
+  "answer": "who this umbrella belongs to",
+  "hint": "indirect question with phrasal",
+  "explanation": "Word order becomes statement order: 'who this umbrella belongs to'."
+ },
+ {
+  "lead": "He jogged every morning when he was younger.",
+  "sentence": "He ___ every morning when he was younger.",
+  "keyword": "USED",
+  "answer": "used to go jogging",
+  "hint": "past habit that stopped",
+  "explanation": "'Used to + infinitive' describes a past habit."
+ },
+ {
+  "lead": "I'd rather not go to the meeting.",
+  "sentence": "I don't ___ to the meeting.",
+  "keyword": "FEEL",
+  "answer": "feel like going",
+  "hint": "don't feel like + -ing",
+  "explanation": "'Don't feel like doing' = not want to do."
+ },
+ {
+  "lead": "There's a rumour that the factory will close.",
+  "sentence": "The factory ___ close.",
+  "keyword": "RUMOURED",
+  "answer": "is rumoured to",
+  "hint": "impersonal passive",
+  "explanation": "'There's a rumour' becomes 'is rumoured to'."
+ },
+ {
+  "lead": "I can't wait to see you again.",
+  "sentence": "I'm looking ___ again.",
+  "keyword": "FORWARD",
+  "answer": "forward to seeing you",
+  "hint": "look forward to + -ing",
+  "explanation": "'Can't wait' = 'looking forward to' + gerund."
+ },
+ {
+  "lead": "She was made to wait for two hours.",
+  "sentence": "She ___ for two hours.",
+  "keyword": "WAIT",
+  "answer": "had to wait",
+  "hint": "be made to = have to",
+  "explanation": "'Was made to wait' has the same meaning as 'had to wait'."
+ },
+ {
+  "lead": "Everyone thought the concert was excellent.",
+  "sentence": "The concert ___ everyone.",
+  "keyword": "MADE",
+  "answer": "made an excellent impression on",
+  "hint": "impression collocation",
+  "explanation": "'Everyone thought it excellent' → 'made an excellent impression on everyone'."
+ },
+ {
+  "lead": "He succeeded in persuading them.",
+  "sentence": "He ___ them.",
+  "keyword": "PERSUADE",
+  "answer": "managed to persuade",
+  "hint": "succeed in = manage to",
+  "explanation": "'Succeeded in persuading' = 'managed to persuade'."
+ },
+ {
+  "lead": "If you don't hurry, you'll miss the bus.",
+  "sentence": "You'll miss the bus ___.",
+  "keyword": "HURRY",
+  "answer": "unless you hurry",
+  "hint": "unless = if … not",
+  "explanation": "'Unless you hurry' = 'if you don't hurry'."
+ },
+ {
+  "lead": "They cancelled the match because of the rain.",
+  "sentence": "The match ___ because of the rain.",
+  "keyword": "CALLED",
+  "answer": "was called off",
+  "hint": "phrasal verb: cancel",
+  "explanation": "'Cancel' = 'call off' — passive here: 'was called off'."
+ },
+ {
+  "lead": "I only found out the truth because I asked.",
+  "sentence": "I wouldn't have found out the truth ___ asked.",
+  "keyword": "HAD",
+  "answer": "if I hadn't",
+  "hint": "third conditional",
+  "explanation": "'Because I asked' → 'if I hadn't asked' — a third conditional."
+ },
+ {
+  "lead": "It's a pity I didn't bring my camera.",
+  "sentence": "If ___ my camera!",
+  "keyword": "ONLY",
+  "answer": "only I had brought",
+  "hint": "if only + past perfect",
+  "explanation": "'If only I had brought' expresses regret about the past."
+ },
+ {
+  "lead": "Nobody can deny that she is talented.",
+  "sentence": "It cannot ___ talented.",
+  "keyword": "DENIED",
+  "answer": "be denied that she is",
+  "hint": "passive of deny",
+  "explanation": "'Nobody can deny that' → 'it cannot be denied that'."
+ },
+ {
+  "lead": "The staff wear a uniform at all times.",
+  "sentence": "The staff ___ a uniform at all times.",
+  "keyword": "REQUIRED",
+  "answer": "are required to wear",
+  "hint": "be required to",
+  "explanation": "'Must wear' = 'are required to wear'."
+ },
+ {
+  "lead": "We couldn't go out because of the storm.",
+  "sentence": "We ___ out by the storm.",
+  "keyword": "PREVENTED",
+  "answer": "were prevented from going",
+  "hint": "prevent somebody from doing",
+  "explanation": "'Couldn't go because of' → 'were prevented from going'."
+ },
+ {
+  "lead": "The number of students is rising.",
+  "sentence": "There is ___ the number of students.",
+  "keyword": "INCREASE",
+  "answer": "an increase in",
+  "hint": "noun pattern",
+  "explanation": "'Is rising' becomes the noun: 'an increase in'."
+ },
+ {
+  "lead": "This is the best coffee I've ever tasted.",
+  "sentence": "I've ___ coffee.",
+  "keyword": "NEVER",
+  "answer": "never tasted better",
+  "hint": "superlative → never + comparative",
+  "explanation": "'The best I've ever tasted' → 'never tasted better'."
+ },
+ {
+  "lead": "She speaks French better than her brother does.",
+  "sentence": "Her brother doesn't ___ she does.",
+  "keyword": "WELL",
+  "answer": "speak French as well as",
+  "hint": "comparison with as … as",
+  "explanation": "'Doesn't speak French as well as' reverses the comparison."
+ },
+ {
+  "lead": "You should check the timetable before travelling.",
+  "sentence": "You ___ check the timetable before travelling.",
+  "keyword": "SUPPOSED",
+  "answer": "are supposed to",
+  "hint": "be supposed to = should",
+  "explanation": "'Should' = 'are supposed to'."
+ },
+ {
+  "lead": "It's pointless to worry about things you can't change.",
+  "sentence": "There is ___ things you can't change.",
+  "keyword": "POINT",
+  "answer": "no point in worrying about",
+  "hint": "there is no point in + -ing",
+  "explanation": "'Pointless' → 'there is no point in worrying'."
+ },
+ {
+  "lead": "A professional will repair the roof next week.",
+  "sentence": "We will ___ next week.",
+  "keyword": "REPAIRED",
+  "answer": "have the roof repaired",
+  "hint": "causative have",
+  "explanation": "'Have something done' — arranged service: have the roof repaired."
+ },
+ {
+  "lead": "He spoke slowly so that the interpreter could follow.",
+  "sentence": "He spoke slowly ___ follow.",
+  "keyword": "SO",
+  "answer": "so that the interpreter could",
+  "hint": "purpose clause",
+  "explanation": "'So that + subject + could' expresses purpose."
+ },
+ {
+  "lead": "Living in the city is new to her.",
+  "sentence": "She is not ___ in the city.",
+  "keyword": "USED",
+  "answer": "used to living",
+  "hint": "be used to + -ing",
+  "explanation": "'Be used to living' = be accustomed to (note the gerund)."
+ },
+ {
+  "lead": "She found it hard to understand the accent.",
+  "sentence": "She had ___ the accent.",
+  "keyword": "DIFFICULTY",
+  "answer": "difficulty in understanding",
+  "hint": "have difficulty in + -ing",
+  "explanation": "'Have difficulty (in) doing' = find it hard to do."
  }
 ]

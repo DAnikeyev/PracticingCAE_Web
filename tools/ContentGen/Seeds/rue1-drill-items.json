@@ -1618,5 +1618,365 @@
   "accept": [
    "praised"
   ]
+ },
+ {
+  "sentence": "The court ___ him guilty of fraud after a three-week trial.",
+  "answer": "found",
+  "options": [
+   "found",
+   " accused",
+   "charged",
+   "admitted"
+  ],
+  "hint": "find somebody guilty",
+  "explanation": "'Find somebody guilty' is the fixed court phrase; accuse/charge take 'of', admit takes 'to'."
+ },
+ {
+  "sentence": "She ___ a fortune by selling vintage clothes online.",
+  "answer": "makes",
+  "options": [
+   "makes",
+   "gains",
+   "wins",
+   "receives"
+  ],
+  "hint": "make a fortune",
+  "explanation": "'Make a fortune' = earn a lot of money; gain/win/receive do not collocate with fortune here."
+ },
+ {
+  "sentence": "The new law ___ companies from selling user data.",
+  "answer": "prevents",
+  "options": [
+   "prevents",
+   "avoids",
+   "resists",
+   "resents"
+  ],
+  "hint": "prevent somebody from doing",
+  "explanation": "'Prevent somebody from doing' = stop them doing it; the other verbs do not fit the pattern."
+ },
+ {
+  "sentence": "I don't ___ waiting another hour for the results.",
+  "answer": "mind",
+  "options": [
+   "mind",
+   "matter",
+   "refuse",
+   "deny"
+  ],
+  "hint": "don't mind + -ing = it's fine",
+  "explanation": "'Don't mind waiting' = it is not a problem; 'matter' is used with 'it'."
+ },
+ {
+  "sentence": "After hours of debate, the jury finally ___ a verdict.",
+  "answer": "reached",
+  "options": [
+   "reached",
+   "arrived",
+   "got",
+   "came"
+  ],
+  "hint": "reach a verdict",
+  "explanation": "'Reach a verdict/decision' — arrive needs 'at', and came/got do not collocate."
+ },
+ {
+  "sentence": "The dustmen ___ our rubbish every Tuesday morning.",
+  "answer": "collect",
+  "options": [
+   "collect",
+   "gather",
+   "pick",
+   "bring"
+  ],
+  "hint": "collect the rubbish",
+  "explanation": "'Collect the rubbish' is the standard phrase; pick would need 'up'."
+ },
+ {
+  "sentence": "He ___ great satisfaction from mentoring junior staff.",
+  "answer": "derives",
+  "options": [
+   "derives",
+   "donates",
+   "deprives",
+   "delivers"
+  ],
+  "hint": "derive satisfaction from",
+  "explanation": "'Derive satisfaction/pleasure from something' is the formal collocation."
+ },
+ {
+  "sentence": "The band ___ three albums before splitting up.",
+  "answer": "released",
+  "options": [
+   "released",
+   "delivered",
+   "relieved",
+   "published"
+  ],
+  "hint": "release an album",
+  "explanation": "'Release an album/film' = make it available to the public."
+ },
+ {
+  "sentence": "The nurse ___ the patient's temperature every four hours.",
+  "answer": "took",
+  "options": [
+   "took",
+   "made",
+   "carried",
+   "held"
+  ],
+  "hint": "take somebody’s temperature",
+  "explanation": "'Take somebody's temperature' is the fixed collocation."
+ },
+ {
+  "sentence": "She ___ a degree in architecture from a small university.",
+  "answer": "holds",
+  "options": [
+   "holds",
+   "owns",
+   "keeps",
+   "possesses"
+  ],
+  "hint": "hold a degree",
+  "explanation": "'Hold a degree' = have obtained a qualification."
+ },
+ {
+  "sentence": "The minister has ___ a press conference for Friday morning.",
+  "answer": "called",
+  "options": [
+   "called",
+   "invited",
+   "named",
+   "shouted"
+  ],
+  "hint": "call a press conference",
+  "explanation": "'Call a press conference/meeting' = arrange it."
+ },
+ {
+  "sentence": "The player was ___ off for arguing with the referee.",
+  "answer": "sent",
+  "options": [
+   "sent",
+   "put",
+   "taken",
+   "let"
+  ],
+  "hint": "be sent off = red card",
+  "explanation": "'Send somebody off' = order them off the pitch; the others change the meaning."
+ },
+ {
+  "sentence": "Could you ___ me a favour and post this parcel?",
+  "answer": "do",
+  "options": [
+   "do",
+   "make",
+   "give",
+   "take"
+  ],
+  "hint": "do somebody a favour",
+  "explanation": "'Do somebody a favour' — make/give/take do not collocate with favour."
+ },
+ {
+  "sentence": "The scandal ___ his career overnight: he was dismissed by lunchtime.",
+  "answer": "ended",
+  "options": [
+   "ended",
+   "injured",
+   "wounded",
+   "harmed"
+  ],
+  "hint": "finish something completely",
+  "explanation": "'End somebody's career' — injured/wounded refer to physical harm."
+ },
+ {
+  "sentence": "The soup needs a ___ of salt to bring out the flavour.",
+  "answer": "pinch",
+  "options": [
+   "pinch",
+   "drop",
+   "piece",
+   "grain"
+  ],
+  "hint": "a pinch of salt = a tiny amount",
+  "explanation": "'A pinch of salt' = the small amount you hold between finger and thumb."
+ },
+ {
+  "sentence": "She ___ the corner of the carpet to see what was underneath.",
+  "answer": "lifted",
+  "options": [
+   "lifted",
+   "rose",
+   "aroused",
+   "risen"
+  ],
+  "hint": "raise something with your hand",
+  "explanation": "'Lift' is transitive (you lift something); rise is intransitive."
+ },
+ {
+  "sentence": "The old bridge is due to be ___ next spring for safety reasons.",
+  "answer": "demolished",
+  "options": [
+   "demolished",
+   "collapsed",
+   "sank",
+   "fell"
+  ],
+  "hint": "pull a building down",
+  "explanation": "'Demolish a building' — collapse/sink/fall are intransitive."
+ },
+ {
+  "sentence": "He ___ the meeting by welcoming the new members.",
+  "answer": "opened",
+  "options": [
+   "opened",
+   "unlocked",
+   "launched",
+   "switched"
+  ],
+  "hint": "open a meeting",
+  "explanation": "'Open a meeting' = start it formally."
+ },
+ {
+  "sentence": "The factory ___ over two hundred people from the village.",
+  "answer": "employs",
+  "options": [
+   "employs",
+   "works",
+   "hosts",
+   "inhabits"
+  ],
+  "hint": "give people jobs",
+  "explanation": "'Employ people' = pay them to work; inhabit refers to living somewhere."
+ },
+ {
+  "sentence": "He ___ the flu two days before the final and missed it.",
+  "answer": "caught",
+  "options": [
+   "caught",
+   "took",
+   "received",
+   "accepted"
+  ],
+  "hint": "catch an illness",
+  "explanation": "'Catch the flu/a cold' is the fixed collocation."
+ },
+ {
+  "sentence": "They ___ the old cinema into a public library.",
+  "answer": "converted",
+  "options": [
+   "converted",
+   "transported",
+   "transferred",
+   "transplanted"
+  ],
+  "hint": "change the use of a building",
+  "explanation": "'Convert something into something' = change its use or form."
+ },
+ {
+  "sentence": "The judge ___ the case until more evidence could be heard.",
+  "answer": "adjourned",
+  "options": [
+   "adjourned",
+   "concluded",
+   "pronounced",
+   "sentenced"
+  ],
+  "hint": "pause a court case",
+  "explanation": "'Adjourn a case' = pause it to continue later; conclude would finish it."
+ },
+ {
+  "sentence": "I'm ___ to hear about your promotion — congratulations!",
+  "answer": "delighted",
+  "options": [
+   "delighted",
+   "delightful",
+   "delighting",
+   "delight"
+  ],
+  "hint": "adjective for a person who is very pleased",
+  "explanation": "People feel delighted; things are delightful."
+ },
+ {
+  "sentence": "The parcel was ___ to the wrong address twice.",
+  "answer": "delivered",
+  "options": [
+   "delivered",
+   "displayed",
+   "deleted",
+   "demanded"
+  ],
+  "hint": "bring to an address",
+  "explanation": "'Deliver a parcel' = take it to the address."
+ },
+ {
+  "sentence": "The witness ___ the statement she had made to the police earlier.",
+  "answer": "withdrew",
+  "options": [
+   "withdrew",
+   "removed",
+   "retreated",
+   "returned"
+  ],
+  "hint": "take back officially",
+  "explanation": "'Withdraw a statement' = formally take it back."
+ },
+ {
+  "sentence": "His explanation did little to ___ my doubts about the plan.",
+  "answer": "dispel",
+  "options": [
+   "dispel",
+   "dissolve",
+   "dispose",
+   "disappear"
+  ],
+  "hint": "make doubts go away",
+  "explanation": "'Dispel doubts/fears' is the formal collocation."
+ },
+ {
+  "sentence": "The engineer ___ a fault in the wiring after several hours.",
+  "answer": "detected",
+  "options": [
+   "detected",
+   "invented",
+   "released",
+   "admitted"
+  ],
+  "hint": "find something hidden",
+  "explanation": "'Detect a fault' = discover something not obvious."
+ },
+ {
+  "sentence": "The council has ___ new parking restrictions in the city centre.",
+  "answer": "introduced",
+  "options": [
+   "introduced",
+   "invented",
+   "invited",
+   "insisted"
+  ],
+  "hint": "bring in new rules",
+  "explanation": "'Introduce restrictions/rules' = bring them into use."
+ },
+ {
+  "sentence": "The report ___ light on the real cause of the delay.",
+  "answer": "shed",
+  "options": [
+   "shed",
+   "dropped",
+   "fell",
+   "poured"
+  ],
+  "hint": "shed light on = make clearer",
+  "explanation": "'Shed light on something' is the fixed idiom."
+ },
+ {
+  "sentence": "He ___ his success entirely to the teachers who believed in him.",
+  "answer": "attributes",
+  "options": [
+   "attributes",
+   "contributes",
+   "distributes",
+   "assigns"
+  ],
+  "hint": "attribute something to = owe it to",
+  "explanation": "'Attribute something to something' = say it is the result of it."
  }
 ]

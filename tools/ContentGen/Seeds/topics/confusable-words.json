@@ -1438,5 +1438,149 @@
   ],
   "hint": "verb: praised",
   "explanation": "'Compliment someone on something' = praise them."
+ },
+ {
+  "sentence": "The storm did considerable ___ to the harbour wall.",
+  "answer": "damage",
+  "options": [
+   "damage",
+   "damages",
+   "ruins",
+   "breaks"
+  ],
+  "hint": "uncountable noun",
+  "explanation": "'Do damage' — uncountable; 'damages' means money awarded in court."
+ },
+ {
+  "sentence": "She is ___ of hearing after years beside the speakers.",
+  "answer": "hard",
+  "options": [
+   "hard",
+   "hardly",
+   "tough",
+   "strong"
+  ],
+  "hint": "hard of hearing",
+  "explanation": "'Hard of hearing' is the fixed phrase; 'hardly' is an adverb."
+ },
+ {
+  "sentence": "The two designs are quite ___ from each other.",
+  "answer": "different",
+  "options": [
+   "different",
+   "differ",
+   "difference",
+   "differently"
+  ],
+  "hint": "adjective after quite",
+  "explanation": "'Different from' — the adjective is required after 'quite'."
+ },
+ {
+  "sentence": "He ___ all knowledge of the missing file.",
+  "answer": "denied",
+  "options": [
+   "denied",
+   "refused",
+   "rejected",
+   "declined"
+  ],
+  "hint": "deny all knowledge",
+  "explanation": "'Deny all knowledge of something' is the fixed phrase."
+ },
+ {
+  "sentence": "The soup tastes ___ ; add a pinch of salt.",
+  "answer": "bland",
+  "options": [
+   "bland",
+   "blend",
+   "blank",
+   "brand"
+  ],
+  "hint": "adjective: lacking flavour",
+  "explanation": "'Bland' = without much taste; the others are unrelated words."
+ },
+ {
+  "sentence": "The company ___ its workers' wages by three per cent.",
+  "answer": "raised",
+  "options": [
+   "raised",
+   "risen",
+   "rose",
+   "arisen"
+  ],
+  "hint": "transitive verb",
+  "explanation": "'Raise' is transitive (raise wages); rise is intransitive."
+ },
+ {
+  "sentence": "Unemployment has ___ sharply since the spring.",
+  "answer": "risen",
+  "options": [
+   "risen",
+   "raised",
+   "arose",
+   "aroused"
+  ],
+  "hint": "intransitive verb",
+  "explanation": "'Has risen' — rise does not take an object."
+ },
+ {
+  "sentence": "The committee ___ of eight members and two advisers.",
+  "answer": "consists",
+  "options": [
+   "consists",
+   "contains",
+   "includes",
+   "composes"
+  ],
+  "hint": "consist of",
+  "explanation": "'Consist of' = be made up of; 'composes of' is wrong."
+ },
+ {
+  "sentence": "I ___ seeing that man somewhere before.",
+  "answer": "remember",
+  "options": [
+   "remember",
+   "remind",
+   "reminder",
+   "memorable"
+  ],
+  "hint": "recall a memory",
+  "explanation": "'Remember doing' = recall; 'remind' needs an object."
+ },
+ {
+  "sentence": "The smell of hay ___ me of my childhood.",
+  "answer": "reminds",
+  "options": [
+   "reminds",
+   "remembers",
+   "recalled",
+   "memorised"
+  ],
+  "hint": "remind somebody of",
+  "explanation": "'Remind somebody of something' — remember is not used with an object here."
+ },
+ {
+  "sentence": "The ___ majority voted against the proposal.",
+  "answer": "overwhelming",
+  "options": [
+   "overwhelming",
+   "overheard",
+   "overcome",
+   "overlooked"
+  ],
+  "hint": "very large",
+  "explanation": "'An overwhelming majority' = far more than half."
+ },
+ {
+  "sentence": "The factory ___ waste into the river for years before being fined.",
+  "answer": "discharged",
+  "options": [
+   "discharged",
+   "recharged",
+   "charged",
+   "overcharged"
+  ],
+  "hint": "released (liquid/waste)",
+  "explanation": "'Discharge waste' = release it into the environment."
  }
 ]

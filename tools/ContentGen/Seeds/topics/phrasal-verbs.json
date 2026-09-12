@@ -1621,5 +1621,149 @@
   ],
   "hint": "find a way to avoid",
   "explanation": "get round to = finally find time for; here: avoid a duty — test the preposition after get round."
+ },
+ {
+  "sentence": "The company was ___ up by a larger rival last year.",
+  "answer": "taken",
+  "options": [
+   "taken",
+   "put",
+   "brought",
+   "held"
+  ],
+  "hint": "be taken ___ = bought out",
+  "explanation": "'Take over/take up a company' — here 'was taken up' = absorbed by a bigger firm."
+ },
+ {
+  "sentence": "Please could you look ___ my plants while I'm away?",
+  "answer": "after",
+  "options": [
+   "after",
+   "for",
+   "up",
+   "into"
+  ],
+  "hint": "care for",
+  "explanation": "'Look after' = take care of."
+ },
+ {
+  "sentence": "She ___ down an offer from a rival university.",
+  "answer": "turned",
+  "options": [
+   "turned",
+   "put",
+   "taken",
+   "let"
+  ],
+  "hint": "refuse",
+  "explanation": "'Turn down an offer' = refuse it."
+ },
+ {
+  "sentence": "The meeting has been ___ off until Thursday.",
+  "answer": "put",
+  "options": [
+   "put",
+   "taken",
+   "given",
+   "brought"
+  ],
+  "hint": "postpone",
+  "explanation": "'Put off' = postpone to a later time."
+ },
+ {
+  "sentence": "He ___ up the word in an online dictionary.",
+  "answer": "looked",
+  "options": [
+   "looked",
+   "sought",
+   "hunted",
+   "searched"
+  ],
+  "hint": "find in a reference book",
+  "explanation": "'Look a word up' = check its meaning."
+ },
+ {
+  "sentence": "The rebels finally ___ down the government.",
+  "answer": "brought",
+  "options": [
+   "brought",
+   "put",
+   "taken",
+   "let"
+  ],
+  "hint": "cause to fall",
+  "explanation": "'Bring down a government' = cause its collapse."
+ },
+ {
+  "sentence": "He decided to go ___ for the chess championship.",
+  "answer": "in",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "hint": "go ___ for = enter",
+  "explanation": "'Go in for' = take part in a competition."
+ },
+ {
+  "sentence": "The car ___ down on the motorway and had to be towed.",
+  "answer": "broke",
+  "options": [
+   "broke",
+   "fell",
+   "cut",
+   "let"
+  ],
+  "hint": "stop working",
+  "explanation": "'Break down' = stop functioning (vehicle or machine)."
+ },
+ {
+  "sentence": "They're ___ up a new office in the old warehouse district.",
+  "answer": "setting",
+  "options": [
+   "setting",
+   "putting",
+   "standing",
+   "sitting"
+  ],
+  "hint": "establish",
+  "explanation": "'Set up' = create or establish."
+ },
+ {
+  "sentence": "The ink ___ off after the first wash.",
+  "answer": "came",
+  "options": [
+   "came",
+   "went",
+   "got",
+   "turned"
+  ],
+  "hint": "become detached/removed",
+  "explanation": "'Come off' = become removed, especially by washing."
+ },
+ {
+  "sentence": "We've ___ out of milk — could you get some more?",
+  "answer": "run",
+  "options": [
+   "run",
+   "gone",
+   "taken",
+   "used"
+  ],
+  "hint": "have none left",
+  "explanation": "'Run out of' = exhaust the supply."
+ },
+ {
+  "sentence": "The evening ___ off with a quiz and ended with dancing.",
+  "answer": "kicked",
+  "options": [
+   "kicked",
+   "knocked",
+   "hammered",
+   "punched"
+  ],
+  "hint": "kick ___ = begin",
+  "explanation": "'Kick off' = start, informally."
  }
 ]

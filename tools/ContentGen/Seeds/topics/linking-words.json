@@ -1366,5 +1366,149 @@
   ],
   "hint": "would rather... ...",
   "explanation": "'Would rather... than...' is the fixed pattern for preferences."
+ },
+ {
+  "sentence": "___ the heavy rain, the match went ahead.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "However",
+   "Whereas"
+  ],
+  "hint": "concession + noun phrase",
+  "explanation": "'Despite' takes a noun phrase; 'although' needs a clause."
+ },
+ {
+  "sentence": "The hotel is comfortable; ___, it is far too expensive.",
+  "answer": "however",
+  "options": [
+   "however",
+   "therefore",
+   "moreover",
+   "thus"
+  ],
+  "hint": "contrast",
+  "explanation": "'However' marks contrast after a semicolon."
+ },
+ {
+  "sentence": "She took a map ___ she wouldn't get lost.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "in case",
+   "because",
+   "although"
+  ],
+  "hint": "purpose + clause",
+  "explanation": "'So that + subject + would' expresses purpose."
+ },
+ {
+  "sentence": "Take a jumper ___ the evening turns cold.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "so that",
+   "although",
+   "unless"
+  ],
+  "hint": "precaution",
+  "explanation": "'In case' = as a precaution against possibility."
+ },
+ {
+  "sentence": "___ he had studied hard, he failed the exam.",
+  "answer": "Even though",
+  "options": [
+   "Even though",
+   "Because",
+   "Due to",
+   "Owing to"
+  ],
+  "hint": "surprising contrast + clause",
+  "explanation": "'Even though' concedes a full clause; due/owing take noun phrases."
+ },
+ {
+  "sentence": "The lecture was dull; ___, the students stayed awake out of politeness.",
+  "answer": "nevertheless",
+  "options": [
+   "nevertheless",
+   "therefore",
+   "hence",
+   "thus"
+  ],
+  "hint": "contrast, formal",
+  "explanation": "'Nevertheless' = in spite of that."
+ },
+ {
+  "sentence": "I will send the report today ___ you asked for it early.",
+  "answer": "since",
+  "options": [
+   "since",
+   "despite",
+   "unless",
+   "whereas"
+  ],
+  "hint": "reason",
+  "explanation": "'Since' = because, introducing the reason."
+ },
+ {
+  "sentence": "He works as a waiter ___ studying for his degree.",
+  "answer": "while",
+  "options": [
+   "while",
+   "during",
+   "meanwhile",
+   "since"
+  ],
+  "hint": "two simultaneous actions",
+  "explanation": "'While' joins two ongoing actions; 'during' takes a noun."
+ },
+ {
+  "sentence": "___ his age, he still plays football every week.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "However",
+   "Because"
+  ],
+  "hint": "concession + noun phrase",
+  "explanation": "'Despite his age' — noun phrase after despite."
+ },
+ {
+  "sentence": "The plane was delayed; ___, we missed the connection.",
+  "answer": "consequently",
+  "options": [
+   "consequently",
+   "however",
+   "nevertheless",
+   "though"
+  ],
+  "hint": "result",
+  "explanation": "'Consequently' introduces the consequence."
+ },
+ {
+  "sentence": "___ fast you run, the train won't wait for you.",
+  "answer": "However",
+  "options": [
+   "However",
+   "Whatever",
+   "Whenever",
+   "Wherever"
+  ],
+  "hint": "however + adjective/adverb",
+  "explanation": "'However fast' = no matter how fast."
+ },
+ {
+  "sentence": "He went back inside, ___ the danger.",
+  "answer": "despite",
+  "options": [
+   "despite",
+   "although",
+   "whereas",
+   "unless"
+  ],
+  "hint": "concession + noun phrase",
+  "explanation": "'Despite the danger' — noun phrase; although needs a clause."
  }
 ]

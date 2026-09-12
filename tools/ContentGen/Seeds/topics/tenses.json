@@ -1339,5 +1339,149 @@
   ],
   "hint": "always marks a general habit",
   "explanation": "'Always' marks a general habit, which takes the present simple: claps."
+ },
+ {
+  "sentence": "The neighbours ___ the flames with buckets for an hour by the time the firemen arrived.",
+  "answer": "had been fighting",
+  "options": [
+   "had been fighting",
+   "fought",
+   "were fighting",
+   "have fought"
+  ],
+  "hint": "duration before a past point",
+  "explanation": "'For an hour by the time … arrived' — past perfect continuous for duration before a past moment."
+ },
+ {
+  "sentence": "This time next week I ___ across the desert.",
+  "answer": "will be driving",
+  "options": [
+   "will be driving",
+   "will drive",
+   "drive",
+   "am driving"
+  ],
+  "hint": "action in progress at a future time",
+  "explanation": "'This time next week' — future continuous for an ongoing future action."
+ },
+ {
+  "sentence": "The train ___ at six tomorrow morning, as it does every day.",
+  "answer": "leaves",
+  "options": [
+   "leaves",
+   "left",
+   "has left",
+   "was leaving"
+  ],
+  "hint": "timetable",
+  "explanation": "Timetabled events use the present simple."
+ },
+ {
+  "sentence": "She ___ three novels since she retired.",
+  "answer": "has written",
+  "options": [
+   "has written",
+   "wrote",
+   "was writing",
+   "had written"
+  ],
+  "hint": "unfinished period: since",
+  "explanation": "'Since she retired' (up to now) — present perfect."
+ },
+ {
+  "sentence": "When I got home, I realised I ___ my keys at the office.",
+  "answer": "had left",
+  "options": [
+   "had left",
+   "left",
+   "have left",
+   "was leaving"
+  ],
+  "hint": "earlier past action",
+  "explanation": "'Had left' — the leaving happened before the realising."
+ },
+ {
+  "sentence": "The bridge ___ to traffic every year for repainting in May.",
+  "answer": "closes",
+  "options": [
+   "closes",
+   "closed",
+   "has closed",
+   "was closing"
+  ],
+  "hint": "regular, timetabled event",
+  "explanation": "A recurring scheduled event takes the present simple."
+ },
+ {
+  "sentence": "He ___ in the garden when the storm broke.",
+  "answer": "was working",
+  "options": [
+   "was working",
+   "worked",
+   "has worked",
+   "had worked"
+  ],
+  "hint": "interrupted action",
+  "explanation": "An action in progress interrupted by a short event — past continuous."
+ },
+ {
+  "sentence": "We ___ each other since primary school.",
+  "answer": "have known",
+  "options": [
+   "have known",
+   "know",
+   "knew",
+   "are knowing"
+  ],
+  "hint": "state continuing until now",
+  "explanation": "'Since primary school' — present perfect of a state verb."
+ },
+ {
+  "sentence": "By Friday, the court ___ its verdict.",
+  "answer": "will have delivered",
+  "options": [
+   "will have delivered",
+   "will be delivering",
+   "delivers",
+   "delivered"
+  ],
+  "hint": "finished before a future point",
+  "explanation": "'By Friday' — future perfect for completion before a future moment."
+ },
+ {
+  "sentence": "She ___ her laptop repaired twice this year already.",
+  "answer": "has had",
+  "options": [
+   "has had",
+   "had",
+   "is having",
+   "was having"
+  ],
+  "hint": "causative + experience up to now",
+  "explanation": "'Has had it repaired twice this year' — present perfect of causative have."
+ },
+ {
+  "sentence": "No sooner ___ the match kicked off than it started pouring.",
+  "answer": "had",
+  "options": [
+   "had",
+   "has",
+   "did",
+   "was"
+  ],
+  "hint": "no sooner + past perfect",
+  "explanation": "'No sooner had … than …' — past perfect with inversion."
+ },
+ {
+  "sentence": "Look at the time! We ___ discussing one agenda item for an hour.",
+  "answer": "have been",
+  "options": [
+   "have been",
+   "are",
+   "were",
+   "had been"
+  ],
+  "hint": "duration up to now",
+  "explanation": "'For an hour' and still relevant — present perfect continuous."
  }
 ]

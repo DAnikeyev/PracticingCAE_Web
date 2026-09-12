@@ -1471,5 +1471,137 @@
   ],
   "hint": "admit + -ing",
   "explanation": "'Admit doing' — confess to a past action takes the gerund."
+ },
+ {
+  "sentence": "They agreed ___ the deadline by a week.",
+  "answer": "to extend",
+  "options": [
+   "to extend",
+   "extending",
+   "extend",
+   "extended"
+  ],
+  "hint": "agree + to-infinitive",
+  "explanation": "'Agree to do something' takes the to-infinitive."
+ },
+ {
+  "sentence": "She suggested ___ the meeting until Monday.",
+  "answer": "postponing",
+  "options": [
+   "postponing",
+   "to postpone",
+   "postpone",
+   "postponed"
+  ],
+  "hint": "suggest + -ing",
+  "explanation": "'Suggest doing something' — never 'suggest to do'."
+ },
+ {
+  "sentence": "He denied ___ anything wrong.",
+  "answer": "having done",
+  "options": [
+   "having done",
+   "to have done",
+   "to do",
+   "done"
+  ],
+  "hint": "deny + gerund",
+  "explanation": "'Deny doing/having done something' — gerund pattern."
+ },
+ {
+  "sentence": "We can't risk ___ the deadline again.",
+  "answer": "missing",
+  "options": [
+   "missing",
+   "to miss",
+   "miss",
+   "missed"
+  ],
+  "hint": "risk + -ing",
+  "explanation": "'Risk doing something' takes the gerund."
+ },
+ {
+  "sentence": "I'd prefer ___ at home rather than go out tonight.",
+  "answer": "to stay",
+  "options": [
+   "to stay",
+   "stay",
+   "stayed",
+   "to staying"
+  ],
+  "hint": "would prefer + to-infinitive",
+  "explanation": "'Would prefer to do … rather than do'."
+ },
+ {
+  "sentence": "She keeps ___ about the exam results.",
+  "answer": "asking",
+  "options": [
+   "asking",
+   "to ask",
+   "ask",
+   "asked"
+  ],
+  "hint": "keep + -ing",
+  "explanation": "'Keep doing something' = repeat an action."
+ },
+ {
+  "sentence": "It was kind of them ___ us a lift to the station.",
+  "answer": "to give",
+  "options": [
+   "to give",
+   "giving",
+   "give",
+   "given"
+  ],
+  "hint": "adjective + to-infinitive",
+  "explanation": "'It was kind of them to give …' — to-infinitive after the adjective."
+ },
+ {
+  "sentence": "We stopped ___ something to eat at the motorway services.",
+  "answer": "to get",
+  "options": [
+   "to get",
+   "getting",
+   "get",
+   "got"
+  ],
+  "hint": "stop in order to",
+  "explanation": "'Stopped to get' = paused for the purpose; 'stopped getting' would mean quit eating."
+ },
+ {
+  "sentence": "The children were excited ___ the circus.",
+  "answer": "to see",
+  "options": [
+   "to see",
+   "see",
+   "saw",
+   "seen"
+  ],
+  "hint": "excited + to-infinitive",
+  "explanation": "'Excited to see' — the to-infinitive follows the adjective."
+ },
+ {
+  "sentence": "He apologised for ___ so rude to the waiter.",
+  "answer": "being",
+  "options": [
+   "being",
+   "to be",
+   "be",
+   "been"
+  ],
+  "hint": "preposition + gerund",
+  "explanation": "'Apologise for being' — 'for' is a preposition, so the gerund follows."
+ },
+ {
+  "sentence": "I look forward to ___ you at the reunion.",
+  "answer": "seeing",
+  "options": [
+   "seeing",
+   "see",
+   "to see",
+   "saw"
+  ],
+  "hint": "look forward to + -ing",
+  "explanation": "'To' is a preposition here, so the gerund follows."
  }
 ]
