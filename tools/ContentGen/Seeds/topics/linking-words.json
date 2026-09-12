@@ -1,116 +1,1370 @@
 [
- {"sentence":"___ the traffic was terrible, we arrived on time.","answer":"Although","options":["Although","Despite","In spite of","However"],"hint":"clause after the linker","explanation":"'Although' introduces a clause with subject and verb. Despite/in spite of need a noun or -ing form."},
- {"sentence":"___ the heavy traffic, we arrived on time.","answer":"Despite","options":["Despite","Although","Even though","Though"],"hint":"noun phrase after the linker","explanation":"'Despite' is followed by a noun or -ing form, never a finite clause."},
- {"sentence":"___ feeling nervous, she delivered a flawless presentation.","answer":"In spite of","options":["In spite of","Although","Even though","Because"],"hint":"-ing form after the gap","explanation":"'In spite of' + -ing expresses concession with a non-finite form."},
- {"sentence":"___ she felt nervous, she delivered a flawless speech.","answer":"Even though","options":["Even though","Despite","In spite of","Owing to"],"hint":"finite clause of concession","explanation":"'Even though' introduces a full clause and is stronger than although."},
- {"sentence":"The match went ahead ___ the pouring rain.","answer":"despite","options":["despite","although","even though","however"],"hint":"noun phrase follows","explanation":"Despite + noun phrase; 'although the rain' would need a clause (although it was raining)."},
- {"sentence":"___ the fact that the evidence was thin, the jury convicted him.","answer":"Despite","options":["Despite","Although","Whereas","Because"],"hint":"fixed phrase with 'the fact that'","explanation":"'Despite the fact that + clause' converts a clause into the noun phrase that despite requires."},
- {"sentence":"I enjoyed the film; the ending was weak, ___.","answer":"though","options":["though","despite","although","in spite of"],"hint":"sentence-final concession","explanation":"'Though' can come at the end of a sentence as a casual contrast marker; the others cannot."},
- {"sentence":"___ being the youngest competitor, she won the gold medal.","answer":"Despite","options":["Despite","Although","Even though","Whereas"],"hint":"-ing after the gap","explanation":"'Despite being...' is the standard concessive pattern with a gerund."},
- {"sentence":"We went for a long walk ___ it was drizzling.","answer":"even though","options":["even though","despite","in spite of","because of"],"hint":"full clause follows","explanation":"Only the conjunction 'even though' can introduce the finite clause 'it was drizzling'."},
- {"sentence":"___ his impressive qualifications, he wasn't even shortlisted.","answer":"Despite","options":["Despite","Although","Even though","Whereas"],"hint":"noun phrase follows","explanation":"'Despite' + noun phrase (his impressive qualifications)."},
- {"sentence":"___ her age, she still runs marathons.","answer":"In spite of","options":["In spite of","Although","Even though","However"],"hint":"short noun phrase","explanation":"'In spite of' + noun (her age); the conjunctions would need a clause."},
- {"sentence":"___ they promise rapid results, such diets rarely work.","answer":"Although","options":["Although","Despite","Because of","In spite"],"hint":"finite clause follows","explanation":"'Although' introduces the clause 'they promise rapid results'."},
- {"sentence":"The plan was expensive; ___, the board approved it.","answer":"nevertheless","options":["nevertheless","therefore","consequently","hence"],"hint":"contrast, not consequence","explanation":"The approval happens in spite of the cost: nevertheless signals concession."},
- {"sentence":"The road was blocked; ___, we took the long route through the hills.","answer":"therefore","options":["therefore","nevertheless","nonetheless","even so"],"hint":"cause and result","explanation":"The blocked road caused the detour: 'therefore' signals consequence."},
- {"sentence":"He was warned repeatedly; ___, he ignored every safety rule.","answer":"nevertheless","options":["nevertheless","therefore","consequently","hence"],"hint":"action against expectation","explanation":"He ignored the warnings despite receiving them: nevertheless marks that contrast."},
- {"sentence":"Demand for the vaccine soared; ___, production was doubled.","answer":"consequently","options":["consequently","nevertheless","nonetheless","however"],"hint":"result linker","explanation":"Soaring demand led to increased production: consequently marks the result."},
- {"sentence":"The results were inconclusive. ___, the team repeated the whole experiment.","answer":"Therefore","options":["Therefore","Nevertheless","Nonetheless","Even so"],"hint":"logical consequence","explanation":"The inconclusive results caused the repetition: Therefore is the only result linker."},
- {"sentence":"The hotel was fully booked. ___, we found a room at a guesthouse nearby.","answer":"However","options":["However","Therefore","Consequently","Thus"],"hint":"contrast with expectation","explanation":"Finding a room contradicts the expected failure: However signals the contrast."},
- {"sentence":"She missed the deadline; ___, her application was rejected.","answer":"as a result","options":["as a result","nevertheless","even so","still"],"hint":"direct consequence","explanation":"Missing the deadline caused the rejection: as a result introduces the outcome."},
- {"sentence":"It was pouring with rain. ___, the open-air concert went ahead.","answer":"Nevertheless","options":["Nevertheless","Consequently","Therefore","Accordingly"],"hint":"against expectation","explanation":"The concert happened despite the rain: Nevertheless is concessive."},
- {"sentence":"Sales fell sharply last quarter; ___, the board cut the dividend.","answer":"as a result","options":["as a result","however","nevertheless","nonetheless"],"hint":"business consequence","explanation":"The fall in sales caused the cut: as a result marks the consequence."},
- {"sentence":"I know exactly what the risks are. ___, I'm going anyway.","answer":"Nonetheless","options":["Nonetheless","Therefore","Consequently","Accordingly"],"hint":"doing it in spite of risk","explanation":"'Anyway' confirms concession: Nonetheless means 'despite that'."},
- {"sentence":"The flat is spacious and well located; ___, the rent is surprisingly low.","answer":"moreover","options":["moreover","however","nevertheless","conversely"],"hint":"adding a further good point","explanation":"'Moreover' adds another supporting point in the same direction."},
- {"sentence":"The drug is remarkably effective. ___, it has almost no side effects.","answer":"Furthermore","options":["Furthermore","However","Nevertheless","On the contrary"],"hint":"adding an extra advantage","explanation":"'Furthermore' introduces an additional point supporting the same claim."},
- {"sentence":"___ his salary, he earns royalties from three textbooks.","answer":"In addition to","options":["In addition to","In spite of","Because of","According to"],"hint":"preposition + noun","explanation":"'In addition to + noun' adds one source of income to another."},
- {"sentence":"I can't afford a holiday this year; ___, I can't get the time off work.","answer":"besides","options":["besides","however","therefore","consequently"],"hint":"informal extra reason","explanation":"'Besides' adds a further, often decisive, reason in informal style."},
- {"sentence":"The scheme creates hundreds of jobs. ___, it attracts tourism to the region.","answer":"In addition","options":["In addition","In contrast","Instead","Otherwise"],"hint":"simple addition","explanation":"'In addition' introduces another benefit of the scheme."},
- {"sentence":"The essay was submitted late and, ___, it ignored the brief entirely.","answer":"what is more","options":["what is more","however","nevertheless","whereas"],"hint":"adding a worse point","explanation":"'What is more' adds a further, stronger point to an already negative picture."},
- {"sentence":"She speaks fluent Mandarin; ___, she reads classical Chinese.","answer":"moreover","options":["moreover","otherwise","meanwhile","instead"],"hint":"impressive addition","explanation":"'Moreover' adds a further, even more remarkable achievement."},
- {"sentence":"___ being remarkably fast, the new chip consumes far less power.","answer":"Besides","options":["Besides","Although","Despite of","However"],"hint":"'Besides' + -ing","explanation":"'Besides + -ing' adds a further advantage; 'despite of' does not exist."},
- {"sentence":"My sister is terribly reserved, ___ I'll talk to complete strangers.","answer":"whereas","options":["whereas","therefore","moreover","despite"],"hint":"comparing two people","explanation":"'Whereas' contrasts two parallel facts: her nature versus mine."},
- {"sentence":"___ most thrillers, the film reveals the killer in the opening scene.","answer":"Unlike","options":["Unlike","Although","Whereas","Despite"],"hint":"preposition of contrast","explanation":"'Unlike + noun phrase' marks difference from a general category."},
- {"sentence":"___ the north coast is rocky, the southern beaches are soft golden sand.","answer":"While","options":["While","Unlike","Despite","However"],"hint":"concessive/contrastive while","explanation":"'While' can contrast two clauses in a single sentence."},
- {"sentence":"British houses usually have gardens, ___ flats in Spain often have balconies.","answer":"whereas","options":["whereas","therefore","thus","hence"],"hint":"cross-cultural contrast","explanation":"'Whereas' links two contrasting general statements."},
- {"sentence":"___ her brother, she took to skiing almost immediately.","answer":"Unlike","options":["Unlike","While","Although","However"],"hint":"contrast with a person","explanation":"'Unlike + noun' is a preposition phrase contrasting two people."},
- {"sentence":"The old system charged per download, ___ the new one uses a flat monthly fee.","answer":"whereas","options":["whereas","consequently","moreover","as a result"],"hint":"two contrasting systems","explanation":"'Whereas' sets the old and new systems side by side."},
- {"sentence":"___ I thoroughly enjoyed the novel, the sequel left me cold.","answer":"While","options":["While","Unlike","Despite","Because"],"hint":"concessive while","explanation":"Concessive 'while' = although, introducing the clause of concession."},
- {"sentence":"In Sweden the shops close early, ___ in Spain they stay open until ten.","answer":"whereas","options":["whereas","otherwise","therefore","instead"],"hint":"comparing countries","explanation":"'Whereas' contrasts parallel facts about two countries."},
- {"sentence":"She kept every receipt ___ she could claim the expenses back.","answer":"so that","options":["so that","in case","although","unless"],"hint":"purpose with a modal","explanation":"'So that + could' expresses purpose; 'in case' expresses precaution."},
- {"sentence":"Take a map ___ you get lost in the backstreets.","answer":"in case","options":["in case","so that","although","unless"],"hint":"precaution against a risk","explanation":"'In case' = as a precaution against something that might happen."},
- {"sentence":"He whispered ___ the children wouldn't hear.","answer":"so that","options":["so that","in case","if","unless"],"hint":"negative purpose","explanation":"'So that + wouldn't' expresses intended (here negative) purpose."},
- {"sentence":"Leave for the airport early ___ the traffic is bad again.","answer":"in case","options":["in case","so that","although","whereas"],"hint":"possible future problem","explanation":"'In case' prepares for a possibility: the traffic might be bad."},
- {"sentence":"I noted down the reference number ___ I needed it later.","answer":"in case","options":["in case","so that","unless","though"],"hint":"just in case it proved necessary","explanation":"'In case' = because it might be needed later; no purpose is intended."},
- {"sentence":"___ you finish early, come and give us a hand.","answer":"If","options":["If","In case","Despite","Whereas"],"hint":"open condition","explanation":"'If' introduces a real condition; 'in case' would change the meaning to precaution."},
- {"sentence":"She spoke slowly and clearly ___ everyone could follow her argument.","answer":"so that","options":["so that","in case","even if","as if"],"hint":"intended result","explanation":"'So that + could' links the manner of speaking to its purpose."},
- {"sentence":"Insure the camera ___ it gets damaged in transit.","answer":"in case","options":["in case","so that","unless","provided"],"hint":"precaution","explanation":"'In case it gets damaged' = as a precaution against damage."},
- {"sentence":"___ you book soon, there won't be any seats left.","answer":"Unless","options":["Unless","If","Although","In case"],"hint":"negative condition = if...not","explanation":"'Unless' means 'if... not': if you don't book soon, no seats."},
- {"sentence":"You can borrow the car ___ you fill the tank afterwards.","answer":"as long as","options":["as long as","unless","in case","despite"],"hint":"condition with 'on condition that' feel","explanation":"'As long as' = only if, setting a requirement for permission."},
- {"sentence":"___ the weather improves, the crossing will be cancelled.","answer":"Unless","options":["Unless","Provided","Even though","Whereas"],"hint":"negative condition","explanation":"Unless = if the weather doesn't improve — matching the cancellation."},
- {"sentence":"The expedition will go ahead ___ the sponsors confirm the funding.","answer":"provided that","options":["provided that","unless","in case","whereas"],"hint":"positive condition","explanation":"'Provided that' = only if, a formal positive condition."},
- {"sentence":"I'll tell you everything ___ you promise to keep it between us.","answer":"as long as","options":["as long as","unless","whether","though"],"hint":"conditional promise","explanation":"'As long as' sets the condition attached to the promise."},
- {"sentence":"___ he apologises, I'm not speaking to him again.","answer":"Unless","options":["Unless","As long as","Provided","If"],"hint":"if he doesn't apologise","explanation":"'Unless' = if he does not apologise; the main clause states the default outcome."},
- {"sentence":"You can stay up late tonight ___ it's a school night tomorrow.","answer":"unless","options":["unless","if","in case","although"],"hint":"exception condition","explanation":"'Unless it's a school night' = if it isn't a school night."},
- {"sentence":"___ both parties agree, the contract can be terminated early.","answer":"Provided","options":["Provided","Unless","In case","Despite"],"hint":"formal condition","explanation":"'Provided (that)' introduces the formal condition for early termination."},
- {"sentence":"The flight was delayed ___ thick fog.","answer":"because of","options":["because of","although","despite","so that"],"hint":"preposition + noun","explanation":"'Because of' + noun phrase gives the cause; although/despite express contrast."},
- {"sentence":"___ a staffing shortage, the clinic closed early.","answer":"Due to","options":["Due to","Although","Despite","However"],"hint":"formal cause + noun","explanation":"'Due to + noun phrase' states the cause in formal register."},
- {"sentence":"The match was abandoned ___ the state of the pitch.","answer":"owing to","options":["owing to","although","even though","whereas"],"hint":"formal cause","explanation":"'Owing to + noun' = because of, common in formal reporting."},
- {"sentence":"___ the strike, trains will run a reduced service all week.","answer":"Because of","options":["Because of","Even though","Despite","Whereas"],"hint":"cause + noun phrase","explanation":"'Because of the strike' gives the reason for the reduced service."},
- {"sentence":"She resigned ___ personal reasons.","answer":"due to","options":["due to","despite","although","whereas"],"hint":"set phrase with 'reasons'","explanation":"'Due to personal reasons' is the standard collocation for giving a cause."},
- {"sentence":"___ heavy demand, tickets are limited to four per person.","answer":"Owing to","options":["Owing to","Whereas","Although","Even"],"hint":"cause in a formal notice","explanation":"'Owing to + noun' introduces the cause in announcements and notices."},
- {"sentence":"He lowered his voice ___ wake the baby.","answer":"so as not to","options":["so as not to","so as to","for not","so that not"],"hint":"negative purpose","explanation":"Negative purpose = so as not to / in order not to + infinitive."},
- {"sentence":"She took an evening job ___ fund her law degree.","answer":"in order to","options":["in order to","in order that","for to","as to"],"hint":"purpose + infinitive","explanation":"'In order to' + bare infinitive expresses purpose after a noun phrase subject."},
- {"sentence":"___ keep the audience engaged, the lecturer used live demonstrations.","answer":"In order to","options":["In order to","In spite of","Instead of","Owing to"],"hint":"fronted purpose","explanation":"Fronted 'In order to + infinitive' states the purpose of the action."},
- {"sentence":"The delegates arrived early ___ have time to network.","answer":"so as to","options":["so as to","so as not to","for have","in order that"],"hint":"positive purpose","explanation":"'So as to + infinitive' = in order to, a formal purpose linker."},
- {"sentence":"Please complete the form in block capitals ___ it can be read easily.","answer":"so that","options":["so that","so as to","in order to","for"],"hint":"purpose + full clause","explanation":"'So that' introduces a clause with subject and modal; so as to/in order to need an infinitive."},
- {"sentence":"___ was the meal exquisite, but the service was impeccable too.","answer":"Not only","options":["Not only","Hardly","Seldom","No sooner"],"hint":"correlative + inversion","explanation":"'Not only' at the front triggers inversion (Not only was...) and pairs with 'but also'."},
- {"sentence":"The course offers not only theory ___ hands-on fieldwork.","answer":"but also","options":["but also","and also","but too","as well"],"hint":"correlative pair","explanation":"'Not only... but also' is the fixed correlative pair."},
- {"sentence":"Not only ___ the tickets cost more, but they sold out in minutes.","answer":"did","options":["did","were","had","have"],"hint":"inversion after 'not only'","explanation":"After fronted 'Not only', auxiliary inversion applies: Not only did the tickets cost more."},
- {"sentence":"She is not only a gifted violinist ___ a composer of some note.","answer":"but also","options":["but also","and also","or else","but as well"],"hint":"linking two noun phrases","explanation":"'Not only A but also B' joins the two parallel noun phrases."},
- {"sentence":"___ did he apologise, but he also refunded the full amount.","answer":"Not only","options":["Not only","Rarely","Little","Either"],"hint":"inversion + 'but also'","explanation":"'Not only did he..., but he also...' is the correlative pattern with inversion."},
- {"sentence":"___ had we sat down than the phone rang.","answer":"No sooner","options":["No sooner","Hardly","Scarcely","Rarely"],"hint":"...than","explanation":"'No sooner' pairs with 'than'; hardly/scarcely pair with 'when'."},
- {"sentence":"Hardly had we arrived ___ the storm broke.","answer":"when","options":["when","than","that","then"],"hint":"hardly + ...","explanation":"'Hardly... when' is the fixed pair for one event interrupting another."},
- {"sentence":"No sooner had the applause died ___ the encore began.","answer":"than","options":["than","when","that","then"],"hint":"no sooner + ...","explanation":"'No sooner... than' is invariable; 'when' would be wrong here."},
- {"sentence":"Scarcely had she opened the letter ___ she burst into tears.","answer":"when","options":["when","than","that","since"],"hint":"scarcely + ...","explanation":"'Scarcely... when' marks the immediate consequence of the first event."},
- {"sentence":"___ had I closed my eyes than the alarm went off.","answer":"No sooner","options":["No sooner","Hardly","Barely","Scarcely"],"hint":"check the second half","explanation":"The 'than' in the sentence forces 'No sooner', the only linker paired with than."},
- {"sentence":"He had hardly stepped off the plane ___ he was rushed into a meeting.","answer":"when","options":["when","than","that","until"],"hint":"hardly... when","explanation":"'Hardly... when' — no sooner would require 'than'."},
- {"sentence":"___ it rains all weekend, the ceremony will still be held outdoors.","answer":"Even if","options":["Even if","Even though","Despite","Because"],"hint":"hypothetical concession","explanation":"'Even if' concedes a possible (not yet real) condition."},
- {"sentence":"___ she was utterly exhausted, she stayed to help clear up.","answer":"Even though","options":["Even though","Even if","In case","Unless"],"hint":"real fact of concession","explanation":"'Even though' concedes a known fact: she was exhausted and still stayed."},
- {"sentence":"I'll take the job ___ they don't offer me any more money.","answer":"even if","options":["even if","even though","despite","whereas"],"hint":"conceding a possibility","explanation":"'Even if' concedes a future possibility that will not change the decision."},
- {"sentence":"___ the theory is elegant, the data simply don't support it.","answer":"Even though","options":["Even though","Even if","In case","As if"],"hint":"acknowledged fact","explanation":"'Even though' grants the fact (the theory is elegant) before contradicting it."},
- {"sentence":"We'd have held the wedding in the garden ___ it had poured with rain.","answer":"even if","options":["even if","even though","despite","whereas"],"hint":"past hypothetical","explanation":"'Even if + past perfect' concedes a hypothetical condition in the past."},
- {"sentence":"He talks ___ he owned the place.","answer":"as if","options":["as if","so that","even if","in case"],"hint":"manner comparison","explanation":"'As if/though + past' describes behaviour contrary to fact (he doesn't own it)."},
- {"sentence":"She looked ___ she hadn't slept for a week.","answer":"as though","options":["as though","so that","unless","whereas"],"hint":"appearance","explanation":"'As though' = as if, describing how somebody appears."},
- {"sentence":"They behaved ___ nothing at all had happened.","answer":"as if","options":["as if","so that","even though","provided"],"hint":"unreal comparison","explanation":"'As if + past perfect' signals that the comparison is contrary to fact."},
- {"sentence":"It sounds ___ the negotiations are close to a breakthrough.","answer":"as though","options":["as though","in case","even if","unless"],"hint":"how it sounds","explanation":"'It sounds as though...' reports an impression."},
- {"sentence":"He spends money ___ it grew on trees.","answer":"as if","options":["as if","so that","because of","instead of"],"hint":"imaginary comparison","explanation":"'As if it grew on trees' — the unreal comparison justifies the criticism."},
- {"sentence":"___ one misplaced comma, the essay is flawless.","answer":"Apart from","options":["Apart from","Instead of","Whereas","Even if"],"hint":"exception","explanation":"'Apart from' = except for, introducing the single exception."},
- {"sentence":"___ the price, the location is absolutely perfect.","answer":"Apart from","options":["Apart from","Because of","Owing to","Whereas"],"hint":"one drawback","explanation":"'Apart from the price' = the only negative in an otherwise positive description."},
- {"sentence":"Nobody volunteered to stay late, ___ Tomas.","answer":"apart from","options":["apart from","instead of","unless","as if"],"hint":"sole exception","explanation":"'Apart from Tomas' = except for Tomas, the only person who volunteered."},
- {"sentence":"___ a slight delay in Rome, the whole journey went smoothly.","answer":"Apart from","options":["Apart from","Due to","Instead of","Even though"],"hint":"exception to a positive whole","explanation":"'Apart from' sets the delay aside as the only problem."},
- {"sentence":"___ complaining about the problem, why not suggest a solution?","answer":"Instead of","options":["Instead of","Apart from","Due to","Even if"],"hint":"substitution + -ing","explanation":"'Instead of + -ing' contrasts one behaviour with a preferable alternative."},
- {"sentence":"We took the coast road ___ the motorway to enjoy the views.","answer":"instead of","options":["instead of","apart from","as well as","because of"],"hint":"choosing one, not the other","explanation":"'Instead of + noun' marks the rejected alternative."},
- {"sentence":"She has decided to cycle to work ___ taking the bus.","answer":"instead of","options":["instead of","despite","whereas","unless"],"hint":"replacement","explanation":"'Instead of + -ing' = in place of the bus journey."},
- {"sentence":"___ answering my question directly, he changed the subject.","answer":"Instead of","options":["Instead of","Owing to","In case","Even though"],"hint":"what he failed to do","explanation":"'Instead of + -ing' highlights the action that did not happen."},
- {"sentence":"The scheme is costly; on the ___ hand, it would create hundreds of jobs.","answer":"other","options":["other","contrary","second","opposite"],"hint":"fixed phrase for balancing","explanation":"'On the other hand' balances a drawback against an advantage."},
- {"sentence":"The treatment doesn't weaken patients; ___, it speeds up their recovery.","answer":"on the contrary","options":["on the contrary","on the other hand","in contrast","instead"],"hint":"denying the first claim","explanation":"'On the contrary' asserts the opposite of what was just said."},
- {"sentence":"City rents are crippling. In the countryside, ___, property is far cheaper.","answer":"on the other hand","options":["on the other hand","on the contrary","moreover","therefore"],"hint":"shifting to the other side","explanation":"'On the other hand' moves to a contrasting (not opposite) situation."},
- {"sentence":"He is far from lazy; ___, he trains six hours a day.","answer":"on the contrary","options":["on the contrary","on the other hand","whereas","in case"],"hint":"stronger than expected","explanation":"'On the contrary' rejects the description and states the reverse, more strongly."},
- {"sentence":"The prototype is undeniably elegant; it is, ___, hopelessly impractical.","answer":"on the other hand","options":["on the other hand","on the contrary","moreover","likewise"],"hint":"weighing up pros and cons","explanation":"'On the other hand' concedes elegance while introducing the drawback."},
- {"sentence":"Far from resenting the changes, the staff welcomed them; ___, productivity rose.","answer":"moreover","options":["moreover","on the contrary","even so","in case"],"hint":"adding a further point","explanation":"Rising productivity is an additional point in the same direction: moreover."},
- {"sentence":"___, preheat the oven to 180 degrees.","answer":"Firstly","options":["Firstly","Eventually","Finally","At the end"],"hint":"ordering a sequence","explanation":"'Firstly' opens a sequence of instructions; eventually/finally close one."},
- {"sentence":"After years of setbacks, the tunnel was ___ completed in 2019.","answer":"eventually","options":["eventually","firstly","initially","at first"],"hint":"after a long time","explanation":"'Eventually' = in the end, after a long delay or difficulty."},
- {"sentence":"___, I'd like to thank the volunteers who worked behind the scenes.","answer":"Finally","options":["Finally","Firstly","Eventually","At first"],"hint":"closing a speech","explanation":"'Finally' introduces the last point of a list or speech."},
- {"sentence":"___ the investors backed the plan enthusiastically, but they withdrew after the scandal.","answer":"Initially","options":["Initially","Eventually","Finally","Lastly"],"hint":"at the start, not the end","explanation":"'Initially' contrasts the early support with the later withdrawal."},
- {"sentence":"The negotiations dragged on for months, but they ___ collapsed.","answer":"eventually","options":["eventually","initially","firstly","at first"],"hint":"in the end","explanation":"'Eventually' signals the outcome after much delay."},
- {"sentence":"___ the fact that the road was icy, the bus kept its usual speed.","answer":"Despite","options":["Despite","Although","However","Whereas"],"hint":"despite + the fact that","explanation":"'Despite the fact that + clause' concedes a full clause after a preposition."},
- {"sentence":"He passed the oral exam ___ the fact that he had barely revised.","answer":"despite","options":["despite","although","because","so"],"hint":"preposition needed","explanation":"'The fact that' turns the clause into a noun phrase, which 'despite' requires."},
- {"sentence":"___ the fact that costs had doubled, the project was allowed to continue.","answer":"Despite","options":["Despite","Even though","Whereas","Due to"],"hint":"concession phrase","explanation":"'Despite the fact that' = although, in a more formal wrapper."},
- {"sentence":"The festival went ahead ___ the fact that both headliners had cancelled.","answer":"despite","options":["despite","although","owing to","because of"],"hint":"not a cause but a concession","explanation":"The festival happened in spite of the cancellations: despite, not because of."},
- {"sentence":"The economy has strengthened; ___, unemployment keeps rising.","answer":"however","options":["however","therefore","consequently","thus"],"hint":"counter-expectation","explanation":"Rising unemployment goes against the positive trend: however marks the contrast."},
- {"sentence":"The lab results are promising. ___, large-scale trials are still needed.","answer":"That said","options":["That said","Because","So that","Due to"],"hint":"conceding a limitation","explanation":"'That said' = nevertheless, conceding a reservation after a positive statement."},
- {"sentence":"She earns a very good salary; ___, she never seems to have any money.","answer":"yet","options":["yet","so","thus","hence"],"hint":"single-word contrast","explanation":"'Yet' contrasts two facts, like but, in a slightly more formal way."},
- {"sentence":"He didn't whisper the news; ___, he announced it to the whole office.","answer":"on the contrary","options":["on the contrary","on the other hand","moreover","likewise"],"hint":"the opposite happened","explanation":"'On the contrary' corrects the first statement with its opposite."},
- {"sentence":"I'd rather cycle ___ wait twenty minutes for an unreliable bus.","answer":"than","options":["than","instead of","apart from","unless"],"hint":"would rather... ...","explanation":"'Would rather... than...' is the fixed pattern for preferences."}
+ {
+  "sentence": "___ the traffic was terrible, we arrived on time.",
+  "answer": "Although",
+  "options": [
+   "Although",
+   "Despite",
+   "In spite of",
+   "However"
+  ],
+  "hint": "clause after the linker",
+  "explanation": "'Although' introduces a clause with subject and verb. Despite/in spite of need a noun or -ing form."
+ },
+ {
+  "sentence": "___ the heavy traffic, we arrived on time.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "Even though",
+   "Though"
+  ],
+  "hint": "noun phrase after the linker",
+  "explanation": "'Despite' is followed by a noun or -ing form, never a finite clause."
+ },
+ {
+  "sentence": "___ feeling nervous, she delivered a flawless presentation.",
+  "answer": "In spite of",
+  "options": [
+   "In spite of",
+   "Although",
+   "Even though",
+   "Because"
+  ],
+  "hint": "-ing form after the gap",
+  "explanation": "'In spite of' + -ing expresses concession with a non-finite form."
+ },
+ {
+  "sentence": "___ she felt nervous, she delivered a flawless speech.",
+  "answer": "Even though",
+  "options": [
+   "Even though",
+   "Despite",
+   "In spite of",
+   "Owing to"
+  ],
+  "hint": "finite clause of concession",
+  "explanation": "'Even though' introduces a full clause and is stronger than although."
+ },
+ {
+  "sentence": "The match went ahead ___ the pouring rain.",
+  "answer": "despite",
+  "options": [
+   "despite",
+   "although",
+   "even though",
+   "however"
+  ],
+  "hint": "noun phrase follows",
+  "explanation": "Despite + noun phrase; 'although the rain' would need a clause (although it was raining)."
+ },
+ {
+  "sentence": "___ the fact that the evidence was thin, the jury convicted him.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "Whereas",
+   "Because"
+  ],
+  "hint": "fixed phrase with 'the fact that'",
+  "explanation": "'Despite the fact that + clause' converts a clause into the noun phrase that despite requires."
+ },
+ {
+  "sentence": "I enjoyed the film; the ending was weak, ___.",
+  "answer": "though",
+  "options": [
+   "though",
+   "despite",
+   "although",
+   "in spite of"
+  ],
+  "hint": "sentence-final concession",
+  "explanation": "'Though' can come at the end of a sentence as a casual contrast marker; the others cannot."
+ },
+ {
+  "sentence": "___ being the youngest competitor, she won the gold medal.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "Even though",
+   "Whereas"
+  ],
+  "hint": "-ing after the gap",
+  "explanation": "'Despite being...' is the standard concessive pattern with a gerund."
+ },
+ {
+  "sentence": "We went for a long walk ___ it was drizzling.",
+  "answer": "even though",
+  "options": [
+   "even though",
+   "despite",
+   "in spite of",
+   "because of"
+  ],
+  "hint": "full clause follows",
+  "explanation": "Only the conjunction 'even though' can introduce the finite clause 'it was drizzling'."
+ },
+ {
+  "sentence": "___ his impressive qualifications, he wasn't even shortlisted.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "Even though",
+   "Whereas"
+  ],
+  "hint": "noun phrase follows",
+  "explanation": "'Despite' + noun phrase (his impressive qualifications)."
+ },
+ {
+  "sentence": "___ her age, she still runs marathons.",
+  "answer": "In spite of",
+  "options": [
+   "In spite of",
+   "Although",
+   "Even though",
+   "However"
+  ],
+  "hint": "short noun phrase",
+  "explanation": "'In spite of' + noun (her age); the conjunctions would need a clause."
+ },
+ {
+  "sentence": "___ they promise rapid results, such diets rarely work.",
+  "answer": "Although",
+  "options": [
+   "Although",
+   "Despite",
+   "Because of",
+   "In spite"
+  ],
+  "hint": "finite clause follows",
+  "explanation": "'Although' introduces the clause 'they promise rapid results'."
+ },
+ {
+  "sentence": "The plan was expensive; ___, the board approved it.",
+  "answer": "nevertheless",
+  "options": [
+   "nevertheless",
+   "therefore",
+   "consequently",
+   "hence"
+  ],
+  "hint": "contrast, not consequence",
+  "explanation": "The approval happens in spite of the cost: nevertheless signals concession."
+ },
+ {
+  "sentence": "The road was blocked; ___, we took the long route through the hills.",
+  "answer": "therefore",
+  "options": [
+   "therefore",
+   "nevertheless",
+   "nonetheless",
+   "even so"
+  ],
+  "hint": "cause and result",
+  "explanation": "The blocked road caused the detour: 'therefore' signals consequence."
+ },
+ {
+  "sentence": "He was warned repeatedly; ___, he ignored every safety rule.",
+  "answer": "nevertheless",
+  "options": [
+   "nevertheless",
+   "therefore",
+   "consequently",
+   "hence"
+  ],
+  "hint": "action against expectation",
+  "explanation": "He ignored the warnings despite receiving them: nevertheless marks that contrast."
+ },
+ {
+  "sentence": "Demand for the vaccine soared; ___, production was doubled.",
+  "answer": "consequently",
+  "options": [
+   "consequently",
+   "nevertheless",
+   "nonetheless",
+   "however"
+  ],
+  "hint": "result linker",
+  "explanation": "Soaring demand led to increased production: consequently marks the result."
+ },
+ {
+  "sentence": "The results were inconclusive. ___, the team repeated the whole experiment.",
+  "answer": "Therefore",
+  "options": [
+   "Therefore",
+   "Nevertheless",
+   "Nonetheless",
+   "Even so"
+  ],
+  "hint": "logical consequence",
+  "explanation": "The inconclusive results caused the repetition: Therefore is the only result linker."
+ },
+ {
+  "sentence": "The hotel was fully booked. ___, we found a room at a guesthouse nearby.",
+  "answer": "However",
+  "options": [
+   "However",
+   "Therefore",
+   "Consequently",
+   "Thus"
+  ],
+  "hint": "contrast with expectation",
+  "explanation": "Finding a room contradicts the expected failure: However signals the contrast."
+ },
+ {
+  "sentence": "She missed the deadline; ___, her application was rejected.",
+  "answer": "as a result",
+  "options": [
+   "as a result",
+   "nevertheless",
+   "even so",
+   "still"
+  ],
+  "hint": "direct consequence",
+  "explanation": "Missing the deadline caused the rejection: as a result introduces the outcome."
+ },
+ {
+  "sentence": "It was pouring with rain. ___, the open-air concert went ahead.",
+  "answer": "Nevertheless",
+  "options": [
+   "Nevertheless",
+   "Consequently",
+   "Therefore",
+   "Accordingly"
+  ],
+  "hint": "against expectation",
+  "explanation": "The concert happened despite the rain: Nevertheless is concessive."
+ },
+ {
+  "sentence": "Sales fell sharply last quarter; ___, the board cut the dividend.",
+  "answer": "as a result",
+  "options": [
+   "as a result",
+   "however",
+   "nevertheless",
+   "nonetheless"
+  ],
+  "hint": "business consequence",
+  "explanation": "The fall in sales caused the cut: as a result marks the consequence."
+ },
+ {
+  "sentence": "I know exactly what the risks are. ___, I'm going anyway.",
+  "answer": "Nonetheless",
+  "options": [
+   "Nonetheless",
+   "Therefore",
+   "Consequently",
+   "Accordingly"
+  ],
+  "hint": "doing it in spite of risk",
+  "explanation": "'Anyway' confirms concession: Nonetheless means 'despite that'."
+ },
+ {
+  "sentence": "The flat is spacious and well located; ___, the rent is surprisingly low.",
+  "answer": "moreover",
+  "options": [
+   "moreover",
+   "however",
+   "nevertheless",
+   "conversely"
+  ],
+  "hint": "adding a further good point",
+  "explanation": "'Moreover' adds another supporting point in the same direction."
+ },
+ {
+  "sentence": "The drug is remarkably effective. ___, it has almost no side effects.",
+  "answer": "Furthermore",
+  "options": [
+   "Furthermore",
+   "However",
+   "Nevertheless",
+   "On the contrary"
+  ],
+  "hint": "adding an extra advantage",
+  "explanation": "'Furthermore' introduces an additional point supporting the same claim."
+ },
+ {
+  "sentence": "___ his salary, he earns royalties from three textbooks.",
+  "answer": "In addition to",
+  "options": [
+   "In addition to",
+   "In spite of",
+   "Because of",
+   "According to"
+  ],
+  "hint": "preposition + noun",
+  "explanation": "'In addition to + noun' adds one source of income to another."
+ },
+ {
+  "sentence": "I can't afford a holiday this year; ___, I can't get the time off work.",
+  "answer": "besides",
+  "options": [
+   "besides",
+   "however",
+   "therefore",
+   "consequently"
+  ],
+  "hint": "informal extra reason",
+  "explanation": "'Besides' adds a further, often decisive, reason in informal style."
+ },
+ {
+  "sentence": "The scheme creates hundreds of jobs. ___, it attracts tourism to the region.",
+  "answer": "In addition",
+  "options": [
+   "In addition",
+   "In contrast",
+   "Instead",
+   "Otherwise"
+  ],
+  "hint": "simple addition",
+  "explanation": "'In addition' introduces another benefit of the scheme."
+ },
+ {
+  "sentence": "The essay was submitted late and, ___, it ignored the brief entirely.",
+  "answer": "what is more",
+  "options": [
+   "what is more",
+   "however",
+   "nevertheless",
+   "whereas"
+  ],
+  "hint": "adding a worse point",
+  "explanation": "'What is more' adds a further, stronger point to an already negative picture."
+ },
+ {
+  "sentence": "She speaks fluent Mandarin; ___, she reads classical Chinese.",
+  "answer": "moreover",
+  "options": [
+   "moreover",
+   "otherwise",
+   "meanwhile",
+   "instead"
+  ],
+  "hint": "impressive addition",
+  "explanation": "'Moreover' adds a further, even more remarkable achievement."
+ },
+ {
+  "sentence": "___ being remarkably fast, the new chip consumes far less power.",
+  "answer": "Besides",
+  "options": [
+   "Besides",
+   "Although",
+   "Despite of",
+   "However"
+  ],
+  "hint": "'Besides' + -ing",
+  "explanation": "'Besides + -ing' adds a further advantage; 'despite of' does not exist."
+ },
+ {
+  "sentence": "My sister is terribly reserved, ___ I'll talk to complete strangers.",
+  "answer": "whereas",
+  "options": [
+   "whereas",
+   "therefore",
+   "moreover",
+   "despite"
+  ],
+  "hint": "comparing two people",
+  "explanation": "'Whereas' contrasts two parallel facts: her nature versus mine."
+ },
+ {
+  "sentence": "___ most thrillers, the film reveals the killer in the opening scene.",
+  "answer": "Unlike",
+  "options": [
+   "Unlike",
+   "Although",
+   "Whereas",
+   "Despite"
+  ],
+  "hint": "preposition of contrast",
+  "explanation": "'Unlike + noun phrase' marks difference from a general category."
+ },
+ {
+  "sentence": "___ the north coast is rocky, the southern beaches are soft golden sand.",
+  "answer": "While",
+  "options": [
+   "While",
+   "Unlike",
+   "Despite",
+   "However"
+  ],
+  "hint": "concessive/contrastive while",
+  "explanation": "'While' can contrast two clauses in a single sentence."
+ },
+ {
+  "sentence": "British houses usually have gardens, ___ flats in Spain often have balconies.",
+  "answer": "whereas",
+  "options": [
+   "whereas",
+   "therefore",
+   "thus",
+   "hence"
+  ],
+  "hint": "cross-cultural contrast",
+  "explanation": "'Whereas' links two contrasting general statements."
+ },
+ {
+  "sentence": "___ her brother, she took to skiing almost immediately.",
+  "answer": "Unlike",
+  "options": [
+   "Unlike",
+   "While",
+   "Although",
+   "However"
+  ],
+  "hint": "contrast with a person",
+  "explanation": "'Unlike + noun' is a preposition phrase contrasting two people."
+ },
+ {
+  "sentence": "The old system charged per download, ___ the new one uses a flat monthly fee.",
+  "answer": "whereas",
+  "options": [
+   "whereas",
+   "consequently",
+   "moreover",
+   "as a result"
+  ],
+  "hint": "two contrasting systems",
+  "explanation": "'Whereas' sets the old and new systems side by side."
+ },
+ {
+  "sentence": "___ I thoroughly enjoyed the novel, the sequel left me cold.",
+  "answer": "While",
+  "options": [
+   "While",
+   "Unlike",
+   "Despite",
+   "Because"
+  ],
+  "hint": "concessive while",
+  "explanation": "Concessive 'while' = although, introducing the clause of concession."
+ },
+ {
+  "sentence": "In Sweden the shops close early, ___ in Spain they stay open until ten.",
+  "answer": "whereas",
+  "options": [
+   "whereas",
+   "otherwise",
+   "therefore",
+   "instead"
+  ],
+  "hint": "comparing countries",
+  "explanation": "'Whereas' contrasts parallel facts about two countries."
+ },
+ {
+  "sentence": "She kept every receipt ___ she could claim the expenses back.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "in case",
+   "although",
+   "unless"
+  ],
+  "hint": "purpose with a modal",
+  "explanation": "'So that + could' expresses purpose; 'in case' expresses precaution."
+ },
+ {
+  "sentence": "Take a map ___ you get lost in the backstreets.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "so that",
+   "although",
+   "unless"
+  ],
+  "hint": "precaution against a risk",
+  "explanation": "'In case' = as a precaution against something that might happen."
+ },
+ {
+  "sentence": "He whispered ___ the children wouldn't hear.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "in case",
+   "if",
+   "unless"
+  ],
+  "hint": "negative purpose",
+  "explanation": "'So that + wouldn't' expresses intended (here negative) purpose."
+ },
+ {
+  "sentence": "Leave for the airport early ___ the traffic is bad again.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "so that",
+   "although",
+   "whereas"
+  ],
+  "hint": "possible future problem",
+  "explanation": "'In case' prepares for a possibility: the traffic might be bad."
+ },
+ {
+  "sentence": "I noted down the reference number ___ I needed it later.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "so that",
+   "unless",
+   "though"
+  ],
+  "hint": "just in case it proved necessary",
+  "explanation": "'In case' = because it might be needed later; no purpose is intended."
+ },
+ {
+  "sentence": "___ you finish early, come and give us a hand.",
+  "answer": "If",
+  "options": [
+   "If",
+   "In case",
+   "Despite",
+   "Whereas"
+  ],
+  "hint": "open condition",
+  "explanation": "'If' introduces a real condition; 'in case' would change the meaning to precaution."
+ },
+ {
+  "sentence": "She spoke slowly and clearly ___ everyone could follow her argument.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "in case",
+   "even if",
+   "as if"
+  ],
+  "hint": "intended result",
+  "explanation": "'So that + could' links the manner of speaking to its purpose."
+ },
+ {
+  "sentence": "Insure the camera ___ it gets damaged in transit.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "so that",
+   "unless",
+   "provided"
+  ],
+  "hint": "precaution",
+  "explanation": "'In case it gets damaged' = as a precaution against damage."
+ },
+ {
+  "sentence": "___ you book soon, there won't be any seats left.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Although",
+   "In case"
+  ],
+  "hint": "negative condition = if...not",
+  "explanation": "'Unless' means 'if... not': if you don't book soon, no seats."
+ },
+ {
+  "sentence": "You can borrow the car ___ you fill the tank afterwards.",
+  "answer": "as long as",
+  "options": [
+   "as long as",
+   "unless",
+   "in case",
+   "despite"
+  ],
+  "hint": "condition with 'on condition that' feel",
+  "explanation": "'As long as' = only if, setting a requirement for permission."
+ },
+ {
+  "sentence": "___ the weather improves, the crossing will be cancelled.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "Provided",
+   "Even though",
+   "Whereas"
+  ],
+  "hint": "negative condition",
+  "explanation": "Unless = if the weather doesn't improve — matching the cancellation."
+ },
+ {
+  "sentence": "The expedition will go ahead ___ the sponsors confirm the funding.",
+  "answer": "provided that",
+  "options": [
+   "provided that",
+   "unless",
+   "in case",
+   "whereas"
+  ],
+  "hint": "positive condition",
+  "explanation": "'Provided that' = only if, a formal positive condition."
+ },
+ {
+  "sentence": "I'll tell you everything ___ you promise to keep it between us.",
+  "answer": "as long as",
+  "options": [
+   "as long as",
+   "unless",
+   "whether",
+   "though"
+  ],
+  "hint": "conditional promise",
+  "explanation": "'As long as' sets the condition attached to the promise."
+ },
+ {
+  "sentence": "___ he apologises, I'm not speaking to him again.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "As long as",
+   "Provided",
+   "If"
+  ],
+  "hint": "if he doesn't apologise",
+  "explanation": "'Unless' = if he does not apologise; the main clause states the default outcome."
+ },
+ {
+  "sentence": "You can stay up late tonight ___ it's a school night tomorrow.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "in case",
+   "although"
+  ],
+  "hint": "exception condition",
+  "explanation": "'Unless it's a school night' = if it isn't a school night."
+ },
+ {
+  "sentence": "___ both parties agree, the contract can be terminated early.",
+  "answer": "Provided",
+  "options": [
+   "Provided",
+   "Unless",
+   "In case",
+   "Despite"
+  ],
+  "hint": "formal condition",
+  "explanation": "'Provided (that)' introduces the formal condition for early termination."
+ },
+ {
+  "sentence": "The flight was delayed ___ thick fog.",
+  "answer": "because of",
+  "options": [
+   "because of",
+   "although",
+   "despite",
+   "so that"
+  ],
+  "hint": "preposition + noun",
+  "explanation": "'Because of' + noun phrase gives the cause; although/despite express contrast."
+ },
+ {
+  "sentence": "___ a staffing shortage, the clinic closed early.",
+  "answer": "Due to",
+  "options": [
+   "Due to",
+   "Although",
+   "Despite",
+   "However"
+  ],
+  "hint": "formal cause + noun",
+  "explanation": "'Due to + noun phrase' states the cause in formal register."
+ },
+ {
+  "sentence": "The match was abandoned ___ the state of the pitch.",
+  "answer": "owing to",
+  "options": [
+   "owing to",
+   "although",
+   "even though",
+   "whereas"
+  ],
+  "hint": "formal cause",
+  "explanation": "'Owing to + noun' = because of, common in formal reporting."
+ },
+ {
+  "sentence": "___ the strike, trains will run a reduced service all week.",
+  "answer": "Because of",
+  "options": [
+   "Because of",
+   "Even though",
+   "Despite",
+   "Whereas"
+  ],
+  "hint": "cause + noun phrase",
+  "explanation": "'Because of the strike' gives the reason for the reduced service."
+ },
+ {
+  "sentence": "She resigned ___ personal reasons.",
+  "answer": "due to",
+  "options": [
+   "due to",
+   "despite",
+   "although",
+   "whereas"
+  ],
+  "hint": "set phrase with 'reasons'",
+  "explanation": "'Due to personal reasons' is the standard collocation for giving a cause."
+ },
+ {
+  "sentence": "___ heavy demand, tickets are limited to four per person.",
+  "answer": "Owing to",
+  "options": [
+   "Owing to",
+   "Whereas",
+   "Although",
+   "Even"
+  ],
+  "hint": "cause in a formal notice",
+  "explanation": "'Owing to + noun' introduces the cause in announcements and notices."
+ },
+ {
+  "sentence": "He lowered his voice ___ wake the baby.",
+  "answer": "so as not to",
+  "options": [
+   "so as not to",
+   "so as to",
+   "for not",
+   "so that not"
+  ],
+  "hint": "negative purpose",
+  "explanation": "Negative purpose = so as not to / in order not to + infinitive."
+ },
+ {
+  "sentence": "She took an evening job ___ fund her law degree.",
+  "answer": "in order to",
+  "options": [
+   "in order to",
+   "in order that",
+   "for to",
+   "as to"
+  ],
+  "hint": "purpose + infinitive",
+  "explanation": "'In order to' + bare infinitive expresses purpose after a noun phrase subject."
+ },
+ {
+  "sentence": "___ keep the audience engaged, the lecturer used live demonstrations.",
+  "answer": "In order to",
+  "options": [
+   "In order to",
+   "In spite of",
+   "Instead of",
+   "Owing to"
+  ],
+  "hint": "fronted purpose",
+  "explanation": "Fronted 'In order to + infinitive' states the purpose of the action."
+ },
+ {
+  "sentence": "The delegates arrived early ___ have time to network.",
+  "answer": "so as to",
+  "options": [
+   "so as to",
+   "so as not to",
+   "for have",
+   "in order that"
+  ],
+  "hint": "positive purpose",
+  "explanation": "'So as to + infinitive' = in order to, a formal purpose linker."
+ },
+ {
+  "sentence": "Please complete the form in block capitals ___ it can be read easily.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "so as to",
+   "in order to",
+   "for"
+  ],
+  "hint": "purpose + full clause",
+  "explanation": "'So that' introduces a clause with subject and modal; so as to/in order to need an infinitive."
+ },
+ {
+  "sentence": "___ was the meal exquisite, but the service was impeccable too.",
+  "answer": "Not only",
+  "options": [
+   "Not only",
+   "Hardly",
+   "Seldom",
+   "No sooner"
+  ],
+  "hint": "correlative + inversion",
+  "explanation": "'Not only' at the front triggers inversion (Not only was...) and pairs with 'but also'."
+ },
+ {
+  "sentence": "The course offers not only theory ___ hands-on fieldwork.",
+  "answer": "but also",
+  "options": [
+   "but also",
+   "and also",
+   "but too",
+   "as well"
+  ],
+  "hint": "correlative pair",
+  "explanation": "'Not only... but also' is the fixed correlative pair."
+ },
+ {
+  "sentence": "Not only ___ the tickets cost more, but they sold out in minutes.",
+  "answer": "did",
+  "options": [
+   "did",
+   "were",
+   "had",
+   "have"
+  ],
+  "hint": "inversion after 'not only'",
+  "explanation": "After fronted 'Not only', auxiliary inversion applies: Not only did the tickets cost more."
+ },
+ {
+  "sentence": "She is not only a gifted violinist ___ a composer of some note.",
+  "answer": "but also",
+  "options": [
+   "but also",
+   "and also",
+   "or else",
+   "but as well"
+  ],
+  "hint": "linking two noun phrases",
+  "explanation": "'Not only A but also B' joins the two parallel noun phrases."
+ },
+ {
+  "sentence": "___ did he apologise, but he also refunded the full amount.",
+  "answer": "Not only",
+  "options": [
+   "Not only",
+   "Rarely",
+   "Little",
+   "Either"
+  ],
+  "hint": "inversion + 'but also'",
+  "explanation": "'Not only did he..., but he also...' is the correlative pattern with inversion."
+ },
+ {
+  "sentence": "___ had we sat down than the phone rang.",
+  "answer": "No sooner",
+  "options": [
+   "No sooner",
+   "Hardly",
+   "Scarcely",
+   "Rarely"
+  ],
+  "hint": "...than",
+  "explanation": "'No sooner' pairs with 'than'; hardly/scarcely pair with 'when'."
+ },
+ {
+  "sentence": "Hardly had we arrived ___ the storm broke.",
+  "answer": "when",
+  "options": [
+   "when",
+   "than",
+   "that",
+   "then"
+  ],
+  "hint": "hardly + ...",
+  "explanation": "'Hardly... when' is the fixed pair for one event interrupting another."
+ },
+ {
+  "sentence": "No sooner had the applause died ___ the encore began.",
+  "answer": "than",
+  "options": [
+   "than",
+   "when",
+   "that",
+   "then"
+  ],
+  "hint": "no sooner + ...",
+  "explanation": "'No sooner... than' is invariable; 'when' would be wrong here."
+ },
+ {
+  "sentence": "Scarcely had she opened the letter ___ she burst into tears.",
+  "answer": "when",
+  "options": [
+   "when",
+   "than",
+   "that",
+   "since"
+  ],
+  "hint": "scarcely + ...",
+  "explanation": "'Scarcely... when' marks the immediate consequence of the first event."
+ },
+ {
+  "sentence": "___ had I closed my eyes than the alarm went off.",
+  "answer": "No sooner",
+  "options": [
+   "No sooner",
+   "Hardly",
+   "Barely",
+   "Scarcely"
+  ],
+  "hint": "check the second half",
+  "explanation": "The 'than' in the sentence forces 'No sooner', the only linker paired with than."
+ },
+ {
+  "sentence": "He had hardly stepped off the plane ___ he was rushed into a meeting.",
+  "answer": "when",
+  "options": [
+   "when",
+   "than",
+   "that",
+   "until"
+  ],
+  "hint": "hardly... when",
+  "explanation": "'Hardly... when' — no sooner would require 'than'."
+ },
+ {
+  "sentence": "___ it rains all weekend, the ceremony will still be held outdoors.",
+  "answer": "Even if",
+  "options": [
+   "Even if",
+   "Even though",
+   "Despite",
+   "Because"
+  ],
+  "hint": "hypothetical concession",
+  "explanation": "'Even if' concedes a possible (not yet real) condition."
+ },
+ {
+  "sentence": "___ she was utterly exhausted, she stayed to help clear up.",
+  "answer": "Even though",
+  "options": [
+   "Even though",
+   "Even if",
+   "In case",
+   "Unless"
+  ],
+  "hint": "real fact of concession",
+  "explanation": "'Even though' concedes a known fact: she was exhausted and still stayed."
+ },
+ {
+  "sentence": "I'll take the job ___ they don't offer me any more money.",
+  "answer": "even if",
+  "options": [
+   "even if",
+   "even though",
+   "despite",
+   "whereas"
+  ],
+  "hint": "conceding a possibility",
+  "explanation": "'Even if' concedes a future possibility that will not change the decision."
+ },
+ {
+  "sentence": "___ the theory is elegant, the data simply don't support it.",
+  "answer": "Even though",
+  "options": [
+   "Even though",
+   "Even if",
+   "In case",
+   "As if"
+  ],
+  "hint": "acknowledged fact",
+  "explanation": "'Even though' grants the fact (the theory is elegant) before contradicting it."
+ },
+ {
+  "sentence": "We'd have held the wedding in the garden ___ it had poured with rain.",
+  "answer": "even if",
+  "options": [
+   "even if",
+   "even though",
+   "despite",
+   "whereas"
+  ],
+  "hint": "past hypothetical",
+  "explanation": "'Even if + past perfect' concedes a hypothetical condition in the past."
+ },
+ {
+  "sentence": "He talks ___ he owned the place.",
+  "answer": "as if",
+  "options": [
+   "as if",
+   "so that",
+   "even if",
+   "in case"
+  ],
+  "hint": "manner comparison",
+  "explanation": "'As if/though + past' describes behaviour contrary to fact (he doesn't own it)."
+ },
+ {
+  "sentence": "She looked ___ she hadn't slept for a week.",
+  "answer": "as though",
+  "options": [
+   "as though",
+   "so that",
+   "unless",
+   "whereas"
+  ],
+  "hint": "appearance",
+  "explanation": "'As though' = as if, describing how somebody appears."
+ },
+ {
+  "sentence": "They behaved ___ nothing at all had happened.",
+  "answer": "as if",
+  "options": [
+   "as if",
+   "so that",
+   "even though",
+   "provided"
+  ],
+  "hint": "unreal comparison",
+  "explanation": "'As if + past perfect' signals that the comparison is contrary to fact."
+ },
+ {
+  "sentence": "It sounds ___ the negotiations are close to a breakthrough.",
+  "answer": "as though",
+  "options": [
+   "as though",
+   "in case",
+   "even if",
+   "unless"
+  ],
+  "hint": "how it sounds",
+  "explanation": "'It sounds as though...' reports an impression."
+ },
+ {
+  "sentence": "He spends money ___ it grew on trees.",
+  "answer": "as if",
+  "options": [
+   "as if",
+   "so that",
+   "because of",
+   "instead of"
+  ],
+  "hint": "imaginary comparison",
+  "explanation": "'As if it grew on trees' — the unreal comparison justifies the criticism."
+ },
+ {
+  "sentence": "___ one misplaced comma, the essay is flawless.",
+  "answer": "Apart from",
+  "options": [
+   "Apart from",
+   "Instead of",
+   "Whereas",
+   "Even if"
+  ],
+  "hint": "exception",
+  "explanation": "'Apart from' = except for, introducing the single exception."
+ },
+ {
+  "sentence": "___ the price, the location is absolutely perfect.",
+  "answer": "Apart from",
+  "options": [
+   "Apart from",
+   "Because of",
+   "Owing to",
+   "Whereas"
+  ],
+  "hint": "one drawback",
+  "explanation": "'Apart from the price' = the only negative in an otherwise positive description."
+ },
+ {
+  "sentence": "Nobody volunteered to stay late, ___ Tomas.",
+  "answer": "apart from",
+  "options": [
+   "apart from",
+   "instead of",
+   "unless",
+   "as if"
+  ],
+  "hint": "sole exception",
+  "explanation": "'Apart from Tomas' = except for Tomas, the only person who volunteered."
+ },
+ {
+  "sentence": "___ a slight delay in Rome, the whole journey went smoothly.",
+  "answer": "Apart from",
+  "options": [
+   "Apart from",
+   "Due to",
+   "Instead of",
+   "Even though"
+  ],
+  "hint": "exception to a positive whole",
+  "explanation": "'Apart from' sets the delay aside as the only problem."
+ },
+ {
+  "sentence": "___ complaining about the problem, why not suggest a solution?",
+  "answer": "Instead of",
+  "options": [
+   "Instead of",
+   "Apart from",
+   "Due to",
+   "Even if"
+  ],
+  "hint": "substitution + -ing",
+  "explanation": "'Instead of + -ing' contrasts one behaviour with a preferable alternative."
+ },
+ {
+  "sentence": "We took the coast road ___ the motorway to enjoy the views.",
+  "answer": "instead of",
+  "options": [
+   "instead of",
+   "apart from",
+   "as well as",
+   "because of"
+  ],
+  "hint": "choosing one, not the other",
+  "explanation": "'Instead of + noun' marks the rejected alternative."
+ },
+ {
+  "sentence": "She has decided to cycle to work ___ taking the bus.",
+  "answer": "instead of",
+  "options": [
+   "instead of",
+   "despite",
+   "whereas",
+   "unless"
+  ],
+  "hint": "replacement",
+  "explanation": "'Instead of + -ing' = in place of the bus journey."
+ },
+ {
+  "sentence": "___ answering my question directly, he changed the subject.",
+  "answer": "Instead of",
+  "options": [
+   "Instead of",
+   "Owing to",
+   "In case",
+   "Even though"
+  ],
+  "hint": "what he failed to do",
+  "explanation": "'Instead of + -ing' highlights the action that did not happen."
+ },
+ {
+  "sentence": "The scheme is costly; on the ___ hand, it would create hundreds of jobs.",
+  "answer": "other",
+  "options": [
+   "other",
+   "contrary",
+   "second",
+   "opposite"
+  ],
+  "hint": "fixed phrase for balancing",
+  "explanation": "'On the other hand' balances a drawback against an advantage."
+ },
+ {
+  "sentence": "The treatment doesn't weaken patients; ___, it speeds up their recovery.",
+  "answer": "on the contrary",
+  "options": [
+   "on the contrary",
+   "on the other hand",
+   "in contrast",
+   "instead"
+  ],
+  "hint": "denying the first claim",
+  "explanation": "'On the contrary' asserts the opposite of what was just said."
+ },
+ {
+  "sentence": "City rents are crippling. In the countryside, ___, property is far cheaper.",
+  "answer": "on the other hand",
+  "options": [
+   "on the other hand",
+   "on the contrary",
+   "moreover",
+   "therefore"
+  ],
+  "hint": "shifting to the other side",
+  "explanation": "'On the other hand' moves to a contrasting (not opposite) situation."
+ },
+ {
+  "sentence": "He is far from lazy; ___, he trains six hours a day.",
+  "answer": "on the contrary",
+  "options": [
+   "on the contrary",
+   "on the other hand",
+   "whereas",
+   "in case"
+  ],
+  "hint": "stronger than expected",
+  "explanation": "'On the contrary' rejects the description and states the reverse, more strongly."
+ },
+ {
+  "sentence": "The prototype is undeniably elegant; it is, ___, hopelessly impractical.",
+  "answer": "on the other hand",
+  "options": [
+   "on the other hand",
+   "on the contrary",
+   "moreover",
+   "likewise"
+  ],
+  "hint": "weighing up pros and cons",
+  "explanation": "'On the other hand' concedes elegance while introducing the drawback."
+ },
+ {
+  "sentence": "Far from resenting the changes, the staff welcomed them; ___, productivity rose.",
+  "answer": "moreover",
+  "options": [
+   "moreover",
+   "on the contrary",
+   "even so",
+   "in case"
+  ],
+  "hint": "adding a further point",
+  "explanation": "Rising productivity is an additional point in the same direction: moreover."
+ },
+ {
+  "sentence": "___, preheat the oven to 180 degrees.",
+  "answer": "Firstly",
+  "options": [
+   "Firstly",
+   "Eventually",
+   "Finally",
+   "At the end"
+  ],
+  "hint": "ordering a sequence",
+  "explanation": "'Firstly' opens a sequence of instructions; eventually/finally close one."
+ },
+ {
+  "sentence": "After years of setbacks, the tunnel was ___ completed in 2019.",
+  "answer": "eventually",
+  "options": [
+   "eventually",
+   "firstly",
+   "initially",
+   "at first"
+  ],
+  "hint": "after a long time",
+  "explanation": "'Eventually' = in the end, after a long delay or difficulty."
+ },
+ {
+  "sentence": "Cut the onions, fry them gently and ___, stir in the cream.",
+  "answer": "finally",
+  "options": [
+   "finally",
+   "firstly",
+   "initially",
+   "at first"
+  ],
+  "hint": "the last step of a sequence",
+  "explanation": "'Finally' closes a list of actions; 'firstly' opens one, while 'initially'/'at first' contrast with later events."
+ },
+ {
+  "sentence": "___ the investors backed the plan enthusiastically, but they withdrew after the scandal.",
+  "answer": "Initially",
+  "options": [
+   "Initially",
+   "Eventually",
+   "Finally",
+   "Lastly"
+  ],
+  "hint": "at the start, not the end",
+  "explanation": "'Initially' contrasts the early support with the later withdrawal."
+ },
+ {
+  "sentence": "The negotiations dragged on for months, but they ___ collapsed.",
+  "answer": "eventually",
+  "options": [
+   "eventually",
+   "initially",
+   "firstly",
+   "at first"
+  ],
+  "hint": "in the end",
+  "explanation": "'Eventually' signals the outcome after much delay."
+ },
+ {
+  "sentence": "___ the fact that the road was icy, the bus kept its usual speed.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "However",
+   "Whereas"
+  ],
+  "hint": "despite + the fact that",
+  "explanation": "'Despite the fact that + clause' concedes a full clause after a preposition."
+ },
+ {
+  "sentence": "He passed the oral exam ___ the fact that he had barely revised.",
+  "answer": "despite",
+  "options": [
+   "despite",
+   "although",
+   "because",
+   "so"
+  ],
+  "hint": "preposition needed",
+  "explanation": "'The fact that' turns the clause into a noun phrase, which 'despite' requires."
+ },
+ {
+  "sentence": "___ the fact that costs had doubled, the project was allowed to continue.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Even though",
+   "Whereas",
+   "Due to"
+  ],
+  "hint": "concession phrase",
+  "explanation": "'Despite the fact that' = although, in a more formal wrapper."
+ },
+ {
+  "sentence": "The festival went ahead ___ the fact that both headliners had cancelled.",
+  "answer": "despite",
+  "options": [
+   "despite",
+   "although",
+   "owing to",
+   "because of"
+  ],
+  "hint": "not a cause but a concession",
+  "explanation": "The festival happened in spite of the cancellations: despite, not because of."
+ },
+ {
+  "sentence": "The economy has strengthened; ___, unemployment keeps rising.",
+  "answer": "however",
+  "options": [
+   "however",
+   "therefore",
+   "consequently",
+   "thus"
+  ],
+  "hint": "counter-expectation",
+  "explanation": "Rising unemployment goes against the positive trend: however marks the contrast."
+ },
+ {
+  "sentence": "The lab results are promising. ___, large-scale trials are still needed.",
+  "answer": "That said",
+  "options": [
+   "That said",
+   "Because",
+   "So that",
+   "Due to"
+  ],
+  "hint": "conceding a limitation",
+  "explanation": "'That said' = nevertheless, conceding a reservation after a positive statement."
+ },
+ {
+  "sentence": "She earns a very good salary; ___, she never seems to have any money.",
+  "answer": "yet",
+  "options": [
+   "yet",
+   "so",
+   "thus",
+   "hence"
+  ],
+  "hint": "single-word contrast",
+  "explanation": "'Yet' contrasts two facts, like but, in a slightly more formal way."
+ },
+ {
+  "sentence": "He didn't whisper the news; ___, he announced it to the whole office.",
+  "answer": "on the contrary",
+  "options": [
+   "on the contrary",
+   "on the other hand",
+   "moreover",
+   "likewise"
+  ],
+  "hint": "the opposite happened",
+  "explanation": "'On the contrary' corrects the first statement with its opposite."
+ },
+ {
+  "sentence": "I'd rather cycle ___ wait twenty minutes for an unreliable bus.",
+  "answer": "than",
+  "options": [
+   "than",
+   "instead of",
+   "apart from",
+   "unless"
+  ],
+  "hint": "would rather... ...",
+  "explanation": "'Would rather... than...' is the fixed pattern for preferences."
+ }
 ]

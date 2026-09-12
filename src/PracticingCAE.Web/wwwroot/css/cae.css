@@ -555,3 +555,96 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
 .trend-up { color: var(--accent); }
 .trend-down { color: var(--danger); }
 .trend-flat { color: var(--muted); }
+
+/* ============================================================
+   Dark mode — follows the OS setting (prefers-color-scheme).
+   Overrides the palette variables plus the few hardcoded colours.
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #12151f;
+        --surface: #1a1f2e;
+        --ink: #e6e9f4;
+        --muted: #97a0ba;
+        --primary: #8b94ff;
+        --primary-strong: #a6adff;
+        --primary-soft: #262c4e;
+        --accent: #34c68c;
+        --accent-soft: #1d3a30;
+        --danger: #ef6b81;
+        --danger-soft: #3a242c;
+        --warn: #d9a44a;
+        --warn-soft: #332b1d;
+        --line: #2b3149;
+        --shadow: 0 1px 2px rgba(0, 0, 0, .35), 0 8px 24px -12px rgba(0, 0, 0, .5);
+        --shadow-lg: 0 2px 6px rgba(0, 0, 0, .4), 0 20px 44px -16px rgba(0, 0, 0, .6);
+    }
+
+    html { color-scheme: dark; }
+
+    .topnav { background: rgba(18, 21, 31, .88); }
+    .topnav-link:hover { background: #232941; }
+    .btn-soft { background: #232941; }
+    .btn-soft:hover { background: #2a3252; }
+    .btn-ghost:hover { background: #232941; }
+    .pw-eye:hover { background: #232941; }
+    .task-card:hover { border-color: #3c4370; }
+    .gap-marker-static { background: #232941; }
+
+    .gap-row.row-ok { border-color: #2e5c48; background: #16281f; }
+    .gap-row.row-bad { border-color: #5c2e3a; background: #2b161c; }
+    .gap-lead { color: #a3accb; }
+
+    .opt-pill { background: #1e2434; }
+    .opt-pill.opt-correct { color: #55d69d; }
+    .opt-pill.opt-wrong { color: #ff8b9d; }
+
+    .gap-input { background: #171c2a; border-bottom-color: #55608a; }
+    .gap-input:focus { background: #10141f; }
+
+    .explanation { color: #d6c9a3; border-left-color: #a3853a; }
+
+    .score-perfect { background: linear-gradient(120deg, #142c22, #10241c); border-color: #2e5c48; color: #63d9a3; }
+    .score-good { background: linear-gradient(120deg, #2f2817, #292314); border-color: #6b5a2b; color: #e0b45c; }
+    .score-weak { background: linear-gradient(120deg, #331a21, #2b161c); border-color: #6b2e3c; color: #ff8ba0; }
+
+    .chart-controls select { background: var(--surface); }
+    .ch-grid { stroke: #262c40; }
+    .ch-dot { fill: #12151f; }
+    .ch-label { fill: #7c86a6; }
+
+    .stats-table td { border-bottom-color: #232941; }
+    .stats-table tbody tr:hover { background: #1f2536; }
+    .acc-bar { background: #262c40; }
+    .ring-bg { stroke: #262c40; }
+    .mistake-list code { color: #ff8b9d; }
+
+    .reset-confirm { border-color: #6b2e3c; color: #ff8ba0; }
+    .faq-body { color: #b9c1da; }
+    .faq-body code { background: #232941; }
+
+    /* bootstrap identity forms */
+    .card, .form-control, .form-select {
+        background-color: var(--surface);
+        border-color: var(--line);
+        color: var(--ink);
+    }
+    .form-control:focus, .form-select:focus {
+        background-color: var(--surface);
+        color: var(--ink);
+        border-color: var(--primary);
+        box-shadow: 0 0 0 .2rem rgba(139, 148, 255, .25);
+    }
+    .form-control::placeholder { color: var(--muted); opacity: 1; }
+    .form-check-input {
+        background-color: var(--surface);
+        border-color: var(--muted);
+    }
+    .form-check-input:checked { background-color: var(--primary); border-color: var(--primary); }
+
+    input:-webkit-autofill, input:-webkit-autofill:focus {
+        -webkit-text-fill-color: var(--ink);
+        -webkit-box-shadow: 0 0 0 1000px var(--surface) inset;
+        caret-color: var(--ink);
+    }
+}

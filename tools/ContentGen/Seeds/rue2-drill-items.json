@@ -234,12 +234,6 @@
   "explanation": "'far from + adjective' = not at all: Far from being annoyed…"
  },
  {
-  "sentence": "He's the ___ of the two brothers.",
-  "answer": "taller",
-  "hint": "comparative for two",
-  "explanation": "With two items, use the comparative with 'the': the taller of the two."
- },
- {
   "sentence": "All the tickets ___ sold out by noon.",
   "answer": "had been",
   "hint": "earlier past, passive",
@@ -289,18 +283,6 @@
   "accept": [
    "once",
    "after"
-  ]
- },
- {
-  "sentence": "You can borrow it ___ you give it back by Friday.",
-  "answer": "if",
-  "hint": "condition",
-  "explanation": "'if' introduces the condition.",
-  "accept": [
-   "provided",
-   "as long as",
-   "provided that",
-   "so long as"
   ]
  },
  {
@@ -571,18 +553,6 @@
   "explanation": "'deny + -ing'."
  },
  {
-  "sentence": "There were ___ of people waiting outside.",
-  "answer": "hundreds",
-  "hint": "large number (plural noun)",
-  "explanation": "'hundreds of people' — large unspecified number.",
-  "accept": [
-   "thousands",
-   "dozens",
-   "loads",
-   "lots"
-  ]
- },
- {
   "sentence": "I'd rather walk than ___ the bus.",
   "answer": "take",
   "hint": "would rather A than B",
@@ -629,16 +599,6 @@
   "answer": "out",
   "hint": "sell ___ = all bought",
   "explanation": "'sell out' = all tickets sold."
- },
- {
-  "sentence": "She speaks ___ English for a beginner.",
-  "answer": "remarkably",
-  "hint": "surprisingly (adverb)",
-  "explanation": "Adverb modifying 'good English': remarkably good.",
-  "accept": [
-   "surprisingly",
-   "amazingly"
-  ]
  },
  {
   "sentence": "He was sacked ___ repeatedly arriving late.",
@@ -731,17 +691,6 @@
   "explanation": "'come into force' = officially start to apply."
  },
  {
-  "sentence": "She's not in the office ___ — try her mobile.",
-  "answer": "at the moment",
-  "hint": "now, temporarily",
-  "explanation": "'at the moment' = right now (temporary).",
-  "accept": [
-   "currently",
-   "right now",
-   "now"
-  ]
- },
- {
   "sentence": "He was ___ to resign after the scandal.",
   "answer": "forced",
   "hint": "made to do (against will)",
@@ -791,16 +740,6 @@
   "answer": "came",
   "hint": "be published",
   "explanation": "'come out' = be published/released."
- },
- {
-  "sentence": "She was ___ aware of the risks.",
-  "answer": "fully",
-  "hint": "completely (adverb)",
-  "explanation": "'fully aware' — fixed adverb collocation.",
-  "accept": [
-   "well",
-   "completely"
-  ]
  },
  {
   "sentence": "The fire is believed ___ by faulty wiring.",

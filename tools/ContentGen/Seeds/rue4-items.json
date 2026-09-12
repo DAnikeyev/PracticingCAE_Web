@@ -243,7 +243,10 @@
   "keyword": "QUIETLY",
   "answer": "far too quietly",
   "hint": "too + adverb + to-infinitive",
-  "explanation": "so quietly that nobody could hear = too quietly (for anybody) to hear."
+  "explanation": "so quietly that nobody could hear = too quietly (for anybody) to hear.",
+  "accept": [
+   "too quietly"
+  ]
  },
  {
   "lead": "I regret not bringing an umbrella.",
@@ -1022,5 +1025,264 @@
   "answer": "the more impatient",
   "hint": "comparative correlative",
   "explanation": "The older…, the more… — doubled comparatives for parallel change."
+ },
+ {
+  "lead": "Brian was really interested in North American history in his school days.",
+  "sentence": "Brian ___ North American history in his school days.",
+  "keyword": "INTEREST",
+  "answer": "had an interest in",
+  "hint": "be interested in = have an ___ in",
+  "explanation": "'To be interested in' becomes the noun pattern: 'had an interest in'."
+ },
+ {
+  "lead": "Darius soon recovered after the operation on his knee and was able to rejoin the team.",
+  "sentence": "After the operation on his knee, Darius ___ and was able to rejoin the team.",
+  "keyword": "MADE",
+  "answer": "made a quick recovery",
+  "accept": [
+   "made a fast recovery",
+   "made a rapid recovery"
+  ],
+  "hint": "recover (v) = make a ___ recovery",
+  "explanation": "'Recovered soon' is expressed with the noun: 'made a quick/fast/rapid recovery'."
+ },
+ {
+  "lead": "I always hated pasta when I was a child, but now I cook it regularly.",
+  "sentence": "I ___ pasta when I was a child but now I cook it regularly.",
+  "keyword": "USED",
+  "answer": "used to hate",
+  "hint": "past habit that has stopped",
+  "explanation": "'used to + infinitive' describes a past state or habit that is no longer true."
+ },
+ {
+  "lead": "It was a mistake not to write the telephone number down.",
+  "sentence": "I should ___ writing down the telephone number.",
+  "keyword": "POINT",
+  "answer": "have made a point of",
+  "hint": "make a point of doing = be sure to do",
+  "explanation": "Regret about an omitted action: 'should have made a point of writing it down'."
+ },
+ {
+  "lead": "If Marc hadn't taken up politics, he might have become a famous art historian.",
+  "sentence": "If Marc hadn't taken up politics, he might have ___ himself as an art historian.",
+  "keyword": "NAME",
+  "answer": "made a name for",
+  "hint": "become famous = make a ___ for oneself",
+  "explanation": "'Make a name for himself' means become well known."
+ },
+ {
+  "lead": "This holiday is within our price range, provided we don't go to the expensive restaurants in the tourist centre.",
+  "sentence": "We ___ as we avoid the expensive restaurants in the tourist centre.",
+  "keyword": "AFFORD",
+  "answer": "can afford this holiday as long",
+  "hint": "provided = as long as; within our price range = can afford",
+  "explanation": "'Provided' is rewritten as 'as long as'; 'within our price range' as 'can afford'."
+ },
+ {
+  "lead": "Yesterday, I informed my boss in writing that I would be leaving the company.",
+  "sentence": "I ___ to my boss yesterday.",
+  "keyword": "NOTICE",
+  "answer": "handed in my notice",
+  "hint": "inform your employer in writing = hand in your ___",
+  "explanation": "'Hand in one's notice' means formally resign."
+ },
+ {
+  "lead": "It's very unlikely that Martin will win the 100 metres, as he's out of training.",
+  "sentence": "Martin has almost ___ the 100 metres, as he's out of training.",
+  "keyword": "CHANCE",
+  "answer": "no chance of winning",
+  "hint": "very unlikely = almost no ___",
+  "explanation": "'It's very unlikely he will win' becomes 'he has almost no chance of winning'."
+ },
+ {
+  "lead": "Most of the children ignored what the teacher had told them.",
+  "sentence": "Few of the children ___ what the teacher had told them.",
+  "keyword": "NOTICE",
+  "answer": "took notice of",
+  "hint": "ignore = take no ___ of",
+  "explanation": "'Most ignored' becomes 'few took notice of'."
+ },
+ {
+  "lead": "The company is unable to guarantee an allocated car-parking space to all employees.",
+  "sentence": "The company's employees shouldn't ___ allocated a car-parking space.",
+  "keyword": "COUNT",
+  "answer": "count on being",
+  "hint": "count on + -ing = rely on",
+  "explanation": "'Count on being allocated' means rely on receiving."
+ },
+ {
+  "lead": "He no longer thinks he can find a job before the end of the year.",
+  "sentence": "He has given ___ a job before the end of the year.",
+  "keyword": "HOPE",
+  "answer": "up hope of finding",
+  "hint": "give up hope of + -ing",
+  "explanation": "'No longer thinks he can find' becomes 'has given up hope of finding'."
+ },
+ {
+  "lead": "I'm sure Jemma is going to become a famous model one day.",
+  "sentence": "I think it's only ___ Jemma becomes a famous model.",
+  "keyword": "MATTER",
+  "answer": "a matter of time before",
+  "hint": "certain to happen eventually",
+  "explanation": "'It's only a matter of time before' means it will definitely happen eventually."
+ },
+ {
+  "lead": "I think learning to use a typewriter is a waste of time.",
+  "sentence": "I can't ___ how to use a typewriter.",
+  "keyword": "POINT",
+  "answer": "see the point in learning",
+  "accept": [
+   "see the point of learning"
+  ],
+  "hint": "see the point in/of + -ing",
+  "explanation": "'A waste of time' becomes 'can't see the point in/of doing it'."
+ },
+ {
+  "lead": "The company has a good reputation in the local area.",
+  "sentence": "The company ___ of in the local area.",
+  "keyword": "HIGHLY",
+  "answer": "is highly spoken",
+  "hint": "passive of speak highly of",
+  "explanation": "'People speak highly of it' becomes the passive 'it is highly spoken of'."
+ },
+ {
+  "lead": "Nadia's friend arrived just as she was about to leave the restaurant.",
+  "sentence": "Nadia was ___ the restaurant when her friend arrived.",
+  "keyword": "POINT",
+  "answer": "on the point of leaving",
+  "hint": "be about to = be on the point of + -ing",
+  "explanation": "'About to leave' becomes 'on the point of leaving'."
+ },
+ {
+  "lead": "I don't expect the company to make a profit this year, given the economic climate.",
+  "sentence": "Given the economic climate, ___ the company made a profit this year.",
+  "keyword": "SURPRISED",
+  "answer": "I would be surprised if",
+  "hint": "don't expect = would be surprised if + past",
+  "explanation": "A tentative prediction: 'I would be surprised if + past simple'."
+ },
+ {
+  "lead": "Barbara's parents were certain that she would be a great tennis player.",
+  "sentence": "Barbara's parents were ___ that she would be a great tennis player.",
+  "keyword": "DOUBT",
+  "answer": "in no doubt",
+  "hint": "certain = in no ___",
+  "explanation": "'Certain' becomes 'in no doubt'."
+ },
+ {
+  "lead": "My grandfather had completely forgotten that he phoned me last night.",
+  "sentence": "My grandfather didn't ___ phoning me last night.",
+  "keyword": "RECOLLECTION",
+  "answer": "have any recollection of",
+  "hint": "remember = have a recollection of",
+  "explanation": "'Completely forgotten' becomes 'didn't have any recollection of'."
+ },
+ {
+  "lead": "Pay claims must be submitted before the end of the month.",
+  "sentence": "You have ___ your pay claims before the end of the month.",
+  "keyword": "PUT",
+  "answer": "to put in",
+  "hint": "submit = put in",
+  "explanation": "'Must be submitted' becomes 'you have to put in your claims'."
+ },
+ {
+  "lead": "At no time did we think that Pedro might be planning to leave the country.",
+  "sentence": "It ___ that Pedro might be planning to leave the country.",
+  "keyword": "OCCURRED",
+  "answer": "never occurred to us",
+  "accept": [
+   "had never occurred to us"
+  ],
+  "hint": "it occurred to sb = sb thought",
+  "explanation": "'At no time did we think' becomes 'it never occurred to us'."
+ },
+ {
+  "lead": "I'm sure we went the wrong way at the last junction.",
+  "sentence": "We must ___ at the junction.",
+  "keyword": "TAKEN",
+  "answer": "have taken the wrong turning",
+  "accept": [
+   "have taken the wrong turn"
+  ],
+  "hint": "must have + participle for past deduction",
+  "explanation": "A deduction about the past: 'must have taken'."
+ },
+ {
+  "lead": "We wanted to continue our mountain trek but the weather was too bad.",
+  "sentence": "We ___ on with our mountain trek but the weather was too bad.",
+  "keyword": "LIKE",
+  "answer": "would have liked to carry",
+  "accept": [
+   "would like to have carried"
+  ],
+  "hint": "unfulfilled wish: would have liked to",
+  "explanation": "An unrealised wish about the past: 'would have liked to carry on'."
+ },
+ {
+  "lead": "No changes will be made to this project.",
+  "sentence": "This project will ___ to plan.",
+  "keyword": "AHEAD",
+  "answer": "go ahead according",
+  "hint": "go ahead = proceed; according to plan",
+  "explanation": "'No changes' means the project 'will go ahead according to plan'."
+ },
+ {
+  "lead": "Simon really ought to make a decision about his future.",
+  "sentence": "It's high time Simon ___ about his future.",
+  "keyword": "MIND",
+  "answer": "made up his mind",
+  "hint": "it's high time + past; make a decision = make up one's mind",
+  "explanation": "'It's high time' takes the past subjunctive: 'made up his mind'."
+ },
+ {
+  "lead": "Phoebe was surprised to be offered a place on the course.",
+  "sentence": "The offer of a place on the course ___ Phoebe.",
+  "keyword": "CAME",
+  "answer": "came as a surprise to",
+  "hint": "surprised by = come as a surprise to",
+  "explanation": "'Was surprised' becomes 'came as a surprise to her'."
+ },
+ {
+  "lead": "I can't deny that I was embarrassed to be given the award.",
+  "sentence": "There's ___ embarrassment at being given the award.",
+  "keyword": "NO",
+  "answer": "no denying my",
+  "hint": "can't deny = there's no denying",
+  "explanation": "'There's no denying my embarrassment' = I can't deny I was embarrassed."
+ },
+ {
+  "lead": "Delia said that she would no longer tolerate her colleagues being rude.",
+  "sentence": "'I am not willing ___ from my colleagues any longer,' said Delia.",
+  "keyword": "PUT",
+  "answer": "to put up with any rudeness",
+  "hint": "tolerate = put up with",
+  "explanation": "'Not willing to put up with rudeness' means will no longer tolerate it."
+ },
+ {
+  "lead": "It's difficult to know what my reaction would have been in that situation.",
+  "sentence": "I'm not ___ in that situation.",
+  "keyword": "HOW",
+  "answer": "sure how I would have reacted",
+  "hint": "difficult to know = not sure how",
+  "explanation": "'I'm not sure how I would have reacted' — a hypothetical past."
+ },
+ {
+  "lead": "Do you mind if I come over to see you later?",
+  "sentence": "Do you ___ coming over to see you later?",
+  "keyword": "OBJECTION",
+  "answer": "have any objection to me",
+  "accept": [
+   "have any objection to my"
+  ],
+  "hint": "mind = have an objection to",
+  "explanation": "'Have any objection to me/my coming' is the formal equivalent of 'do you mind'."
+ },
+ {
+  "lead": "Given that he has no experience, will Glyn be able to do this job?",
+  "sentence": "Will Glyn's ___ his ability to do this job?",
+  "keyword": "AFFECT",
+  "answer": "lack of experience affect",
+  "hint": "no experience = lack of experience (noun subject)",
+  "explanation": "The noun subject 'lack of experience' takes the verb 'affect'."
  }
 ]

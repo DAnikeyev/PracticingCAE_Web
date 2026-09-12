@@ -157,6 +157,7 @@ int GenerateFullSetsFromSeedFile(string taskId, string file)
         set.Id = $"{taskId}-{n:0000}";
         set.TaskId = taskId;
         set.Source = "exam-style";
+        ShuffleOptions(set);
         ValidateSet(set, file);
         WriteSet(dir, set);
     }
@@ -211,10 +212,20 @@ int GenerateDrillSets(string taskId, string file, int itemsPerSet, bool stripOpt
             Source = "drill",
             Gaps = taken
         };
+        ShuffleOptions(set);
         foreach (var g in set.Gaps) ValidateGap(g, file);
         WriteSet(dir, set);
     }
     return counter;
+}
+
+// Deterministically shuffle each gap's options so the correct answer does not
+// always sit in the position used by the seed files (they list it first).
+void ShuffleOptions(PracticeSet set)
+{
+    foreach (var g in set.Gaps)
+        if (g.Options.Count > 1)
+            g.Options = g.Options.OrderBy(_ => rng.Next()).ToList();
 }
 
 void ValidateSet(PracticeSet set, string file)

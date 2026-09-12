@@ -69,6 +69,25 @@ public class ContentRepositoryTests
     }
 
     [Fact]
+    public void McqGaps_AnswerPositionVaries_NotAlwaysFirst()
+    {
+        // seeds list the correct option first; generation shuffles, so across a
+        // whole task the answer may not sit in position 0 for most sets.
+        foreach (var task in Repo.Tasks)
+        {
+            var withOptions = Repo.SetsFor(task.Id)
+                .Where(s => s.Gaps.Any(g => g.Options.Count > 0)).ToList();
+            if (withOptions.Count == 0) continue;
+
+            var firstIsAnswer = withOptions.Count(s =>
+                s.Gaps[0].Options.Count > 0 && s.Gaps[0].Options[0] == s.Gaps[0].Answer);
+            var share = (double)firstIsAnswer / withOptions.Count;
+            Assert.True(share < 0.6,
+                $"{task.Id}: answer is the first option in {firstIsAnswer}/{withOptions.Count} sets — options not shuffled?");
+        }
+    }
+
+    [Fact]
     public void ClozeSet_TextMarkersMatchGapCount()
     {
         foreach (var (set, task) in AllSets().Where(s => s.Task.Kind is SetKind.Rue1 or SetKind.Rue2 or SetKind.Rue3))

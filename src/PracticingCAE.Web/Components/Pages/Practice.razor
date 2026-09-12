@@ -109,7 +109,8 @@ else
                                             @foreach (var opt in gap.Options)
                                             {
                                                 var o = opt;
-                                                <label class="opt-pill @OptionFeedback(idx, o)">
+                                                <label class="opt-pill @OptionFeedback(idx, o)"
+                                                       @onclick="() => SelectOption(idx, o)">
                                                 <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
                                                        checked="@(_answers[idx] == o)" disabled="@_checked"
                                                        @onchange="@(e => SelectOption(idx, o))" />
@@ -160,7 +161,8 @@ else
                                         @foreach (var opt in gap.Options)
                                         {
                                             var o = opt;
-                                            <label class="opt-pill @OptionFeedback(idx, o)">
+                                            <label class="opt-pill @OptionFeedback(idx, o)"
+                                                   @onclick="() => SelectOption(idx, o)">
                                                 <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
                                                        checked="@(_answers[idx] == o)" disabled="@_checked"
                                                        @onchange="@(e => SelectOption(idx, o))" />
@@ -323,6 +325,7 @@ else
 
     private void SelectOption(int idx, string option)
     {
+        if (_checked) return;
         _answers[idx] = option;
     }
 
