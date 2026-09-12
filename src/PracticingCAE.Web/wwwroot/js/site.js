@@ -35,8 +35,68 @@ window.caeUi = {
   focusFirstGap: function () {
     var input = document.querySelector('.gap-list input.gap-input');
     if (input) input.focus();
+  },
+
+  // ---- in-progress practice session (survives reconnects and page reloads) ----
+  practiceKey: function (taskId) { return 'cae_practice_' + taskId; },
+
+  // id of this real page load: survives Blazor reconnects, changes on reload/navigation
+  ensurePageInstance: function () {
+    if (!window.__caePageInstance) {
+      try { window.__caePageInstance = crypto.randomUUID(); }
+      catch (e) { window.__caePageInstance = 'pi-' + Date.now() + '-' + Math.random().toString(36).slice(2); }
+    }
+    return window.__caePageInstance;
+  },
+
+  getPracticeSession: function (taskId) {
+    try {
+      var raw = localStorage.getItem(this.practiceKey(taskId));
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  },
+
+  savePracticeSession: function (taskId, record) {
+    var self = this;
+    clearTimeout(self._psTimer);
+    self._psTimer = setTimeout(function () {
+      try {
+        record.pageInstance = self.ensurePageInstance();
+        localStorage.setItem(self.practiceKey(taskId), JSON.stringify(record));
+      } catch (e) { }
+    }, 200);
+  },
+
+  clearPracticeSession: function (taskId) {
+    clearTimeout(this._psTimer);
+    try { localStorage.removeItem(this.practiceKey(taskId)); } catch (e) { }
+  },
+
+  // Restore the saved set when the circuit came back or the page was reloaded;
+  // start fresh when the page was reached by deliberate navigation.
+  shouldRestorePractice: function (taskId) {
+    var s = this.getPracticeSession(taskId);
+    if (!s) return false;
+    var nav = (window.performance && performance.getEntriesByType)
+      ? performance.getEntriesByType('navigation')[0] : null;
+    var type = nav ? nav.type : 'navigate';
+    if (type === 'reload' || type === 'back_forward') return true;
+    return !!s.pageInstance && s.pageInstance === this.ensurePageInstance();
   }
 };
+
+// Clicking a task card on the home page deliberately starts a new set:
+// drop any saved in-progress session for that task. (Capture phase, so it
+// runs before Blazor's enhanced navigation handles the link.)
+document.addEventListener('click', function (e) {
+  var a = e.target && e.target.closest ? e.target.closest('a.task-card') : null;
+  if (!a) return;
+  var m = (a.getAttribute('href') || '').match(/\/practice\/([^/?#]+)/);
+  if (m) {
+    clearTimeout(window.caeUi._psTimer);
+    try { localStorage.removeItem('cae_practice_' + decodeURIComponent(m[1])); } catch (err) { }
+  }
+}, true);
 
 // Enter moves to the next gap input; from the last one, focus the Check button.
 document.addEventListener('keydown', function (e) {

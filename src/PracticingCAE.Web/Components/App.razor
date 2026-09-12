@@ -15,9 +15,20 @@
 
 <body>
     <Routes />
-    <script src="_framework/blazor.web.js"></script>
+    <script src="_framework/blazor.web.js" autostart="false"></script>
     <script src="js/owner.js"></script>
-    <script src="js/site.js"></script>
+    <script src="js/site.js?v=2"></script>
+    <script>
+        // Keep retrying a dropped circuit for ~2 minutes instead of the default few
+        // seconds: a successful reconnect re-attaches to the same circuit with all
+        // component state (answers, hints, results) intact.
+        Blazor.start({
+            reconnectionOptions: {
+                maxRetries: 60,
+                retryIntervalMilliseconds: 2000
+            }
+        });
+    </script>
 </body>
 
 </html>

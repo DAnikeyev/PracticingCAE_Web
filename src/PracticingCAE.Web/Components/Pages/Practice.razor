@@ -350,9 +350,82 @@ else
     {
         _loading = true;
         _ownerId = await Owner.GetOwnerIdAsync();
-        var set = _task is null ? null : await Selector.NextSetAsync(_ownerId, _task.Id);
-        ApplySet(set);
+        if (_task is null) { _loading = false; return; }
+
+        // A connection blink or page reload must not throw away the set the user
+        // is working on: restore the in-progress session if the page came back
+        // (reload / reconnected circuit), otherwise start a fresh one.
+        PracticeSessionDto? saved = null;
+        try
+        {
+            if (await JS.InvokeAsync<bool>("caeUi.shouldRestorePractice", _task.Id))
+                saved = await JS.InvokeAsync<PracticeSessionDto?>("caeUi.getPracticeSession", _task.Id);
+            else
+                await JS.InvokeVoidAsync("caeUi.clearPracticeSession", _task.Id);
+        }
+        catch (Exception)
+        {
+            // interop is best-effort (circuit reconnecting)
+        }
+
+        var set = saved is null || string.IsNullOrEmpty(saved.SetId)
+            ? null
+            : Content.FindSet(saved.SetId) is { } found && found.TaskId == _task.Id ? found : null;
+
+        if (set is not null && saved!.Answers.Length == set.Gaps.Count)
+        {
+            ApplySet(set);
+            _answers = saved.Answers;
+            _hints = saved.Hints.Length == set.Gaps.Count ? saved.Hints : new bool[set.Gaps.Count];
+            _checked = saved.Checked;
+            if (_checked && saved.Result is not null) _result = saved.Result;
+        }
+        else
+        {
+            set = await Selector.NextSetAsync(_ownerId, _task.Id);
+            ApplySet(set);
+            await SaveSessionAsync();
+        }
         _loading = false;
+
+        if (!_checked && _answers.Any(a => !string.IsNullOrEmpty(a)))
+        {
+            try { await JS.InvokeVoidAsync("caeUi.fillGapInputs", _answers); }
+            catch (Exception) { }
+        }
+    }
+
+    private async Task SaveSessionAsync()
+    {
+        if (_set is null || _gaps.Count == 0 || _task is null) return;
+        try
+        {
+            await JS.InvokeVoidAsync("caeUi.savePracticeSession", _task.Id, new PracticeSessionDto
+            {
+                SetId = _set.Id,
+                Answers = _answers.Select(a => a ?? "").ToArray(),
+                Hints = _hints.ToArray(),
+                Checked = _checked,
+                Result = _result,
+                SavedUtc = DateTime.UtcNow
+            });
+        }
+        catch (Exception)
+        {
+            // interop is best-effort
+        }
+    }
+
+    /// <summary>In-progress set state kept in localStorage across reconnects and reloads.</summary>
+    private sealed class PracticeSessionDto
+    {
+        public string SetId { get; set; } = "";
+        public string[] Answers { get; set; } = Array.Empty<string>();
+        public bool[] Hints { get; set; } = Array.Empty<bool>();
+        public bool Checked { get; set; }
+        public SetResult? Result { get; set; }
+        public string? PageInstance { get; set; }
+        public DateTime SavedUtc { get; set; }
     }
 
     private void ApplySet(PracticeSet? set)
@@ -369,16 +442,19 @@ else
     {
         if (_checked) return;
         _answers[idx] = option;
+        _ = SaveSessionAsync();
     }
 
     private void ShowHint(int idx)
     {
         _hints[idx] = true;
+        _ = SaveSessionAsync();
     }
 
     private void RevealAllHints()
     {
         for (var i = 0; i < _hints.Length; i++) _hints[i] = true;
+        _ = SaveSessionAsync();
     }
 
     private async Task RevealAnswers()
@@ -402,6 +478,7 @@ else
         {
             // progress is best-effort; never block practice
         }
+        await SaveSessionAsync();
     }
 
     private async Task Check()
@@ -429,16 +506,21 @@ else
         {
             // progress is best-effort; never block practice
         }
+        await SaveSessionAsync();
     }
 
     private async Task NextSet()
     {
+        // an explicit "next" always starts a fresh set
+        try { await JS.InvokeVoidAsync("caeUi.clearPracticeSession", _task!.Id); }
+        catch (Exception) { }
         await LoadSet();
     }
 
     private void SetAnswer(int idx, string? value)
     {
         _answers[idx] = value ?? "";
+        _ = SaveSessionAsync();
     }
 
     private static string DisplayAnswer(string? answer) =>
