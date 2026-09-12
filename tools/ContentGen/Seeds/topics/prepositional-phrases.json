@@ -328,5 +328,179 @@
   "accept": [
    "By"
   ]
+ },
+ {
+  "sentence": "The new hall is ___ far the largest building on campus.",
+  "answer": "by",
+  "hint": "___ far = definitely",
+  "explanation": "'By far' strengthens a superlative: by far the largest."
+ },
+ {
+  "sentence": "Everything was packed ready in ___ of the movers' arrival.",
+  "answer": "advance",
+  "hint": "in ___ of = before",
+  "explanation": "'In advance of' = before something happens."
+ },
+ {
+  "sentence": "The decisions were taken in ___ with company policy.",
+  "answer": "accordance",
+  "hint": "in ___ with = following the rules",
+  "explanation": "'In accordance with' = in agreement with a rule or request."
+ },
+ {
+  "sentence": "The proposal is still ___ the table — nothing has been decided.",
+  "answer": "on",
+  "hint": "___ the table = under discussion",
+  "explanation": "'On the table' = offered and still being considered."
+ },
+ {
+  "sentence": "___ the long run, the cheaper option costs more.",
+  "answer": "In",
+  "hint": "eventually",
+  "explanation": "'In the long run' = over a long period."
+ },
+ {
+  "sentence": "The venue was changed at ___ notice, just two days before.",
+  "answer": "short",
+  "hint": "at ___ notice = with little warning",
+  "explanation": "'At short notice' = only a short time before."
+ },
+ {
+  "sentence": "She's in ___ of the marketing team of twelve.",
+  "answer": "charge",
+  "hint": "responsible for",
+  "explanation": "'In charge of' = responsible for controlling."
+ },
+ {
+  "sentence": "I'm in no ___ — take your time deciding.",
+  "answer": "hurry",
+  "hint": "in no ___ = not rushed",
+  "explanation": "'In no hurry' = willing to wait."
+ },
+ {
+  "sentence": "___ any rate, we still have enough time.",
+  "answer": "At",
+  "hint": "in any case",
+  "explanation": "'At any rate' = whatever else is true."
+ },
+ {
+  "sentence": "In the ___ of a fire, use the stairs, not the lift.",
+  "answer": "event",
+  "hint": "in the ___ of = if it happens",
+  "explanation": "'In the event of' = if a particular thing happens."
+ },
+ {
+  "sentence": "___ second thoughts, let us drive instead of taking the train.",
+  "answer": "On",
+  "hint": "reconsidering",
+  "explanation": "'On second thoughts' = having changed one's mind."
+ },
+ {
+  "sentence": "The scheme paid off in the ___ — we recouped every euro.",
+  "answer": "end",
+  "hint": "finally",
+  "explanation": "'In the end' = eventually, after everything."
+ },
+ {
+  "sentence": "The missing files are still ___ investigation.",
+  "answer": "under",
+  "hint": "being examined",
+  "explanation": "'Under investigation' = being officially examined."
+ },
+ {
+  "sentence": "Applications must be received ___ two weeks of the closing date.",
+  "answer": "within",
+  "hint": "inside a time limit",
+  "explanation": "'Within two weeks' = not later than two weeks after."
+ },
+ {
+  "sentence": "The evidence establishes guilt ___ reasonable doubt.",
+  "answer": "beyond",
+  "hint": "past a limit",
+  "explanation": "'Beyond reasonable doubt' — the legal standard of proof."
+ },
+ {
+  "sentence": "The team is out of ___ after the long break.",
+  "answer": "practice",
+  "hint": "rusty from not doing it",
+  "explanation": "'Out of practice' = having lost skill through lack of use."
+ },
+ {
+  "sentence": "She succeeded in ___ of repeated setbacks.",
+  "answer": "spite",
+  "hint": "in ___ of = although",
+  "explanation": "'In spite of' = despite."
+ },
+ {
+  "sentence": "For the ___ of clarity, I will repeat the rules.",
+  "answer": "sake",
+  "hint": "for the ___ of = for the purpose of",
+  "explanation": "'For the sake of clarity' = in order to be clear."
+ },
+ {
+  "sentence": "___ first glance, the deal looks generous.",
+  "answer": "At",
+  "hint": "on quick inspection",
+  "explanation": "'At first glance' = when first looked at quickly."
+ },
+ {
+  "sentence": "He acted on his own ___ and did not ask permission.",
+  "answer": "initiative",
+  "hint": "on your own ___ = without being told",
+  "explanation": "'On one's own initiative' = deciding and acting independently."
+ },
+ {
+  "sentence": "The two versions differ in several ___ ; the ending is the biggest.",
+  "answer": "respects",
+  "hint": "in several ___ = in several ways",
+  "explanation": "'In several respects' = in several aspects."
+ },
+ {
+  "sentence": "By all ___ , the festival was a triumph this year.",
+  "answer": "accounts",
+  "hint": "by all ___ = everyone says",
+  "explanation": "'By all accounts' = according to what people say."
+ },
+ {
+  "sentence": "___ the meantime, please finish the paperwork.",
+  "answer": "In",
+  "hint": "while waiting",
+  "explanation": "'In the meantime' = during the time before something happens."
+ },
+ {
+  "sentence": "___ reference to your letter of 12 May, we are still processing the claim.",
+  "answer": "With",
+  "hint": "formal letter opener",
+  "explanation": "'With reference to' introduces the subject of a formal letter."
+ },
+ {
+  "sentence": "The bridge is at ___ open to traffic after three years of works.",
+  "answer": "last",
+  "hint": "finally",
+  "explanation": "'At last' = after a long wait."
+ },
+ {
+  "sentence": "The matter went completely ___ my head — I cannot recall a thing.",
+  "answer": "over",
+  "hint": "too difficult to understand",
+  "explanation": "'Over one's head' = too complicated to understand."
+ },
+ {
+  "sentence": "She's been ___ the phone all morning with suppliers.",
+  "answer": "on",
+  "hint": "using the phone",
+  "explanation": "'On the phone' = using it for a call."
+ },
+ {
+  "sentence": "___ theory the plan is sound; in practice it fails.",
+  "answer": "In",
+  "hint": "in principle",
+  "explanation": "'In theory' contrasts the idea with reality."
+ },
+ {
+  "sentence": "The old theatre is ___ threat of demolition.",
+  "answer": "under",
+  "hint": "in danger of",
+  "explanation": "'Under threat of' = at risk of."
  }
 ]

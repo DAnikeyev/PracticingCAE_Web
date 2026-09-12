@@ -315,5 +315,161 @@
   "answer": "exceed",
   "hint": "inverted conditional + formal verb",
   "explanation": "Should the temperature exceed… = if it exceeds… — technical register."
+ },
+ {
+  "sentence": "Never ___ I seen such a mess in this office.",
+  "answer": "had",
+  "hint": "never + inversion, past perfect",
+  "explanation": "'Never had I seen' — inversion after fronted 'never', past perfect of 'see'."
+ },
+ {
+  "sentence": "Hardly had we left the house ___ it started to pour.",
+  "answer": "when",
+  "hint": "hardly … ?",
+  "explanation": "Hardly … when — fixed pair; 'than' belongs to 'no sooner'."
+ },
+ {
+  "sentence": "Scarcely had the plane taken ___ when the alarm sounded.",
+  "answer": "off",
+  "hint": "take ___ = leave the ground",
+  "explanation": "'Taken off' completes the phrasal verb inside the inverted 'scarcely had … when' structure."
+ },
+ {
+  "sentence": "Not until the following morning ___ the damage reported to the police.",
+  "answer": "was",
+  "hint": "passive inversion",
+  "explanation": "'Not until + time' triggers inversion: 'was the damage reported'."
+ },
+ {
+  "sentence": "Only after the third reminder ___ she reply to my email.",
+  "answer": "did",
+  "hint": "only after + inversion, past simple",
+  "explanation": "'Only after' fronts the condition, so 'did she reply' inverts."
+ },
+ {
+  "sentence": "Under no circumstances ___ the door be left unlocked.",
+  "answer": "should",
+  "hint": "formal prohibition",
+  "explanation": "'Under no circumstances should/must the door be left unlocked' — modal + inversion."
+ },
+ {
+  "sentence": "No sooner ___ the contract been signed than the rumours started.",
+  "answer": "had",
+  "hint": "no sooner + past perfect",
+  "explanation": "'No sooner had … been signed than …' — past perfect with inversion."
+ },
+ {
+  "sentence": "Not only ___ the play cancelled, but the theatre was closed as well.",
+  "answer": "was",
+  "hint": "passive after not only",
+  "explanation": "'Not only was the play cancelled' — inverted passive."
+ },
+ {
+  "sentence": "Rarely ___ we seen such dedication from a new recruit.",
+  "answer": "have",
+  "hint": "rarely + present perfect",
+  "explanation": "'Rarely have we seen' — inversion with present perfect, experience up to now."
+ },
+ {
+  "sentence": "Seldom does a debut novel ___ so much critical attention.",
+  "answer": "receive",
+  "hint": "seldom + base verb",
+  "explanation": "'Seldom does a novel receive …' — the auxiliary 'does' carries tense; base verb follows."
+ },
+ {
+  "sentence": "Only when the results were published ___ the scale of the error become clear.",
+  "answer": "did",
+  "hint": "only when + inversion",
+  "explanation": "'Only when … did the scale … become clear' — inverted past simple."
+ },
+ {
+  "sentence": "So convincing ___ her argument that even the sceptics agreed.",
+  "answer": "was",
+  "hint": "so + adjective + that",
+  "explanation": "'So convincing was her argument that …' — 'so + adj' fronted with inversion."
+ },
+ {
+  "sentence": "Never before ___ the committee reached a decision so quickly.",
+  "answer": "has",
+  "hint": "never before + present perfect",
+  "explanation": "'Never before has the committee reached …' — inversion with present perfect."
+ },
+ {
+  "sentence": "At no point ___ the passengers instructed to stay seated.",
+  "answer": "were",
+  "hint": "passive inversion",
+  "explanation": "'At no point were the passengers instructed …' — inverted passive."
+ },
+ {
+  "sentence": "Not since the winter of 1963 ___ temperatures dropped so low.",
+  "answer": "have",
+  "hint": "not since + present perfect",
+  "explanation": "'Not since 1963 have temperatures dropped …' — the only time from then until now."
+ },
+ {
+  "sentence": "Only by training every day ___ she hope to qualify.",
+  "answer": "could",
+  "hint": "only by + -ing, modal inversion",
+  "explanation": "'Only by training every day could she hope …' — inverted modal."
+ },
+ {
+  "sentence": "___ you require assistance, please do not hesitate to contact the desk.",
+  "answer": "Should",
+  "hint": "inverted conditional",
+  "explanation": "'Should you require …' = 'If you should require …' — formal inverted conditional."
+ },
+ {
+  "sentence": "___ I known about the change of plan, I would have waited.",
+  "answer": "Had",
+  "hint": "third conditional inversion",
+  "explanation": "'Had I known …' = 'If I had known …' — inverted third conditional."
+ },
+ {
+  "sentence": "Were it not ___ the funding cuts, the library would still be open.",
+  "answer": "for",
+  "hint": "were it not ___ = if it were not for",
+  "explanation": "'Were it not for' introduces the one thing preventing the outcome."
+ },
+ {
+  "sentence": "___ it not for your quick thinking, the whole project would have failed.",
+  "answer": "Were",
+  "hint": "inverted conditional, past",
+  "explanation": "'Were it not for …' = 'If it were not for …' — formal inverted conditional."
+ },
+ {
+  "sentence": "Hardly ___ anyone noticed the subtle change in the final scene.",
+  "answer": "has",
+  "hint": "hardly + perfect",
+  "explanation": "'Hardly has/had anyone noticed …' — inverted perfect."
+ },
+ {
+  "sentence": "Never ___ I expect to see my own name on the shortlist.",
+  "answer": "did",
+  "hint": "never + past simple",
+  "explanation": "'Never did I expect …' — inverted past simple."
+ },
+ {
+  "sentence": "Little did the suspects ___ that the police were listening.",
+  "answer": "know",
+  "hint": "little did they …",
+  "explanation": "'Little did they know' — 'know' as bare verb after the inverted auxiliary 'did'."
+ },
+ {
+  "sentence": "Not until every passenger had been evacuated ___ the captain leave the ship.",
+  "answer": "did",
+  "hint": "not until + inversion",
+  "explanation": "'Not until … did the captain leave …' — inverted past simple."
+ },
+ {
+  "sentence": "So rapid ___ the spread of the fire that the building was lost.",
+  "answer": "was",
+  "hint": "so + adjective + that",
+  "explanation": "'So rapid was the spread that …' — fronted 'so + adj' with inversion."
+ },
+ {
+  "sentence": "Nowhere ___ you find a better example of Gothic architecture.",
+  "answer": "will",
+  "hint": "nowhere + future/modal",
+  "explanation": "'Nowhere will you find …' — inverted future/modal."
  }
 ]

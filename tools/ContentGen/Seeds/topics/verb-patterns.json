@@ -1327,5 +1327,149 @@
   ],
   "hint": "it takes time + ?",
   "explanation": "it takes time + to-infinitive: took me ages to get used to the keyboard."
+ },
+ {
+  "sentence": "She avoided ___ about the incident for weeks.",
+  "answer": "talking",
+  "options": [
+   "talking",
+   "to talk",
+   "talk",
+   "talked"
+  ],
+  "hint": "avoid + -ing",
+  "explanation": "'Avoid' is always followed by the -ing form."
+ },
+ {
+  "sentence": "They managed ___ the deadline despite the strike.",
+  "answer": "to meet",
+  "options": [
+   "to meet",
+   "meeting",
+   "meet",
+   "met"
+  ],
+  "hint": "manage + to-infinitive",
+  "explanation": "'Manage to do' = succeed in doing."
+ },
+ {
+  "sentence": "Did you remember ___ the window before we left?",
+  "answer": "to lock",
+  "options": [
+   "to lock",
+   "locking",
+   "lock",
+   "locked"
+  ],
+  "hint": "remember first, then do",
+  "explanation": "'Remember to do' = not forget an obligation; 'remember locking' recalls a past action."
+ },
+ {
+  "sentence": "He stopped ___ coffee before bed and now sleeps much better.",
+  "answer": "drinking",
+  "options": [
+   "drinking",
+   "to drink",
+   "drink",
+   "drank"
+  ],
+  "hint": "quit the habit",
+  "explanation": "'Stop doing' = quit the activity; 'stop to drink' would mean pause in order to drink."
+ },
+ {
+  "sentence": "The teacher made us ___ the whole essay again.",
+  "answer": "rewrite",
+  "options": [
+   "rewrite",
+   "to rewrite",
+   "rewriting",
+   "rewrote"
+  ],
+  "hint": "make + bare infinitive",
+  "explanation": "'Make someone do' — active 'make' takes the bare infinitive."
+ },
+ {
+  "sentence": "We're looking forward to ___ from you soon.",
+  "answer": "hearing",
+  "options": [
+   "hearing",
+   "hear",
+   "to hear",
+   "heard"
+  ],
+  "hint": "'to' here is a preposition",
+  "explanation": "'Look forward to + -ing' — 'to' is a preposition, so the gerund follows."
+ },
+ {
+  "sentence": "She would rather ___ at home tonight.",
+  "answer": "stay",
+  "options": [
+   "stay",
+   "to stay",
+   "staying",
+   "stayed"
+  ],
+  "hint": "would rather + base verb",
+  "explanation": "'Would rather do' — the bare infinitive follows."
+ },
+ {
+  "sentence": "It's not worth ___ about the delay — nothing will change.",
+  "answer": "complaining",
+  "options": [
+   "complaining",
+   "to complain",
+   "complain",
+   "complained"
+  ],
+  "hint": "worth + -ing",
+  "explanation": "'Not worth doing' — the gerund follows 'worth'."
+ },
+ {
+  "sentence": "He was made ___ for the damage to the rental car.",
+  "answer": "to pay",
+  "options": [
+   "to pay",
+   "pay",
+   "paying",
+   "paid"
+  ],
+  "hint": "passive of \"make\" needs \"to\"",
+  "explanation": "In the passive, 'be made to do' takes the to-infinitive."
+ },
+ {
+  "sentence": "I can't afford ___ another month abroad.",
+  "answer": "to spend",
+  "options": [
+   "to spend",
+   "spending",
+   "spend",
+   "spent"
+  ],
+  "hint": "afford + to-infinitive",
+  "explanation": "'Afford to do' — the to-infinitive follows 'afford'."
+ },
+ {
+  "sentence": "My parents wouldn't let me ___ out past midnight.",
+  "answer": "go",
+  "options": [
+   "go",
+   "to go",
+   "going",
+   "went"
+  ],
+  "hint": "let + bare infinitive",
+  "explanation": "'Let someone do' — 'let' takes the bare infinitive."
+ },
+ {
+  "sentence": "She admitted ___ the last train and had to take a taxi.",
+  "answer": "missing",
+  "options": [
+   "missing",
+   "to miss",
+   "miss",
+   "missed"
+  ],
+  "hint": "admit + -ing",
+  "explanation": "'Admit doing' — confess to a past action takes the gerund."
  }
 ]

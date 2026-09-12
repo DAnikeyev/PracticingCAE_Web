@@ -1222,5 +1222,233 @@
   ],
   "hint": "region name",
   "explanation": "Region names often take the: the Algarve, the Riviera."
+ },
+ {
+  "sentence": "___ Himalayas are among the youngest mountains on Earth.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "–"
+  ],
+  "hint": "mountain ranges take this article",
+  "explanation": "Ranges like 'the Himalayas' take 'the'; single peaks take no article."
+ },
+ {
+  "sentence": "She did her doctorate at ___ University of Oxford.",
+  "answer": "the",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "hint": "'of' phrase after the name",
+  "explanation": "Universities named 'University of …' take 'the'."
+ },
+ {
+  "sentence": "___ poverty remains a serious problem in many large cities.",
+  "answer": "–",
+  "options": [
+   "–",
+   "The",
+   "A",
+   "An"
+  ],
+  "hint": "abstract noun, general sense",
+  "explanation": "Uncountable abstract nouns in a general sense take no article."
+ },
+ {
+  "sentence": "He was elected ___ chairman of the board.",
+  "answer": "–",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "hint": "unique role after elect/appoint",
+  "explanation": "No article is used with unique roles after 'elect', 'appoint', 'become'."
+ },
+ {
+  "sentence": "What ___ pity that the show closed so soon.",
+  "answer": "a",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "hint": "fixed phrase 'what a ___'",
+  "explanation": "'What a pity' is the fixed exclamatory phrase."
+ },
+ {
+  "sentence": "The thief was sent to ___ prison for three years.",
+  "answer": "–",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "hint": "prison as an institution",
+  "explanation": "'Sent to prison' — the institution, no article; 'the prison' would mean the building."
+ },
+ {
+  "sentence": "His mother went to ___ prison to visit him.",
+  "answer": "the",
+  "options": [
+   "the",
+   "–",
+   "a",
+   "an"
+  ],
+  "hint": "a specific building she visits",
+  "explanation": "Visitors go to the building: 'went to the prison'."
+ },
+ {
+  "sentence": "We had ___ awful weather on the crossing.",
+  "answer": "–",
+  "options": [
+   "–",
+   "an",
+   "a",
+   "the"
+  ],
+  "hint": "weather is uncountable",
+  "explanation": "'Weather' is uncountable — 'had awful weather', no article."
+ },
+ {
+  "sentence": "___ Netherlands borders both Belgium and Germany.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "–"
+  ],
+  "hint": "plural-form country name",
+  "explanation": "'The Netherlands' — plural-form country names take 'the'."
+ },
+ {
+  "sentence": "She earns fifty pounds ___ hour as a consultant.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An hour' — the 'h' is silent, so it starts with a vowel sound."
+ },
+ {
+  "sentence": "It was ___ best film of the decade by common consent.",
+  "answer": "the",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "hint": "superlative",
+  "explanation": "Superlatives take 'the': 'the best film'."
+ },
+ {
+  "sentence": "My grandfather was ___ engineer during the war.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An engineer' — 'engineer' begins with a vowel sound."
+ },
+ {
+  "sentence": "___ Lake Constance lies between Germany, Austria and Switzerland.",
+  "answer": "–",
+  "options": [
+   "–",
+   "The",
+   "A",
+   "An"
+  ],
+  "hint": "lake names",
+  "explanation": "Lakes take no article when 'Lake' comes first."
+ },
+ {
+  "sentence": "He plays ___ violin in the youth orchestra.",
+  "answer": "the",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "hint": "musical instruments",
+  "explanation": "'Play the violin' — instruments take 'the' after 'play'."
+ },
+ {
+  "sentence": "___ Smith family have lived in this street since 1990.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "–"
+  ],
+  "hint": "family name as plural group",
+  "explanation": "'The Smith family' — the whole family takes 'the'."
+ },
+ {
+  "sentence": "The patient needs ___ operation as soon as possible.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound",
+  "explanation": "'An operation' — 'operation' starts with a vowel sound."
+ },
+ {
+  "sentence": "She has ___ excellent command of Japanese.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "vowel sound + fixed phrase",
+  "explanation": "'Have an excellent command of' — 'excellent' starts with a vowel sound."
+ },
+ {
+  "sentence": "___ disabled are offered free entry on Sundays.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "–"
+  ],
+  "hint": "adjective as a group",
+  "explanation": "'The disabled' = disabled people as a group."
+ },
+ {
+  "sentence": "He was ___ only person to solve the puzzle.",
+  "answer": "the",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "hint": "'only' identifies uniquely",
+  "explanation": "'The only person' — 'only' makes the noun unique, so 'the'."
  }
 ]

@@ -41,17 +41,23 @@ else
                 </p>
             </div>
             <div class="practice-actions">
-                @if (_hasOptions)
+                @if (ShowTypeToggle)
                 {
                     <label class="mode-toggle" title="Type your answers instead of clicking the options">
                         <input type="checkbox" checked="@_typeMode" @onchange="ToggleTypeMode" />
                         ✍️ Type answers
                     </label>
                 }
-                <button class="btn btn-soft" @onclick="RevealAllHints" disabled="@_checked" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
-                <button class="btn btn-soft" @onclick="RevealAnswers" disabled="@_checked" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
-                <button class="btn btn-primary" @onclick="Check" disabled="@_checked">✔ Check</button>
-                <button class="btn btn-accent" @onclick="NextSet">Next set →</button>
+                @if (_checked)
+                {
+                    <button class="btn btn-accent" @onclick="NextSet">Next set →</button>
+                }
+                else
+                {
+                    <button class="btn btn-soft" @onclick="RevealAllHints" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
+                    <button class="btn btn-soft" @onclick="RevealAnswers" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
+                    <button class="btn btn-primary" @onclick="Check">✔ Check</button>
+                }
             </div>
         </div>
 
@@ -103,7 +109,7 @@ else
                                 @if (parts is not null)
                                 {
                                     <span class="sentence">@parts.Value.before</span>
-                                    if (gap.Options.Count > 0 && !_typeMode)
+                                    if (gap.Options.Count > 0 && !TypedMode)
                                     {
                                         <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
                                             @foreach (var opt in gap.Options)
@@ -155,7 +161,7 @@ else
                                 {
                                     <span class="base-badge">@gap.Base</span>
                                 }
-                                @if (gap.Options.Count > 0 && !_typeMode)
+                                @if (gap.Options.Count > 0 && !TypedMode)
                                 {
                                     <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
                                         @foreach (var opt in gap.Options)
@@ -221,6 +227,26 @@ else
             }
         </div>
 
+        <div class="practice-actions practice-actions-bottom">
+            @if (_checked)
+            {
+                <button class="btn btn-accent" @onclick="NextSet">Next set →</button>
+            }
+            else
+            {
+                @if (ShowTypeToggle)
+                {
+                    <label class="mode-toggle" title="Type your answers instead of clicking the options">
+                        <input type="checkbox" checked="@_typeMode" @onchange="ToggleTypeMode" />
+                        ✍️ Type
+                    </label>
+                }
+                <button class="btn btn-soft" @onclick="RevealAllHints" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
+                <button class="btn btn-soft" @onclick="RevealAnswers" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
+                <button class="btn btn-primary" @onclick="Check">✔ Check</button>
+            }
+        </div>
+
         <div class="practice-foot">
             <a href="/">← All tasks</a>
             @if (_task.Id.StartsWith("rue"))
@@ -244,19 +270,32 @@ else
     private SetResult? _result;
     private string? _ownerId;
     private bool _typeMode;
-    private bool _loaded;
+    private bool _typeResolved;
 
     private bool IsCloze => _task is { Kind: SetKind.Rue1 or SetKind.Rue2 or SetKind.Rue3 };
     private bool IsExamStyle => _set?.Source == "exam-style";
     private bool _hasOptions => _gaps.Any(g => g.Options.Count > 0);
 
+    // Part 1 (multiple-choice cloze): the answer is not inferable without the
+    // options, so selection is the only mode. Word formation (Part 3) is the
+    // opposite: the base word plus context is enough, so typing is the default.
+    private bool TypingAllowed => _task?.Kind is not SetKind.Rue1;
+    private bool TypingDefault => _task?.Kind == SetKind.Rue3;
+    private bool ShowTypeToggle => TypingAllowed && _hasOptions;
+    private bool TypedMode => !TypingAllowed ? false : !_hasOptions ? true : _typeMode;
+
+    // separate memories: word-formation tasks default on, MCQ tasks default off
+    private string TypePrefKey => TypingDefault ? "typeModeWf" : "typeModeMcq";
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        if (_loaded) return;
-        _loaded = true;
+        if (_typeResolved) return;
+        _typeResolved = true;
         try
         {
-            _typeMode = await JS.InvokeAsync<bool>("caeUi.getPref", "typeMode", false);
+            _typeMode = ShowTypeToggle
+                ? await JS.InvokeAsync<bool>("caeUi.getPref", TypePrefKey, TypingDefault)
+                : TypingDefault;
             StateHasChanged();
             if (_typeMode) await JS.InvokeVoidAsync("caeUi.focusFirstGap");
         }
@@ -271,7 +310,7 @@ else
         _typeMode = e.Value is true;
         try
         {
-            await JS.InvokeVoidAsync("caeUi.setPref", "typeMode", _typeMode);
+            await JS.InvokeVoidAsync("caeUi.setPref", TypePrefKey, _typeMode);
             StateHasChanged();
             if (_typeMode)
                 await JS.InvokeVoidAsync("caeUi.fillGapInputs", _answers);
@@ -299,6 +338,9 @@ else
         if (task != _task)
         {
             _task = task;
+            // new task: start from its default until the stored pref resolves again
+            _typeMode = TypingDefault;
+            _typeResolved = false;
             await LoadSet();
         }
         _loading = false;

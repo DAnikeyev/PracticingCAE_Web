@@ -221,6 +221,15 @@ a:hover { text-decoration: underline; }
 .practice-head h1 { font-size: 1.5rem; font-weight: 800; margin-bottom: .2rem; }
 .practice-sub { margin: 0; font-size: .92rem; color: var(--muted); }
 .practice-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+.practice-actions-bottom {
+    position: sticky; bottom: .9rem; z-index: 20;
+    margin-top: 1.3rem;
+    padding: .55rem .8rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+}
 .badge {
     display: inline-block; border-radius: 999px;
     padding: .18rem .65rem; font-size: .74rem; font-weight: 700;

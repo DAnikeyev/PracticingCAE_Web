@@ -1147,5 +1147,305 @@
   ],
   "hint": "compound noun",
   "explanation": "'Masterpiece' = master + piece, written as one word here split by the gap: master… piece."
+ },
+ {
+  "sentence": "The manager praised the team for its ___ (COMMIT) to quality.",
+  "answer": "commitment",
+  "options": [
+   "commitment",
+   "commission",
+   "committing",
+   "committed"
+  ],
+  "hint": "noun: promise to do something",
+  "explanation": "The noun from COMMIT is 'commitment' — a dedication to a course of action."
+ },
+ {
+  "sentence": "Her ___ (ANALYSE) of the data took three weeks.",
+  "answer": "analysis",
+  "options": [
+   "analysis",
+   "analyst",
+   "analytical",
+   "analyse"
+  ],
+  "hint": "noun: detailed examination",
+  "explanation": "'Analysis' is the noun for a detailed examination; an 'analyst' is a person."
+ },
+ {
+  "sentence": "It is ___ (DENY) that the policy has failed.",
+  "answer": "undeniable",
+  "options": [
+   "undeniable",
+   "undeniably",
+   "denied",
+   "denying"
+  ],
+  "hint": "adjective: impossible to deny",
+  "explanation": "'It is undeniable that …' — adjective meaning cannot be denied."
+ },
+ {
+  "sentence": "The committee reached its verdict after lengthy ___ (DELIBERATE).",
+  "answer": "deliberation",
+  "options": [
+   "deliberation",
+   "deliberately",
+   "deliberate",
+   "deliberating"
+  ],
+  "hint": "noun: long discussion",
+  "explanation": "'After lengthy deliberation' — the noun for careful discussion."
+ },
+ {
+  "sentence": "His sudden ___ (RESIGN) surprised everyone in the department.",
+  "answer": "resignation",
+  "options": [
+   "resignation",
+   "resigned",
+   "resigning",
+   "resignedly"
+  ],
+  "hint": "noun: act of leaving a job",
+  "explanation": "The noun from RESIGN is 'resignation'."
+ },
+ {
+  "sentence": "The test measures your ___ (STRONG) in each skill.",
+  "answer": "strength",
+  "options": [
+   "strength",
+   "strengthen",
+   "strongly",
+   "strong"
+  ],
+  "hint": "noun form",
+  "explanation": "'Strength' is the noun; 'strengthen' is the verb 'to make stronger'."
+ },
+ {
+  "sentence": "The storm caused ___ (WIDE) damage along the coast.",
+  "answer": "widespread",
+  "options": [
+   "widespread",
+   "widening",
+   "widely",
+   "width"
+  ],
+  "hint": "adjective: affecting many places",
+  "explanation": "'Widespread damage' = damage across a large area."
+ },
+ {
+  "sentence": "She waited ___ (ANXIOUS) by the phone for news.",
+  "answer": "anxiously",
+  "options": [
+   "anxiously",
+   "anxious",
+   "anxiety",
+   "anxiousness"
+  ],
+  "hint": "adverb: in a worried way",
+  "explanation": "The verb 'waited' needs the adverb 'anxiously'."
+ },
+ {
+  "sentence": "The project's ___ (FAIL) was due to poor planning.",
+  "answer": "failure",
+  "options": [
+   "failure",
+   "failing",
+   "failed",
+   "fail"
+  ],
+  "hint": "noun: lack of success",
+  "explanation": "The noun from FAIL is 'failure'."
+ },
+ {
+  "sentence": "He is one of the most ___ (INFLUENCE) thinkers of the decade.",
+  "answer": "influential",
+  "options": [
+   "influential",
+   "influence",
+   "influenced",
+   "influentially"
+  ],
+  "hint": "adjective: having great influence",
+  "explanation": "'Influential' describes a person who influences others."
+ },
+ {
+  "sentence": "The law needs complete ___ (REVISE) before it can work.",
+  "answer": "revision",
+  "options": [
+   "revision",
+   "revising",
+   "revised",
+   "reviser"
+  ],
+  "hint": "noun: thorough change",
+  "explanation": "The noun from REVISE is 'revision'."
+ },
+ {
+  "sentence": "Their ___ (FRIEND) goes back to their university days.",
+  "answer": "friendship",
+  "options": [
+   "friendship",
+   "friendliness",
+   "friendly",
+   "friend"
+  ],
+  "hint": "noun: the relationship",
+  "explanation": "'Friendship' is the relationship between friends; 'friendliness' is a manner."
+ },
+ {
+  "sentence": "The ___ (ARRIVE) of the delegation was delayed by the storm.",
+  "answer": "arrival",
+  "options": [
+   "arrival",
+   "arriving",
+   "arrived",
+   "arriver"
+  ],
+  "hint": "noun: coming",
+  "explanation": "The noun from ARRIVE is 'arrival'."
+ },
+ {
+  "sentence": "She spoke with great ___ (WISE) about the risks.",
+  "answer": "wisdom",
+  "options": [
+   "wisdom",
+   "wisely",
+   "wise",
+   "witness"
+  ],
+  "hint": "noun: deep understanding",
+  "explanation": "The noun from WISE is 'wisdom'."
+ },
+ {
+  "sentence": "The charity relies entirely on voluntary ___ (DONATE).",
+  "answer": "donations",
+  "options": [
+   "donations",
+   "donors",
+   "donated",
+   "donating"
+  ],
+  "hint": "plural noun: gifts of money",
+  "explanation": "'Voluntary donations' — gifts of money given willingly."
+ },
+ {
+  "sentence": "___ (APPOINT) with the results, the board replaced the management.",
+  "answer": "Disappointed",
+  "options": [
+   "Disappointed",
+   "Disappointing",
+   "Disappointment",
+   "Disappointedly"
+  ],
+  "hint": "participle adjective: how the board felt",
+  "explanation": "'Disappointed with the results' — the board experienced disappointment; '-ing' would describe the results."
+ },
+ {
+  "sentence": "The coach criticised the team's lack of ___ (DISCIPLINE).",
+  "answer": "discipline",
+  "options": [
+   "discipline",
+   "disciplined",
+   "disciplinarian",
+   "disciplinary"
+  ],
+  "hint": "noun: ordered behaviour",
+  "explanation": "'Lack of discipline' — the noun is required after 'lack of'."
+ },
+ {
+  "sentence": "The bacteria are ___ (SEE) to the naked eye.",
+  "answer": "invisible",
+  "options": [
+   "invisible",
+   "visible",
+   "visibly",
+   "vision"
+  ],
+  "hint": "negative adjective: cannot be seen",
+  "explanation": "'Invisible' = impossible to see — the negative adjective from VISIBLE/SEE."
+ },
+ {
+  "sentence": "His ___ (REFUSE) to cooperate stalled the negotiations.",
+  "answer": "refusal",
+  "options": [
+   "refusal",
+   "refusing",
+   "refused",
+   "refute"
+  ],
+  "hint": "noun: saying no",
+  "explanation": "The noun from REFUSE is 'refusal'."
+ },
+ {
+  "sentence": "The medicine may cause ___ (SLEEP), so avoid driving.",
+  "answer": "sleepiness",
+  "options": [
+   "sleepiness",
+   "asleep",
+   "sleepless",
+   "sleep"
+  ],
+  "hint": "noun: the state of wanting to sleep",
+  "explanation": "'Cause sleepiness' — the noun for the drowsy state."
+ },
+ {
+  "sentence": "The economy shows signs of ___ (RECOVER) after the recession.",
+  "answer": "recovery",
+  "options": [
+   "recovery",
+   "recover",
+   "recovering",
+   "recovered"
+  ],
+  "hint": "noun: getting better",
+  "explanation": "The noun from RECOVER is 'recovery'."
+ },
+ {
+  "sentence": "___ (FORTUNE), the package had already been delivered.",
+  "answer": "Fortunately",
+  "options": [
+   "Fortunately",
+   "Fortunate",
+   "Fortune",
+   "Fortunes"
+  ],
+  "hint": "adverb: luckily",
+  "explanation": "The sentence adverb is 'Fortunately' — luckily for us."
+ },
+ {
+  "sentence": "We owe our success to her ___ (VISION) leadership.",
+  "answer": "visionary",
+  "options": [
+   "visionary",
+   "vision",
+   "visible",
+   "visibly"
+  ],
+  "hint": "adjective: showing imagination",
+  "explanation": "'Visionary leadership' — showing imagination and foresight."
+ },
+ {
+  "sentence": "The two statements are directly ___ (CONTRADICT).",
+  "answer": "contradictory",
+  "options": [
+   "contradictory",
+   "contradiction",
+   "contradicted",
+   "contradictorily"
+  ],
+  "hint": "adjective: mutually opposed",
+  "explanation": "'Directly contradictory' — the adjective meaning they cannot both be true."
+ },
+ {
+  "sentence": "His ___ (SHORT) of funds forced him to abandon the trip.",
+  "answer": "shortage",
+  "options": [
+   "shortage",
+   "shortening",
+   "shortly",
+   "shorter"
+  ],
+  "hint": "noun: not having enough",
+  "explanation": "'Shortage of funds' — the noun for an insufficient amount."
  }
 ]
