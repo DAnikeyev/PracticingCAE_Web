@@ -841,5 +841,59 @@
    "in order to",
    "so as to"
   ]
+ },
+ {
+  "sentence": "The cat cleans ___ after every meal.",
+  "answer": "itself",
+  "hint": "reflexive pronoun",
+  "explanation": "Reflexive: the cat cleans ITSELF (the object is the same as the subject)."
+ },
+ {
+  "sentence": "We organised the trip ___.",
+  "answer": "ourselves",
+  "hint": "reflexive: we → ?",
+  "explanation": "we → ourselves (no outside help implied)."
+ },
+ {
+  "sentence": "She should be ashamed of ___ for saying that.",
+  "answer": "herself",
+  "hint": "reflexive: she → ?",
+  "explanation": "ashamed of + reflexive: herself."
+ },
+ {
+  "sentence": "The house ___ is lovely, but the garden is tiny.",
+  "answer": "itself",
+  "hint": "emphatic: the house ___",
+  "explanation": "Noun + itself emphasises the noun: the house itself."
+ },
+ {
+  "sentence": "They built the cabin ___.",
+  "answer": "themselves",
+  "hint": "reflexive: they → ?",
+  "explanation": "they → themselves (without professional help)."
+ },
+ {
+  "sentence": "It was ___ a boring lecture that people walked out.",
+  "answer": "such",
+  "hint": "___ a + adjective + noun",
+  "explanation": "such (+a) + adjective + noun + that… — emphasis structure."
+ },
+ {
+  "sentence": "It was ___ dull a lecture that people walked out.",
+  "answer": "so",
+  "hint": "so + adjective + a…",
+  "explanation": "so + adjective (+a + noun) + that… — the alternative emphatic pattern."
+ },
+ {
+  "sentence": "There were so ___ complaints that the scheme was dropped.",
+  "answer": "many",
+  "hint": "countable plural",
+  "explanation": "so many + countable plural noun (complaints)."
+ },
+ {
+  "sentence": "There was so ___ confusion that the event was abandoned.",
+  "answer": "much",
+  "hint": "uncountable",
+  "explanation": "so much + uncountable noun (confusion)."
  }
 ]
