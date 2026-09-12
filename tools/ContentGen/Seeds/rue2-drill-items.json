@@ -1,11 +1,5 @@
 [
  {
-  "sentence": "My brother works ___ a hospital in Leeds.",
-  "answer": "in",
-  "hint": "building (BrE: not as a patient)",
-  "explanation": "'in a hospital' = inside the building; 'at hospital' would mean as a patient (BrE)."
- },
- {
   "sentence": "She's lived here ___ 2015.",
   "answer": "since",
   "hint": "point in time",
@@ -36,15 +30,6 @@
   "explanation": "'whose' shows possession: the man whose car…"
  },
  {
-  "sentence": "We went out ___ it was raining heavily.",
-  "answer": "although",
-  "hint": "contrast concession",
-  "explanation": "'although/though' introduce a contrast clause.",
-  "accept": [
-   "though"
-  ]
- },
- {
   "sentence": "She made me ___ my homework before dinner.",
   "answer": "do",
   "hint": "make + bare infinitive",
@@ -67,18 +52,6 @@
   "answer": "stay",
   "hint": "would rather + bare inf",
   "explanation": "'would rather' + infinitive without 'to'."
- },
- {
-  "sentence": "This time tomorrow we ___ flying to Rome.",
-  "answer": "will be",
-  "hint": "future continuous",
-  "explanation": "Future continuous: will be + -ing for an action in progress at a future time."
- },
- {
-  "sentence": "He asked me where I ___ bought the shoes.",
-  "answer": "had",
-  "hint": "backshift to past perfect",
-  "explanation": "Reported speech: 'Where did you buy…?' → asked where I had bought."
  },
  {
   "sentence": "You needn't ___ worried — everything is fine.",
@@ -129,15 +102,6 @@
   "explanation": "Noun form: collection (a group of collected items)."
  },
  {
-  "sentence": "We walked ___ the museum for three hours.",
-  "answer": "round",
-  "hint": "inside, following a route",
-  "explanation": "'walk round a museum' = visit it, moving inside it.",
-  "accept": [
-   "around"
-  ]
- },
- {
   "sentence": "She denied ___ the money.",
   "answer": "taking",
   "hint": "deny + -ing",
@@ -162,34 +126,10 @@
   "explanation": "'wish + past perfect' for regret about the past."
  },
  {
-  "sentence": "Neither of the answers ___ correct.",
-  "answer": "is",
-  "hint": "neither + singular verb",
-  "explanation": "'Neither of + plural noun + singular verb' (formal English)."
- },
- {
   "sentence": "We'd better ___ going — it's nearly midnight.",
   "answer": "start",
   "hint": "had better + bare inf",
   "explanation": "'had better + infinitive without to'."
- },
- {
-  "sentence": "She was made ___ for three hours at the airport.",
-  "answer": "to wait",
-  "hint": "passive of make",
-  "explanation": "Passive 'be made' takes to-infinitive: was made to wait."
- },
- {
-  "sentence": "It's the first time I've ___ this dish.",
-  "answer": "eaten",
-  "hint": "present perfect + past participle",
-  "explanation": "'It's the first time + present perfect': have eaten."
- },
- {
-  "sentence": "Hardly ___ sat down when the phone rang.",
-  "answer": "had",
-  "hint": "inversion after hardly",
-  "explanation": "'Hardly had + subject + participle… when…'"
  },
  {
   "sentence": "I'm not used to ___ such spicy food.",
@@ -198,22 +138,10 @@
   "explanation": "'be used to + -ing' = be accustomed to."
  },
  {
-  "sentence": "The car needs ___ before we leave.",
-  "answer": "cleaning",
-  "hint": "need + -ing (passive meaning)",
-  "explanation": "'need + -ing' = need to be + participle: needs cleaning."
- },
- {
   "sentence": "We stopped ___ some photos on the way.",
   "answer": "to take",
   "hint": "stop in order to do",
   "explanation": "'stop to do' = pause in order to do something."
- },
- {
-  "sentence": "She's far ___ to understand the joke.",
-  "answer": "too",
-  "hint": "excess",
-  "explanation": "'too + adjective/adverb + to-infinitive'."
  },
  {
   "sentence": "No sooner had he arrived ___ it started to rain.",
@@ -276,26 +204,10 @@
   "explanation": "'adjective + enough + to-infinitive/for phrase'."
  },
  {
-  "sentence": "We'll start the meeting ___ everyone arrives.",
-  "answer": "when",
-  "hint": "time conjunction",
-  "explanation": "'when/once/until' — here 'when everyone arrives' starts the event.",
-  "accept": [
-   "once",
-   "after"
-  ]
- },
- {
   "sentence": "She's the woman ___ helped me find the station.",
   "answer": "who",
   "hint": "person relative pronoun (subject)",
   "explanation": "'who' refers to people as subject."
- },
- {
-  "sentence": "There's no point ___ about it now.",
-  "answer": "arguing",
-  "hint": "no point + -ing",
-  "explanation": "'there's no point + -ing'."
  },
  {
   "sentence": "He must ___ left already — his coat isn't here.",
@@ -331,12 +243,6 @@
   "explanation": "'would sooner + infinitive without to'."
  },
  {
-  "sentence": "The roof ___ repaired next week.",
-  "answer": "will be",
-  "hint": "future passive",
-  "explanation": "Future passive: will be + participle."
- },
- {
   "sentence": "He apologised for ___ so rude.",
   "answer": "being",
   "hint": "apologise for + -ing",
@@ -347,18 +253,6 @@
   "answer": "Neither",
   "hint": "not one, not the other",
   "explanation": "'Neither of' = not one and not the other (two people)."
- },
- {
-  "sentence": "We could hear the neighbours ___ again last night.",
-  "answer": "arguing",
-  "hint": "hear + -ing (in progress)",
-  "explanation": "'hear + object + -ing' for an action in progress."
- },
- {
-  "sentence": "She got the job ___ of her lack of experience.",
-  "answer": "despite",
-  "hint": "despite + noun",
-  "explanation": "'despite/in spite of + noun' — not 'despite of'."
  },
  {
   "sentence": "The letters ___ delivered every morning at eight.",
@@ -385,12 +279,6 @@
   "explanation": "'as soon as' = immediately after."
  },
  {
-  "sentence": "She's the ___ person I know — she never lies.",
-  "answer": "most honest",
-  "hint": "superlative of honest",
-  "explanation": "'honest' is two syllables: most honest."
- },
- {
   "sentence": "We had the walls ___ last month.",
   "answer": "painted",
   "hint": "causative have",
@@ -407,12 +295,6 @@
   "answer": "talk",
   "hint": "would rather not + bare inf",
   "explanation": "'would rather + not + infinitive without to'."
- },
- {
-  "sentence": "The soup tastes ___ — did you use fresh herbs?",
-  "answer": "delicious",
-  "hint": "taste + adjective",
-  "explanation": "'taste/smell/feel + adjective': tastes delicious."
  },
  {
   "sentence": "By this time next year, she ___ finished her degree.",
@@ -451,52 +333,16 @@
   "explanation": "'had better + not + infinitive without to'."
  },
  {
-  "sentence": "This time yesterday we ___ on the beach.",
-  "answer": "were lying",
-  "hint": "past continuous scene",
-  "explanation": "Past continuous for an action in progress at a past moment.",
-  "accept": [
-   "were lieing"
-  ]
- },
- {
   "sentence": "She's allergic ___ cats.",
   "answer": "to",
   "hint": "allergic ___ sth",
   "explanation": "'allergic TO something'."
  },
  {
-  "sentence": "The view from the top was ___ .",
-  "answer": "breathtaking",
-  "hint": "extremely impressive",
-  "explanation": "'breathtaking' = so beautiful it takes your breath away."
- },
- {
-  "sentence": "He ___ his keys on the bus this morning.",
-  "answer": "left",
-  "hint": "leave sth somewhere",
-  "explanation": "'leave something somewhere' = forget to take it: left his keys on the bus."
- },
- {
   "sentence": "We're going to ___ our flight if we don't hurry.",
   "answer": "miss",
   "hint": "be too late for a plane",
   "explanation": "'miss a flight/train/bus' = arrive too late for it."
- },
- {
-  "sentence": "The company has ___ several new jobs in the area.",
-  "answer": "created",
-  "hint": "bring new jobs into existence",
-  "explanation": "'Create jobs' is the natural collocation."
- },
- {
-  "sentence": "She ___ the door quietly behind her.",
-  "answer": "shut",
-  "hint": "close (single word)",
-  "explanation": "'shut the door' = close it.",
-  "accept": [
-   "closed"
-  ]
  },
  {
   "sentence": "I can't find my glasses ___ .",
@@ -583,12 +429,6 @@
   "explanation": "'look forward TO' — the standard closing phrase."
  },
  {
-  "sentence": "He's far the ___ player in the team.",
-  "answer": "best",
-  "hint": "superlative after 'by far'",
-  "explanation": "'by far the best' — superlative with emphasiser."
- },
- {
   "sentence": "I couldn't ___ laughing at his accent.",
   "answer": "help",
   "hint": "can't help + -ing",
@@ -631,12 +471,6 @@
   "explanation": "'by + time' = not later than."
  },
  {
-  "sentence": "The children were excited ___ the trip.",
-  "answer": "about",
-  "hint": "excited ___ sth",
-  "explanation": "'excited ABOUT something'."
- },
- {
   "sentence": "She's the most generous person I've ___ met.",
   "answer": "ever",
   "hint": "superlative + present perfect",
@@ -656,15 +490,6 @@
   "answer": "in",
   "hint": "held ___ secrecy",
   "explanation": "'in secrecy/in private' — fixed preposition use."
- },
- {
-  "sentence": "Do you happen ___ her mobile number?",
-  "answer": "to know",
-  "hint": "happen + ? (by chance)",
-  "explanation": "'happen to + infinitive' = do something by chance.",
-  "accept": [
-   "to have"
-  ]
  },
  {
   "sentence": "She's been ___ from school three times this term.",
@@ -715,15 +540,6 @@
   "explanation": "'famous FOR something'."
  },
  {
-  "sentence": "I'd like two tickets ___ tonight's performance.",
-  "answer": "for",
-  "hint": "tickets ___ an event",
-  "explanation": "'tickets FOR tonight's show' (also 'to').",
-  "accept": [
-   "to"
-  ]
- },
- {
   "sentence": "He kept ___ even though everyone had left.",
   "answer": "talking",
   "hint": "keep + -ing",
@@ -740,21 +556,6 @@
   "answer": "came",
   "hint": "be published",
   "explanation": "'come out' = be published/released."
- },
- {
-  "sentence": "The fire is believed ___ by faulty wiring.",
-  "answer": "to have been caused",
-  "hint": "passive reporting, past passive infinitive",
-  "explanation": "'believed to have been + participle' — the cause was earlier."
- },
- {
-  "sentence": "He's the author of several ___ novels.",
-  "answer": "bestselling",
-  "hint": "selling very well",
-  "explanation": "'bestselling novel' — compound adjective.",
-  "accept": [
-   "best-selling"
-  ]
  },
  {
   "sentence": "They had no ___ but to call the police.",

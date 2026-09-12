@@ -504,18 +504,6 @@
   "explanation": "'Plenty of room' is the fixed pattern; 'a lot of' would need the article 'a', which is not in the sentence."
  },
  {
-  "sentence": "___ of work has been done on the house since we bought it.",
-  "answer": "A lot of",
-  "options": [
-   "A lot of",
-   "Much",
-   "Little",
-   "Few"
-  ],
-  "hint": "the sentence already contains 'of'",
-  "explanation": "'A lot of work' fits the pattern '___ of work'; 'much of work' would need 'the', and 'few' is for countables."
- },
- {
   "sentence": "He made a ___ of money in property.",
   "answer": "lot",
   "options": [

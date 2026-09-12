@@ -48,15 +48,6 @@
   "explanation": "blame something ON somebody = blame somebody FOR something."
  },
  {
-  "sentence": "He boasted ___ winning the race, but nobody believed him.",
-  "answer": "about",
-  "hint": "boast ___ sth",
-  "explanation": "boast ABOUT/OF something. 'About' is the most common.",
-  "accept": [
-   "of"
-  ]
- },
- {
   "sentence": "Can I borrow a pen ___ you?",
   "answer": "from",
   "hint": "borrow ___ / lend ___",
@@ -73,15 +64,6 @@
   "answer": "on",
   "hint": "comment ___ sth",
   "explanation": "comment ON a topic."
- },
- {
-  "sentence": "This textbook is boring compared ___ the last one.",
-  "answer": "with",
-  "hint": "compared ___",
-  "explanation": "compare WITH (or TO) — 'with' is preferred for comparing similarities/differences; 'to' for 'liken'.",
-  "accept": [
-   "to"
-  ]
  },
  {
   "sentence": "Residents complained ___ the noise every night.",
@@ -138,15 +120,6 @@
   ]
  },
  {
-  "sentence": "He died ___ pneumonia in 1947.",
-  "answer": "of",
-  "hint": "die ___ an illness",
-  "explanation": "die OF (or FROM) an illness/cause.",
-  "accept": [
-   "from"
-  ]
- },
- {
   "sentence": "The results differ sharply ___ last year's.",
   "answer": "from",
   "hint": "differ ___ sth",
@@ -163,21 +136,6 @@
   "answer": "to",
   "hint": "donate sth ___ sb",
   "explanation": "donate something TO a person/organisation."
- },
- {
-  "sentence": "She often dreams ___ running her own café.",
-  "answer": "of",
-  "hint": "dream ___ (imagine)",
-  "explanation": "dream OF/ABOUT something you would love to happen.",
-  "accept": [
-   "about"
-  ]
- },
- {
-  "sentence": "Two prisoners escaped ___ the high-security wing.",
-  "answer": "from",
-  "hint": "escape ___ a place",
-  "explanation": "escape FROM a place (American English also allows a bare object)."
  },
  {
   "sentence": "Please forgive me ___ interrupting.",
@@ -291,15 +249,6 @@
   "explanation": "pay FOR goods/services; pay a bill (no preposition)."
  },
  {
-  "sentence": "He pointed ___ the tallest tower in the skyline.",
-  "answer": "at",
-  "hint": "point ___ sth",
-  "explanation": "point AT/TO something.",
-  "accept": [
-   "to"
-  ]
- },
- {
   "sentence": "I much prefer coffee ___ tea.",
   "answer": "to",
   "hint": "prefer A ___ B",
@@ -310,15 +259,6 @@
   "answer": "from",
   "hint": "prevent sb ___ doing",
   "explanation": "prevent/stop somebody FROM doing something ('from' is optional after stop)."
- },
- {
-  "sentence": "Sunscreen protects the skin ___ UV rays.",
-  "answer": "from",
-  "hint": "protect ___ sth harmful",
-  "explanation": "protect somebody/something FROM (or AGAINST) harm.",
-  "accept": [
-   "against"
-  ]
  },
  {
   "sentence": "They provided us ___ everything we needed.",
@@ -396,15 +336,6 @@
   "explanation": "wait FOR somebody/something."
  },
  {
-  "sentence": "They warned us ___ the icy roads.",
-  "answer": "about",
-  "hint": "warn sb ___ sth",
-  "explanation": "warn somebody ABOUT/OF a danger; warn somebody AGAINST doing.",
-  "accept": [
-   "of"
-  ]
- },
- {
   "sentence": "Don't worry ___ the exam — you're well prepared.",
   "answer": "about",
   "hint": "worry ___ sth",
@@ -444,15 +375,6 @@
   "explanation": "aware OF something."
  },
  {
-  "sentence": "I'm getting bored ___ watching the same series.",
-  "answer": "with",
-  "hint": "bored ___ sth",
-  "explanation": "bored WITH (or BY) something.",
-  "accept": [
-   "by"
-  ]
- },
- {
   "sentence": "She's perfectly capable ___ managing the project alone.",
   "answer": "of",
   "hint": "capable ___ doing",
@@ -465,32 +387,10 @@
   "explanation": "crazy ABOUT something = love it enthusiastically."
  },
  {
-  "sentence": "He was disappointed ___ his exam results.",
-  "answer": "with",
-  "hint": "disappointed ___ sth/sb",
-  "explanation": "disappointed WITH somebody, WITH/ABOUT something.",
-  "accept": [
-   "about",
-   "at"
-  ]
- },
- {
-  "sentence": "We're excited ___ our trip to Peru.",
-  "answer": "about",
-  "hint": "excited ___ sth",
-  "explanation": "excited ABOUT something."
- },
- {
   "sentence": "The region is famous ___ its cheese.",
   "answer": "for",
   "hint": "famous ___ sth",
   "explanation": "famous FOR something."
- },
- {
-  "sentence": "I'm fed up ___ listening to excuses.",
-  "answer": "with",
-  "hint": "fed up ___",
-  "explanation": "fed up WITH something/doing something."
  },
  {
   "sentence": "She's very fond ___ her nieces.",
@@ -535,12 +435,6 @@
   "explanation": "kind TO somebody."
  },
  {
-  "sentence": "I'm nervous ___ speaking in public.",
-  "answer": "about",
-  "hint": "nervous ___ sth",
-  "explanation": "nervous ABOUT something/doing something."
- },
- {
   "sentence": "The manager was pleased ___ our progress.",
   "answer": "with",
   "hint": "pleased ___ sth/sb",
@@ -551,15 +445,6 @@
   "answer": "to",
   "hint": "polite ___ sb",
   "explanation": "polite TO somebody."
- },
- {
-  "sentence": "This app is very popular ___ teenagers.",
-  "answer": "with",
-  "hint": "popular ___ sb",
-  "explanation": "popular WITH (or AMONG) a group.",
-  "accept": [
-   "among"
-  ]
  },
  {
   "sentence": "She's fiercely proud ___ her origins.",
@@ -592,28 +477,10 @@
   "explanation": "serious ABOUT something/doing something."
  },
  {
-  "sentence": "Viewers were shocked ___ the violence in the film.",
-  "answer": "at",
-  "hint": "shocked ___ sth",
-  "explanation": "shocked AT/BY something.",
-  "accept": [
-   "by"
-  ]
- },
- {
   "sentence": "Her style is similar ___ her sister's.",
   "answer": "to",
   "hint": "similar ___ sth",
   "explanation": "similar TO something (never 'than')."
- },
- {
-  "sentence": "I'm so sorry ___ the confusion I caused.",
-  "answer": "for",
-  "hint": "sorry ___ sth done",
-  "explanation": "sorry FOR/ABOUT something you did; sorry FOR somebody = pity them.",
-  "accept": [
-   "about"
-  ]
  },
  {
   "sentence": "They grew suspicious ___ his constant absences.",
@@ -632,15 +499,6 @@
   "answer": "of",
   "hint": "tired ___ sth (bored)",
   "explanation": "tired OF something = bored/annoyed by it; tired FROM = physically exhausted."
- },
- {
-  "sentence": "He was upset ___ losing his keys.",
-  "answer": "about",
-  "hint": "upset ___ sth",
-  "explanation": "upset ABOUT something (BY also possible).",
-  "accept": [
-   "by"
-  ]
  },
  {
   "sentence": "She's slowly getting used ___ the climate.",
@@ -667,15 +525,6 @@
   "explanation": "an attack ON somebody/something."
  },
  {
-  "sentence": "His attitude ___ work has really improved.",
-  "answer": "to",
-  "hint": "attitude ___ sth",
-  "explanation": "attitude TO (or TOWARDS) something.",
-  "accept": [
-   "towards"
-  ]
- },
- {
   "sentence": "Doctors say stress is a major cause ___ insomnia.",
   "answer": "of",
   "hint": "cause ___ sth",
@@ -692,15 +541,6 @@
   "answer": "between",
   "hint": "difference ___ two things",
   "explanation": "difference BETWEEN two things (difference IN price/size for the respect in which)."
- },
- {
-  "sentence": "She had no difficulty ___ finding the station.",
-  "answer": "in",
-  "hint": "difficulty ___ doing",
-  "explanation": "have difficulty (IN) doing something — 'in' is often omitted, but is the expected preposition.",
-  "accept": [
-   "with"
-  ]
  },
  {
   "sentence": "The film had an immediate effect ___ audiences.",
@@ -776,12 +616,6 @@
   "answer": "to",
   "hint": "reply ___ sth",
   "explanation": "a reply TO a letter/complaint/question."
- },
- {
-  "sentence": "Further research ___ the disease is needed.",
-  "answer": "into",
-  "hint": "research ___ sth",
-  "explanation": "research INTO a subject (less commonly 'on')."
  },
  {
   "sentence": "The government raised the tax ___ cigarettes again.",

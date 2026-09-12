@@ -75,12 +75,6 @@
   "explanation": "'in a matter of hours' = within only a few hours."
  },
  {
-  "sentence": "She succeeded ___ of all expectations.",
-  "answer": "beyond",
-  "hint": "further than expected",
-  "explanation": "'beyond all expectations' = better than anyone predicted."
- },
- {
   "sentence": "___ second thoughts, maybe we should postpone.",
   "answer": "On",
   "hint": "reconsidering",
@@ -162,12 +156,6 @@
   "explanation": "'by far' = by a big margin, with superlatives."
  },
  {
-  "sentence": "The scheme was abandoned ___ lack of interest.",
-  "answer": "for",
-  "hint": "because of (formal)",
-  "explanation": "'for lack of' = because there was none."
- },
- {
   "sentence": "We spoke ___ the phone for an hour.",
   "answer": "on",
   "hint": "communication medium",
@@ -208,15 +196,6 @@
   "answer": "by",
   "hint": "arranged in advance",
   "explanation": "'by appointment' = only if arranged beforehand."
- },
- {
-  "sentence": "She learnt Russian ___ watching films alone.",
-  "answer": "through",
-  "hint": "by means of",
-  "explanation": "'through + -ing/noun' = by means of.",
-  "accept": [
-   "by"
-  ]
  },
  {
   "sentence": "The neighbours complained ___ the noise until dawn.",
@@ -283,12 +262,6 @@
   "answer": "of",
   "hint": "___ one's own initiative",
   "explanation": "'of one's own initiative' = without being asked."
- },
- {
-  "sentence": "The smell was ___ this world — absolutely incredible.",
-  "answer": "out",
-  "hint": "___ this world = amazing",
-  "explanation": "'out of this world' = extraordinary (idiom: with 'of')."
  },
  {
   "sentence": "He denied everything ___ the face of the evidence.",
@@ -598,12 +571,6 @@
   "answer": "on",
   "hint": "dates take this preposition",
   "explanation": "'On the 14th' — 'on' for dates.'"
- },
- {
-  "sentence": "The trek succeeded ___ of all expectations.",
-  "answer": "beyond",
-  "hint": "better than expected",
-  "explanation": "'Beyond all expectations' = better than anyone expected.'"
  },
  {
   "sentence": "Everything was left ___ the care of the next-door neighbours.",

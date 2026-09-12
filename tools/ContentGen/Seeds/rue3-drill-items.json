@@ -1137,18 +1137,6 @@
   "explanation": "'Be critical of' — adjective; 'criticism' is the noun."
  },
  {
-  "sentence": "The sculpture is a ___ (MASTER) piece of the Renaissance.",
-  "answer": "master",
-  "options": [
-   "master",
-   "masterly",
-   "mastery",
-   "mastered"
-  ],
-  "hint": "compound noun",
-  "explanation": "'Masterpiece' = master + piece, written as one word here split by the gap: master… piece."
- },
- {
   "sentence": "The manager praised the team for its ___ (COMMIT) to quality.",
   "answer": "commitment",
   "options": [

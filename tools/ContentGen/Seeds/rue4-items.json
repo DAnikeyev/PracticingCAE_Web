@@ -313,14 +313,6 @@
   "explanation": "fewer than expected = not as many (students) as expected."
  },
  {
-  "lead": "We couldn't see the lighthouse anywhere.",
-  "sentence": "___ the lighthouse anywhere.",
-  "keyword": "NOWHERE",
-  "answer": "Nowhere could we see",
-  "hint": "inversion after nowhere",
-  "explanation": "Fronted 'nowhere' forces inversion: Nowhere could we see…"
- },
- {
   "lead": "She'll be on a flight, so she can't join the call.",
   "sentence": "She'll be on a flight, so ___ join the call.",
   "keyword": "WON'T",
@@ -405,14 +397,6 @@
   "accept": [
    "might never have received"
   ]
- },
- {
-  "lead": "He had just sat down when the phone rang.",
-  "sentence": "___ the phone rang.",
-  "keyword": "SOONER",
-  "answer": "No sooner had he",
-  "hint": "no sooner + inversion",
-  "explanation": "No sooner had + subject + participle … than…"
  },
  {
   "lead": "I'd like to move to a place where nobody knows me.",

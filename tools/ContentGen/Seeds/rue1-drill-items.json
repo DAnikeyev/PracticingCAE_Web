@@ -288,18 +288,6 @@
   "explanation": "'We regret to inform you…' is the fixed formal phrase; 'apologise' needs 'for'."
  },
  {
-  "sentence": "He was ___ from driving for two years.",
-  "answer": "banned",
-  "options": [
-   "banned",
-   "forbidden",
-   "denied",
-   "prohibited to"
-  ],
-  "hint": "officially not allowed",
-  "explanation": "'Be banned from doing something' (courts, sports); 'forbidden' is not used with from + -ing in this legal sense."
- },
- {
   "sentence": "The scheme is ___ at reducing traffic in the centre.",
   "answer": "aimed",
   "options": [
@@ -999,18 +987,6 @@
   "explanation": "'Be expected to' = likely to (according to forecasts)."
  },
  {
-  "sentence": "She's been ___ in her research for a breakthrough.",
-  "answer": "persistent",
-  "options": [
-   "persistent",
-   "insistent",
-   "constant",
-   "consistent of"
-  ],
-  "hint": "not giving up",
-  "explanation": "'Persistent' = continuing firmly despite difficulty; 'insistent' = demanding forcefully."
- },
- {
   "sentence": "The meal was absolutely ___ — my compliments to the chef.",
   "answer": "delicious",
   "options": [
@@ -1129,18 +1105,6 @@
   ],
   "hint": "memory of a past event",
   "explanation": "'Forget + -ing' = fail to recall a past event; 'forget to do' = fail to do a duty."
- },
- {
-  "sentence": "The council has ___ the planning permission.",
-  "answer": "refused",
-  "options": [
-   "refused",
-   "denied",
-   "rejected to",
-   "declined of"
-  ],
-  "hint": "say no officially (an object)",
-  "explanation": "'Refuse/turn down + object (permission, request)'; 'deny' = declare untrue."
  },
  {
   "sentence": "The two accounts of the event ___ sharply.",
@@ -1326,21 +1290,6 @@
   "explanation": "'Be set to do something' = be ready/likely to do it (news style)."
  },
  {
-  "sentence": "The discussion quickly ___ into an argument.",
-  "answer": "deteriorated",
-  "options": [
-   "deteriorated",
-   "degenerated",
-   "generated",
-   "degraded to"
-  ],
-  "hint": "got worse (a talk → row)",
-  "explanation": "'Deteriorate' = get worse in quality; for a talk turning into a row, 'degenerated into' is the idiomatic choice.",
-  "accept": [
-   "degenerated"
-  ]
- },
- {
   "sentence": "The concert was recorded ___ for the radio.",
   "answer": "live",
   "options": [
@@ -1351,18 +1300,6 @@
   ],
   "hint": "broadcast as it happens",
   "explanation": "'Recorded live' = recorded during the actual performance; 'alive' describes living things."
- },
- {
-  "sentence": "He's ___ to one of the teams in tonight's final.",
-  "answer": "related",
-  "options": [
-   "related",
-   "connected to",
-   "joined",
-   "bound"
-  ],
-  "hint": "family connection",
-  "explanation": "'Be related to somebody' = be family; 'connected to' = physically/electronically linked."
  },
  {
   "sentence": "The instructions say the tablets should be ___ with food.",

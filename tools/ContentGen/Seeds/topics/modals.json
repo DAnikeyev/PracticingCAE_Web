@@ -1555,17 +1555,5 @@
   ],
   "hint": "asking permission, formal",
   "explanation": "'May I …?' politely asks permission."
- },
- {
-  "sentence": "He ___ to work harder if he wants promotion.",
-  "answer": "has",
-  "options": [
-   "has",
-   "must",
-   "should",
-   "ought"
-  ],
-  "hint": "has to = obligation",
-  "explanation": "'Has to work' expresses obligation; 'ought' needs 'to to'."
  }
 ]

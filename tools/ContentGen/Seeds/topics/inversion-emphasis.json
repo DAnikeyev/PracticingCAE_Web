@@ -30,12 +30,6 @@
   "explanation": "Not until + time clause at the front: did anybody speak."
  },
  {
-  "sentence": "Under no circumstances ___ this door be left unlocked.",
-  "answer": "must",
-  "hint": "negative adverbial + modal inversion",
-  "explanation": "Under no circumstances + must + subject + infinitive."
- },
- {
   "sentence": "Little ___ they know that the deal had already collapsed.",
   "answer": "did",
   "hint": "Little + inversion (they didn't realise)",
@@ -96,12 +90,6 @@
   "explanation": "Were I richer = If I were richer — formal inversion."
  },
  {
-  "sentence": "___ the rain to stop, we'll play the match as planned.",
-  "answer": "Should",
-  "hint": "inverted first conditional with 'to'",
-  "explanation": "Should the rain stop = If the rain stops — should + subject + infinitive."
- },
- {
   "sentence": "Only when the audit was complete ___ the accounts released.",
   "answer": "were",
   "hint": "Only when + passive inversion",
@@ -132,28 +120,10 @@
   "explanation": "In no way does this reflect… — formal disclaimer structure."
  },
  {
-  "sentence": "___ had the meeting begun than the fire alarm went off.",
-  "answer": "No",
-  "hint": "… sooner than",
-  "explanation": "No sooner … than: the pair begins with 'No'."
- },
- {
   "sentence": "Only by practising daily ___ you improve your fluency.",
   "answer": "will",
   "hint": "Only by + -ing + inversion",
   "explanation": "Only by doing X will you… — future inversion after only by."
- },
- {
-  "sentence": "Never before ___ the city seen flooding on this scale.",
-  "answer": "had",
-  "hint": "Never before + past perfect",
-  "explanation": "Never before had the city seen… — past perfect inversion."
- },
- {
-  "sentence": "So ___ was the crowd that the concert was postponed.",
-  "answer": "great",
-  "hint": "So + adjective (size of crowd)",
-  "explanation": "So great was the crowd that… = the crowd was so great that…"
  },
  {
   "sentence": "To such an extent ___ prices risen that buyers withdrew.",
@@ -264,12 +234,6 @@
   "explanation": "So widespread was the outage that… — inversion."
  },
  {
-  "sentence": "Never ___ I imagine the project would take two years.",
-  "answer": "would",
-  "hint": "Never would I + infinitive",
-  "explanation": "Never would I have imagined… — conditional flavour with inversion."
- },
- {
   "sentence": "___ the storm passed did the ferries resume service.",
   "answer": "Only",
   "hint": "Only + time clause",
@@ -293,34 +257,16 @@
   "explanation": "Little will the chances be improved… — inversion with future."
  },
  {
-  "sentence": "Enclosed ___ the contract a copy of the invoice.",
-  "answer": "is",
-  "hint": "fronted 'enclosed' — singular verb",
-  "explanation": "'Enclosed is the contract' — inversion after fronted participle."
- },
- {
   "sentence": "Only when she apologised ___ he agree to meet again.",
   "answer": "did",
   "hint": "Only when + did",
   "explanation": "Only when she apologised did he agree — inversion."
  },
  {
-  "sentence": "___ the second half begin than the rain returned.",
-  "answer": "No",
-  "hint": "No sooner pattern (harder order)",
-  "explanation": "No sooner did the second half begin than… — inversion with do-support."
- },
- {
   "sentence": "Should the temperature ___ 40 degrees, the system shuts down.",
   "answer": "exceed",
   "hint": "inverted conditional + formal verb",
   "explanation": "Should the temperature exceed… = if it exceeds… — technical register."
- },
- {
-  "sentence": "Never ___ I seen such a mess in this office.",
-  "answer": "had",
-  "hint": "never + inversion, past perfect",
-  "explanation": "'Never had I seen' — inversion after fronted 'never', past perfect of 'see'."
  },
  {
   "sentence": "Hardly had we left the house ___ it started to pour.",
@@ -387,12 +333,6 @@
   "answer": "was",
   "hint": "so + adjective + that",
   "explanation": "'So convincing was her argument that …' — 'so + adj' fronted with inversion."
- },
- {
-  "sentence": "Never before ___ the committee reached a decision so quickly.",
-  "answer": "has",
-  "hint": "never before + present perfect",
-  "explanation": "'Never before has the committee reached …' — inversion with present perfect."
  },
  {
   "sentence": "At no point ___ the passengers instructed to stay seated.",

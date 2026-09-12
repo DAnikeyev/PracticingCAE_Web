@@ -636,18 +636,6 @@
   "explanation": "get by = manage to survive (with difficulty)."
  },
  {
-  "sentence": "The gang gave ___ the stolen paintings to a gallery.",
-  "answer": "away",
-  "options": [
-   "away",
-   "in",
-   "up",
-   "off"
-  ],
-  "hint": "give free of charge; reveal",
-  "explanation": "give away = give free of charge, or reveal (a secret)."
- },
- {
   "sentence": "Their son grew ___ and moved abroad.",
   "answer": "up",
   "options": [
@@ -1102,18 +1090,6 @@
   ],
   "hint": "support",
   "explanation": "back up = support (a person, plan); also make a copy of data."
- },
- {
-  "sentence": "The fire blew ___ the gas cylinder exploded.",
-  "answer": "up",
-  "options": [
-   "up",
-   "out",
-   "off",
-   "over"
-  ],
-  "hint": "explode",
-  "explanation": "blow up = explode, or make something explode."
  },
  {
   "sentence": "The store decided to branch ___ into online sales.",
@@ -1609,18 +1585,6 @@
   ],
   "hint": "cancel",
   "explanation": "call off = cancel."
- },
- {
-  "sentence": "She always gets round ___ washing up by promising to do it later.",
-  "answer": "to",
-  "options": [
-   "to",
-   "for",
-   "at",
-   "with"
-  ],
-  "hint": "find a way to avoid",
-  "explanation": "get round to = finally find time for; here: avoid a duty — test the preposition after get round."
  },
  {
   "sentence": "The company was ___ up by a larger rival last year.",
