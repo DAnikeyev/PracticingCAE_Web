@@ -2,25 +2,89 @@
 @page "/guide/{Slug}"
 @using PracticingCAE.Web.Components.Pages.GuideContent
 
-<PageTitle>Exam guide — CAE Practice</PageTitle>
+<PageTitle>@(Current is null ? "Exam guide — CAE Practice" : $"{Current.Title} — Exam guide — CAE Practice")</PageTitle>
 
 <div class="page-shell guide-page">
-    <h1>Exam guide</h1>
-    <p class="muted">Strategy and timing for every part of the exam.</p>
-
     @if (Current is null)
     {
-        <ul>
-            @foreach (var g in GuideLibrary.Sections)
+        <header class="guide-header">
+            <h1>Exam guide</h1>
+            <p class="muted guide-lead">
+                Strategy and timing for every part of the Reading &amp; Use of English paper —
+                and how to train it on this site.
+            </p>
+        </header>
+
+        @if (UnknownSlug)
+        {
+            <div class="callout callout-warn">
+                <p><strong>Unknown section.</strong> There is no guide page called “@Slug”. Pick one below.</p>
+            </div>
+        }
+
+        <div class="guide-toc">
+            @for (var i = 0; i < GuideLibrary.Sections.Count; i++)
             {
-                <li><a href="@($"guide/{g.Slug}")">@g.Title</a></li>
+                var s = GuideLibrary.Sections[i];
+                <a class="guide-toc-card" href="@Href(s.Slug)">
+                    <span class="guide-toc-num">@(i + 1)</span>
+                    <span class="guide-toc-title">@s.Title</span>
+                    <span class="guide-toc-sum">@s.Summary</span>
+                </a>
             }
-        </ul>
+        </div>
     }
     else
     {
-        <h2>@Current.Title</h2>
-        <p>Content placeholder.</p>
+        <nav class="guide-chips" aria-label="Guide sections">
+            @foreach (var s in GuideLibrary.Sections)
+            {
+                <NavLink class="guide-chip" ActiveClass="guide-chip-active" href="@Href(s.Slug)" Match="NavLinkMatch.All">@s.Title</NavLink>
+            }
+        </nav>
+
+        @switch (Current.Slug)
+        {
+            case "overview":
+                @Overview
+                break;
+            case "timing":
+                @Timing
+                break;
+            case "part-1":
+                @Part1
+                break;
+            case "part-2":
+                @Part2
+                break;
+            case "part-3":
+                @Part3
+                break;
+            case "part-4":
+                @Part4
+                break;
+            case "common-traps":
+                @CommonTraps
+                break;
+            case "preparation":
+                @Preparation
+                break;
+        }
+
+        <nav class="guide-pager" aria-label="Previous and next guide sections">
+            @if (Prev is not null)
+            {
+                <a class="guide-pager-link" href="@Href(Prev.Slug)"><small>Previous</small><strong>@Prev.Title</strong></a>
+            }
+            else
+            {
+                <span></span>
+            }
+            @if (Next is not null)
+            {
+                <a class="guide-pager-link guide-pager-next" href="@Href(Next.Slug)"><small>Next</small><strong>@Next.Title</strong></a>
+            }
+        </nav>
     }
 </div>
 
@@ -28,4 +92,545 @@
     [Parameter] public string? Slug { get; set; }
 
     private GuideLibrary.Section? Current => Slug is null ? null : GuideLibrary.Find(Slug);
+
+    private bool UnknownSlug => Slug is not null && Current is null;
+
+    private GuideLibrary.Section? Prev
+    {
+        get
+        {
+            if (Current is null) return null;
+            var i = GuideLibrary.IndexOf(Current);
+            return i > 0 ? GuideLibrary.Sections[i - 1] : null;
+        }
+    }
+
+    private GuideLibrary.Section? Next
+    {
+        get
+        {
+            if (Current is null) return null;
+            var i = GuideLibrary.IndexOf(Current);
+            return i >= 0 && i < GuideLibrary.Sections.Count - 1 ? GuideLibrary.Sections[i + 1] : null;
+        }
+    }
+
+    private static string Href(string slug) => $"guide/{slug}";
+
+    private RenderFragment Overview => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Exam overview")</h2>
+        <p class="guide-lead">
+            The Reading &amp; Use of English paper lasts <strong>1 hour 30 minutes</strong> and has
+            <strong>8 parts</strong> and <strong>56 questions</strong>. It is worth <strong>40% of your
+            overall grade</strong> — the single largest paper of the exam.
+        </p>
+
+        <h3>The whole exam</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Paper</th><th>Length</th><th>Weight</th></tr>
+                </thead>
+                <tbody>
+                    <tr class="guide-row-ue"><td>Reading &amp; Use of English</td><td>1 h 30 min — 8 parts, 56 questions</td><td>40%</td></tr>
+                    <tr><td>Writing</td><td>1 h 30 min — 2 parts</td><td>20%</td></tr>
+                    <tr><td>Listening</td><td>About 40 min — 4 parts</td><td>20%</td></tr>
+                    <tr><td>Speaking</td><td>15 min — 4 parts, with a partner</td><td>20%</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>The eight parts of Reading &amp; Use of English</h3>
+        <p class="muted">Parts 1–4 are the Use of English half (shaded). Parts 5–8 are the Reading half.</p>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Part</th><th>Task</th><th>Questions</th><th>Marks each</th><th>What it tests</th></tr>
+                </thead>
+                <tbody>
+                    <tr class="guide-row-ue"><td>1</td><td>Multiple-choice cloze</td><td>8</td><td>1</td><td>Vocabulary: collocation, phrasal verbs, fixed phrases</td></tr>
+                    <tr class="guide-row-ue"><td>2</td><td>Open cloze</td><td>8</td><td>1</td><td>Grammar: function words in context</td></tr>
+                    <tr class="guide-row-ue"><td>3</td><td>Word formation</td><td>8</td><td>1</td><td>Vocabulary: word families, affixes, spelling</td></tr>
+                    <tr class="guide-row-ue"><td>4</td><td>Key word transformations</td><td>6</td><td>2</td><td>Grammar and vocabulary: paraphrase, control of structures</td></tr>
+                    <tr><td>5</td><td>Reading — multiple choice</td><td>6</td><td>2</td><td>Detail, opinion, gist, main idea of a long text</td></tr>
+                    <tr><td>6</td><td>Cross-text multiple matching</td><td>4</td><td>2</td><td>Opinion and agreement across four short texts</td></tr>
+                    <tr><td>7</td><td>Multiple matching</td><td>6</td><td>2</td><td>Locating information across sections of one text</td></tr>
+                    <tr><td>8</td><td>Multiple matching</td><td>10</td><td>1</td><td>Detail and opinion across several texts</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="callout callout-info">
+            <p><strong>Parts 1–4 carry 36 of the paper’s 78 marks.</strong> Thirty questions, roughly half the
+            paper — and exactly what this site drills. Mastering these four parts is the fastest way to move
+            your grade.</p>
+        </div>
+
+        <h3>How this site maps to the exam</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Site task</th><th>Exam part</th><th>Format</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Reading &amp; Use of English — Part 1</td><td>Part 1</td><td>Multiple-choice cloze, 8 questions per set — same as the exam</td></tr>
+                    <tr><td>Reading &amp; Use of English — Part 2</td><td>Part 2</td><td>Open cloze, 8 questions, one word per gap — same as the exam</td></tr>
+                    <tr><td>Reading &amp; Use of English — Part 3</td><td>Part 3</td><td>Word formation, 8 questions — same as the exam</td></tr>
+                    <tr><td>Reading &amp; Use of English — Part 4</td><td>Part 4</td><td>Key word transformations, 6 questions — same as the exam</td></tr>
+                    <tr><td>Topic drills (collocations, prepositions, verb patterns, …)</td><td>—</td><td>No exam equivalent; they build the raw grammar and vocabulary that Parts 1–4 test</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>The one fact that matters most in each part</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Part</th><th>Remember this</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Most options are grammatically correct. The question is which word the sentence <em>collocates</em> with — not which word is “more correct”.</td></tr>
+                    <tr><td>2</td><td>One word only, and it is almost always a grammar word: article, auxiliary, preposition, pronoun, quantifier.</td></tr>
+                    <tr><td>3</td><td>Decide the part of speech first. Forming the right word in the wrong class still scores zero.</td></tr>
+                    <tr><td>4</td><td>Two marks per sentence — one for each half. A perfect structure with one small slip can still earn 1 mark, so always write something.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p><a href="@Href("timing")">Next: how to spend the 90 minutes.</a></p>
+    </div>;
+
+    private RenderFragment Timing => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Time management")</h2>
+        <p class="guide-lead">
+            You have <strong>90 minutes</strong> for 8 parts. Running out of time usually costs more marks
+            than a hard question does — so follow a budget, not a feeling.
+        </p>
+
+        <h3>A budget that works</h3>
+        <p>The allocation below sums exactly to 90 minutes. The “clock” column is your checkpoint:
+        glance at it when you start each part.</p>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Part</th><th>Task</th><th>Budget</th><th>Clock when you finish</th></tr>
+                </thead>
+                <tbody>
+                    <tr class="guide-row-ue"><td>1</td><td>Multiple-choice cloze</td><td>10 min</td><td>0:10</td></tr>
+                    <tr class="guide-row-ue"><td>2</td><td>Open cloze</td><td>10 min</td><td>0:20</td></tr>
+                    <tr class="guide-row-ue"><td>3</td><td>Word formation</td><td>10 min</td><td>0:30</td></tr>
+                    <tr class="guide-row-ue"><td>4</td><td>Key word transformations</td><td>12 min</td><td>0:42</td></tr>
+                    <tr><td>5</td><td>Reading, multiple choice</td><td>15 min</td><td>0:57</td></tr>
+                    <tr><td>6</td><td>Cross-text multiple matching</td><td>10 min</td><td>1:07</td></tr>
+                    <tr><td>7</td><td>Multiple matching</td><td>10 min</td><td>1:17</td></tr>
+                    <tr><td>8</td><td>Multiple matching</td><td>10 min</td><td>1:27</td></tr>
+                    <tr><td>—</td><td>Final check of flagged answers</td><td>3 min</td><td>1:30</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="callout callout-info">
+            <p><strong>Part 4 gets more time per question — for a reason.</strong> Six questions, two marks
+            each: 12 marks, as many as the whole of Part 5. It has the best marks-per-minute rate in the
+            paper, so it must never be the part you rush.</p>
+        </div>
+        <p class="muted">Adjust the split to your strengths — but write your own numbers down and keep the
+        checkpoints. “Roughly on track” is how people lose 20 minutes in Part 1.</p>
+
+        <h3>When you are stuck: the 30-second rule</h3>
+        <ol class="guide-steps">
+            <li>Give the question <strong>30 seconds</strong> of real thought.</li>
+            <li>If nothing lands, <strong>write your best guess now</strong> — a blank scores zero, a guess sometimes scores one.</li>
+            <li><strong>Mark it</strong> (circle the number on the question paper) and move on.</li>
+            <li><strong>Return</strong> to marked questions in the 3-minute check at the end.</li>
+        </ol>
+        <p>On Part 1, a guess costs nothing — pick one of the four. On Parts 2 and 3, write the most likely
+        function word or word class even if you are unsure. On Part 4, write the structure you believe is
+        being tested; a correct structure with one slip can still earn a mark.</p>
+
+        <h3>Time traps</h3>
+        <ul class="guide-list">
+            <li><strong>Perfecting Part 1, rushing Part 4.</strong> Twenty-five comfortable minutes on Part 1
+            starve the part worth the most marks per question. Hold the 10-minute line.</li>
+            <li><strong>Re-reading the whole text for every gap.</strong> Read the sentence before and after
+            each gap, not the entire text again.</li>
+            <li><strong>Polishing easy answers.</strong> If the first word you wrote in Part 2 was simple and
+            grammatical, it is probably right. Spend saved time on Part 4, not on Part 2.</li>
+            <li><strong>Copying answers at the end (paper-based exam).</strong> Write each answer straight
+            onto the answer sheet as you go; leaving transfer to the last minute is how blanks happen.</li>
+            <li><strong>Ignoring the clock column.</strong> Check it at the start of every part. If you are
+            more than 2–3 minutes behind, take your best guesses on the hardest gaps and catch up.</li>
+        </ul>
+
+        <div class="callout callout-tip">
+            <p><strong>Train the clock here.</strong> When you run a timed set on this site, hold the same
+            budgets: 10 minutes for Parts 1–3, 12 for Part 4. Use a stopwatch, not a feeling.</p>
+        </div>
+        <p><a href="@Href("part-1")">Next: Part 1 strategy.</a></p>
+    </div>;
+
+    private RenderFragment Part1 => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Part 1: Multiple-choice cloze")</h2>
+        <p class="guide-lead">
+            8 gaps in one text, four options each, 1 mark per gap. The options usually all fit the
+            grammar — this part tests <strong>which word naturally goes with the words around it</strong>.
+        </p>
+
+        <h3>Method</h3>
+        <ol class="guide-steps">
+            <li><strong>Read the sentence before and after the gap first.</strong> The clue is often one
+            sentence away, and you cannot spot a collocation if you have not read far enough.</li>
+            <li><strong>Decide the word class</strong> the slot needs: verb, noun, adjective, linker.</li>
+            <li><strong>Predict your own word</strong> before looking at A–D. Any close synonym confirms you
+            understand the sentence; confusion here means re-read, don’t guess.</li>
+            <li><strong>Test the options as collocations</strong>, not as meanings: cover the gap and say the
+            whole phrase with each option.</li>
+            <li><strong>Re-read the finished sentence</strong> with your choice in place before moving on.</li>
+        </ol>
+
+        <h3>Collocation beats translation</h3>
+        <p>Strong collocations are pairs native speakers store as one unit. Learn them as pairs:</p>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Pattern</th><th>Examples</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>verb + noun</td><td><span class="guide-word">make</span> a decision, <span class="guide-word">take</span> a risk, <span class="guide-word">pay</span> attention, <span class="guide-word">break</span> a promise</td></tr>
+                    <tr><td>adjective + noun</td><td><span class="guide-word">heavy</span> rain, <span class="guide-word">strong</span> coffee, <span class="guide-word">close</span> friend, <span class="guide-word">deep</span> sleep</td></tr>
+                    <tr><td>verb + preposition</td><td>depend <span class="guide-word">on</span>, insist <span class="guide-word">on</span>, apologise <span class="guide-word">for</span>, cope <span class="guide-word">with</span></td></tr>
+                    <tr><td>adverb + adjective</td><td><span class="guide-word">fully</span> aware, <span class="guide-word">bitterly</span> disappointed, <span class="guide-word">highly</span> successful</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Distractor types — and how to beat them</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Distractor</th><th>What it looks like</th><th>Defence</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Right meaning, wrong collocate</td><td>“powerful coffee” — the meaning is fine, English says <em>strong</em></td><td>Check the partner word, not the dictionary meaning</td></tr>
+                    <tr><td>Wrong pattern</td><td>a verb that cannot take the preposition or structure that follows the gap</td><td>Look at what comes <em>after</em> the gap: preposition, -ing, to-infinitive</td></tr>
+                    <tr><td>Confusable pair</td><td>remember / remind, borrow / lend, say / tell</td><td>Check who does what to whom in the sentence</td></tr>
+                    <tr><td>Too general</td><td>a word that fits almost any sentence but adds no precise meaning</td><td>Prefer the most specific option that fits</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="callout callout-tip">
+            <p><strong>Eliminate first.</strong> Two of the four options are usually clearly wrong on meaning
+            or pattern. Cross them out; choose between the survivors. One deliberate comparison beats four
+            vague ones.</p>
+        </div>
+        <div class="callout callout-warn">
+            <p><strong>Do not pick the word your language would use.</strong> A direct translation often breaks
+            an English collocation — exactly what this part is built to catch.</p>
+        </div>
+        <p><a href="@Href("part-2")">Next: Part 2 strategy.</a></p>
+    </div>;
+
+    private RenderFragment Part2 => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Part 2: Open cloze")</h2>
+        <p class="guide-lead">
+            8 gaps, no options. You write <strong>one word</strong> per gap — and it is almost always a
+            <strong>function word</strong>: article, auxiliary, preposition, pronoun, quantifier, linker.
+            1 mark per gap.
+        </p>
+
+        <h3>Read the grammar, not the line</h3>
+        <p>Identify the function of the missing word from the words on <em>both sides</em> of the gap.
+        The clue is frequently in the previous sentence or in the phrase after the gap.</p>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Cue around the gap</th><th>Answer type</th><th>Example</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Singular countable noun with no determiner</td><td>article</td><td>There’s <span class="guide-word">an</span> old hotel near here.</td></tr>
+                    <tr><td>Subject + ___ + past participle</td><td>auxiliary</td><td>She <span class="guide-word">has</span> never been to Rome.</td></tr>
+                    <tr><td>Verb + ___ + -ing / noun</td><td>preposition</td><td>He insisted <span class="guide-word">on</span> paying for the meal.</td></tr>
+                    <tr><td>Noun + ___ + clause without its own subject</td><td>relative pronoun</td><td>the man <span class="guide-word">who</span> lives next door</td></tr>
+                    <tr><td>___ + of + group</td><td>quantifier</td><td><span class="guide-word">Most</span> of the students passed.</td></tr>
+                    <tr><td>Comparative marker</td><td>more / less</td><td>This one is <span class="guide-word">more</span> expensive than that.</td></tr>
+                    <tr><td>Comparative + ___ + second item</td><td>than</td><td>I’d rather walk <span class="guide-word">than</span> wait.</td></tr>
+                    <tr><td>Two clauses, one condition</td><td>linker</td><td><span class="guide-word">Unless</span> it rains, we’ll walk.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Method</h3>
+        <ol class="guide-steps">
+            <li><strong>Read the whole sentence</strong> — and the one before it. Then decide the function
+            word class before you pick the exact word.</li>
+            <li><strong>Write the word.</strong> If several fit, choose the one that matches the style: formal
+            texts want formal linkers.</li>
+            <li><strong>Check agreement and tense</strong> after writing: <em>has/have</em>, <em>was/were</em>,
+            <em>much/many</em>.</li>
+            <li><strong>Re-read the completed sentence.</strong> If it does not read naturally, the word is wrong.</li>
+        </ol>
+
+        <div class="callout callout-warn">
+            <p><strong>One word only.</strong> Two words score zero even when one of them is optional.
+            Contractions such as <em>don’t</em> count as one word and are fine where natural speech would
+            use them.</p>
+        </div>
+        <div class="callout callout-warn">
+            <p><strong>Spelling counts.</strong> <em>Althought</em>, <em>becouse</em>, <em>wich</em> — all
+            zero. If you are unsure of a spelling, choose a word you can spell.</p>
+        </div>
+        <div class="callout callout-tip">
+            <p><strong>No blanks.</strong> Write the most plausible function word and move on — guesses are
+            free, blanks are permanent. Practise in typed mode so spelling pressure is part of training
+            (see <a href="@Href("preparation")">Prepare with this site</a>).</p>
+        </div>
+        <p><a href="@Href("part-3")">Next: Part 3 strategy.</a></p>
+    </div>;
+
+    private RenderFragment Part3 => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Part 3: Word formation")</h2>
+        <p class="guide-lead">
+            8 gaps. Each line ends with a <strong>stem word in CAPITALS</strong>; you form a new word from
+            it to fill the gap. 1 mark per gap — and spelling must be exact.
+        </p>
+
+        <h3>Step 1 — decide the part of speech <em>before</em> forming anything</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>What you see around the gap</th><th>You need</th><th>Example</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>a / an / the / his + ___</td><td>noun</td><td>his <span class="guide-word">refusal</span> (REFUSE)</td></tr>
+                    <tr><td>___ + noun (no determiner)</td><td>adjective</td><td>a <span class="guide-word">remarkable</span> progress (REMARK)</td></tr>
+                    <tr><td>action verb + ___</td><td>adverb</td><td>she spoke <span class="guide-word">confidently</span> (CONFIDENT)</td></tr>
+                    <tr><td>be / seem / remain + ___</td><td>adjective</td><td>the plan seems <span class="guide-word">risky</span> (RISK)</td></tr>
+                    <tr><td>___ + adjective or verb</td><td>adverb</td><td><span class="guide-word">highly</span> successful (HIGH)</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>Example of the mistake this prevents: with <em>“a very ___ (SUCCEED) plan”</em>, the cue
+        <em>“a very ___ plan”</em> demands an adjective — <strong>successful</strong>, not the noun
+        <em>success</em>.</p>
+
+        <h3>Step 2 — form the word</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Class</th><th>Common endings</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Noun</td><td>-ment, -ion, -ance, -ence, -ship, -ity, -ness, -er / -or</td></tr>
+                    <tr><td>Adjective</td><td>-ive, -ous, -ful, -less, -al, -able / -ible, -ic, -y</td></tr>
+                    <tr><td>Adverb</td><td>-ly (careful: <em>friendly</em> is an adjective)</td></tr>
+                    <tr><td>Verb</td><td>-ise, -ify, -en</td></tr>
+                    <tr><td>Negative / opposite</td><td>un-, in-, im- (before p, b, m), il- (before l), ir- (before r), dis-, mis-</td></tr>
+                    <tr><td>Also common</td><td>re- (again), over- / under- (too much / too little), -able / -less pairs</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Step 3 — check after forming</h3>
+        <ul class="guide-list">
+            <li><strong>Does the context demand the negative?</strong> Add <em>un-/in-/dis-</em> only if the
+            sentence really says the opposite — an unneeded prefix loses the mark.</li>
+            <li><strong>Plural or singular?</strong> <em>“one of the greatest ___ (ACHIEVE)”</em> needs
+            <strong>achievements</strong>.</li>
+            <li><strong>If the answer is a verb: tense and agreement.</strong> Third-person -s, past forms.</li>
+            <li><strong>Spelling shifts:</strong> argue → <strong>argument</strong> (e drops),
+            happy → <strong>happiness</strong> (y → i), succeed → <strong>successful</strong>,
+            industry → <strong>industrial</strong>.</li>
+        </ul>
+
+        <div class="callout callout-warn">
+            <p><strong>The stem never stays unchanged.</strong> Every answer modifies the CAPITALS word in
+            some way. If your answer is exactly the stem, re-check the part of speech.</p>
+        </div>
+        <p><a href="@Href("part-4")">Next: Part 4 strategy.</a></p>
+    </div>;
+
+    private RenderFragment Part4 => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Part 4: Key word transformations")</h2>
+        <p class="guide-lead">
+            6 items, <strong>2 marks each</strong> — the most valuable questions in the paper. Complete the
+            second sentence so it means the same as the first, using the given
+            <strong>key word</strong>. Your answer must be <strong>3–6 words, including the key word</strong>.
+        </p>
+
+        <h3>The hard rules</h3>
+        <ul class="guide-list">
+            <li><strong>Never change the key word</strong> in any way — no tense change, no plural, no repositioning.</li>
+            <li><strong>3–6 words including the key word.</strong> Contractions count as <em>two</em> words:
+            <em>don’t</em> = do + not.</li>
+            <li><strong>Keep the meaning identical.</strong> No added or dropped information, however small.</li>
+        </ul>
+
+        <h3>What Part 4 usually tests</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Test area</th><th>Typical key word</th><th>Example change</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Comparison</td><td>as / than</td><td><em>Everest is higher than K2.</em> → K2 is not <strong>as</strong> high as Everest.</td></tr>
+                    <tr><td>Passive</td><td>was / been</td><td><em>They built the bridge in 1900.</em> → The bridge <strong>was</strong> built in 1900.</td></tr>
+                    <tr><td>Reported speech</td><td>said</td><td><em>“I will call you.”</em> → She <strong>said</strong> she would call me.</td></tr>
+                    <tr><td>Modals of deduction</td><td>must / can’t</td><td><em>I’m sure he knows.</em> → He <strong>must</strong> know.</td></tr>
+                    <tr><td>Conditionals</td><td>unless</td><td><em>If you don’t hurry, you’ll miss it.</em> → <strong>Unless</strong> you hurry, you’ll miss it.</td></tr>
+                    <tr><td>Linkers</td><td>despite</td><td><em>Although it rained, …</em> → <strong>Despite</strong> the rain, …</td></tr>
+                    <tr><td>Causative</td><td>had</td><td><em>Someone repaired my car.</em> → I <strong>had</strong> my car repaired.</td></tr>
+                    <tr><td>Wish / regret</td><td>wish</td><td><em>I regret leaving early.</em> → I <strong>wish</strong> I hadn’t left early.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Method</h3>
+        <ol class="guide-steps">
+            <li><strong>Compare the two sentences.</strong> Find exactly which information moved or is missing.</li>
+            <li><strong>Let the key word name the structure.</strong> <em>despite</em> → linking device;
+            <em>had</em> → causative; <em>as</em> → comparison. Decide the pattern before writing.</li>
+            <li><strong>Draft around the key word</strong>, keeping it untouched and in grammatical position.</li>
+            <li><strong>Count the words</strong> — 3 to 6, contractions as two. Count physically; “it feels short”
+            is not a check.</li>
+            <li><strong>Check the second sentence’s grammar:</strong> tense shift, agreement, word order —
+            especially in reported questions (<em>where it was</em>, not <em>where was it</em>).</li>
+            <li><strong>Check the meaning is identical</strong> to sentence one.</li>
+        </ol>
+
+        <div class="callout callout-info">
+            <p><strong>Two marks, two halves.</strong> Each half of the sentence is marked separately: a correct
+            structure with one slip elsewhere usually earns 1 of the 2 marks. An empty line always earns 0 —
+            so always write your best attempt.</p>
+        </div>
+        <div class="callout callout-warn">
+            <p><strong>Most common total loss:</strong> the right structure in the wrong tense —
+            <em>she said she will come</em> instead of <em>would come</em>. After a reporting verb in the past,
+            shift the tense.</p>
+        </div>
+        <p><a href="@Href("common-traps")">Next: the mistakes that cost the most marks.</a></p>
+    </div>;
+
+    private RenderFragment CommonTraps => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Common traps")</h2>
+        <p class="guide-lead">
+            The highest-frequency mistakes in each part. Every one of them is catchable with a
+            two-second check — build the checks into your routine.
+        </p>
+
+        <h3>Part 1 — multiple-choice cloze</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Trap</th><th>Wrong → right pattern</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Choosing your language’s word, not English’s</td><td><span class="guide-bad">make a photo</span> → <span class="guide-good">take a photo</span></td></tr>
+                    <tr><td>Ignoring the words after the gap</td><td>a preposition or -ing after the gap often rules out two options instantly</td></tr>
+                    <tr><td>Choosing from memory of a similar exercise</td><td>the same word can collocate in one sentence and not in another — re-read this one</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Part 2 — open cloze</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Trap</th><th>Wrong → right pattern</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><em>despite of</em></td><td><span class="guide-bad">despite of</span> → <span class="guide-good">despite</span> or <span class="guide-good">in spite of</span></td></tr>
+                    <tr><td>Dropping the article</td><td><span class="guide-bad">went to cinema</span> → <span class="guide-good">went to the cinema</span></td></tr>
+                    <tr><td>Logic flip in linkers</td><td><span class="guide-bad">if it rains, we’ll stay in — actually meaning unless</span> → check whether the second clause confirms or contradicts</td></tr>
+                    <tr><td>Two words where one is required</td><td>re-read the instruction: one word only, every time</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Part 3 — word formation</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Trap</th><th>Wrong → right pattern</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Noun where an adjective is needed</td><td><span class="guide-bad">a success plan</span> → <span class="guide-good">a successful plan</span></td></tr>
+                    <tr><td>Negative prefix the context does not want</td><td>check the sentence really states the opposite before adding <em>un-/in-/dis-</em></td></tr>
+                    <tr><td>Spelling shift missed</td><td><span class="guide-bad">arguement</span> → <span class="guide-good">argument</span>; <span class="guide-bad">sucessful</span> → <span class="guide-good">successful</span></td></tr>
+                    <tr><td>Stem left unchanged</td><td>the answer is never exactly the CAPITALS word — something must change</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Part 4 — key word transformations</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Trap</th><th>Wrong → right pattern</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Changing the key word</td><td><span class="guide-bad">has (key word: had)</span> → the key word must appear exactly as given</td></tr>
+                    <tr><td>Outside 3–6 words</td><td>count every word; contractions are two</td></tr>
+                    <tr><td>Right structure, wrong tense</td><td><span class="guide-bad">she said she will come</span> → <span class="guide-good">she said she would come</span></td></tr>
+                    <tr><td>Question word order in reported questions</td><td><span class="guide-bad">asked where was it</span> → <span class="guide-good">asked where it was</span></td></tr>
+                    <tr><td>Meaning drift</td><td>dropping <em>only</em>, adding <em>very</em>, changing “may” to “must” — same structure, different meaning, lost marks</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>The 30-second final check</h3>
+        <ul class="guide-list">
+            <li><strong>Part 1:</strong> did you re-read each completed sentence once?</li>
+            <li><strong>Part 2:</strong> one word per gap, spelling clean?</li>
+            <li><strong>Part 3:</strong> word class matches the slot, prefix justified, spelling exact?</li>
+            <li><strong>Part 4:</strong> key word untouched, 3–6 words, tense shifted where needed?</li>
+        </ul>
+        <p><a href="@Href("preparation")">Next: how to prepare with this site.</a></p>
+    </div>;
+
+    private RenderFragment Preparation => @<div class="guide-section">
+        <h2>@(Current?.Title ?? "Prepare with this site")</h2>
+        <p class="guide-lead">
+            This site exists to train Parts 1–4. Use it like a gym — short, regular, honest sessions
+            — not a museum you stroll through.
+        </p>
+
+        <h3>Habits that move the score</h3>
+        <ul class="guide-list">
+            <li><strong>Use typed mode for Parts 2, 3 and 4.</strong> The “Type answers” toggle sits at the top
+            of each practice page. Recognition is not recall: picking from four options inflates your score and
+            hides spelling. Part 2 and 3 sets have no options at all when typed mode is forced — exactly like
+            the exam.</li>
+            <li><strong>Accuracy before speed.</strong> Drill untimed until a task holds roughly 80% accuracy.
+            Then add the budgets from <a href="@Href("timing")">Time management</a>. Speed built on sloppy
+            accuracy just makes mistakes faster.</li>
+            <li><strong>Review the Progress page weekly.</strong> The per-task trend arrows show whether you are
+            genuinely improving or slipping; the “Most frequent mistakes” list names the exact answers you keep
+            missing.</li>
+            <li><strong>Re-drill what you miss.</strong> A missed item re-drilled within a week is worth more
+            than a fresh set. Open the task behind each frequent mistake and do one new set of it.</li>
+            <li><strong>Use hints sparingly.</strong> The Progress page tracks hint use. A hint taken before
+            thinking is a question you have not really practised.</li>
+        </ul>
+
+        <h3>A simple weekly plan</h3>
+        <div class="guide-table-wrap">
+            <table class="guide-table">
+                <thead>
+                    <tr><th>Day</th><th>Session</th><th>Notes</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Mon</td><td>Parts 1 + 2 — one set each</td><td>Untimed, typed mode for Part 2</td></tr>
+                    <tr><td>Wed</td><td>Parts 3 + 4 — one set each</td><td>Typed; count Part 4 words by hand</td></tr>
+                    <tr><td>Fri</td><td>One topic drill</td><td>Your weakest area from Progress trends and mistakes</td></tr>
+                    <tr><td>Sun</td><td>Timed mixed set of Parts 1–4</td><td>Exam budgets: 10 / 10 / 10 / 12 minutes, no hints, then review every mistake</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="muted">Four sessions of 20–30 minutes beat one long session. Keep the Sunday timed set — it is
+        the only session where speed is the point.</p>
+
+        <div class="callout callout-tip">
+            <p><strong>Track two numbers only:</strong> your overall accuracy ring on the Progress page, and the
+            length of your frequent-mistakes list. The first should climb; the second should shorten.</p>
+        </div>
+        <p><a href="@Href("overview")">Back to the exam overview.</a></p>
+    </div>;
 }
