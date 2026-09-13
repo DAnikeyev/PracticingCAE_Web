@@ -1426,5 +1426,149 @@
   ],
   "hint": "non-defining, thing",
   "explanation": "Non-defining clause about a thing: 'which', never 'that'."
+ },
+ {
+  "sentence": "The scientist ___ research we cited has won the Nobel Prize.",
+  "answer": "whose",
+  "options": [
+   "whose",
+   "who",
+   "which",
+   "whom"
+  ],
+  "hint": "possessive relative",
+  "explanation": "'Whose' shows possession: the scientist whose research…"
+ },
+ {
+  "sentence": "The flat ___ they moved into last June has damp in the back bedroom.",
+  "answer": "which",
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "whom"
+  ],
+  "hint": "relative for a thing",
+  "explanation": "'Which' (or 'that') refers to the thing being moved into."
+ },
+ {
+  "sentence": "The hotel, ___ rates include breakfast, is fully booked for the conference.",
+  "answer": "whose",
+  "options": [
+   "whose",
+   "which",
+   "that",
+   "where"
+  ],
+  "hint": "possession by a thing",
+  "explanation": "'Whose' marks possession even for things: the hotel whose rates…"
+ },
+ {
+  "sentence": "The reason ___ the flight was diverted has never been made public.",
+  "answer": "why",
+  "options": [
+   "why",
+   "when",
+   "where",
+   "which"
+  ],
+  "hint": "reason relative",
+  "explanation": "'The reason why' — 'why' is the relative for reasons."
+ },
+ {
+  "sentence": "The village, ___ population has halved since the mine closed, is seeking city funding.",
+  "answer": "whose",
+  "options": [
+   "whose",
+   "which",
+   "that",
+   "where"
+  ],
+  "hint": "possession by the village",
+  "explanation": "The population belongs to the village: whose population."
+ },
+ {
+  "sentence": "I will always remember the summer ___ we cycled along the Danube.",
+  "answer": "when",
+  "options": [
+   "when",
+   "which",
+   "whose",
+   "whom"
+  ],
+  "hint": "time relative",
+  "explanation": "'When' relates to a time expression like 'the summer'."
+ },
+ {
+  "sentence": "The contract, the small print of ___ nobody had read, contained a surprise clause.",
+  "answer": "which",
+  "options": [
+   "which",
+   "that",
+   "whose",
+   "what"
+  ],
+  "hint": "preposition + relative",
+  "explanation": "After a preposition only 'which' (things) or 'whom' (people) is possible."
+ },
+ {
+  "sentence": "___ mattered most was that nobody had been hurt.",
+  "answer": "What",
+  "options": [
+   "What",
+   "That",
+   "Which",
+   "It"
+  ],
+  "hint": "nominal relative as subject",
+  "explanation": "'What' = the thing that; it acts as subject of the clause."
+ },
+ {
+  "sentence": "The bridge ___ the campaign saved has just been listed as a monument.",
+  "answer": "which",
+  "options": [
+   "which",
+   "who",
+   "whose",
+   "where"
+  ],
+  "hint": "thing as object of saved",
+  "explanation": "'Which' relates to the bridge, the object of 'saved'."
+ },
+ {
+  "sentence": "Everything ___ could be salvaged from the fire was auctioned for charity.",
+  "answer": "that",
+  "options": [
+   "that",
+   "which",
+   "what",
+   "who"
+  ],
+  "hint": "after everything",
+  "explanation": "After 'everything/all/nothing' the relative is 'that', never 'which'."
+ },
+ {
+  "sentence": "The theatre ___ we saw the premiere has been restored beautifully.",
+  "answer": "where",
+  "options": [
+   "where",
+   "which",
+   "that",
+   "when"
+  ],
+  "hint": "place relative",
+  "explanation": "'Where' relates to a place: the theatre where we saw…"
+ },
+ {
+  "sentence": "Mr Okafor, ___ the whole department respects, is retiring in May.",
+  "answer": "whom",
+  "options": [
+   "whom",
+   "whose",
+   "which",
+   "that"
+  ],
+  "hint": "object relative, formal",
+  "explanation": "Formal non-defining clause with a person as object: whom."
  }
 ]

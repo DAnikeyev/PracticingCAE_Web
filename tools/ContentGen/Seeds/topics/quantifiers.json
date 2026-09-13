@@ -1510,5 +1510,149 @@
   ],
   "hint": "uncountable, small amount",
   "explanation": "'Little money' — uncountable noun."
+ },
+ {
+  "sentence": "There is ___ use asking him — he never checks his messages.",
+  "answer": "no",
+  "options": [
+   "no",
+   "none",
+   "not",
+   "neither"
+  ],
+  "hint": "there's no use + -ing",
+  "explanation": "'There is no use doing something' = it is pointless."
+ },
+ {
+  "sentence": "___ of the three routes avoids the toll entirely.",
+  "answer": "None",
+  "options": [
+   "None",
+   "Neither",
+   "No",
+   "Any"
+  ],
+  "hint": "not any of three or more",
+  "explanation": "'None of' is used for three or more; 'neither' only for two."
+ },
+ {
+  "sentence": "We have made ___ progress than we hoped by this stage.",
+  "answer": "less",
+  "options": [
+   "less",
+   "fewer",
+   "little",
+   "least"
+  ],
+  "hint": "comparative with uncountable",
+  "explanation": "'Progress' is uncountable, so the comparative is 'less'."
+ },
+ {
+  "sentence": "There were ___ interruptions this year, so the ceremony ran far more smoothly.",
+  "answer": "fewer",
+  "options": [
+   "fewer",
+   "less",
+   "little",
+   "fewest"
+  ],
+  "hint": "comparative with countable plural",
+  "explanation": "'Interruptions' is countable plural: fewer."
+ },
+ {
+  "sentence": "There was ___ enthusiasm for the proposal, so it was quietly shelved.",
+  "answer": "little",
+  "options": [
+   "little",
+   "a little",
+   "few",
+   "much"
+  ],
+  "hint": "small amount, negative sense",
+  "explanation": "'Little' (without 'a') means not enough — which explains shelving the proposal."
+ },
+ {
+  "sentence": "___ the rooms in the hotel have a sea view; the rest face the car park.",
+  "answer": "Some of",
+  "options": [
+   "Some of",
+   "Some",
+   "None of",
+   "All of"
+  ],
+  "hint": "part of a defined set",
+  "explanation": "Before 'the rooms' a partitive is needed: Some of; 'all/none' contradict the context."
+ },
+ {
+  "sentence": "___ of the equipment has been serviced this year, so breakdowns are rare.",
+  "answer": "Most",
+  "options": [
+   "Most",
+   "The most",
+   "More",
+   "Much"
+  ],
+  "hint": "the majority of",
+  "explanation": "'Most of + noun' = the majority of it; 'the most' is a superlative."
+ },
+ {
+  "sentence": "Hardly ___ of the villagers had ever seen a passport.",
+  "answer": "any",
+  "options": [
+   "any",
+   "none",
+   "no",
+   "some"
+  ],
+  "hint": "hardly ___ = almost none",
+  "explanation": "'Hardly any of' = almost none of; 'hardly none' is impossible."
+ },
+ {
+  "sentence": "The lecture was ___ attended than the organisers had hoped.",
+  "answer": "less well",
+  "options": [
+   "less well",
+   "lesser",
+   "less good",
+   "least"
+  ],
+  "hint": "adverb comparison",
+  "explanation": "'Well attended' compares with the adverb: less well attended."
+ },
+ {
+  "sentence": "There are ___ than forty applicants for every training place.",
+  "answer": "more",
+  "options": [
+   "more",
+   "most",
+   "many",
+   "much"
+  ],
+  "hint": "more than + number",
+  "explanation": "'More than' + number expresses quantities above a figure."
+ },
+ {
+  "sentence": "She has ___ patience with excuses; deliver on time or do not bother coming.",
+  "answer": "no",
+  "options": [
+   "no",
+   "none",
+   "not",
+   "nothing"
+  ],
+  "hint": "zero tolerance",
+  "explanation": "'Has no patience with' — 'no' directly negates the noun."
+ },
+ {
+  "sentence": "Every one of the switches ___ been tested twice.",
+  "answer": "has",
+  "options": [
+   "has",
+   "have",
+   "is",
+   "was"
+  ],
+  "hint": "every one = singular",
+  "explanation": "'Every one of' takes a singular verb: has."
  }
 ]

@@ -589,5 +589,77 @@
   "answer": "ahead",
   "hint": "___ of schedule = earlier than planned",
   "explanation": "'Ahead of schedule' = earlier than planned.'"
+ },
+ {
+  "sentence": "The surgeons operated ___ the light of head-torches when the power failed.",
+  "answer": "by",
+  "hint": "___ the light of",
+  "explanation": "'By the light of' = using the light from something."
+ },
+ {
+  "sentence": "Profits rose ___ 40 per cent, far beyond even the optimistic forecasts.",
+  "answer": "by",
+  "hint": "rose ___ 40 per cent",
+  "explanation": "'By' expresses the size of the increase: rose by 40 per cent."
+ },
+ {
+  "sentence": "The manuscript came ___ light during the clearance of the archive.",
+  "answer": "to",
+  "hint": "come ___ light = be discovered",
+  "explanation": "'Come to light' = become known or be discovered."
+ },
+ {
+  "sentence": "The bridge finally opened ___ traffic after a decade of delays.",
+  "answer": "to",
+  "hint": "open ___ traffic",
+  "explanation": "'Open to traffic' = become available for vehicles to use."
+ },
+ {
+  "sentence": "___ the exception of the organ, every instrument in the chapel is original.",
+  "answer": "With",
+  "hint": "fixed phrase: ___ the exception of",
+  "explanation": "'With the exception of' = apart from."
+ },
+ {
+  "sentence": "The lifeguard pulled the swimmer ___ the water just in time.",
+  "answer": "from",
+  "hint": "pulled ___ the water",
+  "explanation": "'Pull somebody from the water' = rescue them out of it."
+ },
+ {
+  "sentence": "Payments must be made ___ advance; invoices cannot be accepted.",
+  "answer": "in",
+  "hint": "___ advance = beforehand",
+  "explanation": "'In advance' = before the event or deadline."
+ },
+ {
+  "sentence": "The goalkeeper was ___ no way at fault for the second goal.",
+  "answer": "in",
+  "hint": "___ no way = definitely not",
+  "explanation": "'In no way' = not at all, used for emphasis."
+ },
+ {
+  "sentence": "The play closed after three nights ___ account of poor ticket sales.",
+  "answer": "on",
+  "hint": "___ account of = because of",
+  "explanation": "'On account of' = because of, in a formal register."
+ },
+ {
+  "sentence": "She signed the confession ___ duress, according to her lawyers.",
+  "answer": "under",
+  "hint": "___ duress = forced by threats",
+  "explanation": "'Under duress' = as a result of pressure or threats."
+ },
+ {
+  "sentence": "The car is ___ your disposal for the whole weekend.",
+  "answer": "at",
+  "hint": "___ your disposal = available to you",
+  "explanation": "'At your disposal' = freely available for your use."
+ },
+ {
+  "sentence": "The album went straight ___ number one in the charts.",
+  "answer": "to",
+  "hint": "straight ___ number one",
+  "explanation": "'Go straight to number one' = reach the top position immediately."
  }
 ]

@@ -1500,5 +1500,177 @@
   "answer": "difficulty in understanding",
   "hint": "have difficulty in + -ing",
   "explanation": "'Have difficulty (in) doing' = find it hard to do."
+ },
+ {
+  "lead": "I regret not studying harder at university.",
+  "sentence": "I ___ at university.",
+  "keyword": "WISH",
+  "answer": "wish I had studied",
+  "accept": [
+   "wish I'd studied"
+  ],
+  "hint": "regret about the past",
+  "explanation": "'I regret not doing' = 'I wish I had done' — wish + past perfect for past regrets."
+ },
+ {
+  "lead": "It would be sensible to leave before the traffic builds up.",
+  "sentence": "We ___ before the traffic builds up.",
+  "keyword": "BETTER",
+  "answer": "had better leave",
+  "hint": "advice with had better",
+  "explanation": "'It would be sensible to do' = 'we had better do' — had better + bare infinitive."
+ },
+ {
+  "lead": "The Minister sat down, and immediately the journalists began shouting.",
+  "sentence": "___ sat down than the journalists began shouting.",
+  "keyword": "NO",
+  "answer": "No sooner had the Minister",
+  "hint": "no sooner … than + inversion",
+  "explanation": "'No sooner had + subject + participle … than' with inversion replaces 'and immediately'."
+ },
+ {
+  "lead": "Although the traffic was heavy, we reached the airport in time.",
+  "sentence": "We reached the airport in time ___ traffic.",
+  "keyword": "DESPITE",
+  "answer": "despite the heavy",
+  "hint": "despite + noun phrase",
+  "explanation": "'Although the traffic was heavy' becomes 'despite the heavy traffic' — despite + noun phrase."
+ },
+ {
+  "lead": "Journalists allege that the mayor accepted bribes.",
+  "sentence": "The mayor ___ bribes.",
+  "keyword": "ALLEGED",
+  "answer": "is alleged to have accepted",
+  "accept": [
+   "was alleged to have accepted"
+  ],
+  "hint": "passive reporting + past infinitive",
+  "explanation": "'They allege that he did' becomes 'he is alleged to have done' — passive reporting."
+ },
+ {
+  "lead": "A professional photographer took the couple's portraits.",
+  "sentence": "The couple ___ by a professional photographer.",
+  "keyword": "HAD",
+  "answer": "had their portraits taken",
+  "hint": "causative have",
+  "explanation": "Arranging for a professional to do it: had their portraits taken."
+ },
+ {
+  "lead": "If the government had acted sooner, the crisis could have been avoided.",
+  "sentence": "___ acted sooner, the crisis could have been avoided.",
+  "keyword": "HAD",
+  "answer": "Had the government",
+  "hint": "inverted third conditional",
+  "explanation": "Dropping 'if' inverts auxiliary and subject: Had the government acted sooner…"
+ },
+ {
+  "lead": "The match officials postponed the fixture because of the storm.",
+  "sentence": "The fixture ___ because of the storm.",
+  "keyword": "PUT",
+  "answer": "was put off",
+  "accept": [
+   "has been put off"
+  ],
+  "hint": "passive of put off",
+  "explanation": "'Postpone' = 'put off'; in the passive: the fixture was put off."
+ },
+ {
+  "lead": "I have never read such a gripping novel.",
+  "sentence": "This is ___ I have ever read.",
+  "keyword": "GRIPPING",
+  "answer": "the most gripping novel",
+  "hint": "superlative from negative comparison",
+  "explanation": "'Never read such a gripping novel' = 'the most gripping novel I have ever read'."
+ },
+ {
+  "lead": "I want you to stop tapping your pen while I am working.",
+  "sentence": "I ___ tapping your pen while I am working.",
+  "keyword": "WISH",
+  "answer": "wish you would stop",
+  "hint": "wish + would: annoying behaviour",
+  "explanation": "'I want you to stop' becomes 'I wish you would stop' — wish + would for irritation."
+ },
+ {
+  "lead": "Even though she was exhausted after twelve hours on duty, the surgeon completed the operation.",
+  "sentence": "___ exhausted after twelve hours on duty, the surgeon completed the operation.",
+  "keyword": "SPITE",
+  "answer": "In spite of being",
+  "hint": "in spite of + -ing",
+  "explanation": "'Even though she was' becomes 'in spite of being' — concession + gerund."
+ },
+ {
+  "lead": "People thought the species had died out completely.",
+  "sentence": "The species ___ died out completely.",
+  "keyword": "THOUGHT",
+  "answer": "was thought to have",
+  "accept": [
+   "has been thought to have"
+  ],
+  "hint": "passive reporting + perfect infinitive",
+  "explanation": "'People thought it had died out' becomes 'it was thought to have died out'."
+ },
+ {
+  "lead": "It would be unwise for you to complain to the manager directly.",
+  "sentence": "You ___ to the manager directly.",
+  "keyword": "BETTER",
+  "answer": "had better not complain",
+  "hint": "negative advice with had better",
+  "explanation": "'It would be unwise' = 'you had better not' — had better + not + bare infinitive."
+ },
+ {
+  "lead": "He was elected, and he broke his first promise immediately.",
+  "sentence": "___ than he broke his first promise.",
+  "keyword": "NO",
+  "answer": "No sooner had he been elected",
+  "hint": "no sooner … than, passive",
+  "explanation": "Passive inversion: No sooner had he been elected than…"
+ },
+ {
+  "lead": "If I were in charge, overtime would be paid automatically.",
+  "sentence": "___ , overtime would be paid automatically.",
+  "keyword": "WERE",
+  "answer": "Were I in charge",
+  "hint": "inverted second conditional",
+  "explanation": "Dropping 'if' inverts the subjunctive: Were I in charge…"
+ },
+ {
+  "lead": "Somebody is repairing our roof at the moment.",
+  "sentence": "We ___ at the moment.",
+  "keyword": "HAVING",
+  "answer": "are having our roof repaired",
+  "hint": "causative have, progressive",
+  "explanation": "Somebody else is doing it for us: we are having our roof repaired."
+ },
+ {
+  "lead": "The second album was far less successful than the first.",
+  "sentence": "The first album was ___ the second.",
+  "keyword": "NOWHERE",
+  "answer": "nowhere near as successful as",
+  "hint": "nowhere near as … as",
+  "explanation": "'Far less successful than' = 'nowhere near as successful as' — emphatic negative comparison."
+ },
+ {
+  "lead": "A committee is looking into the sudden rise in food allergies.",
+  "sentence": "The sudden rise in food allergies ___ a committee.",
+  "keyword": "LOOKED",
+  "answer": "is being looked into by",
+  "hint": "phrasal verb in the progressive passive",
+  "explanation": "'A committee is looking into X' becomes the passive 'X is being looked into by a committee'."
+ },
+ {
+  "lead": "My salary is half the size of my brother's.",
+  "sentence": "My brother earns ___ I do.",
+  "keyword": "TWICE",
+  "answer": "twice as much as",
+  "hint": "twice as … as",
+  "explanation": "'Half the size of' reversed becomes 'twice as much as'."
+ },
+ {
+  "lead": "Reporters expect the trial to last several weeks.",
+  "sentence": "The trial ___ several weeks.",
+  "keyword": "EXPECTED",
+  "answer": "is expected to last",
+  "hint": "passive reporting",
+  "explanation": "'Reporters expect it to last' becomes 'it is expected to last'."
  }
 ]

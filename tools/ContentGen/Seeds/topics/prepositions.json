@@ -772,5 +772,149 @@
   ],
   "hint": "suffer ___ an illness",
   "explanation": "'Suffer from' an illness or condition."
+ },
+ {
+  "sentence": "The manager had no option but to concur ___ the decision.",
+  "answer": "with",
+  "options": [
+   "with",
+   "to",
+   "on",
+   "at"
+  ],
+  "hint": "concur ___ = agree with",
+  "explanation": "'Concur with' is the formal equivalent of 'agree with'."
+ },
+ {
+  "sentence": "His account of the accident tallies ___ the CCTV footage.",
+  "answer": "with",
+  "options": [
+   "with",
+   "up",
+   "to",
+   "for"
+  ],
+  "hint": "tally ___ = match",
+  "explanation": "'Tally with' = correspond exactly to something else."
+ },
+ {
+  "sentence": "The new policy departs radically ___ previous practice.",
+  "answer": "from",
+  "options": [
+   "from",
+   "of",
+   "with",
+   "to"
+  ],
+  "hint": "depart ___ = move away from",
+  "explanation": "'Depart from' is used for abandoning an established practice."
+ },
+ {
+  "sentence": "Several additives are banned because they interfere ___ hormones.",
+  "answer": "with",
+  "options": [
+   "with",
+   "in",
+   "to",
+   "on"
+  ],
+  "hint": "interfere ___ a process",
+  "explanation": "'Interfere with' = disrupt a process or mechanism; 'interfere in' concerns meddling in affairs."
+ },
+ {
+  "sentence": "The judge acquitted her ___ all charges.",
+  "answer": "of",
+  "options": [
+   "of",
+   "from",
+   "for",
+   "with"
+  ],
+  "hint": "acquit somebody ___ charges",
+  "explanation": "'Acquit somebody of a charge' is the fixed legal pattern."
+ },
+ {
+  "sentence": "Local traders have benefited enormously ___ the new footfall.",
+  "answer": "from",
+  "options": [
+   "from",
+   "with",
+   "on",
+   "at"
+  ],
+  "hint": "benefit ___ an advantage",
+  "explanation": "'Benefit from' = gain an advantage from something."
+ },
+ {
+  "sentence": "She was completely oblivious ___ the commotion outside.",
+  "answer": "to",
+  "options": [
+   "to",
+   "about",
+   "with",
+   "for"
+  ],
+  "hint": "oblivious ___ = unaware of",
+  "explanation": "'Oblivious to' is the standard collocation meaning unaware of."
+ },
+ {
+  "sentence": "The lake teems ___ trout in early summer.",
+  "answer": "with",
+  "options": [
+   "with",
+   "of",
+   "by",
+   "from"
+  ],
+  "hint": "teem ___ = be full of",
+  "explanation": "'Teem with' = be full of living things moving about."
+ },
+ {
+  "sentence": "The sales team is under pressure to comply ___ the new regulations.",
+  "answer": "with",
+  "options": [
+   "with",
+   "to",
+   "for",
+   "by"
+  ],
+  "hint": "comply ___ rules",
+  "explanation": "'Comply with' = act in accordance with rules or standards."
+ },
+ {
+  "sentence": "I mistook him ___ one of the technicians — he was actually the new director.",
+  "answer": "for",
+  "options": [
+   "for",
+   "with",
+   "by",
+   "as"
+  ],
+  "hint": "mistake A ___ B",
+  "explanation": "'Mistake somebody for somebody else' = wrongly believe they are that person."
+ },
+ {
+  "sentence": "The whole project hinges ___ council approval.",
+  "answer": "on",
+  "options": [
+   "on",
+   "at",
+   "in",
+   "to"
+  ],
+  "hint": "hinge ___ = depend on",
+  "explanation": "'Hinge on' = depend entirely on something."
+ },
+ {
+  "sentence": "The dispute was referred ___ arbitration at the request of both unions.",
+  "answer": "to",
+  "options": [
+   "to",
+   "for",
+   "at",
+   "under"
+  ],
+  "hint": "refer sth ___ arbitration",
+  "explanation": "'Refer something to arbitration' = send it to an independent body to be settled."
  }
 ]

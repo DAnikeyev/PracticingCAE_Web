@@ -1582,5 +1582,149 @@
   ],
   "hint": "released (liquid/waste)",
   "explanation": "'Discharge waste' = release it into the environment."
+ },
+ {
+  "sentence": "The government’s ___ policy has divided economists.",
+  "answer": "economic",
+  "options": [
+   "economic",
+   "economical",
+   "economy",
+   "economics"
+  ],
+  "hint": "adjective: relating to the economy",
+  "explanation": "'Economic' relates to the economy; 'economical' means saving money."
+ },
+ {
+  "sentence": "The city archive preserves ___ maps of the harbour from the 1700s.",
+  "answer": "historical",
+  "options": [
+   "historical",
+   "historic",
+   "history",
+   "historian"
+  ],
+  "hint": "adjective: relating to the past",
+  "explanation": "'Historical' describes things connected with the study of the past; 'historic' means momentous."
+ },
+ {
+  "sentence": "The sensor is extremely ___ to changes in temperature.",
+  "answer": "sensitive",
+  "options": [
+   "sensitive",
+   "sensible",
+   "sensory",
+   "sensational"
+  ],
+  "hint": "reacts to small changes",
+  "explanation": "'Sensitive to' reacts readily to something; 'sensible' means showing good judgement."
+ },
+ {
+  "sentence": "Please ___ me to water the orchids while you are here.",
+  "answer": "remind",
+  "options": [
+   "remind",
+   "remember",
+   "recall",
+   "repeat"
+  ],
+  "hint": "make somebody remember",
+  "explanation": "'Remind somebody to do' = cause them not to forget; 'remember' is done by yourself."
+ },
+ {
+  "sentence": "The gallery is open daily ___ Mondays, when it closes for cleaning.",
+  "answer": "except",
+  "options": [
+   "except",
+   "accept",
+   "expect",
+   "access"
+  ],
+  "hint": "not including",
+  "explanation": "'Except' excludes; 'accept' is the verb for receiving willingly."
+ },
+ {
+  "sentence": "May I ___ your stapler for a second? Mine has jammed.",
+  "answer": "borrow",
+  "options": [
+   "borrow",
+   "lend",
+   "rent",
+   "hire"
+  ],
+  "hint": "take temporarily",
+  "explanation": "'Borrow' = take for a while; 'lend' = give for a while."
+ },
+ {
+  "sentence": "The committee acted on legal ___ before revising the clause.",
+  "answer": "advice",
+  "options": [
+   "advice",
+   "advise",
+   "device",
+   "devise"
+  ],
+  "hint": "noun after an adjective",
+  "explanation": "'Advice' is the noun; 'advise' is the verb."
+ },
+ {
+  "sentence": "One of the bolts had worked ___ in the vibration.",
+  "answer": "loose",
+  "options": [
+   "loose",
+   "lose",
+   "loosen",
+   "loser"
+  ],
+  "hint": "adjective: not tight",
+  "explanation": "'Work loose' = become untightened; 'lose' is the verb for misplacing."
+ },
+ {
+  "sentence": "Should any dispute ___, the matter will go to arbitration.",
+  "answer": "arise",
+  "options": [
+   "arise",
+   "rise",
+   "raise",
+   "arouse"
+  ],
+  "hint": "come into existence",
+  "explanation": "'Arise' = (problems, disputes) occur; 'rise' means go up and 'raise' needs an object."
+ },
+ {
+  "sentence": "The new timetable has ___ every commuter in the county.",
+  "answer": "affected",
+  "options": [
+   "affected",
+   "effected",
+   "affiliated",
+   "aggravated"
+  ],
+  "hint": "influenced (verb)",
+  "explanation": "'Affect' = influence; 'effect' as a verb means bring about."
+ },
+ {
+  "sentence": "The ___ repairs were making the theatre impossible to run profitably.",
+  "answer": "continual",
+  "options": [
+   "continual",
+   "continuous",
+   "contented",
+   "contextual"
+  ],
+  "hint": "repeated again and again",
+  "explanation": "'Continual' = repeated at intervals; 'continuous' means non-stop."
+ },
+ {
+  "sentence": "The museum’s guiding ___ is that admission should be free.",
+  "answer": "principle",
+  "options": [
+   "principle",
+   "principal",
+   "principality",
+   "principally"
+  ],
+  "hint": "a moral rule (noun)",
+  "explanation": "'Principle' = a guiding rule or belief; 'principal' means main or head person."
  }
 ]

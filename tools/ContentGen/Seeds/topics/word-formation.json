@@ -1546,5 +1546,149 @@
   ],
   "hint": "negative adjective: too good to forget",
   "explanation": "'Unforgettable' = impossible to forget; 'forgetful' describes a person who forgets."
+ },
+ {
+  "sentence": "The vaccine is still awaiting official ___ (APPROVE).",
+  "answer": "approval",
+  "options": [
+   "approval",
+   "approve",
+   "approved",
+   "approvingly"
+  ],
+  "hint": "noun after an adjective",
+  "explanation": "'Official approval' — the noun form follows the adjective."
+ },
+ {
+  "sentence": "The new bypass will be ___ (BENEFIT) to thousands of commuters.",
+  "answer": "beneficial",
+  "options": [
+   "beneficial",
+   "benefited",
+   "beneficially",
+   "benefit"
+  ],
+  "hint": "adjective after be",
+  "explanation": "'Be beneficial to' — the adjective follows the verb 'be'."
+ },
+ {
+  "sentence": "The festival celebrates ___ (CREATE) in every form.",
+  "answer": "creativity",
+  "options": [
+   "creativity",
+   "creative",
+   "creation",
+   "creatively"
+  ],
+  "hint": "abstract noun needed",
+  "explanation": "'Celebrates creativity' — the abstract quality noun follows the verb."
+ },
+ {
+  "sentence": "The two accounts show subtle ___ (DIFFER).",
+  "answer": "differences",
+  "options": [
+   "differences",
+   "different",
+   "differently",
+   "differ"
+  ],
+  "hint": "plural noun after an adjective",
+  "explanation": "'Subtle differences' — the plural noun follows the adjective."
+ },
+ {
+  "sentence": "The editor-in-chief oversees every ___ (EDIT) of the magazine.",
+  "answer": "edition",
+  "options": [
+   "edition",
+   "editor",
+   "editorial",
+   "edit"
+  ],
+  "hint": "noun: one published version",
+  "explanation": "\"Every edition\" = every published issue; \"editor\" is the person."
+ },
+ {
+  "sentence": "The firefighter was given a medal for her ___ (HERO).",
+  "answer": "heroism",
+  "options": [
+   "heroism",
+   "heroic",
+   "heroically",
+   "hero"
+  ],
+  "hint": "quality noun after a possessive",
+  "explanation": "'Her heroism' — the quality noun follows the possessive."
+ },
+ {
+  "sentence": "The ___ (IDENTIFY) of the body took weeks.",
+  "answer": "identification",
+  "options": [
+   "identification",
+   "identified",
+   "identity",
+   "identifiable"
+  ],
+  "hint": "noun: the act of establishing who",
+  "explanation": "'The identification of the body' — the process noun is required."
+ },
+ {
+  "sentence": "Her ___ (JUDGE) of character is rarely wrong.",
+  "answer": "judgement",
+  "options": [
+   "judgement",
+   "judge",
+   "judicial",
+   "judiciously"
+  ],
+  "hint": "noun after a possessive",
+  "explanation": "'Her judgement of character' — the noun follows the possessive."
+ },
+ {
+  "sentence": "Club ___ (MEMBER) costs fifty euros a year.",
+  "answer": "membership",
+  "options": [
+   "membership",
+   "member",
+   "members",
+   "memorise"
+  ],
+  "hint": "noun: the state of belonging",
+  "explanation": "\"Membership costs\" — the fee noun, not the person."
+ },
+ {
+  "sentence": "The referee sent him off for repeated ___ (OBEY).",
+  "answer": "disobedience",
+  "options": [
+   "disobedience",
+   "disobedient",
+   "disobey",
+   "disobediently"
+  ],
+  "hint": "negative noun after an adjective",
+  "explanation": "'Repeated disobedience' — the negative noun follows the adjective."
+ },
+ {
+  "sentence": "After much ___ (PERSUADE), the council reversed its decision.",
+  "answer": "persuasion",
+  "options": [
+   "persuasion",
+   "persuasive",
+   "persuaded",
+   "persuasively"
+  ],
+  "hint": "noun after much",
+  "explanation": "'After much persuasion' — the noun follows the quantifier 'much'."
+ },
+ {
+  "sentence": "The success of the launch rests on the ___ (RELY) of the supplier.",
+  "answer": "reliability",
+  "options": [
+   "reliability",
+   "reliance",
+   "reliably",
+   "relied"
+  ],
+  "hint": "noun: quality of being dependable",
+  "explanation": "'The reliability of the supplier' — the quality noun is needed after 'the'."
  }
 ]
