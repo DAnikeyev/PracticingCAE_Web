@@ -178,5 +178,905 @@
     {"answer":"into","hint":"led ___ trouble","explanation":"'lead somebody into trouble'."},
     {"answer":"lost","hint":"never be completely ___","explanation":"'be lost' — unable to find your way."},
     {"answer":"what","hint":"is ___ makes…","explanation":"Nominal relative: what makes it worth carrying."}
+  ]},
+  {"title":"Why the sky is blue","text":"Sunlight sets out {{1}} the Sun and takes about eight minutes to reach the Earth, yet the journey does not end there. White light is made {{2}} of every colour, and when it strikes air molecules the shortest wavelengths are scattered in all directions, {{3}} is why a cloudless sky appears blue rather than black. At sunset the geometry reverses: light must cross far more air, most of the blue is filtered {{4}} long before it reaches the ground, and orange and red come to dominate the horizon. Fine volcanic dust intensifies the effect, a pattern that has repeated {{5}} after every great eruption in recorded history. Very {{6}} of the light that survives such a journey is blue, which helps to explain the warm palettes favoured by painters in dusty cities. Astronauts see none of this display: from orbit, they look down at {{7}} thin bright rim of the atmosphere and, beyond it, the black of space, for {{8}} is no air there to paint a sky.","gaps":[
+    {"answer":"from","hint":"preposition: sets out ___ the Sun","explanation":"'Sets out from' — from marks the starting point of the journey."},
+    {"answer":"up","hint":"particle: made ___ of","explanation":"'Made up of' is the fixed three-part phrase for composition."},
+    {"answer":"which","hint":"relative: ___, __ is why","explanation":"A sentential relative after the comma; 'that' is impossible here."},
+    {"answer":"out","hint":"particle: filtered ___","explanation":"'Filter out' — the particle completes the phrasal verb meaning 'remove'."},
+    {"answer":"itself","hint":"reflexive: repeated ___","explanation":"The pattern is both subject and object: it has repeated itself."},
+    {"answer":"little","hint":"quantifier: very ___ of the light","explanation":"'Very little' for an uncountable quantity; 'few' cannot go before 'of the light'."},
+    {"answer":"the","hint":"article: look down at ___ thin bright rim","explanation":"The atmosphere is already known from context, so the definite article is required."},
+    {"answer":"there","hint":"pronoun: for __ is no air there","explanation":"The dummy subject 'there' introduces the existential clause 'there is no air'."}
+  ]},
+  {"title":"The eight-legged problem solver","text":"Few creatures {{1}} been studied as eagerly as the octopus. It has no bones, {{2}} means it can escape {{3}} almost any aquarium that is not carefully sealed. Its eight arms taste, grip and react independently of {{4}} other, and in laboratory mazes it solves problems faster {{5}} many vertebrates do. The animal {{6}} seems to play, directing jets of water at lamp bulbs out of apparent curiosity, and keepers report individual temperaments as marked as a dog's. Such behaviour {{7}} once dismissed as simple reflex, but biologists now speak of distributed intelligence, with two thirds of an octopus's neurons located in the arms rather than the brain. There is still {{8}} single accepted definition of what intelligence means in a creature so distant from us, which is perhaps why the octopus keeps surprising the people who study it.","gaps":[
+    {"answer":"have","hint":"auxiliary: few creatures ___ been studied","explanation":"Present perfect with a plural subject: 'few creatures have been studied'."},
+    {"answer":"which","hint":"relative: no bones, ___ means","explanation":"Non-defining relative clause after the comma; only 'which' is possible."},
+    {"answer":"from","hint":"preposition: escape ___ an aquarium","explanation":"'Escape from' — from marks the place being left behind."},
+    {"answer":"each","hint":"pronoun: independently of ___ other","explanation":"'Each other' is the reciprocal pronoun for a mutual action."},
+    {"answer":"than","hint":"comparative: faster ___ many vertebrates","explanation":"A comparative adjective ('faster') requires 'than' before the second element."},
+    {"answer":"itself","hint":"reflexive: the animal ___ seems to play","explanation":"Emphatic reflexive: 'the animal itself' stresses the whole creature."},
+    {"answer":"was","hint":"passive auxiliary: such behaviour ___ once dismissed","explanation":"Past passive with a singular subject: the behaviour was dismissed."},
+    {"answer":"no","hint":"determiner: still ___ single accepted definition","explanation":"'No' negates the noun directly; 'not' cannot precede 'single accepted definition'."}
+  ]},
+  {"title":"Life at the limit: the tardigrade","text":"Under a microscope, a drop of damp moss reveals eight-legged animals affectionately known {{1}} water bears. Tardigrades {{2}} found on every continent, from mountain tops to the deep sea, yet the situations {{3}} they truly excel are the extremes: vacuum, radiation and deep freeze. {{4}} is this resilience that has made them the celebrities of the microscopic world. In 2007, {{5}} a small colony travelled into orbit, the animals were exposed directly to the vacuum of space — and returned {{6}} apparent ease. Many survive {{7}} water for a decade by expelling almost all of their moisture and suspending their metabolism, and they are not quite insects, {{8}} are they microbes; they belong to an ancient lineage of their own.","gaps":[
+    {"answer":"as","hint":"preposition: known ___ water bears","explanation":"'Known as' introduces the popular name."},
+    {"answer":"are","hint":"verb: tardigrades ___ found","explanation":"Present passive with a plural subject: tardigrades are found."},
+    {"answer":"where","hint":"relative adverb: the situations ___ they excel","explanation":"'Where' refers back to situations; a plain 'that' would leave the clause without an adverb."},
+    {"answer":"It","hint":"cleft pronoun: ___ is this resilience that","explanation":"The cleft structure 'It is X that Y' emphasises resilience."},
+    {"answer":"when","hint":"time relative: in 2007, ___ a colony travelled","explanation":"Non-defining time clause after the year: 'in 2007, when…'."},
+    {"answer":"with","hint":"preposition: returned ___ apparent ease","explanation":"'With' + abstract noun expresses manner: with apparent ease."},
+    {"answer":"without","hint":"preposition: survive ___ water","explanation":"'Without water' — the state they endure is the absence of water."},
+    {"answer":"nor","hint":"correlative: not quite insects, ___ are they microbes","explanation":"'Nor' continues a negative clause with inversion: nor are they…"}
+  ]},
+  {"title":"The wood wide web","text":"A forest looks like a contest: tall trees crowd {{1}} another for light, and foresters have long counted trunks rather than connections. Underground the picture is different, because tree roots {{2}} linked by threads of fungus that pass water, nutrients and chemical warnings between neighbouring plants. The network carries {{3}} only food but also alarm signals, which a damaged tree can send to its neighbours. {{4}} oldest trees in a stand, nicknamed mother trees, appear to use the network to nurture the seedlings around them. Ecologists have called {{5}} the wood wide web, although not everyone is convinced; a number of researchers, {{6}} doubts centre on the early experiments, insist that {{7}} the fungi act as partners or as parasites remains an open question. Either way, the findings are already beginning to feed {{8}} conservation policy.","gaps":[
+    {"answer":"one","hint":"pronoun: crowd ___ another","explanation":"'One another' is the reciprocal phrase used for more than two."},
+    {"answer":"are","hint":"verb: roots ___ linked","explanation":"Present passive with a plural subject: roots are linked."},
+    {"answer":"not","hint":"negation: carries ___ only food but also","explanation":"'Not only … but also' is the fixed correlative pair."},
+    {"answer":"The","hint":"article: ___ oldest trees in a stand","explanation":"Superlatives take the definite article: the oldest trees."},
+    {"answer":"it","hint":"pronoun: have called ___ the wood wide web","explanation":"'It' refers back to the network as the object of 'called'."},
+    {"answer":"whose","hint":"relative: researchers, ___ doubts centre on","explanation":"'Whose' shows possession: the researchers' doubts."},
+    {"answer":"Whether","hint":"conjunction: ___ the fungi act as partners or parasites","explanation":"Fronted subject clause; 'whether … or' presents the two alternatives."},
+    {"answer":"into","hint":"particle: feed ___ conservation policy","explanation":"'Feed into' — the particle completes the phrasal verb meaning 'contribute to'."}
+  ]},
+  {"title":"The strange buoyancy of ice","text":"Unlike most substances, water is denser {{1}} a liquid than it is as a solid, {{2}} is why ice floats {{3}} top of a frozen lake. The explanation lies {{4}} hydrogen bonding: as water cools towards freezing, its molecules link into a rigid but open lattice, {{5}} holds them unusually far apart. Ice is therefore about nine per cent lighter than an equal volume of water, {{6}} is why icebergs ride so low in the sea. The consequences reach far beyond the laboratory: the water beneath a lid of ice is protected {{7}} the insulating layer above, and every lake that freezes over develops a stable world of its {{8}}, in which fish wait out the winter in comfort.","gaps":[
+    {"answer":"as","hint":"preposition: denser ___ a liquid than","explanation":"'As a liquid' pairs with 'as a solid' in the comparison."},
+    {"answer":"which","hint":"relative: ___, __ is why ice floats","explanation":"Sentential relative after the comma; 'that' cannot start a non-defining clause."},
+    {"answer":"on","hint":"preposition: floats ___ top of","explanation":"The fixed phrase is 'on top of'."},
+    {"answer":"in","hint":"preposition: lies ___ hydrogen bonding","explanation":"'Lie in' — the cause is located in the bonding."},
+    {"answer":"which","hint":"relative: lattice, ___ holds them apart","explanation":"Non-defining relative after the comma: which holds them."},
+    {"answer":"which","hint":"relative: ___, __ is why icebergs ride low","explanation":"Another sentential relative summing up the previous clause."},
+    {"answer":"by","hint":"preposition: protected ___ the insulating layer","explanation":"Passive agent: the layer is what protects, so 'by' introduces it."},
+    {"answer":"own","hint":"adjective: a world of its ___","explanation":"'Of its own' — the emphatic possessive phrase."}
+  ]},
+  {"title":"The invisible forest of the sea","text":"The name plankton comes {{1}} the Greek for 'wanderer', {{2}} suits organisms that drift {{3}} the mercy of the currents. {{4}} of them are microscopic plants, collectively called phytoplankton, which capture sunlight just {{5}} plants on land do. Together they account {{6}} roughly half of the oxygen in every breath you take, and they underpin the entire marine food web, feeding everything from krill to blue whales. Yet remarkably {{7}} of us ever give them a thought. Warmer seas and acidifying water {{8}} already shifting plankton populations, with consequences that could reach every dinner table on the planet.","gaps":[
+    {"answer":"from","hint":"preposition: comes ___ the Greek","explanation":"'Come from' — from introduces the source of the name."},
+    {"answer":"which","hint":"relative: ___, __ suits organisms","explanation":"Non-defining relative referring back to the whole fact about the name."},
+    {"answer":"at","hint":"preposition: ___ the mercy of the currents","explanation":"'At the mercy of' is the fixed phrase meaning 'entirely controlled by'."},
+    {"answer":"Most","hint":"quantifier: ___ of them are plants","explanation":"'Most of them' — the majority of the two great plankton groups are plants."},
+    {"answer":"as","hint":"conjunction: just ___ plants on land do","explanation":"'Just as … do' — the comparative conjunction of manner."},
+    {"answer":"for","hint":"preposition: account ___ half of the oxygen","explanation":"'Account for' — the fixed verb phrase meaning 'make up'."},
+    {"answer":"few","hint":"quantifier: remarkably ___ of us","explanation":"'Few of us' with the plural verb 'give'; 'little' cannot stand before 'of us'."},
+    {"answer":"are","hint":"verb: water and acid ___ already shifting","explanation":"Present continuous with a plural subject: seas and water are shifting."}
+  ]},
+  {"title":"The ten thousand guests within","text":"Your body carries roughly as {{1}} bacterial cells as human ones, and for decades medicine treated them all as enemies. {{2}} turns out that they are closer to staff than squatters. They digest fibre, {{3}} would otherwise pass through us untouched, manufacture vitamins, and train the immune system to tell friend from foe. Researchers {{4}} once dismissed the whole idea now speak of the microbiome as an organ in its own right. Imbalances {{5}} these communities have been linked to conditions as varied as obesity, allergies and anxiety, and faecal transplants, once unthinkable, are now used {{6}} treat stubborn infections. Medicine is only beginning to grasp {{7}} much influence these microscopic guests exert. The body, it turns out, is not a sealed fortress {{8}} a bustling ecosystem we share with trillions of companions.","gaps":[
+    {"answer":"many","hint":"quantifier: as ___ bacterial cells as","explanation":"Countable plural noun, so the comparison is 'as many … as'."},
+    {"answer":"It","hint":"dummy subject: ___ turns out that","explanation":"'It turns out that…' — the dummy subject introduces the revelation."},
+    {"answer":"which","hint":"relative: fibre, ___ would otherwise pass","explanation":"Non-defining relative after the comma, referring to fibre."},
+    {"answer":"who","hint":"relative: researchers ___ once dismissed","explanation":"Refers to people; the subject form is 'who'."},
+    {"answer":"in","hint":"preposition: imbalances ___ these communities","explanation":"Imbalances are located in the communities."},
+    {"answer":"to","hint":"infinitive: used ___ treat infections","explanation":"'Are used to treat' — the infinitive of purpose after 'used'."},
+    {"answer":"how","hint":"adverb: grasp ___ much influence","explanation":"'How much' measures degree: how much influence."},
+    {"answer":"but","hint":"conjunction: not a fortress ___ an ecosystem","explanation":"'Not X but Y' — the contrasting second element takes 'but'."}
+  ]},
+  {"title":"How salmon find their way home","text":"Years {{1}} hatching in a gravel stream bed, an adult salmon swims back {{2}} the river of its birth, arriving at the very beds {{3}} it began life. Exactly {{4}} it navigates this epic journey is still debated, but biologists agree on the outline: as a young fish the salmon imprints on the chemical signature {{5}} its home water, and years later it follows that scent upstream. {{6}} the final freshwater leg is guided by smell, the long ocean stage appears to depend on an inbuilt sense of the Earth's magnetic field. Tiny crystals {{7}} as magnetite have been found in salmon tissue, which could act as an internal compass, and experiments suggest the fish remember the field's imprint so precisely {{8}} they can distinguish their own river from a neighbouring one.","gaps":[
+    {"answer":"after","hint":"time word: years ___ hatching","explanation":"'Years after' — the return happens later than the hatching."},
+    {"answer":"to","hint":"preposition: swims back ___ the river","explanation":"Direction of movement towards the destination takes 'to'."},
+    {"answer":"where","hint":"relative adverb: the beds ___ it began life","explanation":"'Where' refers back to the place: the beds where it hatched."},
+    {"answer":"how","hint":"question word: exactly ___ it navigates","explanation":"The manner of navigation is asked for: exactly how."},
+    {"answer":"of","hint":"preposition: the signature ___ its home water","explanation":"The possessive 'of' links the signature with the water."},
+    {"answer":"While","hint":"conjunction: ___ the final leg is guided by smell","explanation":"Contrast between the two stages; 'while' introduces the first clause."},
+    {"answer":"such","hint":"determiner: crystals ___ as magnetite","explanation":"'Such as' introduces an example."},
+    {"answer":"that","hint":"conjunction: so precisely ___ they can","explanation":"'So … that' — the result clause after 'so precisely'."}
+  ]},
+  {"title":"The long-distance champion of the skies","text":"The wandering albatross is famous {{1}} its endurance: a bird {{2}} may not touch land during its first six years of life. It can glide for hundreds of kilometres {{3}} once flapping its wings. Biologists have long wondered {{4}} it manages such distances on so little food. The answer is that the albatross does not fly by flapping {{5}} by harvesting energy from differences in wind speed above the waves, a technique called dynamic soaring. Measured this way, an albatross spends {{6}} energy in flight than most songbirds spend hopping between branches. {{7}} a result, individuals have been tracked travelling over a hundred thousand kilometres in a single year. They return {{8}} solid ground only to breed, which for some birds happens once every two years.","gaps":[
+    {"answer":"for","hint":"preposition: famous ___ its endurance","explanation":"'Famous for' — the quality takes 'for'."},
+    {"answer":"which","hint":"relative: a bird ___ may not touch land","explanation":"Non-defining relative after the comma describing the bird."},
+    {"answer":"without","hint":"preposition: ___ once flapping its wings","explanation":"'Without' + gerund expresses the action that never happens."},
+    {"answer":"how","hint":"question word: wondered ___ it manages","explanation":"The manner is unknown: wondered how it manages."},
+    {"answer":"but","hint":"conjunction: not by flapping ___ by harvesting","explanation":"'Not … but …' — the second contrasting means takes 'but'."},
+    {"answer":"less","hint":"quantifier: spends ___ energy than","explanation":"Uncountable 'energy' and a comparative: spends less energy than."},
+    {"answer":"As","hint":"preposition: ___ a result","explanation":"'As a result' is the fixed linking phrase."},
+    {"answer":"to","hint":"preposition: return ___ solid ground","explanation":"Movement towards a destination takes 'to'."}
+  ]},
+  {"title":"The sky's electricity","text":"A flash of lightning {{1}} five times hotter than the surface of the Sun, yet it begins as an ordinary thundercloud. Exactly {{2}} a cloud builds up such an enormous charge is still not fully understood, though ice particles colliding inside it evidently transfer charge {{3}} one another until the difference grows {{4}} great for the air to hold back. A lightning bolt is simply {{5}} giant spark, and it travels {{6}} fast that it heats the surrounding air violently, which then explodes outwards as the bang we call thunder. Because light travels far faster than sound, the flash always reaches you {{7}}, and the rumble follows. Counting the seconds between the two is an old storm-watcher's trick {{8}} gives a rough estimate of the storm's distance.","gaps":[
+    {"answer":"is","hint":"verb: a flash ___ five times hotter","explanation":"Present simple 'be' with a singular subject stating the fact."},
+    {"answer":"how","hint":"question word: exactly ___ a cloud builds up","explanation":"The mechanism is asked for: exactly how."},
+    {"answer":"between","hint":"preposition: transfer charge ___ one another","explanation":"Transfer happens between the colliding particles."},
+    {"answer":"too","hint":"adverb: grows ___ great for the air to hold","explanation":"'Too … to' — the excessive degree before the infinitive."},
+    {"answer":"a","hint":"article: simply ___ giant spark","explanation":"First mention of a countable singular noun takes 'a'."},
+    {"answer":"so","hint":"adverb: travels ___ fast that","explanation":"'So fast that' — the degree word before the result clause."},
+    {"answer":"first","hint":"adverb: the flash always reaches you ___","explanation":"Sequence: the light arrives first, the sound later."},
+    {"answer":"which","hint":"relative: a trick ___ gives an estimate","explanation":"Refers back to the trick as the subject of the relative clause."}
+  ]},
+  {"title":"The puzzle of hot water freezing","text":"{{1}} hot water can freeze faster {{2}} cold water is a question that has divided natural philosophers since Aristotle. The modern chapter began in 1963, when Erasto Mpemba, {{3}} was then a Tanzanian schoolboy, noticed that his hot ice-cream mixture froze solid before his classmates' cooler batches had set. Not until 1969 {{4}} a physics paper take his observation seriously, and the phenomenon {{5}} duly named the Mpemba effect. It remains {{6}} be fully explained: candidates include evaporation, convection currents and dissolved gases, yet laboratory results stubbornly refuse to agree, and scientists still argue over {{7}} it happens at all. There is {{8}} single agreed explanation, and the effect may yet disappear under stricter scrutiny — a humbling reminder that even kitchen physics can keep secrets.","gaps":[
+    {"answer":"Whether","hint":"conjunction: ___ hot water can freeze faster","explanation":"Fronted subject clause presenting the open question; 'if' cannot begin a subject clause."},
+    {"answer":"than","hint":"comparative: faster ___ cold water","explanation":"The comparative 'faster' requires 'than'."},
+    {"answer":"who","hint":"relative: Mpemba, ___ was then a schoolboy","explanation":"Non-defining relative referring to a person after the comma."},
+    {"answer":"did","hint":"auxiliary: not until 1969 ___ a paper take","explanation":"Inversion after 'not until': the auxiliary 'did' carries the past tense."},
+    {"answer":"was","hint":"passive: the phenomenon ___ named","explanation":"Past passive with a singular subject: it was named."},
+    {"answer":"to","hint":"infinitive: remains ___ be fully explained","explanation":"'Remains to be explained' — the infinitive after 'remains'."},
+    {"answer":"why","hint":"question word: argue over ___ it happens","explanation":"The reason is disputed: argue over why."},
+    {"answer":"no","hint":"determiner: there is ___ single agreed explanation","explanation":"'No' negates the noun phrase; 'not' cannot stand before 'single'."}
+  ]},
+  {"title":"The animal that broke the rules","text":"When the first platypus specimen arrived in Britain in 1799, scientists {{1}} convinced that the creature was a hoax stitched together from a duck and a beaver. Over two centuries later it still defeats the categories: {{2}} has a duck's bill, an otter's coat and a beaver's tail, and it is in many ways {{3}} living bridge between reptiles and mammals. It hunts with its eyes closed in murky rivers, {{4}} electroreceptors in the bill detect the faint muscle signals of shrimp, and those same organs allow the animal {{5}} dig and navigate in total darkness. Males defend themselves with venomous spurs, {{6}} do only a handful of other mammals, and in its egg-laying and low body temperature the species often resembles a reptile more {{7}} a mammal. When {{8}} full genome was sequenced in 2008, it confirmed what naturalists had suspected all along: the platypus simply never read the textbook.","gaps":[
+    {"answer":"were","hint":"verb: scientists ___ convinced","explanation":"Past plural 'be' with the plural subject 'scientists'."},
+    {"answer":"It","hint":"pronoun: ___ has a duck's bill","explanation":"'It' refers back to the platypus as the subject."},
+    {"answer":"a","hint":"article: in many ways ___ living bridge","explanation":"First mention of a singular countable noun takes 'a'."},
+    {"answer":"where","hint":"relative adverb: rivers, ___ electroreceptors detect","explanation":"'Where' refers back to the rivers as the place."},
+    {"answer":"to","hint":"infinitive: allow the animal ___ dig","explanation":"'Allow someone to do' — the infinitive follows the object."},
+    {"answer":"as","hint":"conjunction: spurs, ___ do only a few mammals","explanation":"'As do …' — the comparative clause of agreement after the comma."},
+    {"answer":"than","hint":"comparative: more ___ a mammal","explanation":"'More … than' — the second element of the comparison."},
+    {"answer":"its","hint":"possessive: when ___ full genome was sequenced","explanation":"The genome belongs to the platypus: its genome."}
+  ]},
+  {"title":"The empire of the Argentine ant","text":"{{1}} their native Argentina, these insects live in small colonies so hostile {{2}} neighbouring nests wage permanent border wars. In Europe, {{3}}, the imported ants behave entirely differently: one supercolony now stretches {{4}} the Italian Riviera to the Atlantic coast of Spain, forming a single peaceful society {{5}} population may run into the billions. Ants {{6}} rival nests within this empire exchange food and workers freely, and the natives — the fierce little fighters of the pampas — are nowhere to be seen. {{7}} a result, the supercolony has displaced local ant species across thousands of square kilometres, reshaping soils and gardens. There seems {{8}} no natural limit to how far the empire can spread.","gaps":[
+    {"answer":"In","hint":"preposition: ___ their native Argentina","explanation":"Location takes 'in': in their native Argentina."},
+    {"answer":"that","hint":"conjunction: so hostile ___ neighbouring nests","explanation":"'So hostile that' — degree followed by a result clause."},
+    {"answer":"however","hint":"linker: in Europe, ___, the ants differ","explanation":"Contrast adverb set between commas: 'however'."},
+    {"answer":"from","hint":"preposition: stretches ___ the Riviera to Spain","explanation":"'From … to …' — the span of the range."},
+    {"answer":"whose","hint":"relative: a society ___ population may run","explanation":"'Whose' links the society to its population."},
+    {"answer":"from","hint":"preposition: ants ___ rival nests","explanation":"Ants originate from those nests: ants from rival nests."},
+    {"answer":"As","hint":"preposition: ___ a result","explanation":"The fixed linker is 'as a result'."},
+    {"answer":"to","hint":"infinitive: there seems ___ no natural limit","explanation":"'Seems to be' — the infinitive follows 'seems'; 'be' is already present."}
+  ]},
+  {"title":"Sticking to the wall: the gecko's secret","text":"A gecko can sprint up polished glass {{1}} any glue, suction or claws. The secret sits on its toes, which are covered {{2}} millions of microscopic hairs, each branching into hundreds of finer tips. Each tip sits {{3}} close to the surface that weak intermolecular attractions begin to act, and across billions of tips they become {{4}} to support the animal's whole weight many times over. As it runs, the gecko peels each toe {{5}} at a shallow angle, breaking the bonds instantly and leaving {{6}} residue behind, so the foot never loses its grip. Engineers have now built the principle {{7}} reusable adhesives and climbing robots, and, remarkably, a gecko's foot even cleans {{8}} between steps.","gaps":[
+    {"answer":"without","hint":"preposition: ___ any glue or suction","explanation":"'Without' expresses the absence of the usual aids."},
+    {"answer":"with","hint":"preposition: covered ___ millions of hairs","explanation":"'Covered with' — the fixed passive partnership."},
+    {"answer":"so","hint":"adverb: ___ close to the surface that","explanation":"'So … that' — degree plus result clause."},
+    {"answer":"enough","hint":"adverb: become ___ to support the weight","explanation":"'Adjective + enough + to' — sufficient degree for the result."},
+    {"answer":"off","hint":"particle: peels each toe ___","explanation":"'Peel off' — the particle shows separation from the surface."},
+    {"answer":"no","hint":"determiner: leaving ___ residue behind","explanation":"'No' negates the noun; 'not' cannot precede 'residue'."},
+    {"answer":"into","hint":"preposition: built the principle ___ adhesives","explanation":"'Build into' — the particle shows incorporation."},
+    {"answer":"itself","hint":"reflexive: cleans ___ between steps","explanation":"The foot acts on itself: it cleans itself."}
+  ]},
+  {"title":"The blush that gives us away","text":"Charles Darwin called blushing {{1}} most peculiar of all human expressions. {{2}} makes it so peculiar is that the face betrays us at the very moment we would rather stay unread: it appears in exactly the social situations {{3}} we most want to disappear. Physically, blushing is simply {{4}} sudden rush of blood to the skin of the face, {{5}} is visible to everyone present, and the effect is so reliable {{6}} stage performers dread it. Worse, the fear of blushing tends to produce blushing, {{7}} if the body were determined to confirm the embarrassment. Psychologists still cannot fully explain {{8}} embarrassment floods the face rather than, say, the elbows, but the leading theory holds that the blush works as an involuntary apology, signalling that we know a social rule has been broken.","gaps":[
+    {"answer":"the","hint":"article: ___ most peculiar of all","explanation":"Superlative expressions take the definite article."},
+    {"answer":"What","hint":"pronoun: ___ makes it so peculiar","explanation":"Pseudo-cleft subject; only 'what' can head the noun clause here."},
+    {"answer":"where","hint":"relative adverb: the situations ___ we want to disappear","explanation":"'Where' refers back to situations as a location."},
+    {"answer":"a","hint":"article: simply ___ sudden rush of blood","explanation":"First mention of a singular countable noun takes 'a'."},
+    {"answer":"which","hint":"relative: ___, __ is visible to everyone","explanation":"Non-defining relative after the comma referring to the rush of blood."},
+    {"answer":"that","hint":"conjunction: so reliable ___ performers dread it","explanation":"'So … that' — degree followed by the result clause."},
+    {"answer":"as","hint":"conjunction: ___ if the body were determined","explanation":"'As if' introduces the unreal comparison."},
+    {"answer":"why","hint":"question word: explain ___ embarrassment floods the face","explanation":"The reason is being explained: why it floods the face."}
+  ]},
+  {"title":"The Great Stink that cleaned London","text":"{{1}} the summer of 1858 the Thames stank so foully {{2}} Members of Parliament fled the riverside chamber with handkerchiefs pressed over their faces. The river had become an open sewer, reeking {{3}} untreated waste, and cholera epidemics had already killed tens of thousands. Parliament {{4}} finally shamed into action, and Joseph Bazalgette, {{5}} ambitious sewer schemes had been shelved for years, was suddenly given the funds to build them. The main sewers were completed {{6}} six years, the embankments that grace the river today were raised to carry the great pipes, and the system put an end {{7}} the worst cholera outbreaks. Bazalgette's tunnels still serve London, {{8}} is a fine reminder that infrastructure, built well, can outlive everyone who argues about it.","gaps":[
+    {"answer":"In","hint":"preposition: ___ the summer of 1858","explanation":"Seasons take 'in': in the summer of 1858."},
+    {"answer":"that","hint":"conjunction: so foully ___ MPs fled","explanation":"'So … that' — degree followed by the result clause."},
+    {"answer":"of","hint":"preposition: reeking ___ untreated waste","explanation":"'Reek of' — the smell source takes 'of'."},
+    {"answer":"was","hint":"passive: Parliament ___ shamed into action","explanation":"Past passive with a singular collective subject: was shamed."},
+    {"answer":"whose","hint":"relative: Bazalgette, ___ schemes had been shelved","explanation":"'Whose' links the engineer to his schemes."},
+    {"answer":"within","hint":"time word: completed ___ six years","explanation":"'Within six years' — completed inside that period."},
+    {"answer":"to","hint":"preposition: put an end ___ the outbreaks","explanation":"'Put an end to' is the fixed phrase."},
+    {"answer":"which","hint":"relative: ___, __ is a fine reminder","explanation":"Sentential relative after the comma; 'that' is impossible here."}
+  ]},
+  {"title":"The stone that unlocked Egypt","text":"The Rosetta Stone was unearthed in 1799, {{1}} Napoleon's soldiers were strengthening a fort near the Delta town of Rashid. The granite slab carries a single priestly decree written {{2}} three scripts: hieroglyphic, demotic and ancient Greek. The Greek text could be read at once, {{3}} meant scholars could attack the other two scripts by comparison. {{4}} took Jean-François Champollion until 1822 to announce his solution, and his breakthrough came fast once it came: Champollion, {{5}} command of the Coptic language descended from ancient Egyptian proved decisive, showed that the signs recorded sounds as well as ideas. The script {{6}} been silent for well over a millennium spoke again, and modern Egyptology was born {{7}} a single broken slab. Copies of its inscription were circulated {{8}} paper, so that scholars across Europe could race to be first.","gaps":[
+    {"answer":"when","hint":"time relative: in 1799, ___ soldiers were","explanation":"Non-defining time clause after the year: 'in 1799, when…'."},
+    {"answer":"in","hint":"preposition: written ___ three scripts","explanation":"'Written in' — the medium or script takes 'in'."},
+    {"answer":"which","hint":"relative: ___, __ meant scholars could attack","explanation":"Sentential relative after the comma summarising the Greek discovery."},
+    {"answer":"It","hint":"cleft pronoun: ___ took Champollion until 1822","explanation":"'It took someone until X to…' — the dummy subject of the time expression."},
+    {"answer":"whose","hint":"relative: Champollion, ___ command of Coptic","explanation":"'Whose' shows possession: his command of the language."},
+    {"answer":"had","hint":"auxiliary: the script ___ been silent","explanation":"Past perfect: the script had been silent before it spoke again."},
+    {"answer":"of","hint":"preposition: born ___ a single slab","explanation":"'Born of' — the fixed phrase for origin."},
+    {"answer":"on","hint":"preposition: circulated ___ paper","explanation":"'On paper' — the fixed phrase for the medium."}
+  ]},
+  {"title":"The stamp that changed communication","text":"It was Rowland Hill {{1}} transformed the British post in 1840. Before his reform, postage {{2}} calculated by distance and paid by the recipient, {{3}} meant that many poor families simply refused deliveries, forcing senders {{4}} encode secret messages on the envelope so that the letter could be read and thrown away unpaid. In {{5}} end, Hill's solution was beautifully simple: charge {{6}} flat penny, paid in advance, whatever the distance travelled. The Penny Black, {{7}} bore the young Queen's profile, went on sale that May, and within a year the number of letters had more than doubled. {{8}} is hard now to imagine the revolution this tiny printed scrap began: communication between ordinary people, once a luxury, had become a cheap everyday habit.","gaps":[
+    {"answer":"who","hint":"relative: it was Rowland Hill ___ transformed","explanation":"Cleft sentence about a person: only 'who' fits after the name."},
+    {"answer":"was","hint":"passive: postage ___ calculated","explanation":"Past passive with an uncountable singular subject: was calculated."},
+    {"answer":"which","hint":"relative: ___, __ meant that families refused","explanation":"Sentential relative after the comma; 'that' is impossible here."},
+    {"answer":"to","hint":"infinitive: forcing senders ___ encode","explanation":"'Force someone to do' — the infinitive follows the object."},
+    {"answer":"the","hint":"article: in ___ end","explanation":"'In the end' is the fixed phrase for the outcome."},
+    {"answer":"a","hint":"article: charge ___ flat penny","explanation":"First mention of a singular countable noun takes 'a'."},
+    {"answer":"which","hint":"relative: The Penny Black, ___ bore the Queen's head","explanation":"Non-defining relative about a thing after the comma."},
+    {"answer":"It","hint":"dummy subject: ___ is hard now to imagine","explanation":"'It is hard to imagine' — the dummy subject before the infinitive."}
+  ]},
+  {"title":"Concrete that heals itself","text":"Roman concrete {{1}} long puzzled engineers, because harbour walls poured two millennia {{2}} still stand in the Mediterranean while many modern piers crumble within decades. The secret owes much {{3}} volcanic ash, which Roman builders mixed with lime and seawater. Rather than eroding, the blend reacts with salt water, {{4}} triggers the growth of rare aluminous crystals that plug cracks {{5}} the concrete and make it tougher over time. The Pantheon in Rome, still the largest unreinforced concrete dome {{6}} the world, was built with related mixes nearly two thousand years ago. Modern engineers, {{7}} priority is to cut the cement industry's enormous carbon footprint, are now reviving these recipes, and the lessons arrive {{8}} a time when greener building materials have never been more urgent.","gaps":[
+    {"answer":"has","hint":"auxiliary: Roman concrete ___ long puzzled","explanation":"Present perfect with a singular subject: has long puzzled."},
+    {"answer":"ago","hint":"adverb: two millennia ___","explanation":"'Two millennia ago' — the fixed time adverb after the period."},
+    {"answer":"to","hint":"preposition: owes much ___ volcanic ash","explanation":"'Owe something to someone' — the debt takes 'to'."},
+    {"answer":"which","hint":"relative: salt water, ___ triggers the growth","explanation":"Non-defining relative after the comma referring to the reaction."},
+    {"answer":"in","hint":"preposition: plug cracks ___ the concrete","explanation":"The cracks are located in the concrete."},
+    {"answer":"in","hint":"preposition: the largest dome ___ the world","explanation":"'The largest … in the world' — the standard superlative phrase."},
+    {"answer":"whose","hint":"relative: engineers, ___ priority is to cut","explanation":"'Whose' links the engineers to their priority."},
+    {"answer":"at","hint":"preposition: arrive ___ a time when","explanation":"'At a time when' is the fixed phrase."}
+  ]},
+  {"title":"The cable that shrank the world","text":"{{1}} 1866, news crossing the Atlantic travelled no faster than the ships that carried it: a letter posted {{2}} steamer could take ten days to arrive. The businessman Cyrus Field was determined to change {{3}}, and he spent twelve years and several fortunes trying. {{4}} five failed attempts, a durable cable was finally completed between Ireland and Newfoundland in 1866, and distance was instantly abolished as an obstacle {{5}} urgent business. Financial prices in London and New York moved so closely together {{6}} a market panic in either city could be felt in {{7}} other within hours. The ocean came to feel less like a wall than like a corridor, and the age of instant global news, {{8}} we now take for granted, had begun.","gaps":[
+    {"answer":"Before","hint":"time word: ___ 1866, news travelled slowly","explanation":"'Before 1866' locates the period prior to the cable."},
+    {"answer":"by","hint":"preposition: posted ___ steamer","explanation":"'By steamer' — the means of transport takes 'by'."},
+    {"answer":"it","hint":"pronoun: determined to change ___","explanation":"'Change it' — the pronoun refers to the slow news situation."},
+    {"answer":"After","hint":"time word: ___ five failed attempts","explanation":"'After five attempts' — the completion came later."},
+    {"answer":"to","hint":"preposition: an obstacle ___ urgent business","explanation":"'An obstacle to' — the fixed noun partnership."},
+    {"answer":"that","hint":"conjunction: so closely together ___ a panic","explanation":"'So … that' — degree followed by the result clause."},
+    {"answer":"the","hint":"article: felt in ___ other within hours","explanation":"'The other' — the second of the two named cities."},
+    {"answer":"which","hint":"relative: global news, ___ we now take for granted","explanation":"Non-defining relative after the comma."}
+  ]},
+  {"title":"The frozen commodity","text":"{{1}} the early nineteenth century, shipping frozen water to the tropics sounded like a joke, and the whole plan {{2}} openly ridiculed. Frederic Tudor, a Boston merchant {{3}} stubbornness became legendary, was convinced otherwise. He shipped his first cargo of New England lake ice {{4}} the Caribbean in 1806, and most of it {{5}} indeed melted long before arrival. {{6}} insulating the blocks in sawdust and building proper icehouses at both ends, he steadily cut his losses, and by the 1830s ice from Massachusetts ponds was {{7}} great a fixture in southern cities that hot climates came to depend on it. Not until mechanical refrigeration spread in the twentieth century {{8}} the trade finally fade away.","gaps":[
+    {"answer":"In","hint":"preposition: ___ the early nineteenth century","explanation":"Centuries and periods take 'in'."},
+    {"answer":"was","hint":"passive: the whole plan ___ ridiculed","explanation":"Past passive with a singular subject: was ridiculed."},
+    {"answer":"whose","hint":"relative: a merchant ___ stubbornness became","explanation":"'Whose' links the merchant to his stubbornness."},
+    {"answer":"to","hint":"preposition: shipped his first cargo ___ the Caribbean","explanation":"Movement to the destination takes 'to'."},
+    {"answer":"had","hint":"auxiliary: most of it ___ melted long before","explanation":"Past perfect: the melting happened before the arrival."},
+    {"answer":"By","hint":"preposition: ___ insulating the blocks in sawdust","explanation":"'By + gerund' expresses the means of cutting losses."},
+    {"answer":"so","hint":"adverb: was ___ great a fixture that","explanation":"'So great a … that' — the inverted degree structure."},
+    {"answer":"did","hint":"auxiliary: not until refrigeration ___ the trade fade","explanation":"Inversion after 'not until': 'did' carries the past tense."}
+  ]},
+  {"title":"The lightkeepers","text":"Bell Rock lighthouse, {{1}} stands on a reef {{2}} the tide exposes the rock for only a few hours at a time, was built by the engineer Robert Stevenson between 1807 and 1811. Conditions were {{3}} dangerous that masons could work only at low water, and the tower, lit {{4}} the first time in 1811, took four years to complete. It {{5}} guided shipping ever since without a single structural failure. Robert belonged to a family {{6}} members designed most of Scotland's lighthouses for over a century and a half. The lights were originally kept {{7}} teams of resident keepers, and the last of them left in 1998, {{8}} automation finally replaced the human watch.","gaps":[
+    {"answer":"which","hint":"relative: lighthouse, ___ stands on a reef","explanation":"Non-defining relative after the comma; 'that' is impossible here."},
+    {"answer":"where","hint":"relative adverb: a reef ___ the tide exposes","explanation":"'Where' refers back to the reef as the place."},
+    {"answer":"so","hint":"adverb: were ___ dangerous that","explanation":"'So dangerous that' — degree plus result clause."},
+    {"answer":"for","hint":"preposition: lit ___ the first time in 1811","explanation":"'For the first time' is the fixed phrase."},
+    {"answer":"has","hint":"auxiliary: it ___ guided shipping ever since","explanation":"Present perfect with 'ever since': has guided."},
+    {"answer":"whose","hint":"relative: a family ___ members designed","explanation":"'Whose' links the family to its members."},
+    {"answer":"by","hint":"preposition: kept ___ teams of keepers","explanation":"Passive agent: the keepers did the keeping, so 'by'."},
+    {"answer":"when","hint":"time relative: in 1998, ___ automation replaced","explanation":"Non-defining time clause after the year."}
+  ]},
+  {"title":"The canal that split two continents","text":"The Panama Canal {{1}} begun by a French company in 1880 under Ferdinand de Lesseps, {{2}} triumph at Suez had made him world famous. But tropical disease killed so many workers {{3}} the venture collapsed in scandal, and the abandoned excavation lay festering until the United States, {{4}} had strategic reasons of its own, took the project over. American engineers chose locks instead {{5}} a sea-level channel, taming the Chagres River with a vast artificial lake, and in 1914 the first ships crossed from the Atlantic {{6}} the Pacific — at {{7}} same moment the First World War was breaking out in Europe. The canal {{8}} is a monument to organisation: every transit is scheduled, every lock is timed, and a century of ships has followed the same giant staircase between the oceans.","gaps":[
+    {"answer":"was","hint":"passive: the canal ___ begun in 1880","explanation":"Past passive with a singular subject: was begun."},
+    {"answer":"whose","hint":"relative: de Lesseps, ___ triumph at Suez","explanation":"'Whose' links the engineer to his triumph."},
+    {"answer":"that","hint":"conjunction: so many workers ___ the venture collapsed","explanation":"'So many … that' — degree plus result clause."},
+    {"answer":"which","hint":"relative: the United States, ___ had strategic reasons","explanation":"Non-defining relative after the comma referring to the country."},
+    {"answer":"of","hint":"preposition: locks instead ___ a sea-level channel","explanation":"'Instead of' is the fixed phrase."},
+    {"answer":"to","hint":"preposition: crossed from the Atlantic ___ the Pacific","explanation":"'From … to …' — the span of the crossing."},
+    {"answer":"the","hint":"article: at ___ same moment","explanation":"'At the same time/moment' is the fixed phrase."},
+    {"answer":"itself","hint":"reflexive: the canal ___ is a monument","explanation":"Emphatic reflexive: the canal itself."}
+  ]},
+  {"title":"The tapestry that tells of conquest","text":"The Bayeux Tapestry {{1}} made in the 1070s, most likely in southern England, and strictly speaking it {{2}} not a tapestry at all but an embroidery, stitched rather than woven. A seventy-metre strip of linen, {{3}} tells the story of the Norman conquest in vivid coloured wool, it carries us from oath-taking in France to a corpse-strewn hillside in Sussex. William of Normandy, {{4}} claimed the English crown, appears throughout, ever watchful. {{5}} well as a chronicle of events, the work is unmistakable propaganda, justifying the conquest for those who might question it. {{6}} margins, crowded with lions, ships and farming scenes, are a treasure trove of everyday medieval life. The Battle of Hastings, {{7}} the English king Harold is struck down, fills the final scenes, and the cloth has {{8}} displayed in the Norman town of Bayeux since at least 1476.","gaps":[
+    {"answer":"was","hint":"passive: the tapestry ___ made in the 1070s","explanation":"Past passive with a singular subject: was made."},
+    {"answer":"is","hint":"verb: it ___ not a tapestry at all","explanation":"Present simple 'be' with 'it': it is not."},
+    {"answer":"which","hint":"relative: linen, ___ tells the story","explanation":"Non-defining relative after the comma referring to the strip."},
+    {"answer":"who","hint":"relative: William, ___ claimed the crown","explanation":"Non-defining relative about a person after the comma."},
+    {"answer":"As","hint":"preposition: ___ well as a chronicle","explanation":"'As well as' is the fixed additive phrase."},
+    {"answer":"Its","hint":"possessive: ___ margins, crowded with lions","explanation":"The margins belong to the tapestry: its margins."},
+    {"answer":"where","hint":"relative adverb: Hastings, ___ Harold is struck down","explanation":"'Where' refers back to the battle as the scene."},
+    {"answer":"been","hint":"participle: has ___ displayed since 1476","explanation":"Present perfect passive: has been displayed."}
+  ]},
+  {"title":"The hour the railways made","text":"{{1}} the nineteenth century, most towns kept their own solar time, read from the local sun. The difference {{2}} London and Bristol, for instance, was about ten minutes, and nobody minded. Missed trains were another matter: they became {{3}} common that railway companies began setting every station clock to London time. {{4}} the network expanded, the pressure for one single standard grew irresistible, and standard time was imposed {{5}} timetable rather than by law until 1880, when Parliament finally made Greenwich Mean Time the legal standard {{6}} Britain. The system worked so well that it was extended to the seas and then to the skies, and Greenwich time, born of railway necessity, became an authority {{7}} reach now extends to every phone and stock exchange on the planet. The world still measures its hours {{8}} the meridian the railways chose.","gaps":[
+    {"answer":"Until","hint":"time word: ___ the nineteenth century, towns kept","explanation":"'Until' marks the end of the old arrangement."},
+    {"answer":"between","hint":"preposition: the difference ___ London and Bristol","explanation":"'Between' relates two named places."},
+    {"answer":"so","hint":"adverb: became ___ common that","explanation":"'So common that' — degree plus result clause."},
+    {"answer":"As","hint":"conjunction: ___ the network expanded","explanation":"'As' introduces the parallel growth: as it expanded."},
+    {"answer":"by","hint":"preposition: imposed ___ timetable rather than by law","explanation":"'By timetable' — the means of imposition takes 'by'."},
+    {"answer":"in","hint":"preposition: the legal standard ___ Britain","explanation":"The standard applied within the country: in Britain."},
+    {"answer":"whose","hint":"relative: an authority ___ reach now extends","explanation":"'Whose' links the authority to its reach."},
+    {"answer":"from","hint":"preposition: measures its hours ___ the meridian","explanation":"'Measured from' — the reference point takes 'from'."}
+  ]},
+  {"title":"The exhibition that amazed a century","text":"The Great Exhibition {{1}} held in Hyde Park in 1851, housed {{2}} a vast palace of glass and iron bolted together in a matter of months. The Crystal Palace, {{3}} was itself the greatest marvel of the show, displayed fourteen thousand exhibits from around the world, ranging {{4}} machine tools and locomotives to silks and the Koh-i-Noor diamond. {{5}} attracted some six million visitors in five months — about a fifth of the population of Britain — and the ticket receipts turned the venture into {{6}} triumph. The profits, {{7}} were invested in South Kensington, funded the natural history and science museums that still stand there, in a district nicknamed {{8}} Albertopolis after the prince who championed the idea.","gaps":[
+    {"answer":"was","hint":"passive: the Exhibition ___ held in 1851","explanation":"Past passive with a singular subject: was held."},
+    {"answer":"in","hint":"preposition: housed ___ a vast palace","explanation":"'Housed in' — the container takes 'in'."},
+    {"answer":"which","hint":"relative: The Crystal Palace, ___ was itself","explanation":"Non-defining relative after the comma."},
+    {"answer":"from","hint":"preposition: ranging ___ machine tools to silks","explanation":"'Ranging from X to Y' — the first element takes 'from'."},
+    {"answer":"It","hint":"pronoun: ___ attracted some six million visitors","explanation":"'It' refers back to the exhibition as the subject."},
+    {"answer":"a","hint":"article: turned the venture into ___ triumph","explanation":"'Into a triumph' — first mention of a countable noun."},
+    {"answer":"which","hint":"relative: The profits, ___ were invested","explanation":"Non-defining relative after the comma."},
+    {"answer":"as","hint":"preposition: nicknamed ___ Albertopolis","explanation":"'Named/nicknamed as' — the label takes 'as'."}
+  ]},
+  {"title":"The library that burned slowly","text":"The Great Library of Alexandria {{1}} founded at the start of the third century BC {{2}} the Greek-speaking kings of Egypt, {{3}} ambition was to collect every significant scroll in the known world. Ancient writers claimed {{4}} the shelves eventually held hundreds of thousands of rolls, and visiting ships {{5}} reportedly searched so that any new book could be copied before the original was returned. The library declined over centuries, and {{6}} exactly it ended — fire, funding cuts or slow decay — is still debated, yet the institution mattered {{7}} for its building than for what happened inside: scholars there measured the Earth's circumference, mapped the stars and edited Homer. {{8}} was, in effect, the first great research institute, and the idea of such a place may be its most durable legacy.","gaps":[
+    {"answer":"was","hint":"passive: the Library ___ founded","explanation":"Past passive with a singular subject: was founded."},
+    {"answer":"by","hint":"preposition: founded ___ the kings of Egypt","explanation":"Passive agent: the kings did the founding, so 'by'."},
+    {"answer":"whose","hint":"relative: kings, ___ ambition was to collect","explanation":"'Whose' links the kings to their ambition."},
+    {"answer":"that","hint":"conjunction: claimed ___ the shelves held","explanation":"Reported statement after 'claimed': that-clause."},
+    {"answer":"were","hint":"passive: visiting ships ___ searched","explanation":"Past passive with a plural subject: ships were searched."},
+    {"answer":"how","hint":"question word: ___ exactly it ended","explanation":"The manner of the ending is the unknown: how."},
+    {"answer":"less","hint":"quantifier: mattered ___ for its building than","explanation":"'Less for X than for Y' — the comparative of the two weights."},
+    {"answer":"It","hint":"cleft pronoun: ___ was, in effect, the first","explanation":"Cleft sentence emphasising the institution."}
+  ]},
+  {"title":"The secret worth an empire","text":"For centuries silk {{1}} woven only in China, where the recipe was treated as a state secret so valuable {{2}} exporting the eggs of the silkworm was punishable by death. {{3}} was not until the sixth century AD that the secret escaped. According to the story, the emperor Justinian sent two Persian monks east, {{4}} returned with silkworm eggs hidden {{5}} hollow walking canes. {{6}} monopoly broken, Byzantium built its own luxury industry, and over the following centuries silk weaving spread to Baghdad, Sicily and eventually Florence. {{7}} was the demand for the fabric that cities grew rich merely by handling it, and the overland trade route owes its English name {{8}} this one material: the Silk Road.","gaps":[
+    {"answer":"was","hint":"passive: silk ___ woven only in China","explanation":"Past passive with an uncountable subject: was woven."},
+    {"answer":"that","hint":"conjunction: so valuable ___ exporting was punishable","explanation":"'So valuable that' — degree plus result clause."},
+    {"answer":"It","hint":"cleft pronoun: ___ was not until the sixth century","explanation":"'It was not until X that…' — the fixed cleft frame."},
+    {"answer":"who","hint":"relative: monks, ___ returned with eggs","explanation":"Non-defining relative about people after the comma."},
+    {"answer":"in","hint":"preposition: eggs hidden ___ hollow canes","explanation":"The eggs were located in the canes."},
+    {"answer":"Its","hint":"possessive: ___ monopoly broken","explanation":"Absolute phrase: its monopoly broken, Byzantium rebuilt."},
+    {"answer":"Such","hint":"pronoun: ___ was the demand that","explanation":"Fronted inversion: 'Such was the demand that…'."},
+    {"answer":"to","hint":"preposition: owes its name ___ this material","explanation":"'Owe something to something' — the source takes 'to'."}
+  ]},
+  {"title":"The pigeon post of Paris","text":"In September 1870 Paris found {{1}} besieged by Prussian armies, {{2}} cut the city's telegraph lines and surrounded it entirely. The only way {{3}} carry news across the enemy lines was by carrier pigeon, but a bird can lift only a few grams, and the dispatches kept growing. A photographer named René Dagron solved the problem: printed pages were photographed down {{4}} microfilm weighing a fraction of a gram, and each film was so light {{5}} a pigeon could carry twenty of them at once. Parisians, {{6}} paid a small fee to read the microscopic news under magnifying glasses at the post office, nicknamed the tiny sheets 'pigeon post'. {{7}} is estimated that over a million private messages reached the besieged city {{8}} this improbable airmail service.","gaps":[
+    {"answer":"itself","hint":"reflexive: Paris found ___ besieged","explanation":"'Found itself' — the city experienced its own state."},
+    {"answer":"which","hint":"relative: armies, ___ cut the telegraph lines","explanation":"Non-defining relative after the comma referring to the armies."},
+    {"answer":"to","hint":"infinitive: the only way ___ carry news","explanation":"'The way to do something' — the infinitive modifies 'way'."},
+    {"answer":"onto","hint":"preposition: photographed down ___ microfilm","explanation":"'Down onto' — the movement ends on the surface: onto."},
+    {"answer":"that","hint":"conjunction: so light ___ a pigeon could carry","explanation":"'So … that' — degree plus result clause."},
+    {"answer":"who","hint":"relative: Parisians, ___ paid a small fee","explanation":"Non-defining relative about people after the comma."},
+    {"answer":"It","hint":"dummy subject: ___ is estimated that","explanation":"'It is estimated that…' — the dummy subject of the passive report."},
+    {"answer":"by","hint":"preposition: reached the city ___ this service","explanation":"Means of transmission takes 'by': by this service."}
+  ]},
+  {"title":"Salt: the mineral that paid for empires","text":"For most of history salt {{1}} so scarce and so necessary that it was worth fighting over, and governments quickly learned {{2}} taxing it was easier than mining it. Rome built the Via Salaria, {{3}} ran from the salt pans of the Adriatic straight to the capital, and emperors {{4}} revenues depended on the salt tax kept the price firmly under state control. The English word salary descends {{5}} the allowance once paid to Roman soldiers for the mineral, and whole wars were financed {{6}} this single levy. {{7}} 1930, Mahatma Gandhi chose the humble substance for his most famous protest, walking 240 miles to the sea to make salt from seawater in open defiance of the British salt laws, and the Salt March became a turning point {{8}} the long road to independence.","gaps":[
+    {"answer":"was","hint":"verb: salt ___ so scarce and necessary","explanation":"Past 'be' with an uncountable subject: was scarce."},
+    {"answer":"that","hint":"conjunction: learned ___ taxing it was easier","explanation":"Reported realisation after 'learned': that-clause."},
+    {"answer":"which","hint":"relative: the Via Salaria, ___ ran from","explanation":"Non-defining relative after the comma referring to the road."},
+    {"answer":"whose","hint":"relative: emperors ___ revenues depended","explanation":"'Whose' links the emperors to their revenues."},
+    {"answer":"from","hint":"preposition: descends ___ the allowance","explanation":"Origin of the word: descends from."},
+    {"answer":"by","hint":"preposition: wars were financed ___ this levy","explanation":"Passive agent: financed by the levy."},
+    {"answer":"In","hint":"preposition: ___ 1930, Gandhi chose","explanation":"Years take 'in': in 1930."},
+    {"answer":"on","hint":"preposition: a turning point ___ the road","explanation":"'A turning point on the road' — position along the route takes 'on'."}
+  ]},
+  {"title":"The four-day week experiment","text":"{{1}} recent years, hundreds of companies have trialled a four-day week, keeping full pay while fitting the same output into fewer hours. The idea {{2}} moved from radical experiment to mainstream policy discussion: trials in Britain and Iceland reported that staff felt {{3}} stress, took fewer sick days {{4}} before, and — the number that persuades finance directors — productivity held steady or even rose. Politicians {{5}} support the change argue that the five-day week is a relic of the industrial age, when hours and output moved together. {{6}} is not a universal cure: hospitals, {{7}} cannot simply close for an extra day, need different models, and some workers on compressed schedules report feeling rushed. Even so, the conversation has shifted, and the real debate now is {{8}} every job can fit into four days.","gaps":[
+    {"answer":"In","hint":"preposition: ___ recent years","explanation":"'In recent years' — periods take 'in'."},
+    {"answer":"has","hint":"auxiliary: the idea ___ moved","explanation":"Present perfect with a singular subject: has moved."},
+    {"answer":"less","hint":"quantifier: staff felt ___ stress","explanation":"Uncountable 'stress' and a reduction: felt less stress."},
+    {"answer":"than","hint":"comparative: fewer sick days ___ before","explanation":"The comparative 'fewer' requires 'than'."},
+    {"answer":"who","hint":"relative: politicians ___ support the change","explanation":"Refers to people; subject form 'who'."},
+    {"answer":"It","hint":"pronoun: ___ is not a universal cure","explanation":"'It' refers to the idea as the subject."},
+    {"answer":"which","hint":"relative: hospitals, ___ cannot simply close","explanation":"Non-defining relative after the comma referring to hospitals."},
+    {"answer":"whether","hint":"conjunction: the debate is ___ every job can fit","explanation":"An indirect yes/no question after 'is': whether."}
+  ]},
+  {"title":"The meeting that should have been an email","text":"Office workers {{1}} long joked that the typical meeting should have been an email. Research suggests they have a point: the average middle manager spends more than {{2}} of the working week in meetings, and studies find that decisions made in groups are often slower and no better. A large part of the problem is that discussion gets dominated {{3}} the loudest voice rather than the strongest argument, and the larger the group, {{4}} weaker each participant's sense of responsibility for the outcome. {{5}} is hard to argue with a meeting invitation, even {{6}} the diary suggests otherwise. Some companies, {{7}} calendars turned treacly during the pandemic years, have responded boldly: no meetings on certain days, shorter default slots, and agendas circulated {{8}} advance so that the reading happens before the talking.","gaps":[
+    {"answer":"have","hint":"auxiliary: workers ___ long joked","explanation":"Present perfect with a plural subject: have long joked."},
+    {"answer":"half","hint":"quantifier: more than ___ of the week","explanation":"'More than half of' — the fraction of the week."},
+    {"answer":"by","hint":"preposition: dominated ___ the loudest voice","explanation":"Passive agent: dominated by the voice."},
+    {"answer":"the","hint":"article: the larger the group, ___ weaker","explanation":"'The larger…, the weaker…' — the double comparative needs 'the'."},
+    {"answer":"It","hint":"dummy subject: ___ is hard to argue","explanation":"'It is hard to…' — the dummy subject before the infinitive."},
+    {"answer":"if","hint":"conjunction: even ___ the diary suggests otherwise","explanation":"'Even if' — the fixed concessive pair."},
+    {"answer":"whose","hint":"relative: companies, ___ calendars turned treacly","explanation":"'Whose' links the companies to their calendars."},
+    {"answer":"in","hint":"preposition: agendas circulated ___ advance","explanation":"'In advance' is the fixed phrase."}
+  ]},
+  {"title":"A hundred-year experiment in togetherness","text":"The open-plan office {{1}} born in the 1950s, when German designers promoted a landscape style {{2}} desks drifted freely among plants rather than ranks. American firms, {{3}} liked the low cost as much as the modern look, spread the idea worldwide: costs could be cut {{4}} removing walls and doors, and floorspace per employee shrank year after year. But the research is unflattering. People in open offices suffer {{5}} interruptions, and they hold {{6}} face-to-face conversation than people behind walls, compensating with headphones and email. As a result, the pendulum {{7}} begun to swing back towards a blend of deep-focus rooms, small meeting booths and shared tables for those who genuinely want company. The office of the future, most designers now admit, needs {{8}} offer both silence and society.","gaps":[
+    {"answer":"was","hint":"passive: the office ___ born in the 1950s","explanation":"Past passive with a singular subject: was born."},
+    {"answer":"where","hint":"relative adverb: a style ___ desks drifted","explanation":"'Where' refers back to the style as the setting."},
+    {"answer":"which","hint":"relative: American firms, ___ liked the low cost","explanation":"Non-defining relative after the comma referring to the firms."},
+    {"answer":"by","hint":"preposition: cut ___ removing walls","explanation":"'By + gerund' — the means of cutting."},
+    {"answer":"more","hint":"quantifier: suffer ___ interruptions","explanation":"'Suffer more interruptions' — an increase in countable interruptions."},
+    {"answer":"less","hint":"quantifier: hold ___ face-to-face conversation","explanation":"Uncountable 'conversation' and a reduction: hold less."},
+    {"answer":"has","hint":"auxiliary: the pendulum ___ begun to swing","explanation":"Present perfect with a singular subject: has begun."},
+    {"answer":"to","hint":"infinitive: needs ___ offer both","explanation":"'Needs to offer' — the infinitive after 'need'."}
+  ]},
+  {"title":"Nobody feels qualified","text":"Many successful professionals, {{1}} colleagues regard as plainly competent, privately suspect they have been promoted by mistake. {{2}} feeling was named the imposter syndrome in 1978, when psychologists Pauline Rose Clance and Suzanne Imes noticed how common such doubts were {{3}} high-achieving women; later research found the pattern across genders and professions. Sufferers discount praise, put their successes {{4}} to luck or timing, and live with the dread of being found out. Cruelly, {{5}} more a person achieves, the stronger the feeling often becomes, because each new role raises the stakes. Naming the pattern helps, precisely {{6}} imposter feelings thrive on the false belief that everyone else is certain, and discovering that respected colleagues share the doubt turns {{7}} was a shameful secret into a shared, survivable quirk of ambitious minds. Mentors are now advised to raise it openly {{8}} new joiners, since the first months of a new job are when the doubt bites hardest.","gaps":[
+    {"answer":"whom","hint":"relative: professionals, ___ colleagues regard as","explanation":"Object relative after the comma about people: whom."},
+    {"answer":"The","hint":"article: ___ feeling was named","explanation":"The feeling is defined by what follows: the definite article."},
+    {"answer":"among","hint":"preposition: common ___ high-achieving women","explanation":"Distribution within the group takes 'among'."},
+    {"answer":"down","hint":"particle: put their successes ___ to luck","explanation":"'Put down to' — the particle completes the phrasal verb."},
+    {"answer":"the","hint":"article: ___ more a person achieves, the stronger","explanation":"'The more…, the stronger…' — the double comparative."},
+    {"answer":"because","hint":"conjunction: helps, precisely ___ imposter feelings thrive","explanation":"'Precisely because' — the fixed reason phrase."},
+    {"answer":"what","hint":"pronoun: turns ___ was a shameful secret","explanation":"'Turns what was X into Y' — the fused relative as object."},
+    {"answer":"with","hint":"preposition: raise it openly ___ new joiners","explanation":"'Raise something with someone' — the person takes 'with'."}
+  ]},
+  {"title":"The awkward arithmetic of tipping","text":"{{1}} the United States, waiting tables is paid for through tips, and the expectation of twenty per cent is so entrenched {{2}} refusing to tip is widely read as an insult. Servers, {{3}} base wages are set on the assumption of tips, depend on the custom for {{4}} actual income. The habit {{5}} spread far beyond its origins, and customs differ wildly from one country to the next: {{6}} counts as generous in New York may seem excessive in Tokyo, {{7}} a tip can feel awkward or even rude. Economists still argue {{8}} the whole institution — wages subsidised by voluntary guilt — makes any sense at all, yet the dinner bill keeps arriving with a blank line at the bottom.","gaps":[
+    {"answer":"In","hint":"preposition: ___ the United States","explanation":"Country names take 'in'."},
+    {"answer":"that","hint":"conjunction: so entrenched ___ refusing is read","explanation":"'So … that' — degree plus result clause."},
+    {"answer":"whose","hint":"relative: servers, ___ base wages are set","explanation":"'Whose' links the servers to their wages."},
+    {"answer":"their","hint":"possessive: for ___ actual income","explanation":"The income belongs to the servers: their income."},
+    {"answer":"has","hint":"auxiliary: the habit ___ spread far","explanation":"Present perfect with a singular subject: has spread."},
+    {"answer":"What","hint":"pronoun: ___ counts as generous","explanation":"Fused relative subject: what counts."},
+    {"answer":"where","hint":"relative adverb: in Tokyo, ___ a tip can feel rude","explanation":"'Where' refers back to Tokyo as the place."},
+    {"answer":"whether","hint":"conjunction: argue ___ the institution makes sense","explanation":"An indirect yes/no question after 'argue': whether."}
+  ]},
+  {"title":"When one job is no longer the plan","text":"{{1}} a growing number of workers, the question 'What do you do?' needs a list rather than a single answer. The portfolio career — a blend {{2}} part-time employment, freelancing, tutoring and a small business on the side — used to be a rarity, but digital platforms {{3}} made {{4}} easier than ever {{5}} assemble a living from several sources at once. Supporters point out that no single employer can sink them and that varied work keeps their skills fresh. Sceptics reply {{6}} pensions and sick pay matter, that such arrangements offer {{7}} security, not more, and that a portfolio often means working evenings to keep the plates spinning. The open question is {{8}} the portfolio life offers freedom or simply insecurity with better branding.","gaps":[
+    {"answer":"For","hint":"preposition: ___ a growing number of workers","explanation":"'For someone' — from their point of view."},
+    {"answer":"of","hint":"preposition: a blend ___ part-time employment","explanation":"'A blend of' — the contents take 'of'."},
+    {"answer":"have","hint":"auxiliary: platforms ___ made","explanation":"Present perfect with a plural subject: have made."},
+    {"answer":"it","hint":"pronoun: made ___ easier than ever","explanation":"'Make it easier to…' — the dummy object before the infinitive."},
+    {"answer":"to","hint":"infinitive: easier than ever ___ assemble","explanation":"The infinitive completes 'made it easier to assemble'."},
+    {"answer":"that","hint":"conjunction: reply ___ pensions matter","explanation":"Reported arguments after 'reply': that-clause."},
+    {"answer":"less","hint":"quantifier: offer ___ security, not more","explanation":"Uncountable 'security' with the contrast 'not more': less security."},
+    {"answer":"whether","hint":"conjunction: the question is ___ it offers freedom","explanation":"An indirect either/or question: whether."}
+  ]},
+  {"title":"The card that outstayed its welcome","text":"{{1}} centuries, the exchange of printed cards opened working relationships across the world. The card was proof {{2}} the holder was genuine, and the little rectangle was handled with more care than most documents. In the West the smartphone has largely swept it aside, and contact details now travel {{3}} one phone to another. {{4}}, in Japan the meishi survives: it is presented {{5}} both hands and a small bow, received with a nod, studied carefully and then tucked respectfully into a wallet, and treating {{6}} carelessly is a genuine insult. The ritual looks quaint, yet it encodes something universal: a relationship deserves a moment of ceremony, {{7}} brief the encounter. It remains to be seen {{8}} the rest of the world will decide the ceremony was worth keeping.","gaps":[
+    {"answer":"For","hint":"preposition: ___ centuries","explanation":"Durations take 'for': for centuries."},
+    {"answer":"that","hint":"conjunction: proof ___ the holder was genuine","explanation":"The content of the proof: proof that."},
+    {"answer":"from","hint":"preposition: travel ___ one phone to another","explanation":"'From one … to another' — the span of the transfer."},
+    {"answer":"However","hint":"linker: ___, in Japan the meishi survives","explanation":"The contrastive sentence adverb between commas: However."},
+    {"answer":"with","hint":"preposition: presented ___ both hands","explanation":"The instrument of presentation: with both hands."},
+    {"answer":"them","hint":"pronoun: treating ___ carelessly","explanation":"Object pronoun referring to the cards: treating them."},
+    {"answer":"however","hint":"adverb: a moment of ceremony, ___ brief the encounter","explanation":"'However brief' means 'no matter how brief'."},
+    {"answer":"whether","hint":"conjunction: to be seen ___ the world will decide","explanation":"An indirect yes/no question after 'seen': whether."}
+  ]},
+  {"title":"Learning the ropes from the kitchen table","text":"{{1}} the past, a new employee learned the unwritten rules {{2}} standing near the coffee machine: who to ask, what not to touch, {{3}} decisions really got made. Remote work {{4}} stripped most of that away, and companies that moved online learned {{5}} the hard way when early remote hires drifted and quietly resigned. Deliberate design had {{6}} replace accidental osmosis. Successful remote employers now script the first weeks, pair each newcomer with a colleague {{7}} explicit job is to welcome the small questions, and record short videos of how things actually work. It turns out that the informal curriculum mattered {{8}} than the official one, and that culture is not what is written on the walls but what is repeated in conversations.","gaps":[
+    {"answer":"In","hint":"preposition: ___ the past","explanation":"'In the past' is the fixed phrase."},
+    {"answer":"by","hint":"preposition: learned ___ standing near","explanation":"'By + gerund' — the means of learning."},
+    {"answer":"how","hint":"question word: ___ decisions really got made","explanation":"The manner of deciding: how."},
+    {"answer":"has","hint":"auxiliary: remote work ___ stripped","explanation":"Present perfect with a singular subject: has stripped."},
+    {"answer":"it","hint":"pronoun: learned ___ the hard way","explanation":"'Learn it the hard way' — the dummy object of the idiom."},
+    {"answer":"to","hint":"infinitive: had ___ replace osmosis","explanation":"'Had to' — obligation in the past."},
+    {"answer":"whose","hint":"relative: a colleague ___ explicit job is","explanation":"'Whose' links the colleague to the job."},
+    {"answer":"more","hint":"quantifier: mattered ___ than the official one","explanation":"The comparative 'more than' — the first element is gapped."}
+  ]},
+  {"title":"Why your battery quietly fades","text":"{{1}} time a lithium-ion battery is recharged, millions of ions shuffle {{2}} the two electrodes and back again, and each round trip takes a microscopic toll. Side reactions slowly lock pockets of material {{3}} from the circuit, {{4}} is why a phone that held a day of charge at five years old now surrenders by mid-afternoon. Heat {{5}} long stretches at a full charge speed the decay {{6}}, so packs kept cool and half-charged age far more gracefully. Engineers have responded {{7}} software that holds the cells below a full charge, {{8}} is why your phone sometimes waits at eighty per cent overnight before finishing the job at dawn.","gaps":[
+    {"answer":"Every","hint":"determiner: ___ time a battery is recharged","explanation":"'Every time' — the fixed phrase meaning 'each occasion'."},
+    {"answer":"between","hint":"preposition: shuffle ___ the two electrodes","explanation":"Movement relating two endpoints takes 'between'."},
+    {"answer":"away","hint":"particle: lock pockets of material ___","explanation":"'Lock away' — the particle shows permanent removal."},
+    {"answer":"which","hint":"relative: ___, __ is why a phone fades","explanation":"Sentential relative after the comma summing up the cause."},
+    {"answer":"and","hint":"conjunction: heat ___ long stretches at full charge","explanation":"The two agents of decay are joined by 'and'."},
+    {"answer":"up","hint":"particle: speed the decay ___","explanation":"'Speed up' — the particle completes the phrasal verb."},
+    {"answer":"with","hint":"preposition: responded ___ software","explanation":"'Respond with' — the instrument takes 'with'."},
+    {"answer":"which","hint":"relative: ___, __ is why your phone waits","explanation":"Sentential relative after the comma."}
+  ]},
+  {"title":"The internet at the bottom of the sea","text":"{{1}} is tempting to picture the internet as an airy cloud, but {{2}} reality it is a hard physical network: {{3}} the seabed run about five hundred fibre-optic cables, each {{4}} thick as a garden hose. Most failures are caused {{5}} ship anchors and trawling nets rather than by sharks, and when a line is cut, repair ships, {{6}} haul the cable to the surface, may need days to find the fault. In 2024, {{7}} several Red Sea cables were damaged in quick succession, engineers simply rerouted traffic through longer paths, and most users noticed nothing. Such resilience is the quiet achievement of the system: the cloud, {{8}} turns out, is held together by rope, glass and salt water.","gaps":[
+    {"answer":"It","hint":"dummy subject: ___ is tempting to picture","explanation":"'It is tempting to…' — the dummy subject before the infinitive."},
+    {"answer":"in","hint":"preposition: ___ reality","explanation":"'In reality' is the fixed phrase."},
+    {"answer":"Across","hint":"preposition: ___ the seabed run cables","explanation":"The cables lie across the seabed: across."},
+    {"answer":"as","hint":"adverb: each ___ thick as a garden hose","explanation":"'As thick as' — the first element of the comparison."},
+    {"answer":"by","hint":"preposition: caused ___ anchors and nets","explanation":"Passive agent: caused by anchors."},
+    {"answer":"which","hint":"relative: repair ships, ___ haul the cable","explanation":"Non-defining relative after the comma referring to the ships."},
+    {"answer":"when","hint":"time relative: in 2024, ___ cables were damaged","explanation":"Non-defining time clause after the year."},
+    {"answer":"it","hint":"pronoun: the cloud, ___ turns out","explanation":"The fixed parenthetical phrase: 'it turns out'."}
+  ]},
+  {"title":"The square that came back","text":"The QR code was invented {{1}} Japan in 1994 {{2}} track car parts moving along a production line, and for twenty years it sat quietly in the background of logistics. {{3}} was not until billions of people carried camera-equipped phones {{4}} the humble square found its true audience, and the pandemic then made scanning a reflex: menus opened {{5}} a wave of the phone, and businesses {{6}} websites had lagged for years suddenly had a doorway in every poster. The square even appears {{7}} gravestones, {{8}} a scan calls up photographs and a life story for anyone standing in the churchyard with a signal.","gaps":[
+    {"answer":"in","hint":"preposition: invented ___ Japan in 1994","explanation":"Countries take 'in': in Japan."},
+    {"answer":"to","hint":"infinitive: invented ___ track car parts","explanation":"'Invented to track' — the infinitive of purpose."},
+    {"answer":"It","hint":"cleft pronoun: ___ was not until phones spread","explanation":"'It was not until X that…' — the fixed cleft frame."},
+    {"answer":"that","hint":"conjunction: not until phones ___ the square found","explanation":"The second half of the 'not until' cleft: that."},
+    {"answer":"with","hint":"preposition: opened ___ a wave of the phone","explanation":"'With a wave' — the means of opening."},
+    {"answer":"whose","hint":"relative: businesses ___ websites had lagged","explanation":"'Whose' links the businesses to their websites."},
+    {"answer":"on","hint":"preposition: appears ___ gravestones","explanation":"Surface position takes 'on': on gravestones."},
+    {"answer":"where","hint":"relative adverb: gravestones, ___ a scan calls up","explanation":"'Where' refers back to the gravestones as the place."}
+  ]},
+  {"title":"The second lock on the door","text":"The humble password has {{1}} the weakest link in digital security. Billions of login details {{2}} leaked over the years, and many people, {{3}} reuse a favourite phrase across dozens of sites, hand attackers a master key {{4}} their entire digital life. A single password {{5}} therefore no longer enough. {{6}} is far harder to steal a fresh code that expires in thirty seconds than a memorised word, {{7}} is why most serious services now ask for a second factor. However, the commonest one — a code texted to your phone — is the easiest to intercept, so {{8}} possible, security specialists recommend an authenticator app or a hardware key instead.","gaps":[
+    {"answer":"become","hint":"verb: has ___ the weakest link","explanation":"Present perfect after 'has': has become."},
+    {"answer":"have","hint":"auxiliary: billions of details ___ leaked","explanation":"Present perfect with a plural subject: have leaked."},
+    {"answer":"who","hint":"relative: people, ___ reuse a favourite phrase","explanation":"Non-defining relative about people after the comma."},
+    {"answer":"to","hint":"preposition: a master key ___ their life","explanation":"'A key to' — the fixed noun partnership."},
+    {"answer":"is","hint":"verb: a password ___ no longer enough","explanation":"Present simple 'be' with a singular subject: is."},
+    {"answer":"It","hint":"dummy subject: ___ is far harder to steal","explanation":"'It is harder to…' — the dummy subject before the infinitive."},
+    {"answer":"which","hint":"relative: ___, __ is why services ask","explanation":"Sentential relative after the comma summing up the difficulty."},
+    {"answer":"where","hint":"conjunction: so ___ possible, recommend","explanation":"'Where possible' — the fixed elliptical phrase meaning 'when it is possible'."}
+  ]},
+  {"title":"Where gadgets go when they die","text":"{{1}} theory, electronic waste ought to be the easiest treasure on Earth: old phones and laptops {{2}} packed with gold, silver and copper — a tonne of circuit boards is far richer {{3}} a tonne of mined ore — and every gadget contains materials worth recovering. In practice only about a fifth {{4}} formally collected and recycled. The rest sleeps in drawers, and a worrying share leaks into soil and rivers {{5}} it is dumped carelessly or torn apart in informal scrapyards, {{6}} cables are burnt in the open to free the metal inside. Regulators are responding {{7}} right-to-repair laws that push manufacturers towards longer-lasting, repairable designs, and the best e-waste policy may be the simplest one: make gadgets {{8}} last longer in the first place.","gaps":[
+    {"answer":"In","hint":"preposition: ___ theory","explanation":"'In theory' is the fixed phrase."},
+    {"answer":"are","hint":"passive: phones and laptops ___ packed","explanation":"Present passive with a plural subject: are packed."},
+    {"answer":"than","hint":"comparative: richer ___ a tonne of ore","explanation":"The comparative 'richer' requires 'than'."},
+    {"answer":"is","hint":"passive: only a fifth ___ collected","explanation":"Present passive agreeing with 'a fifth': is collected."},
+    {"answer":"when","hint":"time clause: rivers ___ it is dumped","explanation":"The leaking happens when the dumping happens: when."},
+    {"answer":"where","hint":"relative adverb: scrapyards, ___ cables are burnt","explanation":"'Where' refers back to the scrapyards as the place."},
+    {"answer":"with","hint":"preposition: responding ___ right-to-repair laws","explanation":"'Respond with' — the instrument of response."},
+    {"answer":"them","hint":"pronoun: make ___ last longer","explanation":"Object pronoun referring to gadgets: make them last."}
+  ]},
+  {"title":"Whose machine is it, anyway?","text":"For decades the received wisdom {{1}} simple: gadgets belonged to their makers. The argument ran {{2}} opening the case was hacking, spare parts and manuals, {{3}} once reached every repair shop, became restricted, and glue replaced screws. Farmers, {{4}} tractors refuse to start {{5}} an authorised dealer signs off, were among the first to revolt, and campaigners {{6}} pushed for a legal right to repair followed. {{7}} was the clamour that regulators on both sides of the Atlantic now require spare parts, manuals and unlockable diagnostics for years after a product goes on sale. The deeper question the movement raises is philosophical {{8}} practical: if you bought it, whose object is it — the maker's or yours?","gaps":[
+    {"answer":"was","hint":"verb: the wisdom ___ simple","explanation":"Past 'be' with a singular subject: was simple."},
+    {"answer":"that","hint":"conjunction: the argument ran ___ opening was hacking","explanation":"The content of the argument: ran that."},
+    {"answer":"which","hint":"relative: manuals, ___ once reached every shop","explanation":"Non-defining relative after the comma referring to parts and manuals."},
+    {"answer":"whose","hint":"relative: farmers, ___ tractors refuse","explanation":"'Whose' links the farmers to their tractors."},
+    {"answer":"unless","hint":"conjunction: refuse to start ___ a dealer signs","explanation":"'Unless' — the negative condition: if not."},
+    {"answer":"have","hint":"auxiliary: campaigners ___ pushed for","explanation":"Present perfect with a plural subject: have pushed."},
+    {"answer":"Such","hint":"pronoun: ___ was the clamour that","explanation":"Fronted inversion: 'Such was the clamour that…'."},
+    {"answer":"as","hint":"conjunction: philosophical ___ practical","explanation":"'As … as'? No — here: 'philosophical as well as practical' — the fixed additive phrase."}
+  ]},
+  {"title":"The little sign that conquered the world","text":"The @ sign had spent centuries {{1}} accounting, {{2}} it simply meant 'at the price of', before {{3}} was drafted for an entirely new job. {{4}} was Ray Tomlinson, {{5}} needed a way to separate a person's name {{6}} their computer on the early internet, and he chose the @ sign for the task in 1971. The sign then travelled {{7}} email went, and each language gave it a nickname of its own: ape tail, little duck, strudel. Today it fronts social media handles and art exhibitions, and a symbol invented for sacks of wheat now sits {{8}} the centre of how humanity addresses itself.","gaps":[
+    {"answer":"in","hint":"preposition: spent centuries ___ accounting","explanation":"'In accounting' — the field takes 'in'."},
+    {"answer":"where","hint":"relative adverb: accounting, ___ it meant","explanation":"'Where' refers back to accounting as the setting."},
+    {"answer":"it","hint":"pronoun: before ___ was drafted","explanation":"'It' refers to the sign as the subject."},
+    {"answer":"It","hint":"cleft pronoun: ___ was Ray Tomlinson who","explanation":"The cleft sentence emphasises the person."},
+    {"answer":"who","hint":"relative: Tomlinson, ___ needed a way","explanation":"Non-defining relative about a person after the comma."},
+    {"answer":"from","hint":"preposition: separate a name ___ their computer","explanation":"'Separate X from Y' — the fixed verb pattern."},
+    {"answer":"wherever","hint":"conjunction: travelled ___ email went","explanation":"'Wherever' — to every place that email reached."},
+    {"answer":"at","hint":"preposition: sits ___ the centre of","explanation":"'At the centre of' is the fixed phrase."}
+  ]},
+  {"title":"Saving Venice from its own success","text":"Venice {{1}} always been a city living on borrowed ground, its palaces resting on wooden piles driven {{2}} the mud of a shallow lagoon. Now the pressure on that ground is human: the historic centre has shrunk {{3}} more than 170,000 residents {{4}} under 50,000, {{5}} a result of soaring rents and the departure of ordinary jobs. Family homes are let {{6}} as holiday flats, bakeries become mask shops, and older Venetians describe 2020, {{7}} the crowds vanished overnight, as the quietest and strangest year of their lives. Entry fees, cruise-ship bans and resident-priority schemes are all being tried, {{8}} it remains to be seen whether any of them can restore the balance between a city and its own admirers.","gaps":[
+    {"answer":"has","hint":"auxiliary: Venice ___ always been","explanation":"Present perfect with a singular subject: has always been."},
+    {"answer":"into","hint":"preposition: piles driven ___ the mud","explanation":"Movement ending inside takes 'into'."},
+    {"answer":"from","hint":"preposition: shrunk ___ 170,000 residents","explanation":"'Shrunk from X to Y' — the starting point takes 'from'."},
+    {"answer":"to","hint":"preposition: ___ under 50,000","explanation":"The end point of the fall takes 'to'."},
+    {"answer":"As","hint":"preposition: ___ a result of soaring rents","explanation":"'As a result of' is the fixed phrase."},
+    {"answer":"out","hint":"particle: homes are let ___ as flats","explanation":"'Let out' — the particle shows renting to others."},
+    {"answer":"when","hint":"time relative: in 2020, ___ the crowds vanished","explanation":"Non-defining time clause after the year."},
+    {"answer":"and","hint":"conjunction: schemes are tried, ___ it remains to be seen","explanation":"The two clauses are simply added: and."}
+  ]},
+  {"title":"The case for travelling with less","text":"Seasoned travellers {{1}} long known a paradox: {{2}} more you pack, the less you enjoy the journey. Everything must fit {{3}} one bag, and one bag means no queues at check-in, no waiting {{4}} luggage on a carousel, and no ruined plans {{5}} an airline sends your suitcase to the wrong country. Moving between cities becomes a five-minute errand {{6}} of a logistical operation. {{7}} is only when the weather turns unexpectedly that anyone notices the absence of a spare outfit, and even then most cities {{8}} you land will sell you another pair of socks within the hour.","gaps":[
+    {"answer":"have","hint":"auxiliary: travellers ___ long known","explanation":"Present perfect with a plural subject: have long known."},
+    {"answer":"The","hint":"article: ___ more you pack, the less","explanation":"'The more…, the less…' — the double comparative takes 'the'."},
+    {"answer":"into","hint":"preposition: fit ___ one bag","explanation":"Movement ending inside takes 'into'."},
+    {"answer":"for","hint":"preposition: no waiting ___ luggage","explanation":"'Wait for' — the thing awaited takes 'for'."},
+    {"answer":"when","hint":"time clause: no ruined plans ___ an airline","explanation":"The ruin happens when the airline errs: when."},
+    {"answer":"instead","hint":"adverb: an errand ___ of an operation","explanation":"'Instead of' — the replacement phrase; the gap is 'instead'."},
+    {"answer":"It","hint":"cleft pronoun: ___ is only when the weather turns","explanation":"The cleft structure 'It is only when… that…'."},
+    {"answer":"where","hint":"relative adverb: cities ___ you land","explanation":"'Where' refers back to the cities as the place."}
+  ]},
+  {"title":"Three letters that know where you are going","text":"{{1}} commercial airport answers to a three-letter code, and {{2}} a few exceptions the system took shape in the 1930s, {{3}} airlines needed short labels for telex messages. Some codes are straightforward; others are inherited {{4}} the weather stations and airfields of an earlier age. Chicago's O'Hare is ORD, {{5}} recalls Orchard Field, the site's original name, and New Orleans is MSY, {{6}} letters honour the aviator John Moisant. {{7}} same logic gave Canada its Y-prefixes, from YVR in Vancouver to YYZ in Toronto. {{8}} some codes are instantly readable, others are pure archaeology, and decoding them is a small pleasure hidden in every itinerary.","gaps":[
+    {"answer":"Every","hint":"determiner: ___ commercial airport","explanation":"'Every' + singular noun for the whole set."},
+    {"answer":"with","hint":"preposition: ___ a few exceptions","explanation":"'With a few exceptions' is the fixed phrase."},
+    {"answer":"when","hint":"time relative: in the 1930s, ___ airlines needed","explanation":"Non-defining time clause after the decade."},
+    {"answer":"from","hint":"preposition: inherited ___ the weather stations","explanation":"Origin takes 'from': inherited from."},
+    {"answer":"which","hint":"relative: ORD, ___ recalls Orchard Field","explanation":"Non-defining relative after the comma referring to the code."},
+    {"answer":"whose","hint":"relative: MSY, ___ letters honour Moisant","explanation":"'Whose' links the code to its letters."},
+    {"answer":"The","hint":"article: ___ same logic","explanation":"'The same' is the fixed definite phrase."},
+    {"answer":"While","hint":"conjunction: ___ some codes are readable, others","explanation":"Contrast between the two halves; 'while' introduces the first."}
+  ]},
+  {"title":"The pilgrimage that never ended","text":"{{1}} over a thousand years, Christians have walked across northern Spain to {{2}} shrine of St James at Santiago de Compostela. {{3}} was never simply a long hike: medieval walkers believed the journey reduced their time in purgatory, and the route {{4}} never quite lost its grip. {{5}} draws today's crowds — well over 400,000 a year — is not only faith {{6}} also the promise of headspace, friendship and a landscape that changes hourly. The Camino owes {{7}} modern boom partly to guidebooks, films and a holy year in 2010, {{8}} numbers passed 270,000 for the first time. The scallop shell, once a badge of medieval penitents, is now more likely to hang from a backpack than from a staff.","gaps":[
+    {"answer":"For","hint":"preposition: ___ over a thousand years","explanation":"Durations take 'for': for over a thousand years."},
+    {"answer":"the","hint":"article: to ___ shrine of St James","explanation":"A specific, identified shrine takes the definite article."},
+    {"answer":"It","hint":"pronoun: ___ was never simply a hike","explanation":"'It' refers to the walk as the subject."},
+    {"answer":"has","hint":"auxiliary: the route ___ never quite lost","explanation":"Present perfect with a singular subject: has lost."},
+    {"answer":"What","hint":"pronoun: ___ draws today's crowds","explanation":"Fused relative subject: what draws them."},
+    {"answer":"but","hint":"conjunction: not only faith ___ also headspace","explanation":"'Not only … but also' — the fixed pair."},
+    {"answer":"its","hint":"possessive: owes ___ modern boom","explanation":"The boom belongs to the route: its boom."},
+    {"answer":"when","hint":"time relative: in 2010, ___ numbers passed","explanation":"Non-defining time clause after the year."}
+  ]},
+  {"title":"The engineers that build rivers","text":"Beavers {{1}} vanished from Britain by the sixteenth century, hunted {{2}} their fur, their scent glands and their supposed medicinal powers. {{3}} was not until 2009 that a licensed trial released a family of beavers on a Devon river, {{4}} the animals immediately began doing what beavers do: felling willows, damming streams and digging channels. {{5}} is their impact on water flow {{6}} scientists now describe beaver wetlands as a natural flood-defence, holding water on the land {{7}} a sponge and releasing it slowly. Water companies and insurers have taken notice, since beaver engineering can be dramatically cheaper {{8}} concrete — and the concrete, unlike the beavers, never reproduces.","gaps":[
+    {"answer":"had","hint":"auxiliary: beavers ___ vanished by the 1500s","explanation":"Past perfect with a plural subject: had vanished."},
+    {"answer":"for","hint":"preposition: hunted ___ their fur","explanation":"Purpose of the hunting takes 'for'."},
+    {"answer":"It","hint":"cleft pronoun: ___ was not until 2009 that","explanation":"'It was not until X that…' — the fixed cleft frame."},
+    {"answer":"where","hint":"relative adverb: a river, ___ the animals began","explanation":"'Where' refers back to the river as the place."},
+    {"answer":"Such","hint":"pronoun: ___ is their impact that","explanation":"Fronted inversion: 'Such is their impact that…'."},
+    {"answer":"that","hint":"conjunction: their impact ___ scientists describe","explanation":"The second half of 'Such is X that…'."},
+    {"answer":"like","hint":"preposition: holding water ___ a sponge","explanation":"Comparison with a noun takes 'like'."},
+    {"answer":"than","hint":"comparative: cheaper ___ concrete","explanation":"The comparative 'cheaper' requires 'than'."}
+  ]},
+  {"title":"Cities that refuse to swelter","text":"Cities can run several degrees hotter {{1}} the countryside around them, {{2}} a result of dark roofs, bare asphalt and engines idling in the sun. The problem {{3}} worsened as summers lengthen, and it is the youngest and oldest residents {{4}} suffer most. Cities {{5}} fighting back with shade, water and pale surfaces: Paris is mapping its coolest walking routes, and Medellín planted {{6}} famous green corridors and watched peak temperatures fall by two degrees along them. {{7}} is usually the poorest districts, {{8}} have the fewest trees, that swelter worst — which is why urban heat is increasingly treated as a question of fairness rather than merely of comfort.","gaps":[
+    {"answer":"than","hint":"comparative: hotter ___ the countryside","explanation":"The comparative 'hotter' requires 'than'."},
+    {"answer":"As","hint":"preposition: ___ a result of dark roofs","explanation":"'As a result of' is the fixed phrase."},
+    {"answer":"has","hint":"auxiliary: the problem ___ worsened","explanation":"Present perfect with a singular subject: has worsened."},
+    {"answer":"who","hint":"relative: residents ___ suffer most","explanation":"Cleft-supporting relative about people: residents who suffer."},
+    {"answer":"are","hint":"verb: cities ___ fighting back","explanation":"Present continuous with a plural subject: are fighting."},
+    {"answer":"its","hint":"possessive: planted ___ famous green corridors","explanation":"The corridors belong to Medellín: its corridors."},
+    {"answer":"It","hint":"cleft pronoun: ___ is usually the poorest districts","explanation":"The cleft structure emphasises the districts."},
+    {"answer":"which","hint":"relative: districts, ___ have the fewest trees","explanation":"Non-defining relative after the pair of commas."}
+  ]},
+  {"title":"The ocean's plastic smog","text":"If you sailed to the Great Pacific Garbage Patch you would not find a floating island of bottles, because the plastic there has weathered {{1}} finely that neither nets nor satellites can easily map it. {{2}} is the great rotating currents, the gyres, {{3}} quietly gather drifting rubbish towards their calm centres. Pieces range {{4}} bottle caps and fishing floats to fibres thinner than sewing thread, and sunlight eventually breaks each item {{5}} countless microplastics that sink, suspend or drift at every depth. There is {{6}} simple clean-up, and engineers struggle precisely {{7}} the fragments are so small and so widely scattered. What the patch offers instead is a lesson: {{8}} we burn, bury or recycle matters less than not throwing the past century's convenience into the sea in the first place.","gaps":[
+    {"answer":"so","hint":"adverb: weathered ___ finely that","explanation":"'So finely that' — degree plus result clause."},
+    {"answer":"It","hint":"cleft pronoun: ___ is the great currents that","explanation":"The cleft structure emphasises the currents."},
+    {"answer":"which","hint":"relative: the gyres, ___ quietly gather","explanation":"Non-defining relative after the pair of commas."},
+    {"answer":"from","hint":"preposition: range ___ bottle caps to fibres","explanation":"'Range from X to Y' — the first element takes 'from'."},
+    {"answer":"into","hint":"preposition: breaks each item ___ microplastics","explanation":"Change of state ending inside takes 'into'."},
+    {"answer":"no","hint":"determiner: there is ___ simple clean-up","explanation":"'No' negates the noun; 'not' cannot precede 'simple clean-up'."},
+    {"answer":"because","hint":"conjunction: struggle precisely ___ the fragments","explanation":"'Precisely because' — the fixed reason phrase."},
+    {"answer":"whether","hint":"conjunction: ___ we burn, bury or recycle","explanation":"Fronted subject clause with alternatives: whether."}
+  ]},
+  {"title":"The vault at the end of the world","text":"Drilled {{1}} a frozen mountainside on a Norwegian island halfway to the North Pole, the Svalbard Global Seed Vault {{2}} the world's insurance policy for the crops that feed us. {{3}} is designed to survive everything from rising seas to power cuts, and it is so remote and so cold {{4}} seeds stored there could outlast the institutions that deposited them. More than a million seed samples {{5}} been sent by gene banks {{6}} the world, each box a duplicate of a collection held elsewhere. In 2015, {{7}} civil war had wrecked Syria's own gene bank, researchers quietly withdrew their ancient wheat and barley samples, grew them out in Lebanon and Morocco, and restocked the vault — proof that the insurance works. {{8}} is somehow fitting that the coldest place in the seed world exists to keep the future warm.","gaps":[
+    {"answer":"into","hint":"preposition: drilled ___ a mountainside","explanation":"Movement ending inside the rock takes 'into'."},
+    {"answer":"is","hint":"verb: the vault ___ the world's insurance","explanation":"Present simple 'be' stating what the vault is."},
+    {"answer":"It","hint":"pronoun: ___ is designed to survive","explanation":"'It' refers back to the vault."},
+    {"answer":"that","hint":"conjunction: so cold ___ seeds could outlast","explanation":"'So … that' — degree plus result clause."},
+    {"answer":"have","hint":"passive auxiliary: samples ___ been sent","explanation":"Present perfect passive with a plural subject: have been sent."},
+    {"answer":"around","hint":"preposition: gene banks ___ the world","explanation":"'Around the world' — the fixed phrase for distribution."},
+    {"answer":"when","hint":"time relative: in 2015, ___ war had wrecked","explanation":"Non-defining time clause after the year."},
+    {"answer":"It","hint":"dummy subject: ___ is somehow fitting that","explanation":"'It is fitting that…' — the comment structure with dummy 'it'."}
+  ]},
+  {"title":"The night the stars came back","text":"A third of humanity can no longer see the Milky Way, because artificial light spills uselessly upwards {{1}} cities and dims the sky above them. Astronomers noticed first, {{2}} was only to be expected, but the ecological evidence is blunter: sky glow confuses migrating birds, draws insects to early deaths and blurs the seasons {{3}} plants. The night sky {{4}} doubled in brightness within living memory, and the loss is measured in more than poetry. Several national parks {{5}} now won dark-sky protection, {{6}} shielding is compulsory and lamps must aim away from the sky. {{7}} well as saving the stars, such rules save money, since light thrown sideways lights the pavement instead of the clouds. {{8}} takes only one clear night away from a city for the Milky Way to return, which may be why star-bathing trips are quietly becoming the new spa weekend.","gaps":[
+    {"answer":"from","hint":"preposition: spills upwards ___ cities","explanation":"The light originates from the cities: from."},
+    {"answer":"which","hint":"relative: noticed first, ___ was only to be expected","explanation":"Sentential relative after the comma referring to the noticing."},
+    {"answer":"for","hint":"preposition: blurs the seasons ___ plants","explanation":"Affected party takes 'for': the seasons for plants."},
+    {"answer":"has","hint":"auxiliary: the sky ___ doubled in brightness","explanation":"Present perfect with a singular subject: has doubled."},
+    {"answer":"have","hint":"auxiliary: parks ___ won protection","explanation":"Present perfect with a plural subject: have won."},
+    {"answer":"where","hint":"relative adverb: protection, ___ shielding is compulsory","explanation":"'Where' refers back to the protected parks as the place."},
+    {"answer":"As","hint":"preposition: ___ well as saving the stars","explanation":"'As well as' is the fixed additive phrase."},
+    {"answer":"It","hint":"dummy subject: ___ takes only one clear night","explanation":"'It takes X for Y' — the dummy subject of the cost phrase."}
+  ]},
+  {"title":"The ocean has a noise problem","text":"The sea has grown {{1}} noisier since the 1950s, and for whales — {{2}} world is built on sound — the difference matters more than any of us can easily imagine. Ship engines, {{3}} rumble at exactly the frequencies whales use to talk, force them {{4}} shout over the din, and shy species simply fall silent. Quieter propellers already exist, {{5}}, and retro-fitting them costs shipowners remarkably {{6}}. In 2020, {{7}} shipping slowed during the pandemic, researchers measured an immediate drop in ocean noise and, in some regions, whales relaxed back into their old calls almost overnight. The quietest year in a century became an unplanned experiment {{8}} one conclusion: the noise was never unavoidable — it was merely nobody's job to notice.","gaps":[
+    {"answer":"much","hint":"adverb: grown ___ noisier since","explanation":"Intensifier before the comparative: much noisier."},
+    {"answer":"whose","hint":"relative: whales — ___ world is built on sound","explanation":"'Whose' links the whales to their world."},
+    {"answer":"which","hint":"relative: engines, ___ rumble at whale frequencies","explanation":"Non-defining relative after the pair of commas."},
+    {"answer":"to","hint":"infinitive: force them ___ shout","explanation":"'Force someone to do' — the infinitive follows the object."},
+    {"answer":"however","hint":"linker: propellers exist, ___, and fitting costs","explanation":"Contrast adverb between commas: however."},
+    {"answer":"little","hint":"quantifier: costs remarkably ___","explanation":"Uncountable cost, small amount: remarkably little."},
+    {"answer":"when","hint":"time relative: in 2020, ___ shipping slowed","explanation":"Non-defining time clause after the year."},
+    {"answer":"with","hint":"preposition: an experiment ___ one conclusion","explanation":"'An experiment with one conclusion' — the fixed phrase."}
+  ]},
+  {"title":"Farms that grow towards the ceiling","text":"{{1}} windowless buildings beside city ring-roads, towers of trays grow beneath pink-purple light, watered by sensors instead of rain. Vertical farms promise {{2}} deliver salads with {{3}} pesticides and {{4}} tiny fraction of the land and water of field farming, and their crops can be sold within hours of harvest. The economics are hard, largely {{5}} the electricity bill dwarfs every other cost, which is {{6}} the industry has clustered where power is cheap and greens are dear. Japan, {{7}} land is scarce and consumers pay a premium for perfection, has become a centre of the trade. The model has found its niche {{8}} the dream of feeding whole cities from their own basements remains some years off.","gaps":[
+    {"answer":"In","hint":"preposition: ___ windowless buildings","explanation":"Location takes 'in': in buildings."},
+    {"answer":"to","hint":"infinitive: promise ___ deliver","explanation":"'Promise to do' — the infinitive follows 'promise'."},
+    {"answer":"no","hint":"determiner: salads with ___ pesticides","explanation":"'No' negates the noun; 'not' cannot precede 'pesticides'."},
+    {"answer":"a","hint":"article: ___ tiny fraction of the land","explanation":"'A fraction of' — the fixed quantifying phrase."},
+    {"answer":"because","hint":"conjunction: hard, largely ___ the electricity bill","explanation":"'Largely because' — the fixed reason phrase."},
+    {"answer":"why","hint":"question word: which is ___ the industry clusters","explanation":"The reason is explained: which is why."},
+    {"answer":"where","hint":"relative adverb: Japan, ___ land is scarce","explanation":"'Where' refers back to Japan as the place."},
+    {"answer":"although","hint":"conjunction: niche ___ the dream remains off","explanation":"Concession between the two clauses: although."}
+  ]},
+  {"title":"The return of the sea eagle","text":"The white-tailed eagle {{1}} driven to extinction in Britain {{2}} 1918, persecuted by shepherds and trophy collectors alike. {{3}} took until 1975 for the first Norwegian chicks to be released {{4}} the west coast of Scotland, and the birds, winged like barn doors, took another generation to feel at home. Over a hundred pairs {{5}} now raised young, and on Mull the sea eagle {{6}} licence to print money: wildlife tourists pour in, and islanders, {{7}} income from eagle-watching is now substantial, once shot the birds as thieves. Economists reckon an eagle pair to be worth more {{8}} the lambs it was once accused of taking — a calculation that has quietly settled one of conservation's oldest arguments.","gaps":[
+    {"answer":"was","hint":"passive: the eagle ___ driven to extinction","explanation":"Past passive with a singular subject: was driven."},
+    {"answer":"by","hint":"time word: extinction ___ 1918","explanation":"'By 1918' — completed before that date."},
+    {"answer":"It","hint":"cleft pronoun: ___ took until 1975 for","explanation":"'It took until X for Y' — the fixed time frame."},
+    {"answer":"off","hint":"preposition: released ___ the west coast","explanation":"'Off the coast' — position in the sea near the coast."},
+    {"answer":"have","hint":"auxiliary: a hundred pairs ___ raised","explanation":"Present perfect agreeing with the plural 'pairs': have raised."},
+    {"answer":"has","hint":"verb: Mull ___ become a licence to print money","explanation":"Present perfect with a singular subject: has become."},
+    {"answer":"whose","hint":"relative: islanders, ___ income is substantial","explanation":"'Whose' links the islanders to their income."},
+    {"answer":"than","hint":"comparative: worth more ___ the lambs","explanation":"The comparative 'more' requires 'than'."}
+  ]},
+  {"title":"The road the sea owns twice a day","text":"{{1}} day, the tide reclaims the causeway that links Mont Saint-Michel to the French coast {{2}} a regularity that has governed the island for thirteen centuries. The bay is famous for tides that race in faster than a galloping horse, and the medieval abbey, {{3}} spire crowns the rock, has watched pilgrims misjudge them for just as long. {{4}} the causeway lies under the sea, the visit must follow the tide tables rather than the clock. Access {{5}} once on foot at low tide, across shining sand that sucked at boots; a bridge built in 2014 now lets the water flow beneath the road, {{6}} means the mount is an island again at every high tide. The rescue boat remains moored nearby, {{7}} it has been for generations, and every year the sea adds a few more abandoned cars to its collection. The mount itself has never minded: it has simply waited {{8}} the water twice a day, as it always has.","gaps":[
+    {"answer":"Every","hint":"determiner: ___ day, the tide reclaims","explanation":"'Every day' — the fixed frequency phrase."},
+    {"answer":"with","hint":"preposition: the coast ___ a regularity","explanation":"'With a regularity' — the accompanying manner."},
+    {"answer":"whose","hint":"relative: the abbey, ___ spire crowns","explanation":"'Whose' links the abbey to its spire."},
+    {"answer":"When","hint":"conjunction: ___ the causeway lies under the sea","explanation":"Time clause governing the visit: when."},
+    {"answer":"was","hint":"verb: access ___ once on foot","explanation":"Past 'be' with an uncountable subject: was on foot."},
+    {"answer":"which","hint":"relative: the road, ___ means the mount is","explanation":"Sentential relative after the comma: which means."},
+    {"answer":"as","hint":"conjunction: nearby, ___ it has been for generations","explanation":"'As it has been' — the comparative of continuation."},
+    {"answer":"for","hint":"preposition: waited ___ the water","explanation":"'Wait for' — the thing awaited takes 'for'."}
+  ]},
+  {"title":"Evolution's private laboratory","text":"{{1}} the Horn of Africa lies Socotra, an island {{2}} plants are found nowhere else on Earth. {{3}} strange do the dragon trees look — umbrellas of blood-red wood on a bare trunk — {{4}} early visitors suspected each one had been planted by hand. Scientists have called {{5}} the Galápagos of the Indian Ocean, and the label fits: isolated for {{6}} of years, the island let its life evolve undisturbed, and {{7}} dragon trees grow in the wild anywhere else on Earth. Now goats, development and cyclones are threating the strange forests, and conservationists are racing to protect {{8}} before the laboratory closes for good.","gaps":[
+    {"answer":"Off","hint":"preposition: ___ the Horn of Africa lies","explanation":"'Off the coast/Horn' — position in the sea near: Off."},
+    {"answer":"whose","hint":"relative: an island ___ plants are found","explanation":"'Whose' links the island to its plants."},
+    {"answer":"So","hint":"adverb: ___ strange do the trees look","explanation":"Fronted 'So … that' triggers inversion: So strange do they look."},
+    {"answer":"that","hint":"conjunction: ___ early visitors suspected","explanation":"The result clause of 'So strange that'."},
+    {"answer":"it","hint":"pronoun: have called ___ the Galápagos","explanation":"Object pronoun referring to the island: called it."},
+    {"answer":"millions","hint":"quantifier: isolated for ___ of years","explanation":"'For millions of years' — the long duration."},
+    {"answer":"No","hint":"determiner: ___ dragon trees grow anywhere else","explanation":"'No' negates the noun; 'not' cannot precede 'dragon trees'."},
+    {"answer":"them","hint":"pronoun: racing to protect ___","explanation":"Object pronoun referring to the forests: protect them."}
+  ]},
+  {"title":"Reading the ice","text":"By {{1}} annual layers of ice, scientists read the planet's climate history {{2}} pages of a book. Snow turns {{3}} firn and then into solid ice, preserving {{4}} year's chemistry in a separate band, {{5}} means a core drilled from the deep ice in Antarctica is a calendar counting back hundreds of millennia. Trapped air bubbles, {{6}} preserve samples of the ancient atmosphere, allow temperatures to {{7}} reconstructed for every year they represent. Such was the evidence {{8}} politicians began quoting ice cores in climate debates — the planet, it turns out, keeps minutes, and the ice holds them.","gaps":[
+    {"answer":"counting","hint":"gerund: by ___ annual layers","explanation":"'By + gerund' — the means of reading: by counting."},
+    {"answer":"like","hint":"preposition: history ___ pages of a book","explanation":"Comparison with a noun takes 'like'."},
+    {"answer":"into","hint":"preposition: snow turns ___ firn","explanation":"'Turn into' — the change-of-state pattern."},
+    {"answer":"each","hint":"determiner: preserving ___ year's chemistry","explanation":"'Each year's' — one by one; 'each' takes a singular noun directly."},
+    {"answer":"which","hint":"relative: ___, __ means a core is a calendar","explanation":"Sentential relative after the comma."},
+    {"answer":"which","hint":"relative: bubbles, ___ preserve samples","explanation":"Non-defining relative after the pair of commas."},
+    {"answer":"be","hint":"infinitive: temperatures to ___ reconstructed","explanation":"Passive infinitive after 'allow to': to be reconstructed."},
+    {"answer":"that","hint":"conjunction: such was the evidence ___","explanation":"The second half of 'Such was the evidence that…'."}
+  ]},
+  {"title":"Why unfinished tasks refuse to leave","text":"It was the Russian psychologist Bluma Zeigarnik {{1}} first noticed that waiters remembered orders perfectly {{2}} the bill was settled — and forgot them immediately afterwards. Decades of research have confirmed the pattern: we recall unfinished tasks {{3}} accurately than finished ones, and an interrupted essay will nag at its author {{4}} it is done. The modern version of the effect is the unread counter on your phone, engineered {{5}} exploit {{6}} psychologists call open loops: the mind keeps circling back to anything left hanging. {{7}} writing tomorrow's list before leaving the desk is not fussy bureaucracy but a way of telling your brain the loop is closed — that the next step is safely recorded somewhere {{8}} than in working memory.","gaps":[
+    {"answer":"who","hint":"relative: Zeigarnik ___ first noticed","explanation":"Cleft-supporting relative about a person: who."},
+    {"answer":"until","hint":"time word: remembered orders ___ the bill was settled","explanation":"'Until' marks the end of the remembering."},
+    {"answer":"more","hint":"quantifier: recall unfinished tasks ___ accurately","explanation":"'More accurately than' — the first element of the comparison is gapped."},
+    {"answer":"until","hint":"time word: will nag ___ it is done","explanation":"The nagging continues up to completion: until."},
+    {"answer":"to","hint":"infinitive: engineered ___ exploit","explanation":"'Engineered to exploit' — the infinitive of purpose."},
+    {"answer":"what","hint":"pronoun: exploit ___ psychologists call open loops","explanation":"Fused relative object: what psychologists call."},
+    {"answer":"By","hint":"preposition: ___ writing tomorrow's list","explanation":"'By + gerund' — the means of closing the loop."},
+    {"answer":"other","hint":"adjective: somewhere ___ than in memory","explanation":"'Other than' — the fixed phrase of exception."}
+  ]},
+  {"title":"The yawn you caught while reading this","text":"Yawning is {{1}} contagious {{2}} merely reading about it can set one off. Scientists still debate {{3}} we yawn at all, though the leading idea is that a yawn cools the brain, and a stuffy room or a long meeting certainly helps one along. Watching somebody yawn is not even necessary: hearing a yawn, or reading about one, works {{4}} well. {{5}} is less clear is {{6}} contagion works — stretching and laughing spread in company too — but studies suggest {{7}} with more empathetic personalities catch yawns more readily, and so, curiously, do dogs. {{8}} remains possible that the yawn is society's oldest synchronising signal: one person's drowsiness, broadcast to the group, gently reminds everyone that it might be time to rest.","gaps":[
+    {"answer":"so","hint":"adverb: yawning is ___ contagious ___","explanation":"The degree word that pairs with 'that': so contagious that."},
+    {"answer":"that","hint":"conjunction: ___ merely reading can set one off","explanation":"The result clause of 'so contagious that'."},
+    {"answer":"why","hint":"question word: debate ___ we yawn at all","explanation":"The reason is in question: why we yawn."},
+    {"answer":"as","hint":"adverb: works ___ well","explanation":"'As well' — the fixed phrase meaning 'too'."},
+    {"answer":"What","hint":"pronoun: ___ is less clear is","explanation":"Fused relative subject: what is less clear."},
+    {"answer":"how","hint":"question word: is ___ contagion works","explanation":"The mechanism is asked for: how contagion works."},
+    {"answer":"those","hint":"pronoun: suggest ___ with empathetic personalities","explanation":"'Those with…' — the pronoun standing for such people."},
+    {"answer":"It","hint":"dummy subject: ___ remains possible that","explanation":"'It remains possible that…' — the comment structure."}
+  ]},
+  {"title":"When choice becomes a burden","text":"In a famous experiment, a Californian supermarket displayed twenty-four varieties of jam one weekend and {{1}} six the next. Shoppers could taste {{2}} display, yet {{3}} smaller line-up outsold the bigger one by a factor of ten. As the evidence accumulated, retailers realised that {{4}} much choice can paralyse: too many options invite regret, comparison and delay, and the shopper who came for toothpaste leaves with {{5}}. {{6}} is easier to choose from six jars than from sixty, not because six is a magic number {{7}} because a smaller set feels completable — each option can actually be considered. The lesson now shapes everything from restaurant menus to software settings, {{8}} designers increasingly hide complexity behind a gentle, well-chosen default.","gaps":[
+    {"answer":"only","hint":"adverb: twenty-four varieties ___ six the next","explanation":"The focusing adverb stresses how few: only six."},
+    {"answer":"either","hint":"determiner: taste ___ display","explanation":"'Either display' — one or the other of the two."},
+    {"answer":"the","hint":"article: yet ___ smaller line-up outsold","explanation":"The line-up is identified by its comparative: the smaller one."},
+    {"answer":"too","hint":"adverb: realised that ___ much choice","explanation":"'Too much' — the excess that paralyses."},
+    {"answer":"nothing","hint":"pronoun: leaves with ___","explanation":"'Leaves with nothing' — the outcome of paralysis; 'not anything' would be two words."},
+    {"answer":"It","hint":"dummy subject: ___ is easier to choose","explanation":"'It is easier to…' — the dummy subject before the infinitive."},
+    {"answer":"but","hint":"conjunction: not because six is magic ___ because","explanation":"'Not because … but because' — the fixed pair."},
+    {"answer":"so","hint":"conjunction: software settings, ___ designers hide complexity","explanation":"The result clause after the comma: so designers hide."}
+  ]},
+  {"title":"The warm afterglow of yesterday","text":"Nostalgia {{1}} once considered a disease: physicians in Basel, {{2}} coined the term in 1688, diagnosed it in soldiers posted far from home, and soldiers {{3}} thought to be at risk of dying of it. The diagnosis was taken so seriously {{4}} army doctors for a time confiscated knives from sentimental recruits. Today the verdict has been reversed: research suggests {{5}} remembering warmly actually strengthens us, and people made to feel nostalgic consistently report feeling {{6}} connected to others and more hopeful about the future. Psychologists still cannot fully explain {{7}} the mind curates the past so kindly, but nostalgia now looks less like an illness {{8}} like a psychological immune system — a way of reminding ourselves, when the present disappoints, that our life has had meaning and can have it again.","gaps":[
+    {"answer":"was","hint":"passive: nostalgia ___ once considered","explanation":"Past passive with an uncountable subject: was considered."},
+    {"answer":"who","hint":"relative: physicians in Basel, ___ coined the term","explanation":"Non-defining relative about people after the comma."},
+    {"answer":"were","hint":"passive: soldiers ___ thought to be at risk","explanation":"Past passive with a plural subject: were thought."},
+    {"answer":"that","hint":"conjunction: so seriously ___ doctors confiscated","explanation":"'So seriously that' — degree plus result clause."},
+    {"answer":"that","hint":"conjunction: research suggests ___ remembering strengthens","explanation":"Reported finding after 'suggests': that-clause."},
+    {"answer":"more","hint":"adverb: report feeling ___ connected to others","explanation":"'More connected' pairs with 'more hopeful' later: the comparative."},
+    {"answer":"why","hint":"question word: explain ___ the mind curates","explanation":"The reason is asked for: why the mind curates."},
+    {"answer":"than","hint":"comparative: less like an illness ___ like","explanation":"'Less … than' — the second element of the comparison."}
+  ]},
+  {"title":"Nobody noticed your stumble","text":"The effect was demonstrated in a famous experiment {{1}} students wore an embarrassing T-shirt into a room {{2}} observers, then estimated how many had noticed. The students' guesses were roughly double the true figure, {{3}} surprised nobody who has ever left the house with bed-hair. {{4}} is the spotlight effect: we dramatically overestimate how closely other people watch us, because we each mistake our own inner spotlight for the general lighting. {{5}} a result, small embarrassments loom far larger than they are. Remembering the effect is oddly comforting: the audience we fear is {{6}} busy rehearsing its own entrance to grade ours. Most of the time, {{7}} one is watching at all, {{8}} turns out to be the most liberating discovery an anxious mind can make.","gaps":[
+    {"answer":"where","hint":"relative adverb: a room ___ observers","explanation":"'Where' refers back to the room as the place."},
+    {"answer":"of","hint":"preposition: a room ___ observers","explanation":"'A room of observers' — the room's contents take 'of'."},
+    {"answer":"which","hint":"relative: ___, __ surprised nobody","explanation":"Sentential relative after the comma summarising the overestimate."},
+    {"answer":"This","hint":"pronoun: ___ is the spotlight effect","explanation":"'This is…' — the near demonstrative introducing the named effect."},
+    {"answer":"As","hint":"preposition: ___ a result, embarrassments loom","explanation":"'As a result' is the fixed linking phrase."},
+    {"answer":"too","hint":"adverb: is ___ busy rehearsing to grade ours","explanation":"'Too busy … to' — the excess that prevents the grading."},
+    {"answer":"no","hint":"determiner: ___ one is watching at all","explanation":"'No one' — the gap supplies 'no' before 'one'."},
+    {"answer":"which","hint":"relative: ___, __ turns out to be liberating","explanation":"Sentential relative after the comma; 'that' is impossible here."}
+  ]},
+  {"title":"Why music sends shivers down the spine","text":"There is a moment {{1}} the chorus lifts, the strings rise and the hair on your arms stands up. Scientists call {{2}} happens 'frisson', and it is essentially a fight-or-flight response misfired by beauty: the brain braces {{3}} for a great event and then finds only sound. Brain scans {{4}} shown that music triggers the same reward circuitry as food and warmth, {{5}} explains why a favourite chorus still delivers after the hundredth hearing. The chills tend to arrive {{6}} a pattern is set up and then beautifully broken — an unexpected chord, a suspended note — {{7}} is why composers have exploited the trick for centuries. {{8}} sad music, of all things, should feel so good remains only partly understood, but for most listeners the shiver is its own explanation.","gaps":[
+    {"answer":"when","hint":"relative adverb: a moment ___ the chorus lifts","explanation":"'When' refers back to the moment in time."},
+    {"answer":"what","hint":"pronoun: call ___ happens frisson","explanation":"Fused relative object: what happens."},
+    {"answer":"itself","hint":"reflexive: braces ___ for a great event","explanation":"'Brace itself' — the brain prepares its own body."},
+    {"answer":"have","hint":"auxiliary: scans ___ shown","explanation":"Present perfect with a plural subject: have shown."},
+    {"answer":"which","hint":"relative: ___, __ explains why","explanation":"Sentential relative after the comma summing up the finding."},
+    {"answer":"when","hint":"conjunction: arrive ___ a pattern is broken","explanation":"Time clause: the chills arrive when the pattern breaks."},
+    {"answer":"which","hint":"relative: ___, __ is why composers exploit","explanation":"Sentential relative after the dash summing up the mechanism."},
+    {"answer":"Why","hint":"conjunction: ___ sad music should feel good","explanation":"Fronted subject clause asking the reason: Why."}
+  ]},
+  {"title":"The plan was always going to slip","text":"Students {{1}} asked to estimate {{2}} own thesis schedules, and then researchers simply waited. On average the projects took {{3}} longer than predicted, a finding so reliable it acquired a name: {{4}} is called the planning fallacy. {{5}}, telling people the base rates rarely helps; we listen, nod, and quietly believe our case is different. We plan {{6}} the best case because the best case is the story we can actually imagine, {{7}} the traffic, the illness and the lost password belong to other people's futures. The practical fix is unglamorous: ask {{8}} actually happened last time, write that number down, and start from there rather than from the dream.","gaps":[
+    {"answer":"were","hint":"passive: students ___ asked to estimate","explanation":"Past passive with a plural subject: were asked."},
+    {"answer":"their","hint":"possessive: estimate ___ own thesis schedules","explanation":"The schedules belong to the students: their own."},
+    {"answer":"much","hint":"adverb: took ___ longer than predicted","explanation":"Intensifier before the comparative: much longer."},
+    {"answer":"it","hint":"pronoun: a name: ___ is called the planning fallacy","explanation":"'It is called…' — the passive formula describing the name."},
+    {"answer":"However","hint":"linker: ___, telling people rarely helps","explanation":"Contrastive sentence adverb between commas: However."},
+    {"answer":"for","hint":"preposition: plan ___ the best case","explanation":"'Plan for' — the contingency takes 'for'."},
+    {"answer":"while","hint":"conjunction: the best case is imaginable, ___ the traffic","explanation":"Contrast between the two halves: while."},
+    {"answer":"what","hint":"question word: ask ___ actually happened last time","explanation":"Fused relative object of 'ask': what happened."}
+  ]},
+  {"title":"Losing track of time, happily","text":"Most of us know the feeling {{1}} hours vanish: the climb, the code, the chapter that swallowed an evening. Psychologists call {{2}} 'flow', and it occurs when a task sits in the narrow band where difficulty matches skill — neither {{3}} easy nor too hard. {{4}} is the absorption that makes flow so valuable: self-consciousness fades, feedback is instant, {{5}} the activity becomes its own reward. Such is the pull {{6}} people report losing track of hunger, weather and, famously, of time itself. Flow cannot be bought or scheduled directly, {{7}} conditions can be arranged: clear goals, uninterrupted stretches and challenges at the edge of ability. What employers are slowly learning is that the deepest satisfaction at work comes not from ease {{8}} from absorption.","gaps":[
+    {"answer":"when","hint":"relative adverb: the feeling ___ hours vanish","explanation":"'When' refers back to the occasion."},
+    {"answer":"what","hint":"pronoun: psychologists call ___ flow","explanation":"Fused relative object: what they call flow."},
+    {"answer":"too","hint":"adverb: neither ___ easy nor too hard","explanation":"'Too easy' pairs with 'too hard' inside 'neither…nor'."},
+    {"answer":"It","hint":"cleft pronoun: ___ is the absorption that","explanation":"The cleft structure emphasises the absorption."},
+    {"answer":"and","hint":"conjunction: fades, feedback is instant, ___ the activity","explanation":"The third item joins the list with 'and'."},
+    {"answer":"that","hint":"conjunction: such is the pull ___ people report","explanation":"The result clause of 'Such is the pull that'."},
+    {"answer":"but","hint":"conjunction: cannot be bought, ___ conditions can be arranged","explanation":"'Cannot…, but…' — the contrastive continuation."},
+    {"answer":"but","hint":"conjunction: not from ease ___ from absorption","explanation":"'Not from X but from Y' — the fixed pair."}
+  ]},
+  {"title":"The collector's quiet obsession","text":"{{1}} people collect is a question psychologists have answered several times over: control in a small kingdom, memory made physical, and the deep pleasure of completion. Collecting ranges {{2}} stamps to vintage synthesizers, but the shape of the obsession is always {{3}} same. {{4}} is the hunt that delivers the sharpest pleasure — the auction won, the gap filled — and {{5}} a set is complete, many collectors quietly begin the search all over again. A collection is never really finished; {{6}} is always one more piece. The hobby has survived every technology that was supposed to kill it; {{7}} anything, the digital archive has made the rare find rarer still. What looks like clutter from outside is, from inside, {{8}} ordered world with the collector's name written all over it.","gaps":[
+    {"answer":"Why","hint":"conjunction: ___ people collect is a question","explanation":"Fronted subject clause asking the reason: Why people collect."},
+    {"answer":"from","hint":"preposition: ranges ___ stamps to synthesizers","explanation":"'Range from X to Y' — the first element takes 'from'."},
+    {"answer":"the","hint":"article: always ___ same","explanation":"'The same' is the fixed definite phrase."},
+    {"answer":"It","hint":"cleft pronoun: ___ is the hunt that delivers","explanation":"The cleft structure emphasises the hunt."},
+    {"answer":"Once","hint":"conjunction: ___ a set is complete","explanation":"'Once' — as soon as the completion happens."},
+    {"answer":"there","hint":"pronoun: ___ is always one more piece","explanation":"The existential clause: there is."},
+    {"answer":"if","hint":"conjunction: ___ anything, the archive has made finds rarer","explanation":"'If anything' — the fixed concessive phrase."},
+    {"answer":"an","hint":"article: is ___ ordered world","explanation":"First mention before a vowel sound takes 'an'."}
+  ]},
+  {"title":"The dream that fades by breakfast","text":"{{1}} dreams evaporate so quickly is still debated, but the chemistry is suggestive: while we sleep, noradrenaline, {{2}} helps lock memories in, {{3}} in short supply, and the dreaming brain may simply be unable to file its own product. What is clear is that the window closes fast: {{4}} first minutes after waking are critical, and by breakfast most of the night's cinema has been demolished. {{5}} helps to write the dream down immediately, {{6}} the bed, before analysis or even movement gets in the way. People who keep dream journals report longer, more vivid dreams within weeks — {{7}} the dreams change or the attention does is happily unclear. {{8}} a notebook by the bed turns out to be, in effect, a memory aid for a department of the mind that otherwise keeps no records.","gaps":[
+    {"answer":"Why","hint":"conjunction: ___ dreams evaporate so quickly","explanation":"Fronted subject clause asking the reason: Why dreams evaporate."},
+    {"answer":"which","hint":"relative: noradrenaline, ___ helps lock memories","explanation":"Non-defining relative after the pair of commas."},
+    {"answer":"is","hint":"verb: noradrenaline ___ in short supply","explanation":"Present simple 'be': is in short supply."},
+    {"answer":"the","hint":"article: ___ first minutes after waking","explanation":"'The first minutes' — the specific opening period."},
+    {"answer":"It","hint":"dummy subject: ___ helps to write the dream down","explanation":"'It helps to…' — the dummy subject before the infinitive."},
+    {"answer":"by","hint":"preposition: write down immediately, ___ the bed","explanation":"'By the bed' — position beside takes 'by'."},
+    {"answer":"whether","hint":"conjunction: ___ the dreams change or the attention does","explanation":"The either/or uncertainty inside the clause: whether."},
+    {"answer":"Keeping","hint":"gerund: ___ a notebook turns out to be","explanation":"Gerund subject: keeping a notebook is a memory aid."}
+  ]},
+  {"title":"The record that refused to die","text":"{{1}} was streaming that was supposed to kill the LP, {{2}} sales of vinyl have risen every year {{3}} 2006. What matters is not only the sound, which many listeners honestly cannot distinguish from a good digital copy, {{4}} the object: a large sleeve worth framing, a ritual of sliding the disc out and dropping the needle, and music {{5}} stops when the side ends. Buying a record is a small ceremony, {{6}} begins with browsing and ends with cleaning the grooves, and the ceremony itself appears to be the product. {{7}} same slowness that once made vinyl obsolete now makes it precious: in an age of infinite, instant playlists, the record player offers a rare, deliberate way of listening to an album {{8}} a whole.","gaps":[
+    {"answer":"It","hint":"cleft pronoun: ___ was streaming that was supposed","explanation":"The cleft structure emphasises streaming."},
+    {"answer":"but","hint":"conjunction: supposed to kill the LP, ___ sales have risen","explanation":"Contrast between prediction and reality: but."},
+    {"answer":"since","hint":"time word: risen every year ___ 2006","explanation":"'Since 2006' — from that point onwards."},
+    {"answer":"but","hint":"conjunction: not only the sound, ___ the object","explanation":"'Not only … but' — the fixed pair."},
+    {"answer":"that","hint":"relative: music ___ stops when the side ends","explanation":"Defining relative after 'music' as the subject; no comma, so 'that' heads it."},
+    {"answer":"which","hint":"relative: a ceremony, ___ begins with browsing","explanation":"Non-defining relative after the comma referring to the ceremony."},
+    {"answer":"The","hint":"article: ___ same slowness that","explanation":"'The same' is the fixed definite phrase."},
+    {"answer":"as","hint":"preposition: an album ___ a whole","explanation":"'As a whole' — the fixed phrase meaning 'in its entirety'."}
+  ]},
+  {"title":"The world's kitchen on a street corner","text":"Street food has travelled {{1}} migrants for as long as there have been cities, and {{2}} was once hawkers' grub is now a term of praise. {{3}} recent years, covered markets devoted to it have opened in cities from London to Singapore, halls {{4}} a dozen cuisines share one roof and one long, happy queue. The food is half the attraction; the other half is the theatre of watching {{5}} be made in front of you by cooks who have, quite possibly, invented the dish in {{6}} own kitchen. The same dishes cost twice {{7}} much across the street in a restaurant, {{8}} nobody seems to mind paying for the ceiling. What the market ultimately sells is company: eating standing up, elbow to elbow with strangers, is the oldest dinner party there is.","gaps":[
+    {"answer":"with","hint":"preposition: travelled ___ migrants","explanation":"'Travel with' — the companions take 'with'."},
+    {"answer":"what","hint":"pronoun: ___ was once hawkers' grub","explanation":"Fused relative subject: what was once."},
+    {"answer":"In","hint":"preposition: ___ recent years","explanation":"'In recent years' is the fixed phrase."},
+    {"answer":"where","hint":"relative adverb: halls ___ a dozen cuisines share","explanation":"'Where' refers back to the halls as the place."},
+    {"answer":"it","hint":"pronoun: watching ___ be made in front","explanation":"Object pronoun referring to the food: watching it."},
+    {"answer":"their","hint":"possessive: invented in ___ own kitchen","explanation":"The kitchen belongs to the cooks: their own."},
+    {"answer":"as","hint":"adverb: cost twice ___ much","explanation":"'Twice as much' — the fixed comparative frame."},
+    {"answer":"but","hint":"conjunction: costs twice as much, ___ nobody minds","explanation":"Contrast between price and indifference: but."}
+  ]},
+  {"title":"Who owns the past?","text":"Museums {{1}} long defended their collections as universal, but the question of where the objects came from {{2}} become impossible to dodge. The Benin bronzes, {{3}} by a punitive expedition in 1897 and scattered across Western capitals, are the emblem of the argument; the Parthenon marbles are its longest-running instalment. Attitudes {{4}} hardened on the returning side too: a growing list of objects has gone home — to Nigeria, Greece talks continue, and Ethiopia's looted treasures have begun the journey back. {{5}} a result, the debate is no longer about {{6}} the looted works should go home but about how: through long-term loans, joint custody or outright return. There is {{7}} longer any serious doubt about the principle; what remains contested is the pace, the paperwork and the politics. The museums that flourish in future will be those that treat return not as a loss {{8}} as a new kind of friendship.","gaps":[
+    {"answer":"have","hint":"auxiliary: museums ___ long defended","explanation":"Present perfect with a plural subject: have long defended."},
+    {"answer":"has","hint":"auxiliary: the question ___ become impossible","explanation":"Present perfect with a singular subject: has become."},
+    {"answer":"by","hint":"preposition: seized ___ a punitive expedition","explanation":"Passive agent: seized by the expedition."},
+    {"answer":"have","hint":"auxiliary: attitudes ___ hardened","explanation":"Present perfect with a plural subject: have hardened."},
+    {"answer":"As","hint":"preposition: ___ a result, the debate","explanation":"'As a result' is the fixed linking phrase."},
+    {"answer":"whether","hint":"conjunction: about ___ the works should go home","explanation":"The indirect yes/no question: whether they should."},
+    {"answer":"no","hint":"determiner: there is ___ longer any serious doubt","explanation":"'No longer' — the gap supplies 'no' before 'longer'."},
+    {"answer":"but","hint":"conjunction: not as a loss ___ as a friendship","explanation":"'Not as X but as Y' — the fixed pair."}
+  ]},
+  {"title":"The library that lends more than books","text":"{{1}} decades, librarians have watched their job description quietly expand. Public libraries now lend {{2}} than books: tools, board games, sewing machines and, in the coldest months, simply {{3}} warm place to sit. {{4}} the shelves, they have become what sociologists call third places — neither home nor work, {{5}} the town square with a roof. Such is the demand {{6}} some newly built branches offer social workers, seed banks and recording studios alongside the novels. The card that once bought access to stories now opens a civic infrastructure, and librarians have become {{7}} engineers. Whatever the future of the printed page, the institution that guards it {{8}} decided to be useful first and quiet second.","gaps":[
+    {"answer":"For","hint":"preposition: ___ decades","explanation":"Durations take 'for': for decades."},
+    {"answer":"more","hint":"quantifier: lend ___ than books","explanation":"'More than' — the comparative of the expanded range."},
+    {"answer":"a","hint":"article: simply ___ warm place to sit","explanation":"First mention of a singular countable noun takes 'a'."},
+    {"answer":"Beyond","hint":"preposition: ___ the shelves","explanation":"'Beyond the shelves' — outside the obvious function."},
+    {"answer":"but","hint":"conjunction: neither home nor work, ___ the town square","explanation":"'Neither … nor … , but…' — the contrasting third element."},
+    {"answer":"that","hint":"conjunction: such is the demand ___","explanation":"The result clause of 'Such is the demand that'."},
+    {"answer":"its","hint":"possessive: librarians have become ___ engineers","explanation":"The infrastructure belongs to the library: its engineers."},
+    {"answer":"has","hint":"auxiliary: the institution ___ decided","explanation":"Present perfect with a singular subject: has decided."}
+  ]},
+  {"title":"Reading the film","text":"{{1}} some countries every foreign film is dubbed by actors who become the unofficial voices of the stars, {{2}} elsewhere the audience simply reads. {{3}} dubbing is the norm, subtitles are often seen as an art-film ritual; {{4}} is the size of the American market that whole national dubbing industries grew up to serve it. Fans of subtitles argue {{5}} a film should be heard in its own language, with the actors' breath and timing intact, {{6}} dubbing fans reply that reading the bottom of the screen is not watching the film at all. There is also a quieter, practical argument for subtitles: they quietly teach reading speed, foreign vocabulary and attention. {{7}} side wins the argument, the nineteenth-century dream of cinema as a universal language has been quietly corrected: it is a household of languages, {{8}} makes the humble subtitle one of the cinema's quiet heroes.","gaps":[
+    {"answer":"In","hint":"preposition: ___ some countries","explanation":"Countries take 'in': in some countries."},
+    {"answer":"while","hint":"conjunction: dubbed, ___ elsewhere the audience reads","explanation":"Contrast between the two customs: while."},
+    {"answer":"Where","hint":"conjunction: ___ dubbing is the norm","explanation":"'Where dubbing is the norm' — the elliptical place clause."},
+    {"answer":"Such","hint":"pronoun: ___ is the size of the market that","explanation":"Fronted inversion: 'Such is the size that…'."},
+    {"answer":"that","hint":"conjunction: argue ___ a film should be heard","explanation":"Reported claim after 'argue': that-clause."},
+    {"answer":"while","hint":"conjunction: intact, ___ dubbing fans reply","explanation":"Contrast between the two camps: while."},
+    {"answer":"Whichever","hint":"pronoun: ___ side wins the argument","explanation":"'Whichever side wins' — it does not matter which."},
+    {"answer":"which","hint":"relative: ___, __ makes the subtitle a hero","explanation":"Sentential relative after the colon part; 'that' is impossible here."}
+  ]},
+  {"title":"The price of hosting the Games","text":"Hosting the Olympics {{1}} to guarantee prestige; today it tends to guarantee debt. Montreal, {{2}} needed three decades to pay off its 1976 stadium, became the cautionary tale, {{3}} the costs of security, transport and white-elephant venues have only grown since. In recent bidding rounds {{4}} a handful of cities have bothered to stand, and referendums in would-be host towns have repeatedly voted {{5}} playing host. The committee's response has been to beg candidates to use existing venues and temporary stands, {{6}} is an odd confession coming {{7}} an organisation that once demanded marble. The Games will survive — the spectacle is too useful to too many people — {{8}} the era in which a city felt lucky to be chosen is, like the great concrete stadiums, quietly crumbling.","gaps":[
+    {"answer":"used","hint":"verb: hosting ___ to guarantee prestige","explanation":"'Used to' — the past habit; the base verb follows."},
+    {"answer":"which","hint":"relative: Montreal, ___ needed three decades","explanation":"Non-defining relative after the comma referring to the city."},
+    {"answer":"and","hint":"conjunction: cautionary tale, ___ the costs have grown","explanation":"The two facts are simply added: and."},
+    {"answer":"only","hint":"adverb: ___ a handful of cities","explanation":"The focusing adverb stresses how few: only a handful."},
+    {"answer":"against","hint":"preposition: voted ___ playing host","explanation":"'Vote against' — the referendums rejected the idea."},
+    {"answer":"which","hint":"relative: ___, __ is an odd confession","explanation":"Sentential relative after the comma summing up the request."},
+    {"answer":"from","hint":"preposition: coming ___ an organisation","explanation":"'Coming from' — the source of the statement."},
+    {"answer":"but","hint":"conjunction: too useful, ___ the era is crumbling","explanation":"Contrast between survival and decline: but."}
+  ]},
+  {"title":"Why the two-hour barrier fell","text":"{{1}} was not until 2019 that a human being ran a marathon in under two hours, and the man who did it was helped by something more than training shoes {{2}} suggest. His carbon-plated racing shoes, {{3}} return energy to each stride, have since rewritten the record books, and the official world record {{4}} fallen by minutes {{5}} the technology arrived. Critics ask {{6}} the shoes amount to mechanical doping; fans reply that every era has had its edge, {{7}} the cinder track gave way to the synthetic one. What nobody disputes is the physics: a springy plate and thick foam cut the energy cost of each step, {{8}} is why the sport's governing body now sets strict limits on what a shoe may contain.","gaps":[
+    {"answer":"It","hint":"cleft pronoun: ___ was not until 2019 that","explanation":"'It was not until X that…' — the fixed cleft frame."},
+    {"answer":"would","hint":"modal: more than training shoes ___ suggest","explanation":"'More than X would suggest' — the fixed comparison phrase."},
+    {"answer":"which","hint":"relative: shoes, ___ return energy","explanation":"Non-defining relative after the comma referring to the shoes."},
+    {"answer":"has","hint":"auxiliary: the record ___ fallen","explanation":"Present perfect with a singular subject: has fallen."},
+    {"answer":"since","hint":"time word: fallen by minutes ___ the technology","explanation":"'Since the technology arrived' — from that point onwards."},
+    {"answer":"whether","hint":"conjunction: ask ___ the shoes are doping","explanation":"An indirect yes/no question after 'ask': whether."},
+    {"answer":"as","hint":"conjunction: its edge, ___ the cinder track gave way","explanation":"The parallel of earlier eras: as the track gave way."},
+    {"answer":"which","hint":"relative: ___, __ is why the body sets limits","explanation":"Sentential relative after the comma summing up the physics."}
+  ]},
+  {"title":"Twelve yards of nerve","text":"No sporting act is simpler {{1}} striking a stationary ball from twelve yards, and {{2}} is stranger than the psychology that surrounds it. {{3}} is the walk from the centre circle to the penalty spot that gives a player time to think, and thinking was never meant to be part of the job. Goalkeepers {{4}} studied opponents' habits know that most players decide where to shoot only {{5}} they begin the walk, which is why psychologists teach strikers to choose a corner early and commit. {{6}} the research shows, however, is that goalkeepers who stay upright for longer save {{7}} penalties than those who dive at the first twitch. Twelve yards may be the shortest distance in sport, {{8}} it contains a whole seminar on nerve.","gaps":[
+    {"answer":"than","hint":"comparative: simpler ___ striking a ball","explanation":"The comparative 'simpler' requires 'than'."},
+    {"answer":"nothing","hint":"pronoun: and ___ is stranger than the psychology","explanation":"'Nothing is stranger than…' — the emphatic negative comparison."},
+    {"answer":"It","hint":"cleft pronoun: ___ is the walk that gives time","explanation":"The cleft structure emphasises the walk."},
+    {"answer":"have","hint":"auxiliary: goalkeepers ___ studied habits","explanation":"Present perfect participle clause with a plural subject: have studied."},
+    {"answer":"when","hint":"time word: only ___ they begin the walk","explanation":"'Only when' — the decision moment."},
+    {"answer":"What","hint":"pronoun: ___ the research shows is that","explanation":"Fused relative subject of the pseudo-cleft."},
+    {"answer":"more","hint":"quantifier: save ___ penalties than","explanation":"The comparative before 'than': more penalties."},
+    {"answer":"but","hint":"conjunction: the shortest distance, ___ it contains a seminar","explanation":"Contrast between small distance and big lesson: but."}
+  ]},
+  {"title":"The game the internet made young again","text":"{{1}} was the pandemic that revived chess. Although chess is {{2}} of the world's oldest games, it had spent decades quietly fading in the West, its clubs greying {{3}} its fixtures thinning, until lockdown handed it perfect conditions: housebound players, a streaming boom and a generation looking {{4}} something to argue about. The Queen's Gambit, a drama {{5}} heroine journeys from orphanage to grandmaster, became the platform's most-watched scripted series, {{6}} sales of chess sets soared. The game's largest website reported that {{7}} of its millions of newcomers were young, casual and — to the old guard's surprise — increasingly female. The old game has not changed; {{8}} has changed is who is playing it.","gaps":[
+    {"answer":"It","hint":"cleft pronoun: ___ was the pandemic that","explanation":"The cleft structure emphasises the pandemic."},
+    {"answer":"one","hint":"pronoun: chess is ___ of the world's oldest games","explanation":"'One of the + superlative' — the standard pattern."},
+    {"answer":"and","hint":"conjunction: clubs greying ___ fixtures thinning","explanation":"The two absolute phrases are joined by 'and'."},
+    {"answer":"for","hint":"preposition: looking ___ something to argue about","explanation":"'Look for' — the sought thing takes 'for'."},
+    {"answer":"whose","hint":"relative: a drama ___ heroine journeys","explanation":"'Whose' links the drama to its heroine."},
+    {"answer":"and","hint":"conjunction: series, ___ sales of sets soared","explanation":"The two results are added: and."},
+    {"answer":"most","hint":"quantifier: ___ of its millions of newcomers","explanation":"'Most of' — the majority of the newcomers."},
+    {"answer":"what","hint":"pronoun: ___ has changed is who is playing","explanation":"Fused relative subject: what has changed."}
+  ]},
+  {"title":"A century in the making","text":"In 1921 England's Football Association voted {{1}} ban women's football, on the grounds {{2}} the game was unsuitable for women — this at a time when women's matches were drawing tens of thousands. {{3}} took fifty years for the ban to be lifted, and {{4}} in 1993 did the women's game gain an official national league. The fight back since has been slow and then sudden: the Euro 2022 final at Wembley, {{5}} nearly ninety thousand attended, drew a bigger television audience than the men's final of the previous year. The sport {{6}} never looked back. {{7}} popularity is no longer a novelty but a fixture, {{8}} it took a century of stubborn players to build.","gaps":[
+    {"answer":"to","hint":"infinitive: voted ___ ban women's football","explanation":"'Vote to do' — the infinitive follows 'vote'."},
+    {"answer":"that","hint":"conjunction: on the grounds ___ the game was","explanation":"'On the grounds that' — the fixed reason phrase."},
+    {"answer":"It","hint":"dummy subject: ___ took fifty years for the ban","explanation":"'It took X for Y' — the fixed time frame."},
+    {"answer":"Only","hint":"adverb: ___ in 1993 did the game gain","explanation":"'Only in 1993 did…' — inversion triggered by 'only'."},
+    {"answer":"which","hint":"relative: Wembley, ___ nearly ninety thousand attended","explanation":"Non-defining relative after the comma referring to the final."},
+    {"answer":"has","hint":"auxiliary: the sport ___ never looked back","explanation":"Present perfect with a singular subject: has never looked."},
+    {"answer":"Its","hint":"possessive: ___ popularity is no longer a novelty","explanation":"The popularity belongs to the sport: its popularity."},
+    {"answer":"and","hint":"conjunction: a fixture, ___ it took a century","explanation":"The final clause is added: and."}
+  ]},
+  {"title":"Learning that sticks","text":"{{1}} is tempting to cram: the exam looms, the book is open, the coffee is cold. {{2}} the long run, however, the crammer remembers almost nothing, because memory is built {{3}} forgetting a little and then being reminded at the right moment. {{4}} a fact is recalled just as it begins to fade, the effort of retrieval makes the memory {{5}} durable, and {{6}} the next review can wait a little longer {{7}} the last. {{8}} is the effect that ten minutes a day with a flashcard app can hold vocabulary in place for years, while a week of cramming evaporates before the certificate is dry.","gaps":[
+    {"answer":"It","hint":"dummy subject: ___ is tempting to cram","explanation":"'It is tempting to…' — the dummy subject before the infinitive."},
+    {"answer":"In","hint":"preposition: ___ the long run","explanation":"'In the long run' is the fixed phrase."},
+    {"answer":"by","hint":"preposition: built ___ forgetting and being reminded","explanation":"'By + gerund' — the means of building memory."},
+    {"answer":"When","hint":"conjunction: ___ a fact is recalled just as it fades","explanation":"Time clause governing the strengthening: when."},
+    {"answer":"more","hint":"adverb: makes the memory ___ durable","explanation":"The comparative 'more durable' — first element gapped."},
+    {"answer":"so","hint":"adverb: and ___ the next review can wait","explanation":"'And so' — the consequence within the added clause."},
+    {"answer":"than","hint":"comparative: a little longer ___ the last","explanation":"The comparative 'longer' requires 'than'."},
+    {"answer":"Such","hint":"pronoun: ___ is the effect that","explanation":"Fronted inversion: 'Such is the effect that…'."}
+  ]},
+  {"title":"A short history of the exam","text":"The written examination {{1}} introduced at Cambridge in the 1790s for a practical reason: the university had grown {{2}} large for the old system, {{3}} tutors questioned each student in turn. {{4}} is the anonymous answer sheet {{5}} made mass assessment possible, and the paper exam soon spread to schools, civil services and empires. Critics {{6}} complained ever since that a three-hour sprint rewards memory over understanding, and candidates {{7}} nerves have entered legend would surely agree. Even so, nothing has replaced it for over two centuries, {{8}} everyone quietly suspects that a calm head on the day is worth more than a term of gentle coursework.","gaps":[
+    {"answer":"was","hint":"passive: the examination ___ introduced","explanation":"Past passive with a singular subject: was introduced."},
+    {"answer":"too","hint":"adverb: grown ___ large for the old system","explanation":"'Too large for' — the excess that forced the change."},
+    {"answer":"which","hint":"relative: ___, __ tutors questioned each student","explanation":"Non-defining relative after the comma referring to the old system."},
+    {"answer":"It","hint":"cleft pronoun: ___ is the anonymous answer sheet","explanation":"The cleft structure emphasises the answer sheet."},
+    {"answer":"that","hint":"relative: the answer sheet ___ made it possible","explanation":"Defining subject relative with no comma; 'that' heads it."},
+    {"answer":"have","hint":"auxiliary: critics ___ complained ever since","explanation":"Present perfect with a plural subject: have complained."},
+    {"answer":"whose","hint":"relative: candidates ___ nerves have entered legend","explanation":"'Whose' links the candidates to their nerves."},
+    {"answer":"and","hint":"conjunction: two centuries, ___ everyone suspects","explanation":"The two clauses are added: and."}
+  ]},
+  {"title":"Two languages, one childhood","text":"{{1}} was long believed that juggling two languages confused young children, and immigrant families {{2}} once urged to drop the home language {{3}} children might settle better at school. {{4}} the evidence accumulated, however, the advice was quietly withdrawn. Decades of research {{5}} found that bilingual children show {{6}} flexible attention than monolinguals, switch between tasks with less effort, and may develop dementia symptoms years later {{7}} monolinguals do. Two languages, it seems, are not a burden but a gymnasium for the growing brain. A child's two languages are best treated {{8}} two instruments: learning the second sharpens the playing of the first.","gaps":[
+    {"answer":"It","hint":"dummy subject: ___ was long believed that","explanation":"'It was long believed that…' — the passive report frame."},
+    {"answer":"were","hint":"passive: families ___ once urged","explanation":"Past passive agreeing with the plural 'families': were urged."},
+    {"answer":"that","hint":"conjunction: so children ___ settle better","explanation":"The purpose clause after 'so': so that."},
+    {"answer":"As","hint":"conjunction: ___ the evidence accumulated","explanation":"'As' — the parallel growth of evidence and change."},
+    {"answer":"have","hint":"auxiliary: decades of research ___ found","explanation":"Present perfect with the plural 'decades': have found."},
+    {"answer":"more","hint":"adverb: show ___ flexible attention than","explanation":"The comparative before 'than': more flexible."},
+    {"answer":"than","hint":"comparative: years later ___ monolinguals do","explanation":"The comparative 'later' requires 'than'."},
+    {"answer":"as","hint":"preposition: best treated ___ two instruments","explanation":"'Treat as' — the role takes 'as'."}
+  ]},
+  {"title":"The class flipped upside down","text":"The flipped classroom {{1}} born in Colorado ski country, where lessons were being lost to snow days. Teachers began recording their classes {{2}} that a missed lesson could be watched at home, and someone noticed the recordings worked better {{3}} the average lesson: pupils could pause, rewind and rewatch {{4}} confused them, while in class the whiteboard no longer raced ahead of anybody. Freed from lecturing, teachers {{5}} spend the hour on the hard part — the practice — {{6}} pupils actually need a professional in the room. Early adopters {{7}} reported calmer homework, better questions and fewer students quietly drowning. Flipping, {{8}} turns out, is really just an argument about what class time is for.","gaps":[
+    {"answer":"was","hint":"passive: the classroom ___ born","explanation":"Past passive with a singular subject: was born."},
+    {"answer":"so","hint":"conjunction: recording ___ that a lesson could be watched","explanation":"'So that' — the purpose conjunction."},
+    {"answer":"than","hint":"comparative: worked better ___ the average lesson","explanation":"The comparative 'better' requires 'than'."},
+    {"answer":"what","hint":"pronoun: rewatch ___ confused them","explanation":"Fused relative object: what confused them."},
+    {"answer":"could","hint":"modal: teachers ___ spend the hour","explanation":"Past ability that followed from freedom: could spend."},
+    {"answer":"when","hint":"conjunction: the practice — ___ pupils need help","explanation":"Time clause identifying the moment of need: when."},
+    {"answer":"have","hint":"auxiliary: early adopters ___ reported","explanation":"Present perfect with a plural subject: have reported."},
+    {"answer":"it","hint":"pronoun: flipping, ___ turns out","explanation":"The fixed parenthetical phrase: 'it turns out'."}
+  ]},
+  {"title":"The case for writing by hand","text":"Keyboards {{1}} taken over the classroom and the meeting room, {{2}} the humble pen refuses to disappear. {{3}} we write by hand, we cannot keep up {{4}} a fast speaker, and {{5}} looks like a defect turns out to be a feature: because every word cannot be captured, the brain must summarise, compress and connect instead. Studies suggest {{6}} students who take notes by longhand remember {{7}} of a lecture a week later than laptop note-takers, who often transcribe without processing. {{8}} is not the slowness itself that helps but the selection it forces — which is why writing anything out by hand, from a revision card to a shopping list, still sticks in the mind so reliably.","gaps":[
+    {"answer":"have","hint":"auxiliary: keyboards ___ taken over","explanation":"Present perfect with a plural subject: have taken."},
+    {"answer":"but","hint":"conjunction: the meeting room, ___ the pen refuses","explanation":"Contrast between conquest and survival: but."},
+    {"answer":"When","hint":"conjunction: ___ we write by hand, we cannot","explanation":"Time clause governing the claim: when."},
+    {"answer":"with","hint":"preposition: cannot keep up ___ a fast speaker","explanation":"'Keep up with' — the fixed phrasal verb."},
+    {"answer":"what","hint":"pronoun: and ___ looks like a defect","explanation":"Fused relative subject: what looks like a defect."},
+    {"answer":"that","hint":"conjunction: suggest ___ students remember more","explanation":"Reported finding after 'suggest': that-clause."},
+    {"answer":"more","hint":"pronoun: remember ___ of a lecture a week later","explanation":"The comparative 'more of a lecture' — first element gapped."},
+    {"answer":"It","hint":"cleft pronoun: ___ is not the slowness itself","explanation":"The cleft structure 'It is not X but Y'."}
+  ]},
+  {"title":"The palace in your head","text":"The technique {{1}} said to date back to a Greek poet, Simonides of Ceos, {{2}} stepped out of a banquet hall moments before the roof came down. {{3}} he noticed was that the victims could be identified by {{4}} each guest had been sitting, and the insight became an art: to remember a speech, you furnish an imagined palace and leave each point in a different room. To recall it, you simply walk {{5}} again. {{6}} is the power of place {{7}} every world memory champion still uses some version of the palace to memorise a shuffled deck of cards. The method works because the brain, {{8}} it never evolved a filing cabinet, did evolve superb spatial memory.","gaps":[
+    {"answer":"is","hint":"passive: the technique ___ said to date back","explanation":"Present passive: is said to date back."},
+    {"answer":"who","hint":"relative: Ceos, ___ stepped out of a hall","explanation":"Non-defining relative about a person after the comma."},
+    {"answer":"What","hint":"pronoun: ___ he noticed was that","explanation":"Fused relative subject of the pseudo-cleft."},
+    {"answer":"where","hint":"conjunction: by ___ each guest had been sitting","explanation":"The seated position: where each guest sat."},
+    {"answer":"through","hint":"preposition: you simply walk ___ again","explanation":"'Walk through' — movement within the imagined palace."},
+    {"answer":"Such","hint":"pronoun: ___ is the power of place","explanation":"Fronted inversion: 'Such is the power that…'."},
+    {"answer":"that","hint":"conjunction: power of place ___ champions use","explanation":"The result clause of 'Such is the power that'."},
+    {"answer":"although","hint":"conjunction: the brain, ___ it never evolved","explanation":"Concession inside the appositive clause: although."}
+  ]},
+  {"title":"The invention of the weekend","text":"{{1}} was the factories of the industrial north {{2}} first needed the two-day break: six-day weeks left machinery idle on Sunday, {{3}} the new leisure industries wanted customers with time to spend. {{4}} the 1930s, however, Saturday remained a full working day for most. Henry Ford adopted the five-day week in 1926, {{5}} other employers dismissed as indulgence until they found their rested workers {{6}} productive than their exhausted ones. Once workers had tasted the free weekend, they organised to defend it, {{7}} by the middle of the century the two days had spread from factory to office to school. {{8}} is a curious thought that an institution as beloved as the weekend began life as an industrial efficiency measure.","gaps":[
+    {"answer":"It","hint":"cleft pronoun: ___ was the factories that","explanation":"The cleft structure emphasises the factories."},
+    {"answer":"that","hint":"relative: the factories ___ first needed","explanation":"Defining subject relative in the cleft: that."},
+    {"answer":"and","hint":"conjunction: on Sunday, ___ the industries wanted","explanation":"The two clauses are added: and."},
+    {"answer":"Until","hint":"time word: ___ the 1930s, Saturday remained","explanation":"'Until the 1930s' — the old arrangement held to that point."},
+    {"answer":"which","hint":"relative: 1926, ___ other employers dismissed","explanation":"Non-defining relative after the comma referring to the five-day week."},
+    {"answer":"more","hint":"adverb: rested workers ___ productive than","explanation":"The comparative before 'than': more productive."},
+    {"answer":"and","hint":"conjunction: defend it, ___ by mid-century","explanation":"The two clauses are added: and."},
+    {"answer":"It","hint":"cleft pronoun: ___ is a curious thought that","explanation":"The comment frame: 'It is a curious thought that…'."}
+  ]},
+  {"title":"The ten per cent","text":"{{1}} is not easy being left-handed in a right-handed world: scissors, spiral notebooks and lecture-hall desks have all been designed {{2}} the right hand, and a tin opener simply sulks {{3}} you hold it the wrong way up. {{4}} was long a belief that left-handers died younger, a myth built {{5}} a misread study of old tombstones. In reality, left-handers, {{6}} brains must constantly adapt to right-handed tools, often develop stronger two-handed coordination, and in interactive sports they beat right-handers {{7}} often than chance would predict, {{8}} opponents rarely meet anyone like them.","gaps":[
+    {"answer":"It","hint":"dummy subject: ___ is not easy being left-handed","explanation":"'It is not easy being…' — the comment structure."},
+    {"answer":"for","hint":"preposition: designed ___ the right hand","explanation":"The intended user takes 'for'."},
+    {"answer":"when","hint":"time word: sulks ___ you hold it wrongly","explanation":"The refusal happens when the holding happens: when."},
+    {"answer":"There","hint":"pronoun: ___ was long a belief that","explanation":"The existential clause: there was a belief."},
+    {"answer":"on","hint":"preposition: a myth built ___ a study","explanation":"'Built on' — the foundation takes 'on'."},
+    {"answer":"whose","hint":"relative: left-handers, ___ brains must adapt","explanation":"'Whose' links the left-handers to their brains."},
+    {"answer":"more","hint":"adverb: beat right-handers ___ often than chance","explanation":"The comparative before 'than': more often."},
+    {"answer":"because","hint":"conjunction: than chance predicts, ___ opponents","explanation":"The reason clause after the comma: because."}
+  ]},
+  {"title":"Why some knots hold and others fail","text":"Sailors {{1}} argued about knots for centuries, {{2}} the science of why a knot holds lagged far behind the craft of tying one. {{3}} was not until 2020 {{4}} mathematicians published a full theory of knot strength, simulating millions of virtual ropes {{5}} crossings and tangle history could be computed. The model confirmed the folklore: the {{6}} strands cross and jam, the harder the knot is to pull apart, and every extra crossing multiplies {{7}}. The mathematics will not help anyone tie a shoelace faster, {{8}} it finally explains why the granny knot betrays you under load and the reef knot does not.","gaps":[
+    {"answer":"have","hint":"auxiliary: sailors ___ argued for centuries","explanation":"Present perfect with a plural subject: have argued."},
+    {"answer":"yet","hint":"conjunction: for centuries, ___ the science lagged","explanation":"Contrast between craft and science: yet."},
+    {"answer":"It","hint":"cleft pronoun: ___ was not until 2020","explanation":"'It was not until X that…' — the fixed cleft frame."},
+    {"answer":"that","hint":"conjunction: not until 2020 ___ mathematicians","explanation":"The second half of the 'not until' cleft: that."},
+    {"answer":"whose","hint":"relative: ropes ___ crossings could be computed","explanation":"'Whose' links the ropes to their crossings."},
+    {"answer":"more","hint":"adverb: the ___ strands cross and jam","explanation":"'The more … the harder …' — the double comparative."},
+    {"answer":"it","hint":"pronoun: every crossing multiplies ___","explanation":"Object pronoun referring to the holding power: multiplies it."},
+    {"answer":"but","hint":"conjunction: faster, ___ it finally explains","explanation":"Contrast between practical use and explanation: but."}
+  ]},
+  {"title":"The people hiding in our words","text":"Everyday English {{1}} smuggled hundreds of people into our speech. The sandwich {{2}} after an earl {{3}} hunger for uninterrupted cards turned bread-and-filling into a word; the boycott {{4}} Captain Boycott, an Irish land agent whose tenants simply refused to deal with him; and milk is pasteurised {{5}} the process Louis Pasteur developed. Physicists left {{6}} names in every socket in the world: the volt, the ampere and the watt. Once you notice the smuggled people, you begin to find them {{7}}, and each discovery is a small lesson in the history {{8}} inside a word.","gaps":[
+    {"answer":"has","hint":"auxiliary: English ___ smuggled hundreds","explanation":"Present perfect with a singular subject: has smuggled."},
+    {"answer":"named","hint":"participle: the sandwich ___ after an earl","explanation":"Reduced passive: the sandwich named after an earl."},
+    {"answer":"whose","hint":"relative: an earl ___ hunger for cards","explanation":"'Whose' links the earl to his hunger."},
+    {"answer":"after","hint":"preposition: the boycott ___ Captain Boycott","explanation":"'Named after' — the source of the word takes 'after'."},
+    {"answer":"by","hint":"preposition: pasteurised ___ the process","explanation":"Passive agent: pasteurised by the process."},
+    {"answer":"their","hint":"possessive: physicists left ___ names","explanation":"The names belong to the physicists: their names."},
+    {"answer":"everywhere","hint":"adverb: begin to find them ___","explanation":"The discoveries appear in every place: everywhere."},
+    {"answer":"hiding","hint":"participle: the history ___ inside a word","explanation":"Reduced relative: the history hiding inside a word."}
   ]}
 ]
