@@ -1,3 +1,174 @@
-/* Cheat sheets page styles — appended by the /learn work. Dark mode is handled
-   by the shared variables in cae.css; reuse var(--bg), var(--surface), var(--ink),
-   var(--line), var(--primary) etc. instead of hard-coding colours. */
+/* ============================================================
+   Cheat sheets (/learn) — index cards, topic pages, tables.
+   Dark mode is handled by the shared variables in cae.css; reuse
+   var(--bg), var(--surface), var(--ink), var(--line), var(--primary)
+   etc. instead of hard-coding colours.
+   ============================================================ */
+
+.learn-page h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: .3rem;
+}
+
+.learn-page code {
+    background: var(--primary-soft);
+    padding: .1em .35em;
+    border-radius: 5px;
+    font-size: .85em;
+}
+
+/* ---------- index ---------- */
+
+.learn-index-sub { max-width: 640px; }
+
+.learn-group-title {
+    display: flex; align-items: baseline; gap: .6rem;
+    margin: 1.8rem 0 .9rem;
+    font-size: 1.05rem; font-weight: 800;
+}
+.learn-group-title::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.learn-group-count {
+    font-size: .72rem; font-weight: 700; color: var(--muted);
+    background: var(--surface); border: 1px solid var(--line);
+    padding: .05rem .5rem; border-radius: 999px;
+}
+
+.learn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: .8rem;
+}
+.learn-card {
+    display: flex; flex-direction: column; gap: .3rem;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: .95rem 1.05rem;
+    color: inherit; text-decoration: none;
+    box-shadow: var(--shadow);
+    transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+.learn-card:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+    border-color: #c9cdf5;
+    box-shadow: var(--shadow-lg);
+}
+.learn-card h3 { margin: 0; font-size: .97rem; font-weight: 700; color: var(--primary-strong); }
+.learn-card p { margin: 0; font-size: .84rem; color: var(--muted); line-height: 1.45; }
+
+/* ---------- topic page layout ---------- */
+
+.learn-back { margin-bottom: .7rem; font-size: .88rem; font-weight: 600; }
+.learn-topic-sub { margin-top: -.15rem; max-width: 640px; }
+
+.learn-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.2rem; }
+
+.learn-section { margin: 1.7rem 0 1.9rem; }
+.learn-section h2 {
+    font-size: 1.2rem; font-weight: 800;
+    margin: 0 0 .55rem;
+    scroll-margin-top: 4.5rem;
+}
+
+/* sticky mini-TOC on wide screens */
+.learn-toc { display: none; font-size: .85rem; }
+@media (min-width: 1100px) {
+    .learn-layout { grid-template-columns: minmax(0, 1fr) 210px; }
+    .learn-toc { display: block; position: sticky; top: 76px; align-self: start; }
+}
+.learn-toc-title {
+    font-size: .7rem; font-weight: 800; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--muted); margin-bottom: .4rem;
+}
+.learn-toc a {
+    display: block; padding: .16rem 0 .16rem .6rem;
+    color: var(--muted); text-decoration: none;
+    border-left: 2px solid transparent;
+}
+.learn-toc a:hover { color: var(--primary-strong); text-decoration: none; border-left-color: var(--primary); }
+
+/* ---------- blocks ---------- */
+
+.learn-para { margin: .4rem 0 .8rem; line-height: 1.6; }
+
+.learn-bullets { margin: .3rem 0 .9rem; padding-left: 1.25rem; }
+.learn-bullets li { margin: .22rem 0; line-height: 1.5; }
+
+.learn-examples {
+    list-style: none; margin: .6rem 0 1rem; padding: .6rem .95rem;
+    background: var(--primary-soft);
+    border-left: 3px solid var(--primary);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.learn-examples li { margin: .3rem 0; line-height: 1.5; }
+
+.learn-note {
+    margin: .6rem 0 1rem; padding: .6rem .95rem;
+    background: var(--warn-soft);
+    border-left: 3px solid var(--warn);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: .9rem; line-height: 1.55;
+}
+
+.learn-dodont {
+    display: grid; grid-template-columns: 1fr 1fr; gap: .7rem;
+    margin: .6rem 0 1rem;
+}
+.learn-do, .learn-dont { border-radius: var(--radius-sm); padding: .6rem .85rem; font-size: .9rem; }
+.learn-do { background: var(--accent-soft); }
+.learn-dont { background: var(--danger-soft); }
+.learn-dodont-head {
+    font-size: .74rem; font-weight: 800; text-transform: uppercase;
+    letter-spacing: .05em; margin-bottom: .25rem;
+}
+.learn-do .learn-dodont-head { color: var(--accent); }
+.learn-dont .learn-dodont-head { color: var(--danger); }
+.learn-do ul, .learn-dont ul { margin: 0; padding-left: 1.1rem; }
+.learn-do li, .learn-dont li { margin: .2rem 0; line-height: 1.5; }
+@media (max-width: 640px) { .learn-dodont { grid-template-columns: 1fr; } }
+
+/* ---------- tables ---------- */
+
+.learn-table-wrap { overflow-x: auto; margin: .8rem 0 1rem; }
+.learn-table {
+    width: 100%; border-collapse: collapse;
+    font-size: .885rem; line-height: 1.45;
+}
+.learn-table th {
+    text-align: left; white-space: nowrap;
+    font-size: .7rem; font-weight: 800;
+    text-transform: uppercase; letter-spacing: .05em;
+    color: var(--muted); background: var(--surface);
+    padding: .45rem .6rem;
+    border-bottom: 2px solid var(--line);
+}
+.learn-table td {
+    padding: .48rem .6rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+}
+.learn-table tbody tr:hover { background: var(--primary-soft); }
+
+/* ---------- prev / next pager ---------- */
+
+.learn-pager {
+    display: flex; justify-content: space-between; gap: .8rem;
+    margin-top: 2.2rem; padding-top: 1.1rem;
+    border-top: 1px solid var(--line);
+}
+.learn-pager a {
+    display: inline-block; max-width: 46%;
+    padding: .5rem .85rem;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    color: var(--ink); font-size: .86rem; font-weight: 600;
+    text-decoration: none;
+}
+.learn-pager a:hover { text-decoration: none; border-color: var(--primary); color: var(--primary-strong); }
+.learn-pager a:only-child, .learn-pager .learn-pager-next { margin-left: auto; }
+
+/* ---------- dark-mode touch-ups (hover tints only) ---------- */
+
+@media (prefers-color-scheme: dark) {
+    .learn-card:hover { border-color: #3c4370; }
+}
