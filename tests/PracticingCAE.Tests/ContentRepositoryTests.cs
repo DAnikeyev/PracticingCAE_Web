@@ -31,12 +31,28 @@ public class ContentRepositoryTests
     }
 
     [Fact]
-    public void EveryTask_OffersAtLeast100Sets()
+    public void EveryTask_OffersAtLeastTheSetFloor()
     {
+        // rue-part2 sets are whole coherent cloze texts (one authored text = one set),
+        // so its floor is lower than the cycled sentence banks.
         foreach (var task in Repo.Tasks)
         {
-            Assert.True(Repo.SetCount(task.Id) >= 200,
-                $"{task.Id} has only {Repo.SetCount(task.Id)} sets");
+            var min = task.Id == "rue-part2" ? 100 : 200;
+            Assert.True(Repo.SetCount(task.Id) >= min,
+                $"{task.Id} has only {Repo.SetCount(task.Id)} sets (min {min})");
+        }
+    }
+
+    [Fact]
+    public void Rue2Sets_AreCoherentTextsWithEightGaps()
+    {
+        foreach (var set in Repo.SetsFor("rue-part2"))
+        {
+            Assert.False(string.IsNullOrWhiteSpace(set.Text),
+                $"{set.Id}: part 2 sets must be coherent cloze texts, not standalone sentences");
+            Assert.Equal(8, set.Gaps.Count);
+            Assert.True(set.Text.Length >= 350,
+                $"{set.Id}: part 2 text is too short to be a coherent passage ({set.Text.Length} chars)");
         }
     }
 
