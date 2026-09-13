@@ -1,0 +1,3 @@
+/* Cheat sheets page styles — appended by the /learn work. Dark mode is handled
+   by the shared variables in cae.css; reuse var(--bg), var(--surface), var(--ink),
+   var(--line), var(--primary) etc. instead of hard-coding colours. */

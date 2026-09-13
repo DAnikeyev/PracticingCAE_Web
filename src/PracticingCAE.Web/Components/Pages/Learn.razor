@@ -1,0 +1,31 @@
+@page "/learn"
+@page "/learn/{Slug}"
+@using PracticingCAE.Web.Components.Pages.LearnContent
+
+<PageTitle>Cheat sheets — CAE Practice</PageTitle>
+
+<div class="page-shell learn-page">
+    <h1>Cheat sheets</h1>
+    <p class="muted">Compact reference pages for the grammar this site tests.</p>
+
+    @if (Topic is null)
+    {
+        <ul>
+            @foreach (var t in LearnLibrary.Topics)
+            {
+                <li><a href="@($"learn/{t.Slug}")">@t.Title</a></li>
+            }
+        </ul>
+    }
+    else
+    {
+        <h2>@Topic.Title</h2>
+        <p>Content placeholder.</p>
+    }
+</div>
+
+@code {
+    [Parameter] public string? Slug { get; set; }
+
+    private LearnLibrary.Topic? Topic => Slug is null ? null : LearnLibrary.Find(Slug);
+}

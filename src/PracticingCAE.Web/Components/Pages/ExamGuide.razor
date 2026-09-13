@@ -1,0 +1,31 @@
+@page "/guide"
+@page "/guide/{Slug}"
+@using PracticingCAE.Web.Components.Pages.GuideContent
+
+<PageTitle>Exam guide — CAE Practice</PageTitle>
+
+<div class="page-shell guide-page">
+    <h1>Exam guide</h1>
+    <p class="muted">Strategy and timing for every part of the exam.</p>
+
+    @if (Current is null)
+    {
+        <ul>
+            @foreach (var g in GuideLibrary.Sections)
+            {
+                <li><a href="@($"guide/{g.Slug}")">@g.Title</a></li>
+            }
+        </ul>
+    }
+    else
+    {
+        <h2>@Current.Title</h2>
+        <p>Content placeholder.</p>
+    }
+</div>
+
+@code {
+    [Parameter] public string? Slug { get; set; }
+
+    private GuideLibrary.Section? Current => Slug is null ? null : GuideLibrary.Find(Slug);
+}
