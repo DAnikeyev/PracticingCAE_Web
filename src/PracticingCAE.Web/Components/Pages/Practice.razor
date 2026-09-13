@@ -12,7 +12,7 @@
 
 @if (_loading)
 {
-    <div class="page-shell"><p class="muted">Loading a set…</p></div>
+    <div class="page-shell practice-loading"><p class="muted">Loading a set…</p></div>
 }
 else if (_task is null)
 {
@@ -24,7 +24,7 @@ else if (_task is null)
 else if (_set is null || _gaps.Count == 0)
 {
     <div class="page-shell">
-        <h1>@_task.Emoji @_task.Title</h1>
+        <h1>@_task.Title</h1>
         <p class="muted">No content available for this task yet.</p>
         <p><a class="btn btn-outline-primary" href="/">← All tasks</a></p>
     </div>
@@ -34,7 +34,7 @@ else
     <div class="page-shell practice-page">
         <div class="practice-head">
             <div>
-                <h1>@_task.Emoji @_task.Title</h1>
+                <h1>@_task.Title</h1>
                 <p class="muted practice-sub">
                     @_task.Subtitle · set @_set.Id ·
                     <span class="badge @(IsExamStyle ? "badge-exam" : "badge-drill")">@_set.Source</span>
@@ -45,18 +45,18 @@ else
                 {
                     <label class="mode-toggle" title="Type your answers instead of clicking the options">
                         <input type="checkbox" checked="@_typeMode" @onchange="ToggleTypeMode" />
-                        ✍️ Type answers
+                        Type answers
                     </label>
                 }
                 @if (_checked)
                 {
-                    <button class="btn btn-accent" @onclick="NextSet">Next set →</button>
+                    <button class="btn btn-accent" @onclick="NextSet">Next set</button>
                 }
                 else
                 {
-                    <button class="btn btn-soft" @onclick="RevealAllHints" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
+                    <button class="btn btn-soft" @onclick="RevealAllHints" title="Show a hint for every question (counts as hint use)">Hint all</button>
                     <button class="btn btn-soft" @onclick="RevealAnswers" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
-                    <button class="btn btn-primary" @onclick="Check">✔ Check</button>
+                    <button class="btn btn-primary" @onclick="Check">Check</button>
                 }
             </div>
         </div>
@@ -68,8 +68,8 @@ else
             var pct = 100 * _result.CorrectCount / Math.Max(1, _result.Total);
             <div class="score-banner @(pct == 100 ? "score-perfect" : pct >= 60 ? "score-good" : "score-weak")">
                 <strong>@_result.CorrectCount / @_result.Total correct</strong>
-                <span>@(pct == 100 ? "Perfect! 🎉" : pct >= 60 ? "Good — check the gaps below." : "Keep going — review the explanations below.")</span>
-                <button class="btn btn-primary btn-sm" @onclick="NextSet">Next set →</button>
+                <span>@(pct == 100 ? "Perfect score!" : pct >= 60 ? "Good — check the gaps below." : "Keep going — review the explanations below.")</span>
+                <button class="btn btn-primary btn-sm" @onclick="NextSet">Next set</button>
             </div>
         }
 
@@ -150,7 +150,7 @@ else
                                     <span class="base-badge" title="Use this word">@gap.Keyword</span>
                                 }
                                 <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
-                                        @onclick="() => ShowHint(idx)">💡</button>
+                                        @onclick="() => ShowHint(idx)">Hint</button>
                             </div>
                         }
                         else if (IsCloze)
@@ -188,28 +188,28 @@ else
                                            aria-label="Answer for question @(idx + 1)" />
                                 }
                                 <button type="button" class="hint-btn" title="Show hint" disabled="@_hints[idx] || _checked"
-                                        @onclick="() => ShowHint(idx)">💡</button>
+                                        @onclick="() => ShowHint(idx)">Hint</button>
                             </div>
                         }
                         @if (_hints[idx] && !string.IsNullOrWhiteSpace(gap.Hint))
                         {
-                            <p class="hint-text">💡 @gap.Hint</p>
+                            <p class="hint-text">Hint: @gap.Hint</p>
                         }
                         @if (_checked)
                         {
                             var r = _result!.Gaps[idx];
                             @if (_task.Kind == SetKind.Rue4 && !AnswerChecker.WordCountValid(_answers[idx], 3, 6))
                             {
-                                <p class="hint-text">⚠ CAE rule: 3–6 words including the key word (yours: @AnswerChecker.WordCount(_answers[idx])).</p>
+                                <p class="hint-text">CAE rule: 3–6 words including the key word (yours: @AnswerChecker.WordCount(_answers[idx])).</p>
                             }
                             <p class="feedback-text @(r.IsCorrect ? "fb-ok" : "fb-bad")">
                                 @if (r.IsCorrect)
                                 {
-                                    <text>✔ Correct.</text>
+                                    <text>Correct.</text>
                                 }
                                 else
                                 {
-                                    <text>✘ Answer: <strong>@gap.Answer</strong>
+                                    <text>Answer: <strong>@gap.Answer</strong>
                                     @if (gap.Accept.Count > 0)
                                     {
                                         <text> (also accepted: @string.Join(", ", gap.Accept))</text>
@@ -219,7 +219,7 @@ else
                             </p>
                             @if (!string.IsNullOrWhiteSpace(gap.Explanation))
                             {
-                                <p class="explanation">📖 @gap.Explanation</p>
+                                <p class="explanation">@gap.Explanation</p>
                             }
                         }
                     </div>
@@ -238,12 +238,12 @@ else
                 {
                     <label class="mode-toggle" title="Type your answers instead of clicking the options">
                         <input type="checkbox" checked="@_typeMode" @onchange="ToggleTypeMode" />
-                        ✍️ Type
+                        Type
                     </label>
                 }
-                <button class="btn btn-soft" @onclick="RevealAllHints" title="Show a hint for every question (counts as hint use)">💡 Hint all</button>
+                <button class="btn btn-soft" @onclick="RevealAllHints" title="Show a hint for every question (counts as hint use)">Hint all</button>
                 <button class="btn btn-soft" @onclick="RevealAnswers" title="Fill in the correct answers (not counted towards accuracy)">Show answers</button>
-                <button class="btn btn-primary" @onclick="Check">✔ Check</button>
+                <button class="btn btn-primary" @onclick="Check">Check</button>
             }
         </div>
 

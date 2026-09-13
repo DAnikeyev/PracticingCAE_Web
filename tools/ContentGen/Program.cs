@@ -19,50 +19,50 @@ var tasks = new List<TaskDef>
         Id = "rue-part1", Kind = SetKind.Rue1,
         Title = "Reading & Use of English — Part 1", Subtitle = "Multiple-choice cloze",
         Description = "Read the text and choose the word (A, B, C or D) that fits each gap. In the exam this part has 8 questions.",
-        Group = "Reading & Use of English", Emoji = "📘", QuestionsPerSet = 8
+        Group = "Reading & Use of English", Emoji = "", QuestionsPerSet = 8
     },
     new()
     {
         Id = "rue-part2", Kind = SetKind.Rue2,
         Title = "Reading & Use of English — Part 2", Subtitle = "Open cloze",
         Description = "Think of the word that best fits each gap. In the exam you write ONE word only — mostly grammar words (articles, prepositions, auxiliaries…).",
-        Group = "Reading & Use of English", Emoji = "✏️", QuestionsPerSet = 8
+        Group = "Reading & Use of English", Emoji = "", QuestionsPerSet = 8
     },
     new()
     {
         Id = "rue-part3", Kind = SetKind.Rue3,
         Title = "Reading & Use of English — Part 3", Subtitle = "Word formation",
         Description = "Use the word in CAPITALS at the end of each line to form a word that fits the gap.",
-        Group = "Reading & Use of English", Emoji = "🧩", QuestionsPerSet = 8
+        Group = "Reading & Use of English", Emoji = "", QuestionsPerSet = 8
     },
     new()
     {
         Id = "rue-part4", Kind = SetKind.Rue4,
         Title = "Reading & Use of English — Part 4", Subtitle = "Key word transformations",
         Description = "Complete the second sentence so that it means the same as the first, using the word given. Use 3–6 words including the key word. Do not change the key word.",
-        Group = "Reading & Use of English", Emoji = "🔁", QuestionsPerSet = 6
+        Group = "Reading & Use of English", Emoji = "", QuestionsPerSet = 6
     },
 };
 
 var topics = new List<TaskDef>
 {
-    Topic("articles", "Articles", "a / an / the / zero article", "Choose or type the correct article — including the tricky zero-article and a-vs-an-by-sound cases.", "🔤"),
-    Topic("prepositions", "Dependent Prepositions", "verb/adj/noun + preposition", "agree with, depend on, good at… The collocations the exam loves.", "🔗"),
-    Topic("phrasal-verbs", "Phrasal Verbs", "particles and meanings", "Common C1-level phrasal verbs: pick the right particle or the right meaning.", "🚀"),
-    Topic("verb-patterns", "Verb Patterns", "-ing vs to-infinitive", "enjoy doing vs want to do, stop doing vs stop to do — the patterns that decide meanings.", "🌀"),
-    Topic("tenses", "Tenses", "present, past, perfect, future", "Choose the tense the context calls for: time markers, sequence, states vs events.", "⏳"),
-    Topic("conditionals", "Conditionals", "if-clauses and wishes", "Zero to third conditional, mixed conditionals, I wish / if only.", "🔀"),
-    Topic("modals", "Modal Verbs", "ability, obligation, deduction", "must/might/can't for deduction, should have done, be able to…", "🎫"),
-    Topic("passive-voice", "Passive Voice", "forms and usage", "All tenses in the passive, by + agent, impersonal passives.", "🏗️"),
-    Topic("reported-speech", "Reported Speech", "statements, questions, commands", "Backshift, reported questions, tell vs say, reporting verbs.", "💬"),
-    Topic("linking-words", "Linking Words", "connectors and discourse markers", "although vs despite, however vs whereas, so that vs in case.", "🌉"),
-    Topic("confusable-words", "Confusable Words", "affect/effect, lose/loose…", "Word pairs even advanced learners mix up.", "🤔"),
-    Topic("collocations", "Collocations", "natural word combinations", "make vs do, heavy rain, strong coffee, take a decision…", "🧲"),
-    Topic("relative-clauses", "Relative Clauses", "who, which, that, whose, where", "Choose the relative pronoun; defining vs non-defining.", "⛓️"),
-    Topic("quantifiers", "Quantifiers", "some/any/much/many/few/little", "Countable vs uncountable, (a) few vs (a) little, much/many.", "🔢"),
-    Topic("word-formation", "Word Formation Drill", "prefixes and suffixes", "Sentence-level practice of the Part 3 skill: build the right word from the base.", "🧩"),
-    Topic("inversion-emphasis", "Inversion & Emphasis", "advanced structures (typed)", "Never had I…, No sooner…than, Should you… — the C1/C2 inversion and emphasis structures, typed answers only.", "🎭"),
-    Topic("prepositional-phrases", "Prepositional Phrases", "fixed expressions (typed)", "in time vs on time, under wraps, by far — the fixed preposition phrases C1 exams love, typed answers only.", "🧭"),
+    Topic("articles", "Articles", "a / an / the / zero article", "Choose or type the correct article — including the tricky zero-article and a-vs-an-by-sound cases.", ""),
+    Topic("prepositions", "Dependent Prepositions", "verb/adj/noun + preposition", "agree with, depend on, good at… The collocations the exam loves.", ""),
+    Topic("phrasal-verbs", "Phrasal Verbs", "particles and meanings", "Common C1-level phrasal verbs: pick the right particle or the right meaning.", ""),
+    Topic("verb-patterns", "Verb Patterns", "-ing vs to-infinitive", "enjoy doing vs want to do, stop doing vs stop to do — the patterns that decide meanings.", ""),
+    Topic("tenses", "Tenses", "present, past, perfect, future", "Choose the tense the context calls for: time markers, sequence, states vs events.", ""),
+    Topic("conditionals", "Conditionals", "if-clauses and wishes", "Zero to third conditional, mixed conditionals, I wish / if only.", ""),
+    Topic("modals", "Modal Verbs", "ability, obligation, deduction", "must/might/can't for deduction, should have done, be able to…", ""),
+    Topic("passive-voice", "Passive Voice", "forms and usage", "All tenses in the passive, by + agent, impersonal passives.", ""),
+    Topic("reported-speech", "Reported Speech", "statements, questions, commands", "Backshift, reported questions, tell vs say, reporting verbs.", ""),
+    Topic("linking-words", "Linking Words", "connectors and discourse markers", "although vs despite, however vs whereas, so that vs in case.", ""),
+    Topic("confusable-words", "Confusable Words", "affect/effect, lose/loose…", "Word pairs even advanced learners mix up.", ""),
+    Topic("collocations", "Collocations", "natural word combinations", "make vs do, heavy rain, strong coffee, take a decision…", ""),
+    Topic("relative-clauses", "Relative Clauses", "who, which, that, whose, where", "Choose the relative pronoun; defining vs non-defining.", ""),
+    Topic("quantifiers", "Quantifiers", "some/any/much/many/few/little", "Countable vs uncountable, (a) few vs (a) little, much/many.", ""),
+    Topic("word-formation", "Word Formation Drill", "prefixes and suffixes", "Sentence-level practice of the Part 3 skill: build the right word from the base.", ""),
+    Topic("inversion-emphasis", "Inversion & Emphasis", "advanced structures (typed)", "Never had I…, No sooner…than, Should you… — the C1/C2 inversion and emphasis structures, typed answers only.", ""),
+    Topic("prepositional-phrases", "Prepositional Phrases", "fixed expressions (typed)", "in time vs on time, under wraps, by far — the fixed preposition phrases C1 exams love, typed answers only.", ""),
 };
 
 tasks.AddRange(topics);

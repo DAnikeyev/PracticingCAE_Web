@@ -28,7 +28,7 @@
         <div class="form-floating mb-3 pw-wrap">
             <InputText type="password" @bind-Value="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
             <label for="password" class="form-label">Password</label>
-            <button type="button" class="pw-eye" onclick="caeUi.togglePw(this)" aria-label="Show password">👁</button>
+            <button type="button" class="pw-eye" onclick="caeUi.togglePw(this)" aria-label="Show password">>Show</button>
             <ValidationMessage For="() => Input.Password" class="text-danger" />
         </div>
         <div class="checkbox mb-3">

@@ -24,7 +24,7 @@ public sealed class TaskDef
     public string Description { get; set; } = "";
     /// <summary>Card grouping on the home page, e.g. "Reading &amp; Use of English".</summary>
     public string Group { get; set; } = "";
-    public string Emoji { get; set; } = "📝";
+    public string Emoji { get; set; } = "";
     public int QuestionsPerSet { get; set; } = 8;
 }
 

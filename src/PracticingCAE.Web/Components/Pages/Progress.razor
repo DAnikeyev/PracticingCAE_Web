@@ -42,7 +42,7 @@
                 <div class="stat-card"><div class="stat-num">@_overview.TotalAttempts</div><div class="stat-label">sets completed</div></div>
                 <div class="stat-card"><div class="stat-num">@_overview.TotalItems</div><div class="stat-label">questions answered</div></div>
                 <div class="stat-card"><div class="stat-num">@_overview.SetsStarted</div><div class="stat-label">distinct sets seen</div></div>
-                <div class="stat-card"><div class="stat-num">@_streak</div><div class="stat-label">day streak 🔥</div></div>
+                <div class="stat-card"><div class="stat-num">@_streak</div><div class="stat-label">day streak</div></div>
             </div>
             <div class="accuracy-ring" title="Overall accuracy">
                 <svg viewBox="0 0 110 110" role="img" aria-label="Overall accuracy ring">
@@ -64,7 +64,7 @@
                         <option value="">All tasks</option>
                         @foreach (var t in Content.Tasks.Where(t => _taskStats.Any(s => s.TaskId == t.Id)))
                         {
-                            <option value="@t.Id">@t.Emoji @t.Title</option>
+                            <option value="@t.Id">@t.Title</option>
                         }
                     </select>
                 </label>
@@ -92,7 +92,7 @@
                         var def = Content.FindTask(s.TaskId);
                         var trend = _trends.GetValueOrDefault(s.TaskId);
                         <tr>
-                            <td>@(def is null ? s.TaskId : $"{def.Emoji} {def.Title}")</td>
+                            <td>@(def?.Title ?? s.TaskId)</td>
                             <td>@s.Attempts</td>
                             <td>@s.ItemsCorrect/@s.ItemsAttempted</td>
                             <td>
@@ -148,7 +148,7 @@
                         @foreach (var id in _history.Select(h => h.TaskId).Distinct())
                         {
                             var def = Content.FindTask(id);
-                            <option value="@id">@(def is null ? id : $"{def.Emoji} {def.Title}")</option>
+                            <option value="@id">@(def?.Title ?? id)</option>
                         }
                     </select>
                 </label>
@@ -166,7 +166,7 @@
                             <td>@(def is null ? h.TaskId : def.Title)</td>
                             <td class="muted">@h.SetId</td>
                             <td>@h.CorrectCount/@h.ItemCount</td>
-                            <td>@(h.HintUsed ? "💡 hints" : "")</td>
+                            <td>@(h.HintUsed ? "hints" : "")</td>
                         </tr>
                     }
                 </tbody>
