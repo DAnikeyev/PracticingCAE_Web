@@ -1603,5 +1603,149 @@
   ],
   "hint": "look forward to + -ing",
   "explanation": "'To' is a preposition here, so the gerund follows."
+ },
+ {
+  "sentence": "The burglar admitted ___ through the kitchen window.",
+  "answer": "climbing",
+  "options": [
+   "climbing",
+   "climb",
+   "to climb",
+   "climbed"
+  ],
+  "hint": "admit + -ing",
+  "explanation": "'Admit' is followed by a gerund: admitted climbing."
+ },
+ {
+  "sentence": "She was on the verge of ___ up her job to sail around the world.",
+  "answer": "giving",
+  "options": [
+   "giving",
+   "give",
+   "to give",
+   "given"
+  ],
+  "hint": "preposition + -ing",
+  "explanation": "'On the verge of' ends in a preposition, so the gerund follows."
+ },
+ {
+  "sentence": "I resent ___ treated as an amateur when I have twenty years’ experience.",
+  "answer": "being",
+  "options": [
+   "being",
+   "be",
+   "to be",
+   "been"
+  ],
+  "hint": "resent + passive gerund",
+  "explanation": "'Resent' takes a gerund; the passive is 'being treated'."
+ },
+ {
+  "sentence": "The witness claims ___ the getaway car parked outside for an hour.",
+  "answer": "to have seen",
+  "options": [
+   "to have seen",
+   "seeing",
+   "to see",
+   "have seen"
+  ],
+  "hint": "claim + perfect infinitive",
+  "explanation": "'Claims to have seen' — the perfect infinitive marks an earlier action."
+ },
+ {
+  "sentence": "We had better ___ the terms carefully before signing anything.",
+  "answer": "read",
+  "options": [
+   "read",
+   "to read",
+   "reading",
+   "have read"
+  ],
+  "hint": "had better + bare infinitive",
+  "explanation": "'Had better' is followed by the infinitive without 'to'."
+ },
+ {
+  "sentence": "I'd rather she ___ the accounts this month, to be honest.",
+  "answer": "did",
+  "options": [
+   "did",
+   "does",
+   "will do",
+   "do"
+  ],
+  "hint": "would rather + subject + past",
+  "explanation": "'Would rather + subject' takes the past form for an unreal present preference."
+ },
+ {
+  "sentence": "He was the first climber ___ the summit without oxygen.",
+  "answer": "to reach",
+  "options": [
+   "to reach",
+   "reaching",
+   "reach",
+   "reached"
+  ],
+  "hint": "the first + to-infinitive",
+  "explanation": "After 'the first/last/only + noun' a to-infinitive follows."
+ },
+ {
+  "sentence": "It's no use ___ to start the engine — the battery is completely flat.",
+  "answer": "trying",
+  "options": [
+   "trying",
+   "to try",
+   "try",
+   "tried"
+  ],
+  "hint": "it's no use + -ing",
+  "explanation": "'It's no use' is followed by a gerund."
+ },
+ {
+  "sentence": "She's considering ___ the flat and moving to the coast.",
+  "answer": "selling",
+  "options": [
+   "selling",
+   "to sell",
+   "sell",
+   "sold"
+  ],
+  "hint": "consider + -ing",
+  "explanation": "'Consider' takes a gerund: considering selling."
+ },
+ {
+  "sentence": "Rather than ___ the risk, the airline cancelled all flights.",
+  "answer": "take",
+  "options": [
+   "take",
+   "to take",
+   "taking",
+   "took"
+  ],
+  "hint": "rather than + bare infinitive",
+  "explanation": "'Rather than' is followed by the bare infinitive in this contrastive use."
+ },
+ {
+  "sentence": "He spent months ___ the application, only to be rejected in minutes.",
+  "answer": "preparing",
+  "options": [
+   "preparing",
+   "to prepare",
+   "prepare",
+   "prepared"
+  ],
+  "hint": "spend time + -ing",
+  "explanation": "'Spend time doing something' takes the gerund."
+ },
+ {
+  "sentence": "I can't stand ___ kept waiting when I have an appointment.",
+  "answer": "being",
+  "options": [
+   "being",
+   "to be",
+   "be",
+   "been"
+  ],
+  "hint": "can't stand + passive gerund",
+  "explanation": "'Can't stand' takes a gerund; the passive gerund is 'being kept'."
  }
 ]

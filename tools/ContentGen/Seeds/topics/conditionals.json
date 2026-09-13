@@ -1501,5 +1501,149 @@
   ],
   "hint": "inverted third conditional",
   "explanation": "'Had I realized …' = 'If I had realized …' + would have cancelled."
+ },
+ {
+  "sentence": "Had the crew followed protocol, the collision ___ entirely.",
+  "answer": "would have been avoided",
+  "options": [
+   "would have been avoided",
+   "would be avoided",
+   "had been avoided",
+   "will be avoided"
+  ],
+  "hint": "inverted third conditional",
+  "explanation": "'Had + subject + participle' implies 'if…had', so the main clause takes would have + participle."
+ },
+ {
+  "sentence": "If the gallery ___ its cameras replaced, the theft might never have happened.",
+  "answer": "had had",
+  "options": [
+   "had had",
+   "has had",
+   "would have had",
+   "has"
+  ],
+  "hint": "causative inside an if-clause",
+  "explanation": "The causative 'had … replaced' in the third conditional becomes past perfect: had had."
+ },
+ {
+  "sentence": "But ___ the late equaliser, United would have gone top of the table.",
+  "answer": "for",
+  "options": [
+   "for",
+   "with",
+   "from",
+   "by"
+  ],
+  "hint": "but ___ = if it had not been for",
+  "explanation": "'But for + noun' is an implied conditional: had it not been for the equaliser…"
+ },
+ {
+  "sentence": "I'll lend you the tent ___ you bring it back dried.",
+  "answer": "provided",
+  "options": [
+   "provided",
+   "unless",
+   "despite",
+   "so that"
+  ],
+  "hint": "on condition that",
+  "explanation": "'Provided (that)' introduces the condition under which something will happen."
+ },
+ {
+  "sentence": "If the temperature ___ below freezing tonight, the race will be postponed.",
+  "answer": "falls",
+  "options": [
+   "falls",
+   "will fall",
+   "fell",
+   "had fallen"
+  ],
+  "hint": "first conditional",
+  "explanation": "First conditional: present simple in the if-clause, will + infinitive in the result."
+ },
+ {
+  "sentence": "If they ___ that the bridge was unsafe, they would have closed it years ago.",
+  "answer": "had known",
+  "options": [
+   "had known",
+   "knew",
+   "know",
+   "would know"
+  ],
+  "hint": "past condition, past result",
+  "explanation": "A past unreal condition takes the past perfect: had known."
+ },
+ {
+  "sentence": "We would have arrived on time ___ the roadworks on the ring road.",
+  "answer": "but for",
+  "options": [
+   "but for",
+   "unless",
+   "in case",
+   "even though"
+  ],
+  "hint": "but for + noun",
+  "explanation": "'But for' + noun phrase means if it had not been for."
+ },
+ {
+  "sentence": "If you ___ that invoice yesterday, the account wouldn't be frozen now.",
+  "answer": "had paid",
+  "options": [
+   "had paid",
+   "paid",
+   "have paid",
+   "would have paid"
+  ],
+  "hint": "mixed conditional: past → present",
+  "explanation": "A past condition with a present result: past perfect in the if-clause."
+ },
+ {
+  "sentence": "As long as the audio ___ working, the dictation test can go ahead.",
+  "answer": "is",
+  "options": [
+   "is",
+   "will be",
+   "were",
+   "has been"
+  ],
+  "hint": "present state in a condition",
+  "explanation": "Conditions about the present take the present simple after as long as."
+ },
+ {
+  "sentence": "___ you should need to reach me, my hotel keeps a message desk.",
+  "answer": "Should",
+  "options": [
+   "Should",
+   "Would",
+   "Could",
+   "Will"
+  ],
+  "hint": "inverted conditional with should",
+  "explanation": "'Should you need…' = 'If you should need…' — formal inverted conditional."
+ },
+ {
+  "sentence": "If the appeals court ___ the verdict, the case will be reheard in the autumn.",
+  "answer": "overturns",
+  "options": [
+   "overturns",
+   "will overturn",
+   "overturned",
+   "was overturning"
+  ],
+  "hint": "first conditional",
+  "explanation": "Present simple after 'if', will + infinitive in the main clause."
+ },
+ {
+  "sentence": "You'd have got a better exchange rate ___ at the bank instead of the airport.",
+  "answer": "if you had changed",
+  "options": [
+   "if you had changed",
+   "if you changed",
+   "unless you changed",
+   "if you would change"
+  ],
+  "hint": "third conditional if-clause",
+  "explanation": "The unreal past condition takes 'if + past perfect'."
  }
 ]

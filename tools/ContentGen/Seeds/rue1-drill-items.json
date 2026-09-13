@@ -1915,5 +1915,245 @@
   ],
   "hint": "attribute something to = owe it to",
   "explanation": "'Attribute something to something' = say it is the result of it."
+ },
+ {
+  "sentence": "Her libel action against the newspaper was ___ out of court last week.",
+  "answer": "settled",
+  "options": [
+   "settled",
+   "dissolved",
+   "concluded",
+   "discharged"
+  ],
+  "hint": "agreed without a trial",
+  "explanation": "'Settle out of court' is the fixed legal phrase for ending a case without a trial."
+ },
+ {
+  "sentence": "The rescue team worked ___ the clock to reach the trapped miners.",
+  "answer": "against",
+  "options": [
+   "against",
+   "behind",
+   "before",
+   "underneath"
+  ],
+  "hint": "in a race with time",
+  "explanation": "'Work against the clock' = hurry because time is running out."
+ },
+ {
+  "sentence": "The two chemicals ___ violently when they are mixed.",
+  "answer": "react",
+  "options": [
+   "react",
+   "respond",
+   "reflect",
+   "reply"
+  ],
+  "hint": "change chemically",
+  "explanation": "'React' describes substances changing chemically when combined; the others refer to people or images."
+ },
+ {
+  "sentence": "Demand for electric cars has ___ over the past decade.",
+  "answer": "soared",
+  "options": [
+   "soared",
+   "soaring",
+   "soars",
+   "soar"
+  ],
+  "hint": "risen very fast (participle)",
+  "explanation": "After 'has' the past participle is needed: soared; the other forms do not complete the present perfect."
+ },
+ {
+  "sentence": "The hospital is seeking ___ for a new scanning machine.",
+  "answer": "funding",
+  "options": [
+   "funding",
+   "fund",
+   "funded",
+   "fundamental"
+  ],
+  "hint": "uncountable noun: money",
+  "explanation": "'Funding' is the uncountable noun for money raised for a purpose; a single 'fund' does not fit here."
+ },
+ {
+  "sentence": "The old currency was taken out of ___ when the euro arrived.",
+  "answer": "circulation",
+  "options": [
+   "circulation",
+   "circular",
+   "circulate",
+   "circuit"
+  ],
+  "hint": "noun: being used by the public",
+  "explanation": "'Take out of circulation' = withdraw money from public use; the noun form is required."
+ },
+ {
+  "sentence": "Wages have failed to keep ___ with inflation.",
+  "answer": "pace",
+  "options": [
+   "pace",
+   "speed",
+   "rate",
+   "tempo"
+  ],
+  "hint": "keep ___ with = move as fast as",
+  "explanation": "'Keep pace with' is the fixed expression for moving at the same rate as something else."
+ },
+ {
+  "sentence": "Three thousand extra troops were ___ to the flooded border region.",
+  "answer": "deployed",
+  "options": [
+   "deployed",
+   "employed",
+   "implied",
+   "replied"
+  ],
+  "hint": "sent to where they are needed",
+  "explanation": "'Deploy troops' = move them into position for action; 'employed' means given regular jobs."
+ },
+ {
+  "sentence": "The minister refused to ___ on the allegations, citing ongoing legal proceedings.",
+  "answer": "comment",
+  "options": [
+   "comment",
+   "commence",
+   "commemorate",
+   "commandeer"
+  ],
+  "hint": "express an opinion publicly",
+  "explanation": "'Comment on something' = give an opinion about it; the other verbs share the prefix but not the meaning."
+ },
+ {
+  "sentence": "The two companies have ___ a deal worth several million euros.",
+  "answer": "struck",
+  "options": [
+   "struck",
+   "stroked",
+   "stuck",
+   "stirred"
+  ],
+  "hint": "strike a deal = agree one",
+  "explanation": "'Strike a deal/bargain' is the fixed collocation; the past participle 'struck' follows 'have'."
+ },
+ {
+  "sentence": "The crowd ___ its appreciation with a minute of applause.",
+  "answer": "showed",
+  "options": [
+   "showed",
+   "spoke",
+   "uttered",
+   "pronounced"
+  ],
+  "hint": "demonstrated (a feeling)",
+  "explanation": "'Show appreciation' is the natural collocation; speak/utter/pronounce take words, not feelings."
+ },
+ {
+  "sentence": "The plans for the new stadium were ___ when the funding fell through.",
+  "answer": "scrapped",
+  "options": [
+   "scrapped",
+   "scraped",
+   "scrambled",
+   "scribbled"
+  ],
+  "hint": "thrown away, abandoned",
+  "explanation": "'Scrap plans' = abandon them completely; 'scrape' means rub or just manage."
+ },
+ {
+  "sentence": "The firm has ___ its workforce, cutting it from two thousand to one thousand.",
+  "answer": "halved",
+  "options": [
+   "halved",
+   "half",
+   "halving",
+   "halves"
+  ],
+  "hint": "reduced by fifty per cent",
+  "explanation": "'Halve' is the verb (past participle 'halved'); 'half' is a noun or adverb."
+ },
+ {
+  "sentence": "The recession has ___ the fishing industry to its knees.",
+  "answer": "brought",
+  "options": [
+   "brought",
+   "contributed",
+   "attributed",
+   "distributed"
+  ],
+  "hint": "bring sth to its knees",
+  "explanation": "'Bring something to its knees' = nearly destroy it; the other verbs do not form this idiom."
+ },
+ {
+  "sentence": "Inflation is currently ___ at just under three per cent.",
+  "answer": "running",
+  "options": [
+   "running",
+   "rushing",
+   "riding",
+   "roaring"
+  ],
+  "hint": "running at = moving at (a level)",
+  "explanation": "'Run at a rate/level' is the economic collocation for standing at that figure over time."
+ },
+ {
+  "sentence": "The injured climber was ___ to hospital by helicopter.",
+  "answer": "airlifted",
+  "options": [
+   "airlifted",
+   "airborne",
+   "alerted",
+   "aligned"
+  ],
+  "hint": "flown out for emergency care",
+  "explanation": "'Airlift somebody' = transport them by aircraft, usually in an emergency."
+ },
+ {
+  "sentence": "The lease ___ at the end of March, so we need to start looking for new premises.",
+  "answer": "expires",
+  "options": [
+   "expires",
+   "expels",
+   "exports",
+   "exhales"
+  ],
+  "hint": "comes to an end",
+  "explanation": "'Expire' = come to the end of its validity; 'expel' means force somebody out."
+ },
+ {
+  "sentence": "She ___ out of the marathon after aggravating a knee injury.",
+  "answer": "pulled",
+  "options": [
+   "pulled",
+   "pooled",
+   "polled",
+   "parked"
+  ],
+  "hint": "pull out = withdraw",
+  "explanation": "'Pull out (of a race/competition)' = withdraw from it."
+ },
+ {
+  "sentence": "Small investors ___ heavily when the technology bubble burst.",
+  "answer": "lost",
+  "options": [
+   "lost",
+   "loose",
+   "loosen",
+   "losing"
+  ],
+  "hint": "past simple of lose",
+  "explanation": "Past simple 'lost' is required; 'loose' is an adjective and 'loosen' means make less tight."
+ },
+ {
+  "sentence": "The lifeboat crew were ___ for their courage during the rescue.",
+  "answer": "commended",
+  "options": [
+   "commended",
+   "commenced",
+   "commented",
+   "commanded"
+  ],
+  "hint": "formally praised",
+  "explanation": "'Commend somebody for something' = praise them formally; 'commence' means begin."
  }
 ]

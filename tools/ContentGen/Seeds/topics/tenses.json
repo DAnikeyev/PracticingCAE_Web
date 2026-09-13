@@ -1483,5 +1483,143 @@
   ],
   "hint": "duration up to now",
   "explanation": "'For an hour' and still relevant — present perfect continuous."
+ },
+ {
+  "sentence": "By Friday, the climbers ___ on the north face for six days without a break.",
+  "answer": "will have been",
+  "options": [
+   "will have been",
+   "will be",
+   "are",
+   "have been"
+  ],
+  "hint": "duration measured to a future point",
+  "explanation": "'By Friday + for six days' calls for the future perfect: will have been."
+ },
+ {
+  "sentence": "The committee ___ for three hours by the time anyone mentioned the budget.",
+  "answer": "had been arguing",
+  "options": [
+   "had been arguing",
+   "has been arguing",
+   "was arguing",
+   "argued"
+  ],
+  "hint": "duration up to a past point",
+  "explanation": "'By the time + past' requires the past perfect continuous for the ongoing activity."
+ },
+ {
+  "sentence": "Hardly ___ the presentation started when the fire alarm went off.",
+  "answer": "had",
+  "hint": "hardly + inversion",
+  "explanation": "'Hardly had … when' — the past perfect with inversion after 'hardly'."
+ },
+ {
+  "sentence": "When she ___ the invoice tomorrow, please pay it immediately.",
+  "answer": "sends",
+  "options": [
+   "sends",
+   "will send",
+   "sent",
+   "was sending"
+  ],
+  "hint": "time clause: no will",
+  "explanation": "After time conjunctions like 'when' referring to the future, use the present simple."
+ },
+ {
+  "sentence": "I ___ you were in hospital — why did nobody tell me?",
+  "answer": "didn't know",
+  "options": [
+   "didn't know",
+   "don't know",
+   "haven't known",
+   "hadn't known"
+  ],
+  "hint": "past state, now finished",
+  "explanation": "The finding out is in the past, so the past simple 'didn't know' is used."
+ },
+ {
+  "sentence": "By the time the fire crew arrived, the neighbours ___ the blaze out with buckets of water.",
+  "answer": "had put",
+  "options": [
+   "had put",
+   "have put",
+   "put",
+   "were putting"
+  ],
+  "hint": "earlier past action",
+  "explanation": "The putting out happened before the crew arrived: past perfect 'had put'."
+ },
+ {
+  "sentence": "This is the second time the printer ___ down this week.",
+  "answer": "has broken",
+  "options": [
+   "has broken",
+   "broke",
+   "had broken",
+   "breaks"
+  ],
+  "hint": "the second time + present perfect",
+  "explanation": "'This is the second time …' is followed by the present perfect."
+ },
+ {
+  "sentence": "Look out — that ladder ___ !",
+  "answer": "is going to fall",
+  "options": [
+   "is going to fall",
+   "falls",
+   "fell",
+   "has fallen"
+  ],
+  "hint": "prediction from present evidence",
+  "explanation": "Visible present evidence points to a future event: 'is going to fall'."
+ },
+ {
+  "sentence": "No sooner ___ the verdict been read than the defence announced an appeal.",
+  "answer": "had",
+  "options": [
+   "had",
+   "has",
+   "was",
+   "did"
+  ],
+  "hint": "passive with no sooner",
+  "explanation": "'No sooner had … been read than' — past perfect passive with inversion."
+ },
+ {
+  "sentence": "The company ___ its first quarterly profit in a decade last spring.",
+  "answer": "reported",
+  "options": [
+   "reported",
+   "has reported",
+   "had reported",
+   "reports"
+  ],
+  "hint": "finished time: last spring",
+  "explanation": "'Last spring' is a finished time reference, so the past simple is required."
+ },
+ {
+  "sentence": "She ___ her keys yet again — this is becoming a real habit.",
+  "answer": "has lost",
+  "options": [
+   "has lost",
+   "loses",
+   "had lost",
+   "was losing"
+  ],
+  "hint": "recent event with present relevance",
+  "explanation": "The present perfect links the recent loss to the present habit."
+ },
+ {
+  "sentence": "Hardly a week ___ without some new scandal hitting the headlines.",
+  "answer": "goes by",
+  "options": [
+   "goes by",
+   "goes out",
+   "goes off",
+   "goes down"
+  ],
+  "hint": "go ___ = pass",
+  "explanation": "'Hardly a week goes by' = weeks rarely pass without something happening."
  }
 ]

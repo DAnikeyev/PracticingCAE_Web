@@ -1083,5 +1083,149 @@
   ],
   "hint": "impersonal passive",
   "explanation": "'People think he is …' → 'he is thought to be …'."
+ },
+ {
+  "sentence": "The bridge ___ (CLOSE) to traffic since the landslide.",
+  "answer": "has been closed",
+  "options": [
+   "has been closed",
+   "was closed",
+   "is closed",
+   "had closed"
+  ],
+  "hint": "state continuing since a past point",
+  "explanation": "'Since' with a continuing state takes the present perfect passive: has been closed."
+ },
+ {
+  "sentence": "The results ___ (EXPECT) to be announced later today.",
+  "answer": "are expected",
+  "options": [
+   "are expected",
+   "expected",
+   "expect",
+   "were expected"
+  ],
+  "hint": "present passive reporting",
+  "explanation": "'Later today' requires the present: are expected to be announced."
+ },
+ {
+  "sentence": "The stolen paintings ___ (REPORT) to have been sold abroad.",
+  "answer": "are reported",
+  "options": [
+   "are reported",
+   "reported",
+   "reporting",
+   "is reporting"
+  ],
+  "hint": "passive reporting verb",
+  "explanation": "'They report that…' becomes the passive 'are reported to have been sold'."
+ },
+ {
+  "sentence": "This machine ___ (NOT USE) for years before I repaired it.",
+  "answer": "hadn't been used",
+  "options": [
+   "hadn't been used",
+   "wasn't used",
+   "hasn't been used",
+   "didn't use"
+  ],
+  "hint": "negative passive before a past point",
+  "explanation": "The disuse continued up to the past repair: past perfect passive hadn't been used."
+ },
+ {
+  "sentence": "The winners ___ (GIVE) their medals by the mayor last night.",
+  "answer": "were given",
+  "options": [
+   "were given",
+   "gave",
+   "are given",
+   "were giving"
+  ],
+  "hint": "past passive with agent",
+  "explanation": "'Last night' + agent 'by the mayor': past simple passive were given."
+ },
+ {
+  "sentence": "The new policy ___ (CRITICISE) sharply since it was announced.",
+  "answer": "has been criticised",
+  "options": [
+   "has been criticised",
+   "was criticised",
+   "is criticised",
+   "had criticised"
+  ],
+  "hint": "criticism continuing until now",
+  "explanation": "'Since' + continuing result: present perfect passive has been criticised."
+ },
+ {
+  "sentence": "A final decision ___ (MAKE) once the consultation ends.",
+  "answer": "will be made",
+  "options": [
+   "will be made",
+   "is making",
+   "has made",
+   "will make"
+  ],
+  "hint": "future passive",
+  "explanation": "The decision does not make itself: future passive will be made."
+ },
+ {
+  "sentence": "The manuscript ___ (BELIEVE) to be the composer’s last work.",
+  "answer": "is believed",
+  "options": [
+   "is believed",
+   "believed",
+   "is believing",
+   "believes"
+  ],
+  "hint": "passive reporting",
+  "explanation": "'People believe it is…' becomes 'it is believed to be…'."
+ },
+ {
+  "sentence": "Overnight the empty field ___ (TRANSFORM) into a car park.",
+  "answer": "was transformed",
+  "options": [
+   "was transformed",
+   "transformed",
+   "was transforming",
+   "transforms"
+  ],
+  "hint": "completed past change, passive",
+  "explanation": "A single completed change in the past: was transformed."
+ },
+ {
+  "sentence": "The archives ___ (CAN SEE) by appointment only.",
+  "answer": "can be seen",
+  "options": [
+   "can be seen",
+   "can see",
+   "must see",
+   "can be viewing"
+  ],
+  "hint": "modal passive",
+  "explanation": "Modal + be + participle: can be seen."
+ },
+ {
+  "sentence": "The whole docklands area ___ (REDEVELOP) at present.",
+  "answer": "is being redeveloped",
+  "options": [
+   "is being redeveloped",
+   "is redeveloped",
+   "has redeveloped",
+   "redevelops"
+  ],
+  "hint": "progressive passive",
+  "explanation": "'At present' signals an ongoing process: is being redeveloped."
+ },
+ {
+  "sentence": "She hates ___ (WATCH) while she paints.",
+  "answer": "being watched",
+  "options": [
+   "being watched",
+   "to watch",
+   "watched",
+   "watching"
+  ],
+  "hint": "passive gerund",
+  "explanation": "'She hates' takes a gerund; the passive gerund is 'being watched'."
  }
 ]

@@ -1510,5 +1510,149 @@
   ],
   "hint": "concession + noun phrase",
   "explanation": "'Despite the danger' — noun phrase; although needs a clause."
+ },
+ {
+  "sentence": "The flight was cheap ___ it landed at 4 a.m.",
+  "answer": "although",
+  "options": [
+   "although",
+   "despite",
+   "in spite",
+   "whereas"
+  ],
+  "hint": "concession + clause",
+  "explanation": "'Although' introduces a full clause; 'despite/in spite' need noun phrases."
+ },
+ {
+  "sentence": "The manuscript is priceless; ___, it is far too fragile to display.",
+  "answer": "however",
+  "options": [
+   "however",
+   "therefore",
+   "moreover",
+   "otherwise"
+  ],
+  "hint": "contrast after a semicolon",
+  "explanation": "'However' marks the contrast between value and fragility."
+ },
+ {
+  "sentence": "___ the roadworks, the coach still arrived ahead of schedule.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "Because",
+   "Whereas"
+  ],
+  "hint": "concession + noun phrase",
+  "explanation": "'Despite' + noun phrase concedes the obstacle."
+ },
+ {
+  "sentence": "Bring a thermos ___ the tea tent closes at noon.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "so that",
+   "unless",
+   "whereas"
+  ],
+  "hint": "precaution",
+  "explanation": "'In case' = as a precaution against something happening."
+ },
+ {
+  "sentence": "The rehearsals ran late; ___, the premiere itself went off without a hitch.",
+  "answer": "nevertheless",
+  "options": [
+   "nevertheless",
+   "therefore",
+   "thus",
+   "hence"
+  ],
+  "hint": "contrast after a semicolon",
+  "explanation": "'Nevertheless' = in spite of what was just said."
+ },
+ {
+  "sentence": "___ she now lives in Oslo, she still supports the Dublin club.",
+  "answer": "Although",
+  "options": [
+   "Although",
+   "Despite",
+   "In case",
+   "Unless"
+  ],
+  "hint": "concession + full clause",
+  "explanation": "'Although' introduces the contrasting clause; 'despite' needs a noun phrase."
+ },
+ {
+  "sentence": "The drug trial was halted ___ an irregularity in the data.",
+  "answer": "owing to",
+  "options": [
+   "owing to",
+   "although",
+   "unless",
+   "so that"
+  ],
+  "hint": "formal cause + noun",
+  "explanation": "'Owing to' + noun phrase gives the reason in formal register."
+ },
+ {
+  "sentence": "He neither apologised ___ offered an explanation.",
+  "answer": "nor",
+  "options": [
+   "nor",
+   "or",
+   "either",
+   "never"
+  ],
+  "hint": "neither … ?",
+  "explanation": "'Neither' pairs with 'nor' in this correlative structure."
+ },
+ {
+  "sentence": "___ his leg was strapped up, the captain insisted on playing.",
+  "answer": "Even though",
+  "options": [
+   "Even though",
+   "Even",
+   "Despite",
+   "However"
+  ],
+  "hint": "strong concession + clause",
+  "explanation": "'Even though' intensifies the concession before a full clause."
+ },
+ {
+  "sentence": "She took notes during the seminar ___ she could write it up that evening.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "in case",
+   "although",
+   "whereas"
+  ],
+  "hint": "purpose",
+  "explanation": "'So that' introduces the purpose of the action."
+ },
+ {
+  "sentence": "The ferry was cancelled; ___, we drove the long way round.",
+  "answer": "consequently",
+  "options": [
+   "consequently",
+   "nevertheless",
+   "although",
+   "whereas"
+  ],
+  "hint": "result after a semicolon",
+  "explanation": "'Consequently' introduces the consequence of the cancellation."
+ },
+ {
+  "sentence": "___ the criticism, the festival has been renewed for three more years.",
+  "answer": "In spite of",
+  "options": [
+   "In spite of",
+   "Even",
+   "Although",
+   "Because of"
+  ],
+  "hint": "concession + noun phrase",
+  "explanation": "'In spite of' + noun phrase concedes the criticism."
  }
 ]

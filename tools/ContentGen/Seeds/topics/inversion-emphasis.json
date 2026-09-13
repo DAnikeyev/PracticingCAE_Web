@@ -543,5 +543,80 @@
   "answer": "was",
   "hint": "so + adjective + that",
   "explanation": "'So convinced was he of …' — inversion after fronted 'so + adj'."
+ },
+ {
+  "sentence": "Only when the last vote had been counted ___ the returning officer speak.",
+  "answer": "did",
+  "hint": "Only when … + inversion",
+  "explanation": "'Only when' at the front forces question order: did the returning officer speak."
+ },
+ {
+  "sentence": "Never before that afternoon ___ so many goals been scored in one match.",
+  "answer": "had",
+  "hint": "past anchor forces past perfect",
+  "explanation": "'Never before that afternoon' fixes the reference in the past: had so many goals been scored."
+ },
+ {
+  "sentence": "Little ___ anyone realise how close the firm was to insolvency.",
+  "answer": "did",
+  "hint": "Little + inversion (they did not realise)",
+  "explanation": "\"Little did anyone realise\" = nobody realised — emphatic inversion with do-support."
+ },
+ {
+  "sentence": "So ferocious ___ the storm prove that three coastal villages were evacuated.",
+  "answer": "did",
+  "hint": "So + adjective + do-support",
+  "explanation": "With the bare verb 'prove', the inversion takes do-support: did the storm prove."
+ },
+ {
+  "sentence": "Scarcely had the anthem finished ___ the crowd invaded the pitch.",
+  "answer": "when",
+  "hint": "scarcely … ?",
+  "explanation": "'Scarcely … when' is the fixed pair (never 'than')."
+ },
+ {
+  "sentence": "We had no ___ signed the lease than the landlord sold the building.",
+  "answer": "sooner",
+  "hint": "no ___ … than",
+  "explanation": "'No sooner … than' — here with 'had' before the participle."
+ },
+ {
+  "sentence": "Only now ___ the true cost of the delay becoming clear.",
+  "answer": "is",
+  "hint": "present reference forces progressive",
+  "explanation": "'Only now' + the progressive 'becoming' forces 'is' with inversion."
+ },
+ {
+  "sentence": "Reluctant ___ she was to intervene, the referee stopped the match.",
+  "answer": "though",
+  "accept": [
+   "as"
+  ],
+  "hint": "adjective + ___ + subject",
+  "explanation": "Fronted adjective + though/as + subject is emphatic concession: Reluctant though she was…"
+ },
+ {
+  "sentence": "Only later ___ it occur to her that the letter had been a forgery.",
+  "answer": "did",
+  "hint": "Only later + inversion",
+  "explanation": "'Only later' at the front inverts with do-support: did it occur to her."
+ },
+ {
+  "sentence": "Such ___ the chaos at the airport that hundreds slept on the terminal floor.",
+  "answer": "was",
+  "hint": "Such + be + subject",
+  "explanation": "'Such was the chaos that…' — emphatic fronting of 'such' with inversion."
+ },
+ {
+  "sentence": "Not only ___ she won the marathon, but she also broke the course record.",
+  "answer": "has",
+  "hint": "Not only + inversion (perfect)",
+  "explanation": "'Not only has she won' — inversion with the present perfect auxiliary."
+ },
+ {
+  "sentence": "Hardly ___ the tenders been opened when the leak was traced to the press office.",
+  "answer": "had",
+  "hint": "passive with hardly",
+  "explanation": "'Hardly had … been opened when' — past perfect passive with inversion."
  }
 ]

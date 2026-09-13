@@ -1486,5 +1486,149 @@
   ],
   "hint": "take place = happen",
   "explanation": "'Take place' is the fixed phrase for events."
+ },
+ {
+  "sentence": "The company has ___ enormous losses this quarter.",
+  "answer": "suffered",
+  "options": [
+   "suffered",
+   "hurt",
+   "damaged",
+   "injured"
+  ],
+  "hint": "experience something bad",
+  "explanation": "'Suffer losses' is the standard collocation for experiencing financial loss."
+ },
+ {
+  "sentence": "The ministry has ___ an inquiry into the collapse.",
+  "answer": "ordered",
+  "options": [
+   "ordered",
+   "asked",
+   "said",
+   "spoke"
+  ],
+  "hint": "officially request an inquiry",
+  "explanation": "'Order an inquiry' = officially commission a formal investigation."
+ },
+ {
+  "sentence": "Her talk really ___ home the urgency of the situation.",
+  "answer": "drove",
+  "options": [
+   "drove",
+   "steered",
+   "sailed",
+   "parked"
+  ],
+  "hint": "drive sth home = stress it",
+  "explanation": "'Drive something home' = make it fully understood."
+ },
+ {
+  "sentence": "The negotiators agreed to ___ the deadline by a fortnight.",
+  "answer": "extend",
+  "options": [
+   "extend",
+   "expand",
+   "expend",
+   "extol"
+  ],
+  "hint": "make longer in time",
+  "explanation": "'Extend a deadline' = move it later; 'expand' means grow larger."
+ },
+ {
+  "sentence": "The new evidence has ___ doubt on the original conviction.",
+  "answer": "thrown",
+  "options": [
+   "thrown",
+   "tossed",
+   "hurled",
+   "pitched"
+  ],
+  "hint": "throw doubt on = question",
+  "explanation": "'Throw doubt on' is the fixed phrase for casting suspicion on something."
+ },
+ {
+  "sentence": "The two sides finally ___ terms in the early hours of the morning.",
+  "answer": "came",
+  "options": [
+   "came",
+   "reached",
+   "got",
+   "arrived"
+  ],
+  "hint": "come to terms = agree",
+  "explanation": "'Come to terms' is the fixed expression for reaching agreement."
+ },
+ {
+  "sentence": "The regulator has ___ its warning that the scheme may be unlawful.",
+  "answer": "reiterated",
+  "options": [
+   "reiterated",
+   "rehearsed",
+   "revoked",
+   "repealed"
+  ],
+  "hint": "repeated formally",
+  "explanation": "'Reiterate' = state again, formally; 'revoke' means cancel."
+ },
+ {
+  "sentence": "The judge ___ the jury to consider its verdict carefully.",
+  "answer": "directed",
+  "options": [
+   "directed",
+   "dictated",
+   "dialled",
+   "diverted"
+  ],
+  "hint": "officially instructed",
+  "explanation": "'Direct the jury' is the legal collocation for instructing it."
+ },
+ {
+  "sentence": "The charity ___ over a million euros in a single weekend appeal.",
+  "answer": "raised",
+  "options": [
+   "raised",
+   "risen",
+   "rose",
+   "arose"
+  ],
+  "hint": "collected (money), transitive",
+  "explanation": "'Raise money' takes an object; rise/rose/arose are intransitive."
+ },
+ {
+  "sentence": "The new CEO is keen to ___ her mark on the company.",
+  "answer": "make",
+  "options": [
+   "make",
+   "take",
+   "put",
+   "set"
+  ],
+  "hint": "make your mark = have an impact",
+  "explanation": "'Make your mark on something' = have a clear, lasting effect on it."
+ },
+ {
+  "sentence": "The editors decided to ___ the chapter from the paperback edition.",
+  "answer": "omit",
+  "options": [
+   "omit",
+   "admit",
+   "submit",
+   "remit"
+  ],
+  "hint": "leave out deliberately",
+  "explanation": "\"Omit\" = leave out; the other -mit verbs mean let in, hand in, or send (money)."
+ },
+ {
+  "sentence": "The company has ___ itself a reputation for ruthless efficiency.",
+  "answer": "earned",
+  "options": [
+   "earned",
+   "afforded",
+   "allowed",
+   "donated"
+  ],
+  "hint": "acquired through actions",
+  "explanation": "'Earn a reputation' = acquire it through behaviour over time."
  }
 ]

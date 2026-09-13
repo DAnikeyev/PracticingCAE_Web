@@ -1729,5 +1729,149 @@
   ],
   "hint": "kick ___ = begin",
   "explanation": "'Kick off' = start, informally."
+ },
+ {
+  "sentence": "The publishers are bringing ___ a revised edition in the spring.",
+  "answer": "out",
+  "options": [
+   "out",
+   "up",
+   "round",
+   "about"
+  ],
+  "hint": "bring ___ = publish",
+  "explanation": "'Bring out' = produce and publish a new product or edition."
+ },
+ {
+  "sentence": "The talks fell ___ when neither side would compromise on fishing rights.",
+  "answer": "through",
+  "options": [
+   "through",
+   "out",
+   "down",
+   "behind"
+  ],
+  "hint": "fall ___ = fail to happen",
+  "explanation": "'Fall through' = (a plan or deal) fail to be completed."
+ },
+ {
+  "sentence": "If the strike goes ___, deliveries will stop nationwide.",
+  "answer": "ahead",
+  "options": [
+   "ahead",
+   "along",
+   "off",
+   "under"
+  ],
+  "hint": "go ___ = proceed",
+  "explanation": "'Go ahead' = proceed as planned."
+ },
+ {
+  "sentence": "The security guard waved us ___ without checking our passes.",
+  "answer": "through",
+  "options": [
+   "through",
+   "off",
+   "down",
+   "away"
+  ],
+  "hint": "wave ___ = let pass",
+  "explanation": "'Wave somebody through' = signal them to pass a checkpoint."
+ },
+ {
+  "sentence": "When the alarm sounded, everyone made ___ the nearest exit.",
+  "answer": "for",
+  "options": [
+   "for",
+   "up",
+   "out",
+   "off"
+  ],
+  "hint": "make ___ = head towards",
+  "explanation": "'Make for' = move towards, usually in haste."
+ },
+ {
+  "sentence": "It took the committee weeks to wade ___ the paperwork.",
+  "answer": "through",
+  "options": [
+   "through",
+   "into",
+   "over",
+   "across"
+  ],
+  "hint": "wade ___ = plod through a lot of",
+  "explanation": "'Wade through' = work slowly through a large amount of tedious material."
+ },
+ {
+  "sentence": "Management finally gave ___ to the union's demand for a pay rise.",
+  "answer": "in",
+  "options": [
+   "in",
+   "up",
+   "out",
+   "away"
+  ],
+  "hint": "give ___ to = yield to",
+  "explanation": "'Give in to' = stop resisting and agree to demands."
+ },
+ {
+  "sentence": "The police are cracking ___ on unlicensed street vendors.",
+  "answer": "down",
+  "options": [
+   "down",
+   "up",
+   "in",
+   "off"
+  ],
+  "hint": "crack ___ on = act firmly against",
+  "explanation": "'Crack down on' = deal firmly with illegal behaviour."
+ },
+ {
+  "sentence": "Her honesty more than makes ___ for her lack of experience.",
+  "answer": "up",
+  "options": [
+   "up",
+   "out",
+   "over",
+   "off"
+  ],
+  "hint": "make ___ for = compensate for",
+  "explanation": "'Make up for' = compensate for a shortcoming."
+ },
+ {
+  "sentence": "She waited at the restaurant for an hour, but he had stood her ___ again.",
+  "answer": "up",
+  "options": [
+   "up",
+   "down",
+   "off",
+   "out"
+  ],
+  "hint": "stand sb ___ = fail to appear",
+  "explanation": "'Stand somebody up' = fail to keep an arranged meeting."
+ },
+ {
+  "sentence": "Small suppliers are struggling to keep their heads ___ water.",
+  "answer": "above",
+  "options": [
+   "above",
+   "over",
+   "under",
+   "out of"
+  ],
+  "hint": "survive financial difficulty",
+  "explanation": "'Keep your head above water' = just manage to survive, especially financially."
+ },
+ {
+  "sentence": "The chairman walked ___ of the meeting when the press arrived.",
+  "answer": "out",
+  "options": [
+   "out",
+   "off",
+   "up",
+   "away"
+  ],
+  "hint": "walk ___ of = leave in protest",
+  "explanation": "'Walk out of' = leave suddenly, often to show disapproval."
  }
 ]

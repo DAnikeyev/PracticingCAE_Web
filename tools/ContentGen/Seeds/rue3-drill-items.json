@@ -1831,5 +1831,245 @@
   ],
   "hint": "noun after remarkable",
   "explanation": "'With remarkable accuracy' — the noun."
+ },
+ {
+  "sentence": "India gained ___ (DEPEND) from Britain in 1947.",
+  "answer": "independence",
+  "options": [
+   "independence",
+   "independent",
+   "dependence",
+   "dependently"
+  ],
+  "hint": "noun: the state of being free from rule",
+  "explanation": "'Gain independence' = become self-governing; the noun form follows the verb."
+ },
+ {
+  "sentence": "___ (PERSIST) rain ruined the first two days of the festival.",
+  "answer": "Persistent",
+  "options": [
+   "Persistent",
+   "Persistence",
+   "Persistently",
+   "Persisting"
+  ],
+  "hint": "adjective before a noun",
+  "explanation": "An adjective is needed before 'rain': persistent; 'persistence' is the noun."
+ },
+ {
+  "sentence": "The mountain road has been ___ (WIDE) to cope with coach traffic.",
+  "answer": "widened",
+  "options": [
+   "widened",
+   "wide",
+   "widely",
+   "width"
+  ],
+  "hint": "passive verb: made wider",
+  "explanation": "Passive 'has been widened' — the verb form meaning made wider."
+ },
+ {
+  "sentence": "The minister was ___ (CRITIC) for her handling of the flooding crisis.",
+  "answer": "criticised",
+  "options": [
+   "criticised",
+   "critical",
+   "criticism",
+   "critically"
+  ],
+  "hint": "passive verb: attacked in words",
+  "explanation": "'Be criticised for' = be attacked verbally; the verb form is needed in the passive."
+ },
+ {
+  "sentence": "The dogs’ astonishing ___ (LOYAL) to their owners is well documented.",
+  "answer": "loyalty",
+  "options": [
+   "loyalty",
+   "loyal",
+   "loyally",
+   "loyalness"
+  ],
+  "hint": "noun after an adjective",
+  "explanation": "'Astonishing loyalty' — the quality noun is required after the adjective."
+ },
+ {
+  "sentence": "A side-by-side ___ (COMPARE) of the two plans reveals clear differences.",
+  "answer": "comparison",
+  "options": [
+   "comparison",
+   "comparative",
+   "comparatively",
+   "compared"
+  ],
+  "hint": "noun after an adjective",
+  "explanation": "'A comparison of X and Y' — the noun form follows the article and adjective."
+ },
+ {
+  "sentence": "The new software ___ (ABLE) staff to work securely from anywhere.",
+  "answer": "enables",
+  "options": [
+   "enables",
+   "able",
+   "ably",
+   "ability"
+  ],
+  "hint": "verb: make possible",
+  "explanation": "'Enable somebody to do something' — the present-tense verb fits the singular subject."
+ },
+ {
+  "sentence": "The castle is ___ (SIGHT) for miles in every direction.",
+  "answer": "visible",
+  "options": [
+   "visible",
+   "visibility",
+   "visibly",
+   "vision"
+  ],
+  "hint": "adjective: able to be seen",
+  "explanation": "'Be visible' = can be seen; 'visibility' is the noun for how far you can see."
+ },
+ {
+  "sentence": "The delays have made the project far more ___ (COST) than planned.",
+  "answer": "costly",
+  "options": [
+   "costly",
+   "costing",
+   "cost",
+   "costliness"
+  ],
+  "hint": "adjective: expensive",
+  "explanation": "'Far more costly' — the comparative adjective is needed after 'more'."
+ },
+ {
+  "sentence": "The project was abandoned for ___ (FINANCE) reasons.",
+  "answer": "financial",
+  "options": [
+   "financial",
+   "financially",
+   "finance",
+   "financier"
+  ],
+  "hint": "adjective before a noun",
+  "explanation": "An adjective is needed before 'reasons': financial."
+ },
+ {
+  "sentence": "The economy showed further ___ (WEAK) in the third quarter.",
+  "answer": "weakness",
+  "options": [
+   "weakness",
+   "weak",
+   "weakly",
+   "weaken"
+  ],
+  "hint": "noun after an adjective",
+  "explanation": "'Further weakness' — the noun form follows the adjective 'further'."
+ },
+ {
+  "sentence": "The signing of the armistice was a ___ (HISTORY) moment for the region.",
+  "answer": "historic",
+  "options": [
+   "historic",
+   "historical",
+   "historian",
+   "historically"
+  ],
+  "hint": "adjective: momentous in history",
+  "explanation": "'Historic' = momentous, making history; 'historical' merely means related to the past."
+ },
+ {
+  "sentence": "The factory has doubled its ___ (PRODUCE) of electric batteries.",
+  "answer": "production",
+  "options": [
+   "production",
+   "productive",
+   "producer",
+   "productively"
+  ],
+  "hint": "noun after a possessive",
+  "explanation": "'Its production' — the noun for the amount manufactured follows the possessive."
+ },
+ {
+  "sentence": "Drive ___ (CARE) — the mountain road has hairpin bends.",
+  "answer": "carefully",
+  "options": [
+   "carefully",
+   "careful",
+   "care",
+   "carefulness"
+  ],
+  "hint": "adverb modifying a verb",
+  "explanation": "An adverb is needed to modify 'drive': carefully."
+ },
+ {
+  "sentence": "The closure of the mine will leave four hundred workers ___ (EMPLOY).",
+  "answer": "unemployed",
+  "options": [
+   "unemployed",
+   "employed",
+   "employer",
+   "unemployment"
+  ],
+  "hint": "negative adjective: without a job",
+  "explanation": "'Leave somebody unemployed' — the negative adjective describes the workers."
+ },
+ {
+  "sentence": "Rising sea levels ___ (THREAT) the very existence of the island.",
+  "answer": "threaten",
+  "options": [
+   "threaten",
+   "threat",
+   "threatening",
+   "threateningly"
+  ],
+  "hint": "verb: put in danger",
+  "explanation": "A main verb is needed after the plural subject: threaten."
+ },
+ {
+  "sentence": "Do not be ___ (PATIENT) with the trainees — everyone learns at a different pace.",
+  "answer": "impatient",
+  "options": [
+   "impatient",
+   "patient",
+   "impatiently",
+   "patience"
+  ],
+  "hint": "negative adjective: not tolerant",
+  "explanation": "'Do not be impatient' — the negative adjective fits the advice against frustration."
+ },
+ {
+  "sentence": "Much to everyone’s ___ (APPOINT), the open-air concert was cancelled.",
+  "answer": "disappointment",
+  "options": [
+   "disappointment",
+   "disappointed",
+   "disappointing",
+   "appointment"
+  ],
+  "hint": "noun after a possessive",
+  "explanation": "'To somebody’s disappointment' — the feeling noun follows the possessive."
+ },
+ {
+  "sentence": "The instructions have been ___ (SIMPLE) so that children can follow them.",
+  "answer": "simplified",
+  "options": [
+   "simplified",
+   "simple",
+   "simply",
+   "simplicity"
+  ],
+  "hint": "passive verb: made simpler",
+  "explanation": "Passive 'have been simplified' — the verb form meaning made simpler."
+ },
+ {
+  "sentence": "The government made a formal ___ (DECLARE) of intent to invest in rail.",
+  "answer": "declaration",
+  "options": [
+   "declaration",
+   "declared",
+   "declarative",
+   "declaratively"
+  ],
+  "hint": "noun after an adjective",
+  "explanation": "'A formal declaration' — the noun follows the adjective."
  }
 ]

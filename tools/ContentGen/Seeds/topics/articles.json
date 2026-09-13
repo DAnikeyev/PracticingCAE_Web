@@ -1570,5 +1570,149 @@
   ],
   "hint": "plural noun in general",
   "explanation": "Plural nouns in a general sense take no article."
+ },
+ {
+  "sentence": "___ Sahara is expanding southwards by several kilometres a year.",
+  "answer": "The",
+  "options": [
+   "The",
+   "–",
+   "A",
+   "An"
+  ],
+  "hint": "deserts take a definite article",
+  "explanation": "Desert names take 'the': the Sahara, the Kalahari."
+ },
+ {
+  "sentence": "She was appointed ___ managing director at just thirty-four.",
+  "answer": "–",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "hint": "unique role after appoint",
+  "explanation": "After 'appoint/elect/name + unique role' no article is used."
+ },
+ {
+  "sentence": "The charity provides ___ shelter for homeless families in winter.",
+  "answer": "–",
+  "options": [
+   "–",
+   "a",
+   "the",
+   "an"
+  ],
+  "hint": "uncountable noun in general",
+  "explanation": "'Shelter' is uncountable and general here, so no article is used."
+ },
+ {
+  "sentence": "He received ___ OBE in the New Year's Honours list.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "letter name: /em/ sound",
+  "explanation": "'OBE' is pronounced /əʊ biː iː/, starting with a vowel sound, so 'an' is used."
+ },
+ {
+  "sentence": "___ number of applicants has doubled this year.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "–",
+   "An"
+  ],
+  "hint": "the number of + singular verb",
+  "explanation": "'The number of' takes a singular verb ('has'); 'a number of' would take 'have'."
+ },
+ {
+  "sentence": "She's ___ MEP for the north-west region.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "letter name: /em/ sound",
+  "explanation": "'MEP' is pronounced /em iː piː/, so the vowel sound 'an' is required."
+ },
+ {
+  "sentence": "___ unemployed are twice as likely to suffer from depression, the study found.",
+  "answer": "The",
+  "options": [
+   "The",
+   "–",
+   "A",
+   "An"
+  ],
+  "hint": "adjective as a social group",
+  "explanation": "'The + adjective' denotes the group as a whole: the unemployed."
+ },
+ {
+  "sentence": "We had ___ lunch at a bistro near the cathedral.",
+  "answer": "–",
+  "options": [
+   "–",
+   "a",
+   "the",
+   "an"
+  ],
+  "hint": "meals take no article",
+  "explanation": "Names of meals (breakfast, lunch, dinner) take no article when used generally."
+ },
+ {
+  "sentence": "The train arrived ___ hour late because of signal failure.",
+  "answer": "an",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "–"
+  ],
+  "hint": "silent h → vowel sound",
+  "explanation": "'Hour' begins with a silent h, so the vowel form 'an' is required."
+ },
+ {
+  "sentence": "___ piano was invented in Italy in the early eighteenth century.",
+  "answer": "The",
+  "options": [
+   "The",
+   "–",
+   "A",
+   "An"
+  ],
+  "hint": "instruments as a class",
+  "explanation": "'The + singular instrument' refers to the whole class: the piano."
+ },
+ {
+  "sentence": "My grandmother goes to ___ church every morning before work.",
+  "answer": "–",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "hint": "institution as activity",
+  "explanation": "'Go to church' (as worshipper) takes no article; 'the church' would mean the building."
+ },
+ {
+  "sentence": "___ Dutch consistently rank among the best non-native English speakers.",
+  "answer": "The",
+  "options": [
+   "The",
+   "–",
+   "A",
+   "An"
+  ],
+  "hint": "nationality as a whole people",
+  "explanation": "'The + nationality adjective' refers to the people of that country as a group."
  }
 ]

@@ -821,5 +821,131 @@
   "answer": "out",
   "hint": "run ___ of = have no more",
   "explanation": "'Run out of' = use up the supply."
+ },
+ {
+  "sentence": "Hardly ___ he finished speaking when the audience erupted.",
+  "answer": "had",
+  "hint": "hardly ___ + participle",
+  "explanation": "'Hardly' at the front inverts the past perfect: Hardly had he finished… when…"
+ },
+ {
+  "sentence": "Not only ___ the tickets overpriced, but the seating was appalling.",
+  "answer": "were",
+  "hint": "inversion after Not only (plural subject)",
+  "explanation": "'Not only' at the front inverts the verb: Not only were the tickets… but…"
+ },
+ {
+  "sentence": "The letter must ___ signed by both directors before it is valid.",
+  "answer": "be",
+  "hint": "must + passive",
+  "explanation": "'Must' is followed by the bare infinitive 'be' + past participle for the passive."
+ },
+ {
+  "sentence": "He's the colleague ___ report everyone has been talking about.",
+  "answer": "whose",
+  "hint": "possessive relative pronoun",
+  "explanation": "'Whose' shows possession: the colleague whose report…"
+ },
+ {
+  "sentence": "It is about time the board ___ a decision about the site, one way or the other.",
+  "answer": "made",
+  "hint": "it is about time + past",
+  "explanation": "'It is about time + subject + past simple' expresses the unreal past."
+ },
+ {
+  "sentence": "The witnesses gave accounts that contradicted one ___.",
+  "answer": "another",
+  "hint": "one ___ = each other (3+ people)",
+  "explanation": "'Contradict one another' is the reciprocal form used for more than two people."
+ },
+ {
+  "sentence": "The plane had no ___ taken off than the captain was forced to turn back.",
+  "answer": "sooner",
+  "hint": "no ___ … than",
+  "explanation": "'No sooner … than' is the fixed pair; here it sits after 'had'."
+ },
+ {
+  "sentence": "The rescuers worked ___ the night to reach the trapped family.",
+  "answer": "through",
+  "hint": "from evening until morning",
+  "explanation": "'Work through the night' = continue working for the whole night."
+ },
+ {
+  "sentence": "The guests had no sooner arrived ___ the fire alarm went off.",
+  "answer": "than",
+  "hint": "no sooner … ?",
+  "explanation": "'No sooner' is always followed by 'than', never 'when'."
+ },
+ {
+  "sentence": "He denied the charge, but the jury found him ___ after only an hour.",
+  "answer": "guilty",
+  "hint": "the opposite of his claim",
+  "explanation": "'But' signals a contrast with his denial: the jury found him guilty."
+ },
+ {
+  "sentence": "The climbers were ___ no danger once the storm had passed.",
+  "answer": "in",
+  "hint": "be ___ no danger",
+  "explanation": "'Be in no danger' is the fixed phrase with 'in'."
+ },
+ {
+  "sentence": "Not until the results were published ___ the scale of the error become clear.",
+  "answer": "did",
+  "hint": "Not until … + inversion",
+  "explanation": "'Not until' at the front forces question order with do-support: did … become clear."
+ },
+ {
+  "sentence": "She left the meeting without ___ a word.",
+  "answer": "saying",
+  "hint": "preposition + -ing",
+  "explanation": "After the preposition 'without' the gerund is needed: without saying a word."
+ },
+ {
+  "sentence": "It was not until she saw the letter ___ she realised how serious it was.",
+  "answer": "that",
+  "hint": "cleft sentence link",
+  "explanation": "The cleft pattern is 'It was not until … that …'."
+ },
+ {
+  "sentence": "The scheme, ___ was announced yesterday, will cost the city millions.",
+  "answer": "which",
+  "hint": "non-defining relative (thing)",
+  "explanation": "Non-defining clauses about things take 'which'; 'that' is impossible after a comma."
+ },
+ {
+  "sentence": "He's far too experienced a negotiator ___ be rattled by a hostile audience.",
+  "answer": "to",
+  "hint": "too + adjective + ?",
+  "explanation": "'Too + adjective + to-infinitive' expresses excess with a negative result."
+ },
+ {
+  "sentence": "The athlete was banned ___ competing for two years.",
+  "answer": "from",
+  "hint": "ban somebody ___ doing",
+  "explanation": "'Ban somebody from doing something' is the fixed pattern."
+ },
+ {
+  "sentence": "She prides herself ___ her punctuality.",
+  "answer": "on",
+  "accept": [
+   "upon"
+  ],
+  "hint": "pride oneself ___ sth",
+  "explanation": "'Pride oneself on something' is the reflexive collocation (formal 'upon' is also possible)."
+ },
+ {
+  "sentence": "I'd rather you ___ tell anyone about the merger until it is official.",
+  "answer": "didn't",
+  "accept": [
+   "not"
+  ],
+  "hint": "would rather + subject + past",
+  "explanation": "'Would rather + subject' takes the past form for an unreal present wish."
+ },
+ {
+  "sentence": "The committee was forced ___ admit that the consultation had been flawed.",
+  "answer": "to",
+  "hint": "be forced + ?",
+  "explanation": "'Be forced' is followed by the to-infinitive: forced to admit."
  }
 ]

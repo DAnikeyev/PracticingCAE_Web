@@ -1555,5 +1555,149 @@
   ],
   "hint": "asking permission, formal",
   "explanation": "'May I …?' politely asks permission."
+ },
+ {
+  "sentence": "The invoices ___ last week, so the delay is entirely our fault.",
+  "answer": "should have been sent",
+  "options": [
+   "should have been sent",
+   "should send",
+   "should be sent",
+   "must send"
+  ],
+  "hint": "unfulfilled past obligation, passive",
+  "explanation": "'Should have + participle' criticises a past omission; passive adds 'been sent'."
+ },
+ {
+  "sentence": "Although the road was blocked, we ___ reach the hospital in time.",
+  "answer": "were able to",
+  "options": [
+   "were able to",
+   "could",
+   "must",
+   "might"
+  ],
+  "hint": "specific past achievement",
+  "explanation": "For a single past achievement, 'was/were able to' is used, not 'could'."
+ },
+ {
+  "sentence": "Visitors ___ leave any bags unattended; security removes them at once.",
+  "answer": "must not",
+  "options": [
+   "must not",
+   "need not",
+   "do not have to",
+   "might not"
+  ],
+  "hint": "prohibition",
+  "explanation": "'Must not' expresses prohibition; 'need not' would mean it is optional."
+ },
+ {
+  "sentence": "You ___ seen the consultant's report — it is confidential and you have no clearance.",
+  "answer": "can't have",
+  "options": [
+   "can't have",
+   "must have",
+   "needn't have",
+   "should have"
+  ],
+  "hint": "impossible past deduction",
+  "explanation": "'Can't have + participle' expresses certainty that something did not happen."
+ },
+ {
+  "sentence": "You ___ be starving — you haven't eaten since breakfast.",
+  "answer": "must",
+  "options": [
+   "must",
+   "can't",
+   "needn't",
+   "shouldn't"
+  ],
+  "hint": "certain deduction about now",
+  "explanation": "'Must' expresses a logical deduction about the present."
+ },
+ {
+  "sentence": "We ___ have taken the wrong turning — the signpost was knocked down in the storm.",
+  "answer": "may",
+  "options": [
+   "may",
+   "should",
+   "needn't",
+   "daren't"
+  ],
+  "hint": "possible past explanation",
+  "explanation": "'May have + participle' offers one possible explanation of a past event."
+ },
+ {
+  "sentence": "Applications ___ reach the office by 30 June at the very latest.",
+  "answer": "must",
+  "options": [
+   "must",
+   "needn't",
+   "can't",
+   "might not"
+  ],
+  "hint": "strong obligation",
+  "explanation": "'Must' states a firm requirement with a deadline."
+ },
+ {
+  "sentence": "___ you mind giving your seat to that elderly lady?",
+  "answer": "Would",
+  "options": [
+   "Would",
+   "Should",
+   "Could",
+   "Might"
+  ],
+  "hint": "polite request pattern",
+  "explanation": "'Would you mind + -ing?' is the standard polite request."
+ },
+ {
+  "sentence": "He ___ not have heard the announcement — he had headphones on the whole flight.",
+  "answer": "can",
+  "options": [
+   "can",
+   "must",
+   "should",
+   "need"
+  ],
+  "hint": "impossible: can't have",
+  "explanation": "'Can't have heard' — 'can' supplies the negative deduction before 'not have heard'."
+ },
+ {
+  "sentence": "I'm afraid you ___ smoke anywhere in the terminal; it is strictly forbidden.",
+  "answer": "can't",
+  "options": [
+   "can't",
+   "needn't",
+   "don't have to",
+   "might not"
+  ],
+  "hint": "it is not permitted",
+  "explanation": "'Can't' expresses prohibition in everyday speech."
+ },
+ {
+  "sentence": "There was plenty of food left, so the guests ___ have been hungry.",
+  "answer": "can't",
+  "options": [
+   "can't",
+   "must",
+   "should",
+   "ought to"
+  ],
+  "hint": "deduction that contradicts the evidence",
+  "explanation": "The evidence (leftover food) rules out hunger: can't have been."
+ },
+ {
+  "sentence": "You ___ as well take the early train — the later one is often cancelled.",
+  "answer": "might",
+  "options": [
+   "might",
+   "must",
+   "should",
+   "would"
+  ],
+  "hint": "might as well = no reason not to",
+  "explanation": "'Might as well' suggests an option because the alternative is worse."
  }
 ]

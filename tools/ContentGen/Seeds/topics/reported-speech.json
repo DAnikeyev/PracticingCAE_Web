@@ -1037,5 +1037,149 @@
   ],
   "hint": "report an offer",
   "explanation": "'Offer somebody something' reports \"Would you like …?\""
+ },
+ {
+  "sentence": "'I'm looking for a flat near the hospital,' she explained. She explained that she ___ for a flat near the hospital.",
+  "answer": "was looking",
+  "options": [
+   "was looking",
+   "is looking",
+   "has looked",
+   "looked"
+  ],
+  "hint": "backshift present continuous",
+  "explanation": "Present continuous becomes past continuous in reported speech: was looking."
+ },
+ {
+  "sentence": "'We'll be arriving on the red-eye,' they said. They said they ___ on the red-eye.",
+  "answer": "would be arriving",
+  "options": [
+   "would be arriving",
+   "will be arriving",
+   "are arriving",
+   "had arrived"
+  ],
+  "hint": "backshift future continuous",
+  "explanation": "'Will be arriving' backshifts to 'would be arriving'."
+ },
+ {
+  "sentence": "'Don't touch the thermostat,' the technician warned us. The technician warned us ___ the thermostat.",
+  "answer": "not to touch",
+  "options": [
+   "not to touch",
+   "to don't touch",
+   "don't touch",
+   "for not touching"
+  ],
+  "hint": "negative reported command",
+  "explanation": "Negative commands are reported with 'warned + object + not to + infinitive'."
+ },
+ {
+  "sentence": "'Have you seen my reading glasses?' he asked. He asked ___ his reading glasses.",
+  "answer": "whether I had seen",
+  "options": [
+   "whether I had seen",
+   "did I see",
+   "if I have seen",
+   "that I had seen"
+  ],
+  "hint": "yes/no question + backshift",
+  "explanation": "'If/whether' reports a yes/no question; the tense backshifts to past perfect."
+ },
+ {
+  "sentence": "'You should get a second opinion,' the doctor said. The doctor ___ a second opinion.",
+  "answer": "advised me to get",
+  "options": [
+   "advised me to get",
+   "suggested me to get",
+   "offered me to get",
+   "informed me to get"
+  ],
+  "hint": "advise + object + to-infinitive",
+  "explanation": "'Advise' is the reporting verb that takes object + to-infinitive; suggest and offer do not."
+ },
+ {
+  "sentence": "'I'm sorry I forgot the meeting,' she said. She ___ forgetting the meeting.",
+  "answer": "apologised for",
+  "options": [
+   "apologised for",
+   "denied",
+   "accused",
+   "blamed"
+  ],
+  "hint": "apologise for + -ing",
+  "explanation": "An apology is reported with 'apologised for + gerund'."
+ },
+ {
+  "sentence": "'Let's walk to the launch instead of driving,' he said. He ___ to the launch instead of driving.",
+  "answer": "suggested walking",
+  "options": [
+   "suggested walking",
+   "suggested to walk",
+   "offered walking",
+   "promised walking"
+  ],
+  "hint": "suggest + -ing",
+  "explanation": "'Suggest' takes a gerund, never a to-infinitive."
+ },
+ {
+  "sentence": "'I'll pay for the damage,' he said. He ___ pay for the damage.",
+  "answer": "offered to",
+  "options": [
+   "offered to",
+   "denied to",
+   "admitted to",
+   "refused to"
+  ],
+  "hint": "report a voluntary offer",
+  "explanation": "'I'll pay' as a voluntary act is reported with 'offered to pay'."
+ },
+ {
+  "sentence": "'When does the library open?' she asked. She asked ___ the library opened.",
+  "answer": "when",
+  "options": [
+   "when",
+   "that",
+   "if",
+   "what"
+  ],
+  "hint": "keep the question word",
+  "explanation": "The original question word 'when' is kept in the reported clause."
+ },
+ {
+  "sentence": "'It was your team that missed the deadline,' the director told us. The director ___ missing the deadline.",
+  "answer": "blamed us for",
+  "options": [
+   "blamed us for",
+   "accused us for",
+   "blamed to us",
+   "accused to us"
+  ],
+  "hint": "blame somebody for",
+  "explanation": "'Blame somebody for something' is the correct pattern; 'accuse' takes 'of'."
+ },
+ {
+  "sentence": "'Please don't leave until the lights are off,' the caretaker begged us. The caretaker begged ___ until the lights were off.",
+  "answer": "us not to leave",
+  "options": [
+   "us not to leave",
+   "that we don't leave",
+   "us to don’t leave",
+   "we not to leave"
+  ],
+  "hint": "beg + object + not to",
+  "explanation": "Begging somebody not to do something uses object + not to + infinitive."
+ },
+ {
+  "sentence": "'I've already spoken to the insurers,' he reminded me. He reminded me that he ___ spoken to the insurers.",
+  "answer": "had already",
+  "options": [
+   "had already",
+   "has already",
+   "already",
+   "was already"
+  ],
+  "hint": "present perfect backshifts",
+  "explanation": "Present perfect backshifts to past perfect: had already spoken."
  }
 ]
