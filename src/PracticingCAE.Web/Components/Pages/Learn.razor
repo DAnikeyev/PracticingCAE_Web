@@ -1,31 +1,163 @@
 @page "/learn"
 @page "/learn/{Slug}"
+@using System.Linq
 @using PracticingCAE.Web.Components.Pages.LearnContent
 
-<PageTitle>Cheat sheets — CAE Practice</PageTitle>
-
-<div class="page-shell learn-page">
-    <h1>Cheat sheets</h1>
-    <p class="muted">Compact reference pages for the grammar this site tests.</p>
-
-    @if (Topic is null)
-    {
-        <ul>
-            @foreach (var t in LearnLibrary.Topics)
+@if (Slug is null)
+{
+    <PageTitle>Cheat sheets — CAE Practice</PageTitle>
+    <div class="page-shell learn-page">
+        <h1>Cheat sheets</h1>
+        <p class="muted learn-index-sub">Compact, exam-focused reference for the grammar and vocabulary CAE tests.</p>
+        @foreach (var group in LearnLibrary.Groups)
+        {
+            var topics = LearnLibrary.Topics.Where(t => t.Group == group).ToList();
+            if (topics.Count == 0)
             {
-                <li><a href="@($"learn/{t.Slug}")">@t.Title</a></li>
+                continue;
             }
-        </ul>
-    }
-    else
-    {
-        <h2>@Topic.Title</h2>
-        <p>Content placeholder.</p>
-    }
-</div>
+            <h2 class="learn-group-title">@group<span class="learn-group-count">@topics.Count</span></h2>
+            <div class="learn-grid">
+                @foreach (var t in topics)
+                {
+                    <a class="learn-card" href="/learn/@t.Slug">
+                        <h3>@t.Title</h3>
+                        <p>@t.Blurb</p>
+                    </a>
+                }
+            </div>
+        }
+    </div>
+}
+else if (Topic is not null)
+{
+    <PageTitle>@Topic.Title — CAE cheat sheets</PageTitle>
+    <div class="page-shell learn-page">
+        <nav class="learn-back"><a href="/learn">&larr; All cheat sheets</a></nav>
+        <div class="learn-layout">
+            <article class="learn-article">
+                <h1>@Topic.Title</h1>
+                <p class="muted learn-topic-sub">@Topic.Blurb</p>
+                @foreach (var sec in Topic.Sections)
+                {
+                    <div class="learn-section" id="@LearnText.Anchor(sec.Heading)">
+                        <h2>@sec.Heading</h2>
+                        @foreach (var block in sec.Blocks)
+                        {
+                            @if (block is LearnBlock.Para p)
+                            {
+                                <p class="learn-para">@((MarkupString)LearnText.Inline(p.Text))</p>
+                            }
+                            else if (block is LearnBlock.Note n)
+                            {
+                                <div class="learn-note">@((MarkupString)LearnText.Inline(n.Text))</div>
+                            }
+                            else if (block is LearnBlock.Bullets list)
+                            {
+                                <ul class="learn-bullets">
+                                    @foreach (var item in list.Items)
+                                    {
+                                        <li>@((MarkupString)LearnText.Inline(item))</li>
+                                    }
+                                </ul>
+                            }
+                            else if (block is LearnBlock.Examples ex)
+                            {
+                                <ul class="learn-examples">
+                                    @foreach (var line in ex.Lines)
+                                    {
+                                        <li>@((MarkupString)LearnText.Inline(line))</li>
+                                    }
+                                </ul>
+                            }
+                            else if (block is LearnBlock.DoDont dd)
+                            {
+                                <div class="learn-dodont">
+                                    <div class="learn-do">
+                                        <div class="learn-dodont-head">Do</div>
+                                        <ul>
+                                            @foreach (var item in dd.Dos)
+                                            {
+                                                <li>@((MarkupString)LearnText.Inline(item))</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <div class="learn-dont">
+                                        <div class="learn-dodont-head">Don't</div>
+                                        <ul>
+                                            @foreach (var item in dd.Donts)
+                                            {
+                                                <li>@((MarkupString)LearnText.Inline(item))</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            }
+                            else if (block is LearnBlock.Table table)
+                            {
+                                <div class="learn-table-wrap">
+                                    <table class="learn-table">
+                                        <thead>
+                                            <tr>
+                                                @foreach (var h in table.Headers)
+                                                {
+                                                    <th>@((MarkupString)LearnText.Inline(h))</th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var row in table.Rows)
+                                            {
+                                                <tr>
+                                                    @foreach (var cell in row)
+                                                    {
+                                                        <td>@((MarkupString)LearnText.Inline(cell))</td>
+                                                    }
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            }
+                        }
+                    </div>
+                }
+                <nav class="learn-pager">
+                    @if (Prev is not null)
+                    {
+                        <a href="/learn/@Prev.Slug">&larr; @Prev.Title</a>
+                    }
+                    @if (Next is not null)
+                    {
+                        <a class="learn-pager-next" href="/learn/@Next.Slug">@Next.Title &rarr;</a>
+                    }
+                </nav>
+            </article>
+            <aside class="learn-toc">
+                <div class="learn-toc-title">On this page</div>
+                @foreach (var s in Topic.Sections)
+                {
+                    <a href="#@LearnText.Anchor(s.Heading)">@s.Heading</a>
+                }
+            </aside>
+        </div>
+    </div>
+}
+else
+{
+    <PageTitle>Not found — CAE Practice</PageTitle>
+    <div class="page-shell learn-page">
+        <h1>Not found</h1>
+        <p class="muted">There is no cheat sheet called <code>@Slug</code>. <a href="/learn">Browse all topics</a>.</p>
+    </div>
+}
 
 @code {
     [Parameter] public string? Slug { get; set; }
 
     private LearnLibrary.Topic? Topic => Slug is null ? null : LearnLibrary.Find(Slug);
+
+    private LearnLibrary.Topic? Prev => Topic is null ? null : LearnLibrary.Neighbours(Topic).Prev;
+
+    private LearnLibrary.Topic? Next => Topic is null ? null : LearnLibrary.Neighbours(Topic).Next;
 }
