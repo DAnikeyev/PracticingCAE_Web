@@ -803,3 +803,16 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
     border-bottom-color: var(--danger); background: var(--danger-soft); color: var(--danger);
 }
 .cloze-text select.cloze-select option { background: var(--surface); color: var(--ink); }
+
+/* ---------- row dropdowns (topic multiple choice) ---------- */
+select.row-select {
+    border: 1px solid var(--line); border-bottom: 2px solid var(--primary);
+    background: transparent; color: var(--ink); font-family: inherit;
+    font-size: .95rem; padding: .22rem 1.6rem .22rem .55rem;
+    border-radius: 8px; max-width: 17em; cursor: pointer;
+}
+select.row-select:focus { outline: none; }
+select.row-select:disabled { opacity: 1; cursor: default; }
+select.row-select.row-ok { border-color: var(--accent); color: var(--accent); }
+select.row-select.row-bad { border-color: var(--danger); color: var(--danger); }
+select.row-select option { background: var(--surface); color: var(--ink); }

@@ -198,19 +198,15 @@ else
                                     <span class="sentence">@parts.Value.before</span>
                                     if (gap.Options.Count > 0 && !TypedMode)
                                     {
-                                        <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
+                                        <select class="cloze-select row-select @(FeedbackClass(idx))" disabled="@_checked"
+                                                aria-label="Answer for question @(idx + 1)"
+                                                @onchange="@(e => SelectOption(idx, e.Value?.ToString() ?? ""))">
+                                            <option value="" selected="@string.IsNullOrEmpty(_answers[idx])" hidden>choose…</option>
                                             @foreach (var opt in gap.Options)
                                             {
-                                                var o = opt;
-                                                <label class="opt-pill @OptionFeedback(idx, o)"
-                                                       @onclick="() => SelectOption(idx, o)">
-                                                <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
-                                                       checked="@(_answers[idx] == o)" disabled="@_checked"
-                                                       @onchange="@(e => SelectOption(idx, o))" />
-                                                <span>@o</span>
-                                            </label>
+                                                <option value="@opt" selected="@(_answers[idx] == opt)">@opt</option>
                                             }
-                                        </div>
+                                        </select>
                                     }
                                     else if (_checked)
                                     {
@@ -249,22 +245,6 @@ else
                                     @if (gap.Base is not null)
                                     {
                                         <span class="base-badge">@gap.Base</span>
-                                    }
-                                    @if (gap.Options.Count > 0 && !TypedMode)
-                                    {
-                                        <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
-                                            @foreach (var opt in gap.Options)
-                                            {
-                                                var o = opt;
-                                                <label class="opt-pill @OptionFeedback(idx, o)"
-                                                       @onclick="() => SelectOption(idx, o)">
-                                                    <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
-                                                           checked="@(_answers[idx] == o)" disabled="@_checked"
-                                                           @onchange="@(e => SelectOption(idx, o))" />
-                                                    <span>@o</span>
-                                                </label>
-                                            }
-                                        </div>
                                     }
                                     else if (_checked)
                                     {
@@ -426,7 +406,7 @@ else
         SetKind.Rue1 => "8 gaps, choose A–D",
         SetKind.Rue2 => "8 gaps, one word each",
         SetKind.Rue3 => "8 gaps, use the base word",
-        SetKind.Rue4 => "6 items, 3–6 words including the key word",
+        SetKind.Rue4 => "8 items, 3–6 words including the key word",
         _ => ""
     } ?? "";
 

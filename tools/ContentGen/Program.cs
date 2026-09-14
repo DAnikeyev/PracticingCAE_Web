@@ -81,9 +81,8 @@ var summary = new List<(string Id, int Sets)>();
 // ---------- R&UE tasks ----------
 summary.Add(("rue-part1", GenerateFullSetsFromSeedFile("rue-part1", Path.Combine(seedsDir, "rue1-texts.json"))));
 summary.Add(("rue-part2", GenerateFullSetsFromSeedFile("rue-part2", Path.Combine(seedsDir, "rue2-texts.json"))));
-summary.Add(("rue-part3", GenerateFullSetsFromSeedFile("rue-part3", Path.Combine(seedsDir, "rue3-texts.json"))));
 summary.Add(("rue-part3", GenerateDrillSets("rue-part3", Path.Combine(seedsDir, "rue3-drill-items.json"), itemsPerSet: 8, stripOptions: true)));
-summary.Add(("rue-part4", GenerateDrillSets("rue-part4", Path.Combine(seedsDir, "rue4-items.json"), itemsPerSet: 6)));
+summary.Add(("rue-part4", GenerateDrillSets("rue-part4", Path.Combine(seedsDir, "rue4-items.json"), itemsPerSet: 8)));
 
 // ---------- topic drills ----------
 foreach (var topic in topics.Where(t => t.Kind == SetKind.Topic))
@@ -91,7 +90,7 @@ foreach (var topic in topics.Where(t => t.Kind == SetKind.Topic))
 // ---------- write task definitions ----------
 foreach (var t in tasks)
 {
-    t.QuestionsPerSet = t.Kind == SetKind.Rue4 ? 6 : 8;
+    t.QuestionsPerSet = 8;
     var path = Path.Combine(contentDir, "tasks", $"{t.Id}.json");
     File.WriteAllText(path, JsonSerializer.Serialize(t, ContentRepository.JsonOptions));
 }

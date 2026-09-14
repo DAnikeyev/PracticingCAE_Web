@@ -98,6 +98,25 @@ public class ContentRepositoryTests
     }
 
     [Fact]
+    public void Rue4Sets_HaveEightItems()
+    {
+        foreach (var set in Repo.SetsFor("rue-part4"))
+        {
+            Assert.Equal(8, set.Gaps.Count);
+        }
+    }
+
+    [Fact]
+    public void Rue3Sets_AreSentenceBased()
+    {
+        foreach (var set in Repo.SetsFor("rue-part3"))
+        {
+            Assert.True(string.IsNullOrWhiteSpace(set.Text),
+                $"{set.Id}: part 3 must be standalone sentences, not texts");
+        }
+    }
+
+    [Fact]
     public void McqGaps_AnswerPositionVaries_NotAlwaysFirst()
     {
         // seeds list the correct option first; generation shuffles, so across a
