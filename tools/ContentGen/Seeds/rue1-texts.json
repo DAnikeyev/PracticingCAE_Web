@@ -865,5 +865,945 @@
     "explanation": "'the voice should not matter' — be important."
    }
   ]
+ },
+ {
+  "title": "The hidden price of free",
+  "text": "The most profitable word in the digital economy is 'free'. We {{1}} nothing for search engines, maps and video calls, and we have quietly concluded that the internet runs on generosity. In reality, the largest companies on Earth sit {{2}} in the business of selling attention. When you are not paying, as the saying {{3}}, you are not the customer but the product. Your clicks, pauses and midnight searches are {{4}} into a profile that predicts what you will buy, watch and believe, and those predictions are auctioned to advertisers in {{5}} of a second. None of this is illegal, and much of it is {{6}} useful: free maps really did beat the paper versions, and free video calls changed family life. The trouble is subtler. Systems built to hold attention do not distinguish between the attention {{7}} on a documentary and the attention swallowed by outrage, so the feed quietly fills with whatever {{8}} hardest. 'Free', in other words, has a price; it is simply charged somewhere you cannot see.",
+  "gaps": [
+   {
+    "answer": "pay",
+    "options": [
+     "pay",
+     "spend",
+     "charge",
+     "earn"
+    ],
+    "hint": "give money (for)",
+    "explanation": "'we pay nothing for' — the collocation for spending money on something."
+   },
+   {
+    "answer": "squarely",
+    "options": [
+     "squarely",
+     "fairly",
+     "frankly",
+     "flatly"
+    ],
+    "hint": "directly, firmly (in)",
+    "explanation": "'sit squarely in the business of' — completely and directly."
+   },
+   {
+    "answer": "goes",
+    "options": [
+     "goes",
+     "speaks",
+     "tells",
+     "runs"
+    ],
+    "hint": "as the saying ___",
+    "explanation": "'as the saying goes' — fixed phrase introducing a proverb."
+   },
+   {
+    "answer": "distilled",
+    "options": [
+     "distilled",
+     "dissolved",
+     "evaporated",
+     "melted"
+    ],
+    "hint": "reduced to its essence",
+    "explanation": "'distilled into a profile' — condensed into concentrated form."
+   },
+   {
+    "answer": "fractions",
+    "options": [
+     "fractions",
+     "portions",
+     "pieces",
+     "segments"
+    ],
+    "hint": "in ___ of a second",
+    "explanation": "'in fractions of a second' — the fixed expression for tiny parts of time."
+   },
+   {
+    "answer": "genuinely",
+    "options": [
+     "genuinely",
+     "general",
+     "generous",
+     "genial"
+    ],
+    "hint": "truly (adverb)",
+    "explanation": "'much of it is genuinely useful' — adverb needed."
+   },
+   {
+    "answer": "spent",
+    "options": [
+     "spent",
+     "paid",
+     "cost",
+     "charged"
+    ],
+    "hint": "used up (time/attention)",
+    "explanation": "'the attention spent on a documentary' — spend + on."
+   },
+   {
+    "answer": "hits",
+    "options": [
+     "hits",
+     "touches",
+     "taps",
+     "knocks"
+    ],
+    "hint": "strikes (hardest)",
+    "explanation": "'whatever hits hardest' — has the strongest effect."
+   }
+  ]
+ },
+ {
+  "title": "In defence of boredom",
+  "text": "Boredom has a bad {{1}}, and most of us will do almost anything to avoid it. Given the {{2}} of an empty afternoon, we reach for the phone before the feeling has even properly arrived. That reflex looks modern, but laboratory work has long shown how far people will go to escape their own thoughts: in one famous study, volunteers left alone for fifteen minutes chose to {{3}} themselves with mild electric shocks rather than sit quietly. Psychologists now argue that boredom is not a malfunction but a {{4}}: the mind, denied outside input, begins generating its own. Mind-wandering has been firmly {{5}} to creativity; problems famously crack themselves in showers, on trains and during long walks, precisely when nothing interesting is happening. The smartphone has made boredom {{6}} extinct, and few of us mourn. Yet at the first {{7}} of an idle moment we now scroll, and the mental space where ideas used to form is quietly leased out. The case for boredom is finally practical: guard a little of it, and out of it come some of the mind's best {{8}}.",
+  "gaps": [
+   {
+    "answer": "reputation",
+    "options": [
+     "reputation",
+     "report",
+     "renown",
+     "rumour"
+    ],
+    "hint": "general opinion (good or bad)",
+    "explanation": "'has a bad reputation' — the fixed collocation."
+   },
+   {
+    "answer": "prospect",
+    "options": [
+     "prospect",
+     "proposal",
+     "prophecy",
+     "provision"
+    ],
+    "hint": "the idea of something ahead",
+    "explanation": "'the prospect of an empty afternoon' — the thought of it coming."
+   },
+   {
+    "answer": "occupy",
+    "options": [
+     "occupy",
+     "own",
+     "hold",
+     "contain"
+    ],
+    "hint": "fill (time or oneself)",
+    "explanation": "'occupy themselves with electric shocks' — occupy oneself with = fill time with."
+   },
+   {
+    "answer": "signal",
+    "options": [
+     "signal",
+     "sound",
+     "noise",
+     "echo"
+    ],
+    "hint": "a message (from the mind)",
+    "explanation": "'not a malfunction but a signal' — it carries information."
+   },
+   {
+    "answer": "linked",
+    "options": [
+     "linked",
+     "joined",
+     "combined",
+     "merged"
+    ],
+    "hint": "connected (to)",
+    "explanation": "'has been linked to creativity' — the standard research collocation."
+   },
+   {
+    "answer": "virtually",
+    "options": [
+     "virtually",
+     "virtual",
+     "virtue",
+     "virtuoso"
+    ],
+    "hint": "almost (adverb)",
+    "explanation": "'made boredom virtually extinct' — adverb of degree."
+   },
+   {
+    "answer": "twinge",
+    "options": [
+     "twinge",
+     "twitch",
+     "tangle",
+     "throb"
+    ],
+    "hint": "a brief sharp feeling",
+    "explanation": "'at the first twinge of an idle moment' — a small stab of a feeling."
+   },
+   {
+    "answer": "inventions",
+    "options": [
+     "inventions",
+     "invoices",
+     "inventors",
+     "inventory"
+    ],
+    "hint": "new ideas (plural noun)",
+    "explanation": "'some of the mind's best inventions' — plural noun needed."
+   }
+  ]
+ },
+ {
+  "title": "How maps lie",
+  "text": "Every map {{1}} three problems at once: projection, scale and selection. Flatten the round Earth onto a sheet of paper and something must {{2}} way. Gerardus Mercator's sixteenth-century compromise {{3}} navigators handsomely for four centuries, but at a price: on his grid, Greenland balloons {{4}} beyond its true size, while Africa, which could hold it fourteen times over, shrinks towards insignificance. The celebrated London Underground map goes further and {{5}} geography altogether in favour of clarity. It shows {{6}} passengers actually need — which line, which change, how many stops — and generations of tourists have been astonished by the real distances their journeys covered underground. Maps of elections {{7}} the same trick: vast, sparsely inhabited regions glow in triumphant colour while crowded cities shrink to specks, and viewers unfamiliar with the manipulation misread landslides where none occurred. None of this is dishonesty, exactly; every map must leave something out, because everything cannot be true at once. But it does mean that a map is an {{8}} about the world rather than a window onto it — and the careful reader learns to ask who drew it, for whom, and what was left behind.",
+  "gaps": [
+   {
+    "answer": "juggles",
+    "options": [
+     "juggles",
+     "fumbles",
+     "fiddles",
+     "dawdles"
+    ],
+    "hint": "handles several things at once",
+    "explanation": "'juggles three problems at once' — keeps many things in play."
+   },
+   {
+    "answer": "give",
+    "options": [
+     "give",
+     "take",
+     "make",
+     "do"
+    ],
+    "hint": "___ way = yield",
+    "explanation": "'something must give way' — yield under pressure."
+   },
+   {
+    "answer": "served",
+    "options": [
+     "served",
+     "rewarded",
+     "returned",
+     "repaid"
+    ],
+    "hint": "was useful to",
+    "explanation": "'served navigators handsomely' — worked well for them."
+   },
+   {
+    "answer": "vastly",
+    "options": [
+     "vastly",
+     "broadly",
+     "largely",
+     "widely"
+    ],
+    "hint": "enormously (adverb)",
+    "explanation": "'balloons vastly beyond its true size' — by a huge amount."
+   },
+   {
+    "answer": "sacrifices",
+    "options": [
+     "sacrifices",
+     "salutes",
+     "sanitises",
+     "savours"
+    ],
+    "hint": "gives up (for a purpose)",
+    "explanation": "'sacrifices geography in favour of clarity' — gives one thing up for another."
+   },
+   {
+    "answer": "what",
+    "options": [
+     "what",
+     "which",
+     "that",
+     "how"
+    ],
+    "hint": "the thing(s) that",
+    "explanation": "'shows what passengers need' — nominal relative pronoun."
+   },
+   {
+    "answer": "pull",
+    "options": [
+     "pull",
+     "drag",
+     "tug",
+     "haul"
+    ],
+    "hint": "___ the same trick",
+    "explanation": "'pull the same trick' — do the same clever deed (fixed phrase)."
+   },
+   {
+    "answer": "argument",
+    "options": [
+     "argument",
+     "arrangement",
+     "arrival",
+     "arrow"
+    ],
+    "hint": "a case being made",
+    "explanation": "'a map is an argument about the world' — it takes a position."
+   }
+  ]
+ },
+ {
+  "title": "The return of the high street",
+  "text": "The obituary of the high street has been written {{1}} times, and for understandable reasons. Out-of-town retail parks and then online giants {{2}} a heavy toll: bank branches, butchers and bookshops closed in waves, and vacancy rates {{3}} past twenty per cent in some towns. Yet predictions of total collapse proved {{4}} exaggerated. What has come back is not what left. In their {{5}} have arrived coffee shops, barbers, nail bars and small galleries; hospitality now {{6}} for nearly half of all new lettings on British high streets. The change reflects a deeper logic rather than sentiment. Anything that fits through a letterbox has largely migrated online, so the survivors trade in {{7}} that will not post: haircuts, hot bread, coffee in company, an hour of trying things on with a friend. Councils have adjusted their thinking too — less parking enforcement and more market stalls, less retail planning and more housing above the shops. Obituary writers will no doubt be busy again; the high street, meanwhile, keeps {{8}} back in whatever shape the decade demands.",
+  "gaps": [
+   {
+    "answer": "countless",
+    "options": [
+     "countless",
+     "counting",
+     "countable",
+     "accounted"
+    ],
+    "hint": "too many to count",
+    "explanation": "'has been written countless times' — adjective before a noun."
+   },
+   {
+    "answer": "took",
+    "options": [
+     "took",
+     "made",
+     "gave",
+     "put"
+    ],
+    "hint": "___ a heavy toll",
+    "explanation": "'took a heavy toll' — fixed collocation for causing damage."
+   },
+   {
+    "answer": "climbed",
+    "options": [
+     "climbed",
+     "grew up",
+     "raised",
+     "arose"
+    ],
+    "hint": "rose (numbers)",
+    "explanation": "'vacancy rates climbed past twenty per cent' — rise intransitively."
+   },
+   {
+    "answer": "prematurely",
+    "options": [
+     "prematurely",
+     "promptly",
+     "punctually",
+     "presently"
+    ],
+    "hint": "too early",
+    "explanation": "'proved prematurely exaggerated' — exaggerated before the fact."
+   },
+   {
+    "answer": "place",
+    "options": [
+     "place",
+     "position",
+     "point",
+     "post"
+    ],
+    "hint": "in their ___ = instead",
+    "explanation": "'In their place have arrived' — fixed phrase: as replacements."
+   },
+   {
+    "answer": "accounts",
+    "options": [
+     "accounts",
+     "counts",
+     "calculates",
+     "charges"
+    ],
+    "hint": "___ for = constitutes",
+    "explanation": "'hospitality accounts for half of lettings' — makes up that share."
+   },
+   {
+    "answer": "experiences",
+    "options": [
+     "experiences",
+     "exhibitions",
+     "expeditions",
+     "expressions"
+    ],
+    "hint": "things you do and feel",
+    "explanation": "'trade in experiences that will not post' — activities, not objects."
+   },
+   {
+    "answer": "coming",
+    "options": [
+     "coming",
+     "getting",
+     "taking",
+     "holding"
+    ],
+    "hint": "returning (___ back)",
+    "explanation": "'keeps coming back' — returns repeatedly."
+   }
+  ]
+ },
+ {
+  "title": "Why time speeds up as we age",
+  "text": "Almost everyone notices that time {{1}} up as we get older: childhood summers stretched without end, while a recent year can pass in what feels like weeks. The {{2}} explanation is mathematical. To a ten-year-old, a year is a tenth of everything remembered; to a fifty-year-old, a fiftieth — so each new year is, proportionally, briefer. But arithmetic {{3}} only half the story, because the {{4}} half lies in memory rather than ratios. Brains {{5}} space by refusing to store the routine: identical commutes and familiar weeks are compressed to almost nothing, while first experiences get the full treatment. Measured in remembered {{6}}, a single novel week abroad can outlast a whole grey season at home. This also explains the cure, and the {{7}} are pleasantly undemanding: take unfamiliar routes, learn awkward new skills, rearrange the furniture of your routines. Novelty forces the brain to record in detail, and detail is what makes a period feel long afterwards. The clock, in other words, ticks at the {{8}} speed for everyone; it is memory that decides how much of life you actually get to keep.",
+  "gaps": [
+   {
+    "answer": "speeds",
+    "options": [
+     "speeds",
+     "walks",
+     "slows",
+     "stands"
+    ],
+    "hint": "moves faster (___ up)",
+    "explanation": "'time speeds up' — phrasal verb for going faster."
+   },
+   {
+    "answer": "obvious",
+    "options": [
+     "obvious",
+     "oblivious",
+     "obsolete",
+     "ominous"
+    ],
+    "hint": "easily seen (adjective)",
+    "explanation": "'the obvious explanation' — the one everyone notices."
+   },
+   {
+    "answer": "tells",
+    "options": [
+     "tells",
+     "says",
+     "speaks",
+     "talks"
+    ],
+    "hint": "___ half the story",
+    "explanation": "'arithmetic tells only half the story' — fixed expression."
+   },
+   {
+    "answer": "other",
+    "options": [
+     "other",
+     "another",
+     "others",
+     "either"
+    ],
+    "hint": "the remaining one",
+    "explanation": "'the other half' — the second of two known halves."
+   },
+   {
+    "answer": "save",
+    "options": [
+     "save",
+     "waste",
+     "spend",
+     "lose"
+    ],
+    "hint": "keep, not use up",
+    "explanation": "'brains save space by not storing routine' — economise."
+   },
+   {
+    "answer": "time",
+    "options": [
+     "time",
+     "times",
+     "timing",
+     "timely"
+    ],
+    "hint": "duration (uncountable noun)",
+    "explanation": "'measured in remembered time' — uncountable noun needed."
+   },
+   {
+    "answer": "implications",
+    "options": [
+     "implications",
+     "applications",
+     "compositions",
+     "compliments"
+    ],
+    "hint": "what follows from it",
+    "explanation": "'the implications are undemanding' — the practical consequences."
+   },
+   {
+    "answer": "same",
+    "options": [
+     "same",
+     "steady",
+     "constant",
+     "uniform"
+    ],
+    "hint": "identical (the ___)",
+    "explanation": "'ticks at the same speed' — fixed: the same, not 'a steady'."
+   }
+  ]
+ },
+ {
+  "title": "The strange rules of the dinner table",
+  "text": "Table manners look like {{1}} rules invented purely to torment children, yet they have a history and a purpose. For most of the past, diners ate from a {{2}} pot, armed with fingers or a shared knife. The individual plate is a surprisingly {{3}} invention, and the fork met furious {{4}} when it arrived in Renaissance Italy: one Venetian noblewoman was denounced by a cleric for {{5}} her food with such excessive delicacy that she was judged to insult nature itself. Etiquette, in other words, has always been social technology — devices for keeping the peace among people crowded around food. The details vary astonishingly: in Japan, the slurp {{6}} appreciation, while in much of Europe it appals; the left hand eats politely in one country and offends in another. Yet beneath the variations, all these codes {{7}} the same function: they turn hungry strangers into a temporary society, spare table-partners from one another's germs, and mark the moment when eating becomes a shared ceremony. Good manners, in the end, are simply {{8}} in disguise — a slow, repetitive way of saying that you are safe among us.",
+  "gaps": [
+   {
+    "answer": "pointless",
+    "options": [
+     "pointless",
+     "point",
+     "pointed",
+     "pointer"
+    ],
+    "hint": "with no purpose (adjective)",
+    "explanation": "'look like pointless rules' — adjective needed."
+   },
+   {
+    "answer": "shared",
+    "options": [
+     "shared",
+     "sharing",
+     "share",
+     "shard"
+    ],
+    "hint": "used together (participle)",
+    "explanation": "'ate from a shared pot' — passive participle."
+   },
+   {
+    "answer": "late",
+    "options": [
+     "late",
+     "later",
+     "lately",
+     "latest"
+    ],
+    "hint": "not long ago in history",
+    "explanation": "'a surprisingly late invention' — arriving recently in time."
+   },
+   {
+    "answer": "resistance",
+    "options": [
+     "resistance",
+     "resolution",
+     "residence",
+     "resignation"
+    ],
+    "hint": "opposition",
+    "explanation": "'met furious resistance' — people pushed back against it."
+   },
+   {
+    "answer": "eating",
+    "options": [
+     "eating",
+     "eat",
+     "ate",
+     "eaten"
+    ],
+    "hint": "preposition + -ing",
+    "explanation": "'for eating her food with delicacy' — gerund after a preposition."
+   },
+   {
+    "answer": "signals",
+    "options": [
+     "signals",
+     "signs",
+     "signatures",
+     "slogans"
+    ],
+    "hint": "shows, communicates (verb)",
+    "explanation": "'the slurp signals appreciation' — verb needed; nouns fail here."
+   },
+   {
+    "answer": "perform",
+    "options": [
+     "perform",
+     "abolish",
+     "ignore",
+     "mock"
+    ],
+    "hint": "carry out (a function)",
+    "explanation": "'codes perform the same function' — do the job they exist for."
+   },
+   {
+    "answer": "hospitality",
+    "options": [
+     "hospitality",
+     "hospital",
+     "hospitalise",
+     "hostile"
+    ],
+    "hint": "welcoming strangers (noun)",
+    "explanation": "'simply hospitality in disguise' — the friendly welcome of a guest."
+   }
+  ]
+ },
+ {
+  "title": "In praise of libraries",
+  "text": "The public library may be the most quietly {{1}} invention of civic life, and the easiest to take for granted. Before lending libraries, books {{2}} fortunes and reading belonged to those who could pay; a Scottish immigrant called Andrew Carnegie helped {{3}} more than 2,500 of them across the English-speaking world on the theory that anyone who used one could climb. Their deeper business, though, was never only books. A library is {{4}} from the weather, from loneliness, from the noise of the street; it is a study without fees and an office without rent. The librarian who {{5}} a bewildered teenager towards the right shelf performs a service no search engine replicates, and study after study {{6}} what regulars know: loan numbers may wobble, but {{7}} keeps rising, because the need for warm, free, unworried public space does not fade. A city, as the saying goes, ends up with the libraries it {{8}} — and the ones that survive their budget rounds tend to be busier than ever, full of toddlers, teenagers, job applicants and pensioners, all borrowed at the price of nothing at all.",
+  "gaps": [
+   {
+    "answer": "radical",
+    "options": [
+     "radical",
+     "radial",
+     "rancid",
+     "random"
+    ],
+    "hint": "far-reaching, revolutionary",
+    "explanation": "'the most quietly radical invention' — deep-reaching change."
+   },
+   {
+    "answer": "cost",
+    "options": [
+     "cost",
+     "spend",
+     "charge",
+     "pay"
+    ],
+    "hint": "were priced at (books ___)",
+    "explanation": "'books cost fortunes' — cost takes the thing as subject."
+   },
+   {
+    "answer": "build",
+    "options": [
+     "build",
+     "built",
+     "building",
+     "builder"
+    ],
+    "hint": "helped + bare infinitive",
+    "explanation": "'helped build more than 2,500' — help is followed by the bare infinitive."
+   },
+   {
+    "answer": "refuge",
+    "options": [
+     "refuge",
+     "refusal",
+     "refugee",
+     "referee"
+    ],
+    "hint": "shelter (___ from)",
+    "explanation": "'a refuge from the weather' — a place of safety."
+   },
+   {
+    "answer": "guides",
+    "options": [
+     "guides",
+     "guards",
+     "guilds",
+     "guitars"
+    ],
+    "hint": "directs, steers",
+    "explanation": "'guides a bewildered teenager towards the right shelf' — leads helpfully."
+   },
+   {
+    "answer": "confirms",
+    "options": [
+     "confirms",
+     "conforms",
+     "confides",
+     "confines"
+    ],
+    "hint": "verifies, bears out",
+    "explanation": "'study after study confirms' — supports the claim again."
+   },
+   {
+    "answer": "footfall",
+    "options": [
+     "footfall",
+     "football",
+     "foothold",
+     "footprint"
+    ],
+    "hint": "number of visitors",
+    "explanation": "'footfall keeps rising' — the count of people walking in."
+   },
+   {
+    "answer": "deserves",
+    "options": [
+     "deserves",
+     "describes",
+     "deserts",
+     "designates"
+    ],
+    "hint": "merits",
+    "explanation": "'the libraries it deserves' — gets what its care or neglect merits."
+   }
+  ]
+ },
+ {
+  "title": "Songs that will not leave",
+  "text": "A song {{1}} itself in the mind, replays for hours and refuses eviction: researchers call these sticky tunes {{2}}, and surveys {{3}} that roughly ninety per cent of us are regularly visited. The recipes for a catchy earworm are surprisingly consistent: a {{4}} tempo, a simple melodic shape, and one small surprise the brain wants to resolve. Structure matters too — songs that stop {{5}} mid-phrase, as if interrupted, burrow in deepest, which is the same psychology that keeps us checking unfinished to-do lists; the mind {{6}} over incomplete business until it is closed. Escaping an earworm is famously difficult, and the remedies are comic. Chewing gum {{7}} the silent inner rehearsal of the lyrics and measurably weakens the loop; others solve anagrams or read a demanding novel to occupy the same mental channel. Mostly, though, sufferers simply wait, since time is the usual {{8}} and most earworms dissolve within hours. Curiously, the phenomenon says something flattering about us: a mind that rehearses music involuntarily is a mind built for patterns — the same machinery, pointed elsewhere, that learns languages and does arithmetic in the shower.",
+  "gaps": [
+   {
+    "answer": "lodges",
+    "options": [
+     "lodges",
+     "dissolves",
+     "evaporates",
+     "vanishes"
+    ],
+    "hint": "settles firmly",
+    "explanation": "'a song lodges itself in the mind' — sticks fast."
+   },
+   {
+    "answer": "earworms",
+    "options": [
+     "earworms",
+     "earthworms",
+     "brainwaves",
+     "brainstorms"
+    ],
+    "hint": "the technical nickname",
+    "explanation": "'researchers call them earworms' — the established term."
+   },
+   {
+    "answer": "indicate",
+    "options": [
+     "indicate",
+     "indict",
+     "industrious",
+     "individual"
+    ],
+    "hint": "point to, show (verb)",
+    "explanation": "'surveys indicate that' — the research verb."
+   },
+   {
+    "answer": "brisk",
+    "options": [
+     "brisk",
+     "brusque",
+     "briskly",
+     "brisket"
+    ],
+    "hint": "lively, quick (adjective)",
+    "explanation": "'a brisk tempo' — the musical collocation."
+   },
+   {
+    "answer": "short",
+    "options": [
+     "short",
+     "shortly",
+     "shortish",
+     "shortcut"
+    ],
+    "hint": "stop ___ = stop suddenly",
+    "explanation": "'stop short mid-phrase' — halt abruptly (fixed idiom)."
+   },
+   {
+    "answer": "broods",
+    "options": [
+     "broods",
+     "breeds",
+     "brakes",
+     "breaks"
+    ],
+    "hint": "turns over repeatedly",
+    "explanation": "'the mind broods over unfinished business' — dwells on it."
+   },
+   {
+    "answer": "disrupts",
+    "options": [
+     "disrupts",
+     "declines",
+     "denounces",
+     "detests"
+    ],
+    "hint": "breaks up, interrupts",
+    "explanation": "'chewing gum disrupts the inner rehearsal' — interferes with it."
+   },
+   {
+    "answer": "cure",
+    "options": [
+     "cure",
+     "curfew",
+     "curry",
+     "curious"
+    ],
+    "hint": "the remedy (noun)",
+    "explanation": "'time is the usual cure' — the noun of this family."
+   }
+  ]
+ },
+ {
+  "title": "The quiet triumph of second-hand",
+  "text": "Second-hand shopping has {{1}} its dusty image and become one of retail's growth stories. Phone apps have {{2}} millions of private wardrobes into a vast, permanently open market, and for younger shoppers, wearing vintage is a {{3}} rather than a compromise: thrift is now a look, not a confession. The economics have followed. Sought-after trainers and jackets can {{4}} their brand-new equivalents, and charity shops report queues for donations that once went unnoticed. One {{5}} is planetary: every reused garment is one not manufactured, and fashion is among the world's most polluting industries. Luxury brands, initially alarmed by the flood of fakes, now {{6}} their own authentication services and official resale programmes, having concluded that a second life for a handbag is better managed by them than by anyone else. Regulators are joining in: France now {{7}} clothing to carry labels disclosing its environmental credentials, and several countries are weighing taxes on freshly made garments. In hindsight, the old stigma never made much {{8}}: clothes were handed down for most of history, and the disposable wardrobe is the historical oddity, not the mended one.",
+  "gaps": [
+   {
+    "answer": "shed",
+    "options": [
+     "shed",
+     "shield",
+     "shear",
+     "shirk"
+    ],
+    "hint": "got rid of (an image)",
+    "explanation": "'has shed its dusty image' — cast off, like a skin."
+   },
+   {
+    "answer": "turned",
+    "options": [
+     "turned",
+     "overturned",
+     "returned",
+     "upturned"
+    ],
+    "hint": "converted (___ into)",
+    "explanation": "'turned wardrobes into a market' — turn X into Y."
+   },
+   {
+    "answer": "statement",
+    "options": [
+     "statement",
+     "stationary",
+     "statuette",
+     "statesman"
+    ],
+    "hint": "a declaration of identity",
+    "explanation": "'wearing vintage is a statement' — says something about you."
+   },
+   {
+    "answer": "outprice",
+    "options": [
+     "outprice",
+     "outnumber",
+     "overrun",
+     "overdo"
+    ],
+    "hint": "cost more than",
+    "explanation": "'trainers can outprice their equivalents' — exceed in price."
+   },
+   {
+    "answer": "reason",
+    "options": [
+     "reason",
+     "season",
+     "treason",
+     "ration"
+    ],
+    "hint": "argument for it",
+    "explanation": "'one reason is planetary' — an argument in favour."
+   },
+   {
+    "answer": "offer",
+    "options": [
+     "offer",
+     "overflow",
+     "overtake",
+     "override"
+    ],
+    "hint": "provide (a service)",
+    "explanation": "'now offer authentication services' — make them available."
+   },
+   {
+    "answer": "requires",
+    "options": [
+     "requires",
+     "requests to",
+     "acquires",
+     "enquires"
+    ],
+    "hint": "makes legally necessary",
+    "explanation": "'France requires clothing to carry labels' — require + object + to-infinitive."
+   },
+   {
+    "answer": "sense",
+    "options": [
+     "sense",
+     "sentence",
+     "sensibility",
+     "census"
+    ],
+    "hint": "made ___ = was logical",
+    "explanation": "'never made much sense' — fixed phrase: was not logical."
+   }
+  ]
+ },
+ {
+  "title": "The strange science of the yawn",
+  "text": "A yawn {{1}} about six seconds, arrives unbidden, and is so universal that almost every vertebrate does it — yet science still cannot entirely explain it. No one is quite {{2}} why we yawn at all. The folk theory, that the body needs {{3}} oxygen, collapsed when experiments showed that breathing pure air changes nothing; the current favourite holds that yawning {{4}} the brain, like a fan in an overheated room, with the deep inhalation cooling blood on its way upstairs. Stranger still is the contagious kind. Contagious yawning {{5}} in children at around the age of four, the point at which the social emotions come online, and psychologists {{6}} it to empathy: people who yawn easily with others tend to score higher on tests of perspective-taking, and dogs, famously, catch yawns from their owners. Even {{7}} the womb, foetuses have been observed yawning mid-pregnancy. The yawn, in short, remains a matter of genuine scientific {{8}}: universal, ancient and oddly communicative, half-explained in an age of scanners — a reminder of how much remains unknown about the body we live in.",
+  "gaps": [
+   {
+    "answer": "lasts",
+    "options": [
+     "lasts",
+     "remains",
+     "stays on",
+     "endures to"
+    ],
+    "hint": "continues (a duration)",
+    "explanation": "'a yawn lasts about six seconds' — intransitive verb for duration."
+   },
+   {
+    "answer": "sure",
+    "options": [
+     "sure",
+     "surely",
+     "secure",
+     "assure"
+    ],
+    "hint": "certain (adjective)",
+    "explanation": "'no one is quite sure why' — adjective after 'is'."
+   },
+   {
+    "answer": "more",
+    "options": [
+     "more",
+     "most",
+     "much",
+     "many"
+    ],
+    "hint": "a greater amount",
+    "explanation": "'needs more oxygen' — comparative quantity."
+   },
+   {
+    "answer": "cools",
+    "options": [
+     "cools",
+     "warms",
+     "burns",
+     "floods"
+    ],
+    "hint": "makes colder",
+    "explanation": "'yawning cools the brain' — the brain-cooling theory."
+   },
+   {
+    "answer": "kicks",
+    "options": [
+     "kicks",
+     "ticks",
+     "knocks",
+     "locks"
+    ],
+    "hint": "___ in = begins",
+    "explanation": "'contagious yawning kicks in at four' — phrasal verb: starts."
+   },
+   {
+    "answer": "attribute",
+    "options": [
+     "attribute",
+     "contribute",
+     "distribute",
+     "tribute"
+    ],
+    "hint": "___ it to = explain by",
+    "explanation": "'attribute it to empathy' — attribute X to Y: assign the cause."
+   },
+   {
+    "answer": "inside",
+    "options": [
+     "inside",
+     "into",
+     "across",
+     "against"
+    ],
+    "hint": "within (location)",
+    "explanation": "'even inside the womb' — stationary location, not movement."
+   },
+   {
+    "answer": "speculation",
+    "options": [
+     "speculation",
+     "spectator",
+     "spectrum",
+     "specimen"
+    ],
+    "hint": "informed guessing",
+    "explanation": "'a matter of genuine scientific speculation' — open debate."
+   }
+  ]
  }
 ]
