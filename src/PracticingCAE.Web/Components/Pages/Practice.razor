@@ -114,16 +114,24 @@ else
                     if (seg.Gap is { } n && TaskIsRue2)
                     {
                         var gi = n - 1;
-                        <input class="gap-input cloze-gap @(FeedbackClass(gi))" type="text"
-                               style="width:@ClozeGapWidth(gi)ch"
-                               aria-label="Answer for gap @(n)"
-                               disabled="@_checked"
-                               @oninput="@(e => SetAnswer(gi, e.Value?.ToString()))"
-                               @key="@($"{_set!.Id}:g{n}")" />
-                        @if (_checked && _result is not null && !_result.Gaps[gi].IsCorrect)
-                        {
-                            <span class="cloze-gap-answer">@_gaps[gi].Answer</span>
-                        }
+                        <span class="cloze-gap-wrap" @key="@($"{_set!.Id}:g{n}")">
+                            <input class="gap-input cloze-gap @(FeedbackClass(gi))" type="text"
+                                   style="width:@(Rue2GapCh)ch"
+                                   aria-label="Answer for gap @(n)"
+                                   disabled="@_checked"
+                                   @oninput="@(e => SetAnswer(gi, e.Value?.ToString()))" />
+                            <button type="button" class="cloze-lamp @(_hints[gi] ? "on" : "")" title="Hint"
+                                    disabled="@_checked" @onmousedown:preventDefault
+                                    @onclick="() => ToggleHint(gi)">&#128161;</button>
+                            @if (_hints[gi] && !_checked)
+                            {
+                                <span class="cloze-hint-pop">@_gaps[gi].Hint</span>
+                            }
+                            @if (_checked && _result is not null && !_result.Gaps[gi].IsCorrect)
+                            {
+                                <span class="cloze-gap-answer">@_gaps[gi].Answer</span>
+                            }
+                        </span>
                     }
                     else if (seg.Gap is { } m)
                     {
@@ -142,6 +150,12 @@ else
             {
                 var idx = i;
                 var gap = _gaps[i];
+                // Part 2 types inside the text; its rows only appear after the
+                // check, as verdicts and explanations (hints live on the lamp)
+                @if (TaskIsRue2 && !_checked)
+                {
+                    continue;
+                }
                 <div class="gap-row @(FeedbackClass(idx))" @key="@($"{_set!.Id}:{idx}")">
                     <div class="gap-num">@(idx + 1)</div>
                     <div class="gap-body">
@@ -237,11 +251,14 @@ else
                                                aria-label="Answer for question @(idx + 1)" />
                                     }
                                 }
-                                <button type="button" class="hint-btn" title="Show hint" disabled="@(_hints[idx] || _checked)"
-                                        @onclick="() => ShowHint(idx)">Hint</button>
+                                @if (!TaskIsRue2)
+                                {
+                                    <button type="button" class="hint-btn" title="Show hint" disabled="@(_hints[idx] || _checked)"
+                                            @onclick="() => ShowHint(idx)">Hint</button>
+                                }
                             </div>
                         }
-                        @if (_hints[idx] && !string.IsNullOrWhiteSpace(gap.Hint))
+                        @if (_hints[idx] && !TaskIsRue2 && !string.IsNullOrWhiteSpace(gap.Hint))
                         {
                             <p class="hint-text">Hint: @gap.Hint</p>
                         }
@@ -506,6 +523,13 @@ else
         _ = SaveSessionAsync();
     }
 
+    // Part 2 inline fields: the lamp toggles the hint overlay on/off
+    private void ToggleHint(int idx)
+    {
+        _hints[idx] = !_hints[idx];
+        _ = SaveSessionAsync();
+    }
+
     private void RevealAllHints()
     {
         for (var i = 0; i < _hints.Length; i++) _hints[i] = true;
@@ -528,8 +552,9 @@ else
         _ => "Part 4 — Key word transformations",
     };
 
-    // inline gap width for Part 2: wide enough for the expected answer to fit
-    private int ClozeGapWidth(int i) => Math.Clamp((_gaps[i].Answer.Length + 2), 6, 24);
+    // uniform inline gap width for Part 2: sized to the longest answer in the
+    // whole Part 2 bank so a field's width never hints at its own answer
+    private int Rue2GapCh => Math.Clamp(Content.Rue2MaxAnswerLength() + 2, 8, 24);
 
     // ---------- R&UE part navigation and run totals ----------
     private static readonly string[] RuePartIds = ["rue-part1", "rue-part2", "rue-part3", "rue-part4"];

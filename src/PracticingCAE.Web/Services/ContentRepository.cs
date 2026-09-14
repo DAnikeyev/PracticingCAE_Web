@@ -57,6 +57,25 @@ public sealed partial class ContentRepository
 
     public int SetCount(string taskId) => SetsFor(taskId).Count;
 
+    private int? _rue2MaxAnswerLength;
+
+    /// <summary>
+    /// Longest Part 2 answer in the bank. The inline cloze fields are all sized
+    /// to this so a field's width never reveals its answer's length.
+    /// </summary>
+    public int Rue2MaxAnswerLength()
+    {
+        if (_rue2MaxAnswerLength is null)
+        {
+            _rue2MaxAnswerLength = SetsFor("rue-part2")
+                .SelectMany(s => s.Gaps)
+                .Select(g => g.Answer.Length)
+                .DefaultIfEmpty(8)
+                .Max();
+        }
+        return _rue2MaxAnswerLength.Value;
+    }
+
     public PracticeSet? FindSet(string setId) =>
         _setsById.TryGetValue(setId, out var s) ? s : null;
 

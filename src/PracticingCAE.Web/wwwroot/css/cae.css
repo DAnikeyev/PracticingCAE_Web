@@ -738,14 +738,15 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
 .rue-run-banner strong { font-size: 1.1rem; }
 
 /* ---------- Part 2 inline gap inputs inside the cloze text ---------- */
+.cloze-gap-wrap { position: relative; display: inline-block; margin: 0 .15rem; }
 .cloze-text input.gap-input.cloze-gap {
-    display: inline-block; width: 8ch;
+    display: inline-block;
     border: none; border-bottom: 2px solid var(--primary);
-    border-radius: 4px 4px 0 0;
-    background: var(--primary-soft);
-    color: var(--ink); font-family: inherit; font-size: .95em;
-    padding: .05rem .35rem; margin: 0 .12rem;
+    background: transparent;
+    color: var(--ink); font-family: inherit; font-size: .88em;
+    padding: 0 .3rem; height: 1.3em; line-height: 1.25em;
     text-align: center; vertical-align: baseline;
+    border-radius: 0;
 }
 .cloze-text input.gap-input.cloze-gap:focus {
     outline: none; border-bottom-style: solid; background: var(--surface);
@@ -757,8 +758,28 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
     border-bottom-color: var(--danger); background: var(--danger-soft); color: var(--danger);
     text-decoration: line-through;
 }
+.cloze-lamp {
+    position: absolute; top: -.8em; right: -.75em;
+    border: none; background: transparent; cursor: pointer;
+    font-size: .58rem; line-height: 1; padding: 0 .15rem;
+    opacity: .5; z-index: 3;
+}
+.cloze-lamp:hover, .cloze-lamp.on { opacity: 1; }
+.cloze-lamp:disabled { opacity: .2; cursor: default; }
+.cloze-hint-pop {
+    position: absolute; bottom: calc(100% + 7px); right: -.6rem;
+    z-index: 40; max-width: 240px; width: max-content;
+    padding: .35rem .6rem; border-radius: 8px;
+    background: var(--warn-soft);
+    background: color-mix(in srgb, var(--warn-soft) 78%, transparent);
+    border: 1px solid var(--warn);
+    color: var(--warn); font-size: .8rem; font-style: italic; text-align: left;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(3px);
+    pointer-events: none; white-space: normal;
+}
 .cloze-gap-answer {
-    display: inline-block; padding: .05rem .45rem; margin: 0 .12rem;
+    display: inline-block; padding: 0 .4rem; margin: 0 .1rem;
     border: 1px solid var(--accent); border-radius: 6px;
-    color: var(--accent); font-weight: 700; font-size: .85em;
+    color: var(--accent); font-weight: 700; font-size: .82em;
 }
