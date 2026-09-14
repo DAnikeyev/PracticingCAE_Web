@@ -425,12 +425,6 @@
   "explanation": "'Not once has she mentioned' — inversion with the perfect."
  },
  {
-  "sentence": "Never again ___ they offer credit to first-time customers.",
-  "answer": "would",
-  "hint": "never again + modal",
-  "explanation": "'Never again would they offer' — inverted modal for a past decision."
- },
- {
   "sentence": "Barely ___ the ink dried when the complaints began to arrive.",
   "answer": "had",
   "hint": "barely + past perfect",
@@ -447,12 +441,6 @@
   "answer": "does",
   "hint": "present simple inversion",
   "explanation": "'In no way does this decision reflect …' — auxiliary 'does' + base verb."
- },
- {
-  "sentence": "On no account ___ personal data be shared with third parties.",
-  "answer": "must",
-  "hint": "formal prohibition",
-  "explanation": "'On no account must/should data be shared' — modal + inversion."
  },
  {
   "sentence": "So loud ___ the music that the neighbours called the police.",
@@ -485,12 +473,6 @@
   "explanation": "'Not until the second edition did the book become …'."
  },
  {
-  "sentence": "Should the alarm ___, evacuate the building immediately.",
-  "answer": "sound",
-  "hint": "inverted conditional + base verb",
-  "explanation": "'Should the alarm sound' = 'If the alarm should sound' — base verb follows.'"
- },
- {
   "sentence": "___ it not been for the lifeguard, the boy would have drowned.",
   "answer": "Had",
   "hint": "third conditional inversion",
@@ -519,12 +501,6 @@
   "answer": "was",
   "hint": "not only + inversion",
   "explanation": "'Not only was the bridge unsafe' — inverted past simple of be."
- },
- {
-  "sentence": "Under no circumstances ___ refunds be given after this date.",
-  "answer": "will",
-  "hint": "formal rule",
-  "explanation": "'Under no circumstances will refunds be given' — inverted modal passive."
  },
  {
   "sentence": "At no time ___ the crew aware of the danger.",
@@ -567,12 +543,6 @@
   "answer": "did",
   "hint": "So + adjective + do-support",
   "explanation": "With the bare verb 'prove', the inversion takes do-support: did the storm prove."
- },
- {
-  "sentence": "Scarcely had the anthem finished ___ the crowd invaded the pitch.",
-  "answer": "when",
-  "hint": "scarcely … ?",
-  "explanation": "'Scarcely … when' is the fixed pair (never 'than')."
  },
  {
   "sentence": "We had no ___ signed the lease than the landlord sold the building.",

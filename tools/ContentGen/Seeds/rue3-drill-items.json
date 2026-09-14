@@ -1509,18 +1509,6 @@
   "explanation": "The bare verb follows 'will': will employ."
  },
  {
-  "sentence": "His alibi was highly ___ (SUSPECT).",
-  "answer": "suspicious",
-  "options": [
-   "suspicious",
-   "suspected",
-   "suspect",
-   "suspiciously"
-  ],
-  "hint": "adjective: seeming guilty",
-  "explanation": "'Highly suspicious' — the adjective for something that looks wrong."
- },
- {
   "sentence": "There is no ___ (PROVE) that he was anywhere near the bank.",
   "answer": "proof",
   "options": [

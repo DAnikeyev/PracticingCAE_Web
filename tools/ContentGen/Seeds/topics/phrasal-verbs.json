@@ -1587,18 +1587,6 @@
   "explanation": "call off = cancel."
  },
  {
-  "sentence": "The company was ___ up by a larger rival last year.",
-  "answer": "taken",
-  "options": [
-   "taken",
-   "put",
-   "brought",
-   "held"
-  ],
-  "hint": "be taken ___ = bought out",
-  "explanation": "'Take over/take up a company' — here 'was taken up' = absorbed by a bigger firm."
- },
- {
   "sentence": "Please could you look ___ my plants while I'm away?",
   "answer": "after",
   "options": [

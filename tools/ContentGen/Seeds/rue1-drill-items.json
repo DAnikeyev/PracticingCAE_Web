@@ -1713,18 +1713,6 @@
   "explanation": "'Do somebody a favour' — make/give/take do not collocate with favour."
  },
  {
-  "sentence": "The scandal ___ his career overnight: he was dismissed by lunchtime.",
-  "answer": "ended",
-  "options": [
-   "ended",
-   "injured",
-   "wounded",
-   "harmed"
-  ],
-  "hint": "finish something completely",
-  "explanation": "'End somebody's career' — injured/wounded refer to physical harm."
- },
- {
   "sentence": "The soup needs a ___ of salt to bring out the flavour.",
   "answer": "pinch",
   "options": [

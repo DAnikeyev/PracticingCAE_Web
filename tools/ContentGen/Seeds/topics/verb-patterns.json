@@ -1713,18 +1713,6 @@
   "explanation": "'Consider' takes a gerund: considering selling."
  },
  {
-  "sentence": "Rather than ___ the risk, the airline cancelled all flights.",
-  "answer": "take",
-  "options": [
-   "take",
-   "to take",
-   "taking",
-   "took"
-  ],
-  "hint": "rather than + bare infinitive",
-  "explanation": "'Rather than' is followed by the bare infinitive in this contrastive use."
- },
- {
   "sentence": "He spent months ___ the application, only to be rejected in minutes.",
   "answer": "preparing",
   "options": [

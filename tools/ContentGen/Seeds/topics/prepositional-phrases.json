@@ -597,12 +597,6 @@
   "explanation": "'By the light of' = using the light from something."
  },
  {
-  "sentence": "Profits rose ___ 40 per cent, far beyond even the optimistic forecasts.",
-  "answer": "by",
-  "hint": "rose ___ 40 per cent",
-  "explanation": "'By' expresses the size of the increase: rose by 40 per cent."
- },
- {
   "sentence": "The manuscript came ___ light during the clearance of the archive.",
   "answer": "to",
   "hint": "come ___ light = be discovered",

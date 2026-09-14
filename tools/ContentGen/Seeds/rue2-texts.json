@@ -309,16 +309,6 @@
     {"answer":"As","hint":"preposition: ___ a result","explanation":"The fixed linker is 'as a result'."},
     {"answer":"to","hint":"infinitive: there seems ___ no natural limit","explanation":"'Seems to be' — the infinitive follows 'seems'; 'be' is already present."}
   ]},
-  {"title":"Sticking to the wall: the gecko's secret","text":"A gecko can sprint up polished glass {{1}} any glue, suction or claws. The secret sits on its toes, which are covered {{2}} millions of microscopic hairs, each branching into hundreds of finer tips. Each tip sits {{3}} close to the surface that weak intermolecular attractions begin to act, and across billions of tips they become {{4}} to support the animal's whole weight many times over. As it runs, the gecko peels each toe {{5}} at a shallow angle, breaking the bonds instantly and leaving {{6}} residue behind, so the foot never loses its grip. Engineers have now built the principle {{7}} reusable adhesives and climbing robots, and, remarkably, a gecko's foot even cleans {{8}} between steps.","gaps":[
-    {"answer":"without","hint":"preposition: ___ any glue or suction","explanation":"'Without' expresses the absence of the usual aids."},
-    {"answer":"with","hint":"preposition: covered ___ millions of hairs","explanation":"'Covered with' — the fixed passive partnership."},
-    {"answer":"so","hint":"adverb: ___ close to the surface that","explanation":"'So … that' — degree plus result clause."},
-    {"answer":"enough","hint":"adverb: become ___ to support the weight","explanation":"'Adjective + enough + to' — sufficient degree for the result."},
-    {"answer":"off","hint":"particle: peels each toe ___","explanation":"'Peel off' — the particle shows separation from the surface."},
-    {"answer":"no","hint":"determiner: leaving ___ residue behind","explanation":"'No' negates the noun; 'not' cannot precede 'residue'."},
-    {"answer":"into","hint":"preposition: built the principle ___ adhesives","explanation":"'Build into' — the particle shows incorporation."},
-    {"answer":"itself","hint":"reflexive: cleans ___ between steps","explanation":"The foot acts on itself: it cleans itself."}
-  ]},
   {"title":"The blush that gives us away","text":"Charles Darwin called blushing {{1}} most peculiar of all human expressions. {{2}} makes it so peculiar is that the face betrays us at the very moment we would rather stay unread: it appears in exactly the social situations {{3}} we most want to disappear. Physically, blushing is simply {{4}} sudden rush of blood to the skin of the face, {{5}} is visible to everyone present, and the effect is so reliable {{6}} stage performers dread it. Worse, the fear of blushing tends to produce blushing, {{7}} if the body were determined to confirm the embarrassment. Psychologists still cannot fully explain {{8}} embarrassment floods the face rather than, say, the elbows, but the leading theory holds that the blush works as an involuntary apology, signalling that we know a social rule has been broken.","gaps":[
     {"answer":"the","hint":"article: ___ most peculiar of all","explanation":"Superlative expressions take the definite article."},
     {"answer":"What","hint":"pronoun: ___ makes it so peculiar","explanation":"Pseudo-cleft subject; only 'what' can head the noun clause here."},
@@ -429,16 +419,6 @@
     {"answer":"whose","hint":"relative: an authority ___ reach now extends","explanation":"'Whose' links the authority to its reach."},
     {"answer":"from","hint":"preposition: measures its hours ___ the meridian","explanation":"'Measured from' — the reference point takes 'from'."}
   ]},
-  {"title":"The exhibition that amazed a century","text":"The Great Exhibition {{1}} held in Hyde Park in 1851, housed {{2}} a vast palace of glass and iron bolted together in a matter of months. The Crystal Palace, {{3}} was itself the greatest marvel of the show, displayed fourteen thousand exhibits from around the world, ranging {{4}} machine tools and locomotives to silks and the Koh-i-Noor diamond. {{5}} attracted some six million visitors in five months — about a fifth of the population of Britain — and the ticket receipts turned the venture into {{6}} triumph. The profits, {{7}} were invested in South Kensington, funded the natural history and science museums that still stand there, in a district nicknamed {{8}} Albertopolis after the prince who championed the idea.","gaps":[
-    {"answer":"was","hint":"passive: the Exhibition ___ held in 1851","explanation":"Past passive with a singular subject: was held."},
-    {"answer":"in","hint":"preposition: housed ___ a vast palace","explanation":"'Housed in' — the container takes 'in'."},
-    {"answer":"which","hint":"relative: The Crystal Palace, ___ was itself","explanation":"Non-defining relative after the comma."},
-    {"answer":"from","hint":"preposition: ranging ___ machine tools to silks","explanation":"'Ranging from X to Y' — the first element takes 'from'."},
-    {"answer":"It","hint":"pronoun: ___ attracted some six million visitors","explanation":"'It' refers back to the exhibition as the subject."},
-    {"answer":"a","hint":"article: turned the venture into ___ triumph","explanation":"'Into a triumph' — first mention of a countable noun."},
-    {"answer":"which","hint":"relative: The profits, ___ were invested","explanation":"Non-defining relative after the comma."},
-    {"answer":"as","hint":"preposition: nicknamed ___ Albertopolis","explanation":"'Named/nicknamed as' — the label takes 'as'."}
-  ]},
   {"title":"The library that burned slowly","text":"The Great Library of Alexandria {{1}} founded at the start of the third century BC {{2}} the Greek-speaking kings of Egypt, {{3}} ambition was to collect every significant scroll in the known world. Ancient writers claimed {{4}} the shelves eventually held hundreds of thousands of rolls, and visiting ships {{5}} reportedly searched so that any new book could be copied before the original was returned. The library declined over centuries, and {{6}} exactly it ended — fire, funding cuts or slow decay — is still debated, yet the institution mattered {{7}} for its building than for what happened inside: scholars there measured the Earth's circumference, mapped the stars and edited Homer. {{8}} was, in effect, the first great research institute, and the idea of such a place may be its most durable legacy.","gaps":[
     {"answer":"was","hint":"passive: the Library ___ founded","explanation":"Past passive with a singular subject: was founded."},
     {"answer":"by","hint":"preposition: founded ___ the kings of Egypt","explanation":"Passive agent: the kings did the founding, so 'by'."},
@@ -458,16 +438,6 @@
     {"answer":"Its","hint":"possessive: ___ monopoly broken","explanation":"Absolute phrase: its monopoly broken, Byzantium rebuilt."},
     {"answer":"Such","hint":"pronoun: ___ was the demand that","explanation":"Fronted inversion: 'Such was the demand that…'."},
     {"answer":"to","hint":"preposition: owes its name ___ this material","explanation":"'Owe something to something' — the source takes 'to'."}
-  ]},
-  {"title":"The pigeon post of Paris","text":"In September 1870 Paris found {{1}} besieged by Prussian armies, {{2}} cut the city's telegraph lines and surrounded it entirely. The only way {{3}} carry news across the enemy lines was by carrier pigeon, but a bird can lift only a few grams, and the dispatches kept growing. A photographer named René Dagron solved the problem: printed pages were photographed down {{4}} microfilm weighing a fraction of a gram, and each film was so light {{5}} a pigeon could carry twenty of them at once. Parisians, {{6}} paid a small fee to read the microscopic news under magnifying glasses at the post office, nicknamed the tiny sheets 'pigeon post'. {{7}} is estimated that over a million private messages reached the besieged city {{8}} this improbable airmail service.","gaps":[
-    {"answer":"itself","hint":"reflexive: Paris found ___ besieged","explanation":"'Found itself' — the city experienced its own state."},
-    {"answer":"which","hint":"relative: armies, ___ cut the telegraph lines","explanation":"Non-defining relative after the comma referring to the armies."},
-    {"answer":"to","hint":"infinitive: the only way ___ carry news","explanation":"'The way to do something' — the infinitive modifies 'way'."},
-    {"answer":"onto","hint":"preposition: photographed down ___ microfilm","explanation":"'Down onto' — the movement ends on the surface: onto."},
-    {"answer":"that","hint":"conjunction: so light ___ a pigeon could carry","explanation":"'So … that' — degree plus result clause."},
-    {"answer":"who","hint":"relative: Parisians, ___ paid a small fee","explanation":"Non-defining relative about people after the comma."},
-    {"answer":"It","hint":"dummy subject: ___ is estimated that","explanation":"'It is estimated that…' — the dummy subject of the passive report."},
-    {"answer":"by","hint":"preposition: reached the city ___ this service","explanation":"Means of transmission takes 'by': by this service."}
   ]},
   {"title":"Salt: the mineral that paid for empires","text":"For most of history salt {{1}} so scarce and so necessary that it was worth fighting over, and governments quickly learned {{2}} taxing it was easier than mining it. Rome built the Via Salaria, {{3}} ran from the salt pans of the Adriatic straight to the capital, and emperors {{4}} revenues depended on the salt tax kept the price firmly under state control. The English word salary descends {{5}} the allowance once paid to Roman soldiers for the mineral, and whole wars were financed {{6}} this single levy. {{7}} 1930, Mahatma Gandhi chose the humble substance for his most famous protest, walking 240 miles to the sea to make salt from seawater in open defiance of the British salt laws, and the Salt March became a turning point {{8}} the long road to independence.","gaps":[
     {"answer":"was","hint":"verb: salt ___ so scarce and necessary","explanation":"Past 'be' with an uncountable subject: was scarce."},
@@ -739,16 +709,6 @@
     {"answer":"where","hint":"relative adverb: Japan, ___ land is scarce","explanation":"'Where' refers back to Japan as the place."},
     {"answer":"although","hint":"conjunction: niche ___ the dream remains off","explanation":"Concession between the two clauses: although."}
   ]},
-  {"title":"The return of the sea eagle","text":"The white-tailed eagle {{1}} driven to extinction in Britain {{2}} 1918, persecuted by shepherds and trophy collectors alike. {{3}} took until 1975 for the first Norwegian chicks to be released {{4}} the west coast of Scotland, and the birds, winged like barn doors, took another generation to feel at home. Over a hundred pairs {{5}} now raised young, and on Mull the sea eagle {{6}} licence to print money: wildlife tourists pour in, and islanders, {{7}} income from eagle-watching is now substantial, once shot the birds as thieves. Economists reckon an eagle pair to be worth more {{8}} the lambs it was once accused of taking — a calculation that has quietly settled one of conservation's oldest arguments.","gaps":[
-    {"answer":"was","hint":"passive: the eagle ___ driven to extinction","explanation":"Past passive with a singular subject: was driven."},
-    {"answer":"by","hint":"time word: extinction ___ 1918","explanation":"'By 1918' — completed before that date."},
-    {"answer":"It","hint":"cleft pronoun: ___ took until 1975 for","explanation":"'It took until X for Y' — the fixed time frame."},
-    {"answer":"off","hint":"preposition: released ___ the west coast","explanation":"'Off the coast' — position in the sea near the coast."},
-    {"answer":"have","hint":"auxiliary: a hundred pairs ___ raised","explanation":"Present perfect agreeing with the plural 'pairs': have raised."},
-    {"answer":"has","hint":"verb: Mull ___ become a licence to print money","explanation":"Present perfect with a singular subject: has become."},
-    {"answer":"whose","hint":"relative: islanders, ___ income is substantial","explanation":"'Whose' links the islanders to their income."},
-    {"answer":"than","hint":"comparative: worth more ___ the lambs","explanation":"The comparative 'more' requires 'than'."}
-  ]},
   {"title":"The road the sea owns twice a day","text":"{{1}} day, the tide reclaims the causeway that links Mont Saint-Michel to the French coast {{2}} a regularity that has governed the island for thirteen centuries. The bay is famous for tides that race in faster than a galloping horse, and the medieval abbey, {{3}} spire crowns the rock, has watched pilgrims misjudge them for just as long. {{4}} the causeway lies under the sea, the visit must follow the tide tables rather than the clock. Access {{5}} once on foot at low tide, across shining sand that sucked at boots; a bridge built in 2014 now lets the water flow beneath the road, {{6}} means the mount is an island again at every high tide. The rescue boat remains moored nearby, {{7}} it has been for generations, and every year the sea adds a few more abandoned cars to its collection. The mount itself has never minded: it has simply waited {{8}} the water twice a day, as it always has.","gaps":[
     {"answer":"Every","hint":"determiner: ___ day, the tide reclaims","explanation":"'Every day' — the fixed frequency phrase."},
     {"answer":"with","hint":"preposition: the coast ___ a regularity","explanation":"'With a regularity' — the accompanying manner."},
@@ -899,16 +859,6 @@
     {"answer":"as","hint":"adverb: cost twice ___ much","explanation":"'Twice as much' — the fixed comparative frame."},
     {"answer":"but","hint":"conjunction: costs twice as much, ___ nobody minds","explanation":"Contrast between price and indifference: but."}
   ]},
-  {"title":"Who owns the past?","text":"Museums {{1}} long defended their collections as universal, but the question of where the objects came from {{2}} become impossible to dodge. The Benin bronzes, {{3}} by a punitive expedition in 1897 and scattered across Western capitals, are the emblem of the argument; the Parthenon marbles are its longest-running instalment. Attitudes {{4}} hardened on the returning side too: a growing list of objects has gone home — to Nigeria, Greece talks continue, and Ethiopia's looted treasures have begun the journey back. {{5}} a result, the debate is no longer about {{6}} the looted works should go home but about how: through long-term loans, joint custody or outright return. There is {{7}} longer any serious doubt about the principle; what remains contested is the pace, the paperwork and the politics. The museums that flourish in future will be those that treat return not as a loss {{8}} as a new kind of friendship.","gaps":[
-    {"answer":"have","hint":"auxiliary: museums ___ long defended","explanation":"Present perfect with a plural subject: have long defended."},
-    {"answer":"has","hint":"auxiliary: the question ___ become impossible","explanation":"Present perfect with a singular subject: has become."},
-    {"answer":"by","hint":"preposition: seized ___ a punitive expedition","explanation":"Passive agent: seized by the expedition."},
-    {"answer":"have","hint":"auxiliary: attitudes ___ hardened","explanation":"Present perfect with a plural subject: have hardened."},
-    {"answer":"As","hint":"preposition: ___ a result, the debate","explanation":"'As a result' is the fixed linking phrase."},
-    {"answer":"whether","hint":"conjunction: about ___ the works should go home","explanation":"The indirect yes/no question: whether they should."},
-    {"answer":"no","hint":"determiner: there is ___ longer any serious doubt","explanation":"'No longer' — the gap supplies 'no' before 'longer'."},
-    {"answer":"but","hint":"conjunction: not as a loss ___ as a friendship","explanation":"'Not as X but as Y' — the fixed pair."}
-  ]},
   {"title":"The library that lends more than books","text":"{{1}} decades, librarians have watched their job description quietly expand. Public libraries now lend {{2}} than books: tools, board games, sewing machines and, in the coldest months, simply {{3}} warm place to sit. {{4}} the shelves, they have become what sociologists call third places — neither home nor work, {{5}} the town square with a roof. Such is the demand {{6}} some newly built branches offer social workers, seed banks and recording studios alongside the novels. The card that once bought access to stories now opens a civic infrastructure, and librarians have become {{7}} engineers. Whatever the future of the printed page, the institution that guards it {{8}} decided to be useful first and quiet second.","gaps":[
     {"answer":"For","hint":"preposition: ___ decades","explanation":"Durations take 'for': for decades."},
     {"answer":"more","hint":"quantifier: lend ___ than books","explanation":"'More than' — the comparative of the expanded range."},
@@ -949,16 +899,6 @@
     {"answer":"as","hint":"conjunction: its edge, ___ the cinder track gave way","explanation":"The parallel of earlier eras: as the track gave way."},
     {"answer":"which","hint":"relative: ___, __ is why the body sets limits","explanation":"Sentential relative after the comma summing up the physics."}
   ]},
-  {"title":"Twelve yards of nerve","text":"No sporting act is simpler {{1}} striking a stationary ball from twelve yards, and {{2}} is stranger than the psychology that surrounds it. {{3}} is the walk from the centre circle to the penalty spot that gives a player time to think, and thinking was never meant to be part of the job. Goalkeepers {{4}} studied opponents' habits know that most players decide where to shoot only {{5}} they begin the walk, which is why psychologists teach strikers to choose a corner early and commit. {{6}} the research shows, however, is that goalkeepers who stay upright for longer save {{7}} penalties than those who dive at the first twitch. Twelve yards may be the shortest distance in sport, {{8}} it contains a whole seminar on nerve.","gaps":[
-    {"answer":"than","hint":"comparative: simpler ___ striking a ball","explanation":"The comparative 'simpler' requires 'than'."},
-    {"answer":"nothing","hint":"pronoun: and ___ is stranger than the psychology","explanation":"'Nothing is stranger than…' — the emphatic negative comparison."},
-    {"answer":"It","hint":"cleft pronoun: ___ is the walk that gives time","explanation":"The cleft structure emphasises the walk."},
-    {"answer":"have","hint":"auxiliary: goalkeepers ___ studied habits","explanation":"Present perfect participle clause with a plural subject: have studied."},
-    {"answer":"when","hint":"time word: only ___ they begin the walk","explanation":"'Only when' — the decision moment."},
-    {"answer":"What","hint":"pronoun: ___ the research shows is that","explanation":"Fused relative subject of the pseudo-cleft."},
-    {"answer":"more","hint":"quantifier: save ___ penalties than","explanation":"The comparative before 'than': more penalties."},
-    {"answer":"but","hint":"conjunction: the shortest distance, ___ it contains a seminar","explanation":"Contrast between small distance and big lesson: but."}
-  ]},
   {"title":"The game the internet made young again","text":"{{1}} was the pandemic that revived chess. Although chess is {{2}} of the world's oldest games, it had spent decades quietly fading in the West, its clubs greying {{3}} its fixtures thinning, until lockdown handed it perfect conditions: housebound players, a streaming boom and a generation looking {{4}} something to argue about. The Queen's Gambit, a drama {{5}} heroine journeys from orphanage to grandmaster, became the platform's most-watched scripted series, {{6}} sales of chess sets soared. The game's largest website reported that {{7}} of its millions of newcomers were young, casual and — to the old guard's surprise — increasingly female. The old game has not changed; {{8}} has changed is who is playing it.","gaps":[
     {"answer":"It","hint":"cleft pronoun: ___ was the pandemic that","explanation":"The cleft structure emphasises the pandemic."},
     {"answer":"one","hint":"pronoun: chess is ___ of the world's oldest games","explanation":"'One of the + superlative' — the standard pattern."},
@@ -998,16 +938,6 @@
     {"answer":"have","hint":"auxiliary: critics ___ complained ever since","explanation":"Present perfect with a plural subject: have complained."},
     {"answer":"whose","hint":"relative: candidates ___ nerves have entered legend","explanation":"'Whose' links the candidates to their nerves."},
     {"answer":"and","hint":"conjunction: two centuries, ___ everyone suspects","explanation":"The two clauses are added: and."}
-  ]},
-  {"title":"Two languages, one childhood","text":"{{1}} was long believed that juggling two languages confused young children, and immigrant families {{2}} once urged to drop the home language {{3}} children might settle better at school. {{4}} the evidence accumulated, however, the advice was quietly withdrawn. Decades of research {{5}} found that bilingual children show {{6}} flexible attention than monolinguals, switch between tasks with less effort, and may develop dementia symptoms years later {{7}} monolinguals do. Two languages, it seems, are not a burden but a gymnasium for the growing brain. A child's two languages are best treated {{8}} two instruments: learning the second sharpens the playing of the first.","gaps":[
-    {"answer":"It","hint":"dummy subject: ___ was long believed that","explanation":"'It was long believed that…' — the passive report frame."},
-    {"answer":"were","hint":"passive: families ___ once urged","explanation":"Past passive agreeing with the plural 'families': were urged."},
-    {"answer":"that","hint":"conjunction: so children ___ settle better","explanation":"The purpose clause after 'so': so that."},
-    {"answer":"As","hint":"conjunction: ___ the evidence accumulated","explanation":"'As' — the parallel growth of evidence and change."},
-    {"answer":"have","hint":"auxiliary: decades of research ___ found","explanation":"Present perfect with the plural 'decades': have found."},
-    {"answer":"more","hint":"adverb: show ___ flexible attention than","explanation":"The comparative before 'than': more flexible."},
-    {"answer":"than","hint":"comparative: years later ___ monolinguals do","explanation":"The comparative 'later' requires 'than'."},
-    {"answer":"as","hint":"preposition: best treated ___ two instruments","explanation":"'Treat as' — the role takes 'as'."}
   ]},
   {"title":"The class flipped upside down","text":"The flipped classroom {{1}} born in Colorado ski country, where lessons were being lost to snow days. Teachers began recording their classes {{2}} that a missed lesson could be watched at home, and someone noticed the recordings worked better {{3}} the average lesson: pupils could pause, rewind and rewatch {{4}} confused them, while in class the whiteboard no longer raced ahead of anybody. Freed from lecturing, teachers {{5}} spend the hour on the hard part — the practice — {{6}} pupils actually need a professional in the room. Early adopters {{7}} reported calmer homework, better questions and fewer students quietly drowning. Flipping, {{8}} turns out, is really just an argument about what class time is for.","gaps":[
     {"answer":"was","hint":"passive: the classroom ___ born","explanation":"Past passive with a singular subject: was born."},
@@ -1068,15 +998,5 @@
     {"answer":"more","hint":"adverb: the ___ strands cross and jam","explanation":"'The more … the harder …' — the double comparative."},
     {"answer":"it","hint":"pronoun: every crossing multiplies ___","explanation":"Object pronoun referring to the holding power: multiplies it."},
     {"answer":"but","hint":"conjunction: faster, ___ it finally explains","explanation":"Contrast between practical use and explanation: but."}
-  ]},
-  {"title":"The people hiding in our words","text":"Everyday English {{1}} smuggled hundreds of people into our speech. The sandwich {{2}} after an earl {{3}} hunger for uninterrupted cards turned bread-and-filling into a word; the boycott {{4}} Captain Boycott, an Irish land agent whose tenants simply refused to deal with him; and milk is pasteurised {{5}} the process Louis Pasteur developed. Physicists left {{6}} names in every socket in the world: the volt, the ampere and the watt. Once you notice the smuggled people, you begin to find them {{7}}, and each discovery is a small lesson in the history {{8}} inside a word.","gaps":[
-    {"answer":"has","hint":"auxiliary: English ___ smuggled hundreds","explanation":"Present perfect with a singular subject: has smuggled."},
-    {"answer":"named","hint":"participle: the sandwich ___ after an earl","explanation":"Reduced passive: the sandwich named after an earl."},
-    {"answer":"whose","hint":"relative: an earl ___ hunger for cards","explanation":"'Whose' links the earl to his hunger."},
-    {"answer":"after","hint":"preposition: the boycott ___ Captain Boycott","explanation":"'Named after' — the source of the word takes 'after'."},
-    {"answer":"by","hint":"preposition: pasteurised ___ the process","explanation":"Passive agent: pasteurised by the process."},
-    {"answer":"their","hint":"possessive: physicists left ___ names","explanation":"The names belong to the physicists: their names."},
-    {"answer":"everywhere","hint":"adverb: begin to find them ___","explanation":"The discoveries appear in every place: everywhere."},
-    {"answer":"hiding","hint":"participle: the history ___ inside a word","explanation":"Reduced relative: the history hiding inside a word."}
   ]}
 ]

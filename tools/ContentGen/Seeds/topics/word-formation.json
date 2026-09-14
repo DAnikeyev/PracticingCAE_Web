@@ -1428,18 +1428,6 @@
   "explanation": "The noun from CONFIDENT is 'confidence'."
  },
  {
-  "sentence": "We watched the orchestra ___ (REHEARSE) from the balcony.",
-  "answer": "rehearsal",
-  "options": [
-   "rehearsal",
-   "rehearse",
-   "rehearsing",
-   "rehearsed"
-  ],
-  "hint": "noun: practice session",
-  "explanation": "The noun from REHEARSE is 'rehearsal'."
- },
- {
   "sentence": "Her ___ (PERSEVERE) finally paid off.",
   "answer": "perseverance",
   "options": [
