@@ -97,6 +97,15 @@ window.caeUi = {
       run[taskId] = { c: correct, t: total, ts: Date.now() };
       localStorage.setItem('cae_rue_run', JSON.stringify(run));
     } catch (e) { }
+  },
+  // Start a fresh R&UE run: drop the per-part results and every part's
+  // saved in-progress session, so all four parts load new sets.
+  resetRueRun: function () {
+    clearTimeout(this._psTimer);
+    try { localStorage.removeItem('cae_rue_run'); } catch (e) { }
+    ['rue-part1', 'rue-part2', 'rue-part3', 'rue-part4'].forEach(function (id) {
+      try { localStorage.removeItem('cae_practice_' + id); } catch (e) { }
+    });
   }
 };
 

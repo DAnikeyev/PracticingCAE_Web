@@ -424,6 +424,13 @@ else
         _ownerId = await Owner.GetOwnerIdAsync();
         if (_task is null) { _loading = false; return; }
 
+        // Entering Part 1 with a completed four-part run starts a new lap:
+        // drop the run and every part's saved session before restoring anything.
+        if (_task.Id == "rue-part1")
+        {
+            await MaybeStartNewRunAsync();
+        }
+
         // A connection blink or page reload must not throw away the set the user
         // is working on: restore the in-progress session if the page came back
         // (reload / reconnected circuit), otherwise start a fresh one.
@@ -597,6 +604,10 @@ else
         }
     }
 
+    private bool RueRunComplete =>
+        IsRuePart && _rueRun is not null &&
+        RuePartIds.All(id => _rueRun.TryGetValue(id, out var e) && IsFresh(e));
+
     private async Task RecordRueResultAsync()
     {
         if (!IsRuePart || _result is null || _task is null) return;
@@ -642,10 +653,55 @@ else
 
     private async Task NextSet()
     {
-        // an explicit "next" always starts a fresh set
+        // an explicit "next" always starts a fresh set; finishing a full
+        // four-part run with "next" also starts a fresh run
+        if (RueRunComplete)
+        {
+            await StartNewRunAsync();
+        }
         try { await JS.InvokeVoidAsync("caeUi.clearPracticeSession", _task!.Id); }
         catch (Exception) { }
         await LoadSet();
+    }
+
+    /// <summary>
+    /// Clears the completed run and every part's saved session so a new
+    /// four-part lap starts from fresh sets.
+    /// </summary>
+    private async Task StartNewRunAsync()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("caeUi.resetRueRun");
+            _rueRun = new Dictionary<string, RueRunEntry>();
+        }
+        catch (Exception)
+        {
+            // interop is best-effort
+        }
+    }
+
+    /// <summary>
+    /// Part 1 entry point: if the stored run is complete (all four parts
+    /// checked recently), start a new lap.
+    /// </summary>
+    private async Task MaybeStartNewRunAsync()
+    {
+        try
+        {
+            var run = await JS.InvokeAsync<Dictionary<string, RueRunEntry>>("caeUi.getRueRun");
+            var complete = RuePartIds.All(id => run.TryGetValue(id, out var e)
+                && DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() - e.Ts
+                    <= TimeSpan.FromHours(12).TotalMilliseconds);
+            if (complete)
+            {
+                await StartNewRunAsync();
+            }
+        }
+        catch (Exception)
+        {
+            // interop is best-effort
+        }
     }
 
     private void SetAnswer(int idx, string? value)
