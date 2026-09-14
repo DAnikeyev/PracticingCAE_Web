@@ -783,3 +783,23 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
     border: 1px solid var(--accent); border-radius: 6px;
     color: var(--accent); font-weight: 700; font-size: .82em;
 }
+
+/* ---------- Part 1 inline option dropdowns inside the cloze text ---------- */
+.cloze-text select.cloze-select {
+    display: inline-block;
+    border: none; border-bottom: 2px solid var(--primary);
+    background: transparent;
+    color: var(--primary-strong); font-family: inherit; font-size: .9em;
+    font-weight: 600; padding: 0 .25rem; height: 1.5em;
+    margin: 0 .15rem; max-width: 14em;
+    border-radius: 0; vertical-align: baseline; cursor: pointer;
+}
+.cloze-text select.cloze-select:focus { outline: none; border-bottom-style: solid; }
+.cloze-text select.cloze-select:disabled { opacity: 1; cursor: default; }
+.cloze-text select.cloze-select.row-ok {
+    border-bottom-color: var(--accent); background: var(--accent-soft); color: var(--accent);
+}
+.cloze-text select.cloze-select.row-bad {
+    border-bottom-color: var(--danger); background: var(--danger-soft); color: var(--danger);
+}
+.cloze-text select.cloze-select option { background: var(--surface); color: var(--ink); }

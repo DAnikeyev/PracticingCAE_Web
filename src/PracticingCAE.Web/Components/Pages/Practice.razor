@@ -133,9 +133,35 @@ else
                             }
                         </span>
                     }
-                    else if (seg.Gap is { } m)
+                    else if (seg.Gap is { } m && TaskIsRue1)
                     {
-                        <span class="gap-marker" data-gap="@m">@m</span>
+                        var gi = m - 1;
+                        <span class="cloze-gap-wrap" @key="@($"{_set!.Id}:g{m}")">
+                            <select class="cloze-select @(FeedbackClass(gi))" disabled="@_checked"
+                                    aria-label="Answer for gap @(m)"
+                                    @onchange="@(e => SetAnswer(gi, e.Value?.ToString()))">
+                                <option value="" selected="@string.IsNullOrEmpty(_answers[gi])" hidden>@($"gap {m}")</option>
+                                @foreach (var opt in _gaps[gi].Options)
+                                {
+                                    <option value="@opt" selected="@(_answers[gi] == opt)">@opt</option>
+                                }
+                            </select>
+                            <button type="button" class="cloze-lamp @(_hints[gi] ? "on" : "")" title="Hint"
+                                    disabled="@_checked" @onmousedown:preventDefault
+                                    @onclick="() => ToggleHint(gi)">&#128161;</button>
+                            @if (_hints[gi] && !_checked)
+                            {
+                                <span class="cloze-hint-pop">@_gaps[gi].Hint</span>
+                            }
+                            @if (_checked && _result is not null && !_result.Gaps[gi].IsCorrect)
+                            {
+                                <span class="cloze-gap-answer">@_gaps[gi].Answer</span>
+                            }
+                        </span>
+                    }
+                    else if (seg.Gap is { } g)
+                    {
+                        <span class="gap-marker" data-gap="@g">@g</span>
                     }
                     else
                     {
@@ -152,7 +178,7 @@ else
                 var gap = _gaps[i];
                 // Part 2 types inside the text; its rows only appear after the
                 // check, as verdicts and explanations (hints live on the lamp)
-                @if (TaskIsRue2 && !_checked)
+                @if ((TaskIsRue1 || TaskIsRue2) && !_checked)
                 {
                     continue;
                 }
@@ -218,7 +244,7 @@ else
                         {
                             <div class="gap-answerline">
                                 <span class="gap-marker-static">@idx1(idx)</span>
-                                @if (!TaskIsRue2)
+                                @if (!TaskIsRue1 && !TaskIsRue2)
                                 {
                                     @if (gap.Base is not null)
                                     {
@@ -251,14 +277,14 @@ else
                                                aria-label="Answer for question @(idx + 1)" />
                                     }
                                 }
-                                @if (!TaskIsRue2)
+                                @if (!TaskIsRue1 && !TaskIsRue2)
                                 {
                                     <button type="button" class="hint-btn" title="Show hint" disabled="@(_hints[idx] || _checked)"
                                             @onclick="() => ShowHint(idx)">Hint</button>
                                 }
                             </div>
                         }
-                        @if (_hints[idx] && !TaskIsRue2 && !string.IsNullOrWhiteSpace(gap.Hint))
+                        @if (_hints[idx] && !TaskIsRue1 && !TaskIsRue2 && !string.IsNullOrWhiteSpace(gap.Hint))
                         {
                             <p class="hint-text">Hint: @gap.Hint</p>
                         }
@@ -568,6 +594,7 @@ else
 
     private bool IsRuePart => _task is not null && Array.IndexOf(RuePartIds, _task.Id) >= 0;
     private bool TaskIsRue2 => _task?.Kind == SetKind.Rue2;
+    private bool TaskIsRue1 => _task?.Kind == SetKind.Rue1;
 
     private int RuePartIndex => _task is null ? 0 : Math.Max(0, Array.IndexOf(RuePartIds, _task.Id));
     private string NextPartUrl => $"/practice/{RuePartIds[(RuePartIndex + 1) % RuePartIds.Length]}";

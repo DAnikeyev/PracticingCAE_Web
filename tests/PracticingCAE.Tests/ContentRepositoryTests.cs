@@ -37,7 +37,7 @@ public class ContentRepositoryTests
         // so its floor is lower than the cycled sentence banks.
         foreach (var task in Repo.Tasks)
         {
-            var min = task.Id == "rue-part2" ? 100 : 200;
+            var min = task.Id is "rue-part1" or "rue-part2" ? 100 : 200;
             Assert.True(Repo.SetCount(task.Id) >= min,
                 $"{task.Id} has only {Repo.SetCount(task.Id)} sets (min {min})");
         }
@@ -81,6 +81,19 @@ public class ContentRepositoryTests
                 Assert.Equal(4, gap.Options.Distinct().Count());
                 Assert.Contains(gap.Answer, gap.Options);
             }
+        }
+    }
+
+    [Fact]
+    public void Rue1Sets_AreCoherentTextsWithEightGaps()
+    {
+        foreach (var set in Repo.SetsFor("rue-part1"))
+        {
+            Assert.False(string.IsNullOrWhiteSpace(set.Text),
+                $"{set.Id}: part 1 sets must be coherent cloze texts, not standalone sentences");
+            Assert.Equal(8, set.Gaps.Count);
+            Assert.True(set.Text.Length >= 350,
+                $"{set.Id}: part 1 text is too short to be a coherent passage ({set.Text.Length} chars)");
         }
     }
 

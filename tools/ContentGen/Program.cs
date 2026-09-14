@@ -80,7 +80,6 @@ var summary = new List<(string Id, int Sets)>();
 
 // ---------- R&UE tasks ----------
 summary.Add(("rue-part1", GenerateFullSetsFromSeedFile("rue-part1", Path.Combine(seedsDir, "rue1-texts.json"))));
-summary.Add(("rue-part1", GenerateDrillSets("rue-part1", Path.Combine(seedsDir, "rue1-drill-items.json"), itemsPerSet: 8)));
 summary.Add(("rue-part2", GenerateFullSetsFromSeedFile("rue-part2", Path.Combine(seedsDir, "rue2-texts.json"))));
 summary.Add(("rue-part3", GenerateFullSetsFromSeedFile("rue-part3", Path.Combine(seedsDir, "rue3-texts.json"))));
 summary.Add(("rue-part3", GenerateDrillSets("rue-part3", Path.Combine(seedsDir, "rue3-drill-items.json"), itemsPerSet: 8, stripOptions: true)));
@@ -99,7 +98,7 @@ foreach (var t in tasks)
 
 // ---------- summary ----------
 // rue-part2 sets are whole coherent cloze texts (one text = one set), so its floor is lower.
-int MinSetsFor(string taskId) => taskId == "rue-part2" ? 100 : 200;
+int MinSetsFor(string taskId) => taskId is "rue-part1" or "rue-part2" ? 100 : 200;
 Console.WriteLine($"{"task",-22} {"sets",6}  meets bar");
 foreach (var s in summary.GroupBy(x => x.Id).Select(g => (Id: g.Key, Sets: g.Sum(x => x.Sets))))
 {
