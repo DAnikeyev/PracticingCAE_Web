@@ -8,21 +8,21 @@ public static class GuideLibrary
     public static readonly IReadOnlyList<Section> Sections = new[]
     {
         new Section("overview", "Exam overview",
-            "Format of the Reading & Use of English paper, marks per part, and how this site maps to the real exam."),
+            "Format and marks of the Reading & Use of English paper, where the cheap marks are, and how this site maps to the exam."),
         new Section("timing", "Time management",
-            "A minute-by-minute budget for the 90-minute paper, and what to do when you get stuck."),
+            "A minute-by-minute budget with running-clock checkpoints, a triage protocol and a recovery plan for when you fall behind."),
         new Section("part-1", "Part 1: Multiple-choice cloze",
-            "Read before you choose: word class, collocation and how to eliminate the distractors."),
+            "A five-step method with a worked example, the distractor taxonomy, and the 25 collocation families that dominate this part."),
         new Section("part-2", "Part 2: Open cloze",
-            "One word, almost always a function word. How to read the grammar around the gap."),
+            "The 12 function-word categories behind nearly every answer, cue tables, a worked example, and the spelling traps."),
         new Section("part-3", "Part 3: Word formation",
-            "Part of speech first, form the word second. Suffixes, prefixes and spelling traps."),
+            "Part of speech first: a position-based decision table, an affix reference, worked examples and the irregular-forms trap list."),
         new Section("part-4", "Part 4: Key word transformations",
-            "Two marks per sentence: 3-6 words including the keyword, meaning unchanged."),
+            "The rules, how the two marks split, and the 12 highest-frequency transformation patterns with a worked example each."),
         new Section("common-traps", "Common traps",
-            "The highest-frequency mistakes per part, and the checks that catch them."),
+            "Wrong-to-right tables for each part, plus the 60-second end-of-paper check routine."),
         new Section("preparation", "Prepare with this site",
-            "A weekly routine: typed mode, accuracy before speed, progress reviews, timed sets."),
+            "A four-week plan with accuracy gates, and how to use typed mode, mistake history, trend arrows and timed laps."),
     };
 
     public static Section? Find(string slug) =>
