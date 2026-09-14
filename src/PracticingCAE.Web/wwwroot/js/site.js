@@ -22,9 +22,11 @@ window.caeUi = {
     try { localStorage.setItem('cae_pref_' + key, JSON.stringify(value)); } catch (e) { }
   },
 
-  // fill the gap inputs with provided answers (used after switching answer mode)
+  // fill the gap inputs with provided answers (used after switching answer mode
+  // or restoring a saved session). Covers both the row inputs and the inline
+  // inputs embedded in Part 2 cloze texts (document order = gap order).
   fillGapInputs: function (answers) {
-    var inputs = document.querySelectorAll('.gap-list input.gap-input');
+    var inputs = document.querySelectorAll('.gap-list input.gap-input, .cloze-text input.gap-input');
     for (var i = 0; i < inputs.length; i++) {
       var v = answers && answers[i] ? answers[i] : '';
       if (v) inputs[i].value = v;
@@ -33,7 +35,7 @@ window.caeUi = {
 
   // focus the first answer input on the page
   focusFirstGap: function () {
-    var input = document.querySelector('.gap-list input.gap-input');
+    var input = document.querySelector('.gap-list input.gap-input, .cloze-text input.gap-input');
     if (input) input.focus();
   },
 
@@ -82,6 +84,19 @@ window.caeUi = {
     var type = nav ? nav.type : 'navigate';
     if (type === 'reload' || type === 'back_forward') return true;
     return !!s.pageInstance && s.pageInstance === this.ensurePageInstance();
+  },
+
+  // ---- Reading & Use of English run: last checked result per part ----
+  getRueRun: function () {
+    try { return JSON.parse(localStorage.getItem('cae_rue_run') || '{}'); }
+    catch (e) { return {}; }
+  },
+  setRuePartResult: function (taskId, correct, total) {
+    try {
+      var run = this.getRueRun();
+      run[taskId] = { c: correct, t: total, ts: Date.now() };
+      localStorage.setItem('cae_rue_run', JSON.stringify(run));
+    } catch (e) { }
   }
 };
 
@@ -98,13 +113,15 @@ document.addEventListener('click', function (e) {
   }
 }, true);
 
-// Enter moves to the next gap input; from the last one, focus the Check button.
+// Enter moves to the next gap input (row inputs and Part 2 inline text inputs);
+// from the last one, focus the Check button.
 document.addEventListener('keydown', function (e) {
   if (e.key !== 'Enter') return;
   var target = e.target;
-  if (!target || target.tagName !== 'INPUT' || !target.closest('.gap-list')) return;
+  if (!target || target.tagName !== 'INPUT' || !target.closest('.gap-list, .cloze-text')) return;
   e.preventDefault();
-  var inputs = Array.prototype.slice.call(document.querySelectorAll('.gap-list input.gap-input'));
+  var inputs = Array.prototype.slice.call(
+    document.querySelectorAll('.gap-list input.gap-input, .cloze-text input.gap-input'));
   var i = inputs.indexOf(target);
   if (i >= 0 && i < inputs.length - 1) {
     inputs[i + 1].focus();

@@ -702,3 +702,63 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 1.7rem 0 .8rem; }
         caret-color: var(--ink);
     }
 }
+
+/* ---------- R&UE part navigation + run total ---------- */
+.rue-part-nav {
+    display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
+    margin: 0 0 1.1rem; padding: .45rem .6rem;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius-sm, 9px);
+}
+.rue-nav-arrow {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--surface);
+    color: var(--ink); font-weight: 700; text-decoration: none;
+}
+.rue-nav-arrow:hover { border-color: var(--primary); color: var(--primary-strong); text-decoration: none; }
+.rue-nav-parts { display: flex; gap: .3rem; }
+.rue-nav-part {
+    padding: .3rem .7rem; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--muted);
+    font-weight: 600; font-size: .9rem; text-decoration: none;
+    white-space: nowrap;
+}
+.rue-nav-part:hover { border-color: var(--primary); color: var(--primary-strong); text-decoration: none; }
+.rue-nav-part.current { background: var(--primary); border-color: var(--primary); color: #fff; }
+.rue-nav-part.done:not(.current) { border-color: var(--accent); color: var(--accent); }
+.rue-nav-run { margin-left: auto; color: var(--muted); font-size: .88rem; font-weight: 600; }
+
+.rue-run-banner {
+    display: flex; align-items: center; gap: .8rem; flex-wrap: wrap;
+    border-radius: var(--radius, 14px); padding: .85rem 1.1rem; margin-bottom: 1.1rem;
+    background: var(--primary-soft); border: 1px solid var(--primary);
+    color: var(--primary-strong); font-size: 1rem; box-shadow: var(--shadow);
+}
+.rue-run-banner strong { font-size: 1.1rem; }
+
+/* ---------- Part 2 inline gap inputs inside the cloze text ---------- */
+.cloze-text input.gap-input.cloze-gap {
+    display: inline-block; width: 8ch;
+    border: none; border-bottom: 2px solid var(--primary);
+    border-radius: 4px 4px 0 0;
+    background: var(--primary-soft);
+    color: var(--ink); font-family: inherit; font-size: .95em;
+    padding: .05rem .35rem; margin: 0 .12rem;
+    text-align: center; vertical-align: baseline;
+}
+.cloze-text input.gap-input.cloze-gap:focus {
+    outline: none; border-bottom-style: solid; background: var(--surface);
+}
+.cloze-text input.gap-input.cloze-gap.row-ok {
+    border-bottom-color: var(--accent); background: var(--accent-soft); color: var(--accent);
+}
+.cloze-text input.gap-input.cloze-gap.row-bad {
+    border-bottom-color: var(--danger); background: var(--danger-soft); color: var(--danger);
+    text-decoration: line-through;
+}
+.cloze-gap-answer {
+    display: inline-block; padding: .05rem .45rem; margin: 0 .12rem;
+    border: 1px solid var(--accent); border-radius: 6px;
+    color: var(--accent); font-weight: 700; font-size: .85em;
+}

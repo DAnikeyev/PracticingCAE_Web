@@ -50,7 +50,11 @@ else
                 }
                 @if (_checked)
                 {
-                    <button class="btn btn-accent" @onclick="NextSet">Next set</button>
+                    @if (IsRuePart)
+                    {
+                        <a class="btn btn-accent" href="@NextPartUrl">Next part →</a>
+                    }
+                    <button class="btn btn-soft" @onclick="NextSet">Next set</button>
                 }
                 else
                 {
@@ -59,6 +63,29 @@ else
                 }
             </div>
         </div>
+
+        @if (IsRuePart)
+        {
+            <div class="rue-part-nav">
+                <a class="rue-nav-arrow" href="@PrevPartUrl" title="Previous part">←</a>
+                <div class="rue-nav-parts">
+                    @for (var p = 0; p < RuePartIds.Length; p++)
+                    {
+                        var pIdx = p;
+                        var run = RueRunFor(RuePartIds[pIdx]);
+                        <a class="rue-nav-part @(pIdx == RuePartIndex ? "current" : "") @(run is not null ? "done" : "")"
+                           href="/practice/@RuePartIds[pIdx]" title="@RuePartNavTitle(pIdx)">
+                            @RuePartShort(pIdx)@(run is not null ? " ✓" : "")
+                        </a>
+                    }
+                </div>
+                <a class="rue-nav-arrow" href="@NextPartUrl" title="Next part">→</a>
+                @if (RueRunSummary is { } summary)
+                {
+                    <span class="rue-nav-run">@summary</span>
+                }
+            </div>
+        }
 
         @_task.Description
 
@@ -70,6 +97,13 @@ else
                 <span>@(pct == 100 ? "Perfect score!" : pct >= 60 ? "Good — check the gaps below." : "Keep going — review the explanations below.")</span>
                 <button class="btn btn-primary btn-sm" @onclick="NextSet">Next set</button>
             </div>
+            @if (IsRuePart && _task.Id == RuePartIds[^1] && RueRunTotal is { } runTotal)
+            {
+                <div class="rue-run-banner">
+                    <strong>Reading & Use of English run: @runTotal.correct / @runTotal.total</strong>
+                    <span>@RueRunSummary</span>
+                </div>
+            }
         }
 
         @if (IsCloze && !string.IsNullOrEmpty(_set.Text))
@@ -77,9 +111,23 @@ else
             <div class="cloze-text">
                 @foreach (var seg in ContentRepository.ParseCloze(_set.Text))
                 {
-                    if (seg.Gap is { } n)
+                    if (seg.Gap is { } n && TaskIsRue2)
                     {
-                        <span class="gap-marker" data-gap="@n">@n</span>
+                        var gi = n - 1;
+                        <input class="gap-input cloze-gap @(FeedbackClass(gi))" type="text"
+                               style="width:@ClozeGapWidth(gi)ch"
+                               aria-label="Answer for gap @(n)"
+                               disabled="@_checked"
+                               @oninput="@(e => SetAnswer(gi, e.Value?.ToString()))"
+                               @key="@($"{_set!.Id}:g{n}")" />
+                        @if (_checked && _result is not null && !_result.Gaps[gi].IsCorrect)
+                        {
+                            <span class="cloze-gap-answer">@_gaps[gi].Answer</span>
+                        }
+                    }
+                    else if (seg.Gap is { } m)
+                    {
+                        <span class="gap-marker" data-gap="@m">@m</span>
                     }
                     else
                     {
@@ -156,35 +204,38 @@ else
                         {
                             <div class="gap-answerline">
                                 <span class="gap-marker-static">@idx1(idx)</span>
-                                @if (gap.Base is not null)
+                                @if (!TaskIsRue2)
                                 {
-                                    <span class="base-badge">@gap.Base</span>
-                                }
-                                @if (gap.Options.Count > 0 && !TypedMode)
-                                {
-                                    <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
-                                        @foreach (var opt in gap.Options)
-                                        {
-                                            var o = opt;
-                                            <label class="opt-pill @OptionFeedback(idx, o)"
-                                                   @onclick="() => SelectOption(idx, o)">
-                                                <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
-                                                       checked="@(_answers[idx] == o)" disabled="@_checked"
-                                                       @onchange="@(e => SelectOption(idx, o))" />
-                                                <span>@o</span>
-                                            </label>
-                                        }
-                                    </div>
-                                }
-                                else if (_checked)
-                                {
-                                    <span class="typed-answer">@DisplayAnswer(_answers[idx])</span>
-                                }
-                                else
-                                {
-                                    <input class="gap-input" @oninput="@(e => SetAnswer(idx, e.Value?.ToString()))"
-                                           placeholder="your answer"
-                                           aria-label="Answer for question @(idx + 1)" />
+                                    @if (gap.Base is not null)
+                                    {
+                                        <span class="base-badge">@gap.Base</span>
+                                    }
+                                    @if (gap.Options.Count > 0 && !TypedMode)
+                                    {
+                                        <div class="option-row" role="radiogroup" aria-label="Question @(idx + 1)">
+                                            @foreach (var opt in gap.Options)
+                                            {
+                                                var o = opt;
+                                                <label class="opt-pill @OptionFeedback(idx, o)"
+                                                       @onclick="() => SelectOption(idx, o)">
+                                                    <input type="radio" name="q@(idx)-@(_set!.Id)" value="@o"
+                                                           checked="@(_answers[idx] == o)" disabled="@_checked"
+                                                           @onchange="@(e => SelectOption(idx, o))" />
+                                                    <span>@o</span>
+                                                </label>
+                                            }
+                                        </div>
+                                    }
+                                    else if (_checked)
+                                    {
+                                        <span class="typed-answer">@DisplayAnswer(_answers[idx])</span>
+                                    }
+                                    else
+                                    {
+                                        <input class="gap-input" @oninput="@(e => SetAnswer(idx, e.Value?.ToString()))"
+                                               placeholder="your answer"
+                                               aria-label="Answer for question @(idx + 1)" />
+                                    }
                                 }
                                 <button type="button" class="hint-btn" title="Show hint" disabled="@(_hints[idx] || _checked)"
                                         @onclick="() => ShowHint(idx)">Hint</button>
@@ -229,7 +280,11 @@ else
         <div class="practice-actions practice-actions-bottom">
             @if (_checked)
             {
-                <button class="btn btn-accent" @onclick="NextSet">Next set →</button>
+                @if (IsRuePart)
+                {
+                    <a class="btn btn-accent" href="@NextPartUrl">Next part →</a>
+                }
+                <button class="btn btn-soft" @onclick="NextSet">Next set →</button>
             }
             else
             {
@@ -294,6 +349,8 @@ else
             _typeMode = ShowTypeToggle
                 ? await JS.InvokeAsync<bool>("caeUi.getPref", TypePrefKey, TypingDefault)
                 : TypingDefault;
+            if (IsRuePart)
+                _rueRun = await JS.InvokeAsync<Dictionary<string, RueRunEntry>>("caeUi.getRueRun");
             StateHasChanged();
             if (_typeMode) await JS.InvokeVoidAsync("caeUi.focusFirstGap");
         }
@@ -455,6 +512,80 @@ else
         _ = SaveSessionAsync();
     }
 
+    private static string RuePartShort(int i) => $"Part {i + 1}";
+
+    private string RuePartNavTitle(int i)
+    {
+        var run = RueRunFor(RuePartIds[i]);
+        return run is null ? RuePartTitle(i) : $"{RuePartTitle(i)} — {run.C}/{run.T}";
+    }
+
+    private static string RuePartTitle(int i) => RuePartIds[i] switch
+    {
+        "rue-part1" => "Part 1 — Multiple-choice cloze",
+        "rue-part2" => "Part 2 — Open cloze",
+        "rue-part3" => "Part 3 — Word formation",
+        _ => "Part 4 — Key word transformations",
+    };
+
+    // inline gap width for Part 2: wide enough for the expected answer to fit
+    private int ClozeGapWidth(int i) => Math.Clamp((_gaps[i].Answer.Length + 2), 6, 24);
+
+    // ---------- R&UE part navigation and run totals ----------
+    private static readonly string[] RuePartIds = ["rue-part1", "rue-part2", "rue-part3", "rue-part4"];
+
+    private bool IsRuePart => _task is not null && Array.IndexOf(RuePartIds, _task.Id) >= 0;
+    private bool TaskIsRue2 => _task?.Kind == SetKind.Rue2;
+
+    private int RuePartIndex => _task is null ? 0 : Math.Max(0, Array.IndexOf(RuePartIds, _task.Id));
+    private string NextPartUrl => $"/practice/{RuePartIds[(RuePartIndex + 1) % RuePartIds.Length]}";
+    private string PrevPartUrl => $"/practice/{RuePartIds[(RuePartIndex + RuePartIds.Length - 1) % RuePartIds.Length]}";
+
+    private sealed record RueRunEntry(int C, int T, long Ts);
+
+    private Dictionary<string, RueRunEntry>? _rueRun;
+
+    private static bool IsFresh(RueRunEntry e) =>
+        DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() - e.Ts <= TimeSpan.FromHours(12).TotalMilliseconds;
+
+    private RueRunEntry? RueRunFor(string taskId) =>
+        _rueRun is not null && _rueRun.TryGetValue(taskId, out var e) && IsFresh(e) ? e : null;
+
+    private string? RueRunSummary
+    {
+        get
+        {
+            var parts = RuePartIds.Select(RueRunFor).ToList();
+            if (parts.All(p => p is null)) return null;
+            return string.Join(" · ", RuePartIds.Zip(parts, (id, p) =>
+                p is null ? $"P{id[^1]} —" : $"P{id[^1]} {p.C}/{p.T}"));
+        }
+    }
+
+    private (int correct, int total)? RueRunTotal
+    {
+        get
+        {
+            var parts = RuePartIds.Select(RueRunFor).ToList();
+            if (parts.Any(p => p is null)) return null;
+            return (parts.Sum(p => p!.C), parts.Sum(p => p!.T));
+        }
+    }
+
+    private async Task RecordRueResultAsync()
+    {
+        if (!IsRuePart || _result is null || _task is null) return;
+        try
+        {
+            await JS.InvokeVoidAsync("caeUi.setRuePartResult", _task.Id, _result.CorrectCount, _result.Total);
+            _rueRun = await JS.InvokeAsync<Dictionary<string, RueRunEntry>>("caeUi.getRueRun");
+        }
+        catch (Exception)
+        {
+            // interop is best-effort
+        }
+    }
+
     private async Task Check()
     {
         if (_set is null || _checked) return;
@@ -481,6 +612,7 @@ else
             // progress is best-effort; never block practice
         }
         await SaveSessionAsync();
+        if (IsRuePart) await RecordRueResultAsync();
     }
 
     private async Task NextSet()
