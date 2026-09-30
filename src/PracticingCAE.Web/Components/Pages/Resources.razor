@@ -2,30 +2,153 @@
 @page "/resources/{Slug}"
 @using PracticingCAE.Web.Components.Pages.ResourcesContent
 
-<PageTitle>Resources — CAE Practice</PageTitle>
-
-<div class="page-shell resources-page">
-    <h1>Resources</h1>
-    <p class="muted">The self-study toolkit for a B2–C1 learner.</p>
-
-    @if (Current is null)
-    {
-        <ul>
-            @foreach (var r in ResourcesLibrary.Sections)
+@if (Slug is null)
+{
+    <PageTitle>Resources — CAE Practice</PageTitle>
+    <div class="page-shell resources-page">
+        <h1>Resources</h1>
+        <p class="muted res-index-sub">The self-study toolkit for a B2–C1 learner: hand-picked books, sites, apps and AI, honestly described.</p>
+        <div class="res-grid">
+            @for (var i = 0; i < ResourcesLibrary.Sections.Count; i++)
             {
-                <li><a href="@($"resources/{r.Slug}")">@r.Title</a></li>
+                var r = ResourcesLibrary.Sections[i];
+                <a class="res-card" href="/resources/@r.Slug">
+                    <span class="res-card-num">@(i + 1)</span>
+                    <h3>@r.Title</h3>
+                    <p>@r.Blurb</p>
+                </a>
             }
-        </ul>
-    }
-    else
-    {
-        <h2>@Current.Title</h2>
-        <p>Content placeholder.</p>
-    }
-</div>
+        </div>
+    </div>
+}
+else if (Current is not null)
+{
+    <PageTitle>@Current.Title — CAE resources</PageTitle>
+    <div class="page-shell resources-page">
+        <nav class="res-back"><a href="/resources">&larr; All resources</a></nav>
+        <div class="res-layout">
+            <article class="res-article">
+                <h1>@Current.Title</h1>
+                <p class="muted res-topic-sub">@Current.Blurb</p>
+                @foreach (var sec in Current.Content)
+                {
+                    <div class="res-section" id="@ResText.Anchor(sec.Heading)">
+                        <h2>@sec.Heading</h2>
+                        @foreach (var block in sec.Blocks)
+                        {
+                            @if (block is ResBlock.Para p)
+                            {
+                                <p class="res-para">@((MarkupString)ResText.Inline(p.Text))</p>
+                            }
+                            else if (block is ResBlock.Note n)
+                            {
+                                <div class="res-note">@((MarkupString)ResText.Inline(n.Text))</div>
+                            }
+                            else if (block is ResBlock.Bullets list)
+                            {
+                                <ul class="res-bullets">
+                                    @foreach (var item in list.Items)
+                                    {
+                                        <li>@((MarkupString)ResText.Inline(item))</li>
+                                    }
+                                </ul>
+                            }
+                            else if (block is ResBlock.Steps steps)
+                            {
+                                <ol class="res-steps">
+                                    @foreach (var item in steps.Items)
+                                    {
+                                        <li>@((MarkupString)ResText.Inline(item))</li>
+                                    }
+                                </ol>
+                            }
+                            else if (block is ResBlock.Table table)
+                            {
+                                <div class="res-table-wrap">
+                                    <table class="res-table">
+                                        <thead>
+                                            <tr>
+                                                @foreach (var h in table.Headers)
+                                                {
+                                                    <th>@((MarkupString)ResText.Inline(h))</th>
+                                                }
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var row in table.Rows)
+                                            {
+                                                <tr>
+                                                    @foreach (var cell in row)
+                                                    {
+                                                        <td>@((MarkupString)ResText.Inline(cell))</td>
+                                                    }
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            }
+                        }
+                    </div>
+                }
+                <nav class="res-pager">
+                    @if (Prev is not null)
+                    {
+                        <a href="/resources/@Prev.Slug">&larr; @Prev.Title</a>
+                    }
+                    @if (Next is not null)
+                    {
+                        <a class="res-pager-next" href="/resources/@Next.Slug">@Next.Title &rarr;</a>
+                    }
+                </nav>
+            </article>
+            <aside class="res-toc">
+                <div class="res-toc-title">Guide sections</div>
+                @foreach (var r in ResourcesLibrary.Sections)
+                {
+                    <a href="/resources/@r.Slug" class="@(r.Slug == Current.Slug ? "res-toc-current" : null)">@r.Title</a>
+                }
+            </aside>
+        </div>
+    </div>
+}
+else
+{
+    <PageTitle>Not found — CAE Practice</PageTitle>
+    <div class="page-shell resources-page">
+        <h1>Not found</h1>
+        <p class="muted">There is no resource page called <code>@Slug</code>. <a href="/resources">Browse all resources</a>.</p>
+    </div>
+}
 
 @code {
     [Parameter] public string? Slug { get; set; }
 
     private ResourcesLibrary.Section? Current => Slug is null ? null : ResourcesLibrary.Find(Slug);
+
+    private ResourcesLibrary.Section? Prev
+    {
+        get
+        {
+            if (Current is null)
+            {
+                return null;
+            }
+            var i = ResourcesLibrary.Sections.ToList().FindIndex(s => s.Slug == Current.Slug);
+            return i > 0 ? ResourcesLibrary.Sections[i - 1] : null;
+        }
+    }
+
+    private ResourcesLibrary.Section? Next
+    {
+        get
+        {
+            if (Current is null)
+            {
+                return null;
+            }
+            var i = ResourcesLibrary.Sections.ToList().FindIndex(s => s.Slug == Current.Slug);
+            return i < ResourcesLibrary.Sections.Count - 1 ? ResourcesLibrary.Sections[i + 1] : null;
+        }
+    }
 }
