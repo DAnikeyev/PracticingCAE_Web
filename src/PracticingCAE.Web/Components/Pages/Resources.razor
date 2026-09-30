@@ -1,0 +1,31 @@
+@page "/resources"
+@page "/resources/{Slug}"
+@using PracticingCAE.Web.Components.Pages.ResourcesContent
+
+<PageTitle>Resources — CAE Practice</PageTitle>
+
+<div class="page-shell resources-page">
+    <h1>Resources</h1>
+    <p class="muted">The self-study toolkit for a B2–C1 learner.</p>
+
+    @if (Current is null)
+    {
+        <ul>
+            @foreach (var r in ResourcesLibrary.Sections)
+            {
+                <li><a href="@($"resources/{r.Slug}")">@r.Title</a></li>
+            }
+        </ul>
+    }
+    else
+    {
+        <h2>@Current.Title</h2>
+        <p>Content placeholder.</p>
+    }
+</div>
+
+@code {
+    [Parameter] public string? Slug { get; set; }
+
+    private ResourcesLibrary.Section? Current => Slug is null ? null : ResourcesLibrary.Find(Slug);
+}
